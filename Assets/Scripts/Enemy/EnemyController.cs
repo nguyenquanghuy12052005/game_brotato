@@ -7,6 +7,18 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private float moveSpeed = 2f;
 
     private Rigidbody2D enemyRigidbody;
+    
+        private void Start()
+    {
+        if (target == null)
+        {
+            GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+            if (playerObj != null)
+            {
+                target = playerObj.transform;
+            }
+        }
+    }
 
     private void Awake()
     {

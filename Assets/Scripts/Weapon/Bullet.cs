@@ -3,8 +3,10 @@ using UnityEngine;
 [RequireComponent(typeof(Rigidbody2D))]
 public class Bullet : MonoBehaviour
 {
+    [Header("Bullet Settings")]
     [SerializeField] private float speed = 10f;
     [SerializeField] private float lifeTime = 3f;
+    [SerializeField] private int damage = 10;
 
     private Rigidbody2D bulletRigidbody;
 
@@ -27,5 +29,16 @@ public class Bullet : MonoBehaviour
             * Time.fixedDeltaTime;
 
         bulletRigidbody.MovePosition(nextPosition);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
+        if (enemyHealth != null)
+        {
+            enemyHealth.TakeDamage(damage);
+            Destroy(gameObject); 
+        }
     }
 }
