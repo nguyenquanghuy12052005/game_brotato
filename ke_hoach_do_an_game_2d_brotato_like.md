@@ -1242,3 +1242,97 @@ GAME FLOW
 Đây là phạm vi chính thức nên khóa cho đồ án.
 
 Các chức năng ngoài danh sách này được xem là **Optional Feature** và chỉ triển khai sau khi toàn bộ game đã hoàn thiện.
+
+---
+
+# 24. NHẬT KÝ TIẾN ĐỘ VÀ MỤC TIÊU TIẾP THEO
+
+## Ngày 18/09/2026 — Survival Loop và MVP 3 Wave
+
+> Đây là nhật ký trước đợt sửa combat. Các lỗi/thông số bên dưới được giữ để truy vết; cấu hình và kết quả mới nhất ở mục cập nhật cuối ngày phía dưới.
+
+### Công việc đã thực hiện
+
+- Tiếp tục phát triển trên nền combat đã có: Player di chuyển, quái đuổi, súng ngắm theo chuột và auto-fire; dùng `GameScene` làm scene gameplay chính.
+- Bổ sung `PlayerHealth`: HP tối đa 100, nhận sát thương tiếp xúc và miễn nhiễm 0.75 giây sau mỗi lần bị đánh; nhiều quái dùng chung cooldown của Player.
+- Bổ sung `EnemyContactDamage` vào Enemy prefab, sát thương tiếp xúc mặc định 10; Player prefab đã có component quản lý HP.
+- Sửa `EnemyHealth` để HP không xuống âm và không xử lý nhận damage/chết lặp lại khi quái đã hết HP.
+- Đã thử cơ chế hồi sinh đầy HP phục vụ test, sau đó bỏ khỏi vòng chơi chính để giữ luật một mạng: HP về 0 → Game Over.
+- Bổ sung `GameManager` và `WaveManager`: timer, trạng thái Playing/Game Over/Wave Complete; khi lượt kết thúc, dừng spawn, điều khiển, bắn và physics.
+- Mở rộng thành 3 wave trong cùng một scene; hết Wave 1/2 chuyển ngay sang wave tiếp, hết Wave 3 hiện `ALL WAVES COMPLETE`.
+- Theo yêu cầu mới, giảm thời lượng từ 60 xuống **30 giây mỗi wave**. Đây là thời lượng hiện tại, thay cho khoảng 45–60 giây trong bản kế hoạch ban đầu.
+- Tăng áp lực spawn: khoảng cách giữa các lần spawn lần lượt 1.5 / 1.395 / 1.305 giây; giới hạn quái đang sống 10 / 13 / 16.
+- Thêm UI prototype hiển thị HP, timer, wave và kết quả; nút `PLAY AGAIN` tải lại scene để bắt đầu lượt mới.
+- Cấu hình Build Settings dùng `GameScene`; mục `SampleScene` không tồn tại đã được tắt.
+- Rà code, scene, prefab và git diff; tạo bộ nhớ dự án trong `AGENTS.md` và `docs/` để phiên làm việc sau tiếp tục được.
+
+### Kết quả kiểm tra và trạng thái milestone
+
+- Đã biên dịch toàn bộ script bằng Roslyn với Unity assemblies: không có lỗi C#. Các cảnh báo biến Inspector chưa gán trong code không thay thế việc kiểm tra tham chiếu scene.
+- Người dùng báo đã hoàn thành thao tác trong Unity. Agent chưa trực tiếp xác nhận một lượt Play Mode đầy đủ hoặc bản build Windows.
+- Lần mở Unity batchmode để kiểm tra bị chặn do project đang mở ở một Unity instance khác.
+- **Tuần 3:** các chức năng Survival Loop đã được triển khai.
+- **Milestone 2:** đã có các thành phần MVP 3 wave, nhưng còn lỗi difficulty và cần kiểm thử đầu-cuối trước khi chốt hoàn thành ổn định.
+- **Tuần 4:** mới có WaveManager và chuyển wave dạng prototype; chưa có WaveData và màn hình chuyển wave 1–2 giây.
+
+### Sai sót và phần còn thiếu được ghi nhận
+
+- **Lỗi đã xác nhận:** hai hàm tính hệ số HP/tốc độ trong `EnemySpawner` switch theo `currentWave` nhưng dùng case `10` và `13`, thay vì `1` và `2`. Vì vậy quái mới ở cả Wave 1/2/3 đều có HP ×1.2 và tốc độ ×1.1; chưa tăng riêng từng wave như dự định. Spawn interval và giới hạn số quái vẫn tăng đúng. Lần review trước đã bỏ sót lỗi này.
+- `WaveManager` chưa gán EnemySpawner trong Inspector; code có tự tìm để chạy, nhưng nên gán rõ và lưu scene.
+- Wave 1/2 chuyển ngay, chưa hiện `WAVE COMPLETE` trong 1–2 giây theo thiết kế.
+- Bullet prefab có hai trigger collider; cần xác nhận một viên đạn chỉ gây một lần damage, không kết luận lỗi này đã xảy ra khi chưa test.
+- Quái/đạn còn sống và HP Player được giữ qua wave; chưa chốt chính sách xử lý quái khi thêm thời gian nghỉ giữa wave.
+- Player chưa bị giới hạn trong arena; chính sách camera/ranh giới map cần xác định sau.
+
+### Mục tiêu phiên tiếp theo — ưu tiên ổn định MVP
+
+1. Sửa case difficulty theo Wave 1/2/3 và kiểm tra quái mới: hệ số tốc độ ×1 / ×1.05 / ×1.1; HP ×1 / ×1.1 / ×1.2. Với prefab gốc, HP dự kiến 30 / 33 / 36 và tốc độ 2 / 2.1 / 2.2.
+2. Gán EnemySpawner vào component WaveManager, lưu `GameScene` và kiểm tra lại các tham chiếu không bị None.
+3. Test đủ Wave 1 → 2 → 3, từng wave 30 giây; xác nhận cap 10 / 13 / 16, quái chết thì được spawn bù và chỉ spawn ngoài camera.
+4. Test contact damage, cooldown khi nhiều quái chạm, HP về 0 chỉ Game Over một lần, đạn gây đúng 10 damage mỗi lần hit và HP không âm.
+5. Test `PLAY AGAIN` sau cả Game Over lẫn hoàn thành 3 wave: HP đầy, timer 30, quay về Wave 1 và combat hoạt động lại. Ghi kết quả thực tế, kiểm tra Console không có lỗi đỏ.
+
+### Mục tiêu sau khi MVP ổn định — Tuần 4
+
+1. Tạo `WaveData` bằng ScriptableObject để chỉnh thời lượng, spawn interval, số quái tối đa và hệ số HP trong Inspector, thay cho difficulty hardcode.
+2. Vẫn giữ 3 wave và 30 giây mỗi wave ở bước này; chưa mở rộng ngay lên 9 wave.
+3. Thêm thông báo `WAVE COMPLETE` trong 1–2 giây rồi tự chuyển wave; chốt cách xử lý quái/đạn còn lại trước khi triển khai.
+4. Cân bằng thông số bằng playtest. Chỉ sang nâng cấp súng/Kill Count của Tuần 5 sau khi hệ thống wave ổn định.
+
+Chi tiết bàn giao và vấn đề cập nhật gần nhất: [STATE](docs/STATE.md), [DECISIONS](docs/DECISIONS.md), [ARCHITECTURE](docs/ARCHITECTURE.md), [GAME_DESIGN](docs/GAME_DESIGN.md).
+
+## Cập nhật 18/09/2026 — Sửa combat, độ khó và camera
+
+### Đã hoàn thành
+
+- Thay switch sai bằng danh sách cấu hình riêng từng wave trong Inspector của WaveManager; không còn nhân chồng HP/tốc độ.
+- Wave 1: **30 giây**, tối đa **10 quái đang sống**, mỗi quái **10 HP**, spawn mỗi **1.5 giây**, tốc chạy **2 units/s**.
+- Wave 2: **30 giây**, tối đa **15 quái đang sống**, mỗi quái **20 HP**, spawn mỗi **1 giây**, tốc chạy **2.5 units/s**.
+- Wave 3: **45 giây**, tối đa **30 quái đang sống**, mỗi quái **30 HP**, spawn mỗi **0.6 giây**, tốc chạy **3 units/s**.
+- Đây là giới hạn quái sống đồng thời, không phải tổng số quái cả wave. Quái bị giết sẽ được spawn bù đến khi hết giờ.
+- Gán rõ EnemySpawner trong WaveManager và lưu GameScene; áp dụng thông số wave cả cho quái đặt sẵn trong scene.
+- Thêm WAVE COMPLETE **2 giây** sau Wave 1/2; dừng combat, dọn quái/đạn cũ, giữ HP và vị trí Player rồi tự chuyển wave.
+- Kết thúc Wave 3 vào Victory / ALL WAVES COMPLETE; Player chết vào Game Over; cả hai có PLAY AGAIN.
+- Chặn một viên đạn gây damage nhiều lần. Tắt BoxCollider2D thừa trong Bullet prefab, giữ CircleCollider2D; không xóa collider cũ để dễ khôi phục.
+- Thêm CameraFollow, gán Player, giữ Z của camera; camera theo Player theo X/Y. Spawn theo camera và cách Player tối thiểu 3 đơn vị.
+- Chưa đặt tường/giới hạn arena vì chưa có kích thước map được thiết kế; lựa chọn hiện tại là Player di chuyển tự do với camera đi theo.
+
+### Đã kiểm tra thực tế
+
+- Biên dịch C# thành công; Unity đã import/compile và lưu scene/prefab bằng Editor API.
+- Chạy regression trong **Unity Play Mode thật**: toàn bộ kiểm tra PASS, không có lỗi runtime trong bài test.
+- Kiểm tra cap, HP, tốc độ, cấu hình thời gian/tần suất của cả 3 wave; spawn ngoài camera, spawn bù khi quái chết.
+- Thử va chạm Physics2D khi bật lại cả hai collider của đạn: chỉ mất đúng 10 HP; gọi lặp callback cũng không nhân damage; HP không âm.
+- Kiểm tra camera theo Player, cooldown HP, timer hết -> nghỉ 2 giây -> wave tiếp, dọn quái/đạn và giữ HP.
+- Kiểm tra Victory, Game Over và hàm chơi lại sau cả hai kết quả: về Wave 1, HP đầy, timer/điều khiển/timeScale được khôi phục.
+- Menu chạy lại bài test: **Tools → Brotato → Run Combat Regression** (đang ở Edit Mode). Kết quả cục bộ: Temp/CombatRegression.txt.
+- Giới hạn: test chủ động rút ngắn timer và ép lịch spawn để kiểm tra nhanh các nhánh; **chưa phải lượt chơi cân bằng đủ 30/30/45 giây**, chưa test bản Windows build.
+
+### Mục tiêu tiếp theo
+
+1. Chơi thử đủ thời lượng 30/30/45 giây để đánh giá Wave 2/3 có quá khó không; thử vừa di chuyển vừa ngắm/bắn với camera đi theo.
+2. Build Windows và test khởi động/chơi lại ngoài Editor.
+3. Khi tiếp tục Tuần 4: chuyển dữ liệu inline hiện có sang WaveData ScriptableObject nếu cần tái sử dụng; giữ thông số mới và cơ chế nghỉ/dọn quái đã chốt.
+4. Sau khi ổn định mới làm Kill Count và nâng cấp súng; không tự mở rộng ngay lên 9 wave.
+
+**Trạng thái:** các lỗi combat được yêu cầu đã sửa và qua Play Mode regression. MVP vẫn cần một lượt playtest đủ thời lượng và kiểm tra build trước khi chốt demo.

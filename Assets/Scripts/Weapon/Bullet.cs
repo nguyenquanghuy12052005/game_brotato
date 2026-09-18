@@ -9,6 +9,7 @@ public class Bullet : MonoBehaviour
     [SerializeField] private int damage = 10;
 
     private Rigidbody2D bulletRigidbody;
+    private bool hasHit;
 
     private void Awake()
     {
@@ -33,11 +34,18 @@ public class Bullet : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-        EnemyHealth enemyHealth = collision.GetComponent<EnemyHealth>();
-        if (enemyHealth != null)
+        if (hasHit || !gameObject.activeInHierarchy)
         {
+            return;
+        }
+
+        EnemyHealth enemyHealth = collision.GetComponentInParent<EnemyHealth>();
+        if (enemyHealth != null && enemyHealth.CurrentHealth > 0)
+        {
+            // Destroy diễn ra cuối frame; chặn các callback từ collider khác ngay lập tức.
+            hasHit = true;
             enemyHealth.TakeDamage(damage);
+            gameObject.SetActive(false);
             Destroy(gameObject); 
         }
     }

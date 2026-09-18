@@ -68,27 +68,24 @@ public class WeaponAim : MonoBehaviour
         }
     }
 
-    private void Shoot()
+private void Shoot()
+{
+    if (bulletPrefab == null || firePoint == null)
     {
-        if (Mouse.current == null)
-        {
-            return;
-        }
-
-        // Giữ chuột trái để bắn tự động
-        if (
-            Mouse.current.leftButton.isPressed &&
-            Time.time >= nextFireTime
-        )
-        {
-            Instantiate(
-                bulletPrefab,
-                firePoint.position,
-                firePoint.rotation
-            );
-
-            nextFireTime =
-                Time.time + fireRate;
-        }
+        return;
     }
+
+    if (Time.time < nextFireTime)
+    {
+        return;
+    }
+
+    Instantiate(
+        bulletPrefab,
+        firePoint.position,
+        firePoint.rotation
+    );
+
+    nextFireTime = Time.time + fireRate;
+}
 }

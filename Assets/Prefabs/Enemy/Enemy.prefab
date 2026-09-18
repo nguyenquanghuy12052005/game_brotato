@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8958799036963665938}
   - component: {fileID: 1915125671978867170}
   - component: {fileID: -7901652928733229832}
+  - component: {fileID: 469188127458340775}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -186,3 +187,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 30
+--- !u!114 &469188127458340775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668070656183893105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc7c7ee32de3d5043a4d735d5cdb8c9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyContactDamage
+  contactDamage: 10

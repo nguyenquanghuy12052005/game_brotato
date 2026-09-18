@@ -25,6 +25,18 @@ public class EnemyController : MonoBehaviour
         enemyRigidbody = GetComponent<Rigidbody2D>();
     }
 
+    public void SetTarget(Transform playerTarget)
+    {
+        target = playerTarget;
+    }
+
+    public float MoveSpeed => moveSpeed;
+
+    public void SetMoveSpeed(float speed)
+    {
+        moveSpeed = Mathf.Max(0.1f, speed);
+    }
+
     private void FixedUpdate()
     {
         if (target == null)
