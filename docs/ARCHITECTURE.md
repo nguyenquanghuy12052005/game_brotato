@@ -6,7 +6,7 @@ Updated 2026-09-18. Unity 6000.3.22f1, URP 2D, existing Input System. Main enabl
 
 GameScene contains Main Camera + CameraFollow, Player + PlayerHealth, scene-added WeaponHolder/GunVisual/FirePoint, Enemies with one placed enemy, EnemySpawner, WaveManager and GameManager. Manager references and camera target are explicitly saved. Weapon setup is not fully part of the standalone Player prefab.
 
-- PlayerController: normalized keyboard WASD in Update; Rigidbody2D movement in FixedUpdate; rotates visual.
+- PlayerController: normalized keyboard WASD in Update; Rigidbody2D movement in FixedUpdate. Saved playerVisual reference is now None to skip the old Atan2 rotation; PlayerSpriteAnimator on PlayerVisual handles upright directional animation.
 - PlayerHealth: initializes HP; positive-damage/dead/cooldown checks; HP clamp; single Died event. SetDamageEnabled prevents hits during intermission/results.
 - WeaponAim: mouse world-position aim and automatic shots on a Time.time interval. Requires Camera.main, Bullet and FirePoint.
 - Bullet: Rigidbody2D movement/lifetime; GetComponentInParent<EnemyHealth> on trigger; consumed flag before damage; deactivate immediately and Destroy. Saved prefab only enables the Circle trigger.
@@ -37,6 +37,8 @@ Player HP100, speed5, contact10, cooldown0.75s. Bullet damage10, speed10, lifeti
 
 ## Editor utilities and tests
 
+- PlayerSpritePreparation (added 2026-11-09): Tools > Brotato > Prepare Player Sprites. Generates 52 centered/ground-aligned 192x224 PNGs at PPU120, 12 Idle/Run/Death clips and PlayerCharacter.controller from the transparent extraction sheet in Assets/Prefabs/Player/CharacterArt. Separates neighboring alpha components even where bounding boxes overlap. Validates sprite references/state counts; creates preview/bounds report under docs/player-art. Does not modify scene/prefab; rerunning rewrites this generated set, so preserve later manual artwork edits before using it.
+- PlayerSpriteAnimator on PlayerVisual (installed in saved Player prefab, inherited by GameScene): obtains parent PlayerController/PlayerHealth; reads existing WASD keys for visual state only and directly plays the 12 named Animator states. Idle/Run loop with scaled time; one-shot Death uses UnscaledTime after PlayerHealth.Died because GameManager immediately freezes combat. No transitions/parameters required. Old PlayerController.playerVisual rotation reference is cleared; movement/physics remain in PlayerController. Tools > Brotato > Apply Player Artwork explicitly reapplies visual wiring to the existing prefab/scene without replacing Player or its scene-added WeaponHolder. See docs/HUONG_DAN_PLAYER_ANIMATION.md.
 - CombatSetup: Tools > Brotato > Apply Combat Setup, only in edit-mode GameScene. Uses SerializedObject/PrefabUtility and saves scene/prefab. Resets wave settings to defaults; avoid invoking after later custom tuning unless intended.
 - CombatRegression: Tools > Brotato > Run Combat Regression, edit mode. Enters real Play Mode, tests physics/camera/stats/caps/transitions/retries, writes Temp/CombatRegression.txt and exits Play Mode. Test changes never save to scene; shortened timers and forced spawn clock are deliberate test-only acceleration.
 - Helpers are under Assets/Editor and excluded from player builds.
