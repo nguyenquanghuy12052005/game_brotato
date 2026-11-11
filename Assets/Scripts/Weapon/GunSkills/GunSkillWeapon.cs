@@ -16,6 +16,8 @@ public sealed class GunSkillWeapon : MonoBehaviour
     private GunBranch branch;
     private Vector3Int ranks;
     private GunLevel11 level11;
+    private GunCoreTwo coreTwo;
+    private GunCoreTwo.Volley coreBurstVolley;
     private GunLevel11.Volley burstVolley;
     private int burstRemaining;
     private Vector2 burstDirection;
@@ -43,10 +45,25 @@ public sealed class GunSkillWeapon : MonoBehaviour
         ResetShots();
     }
 
+    internal void SetCoreTwo(GunCoreTwo core) => coreTwo = core;
+
+    internal void FireCounter(Vector2 position, Vector2 aim, int count, float angle)
+    {
+        for (int i = 0; i < count; i++)
+        {
+            float rotation = Mathf.Lerp(-angle / 2f, angle / 2f, i / (float)(count - 1));
+            Vector2 heading = Quaternion.Euler(0f, 0f, rotation) * aim;
+            SpawnProjectile(position, heading, false, 8, default, new Color(1f, 0.65f, 0.2f));
+        }
+    }
+
     internal void SetLevel11(GunLevel11 prototype) => level11 = prototype;
     internal int DamageAgainst(EnemyHealth enemy, int damage) =>
         level11 != null ? level11.DamageAgainst(enemy, damage) : damage;
     internal void RegisterHit(GunLevel11.Volley volley, EnemyHealth enemy) => level11?.Hit(volley, enemy);
+    internal void FireTurretRound(Vector2 position, Vector2 heading) =>
+        SpawnProjectile(position, heading, false, 11, default, new Color(0.42f, 0.85f, 1f), "Hexcore turret round");
+
     internal void FireEcho(Vector2 position, Vector2 heading) =>
         SpawnProjectile(position, heading, false, 6, default, new Color(0.35f, 0.9f, 1f));
 
@@ -54,6 +71,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
     {
         burstRemaining = 0;
         burstVolley = null;
+        coreBurstVolley = null;
         nextShot = Time.time;
     }
 
@@ -63,7 +81,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
         {
             if (Time.time >= nextBurstRound)
             {
-                FireRound(burstDirection, burstVolley);
+                FireRound(burstDirection, burstVolley, coreBurstVolley, burstRemaining);
                 burstRemaining--;
                 nextBurstRound = Time.time + BurstSpacing;
                 if (burstRemaining == 0) nextShot = Time.time + 1.20f;
@@ -78,29 +96,31 @@ public sealed class GunSkillWeapon : MonoBehaviour
             case GunBranch.Spread:
                 int count = 3 + ranks.x;
                 var spreadVolley = level11?.BeginVolley(muzzle.position, heading, count);
+                var coreSpreadVolley = coreTwo?.BeginVolley();
                 float halfAngle = (60f - 15f * ranks.y) * 0.5f;
                 for (int i = 0; i < count; i++)
                 {
                     float angle = Mathf.Lerp(-halfAngle, halfAngle, i / (float)(count - 1));
-                    FireRound(Quaternion.Euler(0f, 0f, angle) * heading, spreadVolley);
+                    FireRound(Quaternion.Euler(0f, 0f, angle) * heading, spreadVolley, coreSpreadVolley);
                 }
                 nextShot = Time.time + 2.60f;
                 break;
             case GunBranch.Burst:
                 burstVolley = level11?.BeginVolley(muzzle.position, heading, 5 + 2 * ranks.x);
-                FireRound(heading, burstVolley);
+                coreBurstVolley = coreTwo?.BeginVolley();
+                FireRound(heading, burstVolley, coreBurstVolley, 5 + 2 * ranks.x);
                 burstDirection = heading;
                 burstRemaining = 4 + 2 * ranks.x;
                 nextBurstRound = Time.time + BurstSpacing;
                 break;
             default:
-                FireRound(heading, level11?.BeginVolley(muzzle.position, heading, 1));
+                FireRound(heading, level11?.BeginVolley(muzzle.position, heading, 1), coreTwo?.BeginVolley());
                 nextShot = Time.time + (branch == GunBranch.Piercing ? 0.80f : 0.20f);
                 break;
         }
     }
 
-    private void FireRound(Vector2 heading, GunLevel11.Volley volley)
+    private void FireRound(Vector2 heading, GunLevel11.Volley volley, GunCoreTwo.Volley coreVolley, int remaining = 0)
     {
         bool isBurst = branch == GunBranch.Burst;
         bool isPiercing = branch == GunBranch.Piercing;
@@ -108,6 +128,8 @@ public sealed class GunSkillWeapon : MonoBehaviour
         var effectsOnHit = new GunShotEffects
         {
             Volley = volley,
+            CoreVolley = coreVolley,
+            Heavy = coreTwo != null && coreTwo.HeavyRound(coreVolley, remaining),
             Piercing = isPiercing,
             Ricochets = Mathf.Max(skill == GunSkill.Ricochet ? 1 : 0, isBurst ? ranks.y : 0),
             Fragments = skill == GunSkill.DeathScatter || scatterRank > 0 ? 3 + scatterRank : 0,
@@ -116,7 +138,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
             Slow = isPiercing ? 0.10f * ranks.y : 0f,
             ShockwaveRadius = isPiercing && ranks.z > 0 ? 0.8f + 0.3f * (ranks.z - 1) : 0f
         };
-        SpawnProjectile(muzzle.position, heading, skill == GunSkill.WeakPoint, BaseDamage, effectsOnHit);
+        SpawnProjectile(muzzle.position, heading, skill == GunSkill.WeakPoint, effectsOnHit.Heavy ? 18 + ranks.x : BaseDamage, effectsOnHit);
     }
 
     public Sprite GetFlameFrame(float elapsed)
@@ -139,9 +161,9 @@ public sealed class GunSkillWeapon : MonoBehaviour
     }
 
     private void SpawnProjectile(Vector2 position, Vector2 direction, bool weakPoint,
-        int damage, GunShotEffects effectsOnHit, Color? tint = null)
+        int damage, GunShotEffects effectsOnHit, Color? tint = null, string projectileName = null)
     {
-        var projectile = new GameObject(tint.HasValue ? "Scatter fragment" : "Gun skill projectile");
+        var projectile = new GameObject(projectileName ?? (tint.HasValue ? "Scatter fragment" : "Gun skill projectile"));
         projectile.transform.SetParent(effects);
         projectile.transform.SetPositionAndRotation(position,
             Quaternion.Euler(0f, 0f, Vector2.SignedAngle(Vector2.right, direction)));
@@ -153,6 +175,12 @@ public sealed class GunSkillWeapon : MonoBehaviour
         if (tint.HasValue) artwork.color = tint.Value;
         Vector2 size = artwork.sprite.bounds.size;
         visual.transform.localScale = new Vector3(0.38f / size.x, 0.12f / size.y, 1f);
+
+        if (effectsOnHit.Heavy)
+        {
+            artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, 0f, 32);
+            visual.transform.localScale = Vector3.one * 1.25f;
+        }
 
         var body = projectile.AddComponent<Rigidbody2D>();
         body.gravityScale = 0f;
@@ -172,7 +200,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
             flameObject.transform.localScale = new Vector3(scale, scale, 1f);
         }
 
-        projectile.AddComponent<GunSkillProjectile>().Launch(this, direction, damage, effectsOnHit, flame);
+        projectile.AddComponent<GunSkillProjectile>().Launch(this, direction, damage, effectsOnHit, flame, coreTwo, artwork);
     }
 
     public void Shockwave(Vector2 position, float radius, EnemyHealth source)

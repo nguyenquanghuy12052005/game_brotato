@@ -7,6 +7,8 @@ public enum GunBranch { Basic, Spread, Burst, Piercing }
 internal struct GunShotEffects
 {
     public GunLevel11.Volley Volley;
+    public GunCoreTwo.Volley CoreVolley;
+    public bool Heavy;
     public bool Piercing;
     public int Ricochets;
     public int Fragments;
@@ -23,6 +25,9 @@ public sealed class GunSkillProjectile : MonoBehaviour
     private GunSkillWeapon weapon;
     private Rigidbody2D body;
     private SpriteRenderer flame;
+    private SpriteRenderer artwork;
+    private GunCoreTwo coreTwo;
+    private bool crossedPortal;
     private EnemyHealth ricochetTarget;
     private Vector2 direction;
     private GunShotEffects effects;
@@ -32,7 +37,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
     private float flightTime;
 
     internal void Launch(GunSkillWeapon owner, Vector2 heading, int hitDamage,
-        GunShotEffects effectsOnHit, SpriteRenderer flameRenderer)
+        GunShotEffects effectsOnHit, SpriteRenderer flameRenderer, GunCoreTwo core, SpriteRenderer visual)
     {
         weapon = owner;
         body = GetComponent<Rigidbody2D>();
@@ -41,14 +46,17 @@ public sealed class GunSkillProjectile : MonoBehaviour
         remainingRicochets = effects.Ricochets;
         damage = hitDamage;
         flame = flameRenderer;
+        coreTwo = core;
+        artwork = visual;
         Destroy(gameObject, 2.5f);
     }
 
     private void Update()
     {
-        if (flame == null) return;
+        if (flame == null && !effects.Heavy) return;
         flightTime += Time.deltaTime;
-        flame.sprite = weapon.GetFlameFrame(flightTime);
+        if (flame != null) flame.sprite = weapon.GetFlameFrame(flightTime);
+        if (effects.Heavy) artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, flightTime, 32);
     }
 
     private void FixedUpdate()
@@ -60,8 +68,20 @@ public sealed class GunSkillProjectile : MonoBehaviour
                 direction = toTarget.normalized;
         }
 
+        Vector2 next = body.position + direction * ((effects.Heavy ? 15f : 10f) * Time.fixedDeltaTime);
+        if (effects.Piercing && !crossedPortal && coreTwo != null &&
+            coreTwo.CrossPortal(effects.CoreVolley, body.position, next, direction, out Vector2 exit, out Vector2 back))
+        {
+            crossedPortal = true;
+            damage += effects.DamagePerPierce;
+            body.position = exit;
+            direction = back;
+            ricochetTarget = null;
+            body.rotation = Vector2.SignedAngle(Vector2.right, direction);
+            return;
+        }
         body.MoveRotation(Vector2.SignedAngle(Vector2.right, direction));
-        body.MovePosition(body.position + direction * (10f * Time.fixedDeltaTime));
+        body.MovePosition(next);
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -80,6 +100,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
         Vector2 impact = enemy.transform.position;
         enemy.TakeDamage(weapon.DamageAgainst(enemy, damage));
         if (effects.Volley != null) weapon.RegisterHit(effects.Volley, enemy);
+        if (effects.CoreVolley != null) coreTwo.Hit(effects.CoreVolley, enemy, direction, crossedPortal);
 
         if (effects.Fragments > 0 && enemy.CurrentHealth == 0)
             weapon.ScatterFrom(impact, effects.Fragments);

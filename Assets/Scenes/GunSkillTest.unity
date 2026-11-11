@@ -186,6 +186,30 @@ MonoBehaviour:
   - {fileID: 2800000, guid: b2c71d889bfd9b258215d15b86133675, type: 3}
   - {fileID: 2800000, guid: 336597c090474010c28786352ead27ec, type: 3}
   - {fileID: 2800000, guid: 1dc3e23229489982b9530e16acd281ea, type: 3}
+  coreTwoSheets:
+  - {fileID: 2800000, guid: a2cb12295e8cccb7f058c0f67cd1933b, type: 3}
+  - {fileID: 2800000, guid: 05212dd6b37535518f77415fcb9d68c5, type: 3}
+  - {fileID: 2800000, guid: 23a574c0b6d682c336fb150ea6aba994, type: 3}
+  - {fileID: 2800000, guid: 41e56d94e379d537e7a2d916e15b2c46, type: 3}
+  - {fileID: 2800000, guid: b4c4161306fcefcbb3a5a57c450663b9, type: 3}
+  - {fileID: 2800000, guid: 97eaafc4ed1bbde857a6daf8c15ecd9a, type: 3}
+  - {fileID: 2800000, guid: d75c44a4375ea9bacb61add8e55f2f1f, type: 3}
+  - {fileID: 2800000, guid: e70764590048399e84c1ea83fa144e37, type: 3}
+  - {fileID: 2800000, guid: 69c60c42aad74d86cb5ada029dcc1869, type: 3}
+  - {fileID: 2800000, guid: 3138d8ebcf5563d841ee3ae64b4178b2, type: 3}
+  - {fileID: 2800000, guid: 0560dfc3400a53a984a894e73c23de55, type: 3}
+  ultimateSheets:
+  - {fileID: 2800000, guid: 188db2211d4a7eceaa32f00bff6ffccf, type: 3}
+  - {fileID: 2800000, guid: 469853960f545fedbe355c1419af975b, type: 3}
+  - {fileID: 2800000, guid: c9e1521d6854ff07ccff8469f1d0bf57, type: 3}
+  - {fileID: 2800000, guid: ada0c606e10a062e33bb17ae35d2283b, type: 3}
+  - {fileID: 2800000, guid: 50bc7c3e8a46d2eb1cb9d2e85889db98, type: 3}
+  - {fileID: 2800000, guid: bfa20d9b98e9f198b606baa7ce98b3b3, type: 3}
+  - {fileID: 2800000, guid: acaa163cdfbcfcd948779d8c79c560b7, type: 3}
+  - {fileID: 2800000, guid: 3d0b976cea78fa74effa726154ba1345, type: 3}
+  - {fileID: 2800000, guid: 7114fb07de74c9838182f415fe2d5dd4, type: 3}
+  - {fileID: 2800000, guid: 9efd889c4ab4c5d6011de413847b6355, type: 3}
+  turretAtlas: {fileID: 2800000, guid: e8e0c4026f0548529636ce1d9a1dce4c, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -54,3 +54,7 @@ No save/load, inventory, pickups, kill count, gun upgrades, enemy variants, fini
 `GunSkillTest.unity` có `GunSkillTestArena` dựng camera, Player, súng và các bia khi vào Play. Nó dùng lại `WeaponAim` để ngắm chuột. `GunSkillWeapon` phát đạn theo nhánh, còn `GunSkillProjectile` xử lý va chạm với `EnemyHealth` và các hiệu ứng cấp 4. Scene thử nằm ngoài Build Profiles và có hướng dẫn tại [HUONG_DAN_TEST_SUNG.md](HUONG_DAN_TEST_SUNG.md).
 
 Sân thử lưu ba bậc nâng cấp riêng theo từng nhánh. Mỗi viên đạn giữ cấu hình hiệu ứng của phát bắn. GunSkillTargetEffects áp dụng đẩy lùi, giảm tốc và màu báo trạng thái lên bia trong sân.
+
+GunCoreTwo nhận lượt bắn và va chạm từ GunSkillWeapon/GunSkillProjectile để chạy song song với GunLevel11. GunLabBoss dùng các đòn thử riêng trong GunSkillTest, với máu người chơi và đặt lại sân do GunSkillTestArena quản lý.
+
+GunHexcoreUltimate phụ trách năm chiêu cuối trong sân thử. GunSkillTestArena chuyển lựa chọn và điểm ngắm cuối từ bảng điều khiển. Chiêu cuối dùng mục tiêu của sân thử, còn trụ dùng đạn thử từ GunSkillWeapon.

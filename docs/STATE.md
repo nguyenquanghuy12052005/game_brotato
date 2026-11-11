@@ -2,6 +2,22 @@
 
 ## Sân thử hệ Súng - 2026-11-10
 
+- Pháo đài cơ động dùng atlas tách chân đế, nòng, vòng dưới đất và chớp đầu nòng. Play Mode trong bản sao xác nhận chân đế giữ góc đứng thẳng khi nòng ngắm cả bốn hướng, chớp bám hướng nòng và giới hạn hai trụ vẫn hoạt động.
+
+- Phím R thay nút Tung chiêu trong GunSkillTest. Bảng vẫn hiển thị hồi chiêu và số trụ. Play Mode trong bản sao xác nhận phím R mô phỏng kích hoạt cả năm chiêu qua Input System và vẫn giữ giới hạn hai trụ.
+
+- Năm chiêu cuối Hexcore chạy trong GunSkillTest, chọn và tung từ bảng bên phải. 14 texture đã nối vào scene. Pháo đài cơ động giới hạn hai trụ. Play Mode headless xác nhận cả năm chiêu phát sprite và gây sát thương, hai loạt bom có năm điểm nổ, tia xuyên hai bia, Lồng đạn bắn đủ sáu cặp, và trụ thứ ba bị chặn cho đến khi trụ cũ kết thúc. Đặt lại sân dọn hiệu ứng và giữ lựa chọn. Cần xác nhận trực tiếp thao tác nút và hình ảnh trong Game View.
+
+- Chuẩn bị 14 sprite sheet cho năm chiêu cuối cấp 12 tại `public/gun/hexcore-ultimate/`. Ngũ bom có 5 quả, Pháo đài cơ động thiết kế cho tối đa 2 trụ cùng tồn tại. README ghi FPS, pivot và cách ghép hiệu ứng. Đã kiểm tra kích thước, thứ tự frame, mép ô, bản xem trước và SHA-256. Cần xác minh khi nhập và nối vào Unity.
+
+- GunSkillTest dùng bảng nút cuộn cố định bên phải để chọn nhánh, chỉnh bậc, bật hai lõi và đổi mục tiêu. Camera theo người chơi trong phần sân còn lại. Play Mode headless xác nhận vùng camera, chọn lại bia boss và tự thử lại hai lần khi hết máu. Cần xác nhận trực tiếp thao tác bấm và cuộn trong Game View.
+
+- Sửa sân thử boss lõi hai dừng khi người chơi về 0 HP. Sân đếm ngược 1,5 giây rồi hồi 100 HP, tạo lại boss 2.500 HP và tiếp tục với các lựa chọn lõi hiện tại. Play Mode headless xác nhận hai lần chết do đòn boss liên tiếp, cả hai bên tiếp tục tấn công sau khi đặt lại.
+
+- Lõi hai trong GunSkillTest có 6 kỹ năng. Ctrl+1/2 bật độc lập theo nhánh và có thể bật cùng lõi đầu. Shift+4 bật boss 2.500 HP với đạn toả và lao có báo trước. Play Mode headless trong bản sao Unity 6000.3.22f1 xác nhận 11 texture được nhập, cả sáu kỹ năng có hiệu ứng và gây sát thương, Giáp chặn đạn, cổng đổi hướng, neo đứt hoặc hết hạn, và boss bắn rồi lao. Ba nhánh đã được thử với kỹ năng lõi đầu bật cùng lõi hai. Cần xác nhận phím và hình ảnh trực tiếp trong Game View.
+
+- 2026-11-11. Hoàn thành 11 sprite sheet PNG nền trong suốt cho sáu kỹ năng lõi hai tại `public/gun/core-2/`. Mỗi sheet có 32 frame 256 × 256. Đã kiểm tra thứ tự frame, mép ô và SHA-256. README ghi FPS, pivot và cách ghép các phần. Cần xác minh trong Unity khi nối gameplay.
+
 - Cấp 11 chạy trong GunSkillTest với chín kỹ năng và sprite lấy từ bộ art đã duyệt. Shift+1/2/3 chọn kỹ năng theo nhánh, Shift+7 bật một bia boss 1.500 HP miễn đẩy lùi. Play Mode headless trên bản sao Unity 6000.3.22f1 đã xác nhận đủ chín animation đổi frame và tạo sát thương trên bia, gồm hai lượt của Xuyên kích hồi quy. Chưa xác nhận phím vật lý và hình ảnh trong Game View.
 
 - Art cấp 11 đã chuẩn bị trong `public/gun/level-11/`. Có 9 sprite sheet kỹ năng và 2 sheet lặp riêng cho vòng quỹ đạo và đạn vệ tinh. Mỗi sheet có 32 ô RGBA 256 × 256. Đã kiểm tra kích thước, mép ô, bản xem trước và SHA-256 sau khi chép. Cần kiểm tra trong Unity khi nhập asset và nối gameplay.
