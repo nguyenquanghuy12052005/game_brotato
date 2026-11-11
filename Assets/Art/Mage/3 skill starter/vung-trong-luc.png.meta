@@ -1,0 +1,5538 @@
+fileFormatVersion: 2
+guid: d6e4d661018f4e54083832db1274cf71
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7602529882315731600
+    second: vung-trong-luc_0
+  - first:
+      213: 1316290015342225835
+    second: vung-trong-luc_1
+  - first:
+      213: 7609706733164392512
+    second: vung-trong-luc_2
+  - first:
+      213: 6449202546153556230
+    second: vung-trong-luc_3
+  - first:
+      213: -1696897611268009295
+    second: vung-trong-luc_4
+  - first:
+      213: -6242509414534742659
+    second: vung-trong-luc_5
+  - first:
+      213: -3781429019224365296
+    second: vung-trong-luc_6
+  - first:
+      213: 4357532275005346
+    second: vung-trong-luc_7
+  - first:
+      213: -6047478873827004451
+    second: vung-trong-luc_8
+  - first:
+      213: 7232421830997033489
+    second: vung-trong-luc_9
+  - first:
+      213: 1950808507211204394
+    second: vung-trong-luc_10
+  - first:
+      213: 6742948153978476939
+    second: vung-trong-luc_11
+  - first:
+      213: -6750886050050597578
+    second: vung-trong-luc_12
+  - first:
+      213: -7201139836522981241
+    second: vung-trong-luc_13
+  - first:
+      213: -5115707895045434217
+    second: vung-trong-luc_14
+  - first:
+      213: 9205958486653581524
+    second: vung-trong-luc_15
+  - first:
+      213: 2739863202094373898
+    second: vung-trong-luc_16
+  - first:
+      213: 1133639893490504870
+    second: vung-trong-luc_17
+  - first:
+      213: 3984254404613685011
+    second: vung-trong-luc_18
+  - first:
+      213: -8315414887834683022
+    second: vung-trong-luc_19
+  - first:
+      213: -725376859888510864
+    second: vung-trong-luc_20
+  - first:
+      213: -3274339566008232161
+    second: vung-trong-luc_21
+  - first:
+      213: -4773558528489541482
+    second: vung-trong-luc_22
+  - first:
+      213: -2906180929477954760
+    second: vung-trong-luc_23
+  - first:
+      213: 1902281239440828464
+    second: vung-trong-luc_24
+  - first:
+      213: -3889675885479545499
+    second: vung-trong-luc_25
+  - first:
+      213: -1831524537466229823
+    second: vung-trong-luc_26
+  - first:
+      213: -2758407270495993889
+    second: vung-trong-luc_27
+  - first:
+      213: 8150337025298326993
+    second: vung-trong-luc_28
+  - first:
+      213: -4287925045956620901
+    second: vung-trong-luc_29
+  - first:
+      213: 2065181564144912805
+    second: vung-trong-luc_30
+  - first:
+      213: -1928532382302281221
+    second: vung-trong-luc_31
+  - first:
+      213: 5283572454320718671
+    second: vung-trong-luc_32
+  - first:
+      213: -5813456244243374780
+    second: vung-trong-luc_33
+  - first:
+      213: 7090561205379199562
+    second: vung-trong-luc_34
+  - first:
+      213: 5684264840579338715
+    second: vung-trong-luc_35
+  - first:
+      213: -7916447173869687184
+    second: vung-trong-luc_36
+  - first:
+      213: -6414403259011478091
+    second: vung-trong-luc_37
+  - first:
+      213: -5257775478782740455
+    second: vung-trong-luc_38
+  - first:
+      213: -6587590245631042201
+    second: vung-trong-luc_39
+  - first:
+      213: 3402027357422478605
+    second: vung-trong-luc_40
+  - first:
+      213: -6377356392081806063
+    second: vung-trong-luc_41
+  - first:
+      213: 5639077597607847013
+    second: vung-trong-luc_42
+  - first:
+      213: -3311800159220065299
+    second: vung-trong-luc_43
+  - first:
+      213: -7079798749719226098
+    second: vung-trong-luc_44
+  - first:
+      213: 4947624701602953480
+    second: vung-trong-luc_45
+  - first:
+      213: 7569164762284427645
+    second: vung-trong-luc_46
+  - first:
+      213: 5270212377237273949
+    second: vung-trong-luc_47
+  - first:
+      213: 6770770289601448259
+    second: vung-trong-luc_48
+  - first:
+      213: -7871541323697820446
+    second: vung-trong-luc_49
+  - first:
+      213: 5758452051900901427
+    second: vung-trong-luc_50
+  - first:
+      213: 6290492787625273059
+    second: vung-trong-luc_51
+  - first:
+      213: 6593824301944499988
+    second: vung-trong-luc_52
+  - first:
+      213: 6689061002357259337
+    second: vung-trong-luc_53
+  - first:
+      213: -4736471378119070404
+    second: vung-trong-luc_54
+  - first:
+      213: -576880270753320193
+    second: vung-trong-luc_55
+  - first:
+      213: -44023311625521762
+    second: vung-trong-luc_56
+  - first:
+      213: 7627167137222881222
+    second: vung-trong-luc_57
+  - first:
+      213: 3389970386073654956
+    second: vung-trong-luc_58
+  - first:
+      213: -5826847596756716163
+    second: vung-trong-luc_59
+  - first:
+      213: 662025270264305545
+    second: vung-trong-luc_60
+  - first:
+      213: 510163579551639066
+    second: vung-trong-luc_61
+  - first:
+      213: -6195297814183728769
+    second: vung-trong-luc_62
+  - first:
+      213: -3348231883116359538
+    second: vung-trong-luc_63
+  - first:
+      213: -6206081733751406070
+    second: vung-trong-luc_64
+  - first:
+      213: 2804025164372184960
+    second: vung-trong-luc_65
+  - first:
+      213: -2076501202179134120
+    second: vung-trong-luc_66
+  - first:
+      213: 8133369908159072142
+    second: vung-trong-luc_67
+  - first:
+      213: 2826895228514816068
+    second: vung-trong-luc_68
+  - first:
+      213: -5968828189147864361
+    second: vung-trong-luc_69
+  - first:
+      213: 8751915046765697088
+    second: vung-trong-luc_70
+  - first:
+      213: -6451425741635361553
+    second: vung-trong-luc_71
+  - first:
+      213: -4934483756806465125
+    second: vung-trong-luc_72
+  - first:
+      213: 4884325813641855766
+    second: vung-trong-luc_73
+  - first:
+      213: -1135729655709285761
+    second: vung-trong-luc_74
+  - first:
+      213: 2664940420264278459
+    second: vung-trong-luc_75
+  - first:
+      213: 4289939176962733099
+    second: vung-trong-luc_76
+  - first:
+      213: 1869837047691356041
+    second: vung-trong-luc_77
+  - first:
+      213: -2738058694038125167
+    second: vung-trong-luc_78
+  - first:
+      213: 2548769929453537840
+    second: vung-trong-luc_79
+  - first:
+      213: -1593462632781612413
+    second: vung-trong-luc_80
+  - first:
+      213: -5751424581273988715
+    second: vung-trong-luc_81
+  - first:
+      213: 7582221454488417428
+    second: vung-trong-luc_82
+  - first:
+      213: 8717582448423419852
+    second: vung-trong-luc_83
+  - first:
+      213: -2184799745262583882
+    second: vung-trong-luc_84
+  - first:
+      213: -7303227704225110849
+    second: vung-trong-luc_85
+  - first:
+      213: -5311670305612754683
+    second: vung-trong-luc_86
+  - first:
+      213: 583055002916828196
+    second: vung-trong-luc_87
+  - first:
+      213: -1780890666810303130
+    second: vung-trong-luc_88
+  - first:
+      213: 8459632317168248045
+    second: vung-trong-luc_89
+  - first:
+      213: -4544455507068196320
+    second: vung-trong-luc_90
+  - first:
+      213: 7902350737907755091
+    second: vung-trong-luc_91
+  - first:
+      213: 5476950534423376332
+    second: vung-trong-luc_92
+  - first:
+      213: -1047310710885606050
+    second: vung-trong-luc_93
+  - first:
+      213: -3491632212422358183
+    second: vung-trong-luc_94
+  - first:
+      213: -4505654988213422688
+    second: vung-trong-luc_95
+  - first:
+      213: 8404980360915875979
+    second: vung-trong-luc_96
+  - first:
+      213: -3544999320651406735
+    second: vung-trong-luc_97
+  - first:
+      213: 263667973429711841
+    second: vung-trong-luc_98
+  - first:
+      213: -1091620534164138200
+    second: vung-trong-luc_99
+  - first:
+      213: -7767814058890233779
+    second: vung-trong-luc_100
+  - first:
+      213: -832249197807587824
+    second: vung-trong-luc_101
+  - first:
+      213: -831362743878214189
+    second: vung-trong-luc_102
+  - first:
+      213: -3464281404340792317
+    second: vung-trong-luc_103
+  - first:
+      213: -1529891857628355951
+    second: vung-trong-luc_104
+  - first:
+      213: 6546480669381488923
+    second: vung-trong-luc_105
+  - first:
+      213: -2889445720343317705
+    second: vung-trong-luc_106
+  - first:
+      213: -7860572261318157536
+    second: vung-trong-luc_107
+  - first:
+      213: 8724308726478523690
+    second: vung-trong-luc_108
+  - first:
+      213: -7835356782304015794
+    second: vung-trong-luc_109
+  - first:
+      213: 6071261839139807598
+    second: vung-trong-luc_110
+  - first:
+      213: 4009579426491389625
+    second: vung-trong-luc_111
+  - first:
+      213: -5507530930824967780
+    second: vung-trong-luc_112
+  - first:
+      213: -6936654753246331554
+    second: vung-trong-luc_113
+  - first:
+      213: -4427625419691897851
+    second: vung-trong-luc_114
+  - first:
+      213: -5961851532193286973
+    second: vung-trong-luc_115
+  - first:
+      213: 3704937454686884764
+    second: vung-trong-luc_116
+  - first:
+      213: -754684413323995264
+    second: vung-trong-luc_117
+  - first:
+      213: 4295472135852426899
+    second: vung-trong-luc_118
+  - first:
+      213: 6286553531925143054
+    second: vung-trong-luc_119
+  - first:
+      213: 5782688778921198535
+    second: vung-trong-luc_120
+  - first:
+      213: 4452571474614325751
+    second: vung-trong-luc_121
+  - first:
+      213: 8153239761249345381
+    second: vung-trong-luc_122
+  - first:
+      213: -7457456840399168061
+    second: vung-trong-luc_123
+  - first:
+      213: -9164656185431734300
+    second: vung-trong-luc_124
+  - first:
+      213: 2858771575545178589
+    second: vung-trong-luc_125
+  - first:
+      213: -8163942385102535819
+    second: vung-trong-luc_126
+  - first:
+      213: -8550818328774005757
+    second: vung-trong-luc_127
+  - first:
+      213: 145629461261427459
+    second: vung-trong-luc_128
+  - first:
+      213: 6210778178527211007
+    second: vung-trong-luc_129
+  - first:
+      213: 1247956287538839683
+    second: vung-trong-luc_130
+  - first:
+      213: -9157354840726655840
+    second: vung-trong-luc_131
+  - first:
+      213: -6316189214457104873
+    second: vung-trong-luc_132
+  - first:
+      213: -6035738553907991704
+    second: vung-trong-luc_133
+  - first:
+      213: 3182059213444101126
+    second: vung-trong-luc_134
+  - first:
+      213: 7168733405638848526
+    second: vung-trong-luc_135
+  - first:
+      213: 972152485492387582
+    second: vung-trong-luc_136
+  - first:
+      213: -2213260561338833290
+    second: vung-trong-luc_137
+  - first:
+      213: -1865707578668041313
+    second: vung-trong-luc_138
+  - first:
+      213: -872835065240718918
+    second: vung-trong-luc_139
+  - first:
+      213: -46947724245657119
+    second: vung-trong-luc_140
+  - first:
+      213: -1781237832034575453
+    second: vung-trong-luc_141
+  - first:
+      213: -6432078897374962552
+    second: vung-trong-luc_142
+  - first:
+      213: 2954379461308136865
+    second: vung-trong-luc_143
+  - first:
+      213: 8436378807540677976
+    second: vung-trong-luc_144
+  - first:
+      213: 385774252578261692
+    second: vung-trong-luc_145
+  - first:
+      213: -5300228103903338400
+    second: vung-trong-luc_146
+  - first:
+      213: 7843011596821631733
+    second: vung-trong-luc_147
+  - first:
+      213: 6634343007867954622
+    second: vung-trong-luc_148
+  - first:
+      213: 9014459687093781639
+    second: vung-trong-luc_149
+  - first:
+      213: 2828138978602224450
+    second: vung-trong-luc_150
+  - first:
+      213: 4726760449020376887
+    second: vung-trong-luc_151
+  - first:
+      213: 4765632031300578398
+    second: vung-trong-luc_152
+  - first:
+      213: -3064380351838814073
+    second: vung-trong-luc_153
+  - first:
+      213: 5888599416451991187
+    second: vung-trong-luc_154
+  - first:
+      213: 2619746874561852722
+    second: vung-trong-luc_155
+  - first:
+      213: -7414305117434126417
+    second: vung-trong-luc_156
+  - first:
+      213: 3737927111561442228
+    second: vung-trong-luc_157
+  - first:
+      213: -5571242218007801849
+    second: vung-trong-luc_158
+  - first:
+      213: -2314081800087063611
+    second: vung-trong-luc_159
+  - first:
+      213: -6588701372889943851
+    second: vung-trong-luc_160
+  - first:
+      213: -8136983243432365855
+    second: vung-trong-luc_161
+  - first:
+      213: -929804706359220801
+    second: vung-trong-luc_162
+  - first:
+      213: 5257633624461490723
+    second: vung-trong-luc_163
+  - first:
+      213: 667967143434420728
+    second: vung-trong-luc_164
+  - first:
+      213: -3980564111763382031
+    second: vung-trong-luc_165
+  - first:
+      213: -4584483444827671654
+    second: vung-trong-luc_166
+  - first:
+      213: 3177171817321103785
+    second: vung-trong-luc_167
+  - first:
+      213: -3831295524932430913
+    second: vung-trong-luc_168
+  - first:
+      213: -7915013126282001287
+    second: vung-trong-luc_169
+  - first:
+      213: 2388426134482935013
+    second: vung-trong-luc_170
+  - first:
+      213: 9165557639557128990
+    second: vung-trong-luc_171
+  - first:
+      213: -2827365151738869569
+    second: vung-trong-luc_172
+  - first:
+      213: -1978182792148120014
+    second: vung-trong-luc_173
+  - first:
+      213: 1766104797678955298
+    second: vung-trong-luc_174
+  - first:
+      213: -838535620990558387
+    second: vung-trong-luc_175
+  - first:
+      213: -128166129043233721
+    second: vung-trong-luc_176
+  - first:
+      213: 833715503767324801
+    second: vung-trong-luc_177
+  - first:
+      213: 5033822228721270484
+    second: vung-trong-luc_178
+  - first:
+      213: 6179011638426724947
+    second: vung-trong-luc_179
+  - first:
+      213: -5030673447952579253
+    second: vung-trong-luc_180
+  - first:
+      213: 8397641906725261791
+    second: vung-trong-luc_181
+  - first:
+      213: -8473797252718456396
+    second: vung-trong-luc_182
+  - first:
+      213: 516324593057085410
+    second: vung-trong-luc_183
+  - first:
+      213: -4716839822403119683
+    second: vung-trong-luc_184
+  - first:
+      213: 8854399440675222379
+    second: vung-trong-luc_185
+  - first:
+      213: -2977668964788945257
+    second: vung-trong-luc_186
+  - first:
+      213: 4926398446076824891
+    second: vung-trong-luc_187
+  - first:
+      213: 4035501047101193406
+    second: vung-trong-luc_188
+  - first:
+      213: 532204038838433498
+    second: vung-trong-luc_189
+  - first:
+      213: -1310660554649541007
+    second: vung-trong-luc_190
+  - first:
+      213: 5860223761040098180
+    second: vung-trong-luc_191
+  - first:
+      213: 6868842171250072761
+    second: vung-trong-luc_192
+  - first:
+      213: -3572520997729728086
+    second: vung-trong-luc_193
+  - first:
+      213: -5347028241519518180
+    second: vung-trong-luc_194
+  - first:
+      213: -6767025114471394910
+    second: vung-trong-luc_195
+  - first:
+      213: 3538568096769806421
+    second: vung-trong-luc_196
+  - first:
+      213: -3576148248047226595
+    second: vung-trong-luc_197
+  - first:
+      213: -7620676422204084843
+    second: vung-trong-luc_198
+  - first:
+      213: -7641639375330822718
+    second: vung-trong-luc_199
+  - first:
+      213: -5031037876663793941
+    second: vung-trong-luc_200
+  - first:
+      213: -2444551993856542094
+    second: vung-trong-luc_201
+  - first:
+      213: -7558220164948104760
+    second: vung-trong-luc_202
+  - first:
+      213: 4368931237968582843
+    second: vung-trong-luc_203
+  - first:
+      213: 1298466861364078961
+    second: vung-trong-luc_204
+  - first:
+      213: -1557499406556815302
+    second: vung-trong-luc_205
+  - first:
+      213: -6703367459720003233
+    second: vung-trong-luc_206
+  - first:
+      213: 4143678422810929377
+    second: vung-trong-luc_207
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: vung-trong-luc_0
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 1573
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d474a1a536e7690800000000000000
+      internalID: -7602529882315731600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_1
+      rect:
+        serializedVersion: 2
+        x: 1582
+        y: 1572
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba9edd18bc6644210800000000000000
+      internalID: 1316290015342225835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_2
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 1440
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0407923b4fb1b9960800000000000000
+      internalID: 7609706733164392512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1528
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6090700eb8b208950800000000000000
+      internalID: 6449202546153556230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_4
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1440
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b25924fc986378e0800000000000000
+      internalID: -1696897611268009295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_5
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1440
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7dff9ff2c62e59a0800000000000000
+      internalID: -6242509414534742659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_6
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1440
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01727c5875aa58bc0800000000000000
+      internalID: -3781429019224365296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_7
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a7595b072b7f0000800000000000000
+      internalID: 4357532275005346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_8
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddfacd2510a031ca0800000000000000
+      internalID: -6047478873827004451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_9
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 112cb561659be5460800000000000000
+      internalID: 7232421830997033489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_10
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a274221600aa21b10800000000000000
+      internalID: 1950808507211204394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_11
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8953c0de93c39d50800000000000000
+      internalID: 6742948153978476939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_12
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 1440
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63d189bb7e80052a0800000000000000
+      internalID: -6750886050050597578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_13
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 1486
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7881222d879601c90800000000000000
+      internalID: -7201139836522981241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_14
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 1487
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794d72d06ca5109b0800000000000000
+      internalID: -5115707895045434217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_15
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 1488
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d8baf5e77222cf70800000000000000
+      internalID: 9205958486653581524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_16
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1489
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0cdffdd013f50620800000000000000
+      internalID: 2739863202094373898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_17
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1490
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a496b21a7f7bbf00800000000000000
+      internalID: 1133639893490504870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_18
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 1492
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31fb8c1854aea4730800000000000000
+      internalID: 3984254404613685011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_19
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 1493
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2797e9a6736b99c80800000000000000
+      internalID: -8315414887834683022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_20
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 1494
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0789e02d691fee5f0800000000000000
+      internalID: -725376859888510864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_21
+      rect:
+        serializedVersion: 2
+        x: 1362
+        y: 1495
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17921e43853f82d0800000000000000
+      internalID: -3274339566008232161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_22
+      rect:
+        serializedVersion: 2
+        x: 1530
+        y: 1496
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69038da4fc9e0cdb0800000000000000
+      internalID: -4773558528489541482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_23
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 1411
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 833b37d97db2ba7d0800000000000000
+      internalID: -2906180929477954760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_24
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 1410
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 038a2c365b2466a10800000000000000
+      internalID: 1902281239440828464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_25
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 1408
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565b69af368150ac0800000000000000
+      internalID: -3889675885479545499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_26
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 1406
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbe9e2132e1596e0800000000000000
+      internalID: -1831524537466229823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_27
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1280
+        width: 108
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdf3b30c33b28b9d0800000000000000
+      internalID: -2758407270495993889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_28
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 1337
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5ee989750db1170800000000000000
+      internalID: 8150337025298326993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_29
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1280
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9d414c93ea3e74c0800000000000000
+      internalID: -4287925045956620901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_30
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1338
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a90b87d0bff8ac10800000000000000
+      internalID: 2065181564144912805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_31
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 1280
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1e80f140a7c35e0800000000000000
+      internalID: -1928532382302281221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_32
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 1340
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4343d45725035940800000000000000
+      internalID: 5283572454320718671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_33
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1280
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44dd89cc854725fa0800000000000000
+      internalID: -5813456244243374780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_34
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 1341
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42fac059dbb66260800000000000000
+      internalID: 7090561205379199562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_35
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 1280
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd159f781c092ee40800000000000000
+      internalID: 5684264840579338715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_36
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 1342
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e2a5e0d31232290800000000000000
+      internalID: -7916447173869687184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_37
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 1280
+        width: 118
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd438c88367bf6a0800000000000000
+      internalID: -6414403259011478091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_38
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 1280
+        width: 117
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91835661f01a807b0800000000000000
+      internalID: -5257775478782740455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_39
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1280
+        width: 116
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76d555bf29d2494a0800000000000000
+      internalID: -6587590245631042201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_40
+      rect:
+        serializedVersion: 2
+        x: 1367
+        y: 1280
+        width: 115
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05e35b5bdd663f20800000000000000
+      internalID: 3402027357422478605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_41
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 1280
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11da5eb66241f77a0800000000000000
+      internalID: -6377356392081806063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_42
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 1245
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 564674aa237024e40800000000000000
+      internalID: 5639077597607847013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_43
+      rect:
+        serializedVersion: 2
+        x: 596
+        y: 1244
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb1b964d4f1a02d0800000000000000
+      internalID: -3311800159220065299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_44
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e091bb92c808fbd90800000000000000
+      internalID: -7079798749719226098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_45
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1244
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 809fdf4d37e79a440800000000000000
+      internalID: 4947624701602953480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_46
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 1247
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d790e568f331b0960800000000000000
+      internalID: 7569164762284427645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_47
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 1243
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d381cfb3e832940800000000000000
+      internalID: 5270212377237273949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_48
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 1120
+        width: 111
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 349867f84bb96fd50800000000000000
+      internalID: 6770770289601448259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_49
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 1246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ecee2e0fdaa2c290800000000000000
+      internalID: -7871541323697820446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_50
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1120
+        width: 111
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3382ca1b1a12aef40800000000000000
+      internalID: 5758452051900901427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_51
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 1246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e6af84acd15c4750800000000000000
+      internalID: 6290492787625273059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_52
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1120
+        width: 111
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f6dbc5448f18b50800000000000000
+      internalID: 6593824301944499988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_53
+      rect:
+        serializedVersion: 2
+        x: 1424
+        y: 1246
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c3c6e9a8154dc50800000000000000
+      internalID: 6689061002357259337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_54
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 1245
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d6862606ca44eb0800000000000000
+      internalID: -4736471378119070404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_55
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 1120
+        width: 113
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff231df33728ef7f0800000000000000
+      internalID: -576880270753320193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_56
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 1120
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9579b40809936ff0800000000000000
+      internalID: -44023311625521762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_57
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 1120
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfe3b0d91429d960800000000000000
+      internalID: 7627167137222881222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_58
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 1213
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca69305fa189b0f20800000000000000
+      internalID: 3389970386073654956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_59
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1120
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d753af29bf0e22fa0800000000000000
+      internalID: -5826847596756716163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_60
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 1211
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9879f6ac97cff2900800000000000000
+      internalID: 662025270264305545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_61
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1120
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1664889217741700800000000000000
+      internalID: 510163579551639066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_62
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 1208
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7923db4671e50aa0800000000000000
+      internalID: -6195297814183728769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_63
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 1120
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80563d87d0b881d0800000000000000
+      internalID: -3348231883116359538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_64
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1120
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0205bc5b819fd9a0800000000000000
+      internalID: -6206081733751406070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_65
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 1085
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f09a7d706e9e620800000000000000
+      internalID: 2804025164372184960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_66
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1084
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85de07c8829ce23e0800000000000000
+      internalID: -2076501202179134120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_67
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 960
+        width: 112
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e874caac6d88fd070800000000000000
+      internalID: 8133369908159072142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_68
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 960
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4405fd89b362b3720800000000000000
+      internalID: 2826895228514816068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_69
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1088
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2e08cd2667a2da0800000000000000
+      internalID: -5968828189147864361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_70
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 960
+        width: 118
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0489dda8d5c057970800000000000000
+      internalID: 8751915046765697088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_71
+      rect:
+        serializedVersion: 2
+        x: 1265
+        y: 1088
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe46307187ee776a0800000000000000
+      internalID: -6451425741635361553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_72
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 960
+        width: 117
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b999d9dca21358bb0800000000000000
+      internalID: -4934483756806465125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_73
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 1087
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613c461037c98c340800000000000000
+      internalID: 4884325813641855766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_74
+      rect:
+        serializedVersion: 2
+        x: 1539
+        y: 960
+        width: 117
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72429e35e31d30f0800000000000000
+      internalID: -1135729655709285761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_75
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 1087
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb9be695135cbf420800000000000000
+      internalID: 2664940420264278459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_76
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 960
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2435eec3fce88b30800000000000000
+      internalID: 4289939176962733099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_77
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 960
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 987228753eef2f910800000000000000
+      internalID: 1869837047691356041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_78
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 960
+        width: 115
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19500b7ef16700ad0800000000000000
+      internalID: -2738058694038125167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_79
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 960
+        width: 116
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03a86433fbc0f5320800000000000000
+      internalID: 2548769929453537840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_80
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 960
+        width: 117
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38a71329d22e2e9e0800000000000000
+      internalID: -1593462632781612413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_81
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 800
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 591d6b0d0d5de20b0800000000000000
+      internalID: -5751424581273988715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_82
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 927
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 494b0239d36793960800000000000000
+      internalID: 7582221454488417428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_83
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 800
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf35729c031bf870800000000000000
+      internalID: 8717582448423419852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_84
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 927
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf724e05380ea1e0800000000000000
+      internalID: -2184799745262583882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_85
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 800
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4eedfd819b5aa90800000000000000
+      internalID: -7303227704225110849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_86
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 927
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50116fddff72946b0800000000000000
+      internalID: -5311670305612754683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_87
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 800
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4243f5d9f6d671800800000000000000
+      internalID: 583055002916828196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_88
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 926
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66d96f4cf510947e0800000000000000
+      internalID: -1780890666810303130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_89
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 800
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de46a3b75c6a66570800000000000000
+      internalID: 8459632317168248045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_90
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 926
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ae1ab3bc9dee0c0800000000000000
+      internalID: -4544455507068196320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_91
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 800
+        width: 108
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 358a98fa02acaad60800000000000000
+      internalID: 7902350737907755091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_92
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 800
+        width: 108
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1f0b03e79020c40800000000000000
+      internalID: 5476950534423376332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_93
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 800
+        width: 108
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d933415743771f0800000000000000
+      internalID: -1047310710885606050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_94
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 800
+        width: 108
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b0144900b3b8fc0800000000000000
+      internalID: -3491632212422358183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_95
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 800
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a5721309a2b871c0800000000000000
+      internalID: -4505654988213422688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_96
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 845
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8876845b1d74a470800000000000000
+      internalID: 8404980360915875979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_97
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 843
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 172629b66e1adcec0800000000000000
+      internalID: -3544999320651406735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_98
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 841
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e3dce6ff9cb8a300800000000000000
+      internalID: 263667973429711841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_99
+      rect:
+        serializedVersion: 2
+        x: 634
+        y: 839
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827df9768e8c9d0f0800000000000000
+      internalID: -1091620534164138200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_100
+      rect:
+        serializedVersion: 2
+        x: 801
+        y: 837
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d48ff82e44e233490800000000000000
+      internalID: -7767814058890233779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_101
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 640
+        width: 108
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e231893c14374f0800000000000000
+      internalID: -832249197807587824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_102
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd15ab3df76674f0800000000000000
+      internalID: -831362743878214189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_103
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3049644da666cefc0800000000000000
+      internalID: -3464281404340792317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_104
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 755
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192ac41167bb4cae0800000000000000
+      internalID: -1529891857628355951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_105
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b11f17beb75c9da50800000000000000
+      internalID: 6546480669381488923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_106
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733f9212d60a6e7d0800000000000000
+      internalID: -2889445720343317705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_107
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02b97d8ec23a9e290800000000000000
+      internalID: -7860572261318157536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_108
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 640
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2dc7983098f21970800000000000000
+      internalID: 8724308726478523690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_109
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 640
+        width: 114
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a425e1588334390800000000000000
+      internalID: -7835356782304015794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_110
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 640
+        width: 113
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61205cc974714450800000000000000
+      internalID: 6071261839139807598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_111
+      rect:
+        serializedVersion: 2
+        x: 1538
+        y: 640
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b6dbb6ae33e4a730800000000000000
+      internalID: 4009579426491389625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_112
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 701
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9983be6cc15193b0800000000000000
+      internalID: -5507530930824967780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_113
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 605
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d3a3ff04d0cbf90800000000000000
+      internalID: -6936654753246331554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_114
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 606
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c46cca32aed82c0800000000000000
+      internalID: -4427625419691897851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_115
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 606
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c430046e9f334da0800000000000000
+      internalID: -5961851532193286973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_116
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 606
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c93d6a54cf49a6330800000000000000
+      internalID: 3704937454686884764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_117
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 607
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0879c4a4682d685f0800000000000000
+      internalID: -754684413323995264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_118
+      rect:
+        serializedVersion: 2
+        x: 942
+        y: 607
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396821036259c9b30800000000000000
+      internalID: 4295472135852426899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_119
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 608
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e10e331235e3750800000000000000
+      internalID: 6286553531925143054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_120
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 608
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c34c327ecc304050800000000000000
+      internalID: 5782688778921198535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_121
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 608
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f19c695a26bacd30800000000000000
+      internalID: 4452571474614325751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_122
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 608
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56f9bd97d50262170800000000000000
+      internalID: 8153239761249345381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_123
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 480
+        width: 111
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd5334d38ac18890800000000000000
+      internalID: -7457456840399168061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_124
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 480
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e741ca71c990d080800000000000000
+      internalID: -9164656185431734300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_125
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 480
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd9aa5ef9956ca720800000000000000
+      internalID: 2858771575545178589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_126
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 480
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5734539b7a9d3be80800000000000000
+      internalID: -8163942385102535819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_127
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 480
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30ca68eb804655980800000000000000
+      internalID: -8550818328774005757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_128
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 480
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303a1533931650200800000000000000
+      internalID: 145629461261427459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_129
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 480
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffdacd5e8dd113650800000000000000
+      internalID: 6210778178527211007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_130
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 480
+        width: 110
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380c7fda1a1a15110800000000000000
+      internalID: 1247956287538839683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_131
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 480
+        width: 109
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aca8444a4a8ae080800000000000000
+      internalID: -9157354840726655840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_132
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 480
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7167122cf536858a0800000000000000
+      internalID: -6316189214457104873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_133
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 598
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b2f2193cfbc3ca0800000000000000
+      internalID: -6035738553907991704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_134
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 573
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 604389fcef1f82c20800000000000000
+      internalID: 3182059213444101126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_135
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 579
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0074940d057c7360800000000000000
+      internalID: 7168733405638848526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_136
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 570
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe694de887cd7d00800000000000000
+      internalID: 972152485492387582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_137
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 570
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676640eee3be841e0800000000000000
+      internalID: -2213260561338833290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_138
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 571
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9bbcb697dcab16e0800000000000000
+      internalID: -1865707578668041313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_139
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 520
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab172d4f12113e3f0800000000000000
+      internalID: -872835065240718918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_140
+      rect:
+        serializedVersion: 2
+        x: 807
+        y: 520
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e913552b45395ff0800000000000000
+      internalID: -46947724245657119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_141
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 520
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab971111a5c747e0800000000000000
+      internalID: -1781237832034575453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_142
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 521
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88cddaa425aacb6a0800000000000000
+      internalID: -6432078897374962552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_143
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 448
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ad3bf29770100920800000000000000
+      internalID: 2954379461308136865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_144
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 448
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d781ed3d9041570800000000000000
+      internalID: 8436378807540677976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_145
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 448
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba4b6883ab8a5500800000000000000
+      internalID: 385774252578261692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_146
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 447
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 060ac4e0f9ec176b0800000000000000
+      internalID: -5300228103903338400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_147
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 447
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f292d54e79f7dc60800000000000000
+      internalID: 7843011596821631733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_148
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 440
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb5e01eb0dbe11c50800000000000000
+      internalID: 6634343007867954622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_149
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 446
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 784cd43235bc91d70800000000000000
+      internalID: 9014459687093781639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_150
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 320
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b850bba619f3720800000000000000
+      internalID: 2828138978602224450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_151
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 445
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737b93eb593d89140800000000000000
+      internalID: 4726760449020376887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_152
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 320
+        width: 108
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ce4e3451de22240800000000000000
+      internalID: 4765632031300578398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_153
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 444
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78006f74e422975d0800000000000000
+      internalID: -3064380351838814073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_154
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 320
+        width: 108
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 396813a58f188b150800000000000000
+      internalID: 5888599416451991187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_155
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 320
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 235f2b307e53b5420800000000000000
+      internalID: 2619746874561852722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_156
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 320
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf5af247c81b1990800000000000000
+      internalID: -7414305117434126417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_157
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 320
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3fbe057e8cfd330800000000000000
+      internalID: 3737927111561442228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_158
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 422
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7005cfd68b8fea2b0800000000000000
+      internalID: -5571242218007801849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_159
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 320
+        width: 112
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c33d940ddab2efd0800000000000000
+      internalID: -2314081800087063611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_160
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 320
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d034c1820b3094a0800000000000000
+      internalID: -6588701372889943851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_161
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 320
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e078e70ad0a31f80800000000000000
+      internalID: -8136983243432365855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_162
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 320
+        width: 108
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb5e8febb8ba813f0800000000000000
+      internalID: -929804706359220801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_163
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 380
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a3d21ecedd6f840800000000000000
+      internalID: 5257633624461490723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_164
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 381
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f18a02f398154900800000000000000
+      internalID: 667967143434420728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_165
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 387
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0eca0c70232c8c0800000000000000
+      internalID: -3980564111763382031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_166
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 372
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a933368b894a060c0800000000000000
+      internalID: -4584483444827671654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_167
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 373
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a18ec93fe4971c20800000000000000
+      internalID: 3177171817321103785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_168
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 375
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb3dbd6e40184dac0800000000000000
+      internalID: -3831295524932430913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_169
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 376
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97448674f79382290800000000000000
+      internalID: -7915013126282001287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_170
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 378
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec5d163ae4652120800000000000000
+      internalID: 2388426134482935013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_171
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 160
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e13ab2aac1a923f70800000000000000
+      internalID: 9165557639557128990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_172
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 160
+        width: 114
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb84940ef5e23c8d0800000000000000
+      internalID: -2827365151738869569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_173
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 160
+        width: 113
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e883d3b351c84e0800000000000000
+      internalID: -1978182792148120014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_174
+      rect:
+        serializedVersion: 2
+        x: 534
+        y: 160
+        width: 113
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b64cdc4f6728810800000000000000
+      internalID: 1766104797678955298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_175
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 160
+        width: 113
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f9853ab4cec54f0800000000000000
+      internalID: -838535620990558387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_176
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 160
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 744242ea599a83ef0800000000000000
+      internalID: -128166129043233721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_177
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 160
+        width: 115
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18889cd55d3f19b00800000000000000
+      internalID: 833715503767324801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_178
+      rect:
+        serializedVersion: 2
+        x: 1146
+        y: 244
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de756d85aabbd540800000000000000
+      internalID: 5033822228721270484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_179
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 160
+        width: 114
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35aed6be85240c550800000000000000
+      internalID: 6179011638426724947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_180
+      rect:
+        serializedVersion: 2
+        x: 1374
+        y: 160
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b450cc917257f2ab0800000000000000
+      internalID: -5030673447952579253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_181
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 248
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd11b4152da6a8470800000000000000
+      internalID: 8397641906725261791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_182
+      rect:
+        serializedVersion: 2
+        x: 1542
+        y: 160
+        width: 108
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b119057b46076a80800000000000000
+      internalID: -8473797252718456396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_183
+      rect:
+        serializedVersion: 2
+        x: 1645
+        y: 251
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e737f55b7a5a2700800000000000000
+      internalID: 516324593057085410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_184
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 232
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5de332c2b6a8eb0800000000000000
+      internalID: -4716839822403119683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_185
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 234
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b633dd0f06521ea70800000000000000
+      internalID: 8854399440675222379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_186
+      rect:
+        serializedVersion: 2
+        x: 813
+        y: 237
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79ebc075ad13da6d0800000000000000
+      internalID: -2977668964788945257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_187
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 240
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d027819451e5440800000000000000
+      internalID: 4926398446076824891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_188
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 228
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebcfe2342daf00830800000000000000
+      internalID: 4035501047101193406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_189
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 230
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad63efae0c4c26700800000000000000
+      internalID: 532204038838433498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_190
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 205
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1766ff27b299fcde0800000000000000
+      internalID: -1310660554649541007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_191
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 203
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 483491d3672b35150800000000000000
+      internalID: 5860223761040098180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_192
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 109
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc5593ef87035f50800000000000000
+      internalID: 6868842171250072761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_193
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 0
+        width: 110
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa902b1a41bdb6ec0800000000000000
+      internalID: -3572520997729728086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_194
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 0
+        width: 111
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e5f34e42a8bc5b0800000000000000
+      internalID: -5347028241519518180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_195
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 76
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a119c9f282b612a0800000000000000
+      internalID: -6767025114471394910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_196
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 0
+        width: 112
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5509e759fe48b1130800000000000000
+      internalID: 3538568096769806421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_197
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 79
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d11720b9d18fe5ec0800000000000000
+      internalID: -3576148248047226595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_198
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 0
+        width: 114
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59da45a8b2bed3690800000000000000
+      internalID: -7620676422204084843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_199
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 82
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5b4cba97173f590800000000000000
+      internalID: -7641639375330822718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_200
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 0
+        width: 109
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be64bede4b92e2ab0800000000000000
+      internalID: -5031037876663793941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_201
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 85
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27a3533d9e4331ed0800000000000000
+      internalID: -2444551993856542094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_202
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 73
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c9e21e1ececb1790800000000000000
+      internalID: -7558220164948104760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_203
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb8993730df81ac30800000000000000
+      internalID: 4368931237968582843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_204
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 41
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179e8381bb4150210800000000000000
+      internalID: 1298466861364078961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_205
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 39
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30ac4eaa86a26ae0800000000000000
+      internalID: -1557499406556815302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_206
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 37
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f510a74bfcad8f2a0800000000000000
+      internalID: -6703367459720003233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: vung-trong-luc_207
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 45
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e8a817429d418930800000000000000
+      internalID: 4143678422810929377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      vung-trong-luc_0: -7602529882315731600
+      vung-trong-luc_1: 1316290015342225835
+      vung-trong-luc_10: 1950808507211204394
+      vung-trong-luc_100: -7767814058890233779
+      vung-trong-luc_101: -832249197807587824
+      vung-trong-luc_102: -831362743878214189
+      vung-trong-luc_103: -3464281404340792317
+      vung-trong-luc_104: -1529891857628355951
+      vung-trong-luc_105: 6546480669381488923
+      vung-trong-luc_106: -2889445720343317705
+      vung-trong-luc_107: -7860572261318157536
+      vung-trong-luc_108: 8724308726478523690
+      vung-trong-luc_109: -7835356782304015794
+      vung-trong-luc_11: 6742948153978476939
+      vung-trong-luc_110: 6071261839139807598
+      vung-trong-luc_111: 4009579426491389625
+      vung-trong-luc_112: -5507530930824967780
+      vung-trong-luc_113: -6936654753246331554
+      vung-trong-luc_114: -4427625419691897851
+      vung-trong-luc_115: -5961851532193286973
+      vung-trong-luc_116: 3704937454686884764
+      vung-trong-luc_117: -754684413323995264
+      vung-trong-luc_118: 4295472135852426899
+      vung-trong-luc_119: 6286553531925143054
+      vung-trong-luc_12: -6750886050050597578
+      vung-trong-luc_120: 5782688778921198535
+      vung-trong-luc_121: 4452571474614325751
+      vung-trong-luc_122: 8153239761249345381
+      vung-trong-luc_123: -7457456840399168061
+      vung-trong-luc_124: -9164656185431734300
+      vung-trong-luc_125: 2858771575545178589
+      vung-trong-luc_126: -8163942385102535819
+      vung-trong-luc_127: -8550818328774005757
+      vung-trong-luc_128: 145629461261427459
+      vung-trong-luc_129: 6210778178527211007
+      vung-trong-luc_13: -7201139836522981241
+      vung-trong-luc_130: 1247956287538839683
+      vung-trong-luc_131: -9157354840726655840
+      vung-trong-luc_132: -6316189214457104873
+      vung-trong-luc_133: -6035738553907991704
+      vung-trong-luc_134: 3182059213444101126
+      vung-trong-luc_135: 7168733405638848526
+      vung-trong-luc_136: 972152485492387582
+      vung-trong-luc_137: -2213260561338833290
+      vung-trong-luc_138: -1865707578668041313
+      vung-trong-luc_139: -872835065240718918
+      vung-trong-luc_14: -5115707895045434217
+      vung-trong-luc_140: -46947724245657119
+      vung-trong-luc_141: -1781237832034575453
+      vung-trong-luc_142: -6432078897374962552
+      vung-trong-luc_143: 2954379461308136865
+      vung-trong-luc_144: 8436378807540677976
+      vung-trong-luc_145: 385774252578261692
+      vung-trong-luc_146: -5300228103903338400
+      vung-trong-luc_147: 7843011596821631733
+      vung-trong-luc_148: 6634343007867954622
+      vung-trong-luc_149: 9014459687093781639
+      vung-trong-luc_15: 9205958486653581524
+      vung-trong-luc_150: 2828138978602224450
+      vung-trong-luc_151: 4726760449020376887
+      vung-trong-luc_152: 4765632031300578398
+      vung-trong-luc_153: -3064380351838814073
+      vung-trong-luc_154: 5888599416451991187
+      vung-trong-luc_155: 2619746874561852722
+      vung-trong-luc_156: -7414305117434126417
+      vung-trong-luc_157: 3737927111561442228
+      vung-trong-luc_158: -5571242218007801849
+      vung-trong-luc_159: -2314081800087063611
+      vung-trong-luc_16: 2739863202094373898
+      vung-trong-luc_160: -6588701372889943851
+      vung-trong-luc_161: -8136983243432365855
+      vung-trong-luc_162: -929804706359220801
+      vung-trong-luc_163: 5257633624461490723
+      vung-trong-luc_164: 667967143434420728
+      vung-trong-luc_165: -3980564111763382031
+      vung-trong-luc_166: -4584483444827671654
+      vung-trong-luc_167: 3177171817321103785
+      vung-trong-luc_168: -3831295524932430913
+      vung-trong-luc_169: -7915013126282001287
+      vung-trong-luc_17: 1133639893490504870
+      vung-trong-luc_170: 2388426134482935013
+      vung-trong-luc_171: 9165557639557128990
+      vung-trong-luc_172: -2827365151738869569
+      vung-trong-luc_173: -1978182792148120014
+      vung-trong-luc_174: 1766104797678955298
+      vung-trong-luc_175: -838535620990558387
+      vung-trong-luc_176: -128166129043233721
+      vung-trong-luc_177: 833715503767324801
+      vung-trong-luc_178: 5033822228721270484
+      vung-trong-luc_179: 6179011638426724947
+      vung-trong-luc_18: 3984254404613685011
+      vung-trong-luc_180: -5030673447952579253
+      vung-trong-luc_181: 8397641906725261791
+      vung-trong-luc_182: -8473797252718456396
+      vung-trong-luc_183: 516324593057085410
+      vung-trong-luc_184: -4716839822403119683
+      vung-trong-luc_185: 8854399440675222379
+      vung-trong-luc_186: -2977668964788945257
+      vung-trong-luc_187: 4926398446076824891
+      vung-trong-luc_188: 4035501047101193406
+      vung-trong-luc_189: 532204038838433498
+      vung-trong-luc_19: -8315414887834683022
+      vung-trong-luc_190: -1310660554649541007
+      vung-trong-luc_191: 5860223761040098180
+      vung-trong-luc_192: 6868842171250072761
+      vung-trong-luc_193: -3572520997729728086
+      vung-trong-luc_194: -5347028241519518180
+      vung-trong-luc_195: -6767025114471394910
+      vung-trong-luc_196: 3538568096769806421
+      vung-trong-luc_197: -3576148248047226595
+      vung-trong-luc_198: -7620676422204084843
+      vung-trong-luc_199: -7641639375330822718
+      vung-trong-luc_2: 7609706733164392512
+      vung-trong-luc_20: -725376859888510864
+      vung-trong-luc_200: -5031037876663793941
+      vung-trong-luc_201: -2444551993856542094
+      vung-trong-luc_202: -7558220164948104760
+      vung-trong-luc_203: 4368931237968582843
+      vung-trong-luc_204: 1298466861364078961
+      vung-trong-luc_205: -1557499406556815302
+      vung-trong-luc_206: -6703367459720003233
+      vung-trong-luc_207: 4143678422810929377
+      vung-trong-luc_21: -3274339566008232161
+      vung-trong-luc_22: -4773558528489541482
+      vung-trong-luc_23: -2906180929477954760
+      vung-trong-luc_24: 1902281239440828464
+      vung-trong-luc_25: -3889675885479545499
+      vung-trong-luc_26: -1831524537466229823
+      vung-trong-luc_27: -2758407270495993889
+      vung-trong-luc_28: 8150337025298326993
+      vung-trong-luc_29: -4287925045956620901
+      vung-trong-luc_3: 6449202546153556230
+      vung-trong-luc_30: 2065181564144912805
+      vung-trong-luc_31: -1928532382302281221
+      vung-trong-luc_32: 5283572454320718671
+      vung-trong-luc_33: -5813456244243374780
+      vung-trong-luc_34: 7090561205379199562
+      vung-trong-luc_35: 5684264840579338715
+      vung-trong-luc_36: -7916447173869687184
+      vung-trong-luc_37: -6414403259011478091
+      vung-trong-luc_38: -5257775478782740455
+      vung-trong-luc_39: -6587590245631042201
+      vung-trong-luc_4: -1696897611268009295
+      vung-trong-luc_40: 3402027357422478605
+      vung-trong-luc_41: -6377356392081806063
+      vung-trong-luc_42: 5639077597607847013
+      vung-trong-luc_43: -3311800159220065299
+      vung-trong-luc_44: -7079798749719226098
+      vung-trong-luc_45: 4947624701602953480
+      vung-trong-luc_46: 7569164762284427645
+      vung-trong-luc_47: 5270212377237273949
+      vung-trong-luc_48: 6770770289601448259
+      vung-trong-luc_49: -7871541323697820446
+      vung-trong-luc_5: -6242509414534742659
+      vung-trong-luc_50: 5758452051900901427
+      vung-trong-luc_51: 6290492787625273059
+      vung-trong-luc_52: 6593824301944499988
+      vung-trong-luc_53: 6689061002357259337
+      vung-trong-luc_54: -4736471378119070404
+      vung-trong-luc_55: -576880270753320193
+      vung-trong-luc_56: -44023311625521762
+      vung-trong-luc_57: 7627167137222881222
+      vung-trong-luc_58: 3389970386073654956
+      vung-trong-luc_59: -5826847596756716163
+      vung-trong-luc_6: -3781429019224365296
+      vung-trong-luc_60: 662025270264305545
+      vung-trong-luc_61: 510163579551639066
+      vung-trong-luc_62: -6195297814183728769
+      vung-trong-luc_63: -3348231883116359538
+      vung-trong-luc_64: -6206081733751406070
+      vung-trong-luc_65: 2804025164372184960
+      vung-trong-luc_66: -2076501202179134120
+      vung-trong-luc_67: 8133369908159072142
+      vung-trong-luc_68: 2826895228514816068
+      vung-trong-luc_69: -5968828189147864361
+      vung-trong-luc_7: 4357532275005346
+      vung-trong-luc_70: 8751915046765697088
+      vung-trong-luc_71: -6451425741635361553
+      vung-trong-luc_72: -4934483756806465125
+      vung-trong-luc_73: 4884325813641855766
+      vung-trong-luc_74: -1135729655709285761
+      vung-trong-luc_75: 2664940420264278459
+      vung-trong-luc_76: 4289939176962733099
+      vung-trong-luc_77: 1869837047691356041
+      vung-trong-luc_78: -2738058694038125167
+      vung-trong-luc_79: 2548769929453537840
+      vung-trong-luc_8: -6047478873827004451
+      vung-trong-luc_80: -1593462632781612413
+      vung-trong-luc_81: -5751424581273988715
+      vung-trong-luc_82: 7582221454488417428
+      vung-trong-luc_83: 8717582448423419852
+      vung-trong-luc_84: -2184799745262583882
+      vung-trong-luc_85: -7303227704225110849
+      vung-trong-luc_86: -5311670305612754683
+      vung-trong-luc_87: 583055002916828196
+      vung-trong-luc_88: -1780890666810303130
+      vung-trong-luc_89: 8459632317168248045
+      vung-trong-luc_9: 7232421830997033489
+      vung-trong-luc_90: -4544455507068196320
+      vung-trong-luc_91: 7902350737907755091
+      vung-trong-luc_92: 5476950534423376332
+      vung-trong-luc_93: -1047310710885606050
+      vung-trong-luc_94: -3491632212422358183
+      vung-trong-luc_95: -4505654988213422688
+      vung-trong-luc_96: 8404980360915875979
+      vung-trong-luc_97: -3544999320651406735
+      vung-trong-luc_98: 263667973429711841
+      vung-trong-luc_99: -1091620534164138200
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,5 +1,9 @@
 # Actual architecture
 
+## Separate Mage preview (2026-11-11)
+
+`Magical.unity` is a self-contained skill preview. Its Mage prefab uses the existing `PlayerController`/`PlayerHealth` with `MageVisual`, `MageAim`, `MageLoadout`, `MageCombat`, `MageUltimate` and `MageEffectLibrary`. `MageLoadout` stores one Q skill, one element, one E ultimate and optional tier/core settings; its values can be changed in Inspector or by the Play Mode test panel. It does not manage EXP or progression. `MageAim` positions the staff at a serialized hand offset, rotates it toward the mouse, and exposes a cast point near its tip. `MageEffectLibrary` cuts the imported PNG sheets into sprites at runtime and `MageEffectPlayer` plays them with a display-scale multiplier; `MageProjectile` moves animated shots. `MageEnemyStatus` holds burn, curse, ice marks, slow, freeze, dazzle and deferred TimeStop damage, attached when a Mage hit reaches an enemy. `MageBossMarker` marks the three existing boss prefabs so control effects can skip them. `MageDemoHUD` provides status, temporary build selection, invulnerability and scene reset for tests. The scene's existing `CameraFollow` targets Mage with orthographic size 4.5. `MagePreviewSetup` is Editor-only and assembles the prefab/scene or applies presentation values without resetting the loadout; `MageRegression` runs a transient Play Mode integration check. No Mage component is wired into GameScene.
+
 Updated 2026-09-18. Unity 6000.3.22f1, URP 2D, existing Input System. Main enabled build scene: Assets/Scenes/GameScene.unity.
 
 ## Scene and components

@@ -57,3 +57,54 @@ Latest user request changes only Wave 3 from 30 to 45 seconds. Balance numbers r
 Week 1-2 foundations/combat and Week 3 survival loop exist. Requested MVP fixes passed actual Play Mode regression, including transitions and win/loss retries. Week 4 transition is implemented; inline Inspector wave data exists but reusable ScriptableObject WaveData remains a future task.
 
 Current camera policy: track Player XY, preserve Z, free movement without arbitrary arena walls. A future authored map may define boundaries/clamping. Leftovers are cleared at intermissions; Player HP persists. Windows build and full-duration balance remain unverified. Add only the requested feature; stabilize core before extra polish/content.
+
+## Cây Pháp sư 20 cấp, 4 màn (thiết kế; bản thử kỹ năng đã có)
+
+`magicstree.drawio` là bản phân cấp hiện hành cho nhánh Pháp sư. Theo phân chia người dùng chốt: màn 1 cấp 1-4, màn 2 cấp 5-8, màn 3 cấp 9-14, màn 4 cấp 15-20. Bản thử trong `Magical.unity` có nhân vật, skill Q, bốn nhánh đánh tự động, nâng cấp/lõi và ba ultimate E. Có thể chọn cấu hình bằng `MageLoadout` Inspector hoặc bảng test trong Game View khi Play Mode; bảng test có nút bất tử tạm thời và đặt lại cảnh. Chưa có EXP, lên cấp, UI chọn skill theo cấp hay tích hợp vào vòng chơi GameScene. Các trị số là mốc cân bằng ban đầu; cần playtest thêm.
+
+Boss miễn nhiễm các hiệu ứng khống chế của Pháp sư (đẩy lùi, làm chậm, đóng băng, dừng thời gian) nhưng vẫn nhận sát thương trực tiếp và sát thương theo thời gian.
+
+| Mốc | Lựa chọn |
+| --- | --- |
+| Cấp 2 | Chọn Pháp sư, nhận thêm 30% EXP. |
+| Cấp 3-4 và 6-8 | Mỗi cấp chọn một chỉ số nền theo sơ đồ. |
+| Cấp 5 | Chọn **một** trong ba skill chủ động bên dưới, dùng phím Q. |
+| Cấp 9 | Chọn **một** nhánh Hỏa, Băng, Quang hoặc Ám. |
+| Cấp 10-12 | Mỗi cấp chọn một trong ba nâng cấp của nhánh đã chọn. |
+| Cấp 13-14 | Mỗi cấp chọn một lõi khác nhau trong bốn lõi của nhánh, tổng hai lõi. |
+| Cấp 15 | Chọn **một** trong ba ultimate dùng chung, dùng phím E. |
+| Cấp 16-18 | Mỗi cấp chọn một chỉ số nền theo sơ đồ. |
+| Cấp 19-20 | Mỗi cấp chọn một trong **hai lõi còn lại** của nhánh; đến cấp 20 có đủ bốn lõi, không mua trùng lõi. |
+
+#### Skill cấp 5
+
+| Skill | Kích hoạt và hiệu quả | Hồi chiêu |
+| --- | --- | --- |
+| Hồi phục | Q: hồi ngay 25 HP, không vượt HP tối đa; chỉ kích hoạt khi chưa đầy máu. | 25 giây |
+| Sóng xung kích | Q: gây 15 sát thương một lần trong bán kính 2,5 m quanh Pháp sư và đẩy quái thường ra 1 m. Boss chỉ nhận sát thương. | 12 giây |
+| Vùng trọng lực | Q tại vị trí chuột cách Pháp sư tối đa 7 m: tạo vùng bán kính 2,5 m trong 4 giây, gây 3 sát thương/giây và làm chậm quái thường 35% khi ở trong vùng. | 20 giây |
+
+Mỗi skill Q là một lần kích hoạt; hồi chiêu tính theo thời gian gameplay, dừng khi tạm dừng hoặc chuyển màn. Các skill này không tự hồi HP, gây sát thương hay áp dụng hiệu ứng khi chưa được kích hoạt.
+
+#### Nhánh cấp 9 và trạng thái
+
+- **Hỏa:** cầu lửa nổ bán kính 1,5 m, gây 20 sát thương trực tiếp và đốt 4 sát thương/giây trong 3 giây (thêm tối đa 12 sát thương nếu cháy đủ thời gian).
+- **Băng:** Hơi thở băng gây 15 sát thương cho mỗi quái trúng, làm chậm 30%. Mỗi lần thi triển chỉ ghi **một lần trúng trên mỗi quái**, dù animation có nhiều frame. Sau **6 lần trúng trên cùng quái**, quái thường đóng băng cứng 2 giây; boss chỉ nhận sát thương, không nhận làm chậm hay đóng băng. Chậm kéo dài 2,5 giây và được làm mới khi trúng lại. Số lần trúng tích lũy hết hạn nếu 6 giây không trúng Băng; khi đóng băng thì đặt lại về 0. **Ấn băng** hiển thị mức tích lũy 1-5 bằng các frame hình thành 10, 19, 24, 30, 35 (đếm từ 0) của `freeze-v2-d9694c96.png`; lần thứ 6 phát toàn bộ sheet đóng băng. Cần kiểm tra hình ấn ở kích thước thật trong Play Mode.
+- **Quang:** cột sáng gây 8 sát thương mỗi nhịp trong 4 nhịp, tối đa 32 sát thương nếu cùng quái nhận đủ bốn nhịp.
+- **Ám:** nguyền tối đa 3 quái cùng lúc; mỗi quái bị nguyền nhận 5 sát thương/giây và bị chậm 15%. Bản thử bắn đạn tự tìm quái gần nhất trong 7 m, ưu tiên quái chưa bị nguyền khi còn chỗ; lời nguyền kéo dài 4 giây và được làm mới khi trúng lại. Giới hạn mục tiêu có thể tăng qua nâng cấp. Các thông số chọn mục tiêu/thời gian này là mặc định thử nghiệm, cần cân bằng tiếp.
+
+`Tụ Hàn` ở nhóm lõi Băng: cùng một quái trúng Băng sẽ tích tối đa 2 tầng. Đòn Băng kế tiếp gây thêm 10% sát thương mỗi tầng; xóa tầng khi quái đóng băng hoặc hết chậm. Tầng `Tụ Hàn` là trạng thái tính bằng code và dùng lại hiệu ứng Băng hiện có.
+
+Các lựa chọn nâng cấp cấp 10-12 và bốn lõi từng nhánh giữ nguyên tác dụng ghi trong sơ đồ, trừ `Băng Thương` đã đổi thành `Tụ Hàn`. Hiệu ứng cháy/nguyền không quyết định sát thương bằng animation; sát thương và thời gian do code quản lý. Bản sao 20 PNG đã được nhập vào `Assets/Art/Mage`; file gốc trong `public/` được giữ nguyên. Bản thử dùng sheet trực tiếp bằng `Sprite.Create`, chưa tạo AnimationClip riêng.
+
+### Ultimate dùng chung ở cấp 15 (đã có trong bản thử)
+
+Chọn một ultimate bất kể nhánh Hỏa/Băng/Quang/Ám; nhấn E để kích hoạt. Boss không bị dừng thời gian hay khống chế cứng. Hồi chiêu bắt đầu khi hiệu ứng kết thúc hoặc khi quả cầu được phóng; hồi chiêu dừng trong Pause/chuyển màn. Các con số là mốc cân bằng ban đầu cần playtest.
+
+| Ultimate | Quy tắc kích hoạt và hiệu quả | Hồi chiêu |
+| --- | --- | --- |
+| Ngưng Đọng Thời Gian | E: dừng di chuyển và tấn công của quái thường trong 3 giây; Pháp sư vẫn di chuyển và đánh. Sát thương gây lên quái bị dừng được cộng dồn và áp dụng một lần khi thời gian chạy tiếp, không có hệ số thưởng. Boss tiếp tục hoạt động và nhận sát thương ngay. | 60 giây |
+| Thiên Tinh Giáng Lâm | E tại điểm chuột trong tầm 8 m: đánh dấu vùng bán kính 3 m trong 2 giây. Gọi 5 đợt sao rơi, cách nhau 0,4 giây; mỗi đợt chọn một quái còn sống trong vùng làm tâm và gây 12 sát thương trong bán kính 1 m, mỗi quái chỉ nhận tối đa một lần sát thương mỗi đợt. Nếu vùng trống, đợt đó không gây sát thương. | 45 giây |
+| Thiên Cầu Ma Lực | E tạo quả cầu trong tối đa 8 giây. Mỗi đòn Pháp sư đánh trúng quái trong lúc đó cộng 1 năng lượng, tối đa 6. Nhấn E lần nữa hoặc hết 8 giây sẽ phóng `2 + năng lượng` phi đạn (2-8), mỗi đạn tự tìm quái gần nhất trong 8 m và gây 12 sát thương một lần; không có mục tiêu thì đạn biến mất. | 45 giây sau khi phóng |
+
+Ba ultimate dùng PNG PixelFX trong `Assets/Art/Mage`, phát qua `MageEffectLibrary` và chọn trong `MageLoadout` Inspector. Play Mode regression đã kiểm tra logic TimeStop, StarFall và ArcaneOrb, nhưng cần playtest thao tác phím E, hình ảnh và cân bằng. Chưa có lựa chọn UI. Cổng Lưu Đày đã bị loại khỏi cây skill.

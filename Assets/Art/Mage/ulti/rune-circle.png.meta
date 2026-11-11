@@ -1,0 +1,3250 @@
+fileFormatVersion: 2
+guid: b575bfbd1b607f84487853c4eae24560
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5783542470795106681
+    second: rune-circle_0
+  - first:
+      213: 7663505676842838814
+    second: rune-circle_1
+  - first:
+      213: 7082088631783705571
+    second: rune-circle_2
+  - first:
+      213: 1680526378784152696
+    second: rune-circle_3
+  - first:
+      213: 2175412507590010464
+    second: rune-circle_4
+  - first:
+      213: -500612856605890808
+    second: rune-circle_5
+  - first:
+      213: 8722921912523859180
+    second: rune-circle_6
+  - first:
+      213: 2782634425895901332
+    second: rune-circle_7
+  - first:
+      213: -2879757814460283509
+    second: rune-circle_8
+  - first:
+      213: -2521407332170517932
+    second: rune-circle_9
+  - first:
+      213: -2544646569631203133
+    second: rune-circle_10
+  - first:
+      213: 8617468845104399683
+    second: rune-circle_11
+  - first:
+      213: 3107278405490183625
+    second: rune-circle_12
+  - first:
+      213: -4449469768234905841
+    second: rune-circle_13
+  - first:
+      213: 515227858902202571
+    second: rune-circle_14
+  - first:
+      213: 2064773507984289740
+    second: rune-circle_15
+  - first:
+      213: 6066399594330405289
+    second: rune-circle_16
+  - first:
+      213: -4004567121658947028
+    second: rune-circle_17
+  - first:
+      213: 3758050325375371494
+    second: rune-circle_18
+  - first:
+      213: 264584188681181726
+    second: rune-circle_19
+  - first:
+      213: 3976097914395743283
+    second: rune-circle_20
+  - first:
+      213: -5914264879021430589
+    second: rune-circle_21
+  - first:
+      213: 8967996585800643140
+    second: rune-circle_22
+  - first:
+      213: -6285660922004625761
+    second: rune-circle_23
+  - first:
+      213: 4601745301885494604
+    second: rune-circle_24
+  - first:
+      213: -1792986752951491964
+    second: rune-circle_25
+  - first:
+      213: 4544499146802793342
+    second: rune-circle_26
+  - first:
+      213: 6611525380378383426
+    second: rune-circle_27
+  - first:
+      213: -5647929324843980220
+    second: rune-circle_28
+  - first:
+      213: -856797808052429767
+    second: rune-circle_29
+  - first:
+      213: -8554838145718455672
+    second: rune-circle_30
+  - first:
+      213: -2543524907990590151
+    second: rune-circle_31
+  - first:
+      213: -1302756731295889881
+    second: rune-circle_32
+  - first:
+      213: -6051501592125617948
+    second: rune-circle_33
+  - first:
+      213: 3418224746970162469
+    second: rune-circle_34
+  - first:
+      213: 8175546812427870254
+    second: rune-circle_35
+  - first:
+      213: -7984847742763213262
+    second: rune-circle_36
+  - first:
+      213: -4470048125422511277
+    second: rune-circle_37
+  - first:
+      213: 8128097821246994093
+    second: rune-circle_38
+  - first:
+      213: 3400603065823988397
+    second: rune-circle_39
+  - first:
+      213: -6485728136198043273
+    second: rune-circle_40
+  - first:
+      213: -2028441967991666546
+    second: rune-circle_41
+  - first:
+      213: 6048860810296333951
+    second: rune-circle_42
+  - first:
+      213: -8846285294856075210
+    second: rune-circle_43
+  - first:
+      213: 847390515224239669
+    second: rune-circle_44
+  - first:
+      213: 9105078017012506066
+    second: rune-circle_45
+  - first:
+      213: 253051287765868095
+    second: rune-circle_46
+  - first:
+      213: 5291618442294312005
+    second: rune-circle_47
+  - first:
+      213: 373758713759635889
+    second: rune-circle_48
+  - first:
+      213: -7667013933110116743
+    second: rune-circle_49
+  - first:
+      213: 8336025446656135544
+    second: rune-circle_50
+  - first:
+      213: 308570524907948446
+    second: rune-circle_51
+  - first:
+      213: 4694188091281006044
+    second: rune-circle_52
+  - first:
+      213: 3714425312055717270
+    second: rune-circle_53
+  - first:
+      213: -39276725035335248
+    second: rune-circle_54
+  - first:
+      213: -8830860677043284541
+    second: rune-circle_55
+  - first:
+      213: -1354370541084485546
+    second: rune-circle_56
+  - first:
+      213: -5525130955371254328
+    second: rune-circle_57
+  - first:
+      213: -8927411741424459629
+    second: rune-circle_58
+  - first:
+      213: -6389746964560223269
+    second: rune-circle_59
+  - first:
+      213: 2168452937237456613
+    second: rune-circle_60
+  - first:
+      213: 6871171790131546417
+    second: rune-circle_61
+  - first:
+      213: -3964954796056814546
+    second: rune-circle_62
+  - first:
+      213: 8564580850911723557
+    second: rune-circle_63
+  - first:
+      213: -2470109617277882222
+    second: rune-circle_64
+  - first:
+      213: -1241804845353503555
+    second: rune-circle_65
+  - first:
+      213: -6626671476658624031
+    second: rune-circle_66
+  - first:
+      213: -4334285883734822858
+    second: rune-circle_67
+  - first:
+      213: 8395513014077312292
+    second: rune-circle_68
+  - first:
+      213: -6808605725937375077
+    second: rune-circle_69
+  - first:
+      213: -8573650176264134470
+    second: rune-circle_70
+  - first:
+      213: 5551691814915674114
+    second: rune-circle_71
+  - first:
+      213: 8143839964979398309
+    second: rune-circle_72
+  - first:
+      213: -367546456268420105
+    second: rune-circle_73
+  - first:
+      213: 8498574044169013293
+    second: rune-circle_74
+  - first:
+      213: 8543148057391684810
+    second: rune-circle_75
+  - first:
+      213: 256293626682804684
+    second: rune-circle_76
+  - first:
+      213: 5289435073539902893
+    second: rune-circle_77
+  - first:
+      213: -3221649036477362326
+    second: rune-circle_78
+  - first:
+      213: -4050312811117938565
+    second: rune-circle_79
+  - first:
+      213: 665606847090876295
+    second: rune-circle_80
+  - first:
+      213: -2807897698169223765
+    second: rune-circle_81
+  - first:
+      213: -3948974475713276694
+    second: rune-circle_82
+  - first:
+      213: 4309026946194879539
+    second: rune-circle_83
+  - first:
+      213: 984851752033851212
+    second: rune-circle_84
+  - first:
+      213: -9061108377325906919
+    second: rune-circle_85
+  - first:
+      213: 2625029725148901394
+    second: rune-circle_86
+  - first:
+      213: -8086623984444406839
+    second: rune-circle_87
+  - first:
+      213: -5738144995318442726
+    second: rune-circle_88
+  - first:
+      213: 7007234738300701416
+    second: rune-circle_89
+  - first:
+      213: -7756941072475156392
+    second: rune-circle_90
+  - first:
+      213: 468886034933819376
+    second: rune-circle_91
+  - first:
+      213: 8147478224969294915
+    second: rune-circle_92
+  - first:
+      213: 3024139261009695244
+    second: rune-circle_93
+  - first:
+      213: -600666024813998413
+    second: rune-circle_94
+  - first:
+      213: 8896239800830985778
+    second: rune-circle_95
+  - first:
+      213: -484857218907796901
+    second: rune-circle_96
+  - first:
+      213: -5738833890580986818
+    second: rune-circle_97
+  - first:
+      213: -2421442954751649701
+    second: rune-circle_98
+  - first:
+      213: 5259924006391492743
+    second: rune-circle_99
+  - first:
+      213: -1962832280589881674
+    second: rune-circle_100
+  - first:
+      213: 564917015440109442
+    second: rune-circle_101
+  - first:
+      213: 6554203067400497276
+    second: rune-circle_102
+  - first:
+      213: 1411267799426362201
+    second: rune-circle_103
+  - first:
+      213: -2923778978718811039
+    second: rune-circle_104
+  - first:
+      213: -492755159783531823
+    second: rune-circle_105
+  - first:
+      213: -2601583746612079210
+    second: rune-circle_106
+  - first:
+      213: 4750764250329057801
+    second: rune-circle_107
+  - first:
+      213: -3201030652964567713
+    second: rune-circle_108
+  - first:
+      213: 6040955470041221426
+    second: rune-circle_109
+  - first:
+      213: 3938298206173103678
+    second: rune-circle_110
+  - first:
+      213: 7913872075516610221
+    second: rune-circle_111
+  - first:
+      213: -4994181356904153619
+    second: rune-circle_112
+  - first:
+      213: -7009629821066540100
+    second: rune-circle_113
+  - first:
+      213: -2243107021123376789
+    second: rune-circle_114
+  - first:
+      213: -4454575544671883866
+    second: rune-circle_115
+  - first:
+      213: -5057040953284326632
+    second: rune-circle_116
+  - first:
+      213: -2796169199591428360
+    second: rune-circle_117
+  - first:
+      213: 9203573404234402839
+    second: rune-circle_118
+  - first:
+      213: -5898574906216806093
+    second: rune-circle_119
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: rune-circle_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1100
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7866fdce3cabcbfa0800000000000000
+      internalID: -5783542470795106681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_1
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 1100
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b28626fcd3a5a60800000000000000
+      internalID: 7663505676842838814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_2
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 1100
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebcc4d8612a84260800000000000000
+      internalID: 7082088631783705571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_3
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 1100
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87c5a1376dd625710800000000000000
+      internalID: 1680526378784152696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_4
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06628da562e903e10800000000000000
+      internalID: 2175412507590010464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_5
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 807230062477d09f0800000000000000
+      internalID: -500612856605890808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_6
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4a47f634b0e0970800000000000000
+      internalID: 8722921912523859180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_7
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4985c4f6447ed9620800000000000000
+      internalID: 2782634425895901332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_8
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8580fd768b0908d0800000000000000
+      internalID: -2879757814460283509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_9
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 1100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45239efe369220dd0800000000000000
+      internalID: -2521407332170517932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_10
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 1000
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c047325d699facd0800000000000000
+      internalID: -2544646569631203133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_11
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 999
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 345817fd146679770800000000000000
+      internalID: 8617468845104399683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_12
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 999
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd0c792f354f1b20800000000000000
+      internalID: 3107278405490183625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_13
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 999
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0fc481f1de4042c0800000000000000
+      internalID: -4449469768234905841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_14
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 999
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc830440205762700800000000000000
+      internalID: 515227858902202571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_15
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 999
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf6a0dd09c87ac10800000000000000
+      internalID: 2064773507984289740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_16
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 999
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a933a53a4e203450800000000000000
+      internalID: 6066399594330405289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_17
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 999
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2a5f428b6bec68c0800000000000000
+      internalID: -4004567121658947028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_18
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 999
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e84a042cd6472430800000000000000
+      internalID: 3758050325375371494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_19
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 999
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1ad683faedfba300800000000000000
+      internalID: 264584188681181726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_20
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 334dab3acffed2730800000000000000
+      internalID: 3976097914395743283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_21
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8eb5a7d6f4ceda0800000000000000
+      internalID: -5914264879021430589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_22
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 442309b5169b47c70800000000000000
+      internalID: 8967996585800643140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_23
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f962c5db1b8d4c8a0800000000000000
+      internalID: -6285660922004625761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_24
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4525b198feacdf30800000000000000
+      internalID: 4601745301885494604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_25
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 900
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482685f3c080e17e0800000000000000
+      internalID: -1792986752951491964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_26
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 900
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7b0f3f65ed411f30800000000000000
+      internalID: 4544499146802793342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_27
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 900
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244dee8dd4bd0cb50800000000000000
+      internalID: 6611525380378383426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_28
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 900
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44aa92cf3368e91b0800000000000000
+      internalID: -5647929324843980220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_29
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 900
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93c93bedeea0c14f0800000000000000
+      internalID: -856797808052429767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_30
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 800
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8827d7d280c174980800000000000000
+      internalID: -8554838145718455672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_31
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 800
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93ddcd5829593bcd0800000000000000
+      internalID: -2543524907990590151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_32
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 800
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7260c5ab7adabede0800000000000000
+      internalID: -1302756731295889881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_33
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 800
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e844ab3d5fb40ca0800000000000000
+      internalID: -6051501592125617948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_34
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5252b9dfb49ff6f20800000000000000
+      internalID: 3418224746970162469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_35
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20275f8280657170800000000000000
+      internalID: 8175546812427870254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_36
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ed403984f103190800000000000000
+      internalID: -7984847742763213262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_37
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b5a4bc9e237f1c0800000000000000
+      internalID: -4470048125422511277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_38
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da6bd0767edccc070800000000000000
+      internalID: 8128097821246994093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_39
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 800
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daa0b80a87e513f20800000000000000
+      internalID: 3400603065823988397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_40
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 699
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 779c82c7f901ef5a0800000000000000
+      internalID: -6485728136198043273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_41
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 699
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e88cc5af6c689d3e0800000000000000
+      internalID: -2028441967991666546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_42
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 699
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f769e75dbded1f350800000000000000
+      internalID: 6048860810296333951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_43
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 699
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638875ad46eab3580800000000000000
+      internalID: -8846285294856075210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_44
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 699
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ed9f51f2982cb00800000000000000
+      internalID: 847390515224239669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_45
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 699
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dd9f38373cbb5e70800000000000000
+      internalID: 9105078017012506066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_46
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 699
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3e5d353ec4038300800000000000000
+      internalID: 253051287765868095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_47
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 699
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cbbd3efea9f6940800000000000000
+      internalID: 5291618442294312005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_48
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 699
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b99955e19bdf2500800000000000000
+      internalID: 373758713759635889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_49
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 699
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97e300d037b499590800000000000000
+      internalID: -7667013933110116743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_50
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8715e824af28fa370800000000000000
+      internalID: 8336025446656135544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_51
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e994b4de143484400800000000000000
+      internalID: 308570524907948446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_52
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdd5ca9b23b152140800000000000000
+      internalID: 4694188091281006044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_53
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69decc5342a4c8330800000000000000
+      internalID: 3714425312055717270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_54
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b10454d606747ff0800000000000000
+      internalID: -39276725035335248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_55
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 600
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c59edb800b727580800000000000000
+      internalID: -8830860677043284541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_56
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 600
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 658d76c2b2f443de0800000000000000
+      internalID: -1354370541084485546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_57
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 600
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cde4936baac253b0800000000000000
+      internalID: -5525130955371254328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_58
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 600
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3906eb412567b1480800000000000000
+      internalID: -8927411741424459629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_59
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 600
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3e1c47dfe0357a0800000000000000
+      internalID: -6389746964560223269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_60
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 500
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e6e03c1574e71e10800000000000000
+      internalID: 2168452937237456613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_61
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 500
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139c97d865e4b5f50800000000000000
+      internalID: 6871171790131546417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_62
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 500
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c5d86ce96a9f8c0800000000000000
+      internalID: -3964954796056814546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_63
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 500
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 520c4b428e08bd670800000000000000
+      internalID: 8564580850911723557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_64
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29030e9e36868bdd0800000000000000
+      internalID: -2470109617277882222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_65
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db47850921934cee0800000000000000
+      internalID: -1241804845353503555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_66
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9ac8ec6655904a0800000000000000
+      internalID: -6626671476658624031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_67
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630fef8e3f589d3c0800000000000000
+      internalID: -4334285883734822858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_68
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d4f3fda9ad28470800000000000000
+      internalID: 8395513014077312292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_69
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 500
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98efc17a29f281a0800000000000000
+      internalID: -6808605725937375077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_70
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 399
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab0af4ff696440980800000000000000
+      internalID: -8573650176264134470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_71
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 399
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2001e72aa429b0d40800000000000000
+      internalID: 5551691814915674114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_72
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 399
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a60a3cdc4bb40170800000000000000
+      internalID: 8143839964979398309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_73
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 399
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fbcaa3027636eaf0800000000000000
+      internalID: -367546456268420105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_74
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 399
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d288c08d01001f570800000000000000
+      internalID: 8498574044169013293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_75
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 399
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acc566805eb5f8670800000000000000
+      internalID: 8543148057391684810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_76
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 399
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc900a012b98e8300800000000000000
+      internalID: 256293626682804684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_77
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 399
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad86dcbc29d76940800000000000000
+      internalID: 5289435073539902893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_78
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 399
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f89c535476a43d0800000000000000
+      internalID: -3221649036477362326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_79
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 399
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78f91035f56ac7c0800000000000000
+      internalID: -4050312811117938565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_80
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f5be0a6e5bc3900800000000000000
+      internalID: 665606847090876295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_81
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba58cfe9be75809d0800000000000000
+      internalID: -2807897698169223765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_82
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae4960c03ac6239c0800000000000000
+      internalID: -3948974475713276694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_83
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33438876d2dbccb30800000000000000
+      internalID: 4309026946194879539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_84
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4716645375eaad00800000000000000
+      internalID: 984851752033851212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_85
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 300
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9145c2a40f9704280800000000000000
+      internalID: -9061108377325906919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_86
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 300
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 210775480aafd6420800000000000000
+      internalID: 2625029725148901394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_87
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 300
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c38907b45a86cf80800000000000000
+      internalID: -8086623984444406839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_88
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 300
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a15db5c57830e50b0800000000000000
+      internalID: -5738144995318442726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_89
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 300
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eac03a5ed2be3160800000000000000
+      internalID: 7007234738300701416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 200
+        width: 120
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8501b7f413fc95490800000000000000
+      internalID: -7756941072475156392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_91
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 200
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f72f505d51d18600800000000000000
+      internalID: 468886034933819376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_92
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 200
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34466864748a11170800000000000000
+      internalID: 8147478224969294915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_93
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 200
+        width: 114
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c029bc3a2a6e7f920800000000000000
+      internalID: 3024139261009695244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_94
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bec052de610aa7f0800000000000000
+      internalID: -600666024813998413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_95
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 236093de6fac57b70800000000000000
+      internalID: 8896239800830985778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_96
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5a8734ade07549f0800000000000000
+      internalID: -484857218907796901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_97
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3482fe6bf09b50b0800000000000000
+      internalID: -5738833890580986818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_98
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b58d726467e456ed0800000000000000
+      internalID: -2421442954751649701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_99
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 200
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 780b38af3010ff840800000000000000
+      internalID: 5259924006391492743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_100
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 100
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6be25c9b07e92c4e0800000000000000
+      internalID: -1962832280589881674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_101
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 99
+        width: 114
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fa1e0580df6d700800000000000000
+      internalID: 564917015440109442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_102
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 99
+        width: 114
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c78ae22d6f435fa50800000000000000
+      internalID: 6554203067400497276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_103
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 99
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b61cb1694d59310800000000000000
+      internalID: 1411267799426362201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_104
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 99
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16cf5bb7286ac67d0800000000000000
+      internalID: -2923778978718811039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_105
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 99
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1da9cdbfac16929f0800000000000000
+      internalID: -492755159783531823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_106
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 99
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695d1c1cd5155ebd0800000000000000
+      internalID: -2601583746612079210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_107
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 99
+        width: 112
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a0d704aea1ee140800000000000000
+      internalID: 4750764250329057801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_108
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 99
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5509e6b497a393d0800000000000000
+      internalID: -3201030652964567713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_109
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 99
+        width: 110
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23982cf5ef8c5d350800000000000000
+      internalID: 6040955470041221426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_110
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36818e3a55a7a630800000000000000
+      internalID: 3938298206173103678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_111
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da60d0329b8b3dd60800000000000000
+      internalID: 7913872075516610221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_112
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded79d5248a11bab0800000000000000
+      internalID: -4994181356904153619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_113
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbb085cf0dac8be90800000000000000
+      internalID: -7009629821066540100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_114
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69a1cc7c02eed0e0800000000000000
+      internalID: -2243107021123376789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_115
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 110
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ada0bab42b2e22c0800000000000000
+      internalID: -4454575544671883866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_116
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 112
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b82ecdb08c1d9b0800000000000000
+      internalID: -5057040953284326632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_117
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 0
+        width: 114
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fee67e7de20239d0800000000000000
+      internalID: -2796169199591428360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_118
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 0
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71ccf9f9f39a9bf70800000000000000
+      internalID: 9203573404234402839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rune-circle_119
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 0
+        width: 118
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3390ae1ff5d042ea0800000000000000
+      internalID: -5898574906216806093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      rune-circle_0: -5783542470795106681
+      rune-circle_1: 7663505676842838814
+      rune-circle_10: -2544646569631203133
+      rune-circle_100: -1962832280589881674
+      rune-circle_101: 564917015440109442
+      rune-circle_102: 6554203067400497276
+      rune-circle_103: 1411267799426362201
+      rune-circle_104: -2923778978718811039
+      rune-circle_105: -492755159783531823
+      rune-circle_106: -2601583746612079210
+      rune-circle_107: 4750764250329057801
+      rune-circle_108: -3201030652964567713
+      rune-circle_109: 6040955470041221426
+      rune-circle_11: 8617468845104399683
+      rune-circle_110: 3938298206173103678
+      rune-circle_111: 7913872075516610221
+      rune-circle_112: -4994181356904153619
+      rune-circle_113: -7009629821066540100
+      rune-circle_114: -2243107021123376789
+      rune-circle_115: -4454575544671883866
+      rune-circle_116: -5057040953284326632
+      rune-circle_117: -2796169199591428360
+      rune-circle_118: 9203573404234402839
+      rune-circle_119: -5898574906216806093
+      rune-circle_12: 3107278405490183625
+      rune-circle_13: -4449469768234905841
+      rune-circle_14: 515227858902202571
+      rune-circle_15: 2064773507984289740
+      rune-circle_16: 6066399594330405289
+      rune-circle_17: -4004567121658947028
+      rune-circle_18: 3758050325375371494
+      rune-circle_19: 264584188681181726
+      rune-circle_2: 7082088631783705571
+      rune-circle_20: 3976097914395743283
+      rune-circle_21: -5914264879021430589
+      rune-circle_22: 8967996585800643140
+      rune-circle_23: -6285660922004625761
+      rune-circle_24: 4601745301885494604
+      rune-circle_25: -1792986752951491964
+      rune-circle_26: 4544499146802793342
+      rune-circle_27: 6611525380378383426
+      rune-circle_28: -5647929324843980220
+      rune-circle_29: -856797808052429767
+      rune-circle_3: 1680526378784152696
+      rune-circle_30: -8554838145718455672
+      rune-circle_31: -2543524907990590151
+      rune-circle_32: -1302756731295889881
+      rune-circle_33: -6051501592125617948
+      rune-circle_34: 3418224746970162469
+      rune-circle_35: 8175546812427870254
+      rune-circle_36: -7984847742763213262
+      rune-circle_37: -4470048125422511277
+      rune-circle_38: 8128097821246994093
+      rune-circle_39: 3400603065823988397
+      rune-circle_4: 2175412507590010464
+      rune-circle_40: -6485728136198043273
+      rune-circle_41: -2028441967991666546
+      rune-circle_42: 6048860810296333951
+      rune-circle_43: -8846285294856075210
+      rune-circle_44: 847390515224239669
+      rune-circle_45: 9105078017012506066
+      rune-circle_46: 253051287765868095
+      rune-circle_47: 5291618442294312005
+      rune-circle_48: 373758713759635889
+      rune-circle_49: -7667013933110116743
+      rune-circle_5: -500612856605890808
+      rune-circle_50: 8336025446656135544
+      rune-circle_51: 308570524907948446
+      rune-circle_52: 4694188091281006044
+      rune-circle_53: 3714425312055717270
+      rune-circle_54: -39276725035335248
+      rune-circle_55: -8830860677043284541
+      rune-circle_56: -1354370541084485546
+      rune-circle_57: -5525130955371254328
+      rune-circle_58: -8927411741424459629
+      rune-circle_59: -6389746964560223269
+      rune-circle_6: 8722921912523859180
+      rune-circle_60: 2168452937237456613
+      rune-circle_61: 6871171790131546417
+      rune-circle_62: -3964954796056814546
+      rune-circle_63: 8564580850911723557
+      rune-circle_64: -2470109617277882222
+      rune-circle_65: -1241804845353503555
+      rune-circle_66: -6626671476658624031
+      rune-circle_67: -4334285883734822858
+      rune-circle_68: 8395513014077312292
+      rune-circle_69: -6808605725937375077
+      rune-circle_7: 2782634425895901332
+      rune-circle_70: -8573650176264134470
+      rune-circle_71: 5551691814915674114
+      rune-circle_72: 8143839964979398309
+      rune-circle_73: -367546456268420105
+      rune-circle_74: 8498574044169013293
+      rune-circle_75: 8543148057391684810
+      rune-circle_76: 256293626682804684
+      rune-circle_77: 5289435073539902893
+      rune-circle_78: -3221649036477362326
+      rune-circle_79: -4050312811117938565
+      rune-circle_8: -2879757814460283509
+      rune-circle_80: 665606847090876295
+      rune-circle_81: -2807897698169223765
+      rune-circle_82: -3948974475713276694
+      rune-circle_83: 4309026946194879539
+      rune-circle_84: 984851752033851212
+      rune-circle_85: -9061108377325906919
+      rune-circle_86: 2625029725148901394
+      rune-circle_87: -8086623984444406839
+      rune-circle_88: -5738144995318442726
+      rune-circle_89: 7007234738300701416
+      rune-circle_9: -2521407332170517932
+      rune-circle_90: -7756941072475156392
+      rune-circle_91: 468886034933819376
+      rune-circle_92: 8147478224969294915
+      rune-circle_93: 3024139261009695244
+      rune-circle_94: -600666024813998413
+      rune-circle_95: 8896239800830985778
+      rune-circle_96: -484857218907796901
+      rune-circle_97: -5738833890580986818
+      rune-circle_98: -2421442954751649701
+      rune-circle_99: 5259924006391492743
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,3952 @@
+fileFormatVersion: 2
+guid: d167a81ab5629f147ba0effcf59e011f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1417130466132624444
+    second: cursed-effect-only_0
+  - first:
+      213: -3043827128793119688
+    second: cursed-effect-only_1
+  - first:
+      213: 7056144406523929702
+    second: cursed-effect-only_2
+  - first:
+      213: 6190852893762275196
+    second: cursed-effect-only_3
+  - first:
+      213: -2345379865559053339
+    second: cursed-effect-only_4
+  - first:
+      213: 2810552484366292643
+    second: cursed-effect-only_5
+  - first:
+      213: 3749726426812031517
+    second: cursed-effect-only_6
+  - first:
+      213: 5548082675296666017
+    second: cursed-effect-only_7
+  - first:
+      213: -2398143316701291015
+    second: cursed-effect-only_8
+  - first:
+      213: -4355018726043889340
+    second: cursed-effect-only_9
+  - first:
+      213: 7711879900032862480
+    second: cursed-effect-only_10
+  - first:
+      213: -8063141457113957908
+    second: cursed-effect-only_11
+  - first:
+      213: -7632827572839053975
+    second: cursed-effect-only_12
+  - first:
+      213: -1383108554106638843
+    second: cursed-effect-only_13
+  - first:
+      213: 4750271175971155097
+    second: cursed-effect-only_14
+  - first:
+      213: -5252623385575810493
+    second: cursed-effect-only_15
+  - first:
+      213: 4048388361022603347
+    second: cursed-effect-only_16
+  - first:
+      213: 1320080493024928119
+    second: cursed-effect-only_17
+  - first:
+      213: -8423560870271053406
+    second: cursed-effect-only_18
+  - first:
+      213: 7706023208724817876
+    second: cursed-effect-only_19
+  - first:
+      213: 1910773197347750612
+    second: cursed-effect-only_20
+  - first:
+      213: 5065020273452435095
+    second: cursed-effect-only_21
+  - first:
+      213: -7777216059452350262
+    second: cursed-effect-only_22
+  - first:
+      213: -2793708999038111927
+    second: cursed-effect-only_23
+  - first:
+      213: -1908901023107745727
+    second: cursed-effect-only_24
+  - first:
+      213: 4270196811372841149
+    second: cursed-effect-only_25
+  - first:
+      213: 1606551672102578314
+    second: cursed-effect-only_26
+  - first:
+      213: 1653027555335968512
+    second: cursed-effect-only_27
+  - first:
+      213: 345336733966737761
+    second: cursed-effect-only_28
+  - first:
+      213: 4145741457136728431
+    second: cursed-effect-only_29
+  - first:
+      213: -4395547110053234982
+    second: cursed-effect-only_30
+  - first:
+      213: -7239474977829947874
+    second: cursed-effect-only_31
+  - first:
+      213: -6028391649807146837
+    second: cursed-effect-only_32
+  - first:
+      213: -4509923851509672706
+    second: cursed-effect-only_33
+  - first:
+      213: 9081350969018197960
+    second: cursed-effect-only_34
+  - first:
+      213: 129129011889108930
+    second: cursed-effect-only_35
+  - first:
+      213: 6116091195106513086
+    second: cursed-effect-only_36
+  - first:
+      213: -6580820234565481234
+    second: cursed-effect-only_37
+  - first:
+      213: -2126456239529941750
+    second: cursed-effect-only_38
+  - first:
+      213: 744921950730335355
+    second: cursed-effect-only_39
+  - first:
+      213: -7107856912048846164
+    second: cursed-effect-only_40
+  - first:
+      213: -5168345588153703177
+    second: cursed-effect-only_41
+  - first:
+      213: -798413914228289101
+    second: cursed-effect-only_42
+  - first:
+      213: 1444286412447192701
+    second: cursed-effect-only_43
+  - first:
+      213: 1378043592681964027
+    second: cursed-effect-only_44
+  - first:
+      213: -5279292098594160237
+    second: cursed-effect-only_45
+  - first:
+      213: 5564694129379141829
+    second: cursed-effect-only_46
+  - first:
+      213: -1437189632151496470
+    second: cursed-effect-only_47
+  - first:
+      213: 8602586798809732532
+    second: cursed-effect-only_48
+  - first:
+      213: 2405420931871240128
+    second: cursed-effect-only_49
+  - first:
+      213: 6916293380287333559
+    second: cursed-effect-only_50
+  - first:
+      213: 4837537052648228850
+    second: cursed-effect-only_51
+  - first:
+      213: 6837133406918029589
+    second: cursed-effect-only_52
+  - first:
+      213: 7485839699732292411
+    second: cursed-effect-only_53
+  - first:
+      213: 2173646429898782397
+    second: cursed-effect-only_54
+  - first:
+      213: 2860285728925322556
+    second: cursed-effect-only_55
+  - first:
+      213: -6043055443478793093
+    second: cursed-effect-only_56
+  - first:
+      213: -6215549397730213524
+    second: cursed-effect-only_57
+  - first:
+      213: 5425213579144200348
+    second: cursed-effect-only_58
+  - first:
+      213: -4364452536245940599
+    second: cursed-effect-only_59
+  - first:
+      213: -4375543467617544307
+    second: cursed-effect-only_60
+  - first:
+      213: 5467099779122081690
+    second: cursed-effect-only_61
+  - first:
+      213: 1202378151285012098
+    second: cursed-effect-only_62
+  - first:
+      213: -5512986779524562614
+    second: cursed-effect-only_63
+  - first:
+      213: -54802789771005738
+    second: cursed-effect-only_64
+  - first:
+      213: 1749647156968324561
+    second: cursed-effect-only_65
+  - first:
+      213: 6211214526006776531
+    second: cursed-effect-only_66
+  - first:
+      213: -5139135855806584143
+    second: cursed-effect-only_67
+  - first:
+      213: 3124852100179152005
+    second: cursed-effect-only_68
+  - first:
+      213: 5660509762231833102
+    second: cursed-effect-only_69
+  - first:
+      213: 2765348607600729475
+    second: cursed-effect-only_70
+  - first:
+      213: 4409153639396839188
+    second: cursed-effect-only_71
+  - first:
+      213: -3248450032059585123
+    second: cursed-effect-only_72
+  - first:
+      213: -1448841024653984040
+    second: cursed-effect-only_73
+  - first:
+      213: -8619333868004818665
+    second: cursed-effect-only_74
+  - first:
+      213: 37479670432338022
+    second: cursed-effect-only_75
+  - first:
+      213: 6178468033753717645
+    second: cursed-effect-only_76
+  - first:
+      213: 8010080331446009528
+    second: cursed-effect-only_77
+  - first:
+      213: 1687561192564883693
+    second: cursed-effect-only_78
+  - first:
+      213: 2532098448241223485
+    second: cursed-effect-only_79
+  - first:
+      213: 8061036424039619706
+    second: cursed-effect-only_80
+  - first:
+      213: -9202683587463492272
+    second: cursed-effect-only_81
+  - first:
+      213: -5474725885556357735
+    second: cursed-effect-only_82
+  - first:
+      213: -1136725624582321466
+    second: cursed-effect-only_83
+  - first:
+      213: 865581677295555593
+    second: cursed-effect-only_84
+  - first:
+      213: 1383616077998178242
+    second: cursed-effect-only_85
+  - first:
+      213: -1745960035903083571
+    second: cursed-effect-only_86
+  - first:
+      213: -2909573216091147487
+    second: cursed-effect-only_87
+  - first:
+      213: 4697113342475108649
+    second: cursed-effect-only_88
+  - first:
+      213: -7366533965371949987
+    second: cursed-effect-only_89
+  - first:
+      213: 688773965893767489
+    second: cursed-effect-only_90
+  - first:
+      213: 1126117806750865766
+    second: cursed-effect-only_91
+  - first:
+      213: 903622926321632135
+    second: cursed-effect-only_92
+  - first:
+      213: 4348442630292660510
+    second: cursed-effect-only_93
+  - first:
+      213: 414987757401022776
+    second: cursed-effect-only_94
+  - first:
+      213: 3371259364079103028
+    second: cursed-effect-only_95
+  - first:
+      213: 1319654783451594671
+    second: cursed-effect-only_96
+  - first:
+      213: -6182631014922765011
+    second: cursed-effect-only_97
+  - first:
+      213: 8015661085119836433
+    second: cursed-effect-only_98
+  - first:
+      213: 3001641631479987733
+    second: cursed-effect-only_99
+  - first:
+      213: -5903115632858950211
+    second: cursed-effect-only_100
+  - first:
+      213: -5870371694924854573
+    second: cursed-effect-only_101
+  - first:
+      213: 5296743962986651714
+    second: cursed-effect-only_102
+  - first:
+      213: -4879851358264591143
+    second: cursed-effect-only_103
+  - first:
+      213: -9005100673491445638
+    second: cursed-effect-only_104
+  - first:
+      213: 3371015596552351877
+    second: cursed-effect-only_105
+  - first:
+      213: 5984788824317748951
+    second: cursed-effect-only_106
+  - first:
+      213: 4100229253247690645
+    second: cursed-effect-only_107
+  - first:
+      213: -170565627612549644
+    second: cursed-effect-only_108
+  - first:
+      213: 7773157948055395707
+    second: cursed-effect-only_109
+  - first:
+      213: 6473720745761400893
+    second: cursed-effect-only_110
+  - first:
+      213: -80323717273777303
+    second: cursed-effect-only_111
+  - first:
+      213: 7682155217670118265
+    second: cursed-effect-only_112
+  - first:
+      213: -2035892035632604956
+    second: cursed-effect-only_113
+  - first:
+      213: 212891004689329698
+    second: cursed-effect-only_114
+  - first:
+      213: 2028400121779972177
+    second: cursed-effect-only_115
+  - first:
+      213: -3450592975108164178
+    second: cursed-effect-only_116
+  - first:
+      213: 4864876995717519734
+    second: cursed-effect-only_117
+  - first:
+      213: 3247170298965551530
+    second: cursed-effect-only_118
+  - first:
+      213: 604940799801863006
+    second: cursed-effect-only_119
+  - first:
+      213: -4954229106946573184
+    second: cursed-effect-only_120
+  - first:
+      213: -2812482787962274431
+    second: cursed-effect-only_121
+  - first:
+      213: -8108819741241808447
+    second: cursed-effect-only_122
+  - first:
+      213: -3657848884904989508
+    second: cursed-effect-only_123
+  - first:
+      213: 5004517401309283710
+    second: cursed-effect-only_124
+  - first:
+      213: 2803936976712749139
+    second: cursed-effect-only_125
+  - first:
+      213: -7574611804020298907
+    second: cursed-effect-only_126
+  - first:
+      213: 6931821362574108762
+    second: cursed-effect-only_127
+  - first:
+      213: 1150051445403553718
+    second: cursed-effect-only_128
+  - first:
+      213: -8154186781742452752
+    second: cursed-effect-only_129
+  - first:
+      213: -7435991337575101267
+    second: cursed-effect-only_130
+  - first:
+      213: -4022356662824644192
+    second: cursed-effect-only_131
+  - first:
+      213: -5138134521071323400
+    second: cursed-effect-only_132
+  - first:
+      213: -4658023271356003871
+    second: cursed-effect-only_133
+  - first:
+      213: 5455564204597603160
+    second: cursed-effect-only_134
+  - first:
+      213: -1084142563071178430
+    second: cursed-effect-only_135
+  - first:
+      213: -7400852244875880464
+    second: cursed-effect-only_136
+  - first:
+      213: 8265737607031022947
+    second: cursed-effect-only_137
+  - first:
+      213: -38477960407897947
+    second: cursed-effect-only_138
+  - first:
+      213: -3029204229492096848
+    second: cursed-effect-only_139
+  - first:
+      213: 8971375541379995541
+    second: cursed-effect-only_140
+  - first:
+      213: -6264743058204437041
+    second: cursed-effect-only_141
+  - first:
+      213: -8310320053814600856
+    second: cursed-effect-only_142
+  - first:
+      213: 8961155084223074503
+    second: cursed-effect-only_143
+  - first:
+      213: 8116100657114021153
+    second: cursed-effect-only_144
+  - first:
+      213: 5088326536219471343
+    second: cursed-effect-only_145
+  - first:
+      213: -7154792662201075803
+    second: cursed-effect-only_146
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: cursed-effect-only_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 614
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbf7cd6957555ce0800000000000000
+      internalID: -1417130466132624444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 614
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 834c69e6a5722c5d0800000000000000
+      internalID: -3043827128793119688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_2
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 614
+        width: 41
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 664e7b2e3f57ce160800000000000000
+      internalID: 7056144406523929702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_3
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 613
+        width: 41
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c77466508e35ae550800000000000000
+      internalID: 6190852893762275196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_4
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 613
+        width: 42
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ebcff94079837fd0800000000000000
+      internalID: -2345379865559053339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_5
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 613
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a69e35f796110720800000000000000
+      internalID: 2810552484366292643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_6
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 614
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d12a60b7154b90430800000000000000
+      internalID: 3749726426812031517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_7
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 613
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a18e855ccfbefc40800000000000000
+      internalID: 5548082675296666017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_8
+      rect:
+        serializedVersion: 2
+        x: 523
+        y: 614
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fdda8ffb5518bed0800000000000000
+      internalID: -2398143316701291015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_9
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 614
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 441daf3ea8ddf83c0800000000000000
+      internalID: -4355018726043889340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_10
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 592
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0190fe7e8e9160b60800000000000000
+      internalID: 7711879900032862480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_11
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 592
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce93ffaa097f91090800000000000000
+      internalID: -8063141457113957908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_12
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9650f1153cfb21690800000000000000
+      internalID: -7632827572839053975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_13
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50e6baa19163ecce0800000000000000
+      internalID: -1383108554106638843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_14
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ca98e677a5ce140800000000000000
+      internalID: 4750271175971155097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_15
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a18d34cdeea17b0800000000000000
+      internalID: -5252623385575810493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_16
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350049bd3c3ce2830800000000000000
+      internalID: 4048388361022603347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_17
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7716cadd63ed15210800000000000000
+      internalID: 1320080493024928119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_18
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a11d97b400891b80800000000000000
+      internalID: -8423560870271053406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_19
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 592
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d765f2b74b41fa60800000000000000
+      internalID: 7706023208724817876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_20
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 530
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d2004a691e648a10800000000000000
+      internalID: 1910773197347750612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_21
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 529
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c8436a119a4640800000000000000
+      internalID: 5065020273452435095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_22
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 529
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac021ea0337c11490800000000000000
+      internalID: -7777216059452350262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_23
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 530
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f65829770ca39d0800000000000000
+      internalID: -2793708999038111927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_24
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 529
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 148784e12a83285e0800000000000000
+      internalID: -1908901023107745727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_25
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 529
+        width: 23
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db842ee1069c24b30800000000000000
+      internalID: 4270196811372841149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 530
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88ebf0eb3e9b4610800000000000000
+      internalID: 1606551672102578314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_27
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 530
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0079bbfadcbb0f610800000000000000
+      internalID: 1653027555335968512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_28
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 530
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1612bfb0ee1eac400800000000000000
+      internalID: 345336733966737761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_29
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 530
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f69be33e3e1a88930800000000000000
+      internalID: 4145741457136728431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_30
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 529
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad638c72131eff2c0800000000000000
+      internalID: -4395547110053234982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16fd123dd7388b90800000000000000
+      internalID: -7239474977829947874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_32
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba0605afbb9d65ca0800000000000000
+      internalID: -6028391649807146837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_33
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef454b2d6288961c0800000000000000
+      internalID: -4509923851509672706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_34
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7aafc5790770e70800000000000000
+      internalID: 9081350969018197960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_35
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c7f8d3f622cac100800000000000000
+      internalID: 129129011889108930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_36
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0d73a9988b0e450800000000000000
+      internalID: 6116091195106513086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_37
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec85040dda3ca4a0800000000000000
+      internalID: -6580820234565481234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_38
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05a76c015f4d72e0800000000000000
+      internalID: -2126456239529941750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_39
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b743ca2419e765a00800000000000000
+      internalID: 744921950730335355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_40
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 508
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caa060b2cc1db5d90800000000000000
+      internalID: -7107856912048846164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_41
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 446
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f424a512195648b0800000000000000
+      internalID: -5168345588153703177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_42
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 446
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b191b276c67be4f0800000000000000
+      internalID: -798413914228289101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_43
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 446
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7696d707d22b0410800000000000000
+      internalID: 1444286412447192701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_44
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 445
+        width: 44
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf1cfcaa85bcf1310800000000000000
+      internalID: 1378043592681964027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_45
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 445
+        width: 43
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 391c4c5aecf2cb6b0800000000000000
+      internalID: -5279292098594160237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_46
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 445
+        width: 42
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c86851e3d3c93d40800000000000000
+      internalID: 5564694129379141829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_47
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 446
+        width: 42
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae85cb4e4a31e0ce0800000000000000
+      internalID: -1437189632151496470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_48
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 445
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5d4847d17826770800000000000000
+      internalID: 8602586798809732532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_49
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 445
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf6973d795c16120800000000000000
+      internalID: 2405420931871240128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_50
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 446
+        width: 41
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4896e6f2c9bff50800000000000000
+      internalID: 6916293380287333559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_51
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f743eaa152622340800000000000000
+      internalID: 4837537052648228850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_52
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5113e41eb9062ee50800000000000000
+      internalID: 6837133406918029589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_53
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b336f049b8b03e760800000000000000
+      internalID: 7485839699732292411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_54
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db6b96959e75a2e10800000000000000
+      internalID: 2173646429898782397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_55
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3d86bc47b6c1b720800000000000000
+      internalID: 2860285728925322556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_56
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b74b4757711c22ca0800000000000000
+      internalID: -6043055443478793093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_57
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 424
+        width: 37
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c61c56011ceedb9a0800000000000000
+      internalID: -6215549397730213524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_58
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 424
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c900487910b3a4b40800000000000000
+      internalID: 5425213579144200348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_59
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 424
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e020aca895e63c0800000000000000
+      internalID: -4364452536245940599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_60
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 424
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8710691662f643c0800000000000000
+      internalID: -4375543467617544307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_61
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 362
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f203e784a0fdb40800000000000000
+      internalID: 5467099779122081690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_62
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 361
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286b801ee84bfa010800000000000000
+      internalID: 1202378151285012098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_63
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 361
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41830babbfed73b0800000000000000
+      internalID: -5512986779524562614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_64
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 362
+        width: 42
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0bffe272d4d3ff0800000000000000
+      internalID: -54802789771005738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_65
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 362
+        width: 43
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dd7e59b1def74810800000000000000
+      internalID: 1749647156968324561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_66
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 361
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d25166f3baa23650800000000000000
+      internalID: 6211214526006776531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_67
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 362
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1baec2eda2f1ea8b0800000000000000
+      internalID: -5139135855806584143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_68
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 362
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ccfcecd64bd5b20800000000000000
+      internalID: 3124852100179152005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_69
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 362
+        width: 44
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e02957953ab2e8e40800000000000000
+      internalID: 5660509762231833102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_70
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 361
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38d992c38ed706620800000000000000
+      internalID: 2765348607600729475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_71
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 340
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f8e54dfd5703d30800000000000000
+      internalID: 4409153639396839188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_72
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 340
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d6b7828ef2be2d0800000000000000
+      internalID: -3248450032059585123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_73
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 340
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de7c7da3cea4ebe0800000000000000
+      internalID: -1448841024653984040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_74
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 340
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7114415a389f16880800000000000000
+      internalID: -8619333868004818665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_75
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 340
+        width: 35
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6601b6acf87258000800000000000000
+      internalID: 37479670432338022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_76
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 340
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b1ff711f35eb550800000000000000
+      internalID: 6178468033753717645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_77
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 340
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bebe2a4f95892f60800000000000000
+      internalID: 8010080331446009528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_78
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 340
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0809ba6fb6b6710800000000000000
+      internalID: 1687561192564883693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_79
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 340
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d376cbf7f12d32320800000000000000
+      internalID: 2532098448241223485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_80
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 340
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7cdd502bed8edf60800000000000000
+      internalID: 8061036424039619706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_81
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 278
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05dcbecf800894080800000000000000
+      internalID: -9202683587463492272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_82
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 278
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99507cc30ddd504b0800000000000000
+      internalID: -5474725885556357735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_83
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 278
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cacfab211a8930f0800000000000000
+      internalID: -1136725624582321466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_84
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 277
+        width: 45
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904d94f03f9230c00800000000000000
+      internalID: 865581677295555593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_85
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 278
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cfb9920e77933310800000000000000
+      internalID: 1383616077998178242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_86
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 278
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcbe7fb099a15c7e0800000000000000
+      internalID: -1745960035903083571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_87
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 278
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12375e6539e1f97d0800000000000000
+      internalID: -2909573216091147487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_88
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 277
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9210af7d2bf7f2140800000000000000
+      internalID: 4697113342475108649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_89
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 277
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cb7285360d4c990800000000000000
+      internalID: -7366533965371949987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_90
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 278
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14192afc5440f8900800000000000000
+      internalID: 688773965893767489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_91
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 256
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66990a6cd26c0af00800000000000000
+      internalID: 1126117806750865766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_92
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 256
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783cc4e83405a8c00800000000000000
+      internalID: 903622926321632135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_93
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1162c08885c85c30800000000000000
+      internalID: 4348442630292660510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_94
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831260aaa2552c500800000000000000
+      internalID: 414987757401022776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_95
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43ce4a9a78e19ce20800000000000000
+      internalID: 3371259364079103028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_96
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faff6c1a80b505210800000000000000
+      internalID: 1319654783451594671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_97
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2d373259d1e23aa0800000000000000
+      internalID: -6182631014922765011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_98
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1117d72c9495d3f60800000000000000
+      internalID: 8015661085119836433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_99
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51e73631929f7a920800000000000000
+      internalID: 3001641631479987733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_100
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 256
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db51363ab9be31ea0800000000000000
+      internalID: -5903115632858950211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_101
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 194
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da0f78cb00488ea0800000000000000
+      internalID: -5870371694924854573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_102
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 193
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240a30c2290d18940800000000000000
+      internalID: 5296743962986651714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_103
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 194
+        width: 45
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dc7ee15b09474cb0800000000000000
+      internalID: -4879851358264591143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_104
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 194
+        width: 46
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7859e506a4770380800000000000000
+      internalID: -9005100673491445638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_105
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 194
+        width: 46
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580fdcc13d048ce20800000000000000
+      internalID: 3371015596552351877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_106
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 193
+        width: 47
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6ef291abd3e0350800000000000000
+      internalID: 5984788824317748951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_107
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 194
+        width: 45
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5976e7928c0f6e830800000000000000
+      internalID: 4100229253247690645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_108
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 194
+        width: 44
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fd2343277702adf0800000000000000
+      internalID: -170565627612549644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_109
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 194
+        width: 44
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d98d448fdcfdb60800000000000000
+      internalID: 7773157948055395707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_110
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 193
+        width: 22
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d386f2218b647d950800000000000000
+      internalID: 6473720745761400893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_111
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 194
+        width: 24
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96b8bd43102a2eef0800000000000000
+      internalID: -80323717273777303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_112
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b14aaf77f7c9a60800000000000000
+      internalID: 7682155217670118265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_113
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e8521feafe0fb3e0800000000000000
+      internalID: -2035892035632604956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_114
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e2266ad3754f200800000000000000
+      internalID: 212891004689329698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_115
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 158ed01f923562c10800000000000000
+      internalID: 2028400121779972177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_116
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea5383e98f70d10d0800000000000000
+      internalID: -3450592975108164178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_117
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67956b53ad3838340800000000000000
+      internalID: 4864876995717519734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_118
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa96a03ce24401d20800000000000000
+      internalID: 3247170298965551530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_119
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5ba45ac37e256800800000000000000
+      internalID: 604940799801863006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_120
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08c7c8830ea0f3bb0800000000000000
+      internalID: -4954229106946573184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_121
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 172
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18dbb963ecd08f8d0800000000000000
+      internalID: -2812482787962274431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_122
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 109
+        width: 20
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c96b9f586fa77f80800000000000000
+      internalID: -8108819741241808447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_123
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 111
+        width: 23
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbced2db1d5bc3dc0800000000000000
+      internalID: -3657848884904989508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_124
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 109
+        width: 43
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e750d49bf0e937540800000000000000
+      internalID: 5004517401309283710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_125
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 109
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 350db8d03d599e620800000000000000
+      internalID: 2803936976712749139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_126
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 109
+        width: 43
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ba3ed32b291e690800000000000000
+      internalID: -7574611804020298907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_127
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 110
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58a1ba8dc6c23060800000000000000
+      internalID: 6931821362574108762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_128
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 110
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf04b442bdc5ff00800000000000000
+      internalID: 1150051445403553718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_129
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 110
+        width: 39
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff2e02235286de80800000000000000
+      internalID: -8154186781742452752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_130
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 109
+        width: 40
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac44faa64d0ec890800000000000000
+      internalID: -7435991337575101267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_131
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 109
+        width: 39
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a159603de7bd28c0800000000000000
+      internalID: -4022356662824644192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_132
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 110
+        width: 40
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f63f5740eda1b8b0800000000000000
+      internalID: -5138134521071323400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_133
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9825393806b5fb0800000000000000
+      internalID: -4658023271356003871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_134
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85b60604dbe06bb40800000000000000
+      internalID: 5455564204597603160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_135
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 249c24a351a54f0f0800000000000000
+      internalID: -1084142563071178430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_136
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f7550d3814ea4990800000000000000
+      internalID: -7400852244875880464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_137
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365eba15f8cc5b270800000000000000
+      internalID: 8265737607031022947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_138
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8a436bf7c477ff0800000000000000
+      internalID: -38477960407897947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_139
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 88
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b0430d7dca16f5d0800000000000000
+      internalID: -3029204229492096848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_140
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 88
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5971592c58ab08c70800000000000000
+      internalID: 8971375541379995541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_141
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 88
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc551ae61692f09a0800000000000000
+      internalID: -6264743058204437041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_142
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 88
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b5396e0ffcbac80800000000000000
+      internalID: -8310320053814600856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_143
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 26
+        width: 40
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c05d44221b6c5c70800000000000000
+      internalID: 8961155084223074503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_144
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 25
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d7894fb8e22a070800000000000000
+      internalID: 8116100657114021153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_145
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed2e8c860e5d9640800000000000000
+      internalID: 5088326536219471343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: cursed-effect-only_146
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 4
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a7feef3bf115bc90800000000000000
+      internalID: -7154792662201075803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      cursed-effect-only_0: -1417130466132624444
+      cursed-effect-only_1: -3043827128793119688
+      cursed-effect-only_10: 7711879900032862480
+      cursed-effect-only_100: -5903115632858950211
+      cursed-effect-only_101: -5870371694924854573
+      cursed-effect-only_102: 5296743962986651714
+      cursed-effect-only_103: -4879851358264591143
+      cursed-effect-only_104: -9005100673491445638
+      cursed-effect-only_105: 3371015596552351877
+      cursed-effect-only_106: 5984788824317748951
+      cursed-effect-only_107: 4100229253247690645
+      cursed-effect-only_108: -170565627612549644
+      cursed-effect-only_109: 7773157948055395707
+      cursed-effect-only_11: -8063141457113957908
+      cursed-effect-only_110: 6473720745761400893
+      cursed-effect-only_111: -80323717273777303
+      cursed-effect-only_112: 7682155217670118265
+      cursed-effect-only_113: -2035892035632604956
+      cursed-effect-only_114: 212891004689329698
+      cursed-effect-only_115: 2028400121779972177
+      cursed-effect-only_116: -3450592975108164178
+      cursed-effect-only_117: 4864876995717519734
+      cursed-effect-only_118: 3247170298965551530
+      cursed-effect-only_119: 604940799801863006
+      cursed-effect-only_12: -7632827572839053975
+      cursed-effect-only_120: -4954229106946573184
+      cursed-effect-only_121: -2812482787962274431
+      cursed-effect-only_122: -8108819741241808447
+      cursed-effect-only_123: -3657848884904989508
+      cursed-effect-only_124: 5004517401309283710
+      cursed-effect-only_125: 2803936976712749139
+      cursed-effect-only_126: -7574611804020298907
+      cursed-effect-only_127: 6931821362574108762
+      cursed-effect-only_128: 1150051445403553718
+      cursed-effect-only_129: -8154186781742452752
+      cursed-effect-only_13: -1383108554106638843
+      cursed-effect-only_130: -7435991337575101267
+      cursed-effect-only_131: -4022356662824644192
+      cursed-effect-only_132: -5138134521071323400
+      cursed-effect-only_133: -4658023271356003871
+      cursed-effect-only_134: 5455564204597603160
+      cursed-effect-only_135: -1084142563071178430
+      cursed-effect-only_136: -7400852244875880464
+      cursed-effect-only_137: 8265737607031022947
+      cursed-effect-only_138: -38477960407897947
+      cursed-effect-only_139: -3029204229492096848
+      cursed-effect-only_14: 4750271175971155097
+      cursed-effect-only_140: 8971375541379995541
+      cursed-effect-only_141: -6264743058204437041
+      cursed-effect-only_142: -8310320053814600856
+      cursed-effect-only_143: 8961155084223074503
+      cursed-effect-only_144: 8116100657114021153
+      cursed-effect-only_145: 5088326536219471343
+      cursed-effect-only_146: -7154792662201075803
+      cursed-effect-only_15: -5252623385575810493
+      cursed-effect-only_16: 4048388361022603347
+      cursed-effect-only_17: 1320080493024928119
+      cursed-effect-only_18: -8423560870271053406
+      cursed-effect-only_19: 7706023208724817876
+      cursed-effect-only_2: 7056144406523929702
+      cursed-effect-only_20: 1910773197347750612
+      cursed-effect-only_21: 5065020273452435095
+      cursed-effect-only_22: -7777216059452350262
+      cursed-effect-only_23: -2793708999038111927
+      cursed-effect-only_24: -1908901023107745727
+      cursed-effect-only_25: 4270196811372841149
+      cursed-effect-only_26: 1606551672102578314
+      cursed-effect-only_27: 1653027555335968512
+      cursed-effect-only_28: 345336733966737761
+      cursed-effect-only_29: 4145741457136728431
+      cursed-effect-only_3: 6190852893762275196
+      cursed-effect-only_30: -4395547110053234982
+      cursed-effect-only_31: -7239474977829947874
+      cursed-effect-only_32: -6028391649807146837
+      cursed-effect-only_33: -4509923851509672706
+      cursed-effect-only_34: 9081350969018197960
+      cursed-effect-only_35: 129129011889108930
+      cursed-effect-only_36: 6116091195106513086
+      cursed-effect-only_37: -6580820234565481234
+      cursed-effect-only_38: -2126456239529941750
+      cursed-effect-only_39: 744921950730335355
+      cursed-effect-only_4: -2345379865559053339
+      cursed-effect-only_40: -7107856912048846164
+      cursed-effect-only_41: -5168345588153703177
+      cursed-effect-only_42: -798413914228289101
+      cursed-effect-only_43: 1444286412447192701
+      cursed-effect-only_44: 1378043592681964027
+      cursed-effect-only_45: -5279292098594160237
+      cursed-effect-only_46: 5564694129379141829
+      cursed-effect-only_47: -1437189632151496470
+      cursed-effect-only_48: 8602586798809732532
+      cursed-effect-only_49: 2405420931871240128
+      cursed-effect-only_5: 2810552484366292643
+      cursed-effect-only_50: 6916293380287333559
+      cursed-effect-only_51: 4837537052648228850
+      cursed-effect-only_52: 6837133406918029589
+      cursed-effect-only_53: 7485839699732292411
+      cursed-effect-only_54: 2173646429898782397
+      cursed-effect-only_55: 2860285728925322556
+      cursed-effect-only_56: -6043055443478793093
+      cursed-effect-only_57: -6215549397730213524
+      cursed-effect-only_58: 5425213579144200348
+      cursed-effect-only_59: -4364452536245940599
+      cursed-effect-only_6: 3749726426812031517
+      cursed-effect-only_60: -4375543467617544307
+      cursed-effect-only_61: 5467099779122081690
+      cursed-effect-only_62: 1202378151285012098
+      cursed-effect-only_63: -5512986779524562614
+      cursed-effect-only_64: -54802789771005738
+      cursed-effect-only_65: 1749647156968324561
+      cursed-effect-only_66: 6211214526006776531
+      cursed-effect-only_67: -5139135855806584143
+      cursed-effect-only_68: 3124852100179152005
+      cursed-effect-only_69: 5660509762231833102
+      cursed-effect-only_7: 5548082675296666017
+      cursed-effect-only_70: 2765348607600729475
+      cursed-effect-only_71: 4409153639396839188
+      cursed-effect-only_72: -3248450032059585123
+      cursed-effect-only_73: -1448841024653984040
+      cursed-effect-only_74: -8619333868004818665
+      cursed-effect-only_75: 37479670432338022
+      cursed-effect-only_76: 6178468033753717645
+      cursed-effect-only_77: 8010080331446009528
+      cursed-effect-only_78: 1687561192564883693
+      cursed-effect-only_79: 2532098448241223485
+      cursed-effect-only_8: -2398143316701291015
+      cursed-effect-only_80: 8061036424039619706
+      cursed-effect-only_81: -9202683587463492272
+      cursed-effect-only_82: -5474725885556357735
+      cursed-effect-only_83: -1136725624582321466
+      cursed-effect-only_84: 865581677295555593
+      cursed-effect-only_85: 1383616077998178242
+      cursed-effect-only_86: -1745960035903083571
+      cursed-effect-only_87: -2909573216091147487
+      cursed-effect-only_88: 4697113342475108649
+      cursed-effect-only_89: -7366533965371949987
+      cursed-effect-only_9: -4355018726043889340
+      cursed-effect-only_90: 688773965893767489
+      cursed-effect-only_91: 1126117806750865766
+      cursed-effect-only_92: 903622926321632135
+      cursed-effect-only_93: 4348442630292660510
+      cursed-effect-only_94: 414987757401022776
+      cursed-effect-only_95: 3371259364079103028
+      cursed-effect-only_96: 1319654783451594671
+      cursed-effect-only_97: -6182631014922765011
+      cursed-effect-only_98: 8015661085119836433
+      cursed-effect-only_99: 3001641631479987733
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,5980 @@
+fileFormatVersion: 2
+guid: 68be2d1a8a8cc554eaacaeaf18bdd650
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8438525800809677085
+    second: smite_0
+  - first:
+      213: -4213986519658508066
+    second: smite_1
+  - first:
+      213: 4705068862267870713
+    second: smite_2
+  - first:
+      213: -8488879821371717910
+    second: smite_3
+  - first:
+      213: 4815642384384008503
+    second: smite_4
+  - first:
+      213: -5500369798351067062
+    second: smite_5
+  - first:
+      213: 909334058844824911
+    second: smite_6
+  - first:
+      213: 3403227452793998827
+    second: smite_7
+  - first:
+      213: 8093899757832982718
+    second: smite_8
+  - first:
+      213: 886047925943594915
+    second: smite_9
+  - first:
+      213: 2901928008279675815
+    second: smite_10
+  - first:
+      213: -5250637441058279535
+    second: smite_11
+  - first:
+      213: -3632065265723728850
+    second: smite_12
+  - first:
+      213: -9014522890776991194
+    second: smite_13
+  - first:
+      213: -2092891467637040771
+    second: smite_14
+  - first:
+      213: -522459313712137303
+    second: smite_15
+  - first:
+      213: -1802330385844768582
+    second: smite_16
+  - first:
+      213: 5800594396978975611
+    second: smite_17
+  - first:
+      213: 2967841808234310626
+    second: smite_18
+  - first:
+      213: -8987872063256051438
+    second: smite_19
+  - first:
+      213: 1252675201617639462
+    second: smite_20
+  - first:
+      213: -7193259669371046936
+    second: smite_21
+  - first:
+      213: -8224243269865868110
+    second: smite_22
+  - first:
+      213: 3972136529336772698
+    second: smite_23
+  - first:
+      213: 3623727592435886471
+    second: smite_24
+  - first:
+      213: 4010903240164153675
+    second: smite_25
+  - first:
+      213: -3287757351831533927
+    second: smite_26
+  - first:
+      213: -4075372144730782364
+    second: smite_27
+  - first:
+      213: -2368291137487164746
+    second: smite_28
+  - first:
+      213: 7911812087469995635
+    second: smite_29
+  - first:
+      213: 6367377193140922899
+    second: smite_30
+  - first:
+      213: 8749532050296320539
+    second: smite_31
+  - first:
+      213: -4746772431925323599
+    second: smite_32
+  - first:
+      213: 1105359034858848847
+    second: smite_33
+  - first:
+      213: -5811114723629253399
+    second: smite_34
+  - first:
+      213: -8491702267311648054
+    second: smite_35
+  - first:
+      213: 7034820616826689539
+    second: smite_36
+  - first:
+      213: -3236426397238107494
+    second: smite_37
+  - first:
+      213: 3838329152403687548
+    second: smite_38
+  - first:
+      213: 8913023146083448368
+    second: smite_39
+  - first:
+      213: 3642751056419754474
+    second: smite_40
+  - first:
+      213: 5238108626045293760
+    second: smite_41
+  - first:
+      213: -2601543541709658877
+    second: smite_42
+  - first:
+      213: -4168151984661354360
+    second: smite_43
+  - first:
+      213: -6666609347324548426
+    second: smite_44
+  - first:
+      213: -4344547595214199847
+    second: smite_45
+  - first:
+      213: -7136060270368942214
+    second: smite_46
+  - first:
+      213: 7879229408809073507
+    second: smite_47
+  - first:
+      213: 8047949341965144730
+    second: smite_48
+  - first:
+      213: 9023755383615280584
+    second: smite_49
+  - first:
+      213: 7030427870346435934
+    second: smite_50
+  - first:
+      213: 4042712443940815381
+    second: smite_51
+  - first:
+      213: 376304481075570487
+    second: smite_52
+  - first:
+      213: -818865065559853734
+    second: smite_53
+  - first:
+      213: 8096903296240740371
+    second: smite_54
+  - first:
+      213: 439051480346055420
+    second: smite_55
+  - first:
+      213: -1335767814413861746
+    second: smite_56
+  - first:
+      213: 7645428458303121203
+    second: smite_57
+  - first:
+      213: 58554104049890169
+    second: smite_58
+  - first:
+      213: -7914331120808179763
+    second: smite_59
+  - first:
+      213: 404781866746342873
+    second: smite_60
+  - first:
+      213: 5277396194454710351
+    second: smite_61
+  - first:
+      213: 1708085490072105963
+    second: smite_62
+  - first:
+      213: -480749333199436534
+    second: smite_63
+  - first:
+      213: 4016284286260633403
+    second: smite_64
+  - first:
+      213: -2234417710436095427
+    second: smite_65
+  - first:
+      213: -1443844724736550304
+    second: smite_66
+  - first:
+      213: 5718609495955788687
+    second: smite_67
+  - first:
+      213: 3260446750891022003
+    second: smite_68
+  - first:
+      213: -3501668659345626726
+    second: smite_69
+  - first:
+      213: -4211523238742317881
+    second: smite_70
+  - first:
+      213: -4241783063404389913
+    second: smite_71
+  - first:
+      213: -4483373128539294294
+    second: smite_72
+  - first:
+      213: 7651176597130353510
+    second: smite_73
+  - first:
+      213: 7376266011638089587
+    second: smite_74
+  - first:
+      213: -8378404590346828509
+    second: smite_75
+  - first:
+      213: -9152376826993296963
+    second: smite_76
+  - first:
+      213: -2997289508246200147
+    second: smite_77
+  - first:
+      213: -8565892005320087733
+    second: smite_78
+  - first:
+      213: 561794055321844434
+    second: smite_79
+  - first:
+      213: 5417648107352583746
+    second: smite_80
+  - first:
+      213: 8037318891256009744
+    second: smite_81
+  - first:
+      213: -8184721899405326056
+    second: smite_82
+  - first:
+      213: -875489684306034888
+    second: smite_83
+  - first:
+      213: 8099806061543191131
+    second: smite_84
+  - first:
+      213: 7439316241731155726
+    second: smite_85
+  - first:
+      213: -4943829007794869372
+    second: smite_86
+  - first:
+      213: 5592605807343091205
+    second: smite_87
+  - first:
+      213: -683387944485171083
+    second: smite_88
+  - first:
+      213: -3410596360996808110
+    second: smite_89
+  - first:
+      213: 852323184350319597
+    second: smite_90
+  - first:
+      213: 8655681532335094585
+    second: smite_91
+  - first:
+      213: -353299366346168594
+    second: smite_92
+  - first:
+      213: 4691447641230163435
+    second: smite_93
+  - first:
+      213: -8912817575901316506
+    second: smite_94
+  - first:
+      213: -6509672920393251926
+    second: smite_95
+  - first:
+      213: -3114628386024627577
+    second: smite_96
+  - first:
+      213: 4562821098689754987
+    second: smite_97
+  - first:
+      213: 7307757984389094822
+    second: smite_98
+  - first:
+      213: 6478937173826566228
+    second: smite_99
+  - first:
+      213: -3748821187222326074
+    second: smite_100
+  - first:
+      213: -1029146026599816521
+    second: smite_101
+  - first:
+      213: 4759757458630074678
+    second: smite_102
+  - first:
+      213: -4371481706731186065
+    second: smite_103
+  - first:
+      213: 609899042240368177
+    second: smite_104
+  - first:
+      213: -320186591900348243
+    second: smite_105
+  - first:
+      213: -5275007993654474247
+    second: smite_106
+  - first:
+      213: 9150310207605667530
+    second: smite_107
+  - first:
+      213: 643486977770771925
+    second: smite_108
+  - first:
+      213: 1796575492832286210
+    second: smite_109
+  - first:
+      213: 2843957574936883838
+    second: smite_110
+  - first:
+      213: -4095422644675623528
+    second: smite_111
+  - first:
+      213: 4880884376778448833
+    second: smite_112
+  - first:
+      213: 1074463342160464777
+    second: smite_113
+  - first:
+      213: 6147038417957586799
+    second: smite_114
+  - first:
+      213: -5967300901512208510
+    second: smite_115
+  - first:
+      213: 7110237467761883228
+    second: smite_116
+  - first:
+      213: -2044824802370221752
+    second: smite_117
+  - first:
+      213: -2403361400464375410
+    second: smite_118
+  - first:
+      213: -6782458438898017757
+    second: smite_119
+  - first:
+      213: -7392011749211795992
+    second: smite_120
+  - first:
+      213: -7407891778174381865
+    second: smite_121
+  - first:
+      213: 1484293606243929994
+    second: smite_122
+  - first:
+      213: 2524815489627744211
+    second: smite_123
+  - first:
+      213: 1711538618431319479
+    second: smite_124
+  - first:
+      213: 8808143774987305169
+    second: smite_125
+  - first:
+      213: 2030088164697806740
+    second: smite_126
+  - first:
+      213: 4201836168573127412
+    second: smite_127
+  - first:
+      213: -7623509590608908234
+    second: smite_128
+  - first:
+      213: 8680425547756290783
+    second: smite_129
+  - first:
+      213: -3554935297704766836
+    second: smite_130
+  - first:
+      213: -3740558776180505758
+    second: smite_131
+  - first:
+      213: 1151082175867947788
+    second: smite_132
+  - first:
+      213: -1931439085079900312
+    second: smite_133
+  - first:
+      213: 9204372253772621216
+    second: smite_134
+  - first:
+      213: 7982012582151170388
+    second: smite_135
+  - first:
+      213: -1225699777999061276
+    second: smite_136
+  - first:
+      213: 1723652005660793241
+    second: smite_137
+  - first:
+      213: -5019865521712000795
+    second: smite_138
+  - first:
+      213: 4256366139545584685
+    second: smite_139
+  - first:
+      213: -4144427198535623780
+    second: smite_140
+  - first:
+      213: 9133859120562050880
+    second: smite_141
+  - first:
+      213: -7722899897877115328
+    second: smite_142
+  - first:
+      213: -5122985840971044475
+    second: smite_143
+  - first:
+      213: 606530278447488868
+    second: smite_144
+  - first:
+      213: 8170553331397315443
+    second: smite_145
+  - first:
+      213: 1378449122687453001
+    second: smite_146
+  - first:
+      213: 8640324891229665468
+    second: smite_147
+  - first:
+      213: -3510442010861528170
+    second: smite_148
+  - first:
+      213: -943433789230110281
+    second: smite_149
+  - first:
+      213: 7013573797480775299
+    second: smite_150
+  - first:
+      213: 2476201572200156944
+    second: smite_151
+  - first:
+      213: -3442415342440110631
+    second: smite_152
+  - first:
+      213: 6301422441614096855
+    second: smite_153
+  - first:
+      213: -2902692388896565042
+    second: smite_154
+  - first:
+      213: 581795021712674409
+    second: smite_155
+  - first:
+      213: 2741405145047497388
+    second: smite_156
+  - first:
+      213: 4949286523223251028
+    second: smite_157
+  - first:
+      213: 2918256671501473408
+    second: smite_158
+  - first:
+      213: 6443237402269323919
+    second: smite_159
+  - first:
+      213: 3169275926004300662
+    second: smite_160
+  - first:
+      213: 8340137453890563865
+    second: smite_161
+  - first:
+      213: 617675220579298134
+    second: smite_162
+  - first:
+      213: -2724979523259408962
+    second: smite_163
+  - first:
+      213: -7271376830493150391
+    second: smite_164
+  - first:
+      213: -8741617080697266122
+    second: smite_165
+  - first:
+      213: -8045016803355337659
+    second: smite_166
+  - first:
+      213: 5181487143135945707
+    second: smite_167
+  - first:
+      213: 6122589006143019512
+    second: smite_168
+  - first:
+      213: -1363475635833205478
+    second: smite_169
+  - first:
+      213: 3708503017211489813
+    second: smite_170
+  - first:
+      213: -3802954670497263541
+    second: smite_171
+  - first:
+      213: -5860673968099725162
+    second: smite_172
+  - first:
+      213: 1359048093044336157
+    second: smite_173
+  - first:
+      213: -4297191417271145005
+    second: smite_174
+  - first:
+      213: 5745936368680309737
+    second: smite_175
+  - first:
+      213: 6272535569593041825
+    second: smite_176
+  - first:
+      213: -8932631141982335021
+    second: smite_177
+  - first:
+      213: -2227953871176128070
+    second: smite_178
+  - first:
+      213: -8127708119170983476
+    second: smite_179
+  - first:
+      213: -4546148371916710437
+    second: smite_180
+  - first:
+      213: 4803769285168567122
+    second: smite_181
+  - first:
+      213: 1887643322419983828
+    second: smite_182
+  - first:
+      213: -3424835396273778176
+    second: smite_183
+  - first:
+      213: -7946904525740672804
+    second: smite_184
+  - first:
+      213: 7505423728413815199
+    second: smite_185
+  - first:
+      213: 476909218855703191
+    second: smite_186
+  - first:
+      213: 5009598235188363846
+    second: smite_187
+  - first:
+      213: -7856173328607750995
+    second: smite_188
+  - first:
+      213: 1132296100254138095
+    second: smite_189
+  - first:
+      213: -5171280056243693034
+    second: smite_190
+  - first:
+      213: -6787879396205951904
+    second: smite_191
+  - first:
+      213: -1504516597320264338
+    second: smite_192
+  - first:
+      213: -5233286458028661512
+    second: smite_193
+  - first:
+      213: -2207228853629153344
+    second: smite_194
+  - first:
+      213: -39717294736080988
+    second: smite_195
+  - first:
+      213: 8190738987671877724
+    second: smite_196
+  - first:
+      213: 4179496994143696908
+    second: smite_197
+  - first:
+      213: 1933034079719768826
+    second: smite_198
+  - first:
+      213: -7522568914694602056
+    second: smite_199
+  - first:
+      213: -4683603785675619868
+    second: smite_200
+  - first:
+      213: -6660781799764062759
+    second: smite_201
+  - first:
+      213: -186009495883854135
+    second: smite_202
+  - first:
+      213: -5503692365903965050
+    second: smite_203
+  - first:
+      213: 3064432367418633743
+    second: smite_204
+  - first:
+      213: 85593173262486850
+    second: smite_205
+  - first:
+      213: -5466552727156093723
+    second: smite_206
+  - first:
+      213: 8604353239293542963
+    second: smite_207
+  - first:
+      213: 1672040781995471983
+    second: smite_208
+  - first:
+      213: 6617006518896537645
+    second: smite_209
+  - first:
+      213: 1066994998900419893
+    second: smite_210
+  - first:
+      213: -2958420595393811828
+    second: smite_211
+  - first:
+      213: 4341051042456559518
+    second: smite_212
+  - first:
+      213: -4681871285857473447
+    second: smite_213
+  - first:
+      213: -5167264570627038636
+    second: smite_214
+  - first:
+      213: -4117573609986985407
+    second: smite_215
+  - first:
+      213: -7826023798507896341
+    second: smite_216
+  - first:
+      213: 5075249713199525560
+    second: smite_217
+  - first:
+      213: 4700728905954854912
+    second: smite_218
+  - first:
+      213: 2561640217732167907
+    second: smite_219
+  - first:
+      213: -7868505645304617460
+    second: smite_220
+  - first:
+      213: 2201933185601002539
+    second: smite_221
+  - first:
+      213: -533823481383425524
+    second: smite_222
+  - first:
+      213: 1357151176561329264
+    second: smite_223
+  - first:
+      213: 5777993097258494477
+    second: smite_224
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: smite_0
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 1418
+        width: 40
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ee35ce4e7554ea80800000000000000
+      internalID: -8438525800809677085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_1
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1600
+        width: 45
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed058774699e485c0800000000000000
+      internalID: -4213986519658508066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_2
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 1613
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fd4a33a333cb4140800000000000000
+      internalID: 4705068862267870713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_3
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 1599
+        width: 54
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae6482a47c0713a80800000000000000
+      internalID: -8488879821371717910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_4
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1598
+        width: 54
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312686fb3994d240800000000000000
+      internalID: 4815642384384008503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_5
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1612
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a486ff38fc2caa3b0800000000000000
+      internalID: -5500369798351067062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_6
+      rect:
+        serializedVersion: 2
+        x: 983
+        y: 1603
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f452c97328a9e9c00800000000000000
+      internalID: 909334058844824911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_7
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1597
+        width: 44
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bedc4a55651ba3f20800000000000000
+      internalID: 3403227452793998827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_8
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1597
+        width: 46
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb0514942fe435070800000000000000
+      internalID: 8093899757832982718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_9
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 1596
+        width: 40
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afe6d7e4efdb4c00800000000000000
+      internalID: 886047925943594915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_10
+      rect:
+        serializedVersion: 2
+        x: 1661
+        y: 1595
+        width: 38
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a354410628b54820800000000000000
+      internalID: 2901928008279675815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_11
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 1594
+        width: 40
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fea51011df127b0800000000000000
+      internalID: -5250637441058279535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_12
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 1604
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c908362ef489dc0800000000000000
+      internalID: -3632065265723728850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_13
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1602
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a2c9b113bf5e280800000000000000
+      internalID: -9014522890776991194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_14
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 1417
+        width: 42
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d795c0e7c4e84f2e0800000000000000
+      internalID: -2092891467637040771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_15
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 1416
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9abf794b50adfb8f0800000000000000
+      internalID: -522459313712137303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_16
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1416
+        width: 44
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab074df2016dcf6e0800000000000000
+      internalID: -1802330385844768582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_17
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1415
+        width: 46
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b739d060fd9df7050800000000000000
+      internalID: 5800594396978975611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_18
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1415
+        width: 46
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ebeb597664ef2920800000000000000
+      internalID: 2967841808234310626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_19
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 1415
+        width: 46
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21147fe6af9a44380800000000000000
+      internalID: -8987872063256051438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_20
+      rect:
+        serializedVersion: 2
+        x: 1657
+        y: 1415
+        width: 46
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6283c5b7575626110800000000000000
+      internalID: 1252675201617639462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_21
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1408
+        width: 170
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3bef531786c2c90800000000000000
+      internalID: -7193259669371046936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_22
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 1232
+        width: 164
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b47f39e15e9ddd80800000000000000
+      internalID: -8224243269865868110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_23
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1232
+        width: 160
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58a87ec02ddf1730800000000000000
+      internalID: 3972136529336772698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_24
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 1232
+        width: 154
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7892ce5cb011a4230800000000000000
+      internalID: 3623727592435886471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_25
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 1232
+        width: 148
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49927a0f3799a730800000000000000
+      internalID: 4010903240164153675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_26
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 1232
+        width: 156
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99607689b1a8f52d0800000000000000
+      internalID: -3287757351831533927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_27
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1226
+        width: 166
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 465ccc960ae5177c0800000000000000
+      internalID: -4075372144730782364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_28
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1243
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba2f5912c3222fd0800000000000000
+      internalID: -2368291137487164746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_29
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1264
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3767a4bcc276ccd60800000000000000
+      internalID: 7911812087469995635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_30
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 1232
+        width: 137
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31aa61442d77d5850800000000000000
+      internalID: 6367377193140922899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_31
+      rect:
+        serializedVersion: 2
+        x: 1523
+        y: 1260
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12bec0fa059c6970800000000000000
+      internalID: 8749532050296320539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_32
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 1244
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b859756f93102eb0800000000000000
+      internalID: -4746772431925323599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_33
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1260
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f42c70e8f26075f00800000000000000
+      internalID: 1105359034858848847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_34
+      rect:
+        serializedVersion: 2
+        x: 1591
+        y: 1242
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec390d82f5ca5fa0800000000000000
+      internalID: -5811114723629253399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_35
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 1232
+        width: 141
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2928267c9672a80800000000000000
+      internalID: -8491702267311648054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_36
+      rect:
+        serializedVersion: 2
+        x: 1751
+        y: 1244
+        width: 18
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089c843414b0a160800000000000000
+      internalID: 7034820616826689539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_37
+      rect:
+        serializedVersion: 2
+        x: 1814
+        y: 1252
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92eceac657e513d0800000000000000
+      internalID: -3236426397238107494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_38
+      rect:
+        serializedVersion: 2
+        x: 1815
+        y: 1264
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c784c0c170c744530800000000000000
+      internalID: 3838329152403687548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_39
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 1246
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0367321045b61bb70800000000000000
+      internalID: 8913023146083448368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_40
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 1231
+        width: 159
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae1141329c6ad8230800000000000000
+      internalID: 3642751056419754474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_41
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1245
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c4d65eea0081b840800000000000000
+      internalID: 5238108626045293760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_42
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1252
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3052fa0bee575ebd0800000000000000
+      internalID: -2601543541709658877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_43
+      rect:
+        serializedVersion: 2
+        x: 1518
+        y: 1241
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 888ab609adfb726c0800000000000000
+      internalID: -4168151984661354360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_44
+      rect:
+        serializedVersion: 2
+        x: 1743
+        y: 1240
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6baeb6cae127b73a0800000000000000
+      internalID: -6666609347324548426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_45
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 1055
+        width: 168
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d3ea750bf015b3c0800000000000000
+      internalID: -4344547595214199847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_46
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 1056
+        width: 181
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7791e81efe97fc90800000000000000
+      internalID: -7136060270368942214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_47
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 1059
+        width: 108
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36b30efb665a85d60800000000000000
+      internalID: 7879229408809073507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_48
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 1064
+        width: 108
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92db22694f00bf60800000000000000
+      internalID: 8047949341965144730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_49
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1066
+        width: 108
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5586426b1da3d70800000000000000
+      internalID: 9023755383615280584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_50
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 1066
+        width: 109
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d510736e8119160800000000000000
+      internalID: 7030427870346435934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_51
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 1136
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 512c42e6c899a1830800000000000000
+      internalID: 4042712443940815381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_52
+      rect:
+        serializedVersion: 2
+        x: 1917
+        y: 1138
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737a5e98ee6e83500800000000000000
+      internalID: 376304481075570487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_53
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1107
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55f358bf8ec2a4f0800000000000000
+      internalID: -818865065559853734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_54
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 1107
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3186e1116aafd5070800000000000000
+      internalID: 8096903296240740371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_55
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 1116
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2d224cef2d71600800000000000000
+      internalID: 439051480346055420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_56
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1108
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c367fff36667de0800000000000000
+      internalID: -1335767814413861746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_57
+      rect:
+        serializedVersion: 2
+        x: 1683
+        y: 1108
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337e1d4fca40a1a60800000000000000
+      internalID: 7645428458303121203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_58
+      rect:
+        serializedVersion: 2
+        x: 1880
+        y: 1109
+        width: 21
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973f80cb5a600d000800000000000000
+      internalID: 58554104049890169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_59
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1112
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7c86d07c5aa2290800000000000000
+      internalID: -7914331120808179763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_60
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 1103
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd6fe296f21e9500800000000000000
+      internalID: 404781866746342873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_61
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 1102
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48a875c0e31d3940800000000000000
+      internalID: 5277396194454710351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_62
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1100
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be33fb114b654b710800000000000000
+      internalID: 1708085490072105963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_63
+      rect:
+        serializedVersion: 2
+        x: 1280
+        y: 1102
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0544a057090459f0800000000000000
+      internalID: -480749333199436534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_64
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1066
+        width: 123
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3f5c877745bcb730800000000000000
+      internalID: 4016284286260633403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_65
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 1066
+        width: 113
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3a6d994ee0cdf0e0800000000000000
+      internalID: -2234417710436095427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_66
+      rect:
+        serializedVersion: 2
+        x: 1818
+        y: 1066
+        width: 145
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a91476fde66fbe0800000000000000
+      internalID: -1443844724736550304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_67
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1074
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f83de9fb9059c5f40800000000000000
+      internalID: 5718609495955788687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_68
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 1088
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b69feb9b0f6f3d20800000000000000
+      internalID: 3260446750891022003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_69
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 1086
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99e59e28e2976fc0800000000000000
+      internalID: -3501668659345626726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_70
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 1084
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4267f8de9ad85c0800000000000000
+      internalID: -4211523238742317881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_71
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 1083
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e9538b17c82225c0800000000000000
+      internalID: -4241783063404389913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_72
+      rect:
+        serializedVersion: 2
+        x: 615
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa532edb4ebd7c1c0800000000000000
+      internalID: -4483373128539294294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_73
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 1081
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b9cb1d3907e2a60800000000000000
+      internalID: 7651176597130353510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_74
+      rect:
+        serializedVersion: 2
+        x: 841
+        y: 1081
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 377c9704bd2cd5660800000000000000
+      internalID: 7376266011638089587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_75
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32500ef6a6de9bb80800000000000000
+      internalID: -8378404590346828509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_76
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db93c8864c93cf080800000000000000
+      internalID: -9152376826993296963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_77
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0eaf3921d7766d0800000000000000
+      internalID: -2997289508246200147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_78
+      rect:
+        serializedVersion: 2
+        x: 1293
+        y: 1082
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47a98eea96df1980800000000000000
+      internalID: -8565892005320087733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_79
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 1082
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2da726087b4ebc700800000000000000
+      internalID: 561794055321844434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_80
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 1082
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24e61dcef3a5f2b40800000000000000
+      internalID: 5417648107352583746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_81
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 1069
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 014d9d3b2fa4a8f60800000000000000
+      internalID: 8037318891256009744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_82
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 964
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c5980cc60a6e80800000000000000
+      internalID: -8184721899405326056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_83
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 965
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83f7b6a45c2a9d3f0800000000000000
+      internalID: -875489684306034888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_84
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 890
+        width: 117
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5276d7c2ba486070800000000000000
+      internalID: 8099806061543191131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_85
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 937
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e07fd28e4b2cd3760800000000000000
+      internalID: 7439316241731155726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_86
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 933
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48b6d1006bdf36bb0800000000000000
+      internalID: -4943829007794869372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_87
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 890
+        width: 120
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50eb873d95dec9d40800000000000000
+      internalID: 5592605807343091205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_88
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 938
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5705d25094e1486f0800000000000000
+      internalID: -683387944485171083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_89
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 890
+        width: 118
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25a9b860ea02ba0d0800000000000000
+      internalID: -3410596360996808110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_90
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 890
+        width: 121
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de3d70d9b6f04db00800000000000000
+      internalID: 852323184350319597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_91
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 890
+        width: 122
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93bfdbf6e782f1870800000000000000
+      internalID: 8655681532335094585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_92
+      rect:
+        serializedVersion: 2
+        x: 1176
+        y: 890
+        width: 120
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6e0912914d81bf0800000000000000
+      internalID: -353299366346168594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_93
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 890
+        width: 120
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed3ed9f5ce5b1140800000000000000
+      internalID: 4691447641230163435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_94
+      rect:
+        serializedVersion: 2
+        x: 1626
+        y: 890
+        width: 110
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a3b8803af4f4480800000000000000
+      internalID: -8912817575901316506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_95
+      rect:
+        serializedVersion: 2
+        x: 1850
+        y: 891
+        width: 111
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa30bf7f7fef8a5a0800000000000000
+      internalID: -6509672920393251926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_96
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 912
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78267a32cfd96c4d0800000000000000
+      internalID: -3114628386024627577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_97
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 915
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b677f094d95625f30800000000000000
+      internalID: 4562821098689754987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_98
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 916
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad590c2b2f5a6560800000000000000
+      internalID: 7307757984389094822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_99
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 917
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4587100680fc9e950800000000000000
+      internalID: 6478937173826566228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_100
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 715
+        width: 112
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c4b7290ef289fbc0800000000000000
+      internalID: -3748821187222326074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_101
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 715
+        width: 112
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b26386342db7b1f0800000000000000
+      internalID: -1029146026599816521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_102
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 715
+        width: 90
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63169aab03e0e0240800000000000000
+      internalID: 4759757458630074678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_103
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 730
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f685b208c806553c0800000000000000
+      internalID: -4371481706731186065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_104
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 736
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e869192fbc67800800000000000000
+      internalID: 609899042240368177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_105
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 715
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da0dfe7bdf77e8bf0800000000000000
+      internalID: -320186591900348243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_106
+      rect:
+        serializedVersion: 2
+        x: 821
+        y: 732
+        width: 23
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f901ee8d286bc6b0800000000000000
+      internalID: -5275007993654474247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_107
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 716
+        width: 89
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac677f447ae6cfe70800000000000000
+      internalID: 9150310207605667530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_108
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 733
+        width: 24
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5dd973fff1ee800800000000000000
+      internalID: 643486977770771925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_109
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 716
+        width: 89
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206d07e54e7bee810800000000000000
+      internalID: 1796575492832286210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_110
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 716
+        width: 72
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e72f462b854c77720800000000000000
+      internalID: 2843957574936883838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_111
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 716
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 895c40b9dc22a27c0800000000000000
+      internalID: -4095422644675623528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_112
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 717
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cf12ab0b726cb340800000000000000
+      internalID: 4880884376778448833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_113
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 746
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b47a987b249ee00800000000000000
+      internalID: 1074463342160464777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_114
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 748
+        width: 27
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f678a0b6fdaae4550800000000000000
+      internalID: 6147038417957586799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_115
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 749
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28f1f793273ef2da0800000000000000
+      internalID: -5967300901512208510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_116
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 736
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58be962e43aca260800000000000000
+      internalID: 7110237467761883228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_117
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 734
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84980da1da25f93e0800000000000000
+      internalID: -2044824802370221752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_118
+      rect:
+        serializedVersion: 2
+        x: 1275
+        y: 740
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e818f623a8b85aed0800000000000000
+      internalID: -2403361400464375410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_119
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 739
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a12ad1cfddfd1a0800000000000000
+      internalID: -6782458438898017757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_120
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 734
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ed87b88a7c4a6990800000000000000
+      internalID: -7392011749211795992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_121
+      rect:
+        serializedVersion: 2
+        x: 1494
+        y: 734
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0116b2da1e13990800000000000000
+      internalID: -7407891778174381865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_122
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 727
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8f8d86bb25499410800000000000000
+      internalID: 1484293606243929994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_123
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 735
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d76aae8f42f90320800000000000000
+      internalID: 2524815489627744211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_124
+      rect:
+        serializedVersion: 2
+        x: 1718
+        y: 735
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bd26fa2e4b90c710800000000000000
+      internalID: 1711538618431319479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_125
+      rect:
+        serializedVersion: 2
+        x: 1852
+        y: 727
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0cfa68810dc3a70800000000000000
+      internalID: 8808143774987305169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_126
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 736
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497998f0e625c2c10800000000000000
+      internalID: 2030088164697806740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_127
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 735
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fa8038abbbef4a30800000000000000
+      internalID: 4201836168573127412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_128
+      rect:
+        serializedVersion: 2
+        x: 1404
+        y: 727
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630f8fd1b6ad33690800000000000000
+      internalID: -7623509590608908234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_129
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 573
+        width: 32
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd24d397b01177870800000000000000
+      internalID: 8680425547756290783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_130
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 541
+        width: 67
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c825fcc7e255aaec0800000000000000
+      internalID: -3554935297704766836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_131
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 541
+        width: 67
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2638a448c9dd61cc0800000000000000
+      internalID: -3740558776180505758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_132
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 568
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b84e7e32779ff00800000000000000
+      internalID: 1151082175867947788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_133
+      rect:
+        serializedVersion: 2
+        x: 773
+        y: 574
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86fc184a2662235e0800000000000000
+      internalID: -1931439085079900312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_134
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 569
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a524964ccf7cbf70800000000000000
+      internalID: 9204372253772621216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_135
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 575
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459a1d7272ec5ce60800000000000000
+      internalID: 7982012582151170388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_136
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 575
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee3713cb807dfee0800000000000000
+      internalID: -1225699777999061276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_137
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 576
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9991dc9ed54abe710800000000000000
+      internalID: 1723652005660793241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_138
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 572
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e0102687ead55ab0800000000000000
+      internalID: -5019865521712000795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_139
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 576
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d248d95e376a11b30800000000000000
+      internalID: 4256366139545584685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_140
+      rect:
+        serializedVersion: 2
+        x: 1866
+        y: 545
+        width: 54
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b11d9cb690c76c0800000000000000
+      internalID: -4144427198535623780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_141
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 577
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04710951a7cf1ce70800000000000000
+      internalID: 9133859120562050880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_142
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 552
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e4227e57fb2d490800000000000000
+      internalID: -7722899897877115328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_143
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 541
+        width: 66
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 589a097358f77e8b0800000000000000
+      internalID: -5122985840971044475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_144
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 566
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46f91602314da6800800000000000000
+      internalID: 606530278447488868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_145
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 561
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b425827f2a36170800000000000000
+      internalID: 8170553331397315443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_146
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 560
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9470cba7c2c312310800000000000000
+      internalID: 1378449122687453001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_147
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 552
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8b5bdc5b998e770800000000000000
+      internalID: 8640324891229665468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_148
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 561
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b9df91797684fc0800000000000000
+      internalID: -3510442010861528170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_149
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 560
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9a6db97ff38e2f0800000000000000
+      internalID: -943433789230110281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_150
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 552
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38e34d49538355160800000000000000
+      internalID: 7013573797480775299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_151
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 562
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01f014fd53c3d5220800000000000000
+      internalID: 2476201572200156944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_152
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 561
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d5a0881c751a30d0800000000000000
+      internalID: -3442415342440110631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_153
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 552
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d935140356237750800000000000000
+      internalID: 6301422441614096855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_154
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 541
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec81793c6a097b7d0800000000000000
+      internalID: -2902692388896565042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_155
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 562
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96e46416d73f21800800000000000000
+      internalID: 581795021712674409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_156
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 563
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caafbff647d6b0620800000000000000
+      internalID: 2741405145047497388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_157
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 561
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4589954ded56fa440800000000000000
+      internalID: 4949286523223251028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_158
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 554
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086524c2bfabf7820800000000000000
+      internalID: 2918256671501473408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_159
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 542
+        width: 48
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8216c5974afa6950800000000000000
+      internalID: 6443237402269323919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_160
+      rect:
+        serializedVersion: 2
+        x: 1023
+        y: 563
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67bfea4c9a78bfb20800000000000000
+      internalID: 3169275926004300662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_161
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 564
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91fe31d83de1eb370800000000000000
+      internalID: 8340137453890563865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_162
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 559
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ba03d275c629800800000000000000
+      internalID: 617675220579298134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_163
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 542
+        width: 48
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebdd8e7af8dee2ad0800000000000000
+      internalID: -2724979523259408962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_164
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 563
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 943337e4c41e61b90800000000000000
+      internalID: -7271376830493150391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_165
+      rect:
+        serializedVersion: 2
+        x: 1257
+        y: 565
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6306d8684998fa680800000000000000
+      internalID: -8741617080697266122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_166
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 560
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54cd4f777db5a5090800000000000000
+      internalID: -8045016803355337659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_167
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 543
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be32fde9a1758e740800000000000000
+      internalID: 5181487143135945707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_168
+      rect:
+        serializedVersion: 2
+        x: 1466
+        y: 564
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f9ddd0234ec7f450800000000000000
+      internalID: 6122589006143019512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_169
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 566
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1d034a1226f31de0800000000000000
+      internalID: -1363475635833205478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_170
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 563
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51eea5d78df377330800000000000000
+      internalID: 3708503017211489813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_171
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 561
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b40191840e0393bc0800000000000000
+      internalID: -3802954670497263541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_172
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 544
+        width: 54
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6907903c314baaea0800000000000000
+      internalID: -5860673968099725162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_173
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 565
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1664924a0f4cd210800000000000000
+      internalID: 1359048093044336157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_174
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 567
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd22b96c2f4d54c0800000000000000
+      internalID: -4297191417271145005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_175
+      rect:
+        serializedVersion: 2
+        x: 1723
+        y: 564
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3103d1faaadbf40800000000000000
+      internalID: 5745936368680309737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_176
+      rect:
+        serializedVersion: 2
+        x: 1919
+        y: 566
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a388920ed58c0750800000000000000
+      internalID: 6272535569593041825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_177
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 565
+        width: 26
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3df0d80bd4be80480800000000000000
+      internalID: -8932631141982335021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_178
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 553
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9279422c7b411e0800000000000000
+      internalID: -2227953871176128070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_179
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 555
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc951ce2784943f80800000000000000
+      internalID: -8127708119170983476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_180
+      rect:
+        serializedVersion: 2
+        x: 970
+        y: 553
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdd1fab6426d8e0c0800000000000000
+      internalID: -4546148371916710437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_181
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 553
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2539761a6ba6aa240800000000000000
+      internalID: 4803769285168567122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_182
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 401
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d53b7fb991423a10800000000000000
+      internalID: 1887643322419983828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_183
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 402
+        width: 23
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 002dae64a5a8870d0800000000000000
+      internalID: -3424835396273778176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_184
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 411
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd87847307ce6b190800000000000000
+      internalID: -7946904525740672804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_185
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 412
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91b4e49d1f982860800000000000000
+      internalID: 7505423728413815199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_186
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 412
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792d00468625e9600800000000000000
+      internalID: 476909218855703191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_187
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 417
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64283db8d0ba58540800000000000000
+      internalID: 5009598235188363846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_188
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 418
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da4df6e3bf349f290800000000000000
+      internalID: -7856173328607750995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_189
+      rect:
+        serializedVersion: 2
+        x: 1677
+        y: 418
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fee3534dd49b6bf00800000000000000
+      internalID: 1132296100254138095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_190
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 391
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a588dff2ceb38b0800000000000000
+      internalID: -5171280056243693034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_191
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 393
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06483f227ab9cc1a0800000000000000
+      internalID: -6787879396205951904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_192
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 394
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65db024022ee1be0800000000000000
+      internalID: -1504516597320264338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_193
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 392
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f4e65d81b1af57b0800000000000000
+      internalID: -5233286458028661512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_194
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 394
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cf01715d095e51e0800000000000000
+      internalID: -2207228853629153344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_195
+      rect:
+        serializedVersion: 2
+        x: 535
+        y: 370
+        width: 39
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aff0d3b455e27ff0800000000000000
+      internalID: -39717294736080988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_196
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 393
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c58ff1086b95ba170800000000000000
+      internalID: 8190738987671877724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_197
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 393
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c087fbb4f5e800a30800000000000000
+      internalID: 4179496994143696908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_198
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 390
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2cb6cf04483da10800000000000000
+      internalID: 1933034079719768826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_199
+      rect:
+        serializedVersion: 2
+        x: 1030
+        y: 397
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b28b39ad677a9790800000000000000
+      internalID: -7522568914694602056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_200
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 391
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e14126fb2f700fb0800000000000000
+      internalID: -4683603785675619868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_201
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 398
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd0da25e362093a0800000000000000
+      internalID: -6660781799764062759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_202
+      rect:
+        serializedVersion: 2
+        x: 1455
+        y: 392
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce4ef859592b6df0800000000000000
+      internalID: -186009495883854135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_203
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 396
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684d349f3f4fe93b0800000000000000
+      internalID: -5503692365903965050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_204
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 397
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e623a800d078a20800000000000000
+      internalID: 3064432367418633743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_205
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 369
+        width: 54
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24d428f9986103100800000000000000
+      internalID: 85593173262486850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_206
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 387
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ec0be7f147e224b0800000000000000
+      internalID: -5466552727156093723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_207
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 370
+        width: 52
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 332c21eeeadc86770800000000000000
+      internalID: 8604353239293542963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_208
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 378
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f647ecc7b38443710800000000000000
+      internalID: 1672040781995471983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_209
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 371
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d20b54bde5454db50800000000000000
+      internalID: 6617006518896537645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_210
+      rect:
+        serializedVersion: 2
+        x: 971
+        y: 202
+        width: 51
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53de39e5c4abece00800000000000000
+      internalID: 1066994998900419893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_211
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 372
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8a2a53942491f6d0800000000000000
+      internalID: -2958420595393811828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_212
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 385
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9f56795ce28e3c30800000000000000
+      internalID: 4341051042456559518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_213
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 372
+        width: 17
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95c2d520fd6a60fb0800000000000000
+      internalID: -4681871285857473447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_214
+      rect:
+        serializedVersion: 2
+        x: 1672
+        y: 372
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452605710403a48b0800000000000000
+      internalID: -5167264570627038636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_215
+      rect:
+        serializedVersion: 2
+        x: 1896
+        y: 372
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142f3381e907bd6c0800000000000000
+      internalID: -4117573609986985407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_216
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 219
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be10f2eb1d0646390800000000000000
+      internalID: -7826023798507896341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_217
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 220
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be29ad69b8ee6640800000000000000
+      internalID: 5075249713199525560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_218
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 222
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00889d0d8085c3140800000000000000
+      internalID: 4700728905954854912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_219
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 212
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8b744b436cc8320800000000000000
+      internalID: 2561640217732167907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_220
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 213
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0666720ec37dc290800000000000000
+      internalID: -7868505645304617460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_221
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 196
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c54e2e096de8e10800000000000000
+      internalID: 2201933185601002539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_222
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 197
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ae06b3f5a7798f0800000000000000
+      internalID: -533823481383425524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_223
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 198
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0740179fdc195d210800000000000000
+      internalID: 1357151176561329264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: smite_224
+      rect:
+        serializedVersion: 2
+        x: 779
+        y: 199
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a60ccdb1e8f2050800000000000000
+      internalID: 5777993097258494477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      smite_0: -8438525800809677085
+      smite_1: -4213986519658508066
+      smite_10: 2901928008279675815
+      smite_100: -3748821187222326074
+      smite_101: -1029146026599816521
+      smite_102: 4759757458630074678
+      smite_103: -4371481706731186065
+      smite_104: 609899042240368177
+      smite_105: -320186591900348243
+      smite_106: -5275007993654474247
+      smite_107: 9150310207605667530
+      smite_108: 643486977770771925
+      smite_109: 1796575492832286210
+      smite_11: -5250637441058279535
+      smite_110: 2843957574936883838
+      smite_111: -4095422644675623528
+      smite_112: 4880884376778448833
+      smite_113: 1074463342160464777
+      smite_114: 6147038417957586799
+      smite_115: -5967300901512208510
+      smite_116: 7110237467761883228
+      smite_117: -2044824802370221752
+      smite_118: -2403361400464375410
+      smite_119: -6782458438898017757
+      smite_12: -3632065265723728850
+      smite_120: -7392011749211795992
+      smite_121: -7407891778174381865
+      smite_122: 1484293606243929994
+      smite_123: 2524815489627744211
+      smite_124: 1711538618431319479
+      smite_125: 8808143774987305169
+      smite_126: 2030088164697806740
+      smite_127: 4201836168573127412
+      smite_128: -7623509590608908234
+      smite_129: 8680425547756290783
+      smite_13: -9014522890776991194
+      smite_130: -3554935297704766836
+      smite_131: -3740558776180505758
+      smite_132: 1151082175867947788
+      smite_133: -1931439085079900312
+      smite_134: 9204372253772621216
+      smite_135: 7982012582151170388
+      smite_136: -1225699777999061276
+      smite_137: 1723652005660793241
+      smite_138: -5019865521712000795
+      smite_139: 4256366139545584685
+      smite_14: -2092891467637040771
+      smite_140: -4144427198535623780
+      smite_141: 9133859120562050880
+      smite_142: -7722899897877115328
+      smite_143: -5122985840971044475
+      smite_144: 606530278447488868
+      smite_145: 8170553331397315443
+      smite_146: 1378449122687453001
+      smite_147: 8640324891229665468
+      smite_148: -3510442010861528170
+      smite_149: -943433789230110281
+      smite_15: -522459313712137303
+      smite_150: 7013573797480775299
+      smite_151: 2476201572200156944
+      smite_152: -3442415342440110631
+      smite_153: 6301422441614096855
+      smite_154: -2902692388896565042
+      smite_155: 581795021712674409
+      smite_156: 2741405145047497388
+      smite_157: 4949286523223251028
+      smite_158: 2918256671501473408
+      smite_159: 6443237402269323919
+      smite_16: -1802330385844768582
+      smite_160: 3169275926004300662
+      smite_161: 8340137453890563865
+      smite_162: 617675220579298134
+      smite_163: -2724979523259408962
+      smite_164: -7271376830493150391
+      smite_165: -8741617080697266122
+      smite_166: -8045016803355337659
+      smite_167: 5181487143135945707
+      smite_168: 6122589006143019512
+      smite_169: -1363475635833205478
+      smite_17: 5800594396978975611
+      smite_170: 3708503017211489813
+      smite_171: -3802954670497263541
+      smite_172: -5860673968099725162
+      smite_173: 1359048093044336157
+      smite_174: -4297191417271145005
+      smite_175: 5745936368680309737
+      smite_176: 6272535569593041825
+      smite_177: -8932631141982335021
+      smite_178: -2227953871176128070
+      smite_179: -8127708119170983476
+      smite_18: 2967841808234310626
+      smite_180: -4546148371916710437
+      smite_181: 4803769285168567122
+      smite_182: 1887643322419983828
+      smite_183: -3424835396273778176
+      smite_184: -7946904525740672804
+      smite_185: 7505423728413815199
+      smite_186: 476909218855703191
+      smite_187: 5009598235188363846
+      smite_188: -7856173328607750995
+      smite_189: 1132296100254138095
+      smite_19: -8987872063256051438
+      smite_190: -5171280056243693034
+      smite_191: -6787879396205951904
+      smite_192: -1504516597320264338
+      smite_193: -5233286458028661512
+      smite_194: -2207228853629153344
+      smite_195: -39717294736080988
+      smite_196: 8190738987671877724
+      smite_197: 4179496994143696908
+      smite_198: 1933034079719768826
+      smite_199: -7522568914694602056
+      smite_2: 4705068862267870713
+      smite_20: 1252675201617639462
+      smite_200: -4683603785675619868
+      smite_201: -6660781799764062759
+      smite_202: -186009495883854135
+      smite_203: -5503692365903965050
+      smite_204: 3064432367418633743
+      smite_205: 85593173262486850
+      smite_206: -5466552727156093723
+      smite_207: 8604353239293542963
+      smite_208: 1672040781995471983
+      smite_209: 6617006518896537645
+      smite_21: -7193259669371046936
+      smite_210: 1066994998900419893
+      smite_211: -2958420595393811828
+      smite_212: 4341051042456559518
+      smite_213: -4681871285857473447
+      smite_214: -5167264570627038636
+      smite_215: -4117573609986985407
+      smite_216: -7826023798507896341
+      smite_217: 5075249713199525560
+      smite_218: 4700728905954854912
+      smite_219: 2561640217732167907
+      smite_22: -8224243269865868110
+      smite_220: -7868505645304617460
+      smite_221: 2201933185601002539
+      smite_222: -533823481383425524
+      smite_223: 1357151176561329264
+      smite_224: 5777993097258494477
+      smite_23: 3972136529336772698
+      smite_24: 3623727592435886471
+      smite_25: 4010903240164153675
+      smite_26: -3287757351831533927
+      smite_27: -4075372144730782364
+      smite_28: -2368291137487164746
+      smite_29: 7911812087469995635
+      smite_3: -8488879821371717910
+      smite_30: 6367377193140922899
+      smite_31: 8749532050296320539
+      smite_32: -4746772431925323599
+      smite_33: 1105359034858848847
+      smite_34: -5811114723629253399
+      smite_35: -8491702267311648054
+      smite_36: 7034820616826689539
+      smite_37: -3236426397238107494
+      smite_38: 3838329152403687548
+      smite_39: 8913023146083448368
+      smite_4: 4815642384384008503
+      smite_40: 3642751056419754474
+      smite_41: 5238108626045293760
+      smite_42: -2601543541709658877
+      smite_43: -4168151984661354360
+      smite_44: -6666609347324548426
+      smite_45: -4344547595214199847
+      smite_46: -7136060270368942214
+      smite_47: 7879229408809073507
+      smite_48: 8047949341965144730
+      smite_49: 9023755383615280584
+      smite_5: -5500369798351067062
+      smite_50: 7030427870346435934
+      smite_51: 4042712443940815381
+      smite_52: 376304481075570487
+      smite_53: -818865065559853734
+      smite_54: 8096903296240740371
+      smite_55: 439051480346055420
+      smite_56: -1335767814413861746
+      smite_57: 7645428458303121203
+      smite_58: 58554104049890169
+      smite_59: -7914331120808179763
+      smite_6: 909334058844824911
+      smite_60: 404781866746342873
+      smite_61: 5277396194454710351
+      smite_62: 1708085490072105963
+      smite_63: -480749333199436534
+      smite_64: 4016284286260633403
+      smite_65: -2234417710436095427
+      smite_66: -1443844724736550304
+      smite_67: 5718609495955788687
+      smite_68: 3260446750891022003
+      smite_69: -3501668659345626726
+      smite_7: 3403227452793998827
+      smite_70: -4211523238742317881
+      smite_71: -4241783063404389913
+      smite_72: -4483373128539294294
+      smite_73: 7651176597130353510
+      smite_74: 7376266011638089587
+      smite_75: -8378404590346828509
+      smite_76: -9152376826993296963
+      smite_77: -2997289508246200147
+      smite_78: -8565892005320087733
+      smite_79: 561794055321844434
+      smite_8: 8093899757832982718
+      smite_80: 5417648107352583746
+      smite_81: 8037318891256009744
+      smite_82: -8184721899405326056
+      smite_83: -875489684306034888
+      smite_84: 8099806061543191131
+      smite_85: 7439316241731155726
+      smite_86: -4943829007794869372
+      smite_87: 5592605807343091205
+      smite_88: -683387944485171083
+      smite_89: -3410596360996808110
+      smite_9: 886047925943594915
+      smite_90: 852323184350319597
+      smite_91: 8655681532335094585
+      smite_92: -353299366346168594
+      smite_93: 4691447641230163435
+      smite_94: -8912817575901316506
+      smite_95: -6509672920393251926
+      smite_96: -3114628386024627577
+      smite_97: 4562821098689754987
+      smite_98: 7307757984389094822
+      smite_99: 6478937173826566228
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

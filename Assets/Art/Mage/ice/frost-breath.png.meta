@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 7867e7c2ecc080342bcdeb65d1a3d612
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4404564153618856957
+    second: frost-breath_0
+  - first:
+      213: -5027858775915413352
+    second: frost-breath_1
+  - first:
+      213: 7040019821813372575
+    second: frost-breath_2
+  - first:
+      213: -7219933711313524502
+    second: frost-breath_3
+  - first:
+      213: -5397933426758398993
+    second: frost-breath_4
+  - first:
+      213: 3741613848186895403
+    second: frost-breath_5
+  - first:
+      213: -1680923309882096479
+    second: frost-breath_6
+  - first:
+      213: 3491186896194521732
+    second: frost-breath_7
+  - first:
+      213: -2642639025146495587
+    second: frost-breath_8
+  - first:
+      213: -7973573425887634649
+    second: frost-breath_9
+  - first:
+      213: 8258722548249464189
+    second: frost-breath_10
+  - first:
+      213: 1227945625623407120
+    second: frost-breath_11
+  - first:
+      213: -2926582299047336482
+    second: frost-breath_12
+  - first:
+      213: -413610811204189004
+    second: frost-breath_13
+  - first:
+      213: 8237787632817416981
+    second: frost-breath_14
+  - first:
+      213: 4814125134499223700
+    second: frost-breath_15
+  - first:
+      213: -3273391142594065706
+    second: frost-breath_16
+  - first:
+      213: 9140314188108059864
+    second: frost-breath_17
+  - first:
+      213: 4635006405259302537
+    second: frost-breath_18
+  - first:
+      213: 8171295688016886861
+    second: frost-breath_19
+  - first:
+      213: -7708770316407435121
+    second: frost-breath_20
+  - first:
+      213: -1919815303563066678
+    second: frost-breath_21
+  - first:
+      213: 5498873223021815
+    second: frost-breath_22
+  - first:
+      213: -920052178258501573
+    second: frost-breath_23
+  - first:
+      213: 95153742398147493
+    second: frost-breath_24
+  - first:
+      213: -1471605461181168364
+    second: frost-breath_25
+  - first:
+      213: 6953111852697919579
+    second: frost-breath_26
+  - first:
+      213: -2113621097513226599
+    second: frost-breath_27
+  - first:
+      213: 8776175501917253358
+    second: frost-breath_28
+  - first:
+      213: -8362865567035408028
+    second: frost-breath_29
+  - first:
+      213: -6943184986343945405
+    second: frost-breath_30
+  - first:
+      213: -1831653299539319970
+    second: frost-breath_31
+  - first:
+      213: -6372380703407329795
+    second: frost-breath_32
+  - first:
+      213: 3235489707830689398
+    second: frost-breath_33
+  - first:
+      213: -5191961613496238331
+    second: frost-breath_34
+  - first:
+      213: 4595166745172144352
+    second: frost-breath_35
+  - first:
+      213: -2181776680867096665
+    second: frost-breath_36
+  - first:
+      213: -2855817628651308604
+    second: frost-breath_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: frost-breath_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 740
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30401291d38dfd2c0800000000000000
+      internalID: -4404564153618856957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_1
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 740
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8904bb00515793ab0800000000000000
+      internalID: -5027858775915413352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 740
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9615e27abc23b160800000000000000
+      internalID: 7040019821813372575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_3
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 740
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae82a4bda84adcb90800000000000000
+      internalID: -7219933711313524502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_4
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 740
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febcbd8d520b615b0800000000000000
+      internalID: -5397933426758398993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 636
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cbcd398f1ece330800000000000000
+      internalID: 3741613848186895403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_6
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 636
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4cdc3d7292ca8e0800000000000000
+      internalID: -1680923309882096479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_7
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 636
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48a4c282cff237030800000000000000
+      internalID: 3491186896194521732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_8
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 636
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9dfe84dec5735bd0800000000000000
+      internalID: -2642639025146495587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_9
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 636
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72b1977073d285190800000000000000
+      internalID: -7973573425887634649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 532
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d0beaa660ec9270800000000000000
+      internalID: 8258722548249464189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_11
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 532
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01a27c26a0a8a0110800000000000000
+      internalID: 1227945625623407120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_12
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 532
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed5665b97e0b267d0800000000000000
+      internalID: -2926582299047336482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_13
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 532
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4c9ea982f824af0800000000000000
+      internalID: -413610811204189004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_14
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 532
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51b2035d430825270800000000000000
+      internalID: 8237787632817416981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 428
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4981b12bd453fc240800000000000000
+      internalID: 4814125134499223700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_16
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 428
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6da45c659149292d0800000000000000
+      internalID: -3273391142594065706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_17
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 428
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4d4ad935be8de70800000000000000
+      internalID: 9140314188108059864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_18
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 428
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 986142da4c9d25040800000000000000
+      internalID: 4635006405259302537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_19
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 428
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4c7de68226466170800000000000000
+      internalID: 8171295688016886861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 324
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8095737d32f40590800000000000000
+      internalID: -7708770316407435121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_21
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 324
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2c3cc27227b55e0800000000000000
+      internalID: -1919815303563066678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_22
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 346
+        width: 18
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f48f113239831000800000000000000
+      internalID: 5498873223021815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 324
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b30e3142b615b33f0800000000000000
+      internalID: -920052178258501573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_24
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 351
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5abc0b613dd025100800000000000000
+      internalID: 95153742398147493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_25
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 324
+        width: 172
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41585c441aec39be0800000000000000
+      internalID: -1471605461181168364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_26
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 324
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b502e9f046a6e7060800000000000000
+      internalID: 6953111852697919579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 220
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99ee3fc6fc8eaa2e0800000000000000
+      internalID: -2113621097513226599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_28
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 220
+        width: 168
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee634eee1d3bc970800000000000000
+      internalID: 8776175501917253358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_29
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 220
+        width: 170
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 461428c331221fb80800000000000000
+      internalID: -8362865567035408028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_30
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 220
+        width: 171
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34bc42f9a0ad4af90800000000000000
+      internalID: -6943184986343945405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_31
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 220
+        width: 171
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5369415709a496e0800000000000000
+      internalID: -1831653299539319970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd2ad73381c097a0800000000000000
+      internalID: -6372380703407329795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_33
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 116
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67e3ea53fb4c6ec20800000000000000
+      internalID: 3235489707830689398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_34
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 116
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fb714bb6272f7b0800000000000000
+      internalID: -5191961613496238331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_35
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 116
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e07ca9fecf45cf30800000000000000
+      internalID: 4595166745172144352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_36
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 116
+        width: 174
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a79fa51ba5c8b1e0800000000000000
+      internalID: -2181776680867096665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: frost-breath_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 12
+        width: 173
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9b0fc5ff81e58d0800000000000000
+      internalID: -2855817628651308604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      frost-breath_0: -4404564153618856957
+      frost-breath_1: -5027858775915413352
+      frost-breath_10: 8258722548249464189
+      frost-breath_11: 1227945625623407120
+      frost-breath_12: -2926582299047336482
+      frost-breath_13: -413610811204189004
+      frost-breath_14: 8237787632817416981
+      frost-breath_15: 4814125134499223700
+      frost-breath_16: -3273391142594065706
+      frost-breath_17: 9140314188108059864
+      frost-breath_18: 4635006405259302537
+      frost-breath_19: 8171295688016886861
+      frost-breath_2: 7040019821813372575
+      frost-breath_20: -7708770316407435121
+      frost-breath_21: -1919815303563066678
+      frost-breath_22: 5498873223021815
+      frost-breath_23: -920052178258501573
+      frost-breath_24: 95153742398147493
+      frost-breath_25: -1471605461181168364
+      frost-breath_26: 6953111852697919579
+      frost-breath_27: -2113621097513226599
+      frost-breath_28: 8776175501917253358
+      frost-breath_29: -8362865567035408028
+      frost-breath_3: -7219933711313524502
+      frost-breath_30: -6943184986343945405
+      frost-breath_31: -1831653299539319970
+      frost-breath_32: -6372380703407329795
+      frost-breath_33: 3235489707830689398
+      frost-breath_34: -5191961613496238331
+      frost-breath_35: 4595166745172144352
+      frost-breath_36: -2181776680867096665
+      frost-breath_37: -2855817628651308604
+      frost-breath_4: -5397933426758398993
+      frost-breath_5: 3741613848186895403
+      frost-breath_6: -1680923309882096479
+      frost-breath_7: 3491186896194521732
+      frost-breath_8: -2642639025146495587
+      frost-breath_9: -7973573425887634649
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

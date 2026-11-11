@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -8,6 +9,7 @@ public class EnemyHealth : MonoBehaviour
     private int currentHealth;
     public int CurrentHealth => currentHealth;
     public int MaxHealth => maxHealth;
+    public event Action<EnemyHealth> Died;
 
     private void Awake()
     {
@@ -39,6 +41,7 @@ public class EnemyHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log($"{gameObject.name} đã bị tiêu diệt!");
+        Died?.Invoke(this);
         Destroy(gameObject);
     }
 }

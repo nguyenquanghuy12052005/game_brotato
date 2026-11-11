@@ -21,7 +21,10 @@ public class EnemyContactDamage : MonoBehaviour
 
         if (playerHealth != null)
         {
-            playerHealth.TakeDamage(contactDamage);
+            MageEnemyStatus status = GetComponentInParent<MageEnemyStatus>();
+            float multiplier = status != null ? status.OutgoingDamageMultiplier : 1f;
+            int damage = Mathf.CeilToInt(contactDamage * multiplier);
+            if (damage > 0) playerHealth.TakeDamage(damage);
         }
     }
 }

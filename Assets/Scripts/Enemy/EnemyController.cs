@@ -47,8 +47,10 @@ public class EnemyController : MonoBehaviour
         Vector2 direction =
             ((Vector2)target.position - enemyRigidbody.position).normalized;
 
+        MageEnemyStatus status = GetComponent<MageEnemyStatus>();
+        float speedMultiplier = status != null ? status.MoveMultiplier : 1f;
         Vector2 nextPosition = enemyRigidbody.position
-            + direction * moveSpeed * Time.fixedDeltaTime;
+            + direction * moveSpeed * speedMultiplier * Time.fixedDeltaTime;
 
         enemyRigidbody.MovePosition(nextPosition);
     }

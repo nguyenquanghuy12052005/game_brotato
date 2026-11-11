@@ -9,6 +9,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D playerRigidbody;
     private Vector2 movementInput;
+    public Vector2 MovementInput => movementInput;
+    public float ExternalSpeedMultiplier { get; set; } = 1f;
 
     private void Awake()
     {
@@ -66,7 +68,7 @@ private void UpdateFacingDirection()
     private void FixedUpdate()
     {
         Vector2 nextPosition = playerRigidbody.position
-            + movementInput * moveSpeed * Time.fixedDeltaTime;
+            + movementInput * moveSpeed * Mathf.Max(0f, ExternalSpeedMultiplier) * Time.fixedDeltaTime;
 
         playerRigidbody.MovePosition(nextPosition);
     }
