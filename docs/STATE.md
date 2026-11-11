@@ -1,5 +1,25 @@
 # Current project state
 
+## Sân thử hệ Súng - 2026-11-10
+
+- Cấp 11 chạy trong GunSkillTest với chín kỹ năng và sprite lấy từ bộ art đã duyệt. Shift+1/2/3 chọn kỹ năng theo nhánh, Shift+7 bật một bia boss 1.500 HP miễn đẩy lùi. Play Mode headless trên bản sao Unity 6000.3.22f1 đã xác nhận đủ chín animation đổi frame và tạo sát thương trên bia, gồm hai lượt của Xuyên kích hồi quy. Chưa xác nhận phím vật lý và hình ảnh trong Game View.
+
+- Art cấp 11 đã chuẩn bị trong `public/gun/level-11/`. Có 9 sprite sheet kỹ năng và 2 sheet lặp riêng cho vòng quỹ đạo và đạn vệ tinh. Mỗi sheet có 32 ô RGBA 256 × 256. Đã kiểm tra kích thước, mép ô, bản xem trước và SHA-256 sau khi chép. Cần kiểm tra trong Unity khi nhập asset và nối gameplay.
+
+- Dư chấn dùng sprite xanh ngọc nhập từ public/gun/piercing-shockwave.png. Sóng lan và mờ dần trong 0,38 giây. Play Mode tự động trong bản sao Unity xác nhận sprite được gắn đúng, xuất hiện ở mục tiêu thứ hai, nở ra, giảm alpha và được dọn sau khi phát. Chưa xem Game View.
+
+- Giảm tốc độ bắn ba nhánh hai lần, mỗi lần còn một nửa. Đạn tỏa cách 2,60 giây mỗi phát, Liên thanh cách 0,32 giây mỗi viên và nghỉ 1,20 giây sau loạt, Xuyên thấu cách 0,80 giây mỗi phát.
+
+- Thêm chín nâng cấp bậc 0–3 theo ba nhánh. Phím 7–9 tăng bậc, Shift+8 đổi tự bắn, Shift+9 đổi máu và Shift+0 bật bia di chuyển. Play Mode trên bản sao Unity 6000.3.22f1 xác nhận số đạn, góc, đẩy lùi, số lần nảy và mảnh, sát thương xuyên, giảm tốc và hồi tốc, bán kính và giới hạn một Dư chấn. Bài hồi quy va chạm cho các hiệu ứng cũ cũng PASS. Cần xem Game View để đánh giá độ rõ của vòng Dư chấn.
+
+- Súng mặc định tự bắn ngay khi vào Play. Sau khi hạ bia cuối, cả dàn bia hồi sinh sau 0,75 giây mà không khởi động lại nhịp bắn. Kiểm tra Play Mode trong bản sao Unity 6000.3.22f1 đã xác nhận tự bắn, không sinh sớm khi còn bia và hồi sinh đủ 8 bia trong hai lượt liên tiếp.
+
+- Bảng sân thử dùng phím số 0–9 để chọn kỹ năng, chọn nhánh, bật nâng cấp, tự bắn, đổi máu bia và đặt lại sân. C# biên dịch qua Roslyn. Phím số chưa được kiểm tra trực tiếp trong Play Mode.
+
+- Thêm `Assets/Scenes/GunSkillTest.unity` và ba script dưới `Assets/Scripts/Weapon/GunSkills/`. Scene thử dùng lại prefab Player và Enemy, dựng bia đứng yên, cho chọn kỹ năng cấp 4 và nhánh riêng với công tắc nâng cấp. Xem `docs/HUONG_DAN_TEST_SUNG.md`.
+- Nhập sáu PNG hiện có từ `public/gun` vào `Assets/Art/GunSkills/`. Đạn xuyên dùng alpha có sẵn và hiệu ứng Ngắm điểm yếu phát bốn frame lửa ở 12 FPS.
+- C# biên dịch bằng Roslyn với Unity 6000.3.22f1 và thư viện hiện có của dự án. Đã kiểm tra các GUID mới trong scene có đúng một asset tương ứng, và sáu PNG khớp SHA-256 với public. Play Mode tự động trong bản sao Unity 6000.3.22f1 đã PASS: nảy sang bia sống gần nhất, sinh 3 đạn phụ khi hạ bia, frame lửa chạy, Đạn tỏa 3/4, Liên thanh 5/7 và Xuyên thấu nâng cấp gây 10/13/16 qua ba bia. Chưa xem hình ảnh trong Game View.
+
 ## Player artwork installed - 2026-11-09
 
 - User follow-up authorized completing Unity setup directly. Applied and saved the existing Player prefab: Idle_Down_00 sprite, PlayerCharacter Animator controller, PlayerSpriteAnimator on PlayerVisual, centered/unit visual transform, root motion off, normal update mode/always animate, old PlayerController.playerVisual rotation reference cleared. GameScene inherits the updated prefab; existing scene Player/tag/camera/weapon/manager references remain intact.

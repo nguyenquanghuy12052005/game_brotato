@@ -48,3 +48,9 @@ Player HP100, speed5, contact10, cooldown0.75s. Bullet damage10, speed10, lifeti
 GameManager and WaveManager require valid saved references and a nonempty settings array. No dependency-injection framework. Enemies should remain parented under Enemies; ClearEnemies owns that subtree. Camera must be orthographic; no authored arena bounds yet. Global timeScale is owned by GameManager; a future pause system must coordinate with it. MainCamera tag is required for aiming. Player root prefab is Untagged, scene overrides Player tag; spawner explicitly assigns target.
 
 No save/load, inventory, pickups, kill count, gun upgrades, enemy variants, finished UI/menu/pause, or Windows-build verification yet. See STATE for actual tests and limits.
+
+## Sân thử hệ Súng
+
+`GunSkillTest.unity` có `GunSkillTestArena` dựng camera, Player, súng và các bia khi vào Play. Nó dùng lại `WeaponAim` để ngắm chuột. `GunSkillWeapon` phát đạn theo nhánh, còn `GunSkillProjectile` xử lý va chạm với `EnemyHealth` và các hiệu ứng cấp 4. Scene thử nằm ngoài Build Profiles và có hướng dẫn tại [HUONG_DAN_TEST_SUNG.md](HUONG_DAN_TEST_SUNG.md).
+
+Sân thử lưu ba bậc nâng cấp riêng theo từng nhánh. Mỗi viên đạn giữ cấu hình hiệu ứng của phát bắn. GunSkillTargetEffects áp dụng đẩy lùi, giảm tốc và màu báo trạng thái lên bia trong sân.
