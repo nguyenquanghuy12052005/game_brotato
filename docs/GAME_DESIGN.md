@@ -20,7 +20,8 @@ Three waves share one scene. Intermediate completion freezes combat for 2 real s
 
 - Player max HP 100, movement speed 5 units/s; normalized WASD prevents faster diagonals.
 - Contact damage 10; global Player immunity 0.75s after accepted hit, including multiple attackers.
-- PlayerVisual faces movement; gun independently aims at mouse and flips left-facing sprite.
+- PlayerVisual uses upright four-direction Idle/Run sprites based on WASD; diagonals prefer the horizontal visual direction and standing keeps the last direction. Gun independently aims at mouse and flips left-facing sprite.
+- At HP zero, Game Over still freezes combat immediately; a one-shot directional Death animation continues with unscaled animation time and holds its last frame. No extra life or gameplay delay.
 - One gun, interval 0.2s/shot (5 shots/s); bullet damage 10, speed 10 units/s, lifetime 3s.
 - Bullet disappears after enemy hit/lifetime. Consumed-hit guard prevents repeated damage; redundant Box trigger disabled in prefab. Real Play Mode test with both triggers enabled confirmed one 10-damage hit.
 - HP is nonnegative; HP zero is terminal for the current round.

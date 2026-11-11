@@ -93,3 +93,17 @@ Accepted intent unless marked temporary. Actual defects/checks belong in [STATE]
 
 - Decision: consumed-hit flag before damage, immediate deactivation, delayed Destroy; disable redundant BoxCollider2D while retaining CircleCollider2D.
 - Reason: multiple collider callbacks must not multiply damage. Real Play Mode physics regression passed with both colliders temporarily enabled.
+
+## D12 - Prepared directional artwork, manual installation (2026-11-09)
+
+- Follow-up supersedes manual installation: user explicitly asked Codex to complete Unity setup. Artwork/controller/script are now installed in Player prefab and inherited by GameScene. The separate Apply Player Artwork command performs this setup; Prepare remains asset generation only.
+- Decision: prepare separate centered PNG frames and named Idle/Run/Death clips for four directions, with a small optional PlayerSpriteAnimator on PlayerVisual. Install through the Vietnamese guide rather than automatically changing the user's prefab/scene.
+- Context: user requested balanced cuts for each action and step-by-step instructions. Source is an opaque checkerboard sheet; built-in imagegen produced an alpha extraction, followed by deterministic Unity component-based cropping/ground alignment. Extraction may slightly alter original pixels; preserve the source.
+- Reason: individual PNGs and a ready controller avoid repeated manual slicing/keyframe wiring. Direct Animator.Play on state changes keeps the 12-state setup readable without unnecessary transition logic.
+- Preserve: Player root Rigidbody2D/collider/movement/HP, scene-added WeaponHolder, mouse aim and auto-fire. Clear the old visual-rotation reference only when installing this upright animation set. Death uses unscaled animation time without delaying Game Over or adding lives. Saved scene still uses its existing artwork until the user follows the guide.
+
+## D13 - Thử hệ Súng trong scene riêng (2026-11-10)
+
+Thử hiệu ứng cấp 4 và các nhánh bằng bia cố định cùng bộ chọn trực tiếp. Thông số thử gồm một lần nảy, ba đạn phụ gây nửa sát thương khi kết liễu và mức cộng 3 sát thương sau mỗi mục tiêu xuyên qua khi bật nâng cấp. Dùng lại PNG trong `public/gun` và prefab đã có. Phần kết nối lên cấp sẽ dùng luật đã chốt sau khi nhóm xem bản thử.
+
+Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi lựa chọn có bậc 0–3. Nhánh Đạn tỏa có thêm viên, đạn hẹp và đẩy lùi. Nhánh Liên thanh có thêm viên, đạn nảy và bung tỏa. Nhánh Xuyên thấu có tăng sát thương qua địch, Dấu xuyên và Dư chấn. Bảng điều khiển và thông số thử nằm trong HUONG_DAN_TEST_SUNG.md.

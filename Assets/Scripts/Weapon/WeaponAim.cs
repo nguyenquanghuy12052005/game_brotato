@@ -11,6 +11,7 @@ public class WeaponAim : MonoBehaviour
     private Camera mainCamera;
     private SpriteRenderer spriteRenderer;
     private float nextFireTime;
+    internal bool AimFromArena { get; set; }
 
     private void Awake()
     {
@@ -20,11 +21,12 @@ public class WeaponAim : MonoBehaviour
 
     private void Update()
     {
+        if (AimFromArena) return;
         RotateTowardsMouse();
         Shoot();
     }
 
-    private void RotateTowardsMouse()
+    internal void RotateTowardsMouse()
     {
         if (mainCamera == null || Mouse.current == null)
         {
