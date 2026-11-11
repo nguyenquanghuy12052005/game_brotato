@@ -5,6 +5,7 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private Transform target;
     [SerializeField] private float moveSpeed = 2f;
+    private bool trainingDummy;
 
     private Rigidbody2D enemyRigidbody;
     
@@ -29,6 +30,7 @@ public class EnemyController : MonoBehaviour
     {
         target = playerTarget;
     }
+    public void SetTrainingDummy(bool value) { trainingDummy = value; }
 
     public float MoveSpeed => moveSpeed;
 
@@ -39,18 +41,19 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (target == null)
+        if (target == null && !trainingDummy)
         {
             return;
         }
 
-        Vector2 direction =
+        Vector2 direction = trainingDummy ? Vector2.zero :
             ((Vector2)target.position - enemyRigidbody.position).normalized;
 
         MageEnemyStatus status = GetComponent<MageEnemyStatus>();
         float speedMultiplier = status != null ? status.MoveMultiplier : 1f;
         Vector2 nextPosition = enemyRigidbody.position
-            + direction * moveSpeed * speedMultiplier * Time.fixedDeltaTime;
+            + (direction * moveSpeed * speedMultiplier +
+                (status != null ? status.GravityVelocity : Vector2.zero)) * Time.fixedDeltaTime;
 
         enemyRigidbody.MovePosition(nextPosition);
     }

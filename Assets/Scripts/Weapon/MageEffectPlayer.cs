@@ -7,6 +7,24 @@ public sealed class MageEffectPlayer : MonoBehaviour
     private float fps;
     private float elapsed;
     private bool loop;
+    private MageAim followingAim;
+    private float followDistance;
+    private float startScale, endScale, scaleDuration;
+
+    public void FollowAim(MageAim aim, float distance)
+    {
+        followingAim = aim;
+        followDistance = distance;
+        UpdateAimPosition();
+    }
+
+    public void Grow(float fromScale, float toScale, float duration)
+    {
+        startScale = fromScale;
+        endScale = toScale;
+        scaleDuration = Mathf.Max(0.01f, duration);
+        transform.localScale = Vector3.one * startScale;
+    }
 
     public void Initialize(SpriteRenderer renderer, Sprite[] animationFrames, float framesPerSecond, bool shouldLoop)
     {
@@ -21,6 +39,10 @@ public sealed class MageEffectPlayer : MonoBehaviour
     {
         if (frames == null) return;
         elapsed += Time.deltaTime;
+        if (followingAim != null) UpdateAimPosition();
+        if (scaleDuration > 0f)
+            transform.localScale = Vector3.one * Mathf.Lerp(startScale, endScale,
+                Mathf.Clamp01(elapsed / scaleDuration));
         int frame = Mathf.FloorToInt(elapsed * fps);
         if (frame >= frames.Length)
         {
@@ -32,5 +54,12 @@ public sealed class MageEffectPlayer : MonoBehaviour
             frame %= frames.Length;
         }
         spriteRenderer.sprite = frames[frame];
+    }
+
+    private void UpdateAimPosition()
+    {
+        transform.position = followingAim.CastPoint + followingAim.Direction * followDistance;
+        transform.rotation = Quaternion.Euler(0f, 0f,
+            Mathf.Atan2(followingAim.Direction.y, followingAim.Direction.x) * Mathf.Rad2Deg);
     }
 }

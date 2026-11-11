@@ -153,3 +153,14 @@ Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi l�
 
 - After a second size review, increase the shared Mage sheet-effect display multiplier from 1.4× to 2.2× and the separate Ice Mark overlay from 0.5 to 0.75. Keep damage and hit radii as configured by each skill.
 - Place the staff sprite pivot on its grip, position that grip at the Mage's visible hand, and spawn aimed projectiles near the staff tip. Keep the offsets serialized so the team can tune them after checking other Mage animations and resolutions.
+
+## M19 - Magical training room and effect motion (2026-11-11)
+
+- Keep all training controls in `Magical.unity`: stationary, non-damaging dummies with configurable count, HP and radius, plus a preview HP reduction button. These controls do not change `GameScene.unity` or the one-life rule.
+- Heal requires missing HP. One Ice Mark overlay grows through the freeze asset's formation frames for hits 1-5; hit 6 triggers the full freeze effect. Gravity pulls ordinary enemies toward its center while they are in range; bosses remain immune to control.
+- The held staff sprite must be explicitly reassigned when the importer is refreshed. Use a larger preview scale of 1.45. Ice Breath follows mouse aim during its animation; Shockwave expands from the Mage; Arcane Orb has a smaller charging visual and larger release visual. These are presentation changes, with existing damage and cooldown values retained.
+
+## M20 - Mage projectile origin at staff tip (2026-11-11)
+
+- Derive the Mage cast point from the Staff transform and a serialized local offset of 0.64 that matches the visible crystal tip. This keeps the origin attached when the staff rotates or is rescaled. Aim updates before combat. Align the rear edge of Fire, Dark and Arcane missile sprites with the cast point; start Ice Breath's visible left edge there as well.
+- Check projectile collision at spawn before moving, since a nearby target may already overlap the staff tip. Preserve one-hit consumption. Damage and cooldown values do not change.

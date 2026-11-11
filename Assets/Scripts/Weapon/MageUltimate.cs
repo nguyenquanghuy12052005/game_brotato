@@ -91,7 +91,7 @@ public sealed class MageUltimate : MonoBehaviour
         chargingOrb = true;
         orbCharge = 0;
         orbVisual = combat.Effects.Play(MageEffectId.ArcaneOrb,
-            transform.position + Vector3.up * 0.9f, 0.9f, transform);
+            transform.position + Vector3.up * 0.9f, 0.45f, transform);
         orbTimer = StartCoroutine(ReleaseAfterTimeout());
     }
 
@@ -107,6 +107,13 @@ public sealed class MageUltimate : MonoBehaviour
         chargingOrb = false;
         if (orbTimer != null) StopCoroutine(orbTimer);
         if (orbVisual != null) Destroy(orbVisual.gameObject);
+        MageEffectPlayer burst = combat.Effects.Play(MageEffectId.ArcaneOrb,
+            transform.position + Vector3.up * 0.9f, 1.3f);
+        if (burst != null)
+        {
+            burst.Grow(burst.transform.localScale.x * 0.65f, burst.transform.localScale.x, 0.3f);
+            Destroy(burst.gameObject, 0.4f);
+        }
         int count = 2 + orbCharge;
         for (int i = 0; i < count; i++)
         {

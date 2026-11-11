@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Globalization;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -10,6 +11,13 @@ public sealed class MageDemoHUD : MonoBehaviour
     [SerializeField] private MageUltimate ultimate;
     [SerializeField] private PlayerHealth health;
     [SerializeField] private bool invulnerableForTesting = true;
+    [SerializeField] private EnemyHealth dummyPrefab;
+    [SerializeField] private Transform dummyRoot;
+    [SerializeField] private Transform mage;
+
+    private string dummyCount = "7";
+    private string dummyHealth = "100";
+    private string dummyRadius = "2.2";
 
     private bool panelOpen;
     private bool restarting;
@@ -37,6 +45,7 @@ public sealed class MageDemoHUD : MonoBehaviour
     private void Start()
     {
         if (health != null) health.SetDamageEnabled(!invulnerableForTesting);
+        ApplyDummies();
     }
 
     private void OnGUI()
@@ -91,6 +100,29 @@ public sealed class MageDemoHUD : MonoBehaviour
         if (GUILayout.Button("Đặt lại cảnh", GUILayout.Width(90f))) RestartPreview();
         GUILayout.EndHorizontal();
         GUILayout.Label("WASD di chuyển | chuột ngắm | Q, E");
+        GUILayout.BeginHorizontal();
+        if (GUILayout.Button("−25 HP"))
+        {
+            health.SetDamageEnabled(true);
+            health.TakeDamage(25);
+            health.SetDamageEnabled(!invulnerableForTesting);
+        }
+        if (GUILayout.Button("Dùng Q")) combat.TryUseStarter();
+        GUILayout.EndHorizontal();
+
+        GUILayout.Space(5f);
+        GUILayout.Label("PHÒNG TẬP - BÙ NHÌN ĐỨNG YÊN");
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Số lượng", GUILayout.Width(72f));
+        dummyCount = GUILayout.TextField(dummyCount, GUILayout.Width(50f));
+        GUILayout.Label("HP", GUILayout.Width(24f));
+        dummyHealth = GUILayout.TextField(dummyHealth, GUILayout.Width(58f));
+        GUILayout.EndHorizontal();
+        GUILayout.BeginHorizontal();
+        GUILayout.Label("Bán kính", GUILayout.Width(72f));
+        dummyRadius = GUILayout.TextField(dummyRadius, GUILayout.Width(58f));
+        if (GUILayout.Button("Tạo lại bù nhìn")) ApplyDummies();
+        GUILayout.EndHorizontal();
 
         GUILayout.Label("Skill Q");
         int starter = GUILayout.SelectionGrid((int)loadout.StarterSkill, StarterNames, 3);
@@ -151,6 +183,35 @@ public sealed class MageDemoHUD : MonoBehaviour
         if (restarting) return;
         restarting = true;
         StartCoroutine(RestartAfterFrame());
+    }
+
+    private void ApplyDummies()
+    {
+        if (dummyPrefab == null || dummyRoot == null || mage == null) return;
+        if (!int.TryParse(dummyCount, out int count) ||
+            !int.TryParse(dummyHealth, out int hp) ||
+            !float.TryParse(dummyRadius.Replace(',', '.'), NumberStyles.Float,
+                CultureInfo.InvariantCulture, out float radius)) return;
+        count = Mathf.Clamp(count, 1, 30);
+        hp = Mathf.Clamp(hp, 1, 10000);
+        radius = Mathf.Clamp(radius, 1f, 6f);
+        dummyCount = count.ToString();
+        dummyHealth = hp.ToString();
+        dummyRadius = radius.ToString("0.0", CultureInfo.InvariantCulture);
+
+        foreach (Transform child in dummyRoot) Destroy(child.gameObject);
+        for (int i = 0; i < count; i++)
+        {
+            float angle = i * Mathf.PI * 2f / count;
+            Vector3 position = mage.position + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle), 0f) * radius;
+            EnemyHealth dummy = Instantiate(dummyPrefab, position, Quaternion.identity, dummyRoot);
+            dummy.name = "Bù nhìn " + (i + 1);
+            dummy.InitializeHealth(hp);
+            EnemyController controller = dummy.GetComponent<EnemyController>();
+            if (controller != null) controller.SetTrainingDummy(true);
+            EnemyContactDamage contact = dummy.GetComponent<EnemyContactDamage>();
+            if (contact != null) contact.enabled = false;
+        }
     }
 
     private IEnumerator RestartAfterFrame()

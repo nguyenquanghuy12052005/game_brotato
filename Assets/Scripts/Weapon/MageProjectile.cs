@@ -8,6 +8,7 @@ public sealed class MageProjectile : MonoBehaviour
     private float speed;
     private float expiresAt;
     private Action<EnemyHealth> onHit;
+    private bool consumed;
 
     public void Initialize(Vector2 aim, EnemyHealth homingTarget, float moveSpeed,
         float lifetime, Action<EnemyHealth> hitAction)
@@ -17,10 +18,12 @@ public sealed class MageProjectile : MonoBehaviour
         speed = moveSpeed;
         expiresAt = Time.time + lifetime;
         onHit = hitAction;
+        TryHit(transform.position);
     }
 
     private void Update()
     {
+        if (consumed) return;
         if (Time.time >= expiresAt) { Destroy(gameObject); return; }
         if (target != null && target.CurrentHealth > 0)
         {
@@ -33,10 +36,16 @@ public sealed class MageProjectile : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f,
             Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
 
-        foreach (Collider2D collider in Physics2D.OverlapCircleAll(next, 0.23f))
+        TryHit(next);
+    }
+
+    private void TryHit(Vector2 position)
+    {
+        foreach (Collider2D collider in Physics2D.OverlapCircleAll(position, 0.23f))
         {
             EnemyHealth enemy = collider.GetComponentInParent<EnemyHealth>();
             if (enemy == null || enemy.CurrentHealth <= 0 || (target != null && enemy != target)) continue;
+            consumed = true;
             onHit?.Invoke(enemy);
             Destroy(gameObject);
             return;

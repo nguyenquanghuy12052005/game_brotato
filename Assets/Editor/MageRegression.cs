@@ -112,11 +112,17 @@ public static class MageRegression
         PlayerHealth player = Object.FindFirstObjectByType<PlayerHealth>();
         MageEffectLibrary effects = Object.FindFirstObjectByType<MageEffectLibrary>();
         Check(combat && ultimate && aim && loadout && player && effects, "Mage components are wired");
+        Transform staffTipSource = player.transform.Find("Staff");
+        Vector2 tipVector = aim.CastPoint - (Vector2)staffTipSource.position;
+        Check(tipVector.magnitude > 0.85f && tipVector.magnitude < 1f &&
+            Vector2.Dot(tipVector.normalized, aim.Direction) > 0.99f,
+            "Projectile cast point matches the visible staff tip");
         Set(combat, "nextAttack", Time.time + 1000f);
         player.SetDamageEnabled(false);
         player.GetComponent<PlayerController>().enabled = false;
         aim.enabled = false;
         Set(aim, "<Direction>k__BackingField", Vector2.right);
+        staffTipSource.rotation = Quaternion.identity;
         Rigidbody2D body = player.GetComponent<Rigidbody2D>();
         Camera camera = Camera.main;
         Check(camera != null && camera.GetComponent<CameraFollow>() != null &&
@@ -128,6 +134,10 @@ public static class MageRegression
         body.position = Vector2.zero;
         wait = Wait(0.2f); while (wait.MoveNext()) yield return null;
         Check(player.transform.Find("Visual").localScale.x >= 1.5f, "Mage visual is enlarged");
+        Check(player.transform.Find("Staff").GetComponent<SpriteRenderer>().sprite != null,
+            "Held staff sprite is assigned");
+        Check(player.transform.Find("Staff").localScale.x >= 1.4f,
+            "Held staff is large enough for preview");
 
         loadout.SelectElement(MageElement.Light);
         loadout.SetTier(0, 2);
@@ -168,6 +178,16 @@ public static class MageRegression
         wait = Wait(1.2f); while (wait.MoveNext()) yield return null;
         Check(enemy.CurrentHealth <= beforeGravity - 2 && status.MoveMultiplier <= 0.65f,
             "Q Gravity damages and slows in area");
+        GameObject pulledObject = Object.Instantiate(prefab, new Vector3(2.5f, 0f), Quaternion.identity);
+        EnemyHealth pulled = pulledObject.GetComponent<EnemyHealth>();
+        pulled.InitializeHealth(100);
+        pulledObject.GetComponent<EnemyController>().SetTrainingDummy(true);
+        pulledObject.GetComponent<EnemyContactDamage>().enabled = false;
+        float distanceBeforePull = Vector2.Distance(pulledObject.transform.position, new Vector2(1.4f, 0f));
+        wait = Wait(0.3f); while (wait.MoveNext()) yield return null;
+        Check(Vector2.Distance(pulledObject.transform.position, new Vector2(1.4f, 0f)) < distanceBeforePull,
+            "Q Gravity pulls a stationary training target inward");
+        pulledObject.SetActive(false);
 
         int beforeFire = enemy.CurrentHealth;
         Call(combat, "LaunchFire", Vector2.right, 1f);

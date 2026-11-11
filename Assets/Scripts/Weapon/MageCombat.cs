@@ -27,6 +27,10 @@ public sealed class MageCombat : MonoBehaviour
     public MageLoadout Loadout => loadout;
 
     public void ResetPreviewStarter() { nextStarter = 0f; }
+    public void TryUseStarter()
+    {
+        if (health.CurrentHealth > 0 && Time.time >= nextStarter) UseStarter();
+    }
     public void ResetPreviewElement() { nextAttack = 0f; fireShots = 0; }
 
     private void Awake()
@@ -42,8 +46,8 @@ public sealed class MageCombat : MonoBehaviour
     private void Update()
     {
         if (health.CurrentHealth <= 0) return;
-        if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame && Time.time >= nextStarter)
-            UseStarter();
+        if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
+            TryUseStarter();
         if (Time.time < nextAttack) return;
         switch (loadout.Element)
         {
@@ -102,6 +106,8 @@ public sealed class MageCombat : MonoBehaviour
     {
         MageEffectPlayer visual = effects.Play(effect, origin, scale, null, 12, true);
         if (visual == null) return null;
+        visual.transform.rotation = Quaternion.Euler(0f, 0f,
+            Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg);
         MageProjectile projectile = visual.gameObject.AddComponent<MageProjectile>();
         projectile.Initialize(direction, target, speed, life, onHit);
         return projectile;
@@ -117,7 +123,8 @@ public sealed class MageCombat : MonoBehaviour
                 nextStarter = Time.time + 25f;
                 break;
             case MageStarterSkill.Shockwave:
-                effects.Play(MageEffectId.Shockwave, transform.position, 1.25f);
+                MageEffectPlayer wave = effects.Play(MageEffectId.Shockwave, transform.position, 1.25f, transform);
+                if (wave != null) wave.Grow(0.1f, wave.transform.localScale.x, 0.7f);
                 foreach (EnemyHealth enemy in Enemies(transform.position, 2.5f))
                 {
                     MageEnemyStatus status = Status(enemy);
@@ -149,6 +156,7 @@ public sealed class MageCombat : MonoBehaviour
                 MageEnemyStatus status = Status(enemy);
                 if (status == null) continue;
                 status.SetGravitySlow(0.35f);
+                status.SetGravityPull(center, 2.5f);
                 progress.TryGetValue(status, out float value);
                 value += 3f * Time.deltaTime;
                 int damage = Mathf.FloorToInt(value);
@@ -194,10 +202,8 @@ public sealed class MageCombat : MonoBehaviour
     {
         Vector2 origin = transform.position;
         MageEffectPlayer breath = effects.Play(MageEffectId.IceBreath,
-            aim.CastPoint + aim.Direction * 0.55f, 0.9f);
-        if (breath != null)
-            breath.transform.rotation = Quaternion.Euler(0f, 0f,
-                Mathf.Atan2(aim.Direction.y, aim.Direction.x) * Mathf.Rad2Deg);
+            aim.CastPoint + aim.Direction * 1.8f, 0.9f);
+        if (breath != null) breath.FollowAim(aim, 1.8f);
         foreach (EnemyHealth enemy in Enemies(origin, 3f))
         {
             Vector2 delta = (Vector2)enemy.transform.position - origin;

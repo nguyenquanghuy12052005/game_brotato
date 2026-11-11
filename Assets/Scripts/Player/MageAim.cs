@@ -1,18 +1,21 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[DefaultExecutionOrder(-100)]
 public sealed class MageAim : MonoBehaviour
 {
     [SerializeField] private Transform staff;
     [SerializeField] private SpriteRenderer staffRenderer;
     [SerializeField] private Vector2 handOffset = new Vector2(0.28f, 0.33f);
-    [SerializeField] private float staffTipDistance = 0.43f;
+    // Local X of the visible crystal tip in MageStaff.png (128 px, pivot at 0.38).
+    [SerializeField] private float staffTipOffset = 0.64f;
     private Camera gameplayCamera;
     private float facingSign = 1f;
 
     public Vector2 Direction { get; private set; } = Vector2.right;
-    public Vector2 CastPoint => (staff != null ? (Vector2)staff.position : (Vector2)transform.position)
-        + Direction * staffTipDistance;
+    public Vector2 CastPoint => staff != null
+        ? staff.TransformPoint(new Vector3(staffTipOffset, 0f, 0f))
+        : (Vector2)transform.position + Direction * staffTipOffset;
 
     private void Awake()
     {

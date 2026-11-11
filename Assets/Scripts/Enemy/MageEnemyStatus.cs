@@ -9,10 +9,14 @@ public sealed class MageEnemyStatus : MonoBehaviour
     private MageEffectPlayer burnEffect;
     private MageEffectPlayer curseEffect;
     private SpriteRenderer iceMark;
+    private int iceMarkFromFrame, iceMarkToFrame;
+    private float iceMarkGrowthStart;
     private float burnUntil, burnDamage, burnProgress;
     private float curseUntil, curseDamage, curseProgress, curseSlow, curseDamageReduction;
     private float chillUntil, chillSlow, iceMarksUntil;
     private float gravityUntil, gravitySlow, dazzleUntil;
+    private Vector2 gravityCenter;
+    private float gravityPullUntil, gravityPullSpeed;
     private float frozenUntil, stoppedUntil;
     private int iceMarks, coldFocusStacks, pendingDamage;
 
@@ -47,6 +51,8 @@ public sealed class MageEnemyStatus : MonoBehaviour
             return Mathf.Clamp01(1f - reduction);
         }
     }
+    public Vector2 GravityVelocity => !IsBoss && Time.time < gravityPullUntil
+        ? (gravityCenter - (Vector2)transform.position).normalized * gravityPullSpeed : Vector2.zero;
 
     private void Awake()
     {
@@ -84,6 +90,12 @@ public sealed class MageEnemyStatus : MonoBehaviour
         else { curseProgress = 0f; RemoveEffect(ref curseEffect); }
 
         if (now >= iceMarksUntil && iceMarks > 0) { iceMarks = 0; RemoveIceMark(); }
+        if (iceMark != null && iceMark.sprite != null && effects != null)
+        {
+            float growth = Mathf.Clamp01((now - iceMarkGrowthStart) / 0.25f);
+            int frame = Mathf.RoundToInt(Mathf.Lerp(iceMarkFromFrame, iceMarkToFrame, growth));
+            iceMark.sprite = effects.GetFrame(MageEffectId.Freeze, frame);
+        }
         if (now >= chillUntil) coldFocusStacks = 0;
     }
 
@@ -143,6 +155,13 @@ public sealed class MageEnemyStatus : MonoBehaviour
     }
 
     public void SetGravitySlow(float slow) { if (!IsBoss) { gravitySlow = slow; gravityUntil = Time.time + 0.15f; } }
+    public void SetGravityPull(Vector2 center, float speed)
+    {
+        if (IsBoss) return;
+        gravityCenter = center;
+        gravityPullSpeed = Mathf.Max(0f, speed);
+        gravityPullUntil = Time.time + 0.15f;
+    }
     public void SetDazzled() { if (!IsBoss) dazzleUntil = Time.time + 0.3f; }
     public void StopTime(float duration) { if (!IsBoss) stoppedUntil = Mathf.Max(stoppedUntil, Time.time + duration); }
 
@@ -158,7 +177,10 @@ public sealed class MageEnemyStatus : MonoBehaviour
             iceMark.sortingOrder = 16;
         }
         int[] formationFrames = { 10, 19, 24, 30, 35 };
-        iceMark.sprite = effects.GetFrame(MageEffectId.Freeze, formationFrames[Mathf.Clamp(iceMarks - 1, 0, 4)]);
+        iceMarkFromFrame = iceMark.sprite == null ? 0 : iceMarkToFrame;
+        iceMarkToFrame = formationFrames[Mathf.Clamp(iceMarks - 1, 0, 4)];
+        iceMarkGrowthStart = Time.time;
+        iceMark.sprite = effects.GetFrame(MageEffectId.Freeze, iceMarkFromFrame);
     }
 
     private void RemoveIceMark()

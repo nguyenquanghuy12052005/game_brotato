@@ -365,6 +365,9 @@ MonoBehaviour:
   ultimate: {fileID: 41319815}
   health: {fileID: 41319813}
   invulnerableForTesting: 1
+  dummyPrefab: {fileID: -7901652928733229832, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
+  dummyRoot: {fileID: 2083785138}
+  mage: {fileID: 41319814}
 --- !u!4 &92976328
 Transform:
   m_ObjectHideFlags: 0

@@ -66,6 +66,9 @@ public static class MagePreviewSetup
         SetReference(hud, "combat", instance.GetComponent<MageCombat>());
         SetReference(hud, "ultimate", instance.GetComponent<MageUltimate>());
         SetReference(hud, "health", instance.GetComponent<PlayerHealth>());
+        SetReference(hud, "dummyPrefab", enemyPrefab.GetComponent<EnemyHealth>());
+        SetReference(hud, "dummyRoot", enemies.transform);
+        SetReference(hud, "mage", instance.transform);
         EditorSceneManager.MarkSceneDirty(scene);
         EditorSceneManager.SaveScene(scene);
         Selection.activeObject = instance;
@@ -85,7 +88,10 @@ public static class MagePreviewSetup
         Transform staff = prefab.transform.Find("Staff");
         if (visual == null || staff == null) { Debug.LogError("Mage prefab is missing Visual or Staff."); return; }
         visual.localScale = Vector3.one * 1.5f;
-        staff.localScale = Vector3.one * 0.65f;
+        staff.localScale = Vector3.one * 1.45f;
+        Sprite staffSprite = AssetDatabase.LoadAssetAtPath<Sprite>(Art + "MageStaff.png");
+        if (staffSprite == null) { Debug.LogError("Mage staff sprite did not import."); return; }
+        staff.GetComponent<SpriteRenderer>().sprite = staffSprite;
         prefab.GetComponent<CircleCollider2D>().radius = 0.45f;
         SerializedObject library = new SerializedObject(prefab.GetComponent<MageEffectLibrary>());
         library.FindProperty("visualScale").floatValue = 2.2f;
@@ -108,6 +114,14 @@ public static class MagePreviewSetup
             SerializedObject hudSettings = new SerializedObject(hud);
             hudSettings.FindProperty("invulnerableForTesting").boolValue = true;
             hudSettings.ApplyModifiedPropertiesWithoutUndo();
+            GameObject enemyPrefab = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Enemy/Enemy.prefab");
+            Transform root = GameObject.Find("Preview Enemies")?.transform;
+            if (enemyPrefab != null && root != null)
+            {
+                SetReference(hud, "dummyPrefab", enemyPrefab.GetComponent<EnemyHealth>());
+                SetReference(hud, "dummyRoot", root);
+                SetReference(hud, "mage", mage.transform);
+            }
         }
         EditorSceneManager.MarkSceneDirty(scene);
         EditorSceneManager.SaveScene(scene);
@@ -160,7 +174,7 @@ public static class MagePreviewSetup
     {
         SerializedObject serialized = new SerializedObject(aim);
         serialized.FindProperty("handOffset").vector2Value = new Vector2(0.28f, 0.33f);
-        serialized.FindProperty("staffTipDistance").floatValue = 0.43f;
+        serialized.FindProperty("staffTipOffset").floatValue = 0.64f;
         serialized.ApplyModifiedPropertiesWithoutUndo();
     }
 
@@ -191,7 +205,7 @@ public static class MagePreviewSetup
         SpriteRenderer staffRenderer = staff.AddComponent<SpriteRenderer>();
         staffRenderer.sprite = staffSprite;
         staffRenderer.sortingOrder = 11;
-        staff.transform.localScale = Vector3.one * 0.65f;
+        staff.transform.localScale = Vector3.one * 1.45f;
         MageAim aim = player.AddComponent<MageAim>();
         SetReference(aim, "staff", staff.transform);
         SetReference(aim, "staffRenderer", staffRenderer);

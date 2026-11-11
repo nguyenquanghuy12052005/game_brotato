@@ -102,12 +102,16 @@ public sealed class MageEffectLibrary : MonoBehaviour
         }
 
         var result = new Sprite[sheet.frames];
+        // Place the visible rear of each projectile at its transform origin.
+        float pivotX = id == MageEffectId.Fireball ? 0.15f :
+            id == MageEffectId.DarkMissile ? 0.1f :
+            id == MageEffectId.ArcaneMissiles ? 0.13f : 0.5f;
         for (int i = 0; i < result.Length; i++)
         {
             int x = (i % columns) * sheet.width;
             int y = atlas.height - (i / columns + 1) * sheet.height;
             result[i] = Sprite.Create(atlas, new Rect(x, y, sheet.width, sheet.height),
-                new Vector2(0.5f, 0.5f), 100f, 0, SpriteMeshType.FullRect);
+                new Vector2(pivotX, 0.5f), 100f, 0, SpriteMeshType.FullRect);
         }
         sprites.Add(id, result);
         return result;

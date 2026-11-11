@@ -76,6 +76,8 @@ Boss miễn nhiễm các hiệu ứng khống chế của Pháp sư (đẩy lùi
 | Cấp 16-18 | Mỗi cấp chọn một chỉ số nền theo sơ đồ. |
 | Cấp 19-20 | Mỗi cấp chọn một trong **hai lõi còn lại** của nhánh; đến cấp 20 có đủ bốn lõi, không mua trùng lõi. |
 
+Trong phòng thử `Magical.unity`, bảng test cho tạo lại 1-30 bù nhìn đứng yên, không gây sát thương, chỉnh HP và bán kính đặt quanh Pháp sư. Có nút trừ 25 HP để thử Hồi phục dù chế độ bất tử đang bật. Các nút này chỉ phục vụ thử skill.
+
 #### Skill cấp 5
 
 | Skill | Kích hoạt và hiệu quả | Hồi chiêu |
@@ -89,7 +91,7 @@ Mỗi skill Q là một lần kích hoạt; hồi chiêu tính theo thời gian 
 #### Nhánh cấp 9 và trạng thái
 
 - **Hỏa:** cầu lửa nổ bán kính 1,5 m, gây 20 sát thương trực tiếp và đốt 4 sát thương/giây trong 3 giây (thêm tối đa 12 sát thương nếu cháy đủ thời gian).
-- **Băng:** Hơi thở băng gây 15 sát thương cho mỗi quái trúng, làm chậm 30%. Mỗi lần thi triển chỉ ghi **một lần trúng trên mỗi quái**, dù animation có nhiều frame. Sau **6 lần trúng trên cùng quái**, quái thường đóng băng cứng 2 giây; boss chỉ nhận sát thương, không nhận làm chậm hay đóng băng. Chậm kéo dài 2,5 giây và được làm mới khi trúng lại. Số lần trúng tích lũy hết hạn nếu 6 giây không trúng Băng; khi đóng băng thì đặt lại về 0. **Ấn băng** hiển thị mức tích lũy 1-5 bằng các frame hình thành 10, 19, 24, 30, 35 (đếm từ 0) của `freeze-v2-d9694c96.png`; lần thứ 6 phát toàn bộ sheet đóng băng. Cần kiểm tra hình ấn ở kích thước thật trong Play Mode.
+- **Băng:** Hơi thở băng gây 15 sát thương cho mỗi quái trúng, làm chậm 30%. Hiệu ứng hơi thở bám theo nhân vật và hướng chuột khi đang phát. Mỗi lần thi triển chỉ ghi **một lần trúng trên mỗi quái**, dù animation có nhiều frame. Sau **6 lần trúng trên cùng quái**, quái thường đóng băng cứng 2 giây; boss chỉ nhận sát thương, không nhận làm chậm hay đóng băng. Chậm kéo dài 2,5 giây và được làm mới khi trúng lại. Số lần trúng tích lũy hết hạn nếu 6 giây không trúng Băng; khi đóng băng thì đặt lại về 0. **Ấn băng** là một lớp băng duy nhất lớn dần trên quái qua các frame hình thành 10, 19, 24, 30, 35 (đếm từ 0) của `freeze-v2-d9694c96.png`, không phải nhiều biểu tượng ấn riêng; lần thứ 6 phát toàn bộ sheet đóng băng. Cần kiểm tra hình ấn ở kích thước thật trong Play Mode.
 - **Quang:** cột sáng gây 8 sát thương mỗi nhịp trong 4 nhịp, tối đa 32 sát thương nếu cùng quái nhận đủ bốn nhịp.
 - **Ám:** nguyền tối đa 3 quái cùng lúc; mỗi quái bị nguyền nhận 5 sát thương/giây và bị chậm 15%. Bản thử bắn đạn tự tìm quái gần nhất trong 7 m, ưu tiên quái chưa bị nguyền khi còn chỗ; lời nguyền kéo dài 4 giây và được làm mới khi trúng lại. Giới hạn mục tiêu có thể tăng qua nâng cấp. Các thông số chọn mục tiêu/thời gian này là mặc định thử nghiệm, cần cân bằng tiếp.
 
