@@ -1,0 +1,54 @@
+{
+  "tool": "built-in imagegen",
+  "common": "Transparent pixel art VFX,4columns x2rows,8frames, safe margins, effects overlay, no UI/environment",
+  "effects": [
+    [
+      "Stage1/KhienChan",
+      "amber forward-facing crescent shield at right side of empty character space: form thin rim, solid shield, white localized block spark at right, split into THREE shards, dissolve."
+    ],
+    [
+      "Stage1/AnhBo",
+      "purple dodge dash to RIGHT: two small translucent humanoid rogue silhouettes lag behind a crisp moving leading glint, stretched foot dust streaks, dissolve. No solid real character. Shift motion from left to right."
+    ],
+    [
+      "Stage1/LuoiDaoHoThe",
+      "TWO steel curved blades orbit opposite sides of empty character center, eight consecutive rotation phases through full360degrees, bright thin gold cutting edges, fine circular orbit, keep center clear."
+    ],
+    [
+      "Assassin/TamLienThu",
+      "THREE short violet-white dagger thrust streaks pointing right, first thrust then second then three rapid overlapping thrusts, concentrated small white impact spark, retract/fade. No handle or full character."
+    ],
+    [
+      "Assassin/AnhHoiKich",
+      "one silver purple translucent small rogue afterimage forms at left, leans and stabs RIGHT with reverse grip dagger, long narrow violet stab trail reaches right, phantom dissolves. Eight sequential poses."
+    ],
+    [
+      "Assassin/AnTuHuyet",
+      "violet weakpoint sigil on right side of empty target center, sharp small diamond rim and pulsing needle mark, right-facing dagger impact strikes sigil then it bursts into purple radial fragments and fades."
+    ],
+    [
+      "DaoWarrior/DiaLietTram",
+      "heavy diagonal bronze-orange cutting arc strikes ground and travels RIGHT as connected jagged earth fissure, stone splinters pop along crack sequentially, fading orange light, no full terrain tile."
+    ],
+    [
+      "DaoWarrior/HoanhTao",
+      "heavy broad steel-bronze sweeping slash makes complete360degree circle around clear empty character center, strong curved bright rim moves clockwise, brief low dust at trailing edge, fade."
+    ],
+    [
+      "DaoWarrior/TrongDao",
+      "heavy oversized saber power charge effect aimed right: narrow bronze light runs from left hilt location to high right tip, pause at peak glow then large diagonal downward slash with compact impact spark and low dust, fade. VFX only."
+    ],
+    [
+      "QiSwordsman/HoiNguyet",
+      "thin teal white crescent sword wave travels RIGHT, reaches apex then turns and returns LEFT, cutting rim changes to face left during return, subtle gold dust, fade."
+    ],
+    [
+      "QiSwordsman/PhanQuang",
+      "three distinct teal-white crescent blade waves launch simultaneously in a fan RIGHT at -25,0,+25deg, advance separated, narrow gold rims, faint translucent connecting wash, dissolve."
+    ],
+    [
+      "QiSwordsman/KiemAn",
+      "two slim teal crescent hits create TWO small cyan rune marks over empty target center; physical thin white sword slash breaks marks into compact radial teal burst; fragments fade."
+    ]
+  ]
+}

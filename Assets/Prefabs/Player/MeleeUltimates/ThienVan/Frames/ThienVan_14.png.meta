@@ -1,0 +1,1053 @@
+fileFormatVersion: 2
+guid: a3f5e834df7599f4f8dc6efead1047ca
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7191906302227637877
+    second: ThienVan_14_0
+  - first:
+      213: -7662472736827067018
+    second: ThienVan_14_1
+  - first:
+      213: 8956506747934119525
+    second: ThienVan_14_2
+  - first:
+      213: 1213364008345599424
+    second: ThienVan_14_3
+  - first:
+      213: 8931625660200252288
+    second: ThienVan_14_4
+  - first:
+      213: -1061472450577907582
+    second: ThienVan_14_5
+  - first:
+      213: 874867922217311413
+    second: ThienVan_14_6
+  - first:
+      213: 4741836427702234229
+    second: ThienVan_14_7
+  - first:
+      213: 8178302124743212569
+    second: ThienVan_14_8
+  - first:
+      213: -5593246874874779650
+    second: ThienVan_14_9
+  - first:
+      213: -4827066198979621272
+    second: ThienVan_14_10
+  - first:
+      213: 3505104263992366778
+    second: ThienVan_14_11
+  - first:
+      213: -2431392805526978583
+    second: ThienVan_14_12
+  - first:
+      213: 3569293674949693505
+    second: ThienVan_14_13
+  - first:
+      213: -2887165815821943186
+    second: ThienVan_14_14
+  - first:
+      213: -3495001409423564726
+    second: ThienVan_14_15
+  - first:
+      213: -7802881889135785997
+    second: ThienVan_14_16
+  - first:
+      213: 5516894001204650348
+    second: ThienVan_14_17
+  - first:
+      213: 6625689822255011455
+    second: ThienVan_14_18
+  - first:
+      213: -315567299615667319
+    second: ThienVan_14_19
+  - first:
+      213: 1475645977608174294
+    second: ThienVan_14_20
+  - first:
+      213: -8818197639468662560
+    second: ThienVan_14_21
+  - first:
+      213: 2667942112020152390
+    second: ThienVan_14_22
+  - first:
+      213: 8673919623531056442
+    second: ThienVan_14_23
+  - first:
+      213: 4862696858352810992
+    second: ThienVan_14_24
+  - first:
+      213: 4693706546697697513
+    second: ThienVan_14_25
+  - first:
+      213: 4715019547016490424
+    second: ThienVan_14_26
+  - first:
+      213: -2061131454826078276
+    second: ThienVan_14_27
+  - first:
+      213: 5680533000521793923
+    second: ThienVan_14_28
+  - first:
+      213: -7446912120842653670
+    second: ThienVan_14_29
+  - first:
+      213: -6684757850827234384
+    second: ThienVan_14_30
+  - first:
+      213: -5120624927008346909
+    second: ThienVan_14_31
+  - first:
+      213: -4370081793029114123
+    second: ThienVan_14_32
+  - first:
+      213: -3999907386213004261
+    second: ThienVan_14_33
+  - first:
+      213: -5975898505166339404
+    second: ThienVan_14_34
+  - first:
+      213: 8887174891070427790
+    second: ThienVan_14_35
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ThienVan_14_0
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 210
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 576eb227da8cec360800000000000000
+      internalID: 7191906302227637877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_1
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 225
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 675be44b4ad69a590800000000000000
+      internalID: -7662472736827067018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_2
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 200
+        width: 29
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56690030f67eb4c70800000000000000
+      internalID: 8956506747934119525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_3
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 214
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdfeac032cb6d010800000000000000
+      internalID: 1213364008345599424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_4
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 203
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 083fff6573283fb70800000000000000
+      internalID: 8931625660200252288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 195
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 280c07c1e64e441f0800000000000000
+      internalID: -1061472450577907582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_6
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 168
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc95217db7242c00800000000000000
+      internalID: 874867922217311413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_7
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 178
+        width: 51
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57ce2309b136ec140800000000000000
+      internalID: 4741836427702234229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_8
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 175
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e3423b37a2f7170800000000000000
+      internalID: 8178302124743212569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_9
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 181
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef766020a9bc062b0800000000000000
+      internalID: -5593246874874779650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_10
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 153
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e468eedd0d20db0800000000000000
+      internalID: -4827066198979621272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_11
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 163
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab6d8fbd1c1a4a030800000000000000
+      internalID: 3505104263992366778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_12
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 134
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efbf1d1025f14ed0800000000000000
+      internalID: -2431392805526978583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_13
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 156
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140dc6abfada88130800000000000000
+      internalID: 3569293674949693505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_14
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 160
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6e3844ccf9bee7d0800000000000000
+      internalID: -2887165815821943186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_15
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 154
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a40a1d54cb24f7fc0800000000000000
+      internalID: -3495001409423564726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_16
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 98
+        width: 20
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f78bb5634896b390800000000000000
+      internalID: -7802881889135785997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_17
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 129
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6169454dd1ff8c40800000000000000
+      internalID: 5516894001204650348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 129
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f765e67f9cd23fb50800000000000000
+      internalID: 6625689822255011455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_19
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 83
+        width: 19
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98bcda38631ee9bf0800000000000000
+      internalID: -315567299615667319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_20
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 138
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dab195c23c8a7410800000000000000
+      internalID: 1475645977608174294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_21
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 80
+        width: 93
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0484cb7f77f9580800000000000000
+      internalID: -8818197639468662560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_22
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 114
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 640444c273f660520800000000000000
+      internalID: 2667942112020152390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_23
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 112
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3dcbd2f0f3ff5870800000000000000
+      internalID: 8673919623531056442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_24
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 96
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fbf68c6705cb7340800000000000000
+      internalID: 4862696858352810992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_25
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 72
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e877d36c35632140800000000000000
+      internalID: 4693706546697697513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_26
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 72
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bde0f8fb4d1f6140800000000000000
+      internalID: 4715019547016490424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_27
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 78
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbf15b7bcd36563e0800000000000000
+      internalID: -2061131454826078276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_28
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 72
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3814cfecaae45de40800000000000000
+      internalID: 5680533000521793923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a107f9ba1e047a890800000000000000
+      internalID: -7446912120842653670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_30
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 59
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b360fbe628fa33a0800000000000000
+      internalID: -6684757850827234384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_31
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 67
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ec28a552c2efe8b0800000000000000
+      internalID: -5120624927008346909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_32
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 59
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6f81f43c95a53c0800000000000000
+      internalID: -4370081793029114123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_33
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 42
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1c0056bc697d78c0800000000000000
+      internalID: -3999907386213004261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_34
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 40
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2c5c1a8f7511da0800000000000000
+      internalID: -5975898505166339404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ThienVan_14_35
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 45
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8216072a76955b70800000000000000
+      internalID: 8887174891070427790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      ThienVan_14_0: 7191906302227637877
+      ThienVan_14_1: -7662472736827067018
+      ThienVan_14_10: -4827066198979621272
+      ThienVan_14_11: 3505104263992366778
+      ThienVan_14_12: -2431392805526978583
+      ThienVan_14_13: 3569293674949693505
+      ThienVan_14_14: -2887165815821943186
+      ThienVan_14_15: -3495001409423564726
+      ThienVan_14_16: -7802881889135785997
+      ThienVan_14_17: 5516894001204650348
+      ThienVan_14_18: 6625689822255011455
+      ThienVan_14_19: -315567299615667319
+      ThienVan_14_2: 8956506747934119525
+      ThienVan_14_20: 1475645977608174294
+      ThienVan_14_21: -8818197639468662560
+      ThienVan_14_22: 2667942112020152390
+      ThienVan_14_23: 8673919623531056442
+      ThienVan_14_24: 4862696858352810992
+      ThienVan_14_25: 4693706546697697513
+      ThienVan_14_26: 4715019547016490424
+      ThienVan_14_27: -2061131454826078276
+      ThienVan_14_28: 5680533000521793923
+      ThienVan_14_29: -7446912120842653670
+      ThienVan_14_3: 1213364008345599424
+      ThienVan_14_30: -6684757850827234384
+      ThienVan_14_31: -5120624927008346909
+      ThienVan_14_32: -4370081793029114123
+      ThienVan_14_33: -3999907386213004261
+      ThienVan_14_34: -5975898505166339404
+      ThienVan_14_35: 8887174891070427790
+      ThienVan_14_4: 8931625660200252288
+      ThienVan_14_5: -1061472450577907582
+      ThienVan_14_6: 874867922217311413
+      ThienVan_14_7: 4741836427702234229
+      ThienVan_14_8: 8178302124743212569
+      ThienVan_14_9: -5593246874874779650
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
