@@ -1,0 +1,3 @@
+map2: bot xương khô cầm kiếm (2 mạng), skill 1: lướt tới + tiếp cần main character, skill 2: xoay kiếm hình tròn, skill 3: nhảy tới mục tiêu + gầm thét gây sát thương
+map3: bot quái lửa dung nham (golem dung nham của game genshine) (3 mạng), skill 1: bắn lửa hình nón, skill 3: ném ra cầu lửa, bắn ra các cầu lửa nhỏ hơn (tạo hố dung nham random - trong vòng mấy giây đó), skill 2: hồi máu.
+map4: bot yeti (người tuyết), skill 3: gồng -> tăng tấn công / hoặc phòng thủ -> tạo bão tuyết toàn map -> làm chậm tốc độ di chuyển cho nhân vật, skill 1: ném 1 lần 1 viên tuyết, skill 2: đông cứng nhân vật (tạo 1 vòng tuyết quanh main), nếu main ko né đc trong 1 hay 0.5 giây thì sẽ bị đông cứng.

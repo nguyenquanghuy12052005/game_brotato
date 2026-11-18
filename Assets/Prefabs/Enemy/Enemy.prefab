@@ -14,7 +14,9 @@ GameObject:
   - component: {fileID: 8958799036963665938}
   - component: {fileID: 1915125671978867170}
   - component: {fileID: -7901652928733229832}
-  - component: {fileID: 469188127458340775}
+  - component: {fileID: -5407872345908605151}
+  - component: {fileID: -1597412540496676259}
+  - component: {fileID: 299941802261918150}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -86,7 +88,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 4169e3df149d33248ba57486e0a4e14f, type: 3}
+  m_Sprite: {fileID: 2931661829077144855, guid: fd3efb0a3e778df48bd6f09f94a81ec6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -187,7 +189,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyHealth
   maxHealth: 30
---- !u!114 &469188127458340775
+--- !u!95 &-5407872345908605151
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668070656183893105}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 301f4e355b58ff544a9184fc25c61cd4, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &-1597412540496676259
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -196,7 +220,25 @@ MonoBehaviour:
   m_GameObject: {fileID: 7668070656183893105}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc7c7ee32de3d5043a4d735d5cdb8c9f, type: 3}
+  m_Script: {fileID: 11500000, guid: ae984b1d00f96d04484013e6674cb4fd, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EnemyContactDamage
-  contactDamage: 10
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyMeleeAttack
+  attackRange: 1.2
+  windupTime: 0.35
+  cooldown: 1.5
+  damage: 10
+--- !u!114 &299941802261918150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7668070656183893105}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: def6c5edef05305479397d86a43fc069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EnemyGrowth
+  healthPercentPerSecond: 0.02
+  damagePercentPerSecond: 0.01
+  maxGrowthSeconds: 60
