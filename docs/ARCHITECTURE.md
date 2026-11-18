@@ -4,6 +4,14 @@ Updated 2026-09-18. Unity 6000.3.22f1, URP 2D, existing Input System. Main enabl
 
 ## Scene and components
 
+`Assets/Scenes/HexcoreSkillPreview.unity` is the separate four-form HEXCORE preview. `HexcoreSkillPreviewSetup` wires the existing form prefabs, authored sprite sequences, legacy VFX, WAV cues and a Kenney dummy. `HexcorePreviewCatalog` defines 24 sequences. One unscaled clock samples native Animator states or authored frames and drives preview displacement, weapon and landing anchors, sound events and hit feedback. The director keeps movement direction and aim independent and presents authored turns when available. This scene has no gameplay dependencies.
+
+Editor setup gắn mỗi chuỗi sprite theo form, skill và hướng đánh. Chuỗi có thể kèm tọa độ pixel theo frame cho vũ khí và điểm chạm. Editor kiểm tra giới hạn của điểm neo và ghi số frame đã đo vào CSV. Q2 lấy pose theo thứ tự xoay. R1, R2 và R3 dùng quy tắc chọn pose riêng theo từng pha. Ảnh camera để xuất GIF lấy từ timeline đang dùng trong scene.
+
+Scene hiện có đọc thêm điểm neo và sprite xoay Cuồng Phong Đao từ `Assets/Resources`. Editor `VerifyExisting` mở scene đã lưu, lấy mẫu các chuỗi có đổi hướng, đo AudioListener và ghi MP4 camera trong Play Mode. `OnAudioFilterRead` ghi PCM của mixer cho video bằng component tạm. Gallery nằm ngoài Assets, được sinh từ PNG Unity, trạng thái CSV và nhận xét visual.
+
+Preview có chế độ Tự do dùng Input System. Vị trí di chuyển là điểm gốc của lần thi triển, dịch chuyển của chiêu được cộng vào đó và chốt tại cuối chiêu. Camera bám vị trí trên mặt đất và giữ pha rung độc lập. IMGUI tính cùng biên với viewport để chừa vùng danh sách và HUD. Vạn Ảnh dùng một material preview riêng và giữ PNG nguồn chung.
+
 Assets/Scenes/MeleeDemo.unity is a standalone visual gallery with MeleeSkillDemo and an orthographic camera. Its serialized 15 entries reference existing stage1/stage2/ultimate visual prefabs directly. Runtime sidebar selects one instance, uses its original Animator and offers replay/pause/repeat/zoom. Camera viewport reserves header/control space and keeps uniform sprite scale. MeleeDemoSetup creates/wires this scene; MeleeDemoVerification exercises all selections in actual Play Mode.
 
 MeleeDemoCombat owns a replaceable encounter containing the correct branch actor, original selected VFX prefab and four SpriteRenderers sourced from Enemy artwork. A shared preview clock samples original animation states and scripted movement/reactions, permitting pause/replay without affecting global timeScale. Ultimate actor selection is shared across three ultimate entries. This presentation timeline is independent of GameScene combat systems.

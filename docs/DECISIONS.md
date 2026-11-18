@@ -1,5 +1,25 @@
 # Decisions
 
+## HEXCORE · Vị trí khi chơi tự do
+
+Khi người xem đi tự do, timeline chiêu tính quỹ đạo từ vị trí lúc bấm Space. Lúc kết thúc hoặc đổi mode, preview giữ tọa độ mặt đất đã đi đến. Nút Thử tại chỗ phát lại ở tọa độ hiện tại. R là thao tác chủ động về điểm đầu. Tách camera khỏi vùng điều khiển và giữ công cụ chấm pose trong chế độ Trình diễn.
+
+## HEXCORE · Nhịp kỹ năng và bằng chứng visual
+
+Timeline preview dùng thời lượng riêng cho từng beat. Hit-stop phụ thuộc loại va chạm. Gallery tĩnh đọc các GIF camera và CSV sinh từ bản Play Mode. Mỗi trạng thái hình ảnh cần bằng chứng và điểm riêng. Log runtime là dữ liệu đối chiếu cho chuỗi phase, Replay và đầu ra audio.
+
+## HEXCORE · Pose theo form, kỹ năng và hướng
+
+Scene review ưu tiên chuỗi pose đúng tổ hợp form–skill–hướng. Mỗi chuỗi có thể đính kèm JSON điểm neo pixel theo frame. Thiếu điểm đo thì hiệu ứng dùng thiết lập mặc định của demo, và biến thể vẫn giữ Blockout. Thời lượng các pha nằm trong timeline Unity. Các clip sprite xuất kèm phục vụ kiểm tra pose trong Animation window. Artwork gốc và Animator nguồn tiếp tục phục vụ locomotion theo các hướng có sẵn.
+
+## HEXCORE catalog preview · 2026-11-18
+
+Keep authored pose clips under the matching form's `HexcorePreview` directory. Use source Animator poses as explicitly labeled Blockout coverage when a skill or combo direction lacks dedicated frames. The review scene owns its timeline, SFX cues, and feedback controls independently of gameplay. See [the production report](HEXCORE_ASSET_PRODUCTION_REPORT.md).
+
+## HEXCORE Q1 blockout · 2026-11-18
+
+Use a separate preview scene and the original Kiếm sĩ Animator for the Q1 pipeline. Preview four cardinal locomotion directions and stage combat facing east using existing sprite clips, with explicit placeholder labels for dash/recovery and impact. The second Basic combo strike and dedicated Q1 poses require additional art before review for approval. See [the asset audit](HEXCORE_ASSET_AUDIT.md).
+
 Accepted intent unless marked temporary. Actual defects/checks belong in [STATE](STATE.md). Full roadmap remains in [original plan](../ke_hoach_do_an_game_2d_brotato_like.md).
 
 ## D01 - Simple, scoped implementation

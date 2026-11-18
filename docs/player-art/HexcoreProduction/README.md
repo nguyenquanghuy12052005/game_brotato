@@ -1,0 +1,28 @@
+# HEXCORE · GIF xem nhanh từ Unity
+
+Camera hướng Đông. Các GIF Blockout để duyệt key pose, nhịp và hiệu ứng.
+
+- [Q1 · Kiếm Lướt / Phong Ảnh Trảm](SkillGifs/Skill_01.gif)
+- [Q2 · Hoành Nguyệt Trảm](SkillGifs/Skill_02.gif)
+- [Q3 · Phản Kiếm Quyết](SkillGifs/Skill_03.gif)
+- [E1 · Ám Bộ Trảm](SkillGifs/Skill_04.gif)
+- [E2 · Huyết Ấn](SkillGifs/Skill_05.gif)
+- [E3 · Tàng Ảnh](SkillGifs/Skill_06.gif)
+- [E1 · Chấn Địa Trảm](SkillGifs/Skill_07.gif)
+- [E2 · Hoành Thiên Đao](SkillGifs/Skill_08.gif)
+- [E3 · Bất Động Chiến Thế](SkillGifs/Skill_09.gif)
+- [E1 · Nguyệt Nha Trảm](SkillGifs/Skill_10.gif)
+- [E2 · Lưỡng Nghi Kiếm](SkillGifs/Skill_11.gif)
+- [E3 · Kiếm Giới](SkillGifs/Skill_12.gif)
+- [R1 · Thiên Vẫn Trảm](R1_Form01_East.gif)
+- [R2 · Tam Thiên Kiếm Quyết](R2_Form01_East.gif)
+- [R3 · Vạn Ảnh Tuyệt Sát](R3_Form01_East.gif)
+- [F1 · Dạ Vũ Liên Trảm](SkillGifs/Skill_16.gif)
+- [F2 · Đoạt Mệnh](SkillGifs/Skill_17.gif)
+- [F3 · Song Ảnh Truy Sát](SkillGifs/Skill_18.gif)
+- [F1 · Cuồng Phong Đao](SkillGifs/Skill_19.gif)
+- [F2 · Đoạn Sơn Trảm](SkillGifs/Skill_20.gif)
+- [F3 · Bất Diệt Chiến Ý](SkillGifs/Skill_21.gif)
+- [F1 · Kiếm Vũ Thiên Hà](SkillGifs/Skill_22.gif)
+- [F2 · Phi Kiếm Truy Hồn](SkillGifs/Skill_23.gif)
+- [F3 · Hồi Nguyệt Kiếm](SkillGifs/Skill_24.gif)

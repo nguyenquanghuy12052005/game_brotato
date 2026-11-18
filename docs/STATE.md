@@ -1,5 +1,47 @@
 # Current project state
 
+## HEXCORE · Game View và điều khiển tự do
+
+- Scene `HexcoreSkillPreview` mở ở chế độ Tự do. WASD hoặc mũi tên di chuyển tám hướng, Space thi triển theo hướng hiện tại, R về điểm đầu. Phát lại trong chế độ này bắt đầu ở vị trí hiện tại. Chế độ Trình diễn giữ lựa chọn pose, chuỗi, tốc độ và bước khung.
+- Tên tiếng Việt đầy đủ theo năm nhóm, vùng HUD/danh sách nằm ngoài viewport camera. Sửa index vòng chạy chéo từ tám về bốn frame của đúng hướng. Vạn Ảnh dùng shader/material riêng của preview để lọc nền xám gần vệt vàng. [Kiểm thử và ảnh đối chiếu](HEXCORE_ANIMATION_QA.md#đợt-giao-diện-và-điều-khiển).
+
+## HEXCORE · Visual polish và gallery
+
+- [Gallery trước/sau](player-art/HexcoreVisual/index.html) bao phủ 264 tổ hợp, có clip tắt VFX, chuỗi Basic và video ba lõi có audio từ Unity. [CSV hiện tại](player-art/HexcoreVisual/HexcoreVisualReview.csv) ghi 263 AuthoredBlockout, 1 In Review và 0 mục Ready for Review mới.
+- Thay 320 frame chéo của ba lõi, bổ sung 16 pose cho Cuồng Phong Đao và 64 điểm đo. Unity 6000.3.25f1 xác minh chuỗi, đổi hướng và reset bằng scene đang có. [Báo cáo polish](HEXCORE_VISUAL_POLISH_REPORT.md) và [QA](HEXCORE_ANIMATION_QA.md) ghi các lỗi còn lại và cách chạy lại review.
+
+## HEXCORE · Hoàn thiện phạm vi hướng
+
+- `HexcoreSkillPreview` có dữ liệu 24 kỹ năng, 33 cặp form–skill và 264 hàng có hướng. Q1 Tây Bắc được bổ sung. Q2 quay bằng pose riêng, các hàng Q3/E/F/R được dựng bằng chuỗi theo form và hướng. Bốn form vẫn có Idle/Run/Turn/Basic tám hướng.
+- 2.816 PNG, 364 clip pose, 13 WAV. Dữ liệu neo theo frame được thêm cho Q3 ở bảy hướng và R1/R2 N/S trên bốn form. Các kỹ năng mới giữ Blockout trong khi chờ polish và duyệt hình. Q1 E tiếp tục In Review.
+- Xem [bàn giao](HEXCORE_ASSET_PRODUCTION_REPORT.md), [kết quả kiểm thử](HEXCORE_ANIMATION_QA.md), [checkpoint](HEXCORE_PRODUCTION_PROGRESS.md) và [bộ GIF](player-art/HexcoreFinal/Review/README.md).
+
+## HEXCORE · Bổ sung hướng và animation · 2026-11-18
+
+- Cả bốn form có Idle/Run, pose Turn và Basic tám hướng. Có 20 chuỗi Q2/Q3/E/F riêng hướng E, Q1 ở 7 hướng và sprite riêng R1–R3 E/W trên bốn form. Hai phương án Q1 NW chưa qua kiểm tra tay kiếm/giáp vai.
+- Thêm 13 cue WAV sinh từ nguồn tổng hợp có thể tái tạo. Đo điểm mũi kiếm khi phát QiWave và R2, điểm chạm đất R1 và neo tác động Q1.
+- Unity 6000.3.25f1 đã chạy Play Mode trên bản sao. Ma trận có 264 hàng, gồm 135 trình diễn (84 dùng pose nguồn) và 129 thiếu pose. Có 1.140 PNG và 151 clip trong các thư mục HexcorePreview. Các hướng chính chỉ có pose nguồn giữ trạng thái Blockout. Xem [bàn giao và giới hạn](HEXCORE_ASSET_PRODUCTION_REPORT.md).
+
+## HEXCORE · Preview toàn danh mục · 2026-11-18
+
+- Scene `HexcoreSkillPreview` có 4 form, 24 kỹ năng và 33 tổ hợp tương thích. Có 399 sprite và 69 clip bổ sung trong các thư mục `HexcorePreview`, tính cả 34 sprite của Đợt 1. Repo giữ các prefab và Animator gốc cho hướng chính.
+- Có Basic E/W cho bốn form, Q1 E/S/W, pose riêng E cho ba lõi trên bốn form, bốn key pose E cho mỗi Q2/Q3/E/F. 8/7/8/8 hướng locomotion xem được, với Idle chéo giữ pose. Sát thủ SW chưa đạt phối cảnh. Các combo/hướng chưa có pose, Turn chuyên biệt, in-between và polish SFX vẫn cần bổ sung.
+- Unity 6000.3.25f1 Play Mode trên bản sao đã qua kiểm tra chuỗi Q1 1×/0,5×, 33 tổ hợp và mốc VFX. Chụp 33 ảnh camera và xuất 24 GIF hướng Đông. Q1 E In Review, các kỹ năng còn lại Blockout. [Báo cáo bàn giao](HEXCORE_ASSET_PRODUCTION_REPORT.md)
+
+## HEXCORE Đợt 1 · Form 01 · 2026-11-18
+
+- Thêm 34 sprite từ ảnh ImageGen dùng tham chiếu Kiếm sĩ gốc. Scene có Basic hai nhát và bộ Q1 riêng hướng Đông, 4 hướng Idle/Run từ Animator gốc, hai hướng NE/SE với Run mới và Idle giữ một pose.
+- Vệt kiếm, bụi chân và tia va chạm đi theo các điểm neo/mốc trên timeline preview. Chuỗi mặc định kết thúc bằng Run sau nhát Basic.
+- Unity 6000.3.25f1 Play Mode trên bản sao đã qua bài kiểm tra 1× và 0,5×, mốc chạm, chạy ra, replay và sáu hướng có dữ liệu. Ghi GIF từ 48 ảnh camera Unity.
+- Needs verification: designer duyệt chuyển tiếp và chân trụ. Thiếu SW/NW, Idle NE/SE nhiều frame, Basic/Q1 ở các hướng ngoài E và SFX. [Báo cáo Đợt 1](HEXCORE_FORM01_STAGE1.md)
+
+## HEXCORE Đợt 0 và Q1 blockout · 2026-11-18
+
+- Lưu bản đặc tả đầy đủ và [báo cáo kiểm kê](HEXCORE_ASSET_AUDIT.md), gồm 4 form, ma trận tương thích ban đầu và yêu cầu sản xuất pose. Kiểm tra tĩnh đã đối chiếu 312 PNG với thông số import, GUID của 64 clip và 24 tiêu đề kỹ năng trong đặc tả.
+- `HexcoreSkillPreview` dùng prefab Kiếm sĩ nguồn, dummy nhện Kenney CC0 và tia va chạm dựng bằng LineRenderer. Preview Idle/Run N/E/S/W và chuỗi Run → Basic → Q1 → Basic hướng E. Dùng pose tạm cho Dash/Recovery, một nhát Basic nguồn, chưa có SFX. Kỹ năng ở trạng thái Blockout.
+- Unity 6000.3.25f1 đã biên dịch và chạy Play Mode trên bản sao vì project gốc đang có khóa Editor. Bài kiểm tra thấy tia va chạm trong đúng sprite swing, nhân vật về Idle tại điểm cuối đường lướt và Phát lại đưa nhân vật về vị trí đầu, xóa tia. Log `Temp/HexcoreRetest.log` có ngoại lệ từ Unity Search khi Editor lập chỉ mục và dòng PASS của bài kiểm tra demo.
+- Needs verification: độ mượt và bố cục Game View khi người dùng duyệt, pose hướng chéo, nhát Basic thứ hai, các frame chuyển tiếp và pose Q1 riêng.
+
 ## All-skill background cleanup audit — 2026-11-13
 
 - Added CleanVfx shader/material to Demo effects except the dedicated surrounding barrier and gold-only VanAnh materials. Suppresses low-saturation background haze, keeps colored cuts/particles and nearby white highlights, and retains dark opaque steel/stone details. Uses existing PNGs without rewriting source artwork.
