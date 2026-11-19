@@ -5561,6 +5561,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemySpawner
   enemyPrefab: {fileID: 7668070656183893105, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
+  enemies:
+  - prefab: {fileID: 7668070656183893105, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
+    weight: 4
+  - prefab: {fileID: 7668070656183893105, guid: f743d1101e0dcc34391cfd7cf37f2cc4, type: 3}
+    weight: 2
+  - prefab: {fileID: 7668070656183893105, guid: c3311b080c5bec94aa7e146127126f9e, type: 3}
+    weight: 2
+  - prefab: {fileID: 7668070656183893105, guid: 4211c7d9e3584b14fb4105dbbb17bac6, type: 3}
+    weight: 2
   player: {fileID: 527581181}
   enemiesParent: {fileID: 437127059}
   gameplayCamera: {fileID: 833495622}
