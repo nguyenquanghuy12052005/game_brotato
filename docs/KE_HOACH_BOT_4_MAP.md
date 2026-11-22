@@ -5,13 +5,22 @@ Nhánh `feature/bot-play`. Đọc kèm: [game_bot.txt](game_bot.txt), [CHARACTER
 
 ## 1. Mục tiêu
 
-Bốn map, mỗi map một scene. Quái đổi màu theo màu map. Mỗi map đủ 4 tầng quái, ra **theo thứ tự thời gian**, và mỗi con **tự mạnh lên khi còn sống**.
+Bốn map nằm trong **một scene** (`GameScene.unity` đã dựng sẵn 4 biome cạnh nhau), chuyển map bằng cách dời Player sang vùng kế. Quái đổi màu theo màu map. Mỗi map đủ 4 tầng quái, ra **theo thứ tự**, và mỗi con **tự mạnh lên khi còn sống**.
+
+**Làm dọc từng loại quái:** xong 1 loại là chia vào 4 map và chơi thử được ngay, rồi mới làm loại kế tiếp.
+
+| Vòng | Làm gì | Xong thì chơi được |
+|---|---|---|
+| 1 | Lính thường 4 màu | 4 map, mỗi map 1 màu goblin |
+| 2 | Cung thủ 4 màu + AI bắn | 4 map có goblin + cung thủ |
+| 3 | Tinh nhuệ 3 màu | 4 map có thêm tinh nhuệ |
+| 4 | 3 trùm | map 2/3/4 có trùm riêng |
 
 ## 2. Quy tắc màu
 
 - Map màu nào thì lính thường, cung thủ, tinh nhuệ màu đó.
 - Map 1 (nâu) dùng tinh nhuệ **xanh** — kho không có file nâu.
-- Map 4: cung thủ dùng chung ảnh với lính thường trắng (`bow_enemy/snow.png` là bản sao của `normal_enemy/snow.png`). Phân biệt bằng hành vi.
+- Map 4: cung thủ trắng **đã có sẵn** trong `snow.png` (nửa phải của bảng 8×4), không cần vẽ thêm.
 
 ## 3. Bốn tầng quái
 
@@ -24,12 +33,34 @@ Bốn map, mỗi map một scene. Quái đổi màu theo màu map. Mỗi map đ�
 
 ## 4. Phân bổ theo map
 
-| Map | Scene | Lính thường | Cung thủ | Tinh nhuệ | Trùm |
-|---|---|---|---|---|---|
-| 1 — Nâu | `Map1_Forest` | `normal_enemy/brown` | `bow_enemy/brown` | `elite_boss/green` ×2 | **không có** |
-| 2 — Xanh | `Map2_Moon` | `normal_enemy/green` | `bow_enemy/green` | `elite_boss/green` ×3 | Xương khô cầm kiếm |
-| 3 — Đỏ | `Map3_Inferno` | `normal_enemy/red` | `bow_enemy/red` | `elite_boss/red` ×3 | Golem dung nham |
-| 4 — Trắng | `Map4_Tundra` | `normal_enemy/snow` | `bow_enemy/snow` | `elite_boss/snow` ×3 | Yeti |
+| Map | Vùng trong scene | Tâm X | Lính thường | Cung thủ | Tinh nhuệ | Trùm |
+|---|---|---|---|---|---|---|
+| 1 — Nâu | Forest | 0 | `brown` | `brown` | `green` ×2 | **không có** |
+| 2 — Xanh | Moon | 35 | `green` | `green` | `green` ×3 | Xương khô |
+| 3 — Đỏ | Inferno | 70 | `red` | `red` | `red` ×3 | Golem dung nham |
+| 4 — Trắng | Tundra | 105 | `snow` | `snow` | `snow` ×3 | Yeti |
+
+### Cách chuyển map: 1 scene, 4 vùng
+
+Scene hiện tại **đã có sẵn cả 4 biome** nằm cạnh nhau trên trục X, cách nhau 35 unit:
+
+| Biome | Object | localPosition X | Tâm vùng |
+|---|---|---|---|
+| Forest | `Tilemap_Forest_{Ground,Decor,Block}` | −15,0 | **0** |
+| Moon | `Tilemap_Moon_*` | 20 | **35** |
+| Inferno | `Tilemap_Inferno_*` | 55 | **70** |
+| Tundra | `Tilemap_Tundra_*` | 90 | **105** |
+
+Mỗi map rộng 30 ô (tâm ±15). Chuyển map = **dời Player và camera sang tâm vùng kế**, cộng 35 vào X:
+
+```
+Player.position.x += 35
+camera tự bám theo CameraFollow
+```
+
+Không cần scene riêng, không nhân bản Player/Camera/Manager. Đổi lại: cả 4 map nằm chung file `GameScene.unity` (2 MB).
+
+Khi sang map mới: xoá hết quái cũ, đổi bảng màu quái sang màu của map đó, reset Player về tâm vùng mới, hồi đầy máu.
 
 ## 5. Thứ tự xuất hiện
 
@@ -181,7 +212,7 @@ Script mới:
 | `Enemy/HazardZone.cs` | Vùng sát thương dưới đất |
 | `Player/PlayerStatusEffects.cs` | Đông cứng, làm chậm |
 | `Editor/EnemySpritePreparation.cs` | Tách nền + cắt frame + clip + controller |
-| `Editor/BiomeSceneSplitter.cs` | Tách 4 biome ra 4 scene |
+| `Core/MapManager.cs` | Quản lý 4 map trong 1 scene: đổi map, dời Player +35 X, xoá quái cũ, đổi bảng màu quái |
 
 Script sửa:
 
@@ -194,31 +225,36 @@ Script sửa:
 | `Player/PlayerController.cs` | Hệ số tốc độ, khoá di chuyển khi đông cứng |
 | `Editor/CombatRegression.cs` | Test mới |
 
-Dữ liệu mỗi đợt:
+Dữ liệu mỗi map:
 
 ```
-WaveSettings   (= một đợt)
+WaveSettings   (= một đợt trong một map)
   maxEnemiesAlive, spawnInterval, enemyHealth, enemySpeed
   enemies[]      → prefab, weight, maxAlive, healthMultiplier, totalToKill
   bossPrefab, bossLives, bossHealthPerLife   (chỉ điền ở đợt có trùm)
+
+MapSettings    (= một map)
+  mapIndex, biomeName, centerX (0 / 35 / 70 / 105)
+  waves[]        → WaveSettings
 ```
 
 Mỗi đợt khai báo đủ danh sách loại được ra (đợt 2 khai lính + cung thủ…). Không dùng ScriptableObject.
 
-## 13. Giai đoạn
+## 13. Giai đoạn — làm dọc theo từng loại quái
 
 | GĐ | Việc | Xong khi | Ước lượng |
 |---|---|---|---|
-| 1 | `EnemySpritePreparation` trên `normal_enemy/brown.png` | 16 PNG sạch nền, 4 clip đúng | 1 buổi |
-| 2 | Prefab goblin: Animator + `EnemyGrowth` + `EnemyMeleeAttack` | idle/đi/chặt chạy đúng, né được, máu tăng theo thời gian | 1,5 buổi |
-| 3 | Spawner nhiều loại + 4 màu + thứ tự đợt | đợt 1 chỉ lính, đợt 2 mới có cung thủ, đợt 3 mới có tinh nhuệ; regression PASS | 1 buổi |
-| 4 | Cung thủ | giữ khoảng cách, đạn bay thấy được | 1 buổi |
-| 5 | Tinh nhuệ | đạt 3 con, không lấn cap lính thường | 0,5 buổi |
-| 6 | Khung boss + Xương khô | đủ 4 mạng, 3 chiêu chạy | 1,5 buổi |
-| 7 | Golem + Yeti + hiệu ứng Player | 3 chiêu mỗi con, đông cứng/làm chậm/hố dung nham hoạt động | 2 buổi |
-| 8 | Tách 4 scene + cân bằng | chơi liền map 1 → 4 | 1,5 buổi |
+| ~~1~~ | ~~Cắt art + prefab goblin nâu~~ | ✅ xong | — |
+| ~~2~~ | ~~4 màu goblin + spawner nhiều loại~~ | ✅ xong | — |
+| **3** | **Phân map cho lính thường**: `MapSettings` + dời Player 35 đơn vị khi xong map; 4 map chỉ ra goblin màu của map | đánh hết map 1 tự sang map 2, mỗi map đúng 1 màu | 1 buổi |
+| 4 | Cung thủ: `EnemyRangedMovement` + `EnemyProjectile` + 4 màu | bắn tên bay, né được | 1,5 buổi |
+| 5 | Phân map cho cung thủ | 4 map có goblin + cung thủ cùng màu | 0,5 buổi |
+| 6 | Tinh nhuệ 3 màu + phân map | 4 map có thêm tinh nhuệ | 1 buổi |
+| 7 | Khung boss 4 mạng + Xương khô | đủ 4 mạng, 3 chiêu | 1,5 buổi |
+| 8 | Golem + Yeti + hiệu ứng Player | đông cứng/làm chậm/hố dung nham chạy | 2 buổi |
+| 9 | Phân map cho trùm + cân bằng | map 2/3/4 có trùm riêng, chơi liền 4 map | 1 buổi |
 
-Tách scene: mỗi biome gồm `Tilemap_<Biome>_{Ground,Decor,Block}`, trang trí là con của Decor, dời `localPosition` về `(-15, -9)`.
+Chuyển map: cộng **35** vào X của Player (`0 → 35 → 70 → 105`), xoá quái cũ, đổi bảng màu quái, hồi đầy máu.
 
 ## 14. Kiểm thử
 

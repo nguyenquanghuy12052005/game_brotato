@@ -24,12 +24,15 @@ public class WaveManager : MonoBehaviour
 {
     [SerializeField] private GameManager gameManager;
     [SerializeField] private EnemySpawner enemySpawner;
+    [SerializeField] private MapManager mapManager;
     [SerializeField, Min(0.1f)] private float intermissionDuration = 2f;
+
+    // Mỗi wave = một loại quái MỚI xuất hiện thêm. Wave sau giữ loại của wave trước.
+    // Hiện mới có lính thường nên mỗi map chỉ 1 wave. Có cung thủ thì thêm wave thứ 2,
+    // có tinh nhuệ thì thêm wave thứ 3, có trùm thì thêm wave cuối.
     [SerializeField] private WaveSettings[] waves =
     {
-        new WaveSettings(30f, 10, 10, 1.5f, 2f),
-        new WaveSettings(30f, 15, 20, 1f, 2.5f),
-        new WaveSettings(45f, 30, 30, 0.6f, 3f)
+        new WaveSettings(30f, 10, 10, 1.5f, 2f)
     };
 
     public float RemainingTime { get; private set; }
@@ -37,6 +40,9 @@ public class WaveManager : MonoBehaviour
     public int CurrentWave { get; private set; } = 1;
     public int TotalWaves => waves.Length;
     public bool IsLastWave => CurrentWave >= TotalWaves;
+    public bool IsLastMap => mapManager == null || mapManager.IsLastMap;
+    public int CurrentMapNumber => mapManager != null ? mapManager.CurrentMap + 1 : 1;
+    public int TotalMaps => mapManager != null ? mapManager.TotalMaps : 1;
     public WaveSettings CurrentSettings => waves[CurrentWave - 1];
 
     private void Awake()
@@ -53,12 +59,35 @@ public class WaveManager : MonoBehaviour
             return;
         }
 
+        if (mapManager != null) mapManager.ApplyCurrentMap();
         enemySpawner.ConfigureForWave(CurrentSettings);
     }
 
     private void Update()
     {
         if (gameManager == null) return;
+
+        // Phím tắt để thử nhanh, không ảnh hưởng lúc chơi bình thường.
+        // N = bỏ qua wave hiện tại, M = sang map kế ngay.
+        if (gameManager.IsPlaying)
+        {
+            var keyboard = UnityEngine.InputSystem.Keyboard.current;
+            if (keyboard != null)
+            {
+                if (keyboard.nKey.wasPressedThisFrame)
+                {
+                    RemainingTime = 0f;
+                }
+                if (keyboard.mKey.wasPressedThisFrame && mapManager != null && !mapManager.IsLastMap)
+                {
+                    mapManager.AdvanceToNextMap();
+                    CurrentWave = 1;
+                    RemainingTime = Mathf.Max(1f, CurrentSettings.duration);
+                    enemySpawner.ConfigureForWave(CurrentSettings);
+                    Debug.Log($"[Map] Nhảy sang map {CurrentMapNumber}/{TotalMaps}.");
+                }
+            }
+        }
 
         if (gameManager.State == GameManager.GameState.WaveComplete)
         {
@@ -80,11 +109,28 @@ public class WaveManager : MonoBehaviour
 
     private void AdvanceWave()
     {
-        if (IsLastWave || gameManager.State != GameManager.GameState.WaveComplete) return;
-        CurrentWave++;
+        if (gameManager.State != GameManager.GameState.WaveComplete) return;
+
+        if (IsLastWave)
+        {
+            // Hết wave cuối của map. Còn map thì sang map kế và quay lại wave 1.
+            if (mapManager == null || mapManager.IsLastMap)
+            {
+                gameManager.CompleteLastMap();
+                return;
+            }
+
+            mapManager.AdvanceToNextMap();
+            CurrentWave = 1;
+        }
+        else
+        {
+            CurrentWave++;
+        }
+
         RemainingTime = Mathf.Max(1f, CurrentSettings.duration);
         enemySpawner.ConfigureForWave(CurrentSettings);
         gameManager.BeginNextWave();
-        Debug.Log($"Wave {CurrentWave} bắt đầu!");
+        Debug.Log($"Map {CurrentMapNumber}/{TotalMaps} — Wave {CurrentWave}/{TotalWaves} bắt đầu!");
     }
 }

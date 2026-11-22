@@ -35329,6 +35329,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::WaveManager
   gameManager: {fileID: 1570856796}
   enemySpawner: {fileID: 209889359}
+  mapManager: {fileID: 1197364665}
   intermissionDuration: 2
   waves:
   - duration: 30
@@ -35336,16 +35337,6 @@ MonoBehaviour:
     enemyHealth: 10
     spawnInterval: 1.5
     enemySpeed: 2
-  - duration: 30
-    maxEnemiesAlive: 15
-    enemyHealth: 20
-    spawnInterval: 1
-    enemySpeed: 2.5
-  - duration: 45
-    maxEnemiesAlive: 30
-    enemyHealth: 30
-    spawnInterval: 0.6
-    enemySpeed: 3
 --- !u!4 &980672910
 Transform:
   m_ObjectHideFlags: 0
@@ -39633,6 +39624,17 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1149038361 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 171131673329138870, guid: 2688a21ddc9d2df4ca3741a785e80ee1, type: 3}
+  m_PrefabInstance: {fileID: 1227163163}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d4b7f376264d24f9fe7489edfe02e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerController
 --- !u!1 &1149681047
 GameObject:
   m_ObjectHideFlags: 0
@@ -40140,6 +40142,77 @@ MonoBehaviour:
   bulletPrefab: {fileID: 529539411392508733, guid: 4454362aac591ad41a63757eae0d69ef, type: 3}
   firePoint: {fileID: 1541050935}
   fireRate: 0.2
+--- !u!1 &1197364664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197364666}
+  - component: {fileID: 1197364665}
+  m_Layer: 0
+  m_Name: MapManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1197364665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197364664}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 507602e178f207145a84951908190790, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::MapManager
+  player: {fileID: 527581181}
+  playerHealth: {fileID: 527581185}
+  playerController: {fileID: 1149038361}
+  enemySpawner: {fileID: 209889359}
+  maps:
+  - biomeName: Forest
+    centerX: 0
+    enemies:
+    - prefab: {fileID: 7668070656183893105, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
+      weight: 1
+  - biomeName: Moon
+    centerX: 35
+    enemies:
+    - prefab: {fileID: 7668070656183893105, guid: f743d1101e0dcc34391cfd7cf37f2cc4, type: 3}
+      weight: 1
+  - biomeName: Inferno
+    centerX: 70
+    enemies:
+    - prefab: {fileID: 7668070656183893105, guid: c3311b080c5bec94aa7e146127126f9e, type: 3}
+      weight: 1
+  - biomeName: Tundra
+    centerX: 105
+    enemies:
+    - prefab: {fileID: 7668070656183893105, guid: 4211c7d9e3584b14fb4105dbbb17bac6, type: 3}
+      weight: 1
+  mapHalfWidth: 14
+  mapHalfHeight: 8
+--- !u!4 &1197364666
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197364664}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1204622308
 GameObject:
   m_ObjectHideFlags: 0
@@ -75101,3 +75174,4 @@ SceneRoots:
   - {fileID: 980672910}
   - {fileID: 1932507279}
   - {fileID: 147911227}
+  - {fileID: 1197364666}

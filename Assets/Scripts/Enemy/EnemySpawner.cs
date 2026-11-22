@@ -40,16 +40,22 @@ public class EnemySpawner : MonoBehaviour
         settings = wave;
         nextSpawnTime = Time.time;
 
-        int count = 0;
-        if (enemies != null)
-            foreach (EnemySpawnEntry entry in enemies)
-                if (entry != null && entry.prefab != null) count++;
-        Debug.Log($"[Spawner] Wave {wave.duration}s: {count} loại quái được cấu hình.");
-
         // Đồng bộ cả quái đặt sẵn trong scene ở Wave 1.
         if (enemiesParent != null)
             foreach (EnemyHealth enemy in enemiesParent.GetComponentsInChildren<EnemyHealth>())
                 ConfigureEnemy(enemy.gameObject);
+    }
+
+    // MapManager gọi khi đổi map: thay bảng màu quái.
+    public void SetEnemyTypes(EnemySpawnEntry[] types)
+    {
+        enemies = types;
+
+        int count = 0;
+        if (enemies != null)
+            foreach (EnemySpawnEntry entry in enemies)
+                if (entry != null && entry.prefab != null) count++;
+        Debug.Log($"[Spawner] Bảng quái mới: {count} loại.");
     }
 
     private void Update()
