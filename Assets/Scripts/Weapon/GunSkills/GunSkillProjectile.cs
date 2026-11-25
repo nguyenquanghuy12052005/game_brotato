@@ -8,7 +8,7 @@ internal struct GunShotEffects
 {
     public GunLevel11.Volley Volley;
     public GunCoreTwo.Volley CoreVolley;
-    public bool Heavy;
+    public bool Plasma;
     public bool Piercing;
     public int Ricochets;
     public int Fragments;
@@ -53,12 +53,9 @@ public sealed class GunSkillProjectile : MonoBehaviour
 
     private void Update()
     {
-        if (!effects.Heavy && tracerFrames == null) return;
+        if (tracerFrames == null) return;
         flightTime += Time.deltaTime;
-        if (tracerFrames != null)
-            artwork.sprite = tracerFrames[Mathf.FloorToInt(flightTime * 30f) % tracerFrames.Length];
-        else if (effects.Heavy)
-            artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, flightTime, 32);
+        artwork.sprite = tracerFrames[Mathf.FloorToInt(flightTime * 30f) % tracerFrames.Length];
     }
 
     private void FixedUpdate()
@@ -70,7 +67,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
                 direction = toTarget.normalized;
         }
 
-        Vector2 next = body.position + direction * ((effects.Heavy ? 15f : 10f) * Time.fixedDeltaTime);
+        Vector2 next = body.position + direction * (10f * Time.fixedDeltaTime);
         if (effects.Piercing && !crossedPortal && coreTwo != null &&
             coreTwo.CrossPortal(effects.CoreVolley, body.position, next, direction, out Vector2 exit, out Vector2 back))
         {
@@ -102,6 +99,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
         enemy.TakeDamage(weapon.DamageAgainst(enemy, damage));
         if (effects.Volley != null) weapon.RegisterHit(effects.Volley, enemy);
         if (effects.CoreVolley != null) coreTwo.Hit(effects.CoreVolley, enemy, direction, crossedPortal);
+        if (effects.Plasma) coreTwo.ApplyPoison(effects.CoreVolley, enemy);
 
         if (effects.Fragments > 0 && enemy.CurrentHealth == 0)
             weapon.ScatterFrom(impact, effects.Fragments);

@@ -7,19 +7,20 @@ public sealed class GunSkillTestArena : MonoBehaviour
     [SerializeField] private GameObject enemyPrefab;
     [SerializeField] private Material spriteMaterial;
     [SerializeField] private Sprite gunSprite;
+    [SerializeField] private Sprite echoGunSprite;
     [SerializeField] private Sprite bulletSprite;
     [SerializeField] private Texture2D pistolShots;
     [SerializeField] private Texture2D shotgunMuzzle;
     [SerializeField] private Texture2D smgMuzzle;
+    [SerializeField] private Texture2D plasmaShot;
+    [SerializeField] private Texture2D echoLaser;
     [SerializeField] private Texture2D iceLance;
     [SerializeField] private Texture2D frostBreath;
     [SerializeField] private Texture2D gunTracer;
     [SerializeField] private Texture2D cannonballMuzzle;
     [SerializeField] private Sprite piercingSprite;
-    [SerializeField] private Texture2D[] level11Sheets;
     [SerializeField] private Texture2D[] coreTwoSheets;
     [SerializeField] private Texture2D[] ultimateSheets;
-    [SerializeField] private Texture2D turretAtlas;
     [SerializeField] private Texture2D grenadeAtlas;
     [SerializeField] private Texture2D meteorAtlas;
     [SerializeField] private Texture2D[] updatedSkillSheets;
@@ -62,7 +63,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
     {
         { "", "", "", "" },
         { "Tắt", "Lưỡi đạn càn quét", "Áp lực công phá", "Phun lửa" },
-        { "Tắt", "Kíp nổ liên hoàn", "Băng đạn cộng hưởng", "Bão đạn quỹ đạo" },
+        { "Tắt", "Kíp nổ liên hoàn", "Băng đạn cộng hưởng", "Hồi máu" },
         { "Tắt", "Vết rách không gian", "Xuyên kích hồi quy", "Thiên thương" }
     };
     private readonly int[] level11ByBranch = new int[4];
@@ -78,8 +79,8 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private GunCoreTwo coreTwo;
     private static readonly string[] UltimateNames =
     {
-        "", "Ngũ bom liên hoàn", "Mưa thiên thạch", "Pháo đài cơ động",
-        "Phun lửa Hexcore", "Lồng đạn Hexcore"
+        "", "Lốc lửa", "Mưa thiên thạch", "Pháo đài cơ động",
+        "Lồng đạn Hexcore"
     };
     private GunHexcoreUltimate ultimate;
     private HexcoreUltimate selectedUltimate;
@@ -91,6 +92,12 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private float? playerRetryAt;
 
     internal bool PlayerStanding => practiceHealth > 0;
+
+    internal void RestorePracticeHealth(int amount)
+    {
+        if (PlayerStanding && amount > 0)
+            practiceHealth = Mathf.Min(100, practiceHealth + amount);
+    }
 
     internal void ReceiveBossAttack(Vector2 source, int damage)
     {
@@ -149,17 +156,19 @@ public sealed class GunSkillTestArena : MonoBehaviour
         weapon.Setup(muzzle, effectsRoot, spriteMaterial, bulletSprite, piercingSprite);
         weapon.SetPistolShots(pistolShots);
         weapon.SetBranchArt(shotgunMuzzle, smgMuzzle, gunTracer);
+        weapon.SetEchoArt(echoLaser);
+        weapon.SetPlasmaArt(plasmaShot);
         var importedArt = gameObject.AddComponent<GunNewSkillArt>();
         importedArt.Setup(updatedSkillSheets, pixelSkillSheets, skillNoGlowMaterial);
         weapon.SetRocketArt(cannonballMuzzle, importedArt);
         level11 = gameObject.AddComponent<GunLevel11>();
-        level11.Setup(weapon, player.transform, effectsRoot, targets, level11Sheets, importedArt);
+        level11.Setup(weapon, player.transform, effectsRoot, targets, importedArt, echoGunSprite);
         weapon.SetLevel11(level11);
         coreTwo = gameObject.AddComponent<GunCoreTwo>();
         coreTwo.Setup(weapon, player.transform, muzzle, spriteMaterial, coreTwoSheets, importedArt);
         weapon.SetCoreTwo(coreTwo);
         ultimate = gameObject.AddComponent<GunHexcoreUltimate>();
-        ultimate.Setup(weapon, player.transform, muzzle, spriteMaterial, targets, ultimateSheets, turretAtlas, grenadeAtlas, meteorAtlas, importedArt);
+        ultimate.Setup(muzzle, spriteMaterial, targets, ultimateSheets, grenadeAtlas, meteorAtlas, importedArt);
         weapon.SetSmgUpgradeArt(iceLance, frostBreath, ultimate);
         ResetTargets();
     }
@@ -189,7 +198,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
         level11.Select(branch, level11ByBranch[(int)branch], ranksByBranch[(int)branch], bossMode);
         coreTwo.Select(branch, coreTwoByBranch[(int)branch], ranksByBranch[(int)branch], bossMode ? targets[0] : null);
         if (PlayerStanding && Keyboard.current?.rKey.wasPressedThisFrame == true)
-            ultimate.Cast(selectedUltimate, lastAimPoint, bossMode);
+            ultimate.Cast(selectedUltimate, lastAimPoint);
         weapon.Tick(autoFire && (!hardBoss || PlayerStanding), lastAimPoint);
     }
 
@@ -334,7 +343,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private void DrawUltimateAim()
     {
         if (selectedUltimate == HexcoreUltimate.None || selectedUltimate == HexcoreUltimate.Turret) return;
-        Vector2 aim = selectedUltimate == HexcoreUltimate.Rail ? lastAimPoint : ultimate.GroundAim(lastAimPoint);
+        Vector2 aim = ultimate.GroundAim(lastAimPoint);
         Vector3 point = labCamera.WorldToScreenPoint(aim);
         if (!labCamera.pixelRect.Contains(new Vector2(point.x, point.y))) return;
 
@@ -366,8 +375,8 @@ public sealed class GunSkillTestArena : MonoBehaviour
             status = "Chờ sân đặt lại";
         else if (selectedUltimate == HexcoreUltimate.Turret && ultimate.TurretCount >= GunHexcoreUltimate.TurretLimit)
             status = $"Đủ {GunHexcoreUltimate.TurretLimit} trụ";
-        else if (selectedUltimate == HexcoreUltimate.Grenades && ultimate.GrenadeCharges == 0)
-            status = "Hết bom dự trữ";
+        else if (selectedUltimate == HexcoreUltimate.Tornado && ultimate.TornadoCharges == 0)
+            status = "Hết lượt Lốc lửa";
         else if (ultimate.CooldownLeft > 0f)
             status = $"Hồi chiêu · {ultimate.CooldownLeft:0.0}s";
         else
@@ -375,11 +384,11 @@ public sealed class GunSkillTestArena : MonoBehaviour
 
         if (selectedUltimate == HexcoreUltimate.Turret)
             status += $" ({ultimate.TurretCount}/{GunHexcoreUltimate.TurretLimit} trụ)";
-        if (selectedUltimate == HexcoreUltimate.Grenades)
+        if (selectedUltimate == HexcoreUltimate.Tornado)
         {
-            status += $" · Bom {ultimate.GrenadeCharges}/{GunHexcoreUltimate.GrenadeCapacity}";
-            if (ultimate.GrenadeRechargeLeft > 0f)
-                status += $" · Hồi 1 quả sau {ultimate.GrenadeRechargeLeft:0.0}s";
+            status += $" · Lốc {ultimate.TornadoCharges}/{GunHexcoreUltimate.TornadoCapacity}";
+            if (ultimate.TornadoRechargeLeft > 0f)
+                status += $" · Hồi 1 lượt sau {ultimate.TornadoRechargeLeft:0.0}s";
         }
         GUILayout.Label(status, GUI.skin.box);
     }

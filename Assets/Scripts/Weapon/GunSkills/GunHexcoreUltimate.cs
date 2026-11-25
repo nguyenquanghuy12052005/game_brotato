@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-internal enum HexcoreUltimate { None, Grenades, Meteors, Turret, Rail, Cage }
+internal enum HexcoreUltimate { None, Tornado, Meteors, Turret, Cage }
 
 internal sealed class GunHexcoreUltimate : MonoBehaviour
 {
@@ -10,12 +10,12 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
     private enum Art { Grenade, Blast, Helicopter, AirstrikeMark, AirstrikeImpact,
         Charge, Beam, CageField, CageShot, CageCollapse }
 
-    internal const int TurretLimit = 2;
-    internal const int GrenadeCapacity = 3;
-    private const float GrenadeRechargeSeconds = 2.4f;
-    private int grenadeCharges = GrenadeCapacity;
-    private float nextGrenadeCharge;
-    private float nextGrenadeThrow;
+    internal const int TurretLimit = 3;
+    internal const int TornadoCapacity = 3;
+    private const float TornadoRechargeSeconds = 2.4f;
+    private int tornadoCharges = TornadoCapacity;
+    private float nextTornadoCharge;
+    private float nextTornadoCast;
     private Texture2D grenadeAtlas;
     private Texture2D meteorAtlas;
     private Sprite[] meteorFrames;
@@ -72,60 +72,49 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
         new Vector2(200.8864f, 163.8182f),
         new Vector2(201.1667f, 163.6310f),
     };
-    internal int GrenadeCharges { get { RefreshGrenades(); return grenadeCharges; } }
-    internal float GrenadeRechargeLeft
+    internal int TornadoCharges { get { RefreshTornado(); return tornadoCharges; } }
+    internal float TornadoRechargeLeft
     {
         get
         {
-            RefreshGrenades();
-            return grenadeCharges < GrenadeCapacity ? Mathf.Max(0f, nextGrenadeCharge - Time.time) : 0f;
+            RefreshTornado();
+            return tornadoCharges < TornadoCapacity ? Mathf.Max(0f, nextTornadoCharge - Time.time) : 0f;
         }
     }
 
-    private void RefreshGrenades()
+    private void RefreshTornado()
     {
-        while (grenadeCharges < GrenadeCapacity && Time.time >= nextGrenadeCharge)
+        while (tornadoCharges < TornadoCapacity && Time.time >= nextTornadoCharge)
         {
-            grenadeCharges++;
-            nextGrenadeCharge += GrenadeRechargeSeconds;
+            tornadoCharges++;
+            nextTornadoCharge += TornadoRechargeSeconds;
         }
     }
 
-    private const float TurretRange = 7f;
-    private const float TurretLifetime = 8f;
     private const int FramesPerClip = 32;
     private readonly Sprite[][] frames = new Sprite[10][];
     private readonly List<RaycastHit2D> lineHits = new List<RaycastHit2D>();
     private readonly HashSet<EnemyHealth> damaged = new HashSet<EnemyHealth>();
     private Texture2D[] sheets;
     private GunNewSkillArt newArt;
-    private Texture2D turretAtlas;
-    private Sprite[] turretSprites;
     private EnemyHealth[] targets;
-    private Transform player;
     private Transform muzzle;
     private Transform visuals;
-    private GunSkillWeapon weapon;
     private Material material;
     private float readyAt;
     private int turretCount;
-    private int turretPlacement;
-    private bool breathing;
 
     internal float CooldownLeft => Mathf.Max(0f, readyAt - Time.time);
     internal int TurretCount => turretCount;
 
-    internal void Setup(GunSkillWeapon owner, Transform playerRoot, Transform firePoint,
-        Material spriteMaterial, EnemyHealth[] practiceTargets, Texture2D[] textures, Texture2D turretTexture, Texture2D grenadeTexture, Texture2D meteorTexture, GunNewSkillArt importedArt)
+    internal void Setup(Transform firePoint, Material spriteMaterial, EnemyHealth[] practiceTargets,
+        Texture2D[] textures, Texture2D grenadeTexture, Texture2D meteorTexture, GunNewSkillArt importedArt)
     {
-        weapon = owner;
-        player = playerRoot;
         muzzle = firePoint;
         material = spriteMaterial;
         targets = practiceTargets;
         sheets = textures;
         newArt = importedArt;
-        turretAtlas = turretTexture;
         grenadeAtlas = grenadeTexture;
         meteorAtlas = meteorTexture;
         visuals = new GameObject("Hexcore ultimate effects").transform;
@@ -134,15 +123,14 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
 
     internal bool CanCast(HexcoreUltimate selected)
     {
-        if (breathing) return false;
-        RefreshGrenades();
-        if (selected == HexcoreUltimate.Grenades)
-            return grenadeCharges > 0 && Time.time >= nextGrenadeThrow && CooldownLeft <= 0f;
+        RefreshTornado();
+        if (selected == HexcoreUltimate.Tornado)
+            return tornadoCharges > 0 && Time.time >= nextTornadoCast && CooldownLeft <= 0f;
         return selected != HexcoreUltimate.None && CooldownLeft <= 0f &&
             (selected != HexcoreUltimate.Turret || turretCount < TurretLimit);
     }
 
-    internal bool Cast(HexcoreUltimate selected, Vector2 aimPoint, bool bossMode)
+    internal bool Cast(HexcoreUltimate selected, Vector2 aimPoint)
     {
         if (!CanCast(selected)) return false;
 
@@ -152,11 +140,11 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
         Vector2 heading = line.normalized;
         switch (selected)
         {
-            case HexcoreUltimate.Grenades:
-                if (grenadeCharges == GrenadeCapacity) nextGrenadeCharge = Time.time + GrenadeRechargeSeconds;
-                grenadeCharges--;
-                nextGrenadeThrow = Time.time + 0.18f;
-                StartCoroutine(ThrowGrenade(origin, center));
+            case HexcoreUltimate.Tornado:
+                if (tornadoCharges == TornadoCapacity) nextTornadoCharge = Time.time + TornadoRechargeSeconds;
+                tornadoCharges--;
+                nextTornadoCast = Time.time + 0.18f;
+                StartCoroutine(Tornado(origin, heading));
                 break;
             case HexcoreUltimate.Meteors:
                 readyAt = Time.time + 5f;
@@ -164,15 +152,8 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
                 break;
             case HexcoreUltimate.Turret:
                 readyAt = Time.time + 2.4f;
-                Vector2 side = new Vector2(-heading.y, heading.x);
-                float offset = turretPlacement++ % 2 == 0 ? 0.78f : -0.78f;
                 turretCount++;
-                StartCoroutine(Turret((Vector2)player.position + side * offset, heading, bossMode));
-                break;
-            case HexcoreUltimate.Rail:
-                readyAt = Time.time + 9f;
-                breathing = true;
-                StartCoroutine(FireBreath());
+                StartCoroutine(Turret(center));
                 break;
             case HexcoreUltimate.Cage:
                 readyAt = Time.time + 5f;
@@ -201,43 +182,41 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
             Destroy(child.gameObject);
         }
         readyAt = 0f;
-        breathing = false;
-        grenadeCharges = GrenadeCapacity;
-        nextGrenadeCharge = nextGrenadeThrow = 0f;
+        tornadoCharges = TornadoCapacity;
+        nextTornadoCharge = nextTornadoCast = 0f;
         turretCount = 0;
-        turretPlacement = 0;
         damaged.Clear();
         lineHits.Clear();
     }
 
-    private IEnumerator ThrowGrenade(Vector2 origin, Vector2 impact)
+    private IEnumerator Tornado(Vector2 origin, Vector2 heading)
     {
-        const float flight = 0.66f;
-        var sprite = Visual("Hexcore grenade", origin, Vector2.right, 1f, 1f, 10);
-        var clip = GetGrenadeFrames();
-        for (float elapsed = 0f; elapsed < flight; elapsed += Time.deltaTime)
+        const float lifetime = 7f, travelSpeed = 1.1f, radius = 1.8f, pullSpeed = 2.8f, tickInterval = 0.5f;
+        const int damage = 6;
+        var column = Visual("Hexcore blizzard vortex", origin, Vector2.right, 2f, 2f, 9);
+        column.sharedMaterial = newArt.NoGlowMaterial;
+        float start = Time.time;
+        float nextTick = 0f;
+        for (float elapsed = 0f; elapsed < lifetime; elapsed = Time.time - start)
         {
-            float progress = Mathf.Clamp01(elapsed / flight);
-            Vector2 position = Vector2.Lerp(origin, impact, progress);
-            position.y += Mathf.Sin(progress * Mathf.PI) * 0.85f;
-            sprite.transform.position = position;
-            sprite.sprite = clip[Mathf.Min(48, Mathf.FloorToInt(progress * 49f))];
-            yield return null;
-        }
+            Vector2 center = origin + heading * (travelSpeed * elapsed);
+            column.transform.position = center;
+            column.sprite = newArt.Loop(GunNewSkillArt.Clip.BlizzardVortex, elapsed, 30f, 0, 60);
+            column.color = new Color(1f, 1f, 1f, Mathf.Min(1f, (lifetime - elapsed) / 0.25f));
 
-        sprite.name = "Hexcore grenade blast";
-        sprite.transform.position = impact;
-        DamageArea(impact, 1.30f, 38);
-        const int explosionStart = 49;
-        const int explosionEnd = 118;
-        const float explosionFps = 50f;
-        for (float elapsed = 0f; elapsed < (explosionEnd - explosionStart) / explosionFps; elapsed += Time.deltaTime)
-        {
-            int frame = explosionStart + Mathf.FloorToInt(elapsed * explosionFps);
-            sprite.sprite = clip[Mathf.Min(explosionEnd - 1, frame)];
+            foreach (EnemyHealth enemy in targets)
+            {
+                if (Alive(enemy) && enemy.TryGetComponent<GunSkillTargetEffects>(out var effects))
+                    effects.PullToward(center, radius, pullSpeed * Time.deltaTime);
+            }
+            while (nextTick <= elapsed)
+            {
+                DamageArea(center, radius, damage);
+                nextTick += tickInterval;
+            }
             yield return null;
         }
-        Destroy(sprite.gameObject);
+        Destroy(column.gameObject);
     }
 
     internal Sprite[] GetGrenadeFrames()
@@ -309,155 +288,40 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
         return meteorFrames;
     }
 
-    private IEnumerator Turret(Vector2 position, Vector2 heading, bool bossMode)
+    private IEnumerator Turret(Vector2 position)
     {
-        const float size = 2.25f;
-        const float shotInterval = 0.60f;
-        var layers = GetTurretSprites();
-        var stand = Visual("Hexcore turret", position, Vector2.right, size, size, 7);
-        stand.sprite = layers[0];
-        var barrel = TurretLayer("Turret barrel", stand.transform, layers[1], new Vector2(0f, 0.098f), 8);
-        var groundRing = TurretLayer("Turret ground ring", stand.transform, layers[2], Vector2.zero, 6);
-        var flash = TurretLayer("Turret muzzle flash", barrel.transform, layers[3], new Vector2(0.345f, 0f), 9);
-        barrel.transform.localRotation = Rotation(heading);
-        flash.enabled = false;
-
-        yield return AnimateTurretBody(stand, barrel, groundRing, position, size, deploying: true);
-
-        float expiresAt = Time.time + TurretLifetime;
-        float nextRound = Time.time;
-        float lastRound = float.NegativeInfinity;
-        while (Time.time < expiresAt)
+        const float lifetime = 15f, interval = 1f, waveDuration = 0.46f, radius = 4f;
+        const int damage = 12;
+        var core = Visual("Hexcore energy turret", position, Vector2.right, 1f, 1f, 7);
+        var wave = Visual("Hexcore plasma wave", position, Vector2.right, 1f, 1f, 6);
+        float start = Time.time;
+        float nextPulse = 0f;
+        while (true)
         {
-            EnemyHealth target = FindTurretTarget(position, bossMode);
-            if (target != null)
+            float elapsed = Time.time - start;
+            while (nextPulse < lifetime && elapsed >= nextPulse)
             {
-                Vector2 delta = (Vector2)target.transform.position - (Vector2)barrel.transform.position;
-                if (delta.sqrMagnitude > 0.001f) heading = delta.normalized;
+                DamageArea(position, radius, damage);
+                nextPulse += interval;
             }
+            if (elapsed >= lifetime) break;
 
-            barrel.transform.localRotation = Rotation(heading);
-            if (target != null && Time.time >= nextRound)
+            core.sprite = newArt.Loop(GunNewSkillArt.Clip.EnergyCore, elapsed, 30f, 0, 72);
+            float fade = Mathf.Clamp01((lifetime - elapsed) / 0.3f);
+            core.color = new Color(1f, 1f, 1f, fade);
+            float age = elapsed - (nextPulse - interval);
+            wave.enabled = age < waveDuration;
+            if (wave.enabled)
             {
-                weapon.FireTurretRound(flash.transform.position, heading);
-                lastRound = Time.time;
-                nextRound = Time.time + shotInterval;
+                float progress = age / waveDuration;
+                wave.sprite = newArt.Progress(GunNewSkillArt.Clip.PlasmaExplosion, progress, 0, 23);
+                wave.color = new Color(1f, 1f, 1f, Mathf.Min(1f, (1f - progress) * 4f) * fade);
             }
-
-            float recoil = 1f - Mathf.Clamp01((Time.time - lastRound) / 0.18f);
-            barrel.transform.localPosition = new Vector2(0f, 0.098f) - heading * (0.036f * recoil);
-            flash.enabled = recoil > 0.42f;
-            flash.color = new Color(1f, 1f, 1f, recoil);
-            flash.transform.localScale = Vector3.one * Mathf.Lerp(0.62f, 1.12f, recoil);
-            groundRing.color = new Color(1f, 1f, 1f, 0.72f + 0.22f * Mathf.Sin(Time.time * 7f));
             yield return null;
         }
-
-        flash.enabled = false;
-        barrel.transform.localPosition = new Vector2(0f, 0.098f);
-        yield return AnimateTurretBody(stand, barrel, groundRing, position, size, deploying: false);
-        Destroy(stand.gameObject);
+        Destroy(wave.gameObject);
+        Destroy(core.gameObject);
         turretCount--;
-    }
-
-    private IEnumerator AnimateTurretBody(SpriteRenderer stand, SpriteRenderer barrel, SpriteRenderer groundRing,
-        Vector2 position, float size, bool deploying)
-    {
-        float duration = deploying ? 0.70f : 0.55f;
-        for (float elapsed = 0f; elapsed < duration; elapsed += Time.deltaTime)
-        {
-            float progress = Mathf.SmoothStep(0f, 1f, elapsed / duration);
-            float visibility = deploying ? progress : 1f - progress;
-            stand.transform.position = position + Vector2.up * (0.34f * (1f - visibility));
-            stand.transform.localScale = Vector3.one * (size * Mathf.Lerp(0.65f, 1f, visibility));
-            stand.color = barrel.color = new Color(1f, 1f, 1f, visibility);
-            groundRing.transform.localScale = Vector3.one * Mathf.Lerp(1.22f, 1f, visibility);
-            groundRing.color = new Color(1f, 1f, 1f, visibility);
-            yield return null;
-        }
-
-        if (!deploying) yield break;
-        stand.transform.position = position;
-        stand.transform.localScale = Vector3.one * size;
-        groundRing.transform.localScale = Vector3.one;
-        stand.color = barrel.color = groundRing.color = Color.white;
-    }
-
-    private SpriteRenderer TurretLayer(string label, Transform parent, Sprite sprite, Vector2 offset, int order)
-    {
-        var obj = new GameObject(label);
-        obj.transform.SetParent(parent, false);
-        obj.transform.localPosition = offset;
-        var renderer = obj.AddComponent<SpriteRenderer>();
-        renderer.sprite = sprite;
-        renderer.sharedMaterial = material;
-        renderer.sortingOrder = order;
-        return renderer;
-    }
-
-    private Sprite[] GetTurretSprites()
-    {
-        if (turretSprites != null) return turretSprites;
-        turretSprites = new Sprite[4];
-        for (int i = 0; i < turretSprites.Length; i++)
-        {
-            var rect = new Rect(i % 2 * 256, (1 - i / 2) * 256, 256, 256);
-            turretSprites[i] = Sprite.Create(turretAtlas, rect, Vector2.one * 0.5f, 256f, 0, SpriteMeshType.FullRect);
-        }
-        return turretSprites;
-    }
-
-    private EnemyHealth FindTurretTarget(Vector2 position, bool bossMode)
-    {
-        float bestDistance = TurretRange * TurretRange;
-        if (bossMode && Alive(targets[0]) &&
-            ((Vector2)targets[0].transform.position - position).sqrMagnitude <= bestDistance)
-            return targets[0];
-
-        EnemyHealth nearest = null;
-        foreach (EnemyHealth enemy in targets)
-        {
-            if (!Alive(enemy)) continue;
-            float distance = ((Vector2)enemy.transform.position - position).sqrMagnitude;
-            if (distance > bestDistance) continue;
-            bestDistance = distance;
-            nearest = enemy;
-        }
-        return nearest;
-    }
-
-    private IEnumerator FireBreath()
-    {
-        const float duration = 5f;
-        const float reach = 4.4f;
-        const float tickInterval = 0.25f;
-        var fx = Visual("Hexcore fire breath", muzzle.position, muzzle.right, 1f, 1f, 10);
-        fx.sharedMaterial = newArt.NoGlowMaterial;
-        float nextTick = 0f;
-        for (float elapsed = 0f; elapsed < duration; elapsed += Time.deltaTime)
-        {
-            Vector2 origin = muzzle.position;
-            Vector2 heading = muzzle.right;
-            fx.transform.SetPositionAndRotation(origin, Rotation(heading));
-            fx.sprite = newArt.Loop(GunNewSkillArt.Clip.Breath, elapsed, 30f, 0, 45);
-            fx.color = new Color(1f, 1f, 1f, Mathf.Min(1f, (duration - elapsed) / 0.2f));
-            if (elapsed >= nextTick)
-            {
-                foreach (EnemyHealth enemy in targets)
-                {
-                    if (!Alive(enemy)) continue;
-                    Vector2 delta = (Vector2)enemy.transform.position - origin;
-                    float along = Vector2.Dot(delta, heading);
-                    float across = Mathf.Abs(Vector2.Dot(delta, new Vector2(-heading.y, heading.x)));
-                    if (along >= 0f && along <= reach && across <= 0.18f + along * 0.27f)
-                        enemy.TakeDamage(9);
-                }
-                nextTick += tickInterval;
-            }
-            yield return null;
-        }
-        Destroy(fx.gameObject);
-        breathing = false;
     }
 
     private IEnumerator Cage(Vector2 center, Vector2 heading)
@@ -596,8 +460,6 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
             foreach (Sprite sprite in meteorFrames) Destroy(sprite);
         if (grenadeFrames != null)
             foreach (Sprite sprite in grenadeFrames) Destroy(sprite);
-        if (turretSprites != null)
-            foreach (Sprite sprite in turretSprites) Destroy(sprite);
         foreach (Sprite[] clip in frames)
             if (clip != null)
                 foreach (Sprite sprite in clip) Destroy(sprite);

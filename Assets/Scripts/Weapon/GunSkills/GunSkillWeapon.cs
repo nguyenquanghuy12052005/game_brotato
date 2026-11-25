@@ -13,6 +13,8 @@ public sealed class GunSkillWeapon : MonoBehaviour
     private Sprite[] smgFlash;
     private Sprite[] branchTracer;
     private Sprite[] iceTracer;
+    private Sprite[] echoLaser;
+    private Sprite[] plasmaTracer;
     private Sprite[] iceMuzzle;
     private GunHexcoreUltimate grenadeArt;
     private Sprite[] rocketFlash;
@@ -75,6 +77,17 @@ public sealed class GunSkillWeapon : MonoBehaviour
             atlas.height - frame / columns * cellHeight - y - height, width, height);
         var pivot = new Vector2((pivotX - x) / (float)width, 1f - (pivotY - y) / (float)height);
         return Sprite.Create(atlas, rect, pivot, 80f, 0, SpriteMeshType.FullRect);
+    }
+
+    internal void SetPlasmaArt(Texture2D atlas)
+    {
+        plasmaTracer = SliceFrames(atlas, 144, 60, 24, new Vector2(108, 30), 95f);
+    }
+
+    internal void SetEchoArt(Texture2D atlas)
+    {
+        echoLaser = SliceFrames(atlas, 128, 32, 15, new Vector2(109, 16), 110f,
+            new Rect(56, 0, 72, 32));
     }
 
     internal void SetBranchArt(Texture2D shotgun, Texture2D smg, Texture2D tracer)
@@ -162,6 +175,8 @@ public sealed class GunSkillWeapon : MonoBehaviour
         DestroyFrames(smgFlash);
         DestroyFrames(branchTracer);
         DestroyFrames(iceTracer);
+        DestroyFrames(echoLaser);
+        DestroyFrames(plasmaTracer);
         DestroyFrames(iceMuzzle);
         DestroyFrames(rocketFlash);
     }
@@ -199,11 +214,9 @@ public sealed class GunSkillWeapon : MonoBehaviour
     internal int DamageAgainst(EnemyHealth enemy, int damage) =>
         level11 != null ? level11.DamageAgainst(enemy, damage) : damage;
     internal void RegisterHit(GunLevel11.Volley volley, EnemyHealth enemy) => level11?.Hit(volley, enemy);
-    internal void FireTurretRound(Vector2 position, Vector2 heading) =>
-        SpawnProjectile(position, heading, 11, default, new Color(0.42f, 0.85f, 1f), "Hexcore turret round");
 
     internal void FireEcho(Vector2 position, Vector2 heading) =>
-        SpawnProjectile(position, heading, 6, default, new Color(0.35f, 0.9f, 1f));
+        SpawnProjectile(position, heading, 6, default, projectileName: "Echo laser bolt", tracerFrames: echoLaser);
 
     public void ResetShots()
     {
@@ -219,7 +232,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
         {
             if (Time.time >= nextBurstRound)
             {
-                FireRound(burstDirection, burstVolley, coreBurstVolley, burstRemaining);
+                FireRound(burstDirection, burstVolley, coreBurstVolley);
                 burstRemaining--;
                 nextBurstRound = Time.time + BurstSpacing;
                 if (burstRemaining == 0)
@@ -253,7 +266,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
                 int burstCount = 5 + 2 * ranks.z;
                 burstVolley = level11?.BeginVolley(muzzle.position, heading, burstCount);
                 coreBurstVolley = coreTwo?.BeginVolley();
-                FireRound(heading, burstVolley, coreBurstVolley, burstCount);
+                FireRound(heading, burstVolley, coreBurstVolley);
                 burstDirection = heading;
                 burstRemaining = burstCount - 1;
                 nextBurstRound = Time.time + BurstSpacing;
@@ -278,16 +291,17 @@ public sealed class GunSkillWeapon : MonoBehaviour
         }
     }
 
-    private void FireRound(Vector2 heading, GunLevel11.Volley volley, GunCoreTwo.Volley coreVolley, int remaining = 0)
+    private void FireRound(Vector2 heading, GunLevel11.Volley volley, GunCoreTwo.Volley coreVolley)
     {
         bool isBurst = branch == GunBranch.Burst;
         bool isRocket = branch == GunBranch.Piercing;
+        bool isPlasma = isBurst && coreTwo != null && coreTwo.PlasmaRound(coreVolley);
         bool isIce = isBurst && ranks.x > 0;
         var effectsOnHit = new GunShotEffects
         {
             Volley = volley,
             CoreVolley = coreVolley,
-            Heavy = coreTwo != null && coreTwo.HeavyRound(coreVolley, remaining),
+            Plasma = isPlasma,
             Piercing = skill == GunSkill.Piercing,
             Ricochets = skill == GunSkill.Ricochet ? 1 : 0,
             Fragments = skill == GunSkill.DeathScatter ? 3 : 0,
@@ -300,14 +314,15 @@ public sealed class GunSkillWeapon : MonoBehaviour
         {
             GunBranch.Basic => pistolTracer,
             GunBranch.Piercing => rocketFlight,
+            GunBranch.Burst when isPlasma && plasmaTracer != null => plasmaTracer,
             GunBranch.Burst when isIce && iceTracer != null => iceTracer,
-            _ => effectsOnHit.Heavy ? null : branchTracer
+            _ => branchTracer
         };
-        SpawnProjectile(muzzle.position, heading, effectsOnHit.Heavy ? 18 + ranks.z : BaseDamage,
+        SpawnProjectile(muzzle.position, heading, BaseDamage,
             effectsOnHit, tracerFrames: tracer, fallbackSprite: isRocket ? piercingSprite : bulletSprite);
         if (branch == GunBranch.Basic && pistolFlash != null)
             StartCoroutine(PlayMuzzleFlash("Pistol muzzle flash", pistolFlash, muzzle.position, heading, 48f));
-        if (isIce && iceMuzzle != null)
+        if (isIce && !isPlasma && iceMuzzle != null)
             StartCoroutine(PlayMuzzleFlash("SMG frost muzzle", iceMuzzle, muzzle.position, heading, 40f, fade: true));
         else if (isBurst && smgFlash != null)
             StartCoroutine(PlayMuzzleFlash("SMG muzzle flash", smgFlash, muzzle.position, heading, 30f));
@@ -346,13 +361,8 @@ public sealed class GunSkillWeapon : MonoBehaviour
         if (tracerFrames != null)
         {
             artwork.sprite = tracerFrames[0];
-            visual.transform.localScale = Vector3.one * (tracerFrames == rocketFlight ? 0.55f : 1f);
-        }
-
-        if (effectsOnHit.Heavy && tracerFrames == null)
-        {
-            artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, 0f, 32);
-            visual.transform.localScale = Vector3.one * 1.25f;
+            float tracerScale = tracerFrames == plasmaTracer ? 3f : tracerFrames == rocketFlight ? 0.55f : 1f;
+            visual.transform.localScale = new Vector3(tracerScale, tracerScale, 1f);
         }
 
         var body = projectile.AddComponent<Rigidbody2D>();

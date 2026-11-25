@@ -167,26 +167,18 @@ MonoBehaviour:
   enemyPrefab: {fileID: 7668070656183893105, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
   spriteMaterial: {fileID: 2100000, guid: b672de8286489be42ae317d350a2bb06, type: 2}
   gunSprite: {fileID: 858280534771468510, guid: 77836970e29889d4ba2d463482475140, type: 3}
+  echoGunSprite: {fileID: 21300000, guid: aab85f3929c74db3adf31d8bf46c2bd2, type: 3}
   bulletSprite: {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e110, type: 3}
   pistolShots: {fileID: 2800000, guid: 1c1b94d55d8fcc244abb839960425d6e, type: 3}
   shotgunMuzzle: {fileID: 2800000, guid: 73701900b6fbe8f47b496debc6e53440, type: 3}
   smgMuzzle: {fileID: 2800000, guid: e23fd3db22fccc3448776cbb0895e618, type: 3}
+  plasmaShot: {fileID: 2800000, guid: ced0a2bdf0cf40d08c06974760345c5c, type: 3}
+  echoLaser: {fileID: 2800000, guid: 5b545e5c9b734afcbc6015f7e5fc7b68, type: 3}
   iceLance: {fileID: 2800000, guid: 6c3b7daeb1685f84986100354f0bf60a, type: 3}
   frostBreath: {fileID: 2800000, guid: eb729a0d5e184aa4ebade2946cb2054a, type: 3}
   gunTracer: {fileID: 2800000, guid: fa8a9c462d614e64d807222bbe9cce76, type: 3}
   cannonballMuzzle: {fileID: 2800000, guid: 7b28a3a3b6b6a874bbbfd92298f148a6, type: 3}
   piercingSprite: {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e111, type: 3}
-  level11Sheets:
-  - {fileID: 2800000, guid: c26e2ed26c4451462a77ce26a704f1be, type: 3}
-  - {fileID: 2800000, guid: 7b08773a831b7f31457524ecce5f1244, type: 3}
-  - {fileID: 2800000, guid: d63be2fb2e14a986d757d0cb60611db0, type: 3}
-  - {fileID: 2800000, guid: bc2de7fc8f8fec7cf5c8c92a02887a67, type: 3}
-  - {fileID: 2800000, guid: 9cdb90da2d674ce13ec97a40000d4990, type: 3}
-  - {fileID: 2800000, guid: 98fa3a8e39f71c82d7def77505d60e67, type: 3}
-  - {fileID: 2800000, guid: 68b27a4eb31607501c4fe7c6e453bf32, type: 3}
-  - {fileID: 2800000, guid: b2c71d889bfd9b258215d15b86133675, type: 3}
-  - {fileID: 2800000, guid: 336597c090474010c28786352ead27ec, type: 3}
-  - {fileID: 2800000, guid: 1dc3e23229489982b9530e16acd281ea, type: 3}
   coreTwoSheets:
   - {fileID: 2800000, guid: a2cb12295e8cccb7f058c0f67cd1933b, type: 3}
   - {fileID: 2800000, guid: 05212dd6b37535518f77415fcb9d68c5, type: 3}
@@ -210,7 +202,6 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 3d0b976cea78fa74effa726154ba1345, type: 3}
   - {fileID: 2800000, guid: 7114fb07de74c9838182f415fe2d5dd4, type: 3}
   - {fileID: 2800000, guid: 9efd889c4ab4c5d6011de413847b6355, type: 3}
-  turretAtlas: {fileID: 2800000, guid: e8e0c4026f0548529636ce1d9a1dce4c, type: 3}
   grenadeAtlas: {fileID: 2800000, guid: 9fe7cce684ea45b6a987d144908cc721, type: 3}
   meteorAtlas: {fileID: 2800000, guid: 76abe00f97df4f0ca4d3d7ca721eec05, type: 3}
   updatedSkillSheets:
@@ -219,19 +210,19 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 8cf42f37e56e98c1c83b3bd4aaeb3547, type: 3}
   - {fileID: 2800000, guid: febf1f76b21402a126214a86ead86617, type: 3}
   - {fileID: 2800000, guid: 2201547fd5502932fca7799149bd81f9, type: 3}
-  - {fileID: 2800000, guid: af4990c01e19a9c60056ac6509885411, type: 3}
+  - {fileID: 2800000, guid: 935e2d14ebfa495d9fec13fe4be21733, type: 3}
   - {fileID: 2800000, guid: 06d03a29a8a953b4c8e407e4d5020bd3, type: 3}
   - {fileID: 2800000, guid: 78b9bb12101ade83aa334631c3a16c1d, type: 3}
   pixelSkillSheets:
   - {fileID: 2800000, guid: 57510f85826ee0248ae5aa2d80fb43bb, type: 3}
-  - {fileID: 2800000, guid: 13a252659a565295913da41f042c0526, type: 3}
+  - {fileID: 2800000, guid: bbef148de9a2eaf41a0ac69d067d14eb, type: 3}
   - {fileID: 2800000, guid: 7041c9a63b495d67a17e6e17700349ca, type: 3}
   - {fileID: 2800000, guid: 636b9c78e3585971828502b035e27041, type: 3}
   - {fileID: 2800000, guid: e5ad30ea297350fda91df46a033da248, type: 3}
   - {fileID: 2800000, guid: db6f77dfcc9cf0e478b12d66fd04b9dd, type: 3}
   - {fileID: 2800000, guid: c256b5b2a9f5557dafc907157bf5f6bd, type: 3}
   - {fileID: 2800000, guid: 61e5bd2accb2545da977174b6cf2b9af, type: 3}
-  - {fileID: 2800000, guid: f7814c06b89e5243a851b3a12b81c120, type: 3}
+  - {fileID: 2800000, guid: 300b7acb293c08149a202f3388bb87e5, type: 3}
   - {fileID: 2800000, guid: 8cf3574898085bba834b8d63d1fb4f7b, type: 3}
   - {fileID: 2800000, guid: df6f43a9ff845bbc96e6e5b3286e50e5, type: 3}
   - {fileID: 2800000, guid: 40bd68ac1a085a46ad34fabaee8948b5, type: 3}
@@ -239,6 +230,19 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 9ed2262befac5750b570ad8cc1708907, type: 3}
   - {fileID: 2800000, guid: d8b79a2d853b5d838d278a392bc943b0, type: 3}
   - {fileID: 2800000, guid: cd9809c552575f4a8dd287d38dac325e, type: 3}
+  - {fileID: 2800000, guid: d5d98ba39de349ab90928cd9c05f4d01, type: 3}
+  - {fileID: 2800000, guid: 445aed7294fe46b98ba28b339c5ac15c, type: 3}
+  - {fileID: 2800000, guid: d4c9d333bed54bf5866e15b76401a793, type: 3}
+  - {fileID: 2800000, guid: 2eed06c4efe0458a8849fb6a3eca3a90, type: 3}
+  - {fileID: 2800000, guid: 853f9edcc46c4ab682c8b2f8f95426c1, type: 3}
+  - {fileID: 2800000, guid: 9a6e4cf38fc54a57b831854298c63afc, type: 3}
+  - {fileID: 2800000, guid: 6f0ab42199a34007b994f9803f378f33, type: 3}
+  - {fileID: 2800000, guid: a4295250249140aaa6aad415eb4c9436, type: 3}
+  - {fileID: 2800000, guid: fb9a39f253194d668a7c802ee4d4391f, type: 3}
+  - {fileID: 2800000, guid: 2cd00880fd0b440db0545eec8522606d, type: 3}
+  - {fileID: 2800000, guid: d6cc662f78d24b99875e9b0a5d51ab32, type: 3}
+  - {fileID: 2800000, guid: 0505d0664399415ab96a805aa195d260, type: 3}
+  - {fileID: 2800000, guid: 59658ca6dfb2433faf6f534afa40e170, type: 3}
   skillNoGlowMaterial: {fileID: 2100000, guid: 8a43a23248add6e4895b1b1633316d2c, type: 2}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

@@ -3,23 +3,27 @@ using UnityEngine;
 // Shared frame cache for the imported skill sheets. Each sprite keeps its authored contact point.
 internal sealed class GunNewSkillArt : MonoBehaviour
 {
-    internal enum Clip { Quake, Portal, Shield, Orbit, Rocket, Holy, Fireball, Breath, Sweep, Fuse, RecallOut, RecallReturn, Impact, Saw, HotMuzzle, Heavy, DecayAura, DecayHit, Anchor, Tether, AnchorSnap, CageField, CagePulse, CageCollapse }
+    internal enum Clip { Quake, Portal, Shield, Orbit, Rocket, SkyCircle, Fireball, Breath, Sweep, Fuse, RecallOut, RecallReturn, Impact, Saw, HotMuzzle, Heavy, DecayAura, DecayHit, Anchor, Tether, AnchorSnap, CageField, CagePulse, CageCollapse, HealRing, HealHearts, HealSlime, PoisonRing, PortalBeam, TeslaCoil, Stunned, Thunderclap, ChainLightning, BallLightning, EnergyCore, PlasmaExplosion, BlizzardVortex }
     private Texture2D[] textures;
     internal Material NoGlowMaterial { get; private set; }
-    private readonly Sprite[][] frames = new Sprite[24][];
+    private readonly Sprite[][] frames = new Sprite[(int)Clip.BlizzardVortex + 1][];
     private static readonly Vector2Int[] Cells =
     {
         new Vector2Int(288,104), new Vector2Int(152,116), new Vector2Int(88,84), new Vector2Int(184,100),
-        new Vector2Int(480,244), new Vector2Int(252,182), new Vector2Int(356,244), new Vector2Int(160,116),
-        new Vector2Int(136,104), new Vector2Int(320,288), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(120,52), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(16,8), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288)
+        new Vector2Int(480,244), new Vector2Int(200,220), new Vector2Int(356,244), new Vector2Int(160,116),
+        new Vector2Int(136,104), new Vector2Int(240,116), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(120,52), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(72,80), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(16,8), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288),
+        new Vector2Int(256,136), new Vector2Int(60,76), new Vector2Int(112,88), new Vector2Int(72,64), new Vector2Int(264,100),
+        new Vector2Int(224,136), new Vector2Int(60,64), new Vector2Int(288,156), new Vector2Int(248,104), new Vector2Int(136,104), new Vector2Int(112,100), new Vector2Int(224,200), new Vector2Int(128,116)
     };
     private static readonly Vector2[] Anchors =
     {
-        new Vector2(144,94), new Vector2(76,72), new Vector2(44,44), new Vector2(140,65),
-        new Vector2(374,208), new Vector2(160,155), new Vector2(250,208), new Vector2(15,70),
-        new Vector2(13,67), new Vector2(160,181), new Vector2(128,88), new Vector2(128,88), new Vector2(160,181), new Vector2(92,26), new Vector2(64,88), new Vector2(128,88), new Vector2(160,181), new Vector2(160,181), new Vector2(160,181), new Vector2(0,4), new Vector2(160,181), new Vector2(160,160), new Vector2(160,181), new Vector2(160,181)
+        new Vector2(144,94), new Vector2(76,65), new Vector2(44,44), new Vector2(140,65),
+        new Vector2(374,208), new Vector2(100,191), new Vector2(250,208), new Vector2(15,70),
+        new Vector2(13,67), new Vector2(178,66), new Vector2(128,88), new Vector2(128,88), new Vector2(160,181), new Vector2(92,26), new Vector2(64,88), new Vector2(128,88), new Vector2(36,66), new Vector2(160,181), new Vector2(160,181), new Vector2(0,4), new Vector2(160,181), new Vector2(160,160), new Vector2(160,181), new Vector2(160,181),
+        new Vector2(128,111), new Vector2(30,52), new Vector2(56,73), new Vector2(36,54), new Vector2(125,60),
+        new Vector2(112,122), new Vector2(30,28), new Vector2(144,126), new Vector2(136,55), new Vector2(90,41), new Vector2(56,89), new Vector2(112,100), new Vector2(64,102)
     };
-    private static readonly float[] PixelsPerUnit = { 100, 85, 40, 70, 90, 80, 70, 32, 21f, 70f, 60f, 60f, 70f, 50f, 60f, 40f, 50f, 60f, 50f, 64f, 55f, 32.692308f, 40.384615f, 50f };
+    private static readonly float[] PixelsPerUnit = { 100, 85, 40, 70, 90, 42, 70, 32, 21f, 95f, 60f, 60f, 70f, 50f, 60f, 40f, 65f, 60f, 50f, 64f, 55f, 32.692308f, 40.384615f, 50f, 112f, 68f, 67f, 48f, 64f, 88f, 68f, 80f, 64f, 54f, 52f, 24f, 34f };
     // Clip order matches the texture references in GunSkillTest.
     internal void Setup(Texture2D[] sheets, Texture2D[] pixelSheets, Material noGlowMaterial)
     {
@@ -44,18 +48,71 @@ internal sealed class GunNewSkillArt : MonoBehaviour
         int columns = textures[index].width / cell.x;
         var rect = new Rect(frame % columns * cell.x, textures[index].height - (frame / columns + 1) * cell.y,
             cell.x, cell.y);
-        var pivot = new Vector2(anchor.x / cell.x, 1f - anchor.y / cell.y);
+        if (clip == Clip.ChainLightning)
+        {
+            // Exclude the source's three ground markers beneath the lightning.
+            rect = new Rect(rect.x + 40f, rect.y + 26f, 192f, 64f);
+            anchor -= new Vector2(40f, 14f);
+        }
+        else if (clip == Clip.BlizzardVortex)
+        {
+            // The bottom 15 rows contain the stationary ground streak.
+            rect.yMin += 15f;
+            anchor.y = rect.height;
+        }
+        var pivot = new Vector2(anchor.x / rect.width, 1f - anchor.y / rect.height);
         return frames[index][frame] = Sprite.Create(textures[index], rect, pivot, PixelsPerUnit[index], 0, SpriteMeshType.FullRect);
     }
 
     internal Sprite Loop(Clip clip, float elapsed, float fps, int first, int count) =>
         Frame(clip, first + Mathf.FloorToInt(elapsed * fps) % count);
 
+    internal void UpdateLightningLink(SpriteRenderer cable, Vector2 from, Vector2 to, float elapsed)
+    {
+        const float chainSpan = 175f / 64f;
+        Vector2 segment = to - from;
+        cable.transform.SetPositionAndRotation((from + to) * 0.5f,
+            Quaternion.Euler(0f, 0f, Vector2.SignedAngle(Vector2.right, segment)));
+        cable.transform.localScale = new Vector3(segment.magnitude / chainSpan, 0.55f, 1f);
+        cable.sprite = Loop(Clip.ChainLightning, elapsed, 30f, 10, 12);
+    }
+
     internal Sprite Progress(Clip clip, float progress, int first, int last) =>
         Frame(clip, Mathf.Min(last, first + Mathf.FloorToInt(Mathf.Clamp01(progress) * (last - first + 1))));
 
+    // The first three slices are the ring outside/below the actor. The last three
+    // isolate the authored shoulder, waist and leg sparks for color keying.
+    private static readonly Rect[] PoisonPieces =
+    {
+        new Rect(0, 47, 27, 14),
+        new Rect(47, 47, 25, 14),
+        new Rect(27, 55, 20, 6),
+        new Rect(31, 25, 6, 6),
+        new Rect(34, 33, 4, 6),
+        new Rect(33, 45, 6, 6)
+    };
+    private readonly Sprite[,] poisonFrames = new Sprite[PoisonPieces.Length, 13];
+
+    internal Vector2 PoisonRingOffset(int piece)
+    {
+        Vector2 center = PoisonPieces[piece].center;
+        return new Vector2(center.x - 36f, 54f - center.y) / 48f;
+    }
+
+    internal Sprite PoisonPartFrame(int piece, int frame)
+    {
+        if (poisonFrames[piece, frame] != null) return poisonFrames[piece, frame];
+        Texture2D atlas = textures[(int)Clip.PoisonRing];
+        Rect crop = PoisonPieces[piece];
+        var rect = new Rect(frame % 7 * 72 + crop.x,
+            atlas.height - frame / 7 * 64 - crop.yMax, crop.width, crop.height);
+        return poisonFrames[piece, frame] = Sprite.Create(atlas, rect, Vector2.one * 0.5f, 48f, 0, SpriteMeshType.FullRect);
+    }
+
     private void OnDestroy()
     {
+        foreach (Sprite sprite in poisonFrames)
+            if (sprite != null) Destroy(sprite);
         foreach (var clip in frames)
             if (clip != null)
                 foreach (var sprite in clip)

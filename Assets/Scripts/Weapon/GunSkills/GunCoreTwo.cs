@@ -1,4 +1,5 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 internal sealed class GunCoreTwo : MonoBehaviour
@@ -13,6 +14,19 @@ internal sealed class GunCoreTwo : MonoBehaviour
         public bool Special;
     }
 
+    private sealed class Poison
+    {
+        public float ExpiresAt;
+        public GunSkillTargetEffects Movement;
+    }
+
+    private static readonly Vector2[] PoisonBodySpots =
+    {
+        new Vector2(-0.15f, 0.67f),
+        new Vector2(0.12f, 0.46f),
+        new Vector2(-0.06f, 0.24f)
+    };
+    private readonly Dictionary<EnemyHealth, Poison> poisons = new Dictionary<EnemyHealth, Poison>();
     private readonly Sprite[][] frames = new Sprite[11][];
     private GunSkillWeapon weapon;
     private Transform player, muzzle, visuals;
@@ -24,6 +38,9 @@ internal sealed class GunCoreTwo : MonoBehaviour
     private Vector3Int ranks;
     private float shieldUntil, shieldReady, hotUntil, heatExpires, decayUntil, nextDecayHit;
     private float portalUntil;
+    private readonly List<RaycastHit2D> portalBeamHits = new List<RaycastHit2D>();
+    private readonly HashSet<EnemyHealth> damagedByBeam = new HashSet<EnemyHealth>();
+    private readonly HashSet<GunSkillTargetEffects> anchorStuns = new HashSet<GunSkillTargetEffects>();
     private Vector2 entrance, exit, portalDirection;
     private EnemyHealth boss;
 
@@ -57,6 +74,8 @@ internal sealed class GunCoreTwo : MonoBehaviour
     internal void ResetEffects()
     {
         StopAllCoroutines();
+        ClearPoison();
+        ClearAnchorStuns();
         foreach (Transform child in visuals)
         {
             child.gameObject.SetActive(false);
@@ -75,9 +94,8 @@ internal sealed class GunCoreTwo : MonoBehaviour
         return new Volley { Generation = generation, Special = shotNumber % interval == 0 };
     }
 
-    internal bool HeavyRound(Volley volley, int remaining) =>
-        Current(volley) && branch == GunBranch.Burst && (slots & 1) != 0 &&
-        Overcharged && remaining <= 2 + ranks.z;
+    internal bool PlasmaRound(Volley volley) =>
+        Current(volley) && branch == GunBranch.Burst && (slots & 1) != 0 && Overcharged;
 
     internal void Hit(Volley volley, EnemyHealth enemy, Vector2 heading, bool crossedPortal)
     {
@@ -107,11 +125,10 @@ internal sealed class GunCoreTwo : MonoBehaviour
                     if (++heat >= 3)
                     {
                         heat = 0;
-                        hotUntil = Time.time + 5.5f;
-                        StartCoroutine(HotMuzzle());
+                        hotUntil = Time.time + 5f;
                     }
                 }
-                if ((slots & 2) != 0) Decay(enemy, heading);
+                if ((slots & 2) != 0) Decay(enemy);
                 break;
             case GunBranch.Piercing:
                 if (volley.Special && volley.Hits == 1)
@@ -207,20 +224,104 @@ internal sealed class GunCoreTwo : MonoBehaviour
         Destroy(sprite.gameObject);
     }
 
-    private IEnumerator HotMuzzle()
+    internal void ApplyPoison(Volley volley, EnemyHealth enemy)
     {
-        var sprite = Visual("Escalation muzzle", muzzle.position, muzzle.right, 1f);
-        float start = Time.time;
-        while (Overcharged)
+        if (!Current(volley) || !Alive(enemy)) return;
+        if (poisons.TryGetValue(enemy, out var existing))
         {
-            sprite.transform.SetPositionAndRotation(muzzle.position, Rotation(muzzle.right));
-            sprite.sprite = Frame(Art.Muzzle, Time.time - start, 24);
-            yield return null;
+            existing.ExpiresAt = Time.time + 4f;
+            return;
         }
-        Destroy(sprite.gameObject);
+
+        var poison = new Poison
+        {
+            ExpiresAt = Time.time + 4f,
+            Movement = enemy.GetComponent<GunSkillTargetEffects>()
+        };
+        poisons.Add(enemy, poison);
+        StartCoroutine(PoisonTarget(enemy, poison));
     }
 
-    private void Decay(EnemyHealth enemy, Vector2 heading)
+    private IEnumerator PoisonTarget(EnemyHealth enemy, Poison poison)
+    {
+        const float interval = 0.5f;
+        var view = enemy.GetComponentInChildren<SpriteRenderer>();
+        var ring = new SpriteRenderer[3];
+        for (int i = 0; i < ring.Length; i++)
+            ring[i] = Visual("Plasma poison ring", enemy.transform.position, Vector2.right, 1f);
+        var spots = new SpriteRenderer[PoisonBodySpots.Length];
+        if (newArt.NoGlowMaterial != null)
+        {
+            var key = new MaterialPropertyBlock();
+            key.SetFloat("_GlowCutoff", 0.34f);
+            key.SetFloat("_PoisonInk", 1f);
+            for (int i = 0; i < spots.Length; i++)
+            {
+                spots[i] = Visual("Plasma poison body spot", enemy.transform.position, Vector2.right, 1f);
+                spots[i].sharedMaterial = newArt.NoGlowMaterial;
+                spots[i].SetPropertyBlock(key);
+            }
+        }
+        float start = Time.time;
+        float nextTick = start + interval;
+        poison.Movement?.SetPoisonSlow(0.10f);
+        while (Alive(enemy))
+        {
+            float now = Time.time;
+            while (Alive(enemy) && now >= nextTick && nextTick <= poison.ExpiresAt)
+            {
+                enemy.TakeDamage(3);
+                float slow = Mathf.Min(0.45f, 0.10f + 0.10f * (nextTick - start));
+                poison.Movement?.SetPoisonSlow(slow);
+                nextTick += interval;
+            }
+            if (!Alive(enemy) || now >= poison.ExpiresAt) break;
+
+            Bounds bounds = view != null ? view.bounds : new Bounds(enemy.transform.position, Vector3.one * 0.75f);
+            var foot = new Vector2(bounds.center.x, bounds.min.y + 0.04f);
+            float scale = Mathf.Max(0.7f, bounds.size.x / 0.74f);
+            int frame = 5 + Mathf.FloorToInt(Mathf.PingPong((now - start) * 16f, 7f));
+            float opacity = Mathf.Clamp01((poison.ExpiresAt - now) * 4f);
+            for (int i = 0; i < ring.Length; i++)
+            {
+                ring[i].transform.position = foot + newArt.PoisonRingOffset(i) * scale;
+                ring[i].transform.localScale = new Vector3(scale, scale, 1f);
+                ring[i].sprite = newArt.PoisonPartFrame(i, frame);
+                ring[i].color = new Color(1f, 1f, 1f, opacity);
+            }
+            float elapsed = now - start;
+            for (int i = 0; i < spots.Length; i++)
+            {
+                if (spots[i] == null) continue;
+                Vector2 anchor = PoisonBodySpots[i];
+                float pulse = 0.5f + 0.5f * Mathf.Sin(elapsed * 7f + i * 2.1f);
+                spots[i].transform.position = new Vector2(
+                    bounds.center.x + bounds.size.x * anchor.x,
+                    bounds.min.y + bounds.size.y * anchor.y);
+                float size = Mathf.Max(0.60f, bounds.size.y / 0.84f);
+                spots[i].transform.localScale = new Vector3(size, size, 1f);
+                int spotFrame = 5 + Mathf.FloorToInt(Mathf.PingPong(elapsed * 16f + i * 2f, 7f));
+                spots[i].sprite = newArt.PoisonPartFrame(3 + i, spotFrame);
+                spots[i].color = new Color(1f, 1f, 1f, opacity * (0.45f + pulse * 0.48f));
+            }
+            yield return null;
+        }
+        if (poison.Movement != null) poison.Movement.SetPoisonSlow(0f);
+        poisons.Remove(enemy);
+        foreach (var piece in ring)
+            if (piece != null) Destroy(piece.gameObject);
+        foreach (var spot in spots)
+            if (spot != null) Destroy(spot.gameObject);
+    }
+
+    private void ClearPoison()
+    {
+        foreach (Poison poison in poisons.Values)
+            if (poison.Movement != null) poison.Movement.SetPoisonSlow(0f);
+        poisons.Clear();
+    }
+
+    private void Decay(EnemyHealth enemy)
     {
         if (Time.time >= decayUntil)
         {
@@ -235,18 +336,25 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
         if (Time.time < nextDecayHit) return;
         nextDecayHit = Time.time + 0.24f;
-        StartCoroutine(Flash("Disintegration hit", Art.DecayHit, enemy.transform.position, Vector2.right, 1f, 40));
         enemy.TakeDamage(4 + 2 * ranks.y);
     }
 
     private IEnumerator DecayAura(EnemyHealth enemy)
     {
         var sprite = Visual("Disintegration aura", enemy.transform.position, Vector2.right, 1f);
+        var targetView = enemy.GetComponentInChildren<SpriteRenderer>();
         float start = Time.time;
         while (Alive(enemy) && Time.time < decayUntil)
         {
-            sprite.transform.position = enemy.transform.position;
-            sprite.sprite = Frame(Art.Decay, Time.time - start, 24);
+            if (targetView != null && targetView.sprite != null)
+            {
+                Bounds bounds = targetView.bounds;
+                sprite.transform.position = new Vector2(bounds.center.x, bounds.min.y);
+                float scale = Mathf.Max(0.7f, bounds.size.y / 0.65f);
+                sprite.transform.localScale = new Vector3(scale, scale, 1f);
+            }
+            else sprite.transform.position = enemy.transform.position;
+            sprite.sprite = newArt.Loop(GunNewSkillArt.Clip.DecayAura, Time.time - start, 20f, 18, 18);
             sprite.color = new Color(1f, 1f, 1f, Mathf.Clamp01((decayUntil - Time.time) * 4f));
             yield return null;
         }
@@ -255,97 +363,167 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     private void OpenPortal(EnemyHealth enemy, Vector2 heading)
     {
-        portalDirection = heading;
+        bool alreadyOpen = HasPortal;
+        portalDirection = heading.sqrMagnitude > 0.0001f ? heading.normalized : Vector2.right;
         Vector2 center = enemy.transform.position;
-        float offset = 1.55f;
+        float offset = 1.40f;
         if (enemy.TryGetComponent<Collider2D>(out var hitbox))
         {
             center = hitbox.bounds.center;
             Vector2 extents = hitbox.bounds.extents;
-            // Place both gates outside the boss collider, including room for the projectile.
-            offset = Vector2.Dot(extents, new Vector2(Mathf.Abs(heading.x), Mathf.Abs(heading.y))) + 0.55f;
+            // Keep both openings outside the target silhouette and its collision bounds.
+            var projection = new Vector2(Mathf.Abs(portalDirection.x), Mathf.Abs(portalDirection.y));
+            offset = Mathf.Max(1.25f, Vector2.Dot(extents, projection) + 0.48f);
         }
-        entrance = center - heading * offset;
-        exit = center + heading * offset;
-        if (!HasPortal) StartCoroutine(Portals());
+        entrance = center - portalDirection * offset;
+        exit = center + portalDirection * offset;
         portalUntil = Time.time + 2.5f;
+        if (!alreadyOpen) StartCoroutine(Portals());
     }
 
     private IEnumerator Portals()
     {
-        var entrySprite = Visual("Portal entrance", entrance, Vector2.right, 1f);
-        var exitSprite = Visual("Portal exit", exit, Vector2.right, 1f);
-        entrySprite.sharedMaterial = exitSprite.sharedMaterial = newArt.NoGlowMaterial;
+        const float beamInterval = 0.25f;
+        const float beamWidthInSheet = 180f / 64f;
+        var entrySprite = Visual("Portal entrance", entrance, Vector2.right, 1.25f);
+        var exitSprite = Visual("Portal exit", exit, Vector2.right, 1.25f);
+        var beam = Visual("Portal arcane beam", (entrance + exit) * 0.5f, portalDirection, 1f);
+        entrySprite.sharedMaterial = exitSprite.sharedMaterial = beam.sharedMaterial = newArt.NoGlowMaterial;
+        beam.sortingOrder = entrySprite.sortingOrder - 1;
         float start = Time.time;
-        do
+        float nextTick = start;
+        while (HasPortal)
         {
-            entrySprite.transform.position = entrance;
-            exitSprite.transform.position = exit;
-            entrySprite.sprite = exitSprite.sprite = newArt.Loop(GunNewSkillArt.Clip.Portal, Time.time - start, 30f, 0, 72);
+            Vector2 from = entrance;
+            Vector2 to = exit;
+            float elapsed = Time.time - start;
+            entrySprite.transform.position = from;
+            exitSprite.transform.position = to;
+            entrySprite.sprite = exitSprite.sprite = newArt.Loop(GunNewSkillArt.Clip.Portal, elapsed, 30f, 0, 72);
+            beam.transform.SetPositionAndRotation((from + to) * 0.5f, Rotation(to - from));
+            beam.transform.localScale = new Vector3(Vector2.Distance(from, to) / beamWidthInSheet, 0.78f, 1f);
+            beam.sprite = newArt.Loop(GunNewSkillArt.Clip.PortalBeam, elapsed, 30f, 0, 36);
+            if (Time.time >= nextTick)
+            {
+                DamagePortalBeam(from, to);
+                nextTick = Time.time + beamInterval;
+            }
             yield return null;
-        } while (HasPortal);
+        }
         Destroy(entrySprite.gameObject);
         Destroy(exitSprite.gameObject);
+        Destroy(beam.gameObject);
+    }
+
+    private void DamagePortalBeam(Vector2 from, Vector2 to)
+    {
+        const float beamRadius = 0.18f;
+        const int damage = 8;
+        Vector2 segment = to - from;
+        var filter = new ContactFilter2D { useTriggers = true };
+        portalBeamHits.Clear();
+        damagedByBeam.Clear();
+        Physics2D.CircleCast(from, beamRadius, segment.normalized, filter, portalBeamHits, segment.magnitude);
+        foreach (var hit in portalBeamHits)
+        {
+            var enemy = hit.collider.GetComponentInParent<EnemyHealth>();
+            if (Alive(enemy) && damagedByBeam.Add(enemy)) enemy.TakeDamage(damage);
+        }
     }
 
     private IEnumerator Anchor(EnemyHealth enemy, Vector2 heading)
     {
-        Vector2 origin = (Vector2)enemy.transform.position + heading * 1.1f;
-        var sprite = Visual("Heart anchor", origin, Vector2.right, 1f);
-        // Separate pixel links keep the anchor upright while the tether stretches to a moving target.
-        const int linkCount = 18;
-        var links = new SpriteRenderer[linkCount];
-        for (int i = 0; i < linkCount; i++)
-        {
-            var obj = new GameObject("Pixel tether link");
-            obj.transform.SetParent(sprite.transform, false);
-            links[i] = obj.AddComponent<SpriteRenderer>();
-            links[i].sharedMaterial = material;
-            links[i].sortingOrder = 7;
-        }
+        const float lifetime = 2.35f, breakDistance = 2.65f;
+        var view = enemy.GetComponentInChildren<SpriteRenderer>();
+        Bounds body = TargetBounds(enemy, view);
+        Vector2 ground = new Vector2(body.center.x, body.min.y);
+        Vector2 origin = ground + heading * 1.1f;
+        Vector2 terminal = origin + Vector2.up * 0.70f;
+        var coil = Visual("Tesla anchor", origin, Vector2.right, 1f);
+        var cable = Visual("Tesla lightning tether", terminal, Vector2.right, 1f);
+        cable.sharedMaterial = newArt.NoGlowMaterial;
+        cable.sortingOrder = coil.sortingOrder - 1;
         float start = Time.time;
         bool snapped = false;
-        while (Alive(enemy) && Time.time < start + 2.35f)
+        while (Alive(enemy) && Time.time < start + lifetime)
         {
-            Vector2 destination = enemy.transform.position;
-            float distance = Vector2.Distance(origin, destination);
-            float tension = Mathf.InverseLerp(1.1f, 2.65f, distance);
-            Vector2 middle = (origin + destination) * 0.5f + Vector2.up * (1f - tension) * 0.23f;
-            for (int i = 0; i < linkCount; i++)
-            {
-                float a = i / (float)linkCount, b = (i + 1f) / linkCount;
-                Vector2 from = TetherPoint(origin, middle, destination, a);
-                Vector2 to = TetherPoint(origin, middle, destination, b);
-                links[i].transform.SetPositionAndRotation(from, Rotation(to - from));
-                links[i].transform.localScale = new Vector3(Vector2.Distance(from, to) * 4f + 0.02f,
-                    Mathf.Lerp(0.65f, 0.35f, tension), 1f);
-                links[i].sprite = newArt.Loop(GunNewSkillArt.Clip.Tether, Time.time - start + i * 0.03f, 30f, 0, 8);
-            }
-            sprite.sprite = Frame(Art.Anchor, Time.time - start, 24);
-            if (tension >= 1f) { snapped = true; break; }
+            body = TargetBounds(enemy, view);
+            Vector2 foot = new Vector2(body.center.x, body.min.y);
+            if (Vector2.Distance(origin, foot) >= breakDistance) { snapped = true; break; }
+            Vector2 contact = Vector2.Lerp(foot, body.center, 0.85f);
+            float elapsed = Time.time - start;
+            coil.sprite = newArt.Loop(GunNewSkillArt.Clip.TeslaCoil, elapsed, 30f, 0, 72);
+            newArt.UpdateLightningLink(cable, terminal, contact, elapsed);
             yield return null;
         }
 
-        Destroy(sprite.gameObject);
+        coil.gameObject.SetActive(false);
+        cable.gameObject.SetActive(false);
+        Destroy(coil.gameObject);
+        Destroy(cable.gameObject);
         if (!Alive(enemy)) yield break;
-        Vector2 target = enemy.transform.position;
-        Vector2 direction = (target - origin).normalized;
         if (snapped)
         {
-            StartCoroutine(Flash("Heart anchor snap", Art.Snap, (origin + target) * 0.5f, Vector2.right, 1f, 36));
+            StartCoroutine(Thunderclap(origin, 1f));
+            if (enemy.TryGetComponent<GunSkillTargetEffects>(out var status))
+            {
+                status.Stun(1.25f);
+                if (anchorStuns.Add(status)) StartCoroutine(ShowAnchorStun(enemy, view, status));
+            }
             enemy.TakeDamage(30 + 5 * ranks.x);
             yield break;
         }
 
         float radius = 1.45f + ranks.z * 0.24f;
-        StartCoroutine(Flash("Heart anchor expiry", Art.Snap, origin, Vector2.right, radius / 1.45f, 36));
+        StartCoroutine(Thunderclap(origin, radius / 1.45f));
         foreach (EnemyHealth nearby in FindObjectsByType<EnemyHealth>(FindObjectsSortMode.None))
-            if (Alive(nearby) && Vector2.Distance(nearby.transform.position, origin) <= radius)
+        {
+            if (!Alive(nearby)) continue;
+            Bounds nearbyBody = TargetBounds(nearby, nearby.GetComponentInChildren<SpriteRenderer>());
+            Vector2 foot = new Vector2(nearbyBody.center.x, nearbyBody.min.y);
+            if (Vector2.Distance(foot, origin) <= radius)
                 nearby.TakeDamage(15 + 3 * ranks.x);
+        }
     }
 
-    private static Vector2 TetherPoint(Vector2 from, Vector2 middle, Vector2 to, float t) =>
-        t < 0.5f ? Vector2.Lerp(from, middle, t * 2f) : Vector2.Lerp(middle, to, (t - 0.5f) * 2f);
+    private static Bounds TargetBounds(EnemyHealth enemy, SpriteRenderer view) =>
+        view != null && view.sprite != null ? view.bounds : new Bounds(enemy.transform.position, Vector3.one * 0.65f);
+
+    private IEnumerator Thunderclap(Vector2 origin, float scale)
+    {
+        var blast = Visual("Tesla anchor explosion", origin, Vector2.right, scale);
+        const int first = 4, end = 52;
+        const float fps = 46f;
+        for (float elapsed = 0f; elapsed < (end - first + 1) / fps; elapsed += Time.deltaTime)
+        {
+            blast.sprite = newArt.Frame(GunNewSkillArt.Clip.Thunderclap, Mathf.Min(end, first + Mathf.FloorToInt(elapsed * fps)));
+            yield return null;
+        }
+        Destroy(blast.gameObject);
+    }
+
+    private IEnumerator ShowAnchorStun(EnemyHealth enemy, SpriteRenderer view, GunSkillTargetEffects status)
+    {
+        var stars = Visual("Tesla stunned stars", enemy.transform.position, Vector2.right, 1f);
+        stars.sortingOrder = Mathf.Max(stars.sortingOrder, view != null ? view.sortingOrder + 1 : 0);
+        float start = Time.time;
+        while (Alive(enemy) && status != null && status.IsStunned)
+        {
+            Bounds body = TargetBounds(enemy, view);
+            stars.transform.position = new Vector2(body.center.x, body.max.y + 0.1f);
+            stars.sprite = newArt.Loop(GunNewSkillArt.Clip.Stunned, Time.time - start, 30f, 0, 60);
+            yield return null;
+        }
+        anchorStuns.Remove(status);
+        Destroy(stars.gameObject);
+    }
+
+    private void ClearAnchorStuns()
+    {
+        foreach (var status in anchorStuns)
+            if (status != null) status.ClearStun();
+        anchorStuns.Clear();
+    }
 
     private SpriteRenderer Visual(string label, Vector2 position, Vector2 heading, float size)
     {
@@ -364,9 +542,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
         var sprite = Visual(label, position, heading, size);
         for (float elapsed = 0f; elapsed * fps < 32f; elapsed += Time.deltaTime)
         {
-            sprite.sprite = art == Art.Snap
-                ? newArt.Progress(GunNewSkillArt.Clip.AnchorSnap, elapsed * fps / 32f, 0, 47)
-                : Frame(art, elapsed, fps);
+            sprite.sprite = Frame(art, elapsed, fps);
             yield return null;
         }
         Destroy(sprite.gameObject);
@@ -374,14 +550,6 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     internal Sprite Frame(Art art, float elapsed, int fps)
     {
-        switch (art)
-        {
-            case Art.Muzzle: return newArt.Loop(GunNewSkillArt.Clip.HotMuzzle, elapsed, 30f, 0, 24);
-            case Art.Heavy: return newArt.Loop(GunNewSkillArt.Clip.Heavy, elapsed, 30f, 0, 14);
-            case Art.Decay: return newArt.Loop(GunNewSkillArt.Clip.DecayAura, elapsed, 30f, 0, 48);
-            case Art.DecayHit: return newArt.Loop(GunNewSkillArt.Clip.DecayHit, elapsed, fps, 0, 32);
-            case Art.Anchor: return newArt.Loop(GunNewSkillArt.Clip.Anchor, elapsed, 30f, 0, 48);
-        }
         int index = (int)art;
         Sprite[] clip = frames[index];
         if (clip == null)
@@ -399,6 +567,8 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     private void OnDestroy()
     {
+        ClearPoison();
+        ClearAnchorStuns();
         foreach (var clip in frames)
             if (clip != null)
                 foreach (var frame in clip) Destroy(frame);

@@ -6,6 +6,8 @@ internal sealed class GunLabBoss : MonoBehaviour
     private GunSkillTestArena arena;
     private Rigidbody2D bossBody, player;
     private EnemyController movement;
+    private GunSkillTargetEffects targetEffects;
+    private bool CanAttack => arena.PlayerStanding && (targetEffects == null || !targetEffects.IsStunned);
     private Sprite projectile;
     private Material material;
 
@@ -17,6 +19,7 @@ internal sealed class GunLabBoss : MonoBehaviour
         material = spriteMaterial;
         bossBody = GetComponent<Rigidbody2D>();
         movement = GetComponent<EnemyController>();
+        targetEffects = GetComponent<GunSkillTargetEffects>();
         StartCoroutine(Attack());
     }
 
@@ -25,14 +28,14 @@ internal sealed class GunLabBoss : MonoBehaviour
         yield return new WaitForSeconds(1.45f);
         while (true)
         {
-            if (!arena.PlayerStanding)
+            if (!CanAttack)
             {
                 yield return null;
                 continue;
             }
             yield return Fan();
             yield return new WaitForSeconds(0.75f);
-            if (arena.PlayerStanding) yield return Dash();
+            if (CanAttack) yield return Dash();
             yield return new WaitForSeconds(0.85f);
         }
     }
@@ -44,7 +47,7 @@ internal sealed class GunLabBoss : MonoBehaviour
         var mark = Telegraph(origin, origin + aim * 7f, 0.13f);
         yield return new WaitForSeconds(0.62f);
         Destroy(mark.gameObject);
-        if (!arena.PlayerStanding) yield break;
+        if (!CanAttack) yield break;
         for (int i = 0; i < 5; i++)
         {
             Vector2 heading = Quaternion.Euler(0, 0, (i - 2) * 13f) * aim;
@@ -92,7 +95,7 @@ internal sealed class GunLabBoss : MonoBehaviour
         yield return new WaitForSeconds(0.70f);
         Destroy(mark.gameObject);
         bool hit = false;
-        for (float elapsed = 0f; elapsed < duration && arena.PlayerStanding; elapsed += Time.fixedDeltaTime)
+        for (float elapsed = 0f; elapsed < duration && CanAttack; elapsed += Time.fixedDeltaTime)
         {
             Vector2 next = ClampToArena(bossBody.position + heading * (movement.MoveSpeed * 3.2f * Time.fixedDeltaTime));
             if (!hit && arena.PlayerStanding &&
