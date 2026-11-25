@@ -1,0 +1,2002 @@
+fileFormatVersion: 2
+guid: 6131886aa4f909147b6721c53fa7ed8f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4299642184175231513
+    second: arcane-orb_0
+  - first:
+      213: 7494354922593732730
+    second: arcane-orb_1
+  - first:
+      213: -2012129002454014643
+    second: arcane-orb_2
+  - first:
+      213: -4596944457437846390
+    second: arcane-orb_3
+  - first:
+      213: -1338408803257694511
+    second: arcane-orb_4
+  - first:
+      213: -4155482620660398534
+    second: arcane-orb_5
+  - first:
+      213: -2343521750707356682
+    second: arcane-orb_6
+  - first:
+      213: -4601079714839230680
+    second: arcane-orb_7
+  - first:
+      213: 7423102090233256417
+    second: arcane-orb_8
+  - first:
+      213: 3997868268359164466
+    second: arcane-orb_9
+  - first:
+      213: -6155959279562514722
+    second: arcane-orb_10
+  - first:
+      213: -7174993511063629285
+    second: arcane-orb_11
+  - first:
+      213: 4250501669253509494
+    second: arcane-orb_12
+  - first:
+      213: 4889007581157498126
+    second: arcane-orb_13
+  - first:
+      213: 8088199844220983482
+    second: arcane-orb_14
+  - first:
+      213: -4910292973723895938
+    second: arcane-orb_15
+  - first:
+      213: 8584732106439219233
+    second: arcane-orb_16
+  - first:
+      213: 2356987946488623192
+    second: arcane-orb_17
+  - first:
+      213: 5552296476166234600
+    second: arcane-orb_18
+  - first:
+      213: -6710215736458398073
+    second: arcane-orb_19
+  - first:
+      213: 3699771211089664127
+    second: arcane-orb_20
+  - first:
+      213: -931510483165873200
+    second: arcane-orb_21
+  - first:
+      213: 4054440687510412929
+    second: arcane-orb_22
+  - first:
+      213: -1924871764195216255
+    second: arcane-orb_23
+  - first:
+      213: 9025428629298515906
+    second: arcane-orb_24
+  - first:
+      213: -6685769808493414056
+    second: arcane-orb_25
+  - first:
+      213: -3350893992153974482
+    second: arcane-orb_26
+  - first:
+      213: 8539833016266816920
+    second: arcane-orb_27
+  - first:
+      213: -4721849195187559300
+    second: arcane-orb_28
+  - first:
+      213: 6935067216656594345
+    second: arcane-orb_29
+  - first:
+      213: 5042034515444724071
+    second: arcane-orb_30
+  - first:
+      213: 3591276569431448727
+    second: arcane-orb_31
+  - first:
+      213: 2580327157837275750
+    second: arcane-orb_32
+  - first:
+      213: -3129687321853286142
+    second: arcane-orb_33
+  - first:
+      213: 7524405675441270959
+    second: arcane-orb_34
+  - first:
+      213: 5831834169630415434
+    second: arcane-orb_35
+  - first:
+      213: -4882968829293443126
+    second: arcane-orb_36
+  - first:
+      213: -8234878459674769443
+    second: arcane-orb_37
+  - first:
+      213: -2591649446026135528
+    second: arcane-orb_38
+  - first:
+      213: 6907956521567387008
+    second: arcane-orb_39
+  - first:
+      213: -4467530367941237750
+    second: arcane-orb_40
+  - first:
+      213: -6198469002290359136
+    second: arcane-orb_41
+  - first:
+      213: -3225241016153693720
+    second: arcane-orb_42
+  - first:
+      213: 9036194928809249166
+    second: arcane-orb_43
+  - first:
+      213: 1342366045985978997
+    second: arcane-orb_44
+  - first:
+      213: 4047487297945935407
+    second: arcane-orb_45
+  - first:
+      213: 6387534158345161710
+    second: arcane-orb_46
+  - first:
+      213: 7024188501840950384
+    second: arcane-orb_47
+  - first:
+      213: 6292545451730244239
+    second: arcane-orb_48
+  - first:
+      213: 4089883663972610761
+    second: arcane-orb_49
+  - first:
+      213: -7518430144569827547
+    second: arcane-orb_50
+  - first:
+      213: -5944561851362572282
+    second: arcane-orb_51
+  - first:
+      213: 2705948562136794446
+    second: arcane-orb_52
+  - first:
+      213: -1427892111980762772
+    second: arcane-orb_53
+  - first:
+      213: 6625842456907135187
+    second: arcane-orb_54
+  - first:
+      213: -8334637871159130712
+    second: arcane-orb_55
+  - first:
+      213: 8827901532649967315
+    second: arcane-orb_56
+  - first:
+      213: -7868199229027848355
+    second: arcane-orb_57
+  - first:
+      213: -2056906048672728463
+    second: arcane-orb_58
+  - first:
+      213: -1227082466132041394
+    second: arcane-orb_59
+  - first:
+      213: 682964410492819308
+    second: arcane-orb_60
+  - first:
+      213: 5141815354519289421
+    second: arcane-orb_61
+  - first:
+      213: -8385287687894368954
+    second: arcane-orb_62
+  - first:
+      213: -6504345439683933013
+    second: arcane-orb_63
+  - first:
+      213: 6675538012245196378
+    second: arcane-orb_64
+  - first:
+      213: 1634856243029605084
+    second: arcane-orb_65
+  - first:
+      213: -5039548627765366375
+    second: arcane-orb_66
+  - first:
+      213: -9078163861470167826
+    second: arcane-orb_67
+  - first:
+      213: 1488278722923826610
+    second: arcane-orb_68
+  - first:
+      213: 5633564613750098500
+    second: arcane-orb_69
+  - first:
+      213: -1768462889781300641
+    second: arcane-orb_70
+  - first:
+      213: 2656993355363358130
+    second: arcane-orb_71
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: arcane-orb_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ed53f6c63a9454c0800000000000000
+      internalID: -4299642184175231513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7846e5681c410860800000000000000
+      internalID: 7494354922593732730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_2
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45a77e355b7314e0800000000000000
+      internalID: -2012129002454014643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_3
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8467322f5f5430c0800000000000000
+      internalID: -4596944457437846390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_4
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6c19dd8440d6de0800000000000000
+      internalID: -1338408803257694511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_5
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a364a3db292c456c0800000000000000
+      internalID: -4155482620660398534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_6
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fbbfad52632a7fd0800000000000000
+      internalID: -2343521750707356682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_7
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 896
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82780cd706ea520c0800000000000000
+      internalID: -4601079714839230680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e910d39508240760800000000000000
+      internalID: 7423102090233256417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_9
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232aa5a22084b7730800000000000000
+      internalID: 3997868268359164466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_10
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede18e1a6a3a19aa0800000000000000
+      internalID: -6155959279562514722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_11
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b12d15b9a6d4d6c90800000000000000
+      internalID: -7174993511063629285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_12
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6717f018fb0dcfa30800000000000000
+      internalID: 4250501669253509494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_13
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d9513fd7e39d340800000000000000
+      internalID: 4889007581157498126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_14
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab8592bb7ee0f3070800000000000000
+      internalID: 8088199844220983482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_15
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 784
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7737166e822bdbb0800000000000000
+      internalID: -4910292973723895938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_16
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1285330fd58132770800000000000000
+      internalID: 8584732106439219233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_17
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 850f45aac04b5b020800000000000000
+      internalID: 2356987946488623192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_18
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1aa8d4a38bd0d40800000000000000
+      internalID: 5552296476166234600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_19
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7863926075680e2a0800000000000000
+      internalID: -6710215736458398073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_20
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f785733705a385330800000000000000
+      internalID: 3699771211089664127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_21
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db7852a62c9213f0800000000000000
+      internalID: -931510483165873200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_22
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18ed2fde254444830800000000000000
+      internalID: 4054440687510412929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_23
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 672
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184f6f0345b7945e0800000000000000
+      internalID: -1924871764195216255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_24
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cf8af20583c04d70800000000000000
+      internalID: 9025428629298515906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_25
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 859f7ba28cf5733a0800000000000000
+      internalID: -6685769808493414056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_26
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29fbadfaab3f71d0800000000000000
+      internalID: -3350893992153974482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_27
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89d7cbfd1e4938670800000000000000
+      internalID: 8539833016266816920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_28
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74a1e5ac2f987eb0800000000000000
+      internalID: -4721849195187559300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_29
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a5f546d3ee4e3060800000000000000
+      internalID: 6935067216656594345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_30
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 761775e8da7e8f540800000000000000
+      internalID: 5042034515444724071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_31
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 560
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79c15233307c6d130800000000000000
+      internalID: 3591276569431448727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_32
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6622f2ff0e92fc320800000000000000
+      internalID: 2580327157837275750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_33
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20924ea66fd1194d0800000000000000
+      internalID: -3129687321853286142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_34
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa03c96881f0c6860800000000000000
+      internalID: 7524405675441270959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_35
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a5ec56746dee050800000000000000
+      internalID: 5831834169630415434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_36
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac7c8a888b53c3cb0800000000000000
+      internalID: -4882968829293443126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_37
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7c192dba5d7bd80800000000000000
+      internalID: -8234878459674769443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_38
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 818364b5f8c980cd0800000000000000
+      internalID: -2591649446026135528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_39
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 448
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08dfddf3bddfddf50800000000000000
+      internalID: 6907956521567387008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_40
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 336
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a04a793ecc42002c0800000000000000
+      internalID: -4467530367941237750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_41
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a49637884d9af9a0800000000000000
+      internalID: -6198469002290359136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_42
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1a3254264ad33d0800000000000000
+      internalID: -3225241016153693720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_43
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e898cd47963076d70800000000000000
+      internalID: 9036194928809249166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_44
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57a3a818eca01a210800000000000000
+      internalID: 1342366045985978997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_45
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2e19f2c0409b2830800000000000000
+      internalID: 4047487297945935407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_46
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb46d2797415a850800000000000000
+      internalID: 6387534158345161710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_47
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 336
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074fc970a3eea7160800000000000000
+      internalID: 7024188501840950384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_48
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f82916fbfbc935750800000000000000
+      internalID: 6292545451730244239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_49
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2b2c3f58f22c830800000000000000
+      internalID: 4089883663972610761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_50
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f935c2e9b29a790800000000000000
+      internalID: -7518430144569827547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_51
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6080238ed7ca08da0800000000000000
+      internalID: -5944561851362572282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_52
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4584aa61e57d8520800000000000000
+      internalID: 2705948562136794446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_53
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69edcf70bb1f2ce0800000000000000
+      internalID: -1427892111980762772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_54
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8b6adfb98b3fb50800000000000000
+      internalID: 6625842456907135187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_55
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 224
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5ca06d30b655c80800000000000000
+      internalID: -8334637871159130712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3de4ab5fba1038a70800000000000000
+      internalID: 8827901532649967315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_57
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5feacb1d7a8ec290800000000000000
+      internalID: -7868199229027848355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_58
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a7280c8d66473e0800000000000000
+      internalID: -2056906048672728463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_59
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41e6189ff688fee0800000000000000
+      internalID: -1227082466132041394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_60
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6798a943806a7900800000000000000
+      internalID: 682964410492819308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_61
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4e75ca82d56b5740800000000000000
+      internalID: 5141815354519289421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_62
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64d7997664971ab80800000000000000
+      internalID: -8385287687894368954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_63
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 112
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac053bb84cebb5a0800000000000000
+      internalID: -6504345439683933013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 0
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5efd70247644ac50800000000000000
+      internalID: 6675538012245196378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_65
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdafb98571d20b610800000000000000
+      internalID: 1634856243029605084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_66
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 0
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 991fcb5493def0ab0800000000000000
+      internalID: -5039548627765366375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_67
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 0
+        width: 108
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec3840f012e30280800000000000000
+      internalID: -9078163861470167826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_68
+      rect:
+        serializedVersion: 2
+        x: 558
+        y: 0
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bd85aefc9d67a410800000000000000
+      internalID: 1488278722923826610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_69
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 0
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a09c51b217e2e40800000000000000
+      internalID: 5633564613750098500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_70
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 0
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52ff181f582577e0800000000000000
+      internalID: -1768462889781300641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: arcane-orb_71
+      rect:
+        serializedVersion: 2
+        x: 966
+        y: 0
+        width: 108
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b5910d11698fd420800000000000000
+      internalID: 2656993355363358130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      arcane-orb_0: -4299642184175231513
+      arcane-orb_1: 7494354922593732730
+      arcane-orb_10: -6155959279562514722
+      arcane-orb_11: -7174993511063629285
+      arcane-orb_12: 4250501669253509494
+      arcane-orb_13: 4889007581157498126
+      arcane-orb_14: 8088199844220983482
+      arcane-orb_15: -4910292973723895938
+      arcane-orb_16: 8584732106439219233
+      arcane-orb_17: 2356987946488623192
+      arcane-orb_18: 5552296476166234600
+      arcane-orb_19: -6710215736458398073
+      arcane-orb_2: -2012129002454014643
+      arcane-orb_20: 3699771211089664127
+      arcane-orb_21: -931510483165873200
+      arcane-orb_22: 4054440687510412929
+      arcane-orb_23: -1924871764195216255
+      arcane-orb_24: 9025428629298515906
+      arcane-orb_25: -6685769808493414056
+      arcane-orb_26: -3350893992153974482
+      arcane-orb_27: 8539833016266816920
+      arcane-orb_28: -4721849195187559300
+      arcane-orb_29: 6935067216656594345
+      arcane-orb_3: -4596944457437846390
+      arcane-orb_30: 5042034515444724071
+      arcane-orb_31: 3591276569431448727
+      arcane-orb_32: 2580327157837275750
+      arcane-orb_33: -3129687321853286142
+      arcane-orb_34: 7524405675441270959
+      arcane-orb_35: 5831834169630415434
+      arcane-orb_36: -4882968829293443126
+      arcane-orb_37: -8234878459674769443
+      arcane-orb_38: -2591649446026135528
+      arcane-orb_39: 6907956521567387008
+      arcane-orb_4: -1338408803257694511
+      arcane-orb_40: -4467530367941237750
+      arcane-orb_41: -6198469002290359136
+      arcane-orb_42: -3225241016153693720
+      arcane-orb_43: 9036194928809249166
+      arcane-orb_44: 1342366045985978997
+      arcane-orb_45: 4047487297945935407
+      arcane-orb_46: 6387534158345161710
+      arcane-orb_47: 7024188501840950384
+      arcane-orb_48: 6292545451730244239
+      arcane-orb_49: 4089883663972610761
+      arcane-orb_5: -4155482620660398534
+      arcane-orb_50: -7518430144569827547
+      arcane-orb_51: -5944561851362572282
+      arcane-orb_52: 2705948562136794446
+      arcane-orb_53: -1427892111980762772
+      arcane-orb_54: 6625842456907135187
+      arcane-orb_55: -8334637871159130712
+      arcane-orb_56: 8827901532649967315
+      arcane-orb_57: -7868199229027848355
+      arcane-orb_58: -2056906048672728463
+      arcane-orb_59: -1227082466132041394
+      arcane-orb_6: -2343521750707356682
+      arcane-orb_60: 682964410492819308
+      arcane-orb_61: 5141815354519289421
+      arcane-orb_62: -8385287687894368954
+      arcane-orb_63: -6504345439683933013
+      arcane-orb_64: 6675538012245196378
+      arcane-orb_65: 1634856243029605084
+      arcane-orb_66: -5039548627765366375
+      arcane-orb_67: -9078163861470167826
+      arcane-orb_68: 1488278722923826610
+      arcane-orb_69: 5633564613750098500
+      arcane-orb_7: -4601079714839230680
+      arcane-orb_70: -1768462889781300641
+      arcane-orb_71: 2656993355363358130
+      arcane-orb_8: 7423102090233256417
+      arcane-orb_9: 3997868268359164466
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

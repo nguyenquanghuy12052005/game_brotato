@@ -6,12 +6,13 @@ public class EnemyController : MonoBehaviour
     [SerializeField] private Transform target;
     [SerializeField] private float moveSpeed = 2f;
     [SerializeField] private float stopDistance = 0f;
+    private bool trainingDummy;
 
     private Rigidbody2D enemyRigidbody;
-    
-        private void Start()
+
+    private void Start()
     {
-        if (target == null)
+        if (target == null && !trainingDummy)
         {
             GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
             if (playerObj != null)
@@ -30,6 +31,14 @@ public class EnemyController : MonoBehaviour
     {
         target = playerTarget;
     }
+    public void SetTrainingDummy(bool value)
+    {
+        trainingDummy = value;
+        if (!value) return;
+        if (TryGetComponent<EnemyMeleeAttack>(out var melee)) Destroy(melee);
+        if (TryGetComponent<EnemyRangedAttack>(out var rangedAttack)) Destroy(rangedAttack);
+        if (TryGetComponent<EnemyRangedMovement>(out var rangedMovement)) Destroy(rangedMovement);
+    }
 
     public float MoveSpeed => moveSpeed;
 
@@ -46,26 +55,19 @@ public class EnemyController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (target == null || moveSpeed <= 0f)
+        var status = GetComponent<MageEnemyStatus>();
+        Vector2 step = Vector2.zero;
+        if (!trainingDummy && target != null && moveSpeed > 0f)
         {
-            return;
+            Vector2 toTarget = (Vector2)target.position - enemyRigidbody.position;
+            float distance = toTarget.magnitude;
+            if (distance > stopDistance)
+            {
+                float speed = moveSpeed * (status != null ? status.MoveMultiplier : 1f);
+                step = toTarget / distance * Mathf.Min(speed * Time.fixedDeltaTime, distance - stopDistance);
+            }
         }
-
-        Vector2 toTarget = (Vector2)target.position - enemyRigidbody.position;
-        float distance = toTarget.magnitude;
-
-        // Đã tới sát thì đứng yên, không đẩy lấn vào mục tiêu.
-        if (distance <= stopDistance)
-        {
-            return;
-        }
-
-        Vector2 step = toTarget / distance * moveSpeed * Time.fixedDeltaTime;
-        if (step.magnitude > distance - stopDistance)
-        {
-            step = step.normalized * (distance - stopDistance);
-        }
-
-        enemyRigidbody.MovePosition(enemyRigidbody.position + step);
+        if (status != null) step += status.GravityVelocity * Time.fixedDeltaTime;
+        if (step.sqrMagnitude > 0f) enemyRigidbody.MovePosition(enemyRigidbody.position + step);
     }
 }

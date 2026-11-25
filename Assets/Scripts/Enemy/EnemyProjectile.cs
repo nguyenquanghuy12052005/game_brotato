@@ -36,6 +36,8 @@ public class EnemyProjectile : MonoBehaviour
         }
     }
 
+    public void ScaleDamage(float multiplier) => damage = Mathf.CeilToInt(damage * multiplier);
+
     private void FixedUpdate()
     {
         Vector2 nextPosition = projectileRigidbody.position

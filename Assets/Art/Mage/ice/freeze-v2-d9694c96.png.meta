@@ -1,0 +1,4888 @@
+fileFormatVersion: 2
+guid: 009aca2eeb6ea71428df8e77f75bb3ce
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8569788675351500246
+    second: freeze-v2-d9694c96_0
+  - first:
+      213: -3794504376928394916
+    second: freeze-v2-d9694c96_1
+  - first:
+      213: -4270991686933205630
+    second: freeze-v2-d9694c96_2
+  - first:
+      213: 857496559539596340
+    second: freeze-v2-d9694c96_3
+  - first:
+      213: -7935561176419332591
+    second: freeze-v2-d9694c96_4
+  - first:
+      213: -9207536856097298661
+    second: freeze-v2-d9694c96_5
+  - first:
+      213: -1028421205837570350
+    second: freeze-v2-d9694c96_6
+  - first:
+      213: 4968678073835321783
+    second: freeze-v2-d9694c96_7
+  - first:
+      213: -1500855947952865653
+    second: freeze-v2-d9694c96_8
+  - first:
+      213: 8484154859957673047
+    second: freeze-v2-d9694c96_9
+  - first:
+      213: -2194799797301805380
+    second: freeze-v2-d9694c96_10
+  - first:
+      213: -6633548994725694993
+    second: freeze-v2-d9694c96_11
+  - first:
+      213: 821158753790932213
+    second: freeze-v2-d9694c96_12
+  - first:
+      213: -7778200611714434401
+    second: freeze-v2-d9694c96_13
+  - first:
+      213: 2268961674555799541
+    second: freeze-v2-d9694c96_14
+  - first:
+      213: -2645862154374285882
+    second: freeze-v2-d9694c96_15
+  - first:
+      213: -4781535156388255579
+    second: freeze-v2-d9694c96_16
+  - first:
+      213: -1832646186183960871
+    second: freeze-v2-d9694c96_17
+  - first:
+      213: -529835964852795455
+    second: freeze-v2-d9694c96_18
+  - first:
+      213: -34412714663001346
+    second: freeze-v2-d9694c96_19
+  - first:
+      213: 3360497362826448446
+    second: freeze-v2-d9694c96_20
+  - first:
+      213: 8975562056330683902
+    second: freeze-v2-d9694c96_21
+  - first:
+      213: 6334981041180977848
+    second: freeze-v2-d9694c96_22
+  - first:
+      213: -6056434537750379889
+    second: freeze-v2-d9694c96_23
+  - first:
+      213: 3697634158715647112
+    second: freeze-v2-d9694c96_24
+  - first:
+      213: 3763725908055622796
+    second: freeze-v2-d9694c96_25
+  - first:
+      213: 7415082355861273388
+    second: freeze-v2-d9694c96_26
+  - first:
+      213: -1935303927969401392
+    second: freeze-v2-d9694c96_27
+  - first:
+      213: 2606655085933844713
+    second: freeze-v2-d9694c96_28
+  - first:
+      213: 2583548026343513882
+    second: freeze-v2-d9694c96_29
+  - first:
+      213: -5852509018248224829
+    second: freeze-v2-d9694c96_30
+  - first:
+      213: 72896395345608700
+    second: freeze-v2-d9694c96_31
+  - first:
+      213: 2033874354814341904
+    second: freeze-v2-d9694c96_32
+  - first:
+      213: -6810751538480156634
+    second: freeze-v2-d9694c96_33
+  - first:
+      213: -3572014118426292319
+    second: freeze-v2-d9694c96_34
+  - first:
+      213: -1982451770324257646
+    second: freeze-v2-d9694c96_35
+  - first:
+      213: -4321862423987165763
+    second: freeze-v2-d9694c96_36
+  - first:
+      213: 215052412080436257
+    second: freeze-v2-d9694c96_37
+  - first:
+      213: -7957734181664412505
+    second: freeze-v2-d9694c96_38
+  - first:
+      213: -7397461126925505130
+    second: freeze-v2-d9694c96_39
+  - first:
+      213: 763148942289842048
+    second: freeze-v2-d9694c96_40
+  - first:
+      213: 2514696853041998312
+    second: freeze-v2-d9694c96_41
+  - first:
+      213: -1546518965698524786
+    second: freeze-v2-d9694c96_42
+  - first:
+      213: 477673558970854936
+    second: freeze-v2-d9694c96_43
+  - first:
+      213: -725765591360389612
+    second: freeze-v2-d9694c96_44
+  - first:
+      213: -3719414503011902394
+    second: freeze-v2-d9694c96_45
+  - first:
+      213: -1134721936909402001
+    second: freeze-v2-d9694c96_46
+  - first:
+      213: -128222285217443505
+    second: freeze-v2-d9694c96_47
+  - first:
+      213: -4371012457223387101
+    second: freeze-v2-d9694c96_48
+  - first:
+      213: 4220125093239066283
+    second: freeze-v2-d9694c96_49
+  - first:
+      213: -5940307921969972060
+    second: freeze-v2-d9694c96_50
+  - first:
+      213: -8867631046264855717
+    second: freeze-v2-d9694c96_51
+  - first:
+      213: 4817376719490669230
+    second: freeze-v2-d9694c96_52
+  - first:
+      213: -7836648735833502513
+    second: freeze-v2-d9694c96_53
+  - first:
+      213: -2365081897266012892
+    second: freeze-v2-d9694c96_54
+  - first:
+      213: -7866563097183662222
+    second: freeze-v2-d9694c96_55
+  - first:
+      213: -4935576521837197026
+    second: freeze-v2-d9694c96_56
+  - first:
+      213: 845914020404141987
+    second: freeze-v2-d9694c96_57
+  - first:
+      213: -4561834154160281530
+    second: freeze-v2-d9694c96_58
+  - first:
+      213: -7160101910497577892
+    second: freeze-v2-d9694c96_59
+  - first:
+      213: -4316328939095328471
+    second: freeze-v2-d9694c96_60
+  - first:
+      213: 8935205393792554520
+    second: freeze-v2-d9694c96_61
+  - first:
+      213: -3891068852904745814
+    second: freeze-v2-d9694c96_62
+  - first:
+      213: 2704265870004290759
+    second: freeze-v2-d9694c96_63
+  - first:
+      213: -6216405136120950188
+    second: freeze-v2-d9694c96_64
+  - first:
+      213: 1816826032594148646
+    second: freeze-v2-d9694c96_65
+  - first:
+      213: -3088061495649481371
+    second: freeze-v2-d9694c96_66
+  - first:
+      213: -2143996584153414935
+    second: freeze-v2-d9694c96_67
+  - first:
+      213: -3524785476358860198
+    second: freeze-v2-d9694c96_68
+  - first:
+      213: -3263274176631168262
+    second: freeze-v2-d9694c96_69
+  - first:
+      213: 1780373230099489902
+    second: freeze-v2-d9694c96_70
+  - first:
+      213: 6696506260718786707
+    second: freeze-v2-d9694c96_71
+  - first:
+      213: 1596599570579452322
+    second: freeze-v2-d9694c96_72
+  - first:
+      213: -1232979827432652598
+    second: freeze-v2-d9694c96_73
+  - first:
+      213: 3134642347583438672
+    second: freeze-v2-d9694c96_74
+  - first:
+      213: -1538686860809711967
+    second: freeze-v2-d9694c96_75
+  - first:
+      213: -4036279915159941310
+    second: freeze-v2-d9694c96_76
+  - first:
+      213: -1694717655086127055
+    second: freeze-v2-d9694c96_77
+  - first:
+      213: -7751358403308183609
+    second: freeze-v2-d9694c96_78
+  - first:
+      213: -297629230485514686
+    second: freeze-v2-d9694c96_79
+  - first:
+      213: 3068353920248480545
+    second: freeze-v2-d9694c96_80
+  - first:
+      213: -2651051028843811366
+    second: freeze-v2-d9694c96_81
+  - first:
+      213: -6842900034738563472
+    second: freeze-v2-d9694c96_82
+  - first:
+      213: -7255222048417842031
+    second: freeze-v2-d9694c96_83
+  - first:
+      213: -3746586174103729217
+    second: freeze-v2-d9694c96_84
+  - first:
+      213: 5426866774635488371
+    second: freeze-v2-d9694c96_85
+  - first:
+      213: -5869533336795116750
+    second: freeze-v2-d9694c96_86
+  - first:
+      213: 793038084193727062
+    second: freeze-v2-d9694c96_87
+  - first:
+      213: 7605306873475311468
+    second: freeze-v2-d9694c96_88
+  - first:
+      213: -4931074937072319226
+    second: freeze-v2-d9694c96_89
+  - first:
+      213: -9071719369864017761
+    second: freeze-v2-d9694c96_90
+  - first:
+      213: -3646226413978602580
+    second: freeze-v2-d9694c96_91
+  - first:
+      213: -677324700634670845
+    second: freeze-v2-d9694c96_92
+  - first:
+      213: -2690077913190874725
+    second: freeze-v2-d9694c96_93
+  - first:
+      213: 6955669888314661281
+    second: freeze-v2-d9694c96_94
+  - first:
+      213: -6151614081708925509
+    second: freeze-v2-d9694c96_95
+  - first:
+      213: 8552527304231539744
+    second: freeze-v2-d9694c96_96
+  - first:
+      213: -5862810696652434332
+    second: freeze-v2-d9694c96_97
+  - first:
+      213: -4807842846091359845
+    second: freeze-v2-d9694c96_98
+  - first:
+      213: -6735455328509107135
+    second: freeze-v2-d9694c96_99
+  - first:
+      213: 8003266756182753077
+    second: freeze-v2-d9694c96_100
+  - first:
+      213: -1370500797258153021
+    second: freeze-v2-d9694c96_101
+  - first:
+      213: -1109824767638169656
+    second: freeze-v2-d9694c96_102
+  - first:
+      213: 3048965189800268036
+    second: freeze-v2-d9694c96_103
+  - first:
+      213: 795067431363261677
+    second: freeze-v2-d9694c96_104
+  - first:
+      213: -7213421415429328014
+    second: freeze-v2-d9694c96_105
+  - first:
+      213: 578864634534696235
+    second: freeze-v2-d9694c96_106
+  - first:
+      213: -6279141759781305649
+    second: freeze-v2-d9694c96_107
+  - first:
+      213: -6509567703735669359
+    second: freeze-v2-d9694c96_108
+  - first:
+      213: -1653584171557669789
+    second: freeze-v2-d9694c96_109
+  - first:
+      213: 6287416973738805586
+    second: freeze-v2-d9694c96_110
+  - first:
+      213: 3547210979012193701
+    second: freeze-v2-d9694c96_111
+  - first:
+      213: 3912502461969774591
+    second: freeze-v2-d9694c96_112
+  - first:
+      213: -2141164024851434351
+    second: freeze-v2-d9694c96_113
+  - first:
+      213: 4213771711558377504
+    second: freeze-v2-d9694c96_114
+  - first:
+      213: -6165726689032472669
+    second: freeze-v2-d9694c96_115
+  - first:
+      213: -3942207206248138018
+    second: freeze-v2-d9694c96_116
+  - first:
+      213: -7930616196839871709
+    second: freeze-v2-d9694c96_117
+  - first:
+      213: 81590690387402964
+    second: freeze-v2-d9694c96_118
+  - first:
+      213: -6738465186164040190
+    second: freeze-v2-d9694c96_119
+  - first:
+      213: -4380669873781155903
+    second: freeze-v2-d9694c96_120
+  - first:
+      213: 8173681950456661453
+    second: freeze-v2-d9694c96_121
+  - first:
+      213: 7835156078466151302
+    second: freeze-v2-d9694c96_122
+  - first:
+      213: 257137590740910037
+    second: freeze-v2-d9694c96_123
+  - first:
+      213: 1169997153938117479
+    second: freeze-v2-d9694c96_124
+  - first:
+      213: -3524361652688957475
+    second: freeze-v2-d9694c96_125
+  - first:
+      213: -287689287444557408
+    second: freeze-v2-d9694c96_126
+  - first:
+      213: 4560929625745997224
+    second: freeze-v2-d9694c96_127
+  - first:
+      213: 4239075594950329280
+    second: freeze-v2-d9694c96_128
+  - first:
+      213: -1035596565573200141
+    second: freeze-v2-d9694c96_129
+  - first:
+      213: 8435392354593942560
+    second: freeze-v2-d9694c96_130
+  - first:
+      213: -4279050536655252276
+    second: freeze-v2-d9694c96_131
+  - first:
+      213: 1276775955256529772
+    second: freeze-v2-d9694c96_132
+  - first:
+      213: 6823583657822777318
+    second: freeze-v2-d9694c96_133
+  - first:
+      213: 675440253347246063
+    second: freeze-v2-d9694c96_134
+  - first:
+      213: 558266890673102105
+    second: freeze-v2-d9694c96_135
+  - first:
+      213: -3475630269846047
+    second: freeze-v2-d9694c96_136
+  - first:
+      213: -8013865648956740528
+    second: freeze-v2-d9694c96_137
+  - first:
+      213: 1053032676984340119
+    second: freeze-v2-d9694c96_138
+  - first:
+      213: -862342256555139193
+    second: freeze-v2-d9694c96_139
+  - first:
+      213: -4135292728333438319
+    second: freeze-v2-d9694c96_140
+  - first:
+      213: 4347505762887334337
+    second: freeze-v2-d9694c96_141
+  - first:
+      213: -3302040553889396731
+    second: freeze-v2-d9694c96_142
+  - first:
+      213: -8304901544053667042
+    second: freeze-v2-d9694c96_143
+  - first:
+      213: -3536133336595648347
+    second: freeze-v2-d9694c96_144
+  - first:
+      213: -4980930897880033698
+    second: freeze-v2-d9694c96_145
+  - first:
+      213: 8716834892666540442
+    second: freeze-v2-d9694c96_146
+  - first:
+      213: -2971497071910247676
+    second: freeze-v2-d9694c96_147
+  - first:
+      213: -1994577071629807744
+    second: freeze-v2-d9694c96_148
+  - first:
+      213: 452302039770382041
+    second: freeze-v2-d9694c96_149
+  - first:
+      213: -5838981241940701464
+    second: freeze-v2-d9694c96_150
+  - first:
+      213: -918478554663575186
+    second: freeze-v2-d9694c96_151
+  - first:
+      213: -250238688909618610
+    second: freeze-v2-d9694c96_152
+  - first:
+      213: -2136024247334915969
+    second: freeze-v2-d9694c96_153
+  - first:
+      213: -6445246408739830449
+    second: freeze-v2-d9694c96_154
+  - first:
+      213: -4635223827026998322
+    second: freeze-v2-d9694c96_155
+  - first:
+      213: -7780073943415674973
+    second: freeze-v2-d9694c96_156
+  - first:
+      213: -2186007890038066344
+    second: freeze-v2-d9694c96_157
+  - first:
+      213: 8484219984911812853
+    second: freeze-v2-d9694c96_158
+  - first:
+      213: 1147425050734474431
+    second: freeze-v2-d9694c96_159
+  - first:
+      213: -408721061988903069
+    second: freeze-v2-d9694c96_160
+  - first:
+      213: -7999123866109360470
+    second: freeze-v2-d9694c96_161
+  - first:
+      213: 2065136998851952698
+    second: freeze-v2-d9694c96_162
+  - first:
+      213: -8787877668256790453
+    second: freeze-v2-d9694c96_163
+  - first:
+      213: 1929570788566195505
+    second: freeze-v2-d9694c96_164
+  - first:
+      213: 8844878966587696792
+    second: freeze-v2-d9694c96_165
+  - first:
+      213: 6860682112077559117
+    second: freeze-v2-d9694c96_166
+  - first:
+      213: -1408833392339830597
+    second: freeze-v2-d9694c96_167
+  - first:
+      213: 2225135993488982855
+    second: freeze-v2-d9694c96_168
+  - first:
+      213: 8025996571391050472
+    second: freeze-v2-d9694c96_169
+  - first:
+      213: -4379017632546106144
+    second: freeze-v2-d9694c96_170
+  - first:
+      213: -630429618625243483
+    second: freeze-v2-d9694c96_171
+  - first:
+      213: 1658620074461860379
+    second: freeze-v2-d9694c96_172
+  - first:
+      213: -7033765472153744282
+    second: freeze-v2-d9694c96_173
+  - first:
+      213: -853499827017931896
+    second: freeze-v2-d9694c96_174
+  - first:
+      213: 9088702637852103940
+    second: freeze-v2-d9694c96_175
+  - first:
+      213: 693756060366502003
+    second: freeze-v2-d9694c96_176
+  - first:
+      213: -7833800723843072172
+    second: freeze-v2-d9694c96_177
+  - first:
+      213: -458625855791083334
+    second: freeze-v2-d9694c96_178
+  - first:
+      213: -8123626419061135644
+    second: freeze-v2-d9694c96_179
+  - first:
+      213: 595678922354303125
+    second: freeze-v2-d9694c96_180
+  - first:
+      213: 2935335238088075322
+    second: freeze-v2-d9694c96_181
+  - first:
+      213: -9172663404323470727
+    second: freeze-v2-d9694c96_182
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_0
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 1425
+        width: 108
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d5dd7245610ee670800000000000000
+      internalID: 8569788675351500246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_1
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 1425
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c51a4829f56375bc0800000000000000
+      internalID: -3794504376928394916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_2
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1425
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d23bd70b36ab4c0800000000000000
+      internalID: -4270991686933205630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_3
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 1425
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c2a73e39076eb00800000000000000
+      internalID: 857496559539596340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_4
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1425
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11e052a87293fd190800000000000000
+      internalID: -7935561176419332591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_5
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 1425
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17e0045302483080800000000000000
+      internalID: -9207536856097298661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_6
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1425
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de9292bc505ab1f0800000000000000
+      internalID: -1028421205837570350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_7
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 1425
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9f93a026a44f440800000000000000
+      internalID: 4968678073835321783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_8
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1425
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8ebc3b9773eb2be0800000000000000
+      internalID: -1500855947952865653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_9
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1425
+        width: 24
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c5e27e4e5cdb570800000000000000
+      internalID: 8484154859957673047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_10
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1424
+        width: 28
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbef9b086318a81e0800000000000000
+      internalID: -2194799797301805380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_11
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1425
+        width: 27
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe1b939d556e0f3a0800000000000000
+      internalID: -6633548994725694993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_12
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1424
+        width: 31
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f439ef2987556b00800000000000000
+      internalID: 821158753790932213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_13
+      rect:
+        serializedVersion: 2
+        x: 1329
+        y: 1425
+        width: 31
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9af80b11c74e0490800000000000000
+      internalID: -7778200611714434401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_14
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1424
+        width: 35
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7bfdc1f98fc7f10800000000000000
+      internalID: 2268961674555799541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_15
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 1425
+        width: 33
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c5fed39362084bd0800000000000000
+      internalID: -2645862154374285882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_16
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1291
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8af62eb1394adb0800000000000000
+      internalID: -4781535156388255579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_17
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1295
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d6d781e0022196e0800000000000000
+      internalID: -1832646186183960871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_18
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1296
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c709b54ff4a5a8f0800000000000000
+      internalID: -529835964852795455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_19
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1296
+        width: 79
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef241ce71ddb58ff0800000000000000
+      internalID: -34412714663001346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_20
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1296
+        width: 79
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e48ebfb82e2ae20800000000000000
+      internalID: 3360497362826448446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_21
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 1308
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5a01bb22a9f8c70800000000000000
+      internalID: 8975562056330683902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_22
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1295
+        width: 79
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba2d6a51bf5ae750800000000000000
+      internalID: 6334981041180977848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_23
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 1310
+        width: 30
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f824bf350e833fba0800000000000000
+      internalID: -6056434537750379889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_24
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1294
+        width: 79
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884b89b2da2a05330800000000000000
+      internalID: 3697634158715647112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_25
+      rect:
+        serializedVersion: 2
+        x: 1305
+        y: 1311
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c840795b5c07b3430800000000000000
+      internalID: 3763725908055622796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_26
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1294
+        width: 79
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2bb069ad1aa7e660800000000000000
+      internalID: 7415082355861273388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_27
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1295
+        width: 79
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d537f8c45b6425e0800000000000000
+      internalID: -1935303927969401392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_28
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1224
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e85d017df2bc2420800000000000000
+      internalID: 2606655085933844713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_29
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 1193
+        width: 35
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1fdd52ed3b9ad320800000000000000
+      internalID: 2583548026343513882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_30
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 1228
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cf5b8a4e06b7cea0800000000000000
+      internalID: -5852509018248224829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_31
+      rect:
+        serializedVersion: 2
+        x: 1325
+        y: 1232
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cff3bf5a2eaf20100800000000000000
+      internalID: 72896395345608700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_32
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1166
+        width: 79
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0135c7423f5c93c10800000000000000
+      internalID: 2033874354814341904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_33
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1166
+        width: 79
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620f1778f895b71a0800000000000000
+      internalID: -6810751538480156634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_34
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1166
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1af458aa518ad6ec0800000000000000
+      internalID: -3572014118426292319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_35
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1166
+        width: 79
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2947a7d4e9aec74e0800000000000000
+      internalID: -1982451770324257646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_36
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1166
+        width: 79
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5e22a0609a504c0800000000000000
+      internalID: -4321862423987165763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_37
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1192
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 124352687050cf200800000000000000
+      internalID: 215052412080436257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_38
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 1198
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aca8e47ce2709190800000000000000
+      internalID: -7957734181664412505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_39
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1161
+        width: 79
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d28d96c40f65990800000000000000
+      internalID: -7397461126925505130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_40
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 1202
+        width: 40
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fa6ef6bef379a00800000000000000
+      internalID: 763148942289842048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_41
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1166
+        width: 79
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e96c53e67ff5e220800000000000000
+      internalID: 2514696853041998312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_42
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1166
+        width: 79
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89822bc139a98ae0800000000000000
+      internalID: -1546518965698524786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_43
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1166
+        width: 79
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81eed01329901a600800000000000000
+      internalID: 477673558970854936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_44
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1025
+        width: 79
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41e33c83a009de5f0800000000000000
+      internalID: -725765591360389612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_45
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 1024
+        width: 79
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c1a8f373cf16cc0800000000000000
+      internalID: -3719414503011902394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_46
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 1024
+        width: 79
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f600caf0968a040f0800000000000000
+      internalID: -1134721936909402001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_47
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1110
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41535dc286783ef0800000000000000
+      internalID: -128222285217443505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_48
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 1024
+        width: 79
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328846a245b0753c0800000000000000
+      internalID: -4371012457223387101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_49
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 1024
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae0a32c965e09a30800000000000000
+      internalID: 4220125093239066283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_50
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 1024
+        width: 79
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac7a860b69cf8da0800000000000000
+      internalID: -5940307921969972060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_51
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 1027
+        width: 79
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b536820db88dfe480800000000000000
+      internalID: -8867631046264855717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_52
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 1026
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaa5a725a92cad240800000000000000
+      internalID: 4817376719490669230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_53
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 1025
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc412fbe71ae3390800000000000000
+      internalID: -7836648735833502513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_54
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 896
+        width: 124
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d90c09b8a8d2fd0800000000000000
+      internalID: -2365081897266012892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_55
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 896
+        width: 118
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fcb2dba8a54d290800000000000000
+      internalID: -7866563097183662222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 112
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e19c22e9d4f418bb0800000000000000
+      internalID: -4935576521837197026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_57
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 896
+        width: 106
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af16b8d15a4dbb00800000000000000
+      internalID: 845914020404141987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_58
+      rect:
+        serializedVersion: 2
+        x: 742
+        y: 896
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6482805a10c11b0c0800000000000000
+      internalID: -4561834154160281530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_59
+      rect:
+        serializedVersion: 2
+        x: 922
+        y: 896
+        width: 92
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54323d8f3532ac90800000000000000
+      internalID: -7160101910497577892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_60
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 896
+        width: 86
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929fb73e2b15914c0800000000000000
+      internalID: -4316328939095328471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_61
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 896
+        width: 79
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816d82407f9300c70800000000000000
+      internalID: 8935205393792554520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_62
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 897
+        width: 80
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4a60a7e75200ac0800000000000000
+      internalID: -3891068852904745814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 769
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c481df1b7b778520800000000000000
+      internalID: 2704265870004290759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_64
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 769
+        width: 83
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452d891f674eab9a0800000000000000
+      internalID: -6216405136120950188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_65
+      rect:
+        serializedVersion: 2
+        x: 395
+        y: 769
+        width: 85
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dd47396a9a63910800000000000000
+      internalID: 1816826032594148646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_66
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 769
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d40435e600525d0800000000000000
+      internalID: -3088061495649481371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_67
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 769
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e282e1577efe32e0800000000000000
+      internalID: -2143996584153414935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_68
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 769
+        width: 79
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a529c2cc842751fc0800000000000000
+      internalID: -3524785476358860198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_69
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 768
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af2a1390d6586b2d0800000000000000
+      internalID: -3263274176631168262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_70
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 768
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64e1bb150825b810800000000000000
+      internalID: 1780373230099489902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_71
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 768
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398925ae6f4ceec50800000000000000
+      internalID: 6696506260718786707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_72
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a1fdeca9d2482610800000000000000
+      internalID: 1596599570579452322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_73
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac087aa216393eee0800000000000000
+      internalID: -1232979827432652598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_74
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05f7b996b9c708b20800000000000000
+      internalID: 3134642347583438672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_75
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ae40e0d37c75aae0800000000000000
+      internalID: -1538686860809711967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_76
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24f09d26dc04cf7c0800000000000000
+      internalID: -4036279915159941310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_77
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 138220e85472b78e0800000000000000
+      internalID: -1694717655086127055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_78
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 640
+        width: 79
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf9314c994ad6490800000000000000
+      internalID: -7751358403308183609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_79
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 640
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2465322bacb9edbf0800000000000000
+      internalID: -297629230485514686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_80
+      rect:
+        serializedVersion: 2
+        x: 1457
+        y: 640
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 123869532abf49a20800000000000000
+      internalID: 3068353920248480545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_81
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 512
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adda4589223953bd0800000000000000
+      internalID: -2651051028843811366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_82
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 512
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07656e37ca22901a0800000000000000
+      internalID: -6842900034738563472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_83
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 512
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf87d9cf5405b90800000000000000
+      internalID: -7255222048417842031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_84
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 512
+        width: 100
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbb482499b3710cc0800000000000000
+      internalID: -3746586174103729217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_85
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 512
+        width: 79
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 374a489249a105b40800000000000000
+      internalID: 5426866774635488371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_86
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 512
+        width: 130
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23b830f378a3b8ea0800000000000000
+      internalID: -5869533336795116750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_87
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 512
+        width: 126
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65239b59fef610b00800000000000000
+      internalID: 793038084193727062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_88
+      rect:
+        serializedVersion: 2
+        x: 1259
+        y: 512
+        width: 122
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6725598e4a7b8960800000000000000
+      internalID: 7605306873475311468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_89
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 512
+        width: 118
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60509fe787d419bb0800000000000000
+      internalID: -4931074937072319226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_90
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 112
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9889311c47ca1280800000000000000
+      internalID: -9071719369864017761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_91
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 384
+        width: 108
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b8202560066dc0800000000000000
+      internalID: -3646226413978602580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_92
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 384
+        width: 104
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 309921df5c8a996f0800000000000000
+      internalID: -677324700634670845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_93
+      rect:
+        serializedVersion: 2
+        x: 566
+        y: 384
+        width: 100
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91422ef36ceaaad0800000000000000
+      internalID: -2690077913190874725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_94
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 385
+        width: 95
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a950e329e0878060800000000000000
+      internalID: 6955669888314661281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_95
+      rect:
+        serializedVersion: 2
+        x: 923
+        y: 385
+        width: 96
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdd278d59311aaa0800000000000000
+      internalID: -6151614081708925509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_96
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 385
+        width: 102
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024dc8c154ea0b670800000000000000
+      internalID: 8552527304231539744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_97
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 386
+        width: 107
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 464dba0ebbc13aea0800000000000000
+      internalID: -5862810696652434332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_98
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 421
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9942de876c174db0800000000000000
+      internalID: -4807842846091359845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_99
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 386
+        width: 104
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 144e3bf801bd682a0800000000000000
+      internalID: -6735455328509107135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_100
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 415
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53f37fc26b0511f60800000000000000
+      internalID: 8003266756182753077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_101
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 402
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3c90f39c00bfce0800000000000000
+      internalID: -1370500797258153021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_102
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 259
+        width: 91
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c71ff1014c1990f0800000000000000
+      internalID: -1109824767638169656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_103
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 259
+        width: 116
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 401939e9fa9105a20800000000000000
+      internalID: 3048965189800268036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_104
+      rect:
+        serializedVersion: 2
+        x: 390
+        y: 266
+        width: 117
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de4b3eacd95a80b00800000000000000
+      internalID: 795067431363261677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_105
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 270
+        width: 119
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 273b326e077c4eb90800000000000000
+      internalID: -7213421415429328014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_106
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 303
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b251a72715a880800800000000000000
+      internalID: 578864634534696235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_107
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 290
+        width: 40
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc20ae976d10cd8a0800000000000000
+      internalID: -6279141759781305649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_108
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 303
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19dea71a9ae59a5a0800000000000000
+      internalID: -6509567703735669359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_109
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 289
+        width: 41
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364b81005f94d09e0800000000000000
+      internalID: -1653584171557669789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_110
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 270
+        width: 133
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259867aec64614750800000000000000
+      internalID: 6287416973738805586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_111
+      rect:
+        serializedVersion: 2
+        x: 1116
+        y: 304
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad236b67993a3130800000000000000
+      internalID: 3547210979012193701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_112
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 292
+        width: 41
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7bc8482400c4630800000000000000
+      internalID: 3912502461969774591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_113
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 304
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19472ece9ae0942e0800000000000000
+      internalID: -2141164024851434351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_114
+      rect:
+        serializedVersion: 2
+        x: 1310
+        y: 292
+        width: 42
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 020e600db035a7a30800000000000000
+      internalID: 4213771711558377504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_115
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 306
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7f2166e30fe6aa0800000000000000
+      internalID: -6165726689032472669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_116
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 292
+        width: 43
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda3890ce677a49c0800000000000000
+      internalID: -3942207206248138018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_117
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 287
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32b6661569ac0f190800000000000000
+      internalID: -7930616196839871709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_118
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 274
+        width: 23
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d02585fc4ed12100800000000000000
+      internalID: 81590690387402964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_119
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 280
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20e1b577d992c72a0800000000000000
+      internalID: -6738465186164040190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_120
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 270
+        width: 131
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c7d407a5fbb433c0800000000000000
+      internalID: -4380669873781155903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_121
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 270
+        width: 133
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc5cdfb8d60ce6170800000000000000
+      internalID: 8173681950456661453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_122
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 270
+        width: 127
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683b7b0e0f01cbc60800000000000000
+      internalID: 7835156078466151302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_123
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 270
+        width: 137
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dff282c649819300800000000000000
+      internalID: 257137590740910037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_124
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 274
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76313bc663aac3010800000000000000
+      internalID: 1169997153938117479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_125
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 274
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddf477fefb3f61fc0800000000000000
+      internalID: -3524361652688957475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_126
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 273
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a19e280e1ce10cf0800000000000000
+      internalID: -287689287444557408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_127
+      rect:
+        serializedVersion: 2
+        x: 556
+        y: 273
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ad352c645dab4f30800000000000000
+      internalID: 4560929625745997224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_128
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 274
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3ca054bc834da30800000000000000
+      internalID: 4239075594950329280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_129
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 142
+        width: 139
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f615621962d0a1f0800000000000000
+      internalID: -1035596565573200141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_130
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 185
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c2e9467a8801570800000000000000
+      internalID: 8435392354593942560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_131
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 164
+        width: 38
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc418b25532cd94c0800000000000000
+      internalID: -4279050536655252276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_132
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 177
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6353d677f408b110800000000000000
+      internalID: 1276775955256529772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_133
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 164
+        width: 55
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6efefa31f2d32be50800000000000000
+      internalID: 6823583657822777318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_134
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 177
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef23cfe455af5900800000000000000
+      internalID: 675440253347246063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_135
+      rect:
+        serializedVersion: 2
+        x: 435
+        y: 165
+        width: 48
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d9e6c77cc5fb700800000000000000
+      internalID: 558266890673102105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_136
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 185
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ed2564cee6a3fff0800000000000000
+      internalID: -3475630269846047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_137
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 178
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05c6a3cc6a709c090800000000000000
+      internalID: -8013865648956740528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_138
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 165
+        width: 38
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79eb788f3af1d9e00800000000000000
+      internalID: 1053032676984340119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_139
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 185
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78fd83b59485804f0800000000000000
+      internalID: -862342256555139193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_140
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 177
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 192fd6d5c2d7c96c0800000000000000
+      internalID: -4135292728333438319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_141
+      rect:
+        serializedVersion: 2
+        x: 787
+        y: 172
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c9fcdf0571755c30800000000000000
+      internalID: 4347505762887334337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_142
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 172
+        width: 63
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5080d777c9bcc22d0800000000000000
+      internalID: -3302040553889396731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_143
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 172
+        width: 60
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b86140c001fbc80800000000000000
+      internalID: -8304901544053667042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_144
+      rect:
+        serializedVersion: 2
+        x: 1315
+        y: 144
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a0bcc137712deec0800000000000000
+      internalID: -3536133336595648347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_145
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 144
+        width: 97
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d71d0dbd20eab0800000000000000
+      internalID: -4980930897880033698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_146
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 142
+        width: 140
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a919e1fa62b68f870800000000000000
+      internalID: 8716834892666540442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_147
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 154
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4032da1282f13c6d0800000000000000
+      internalID: -2971497071910247676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_148
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 142
+        width: 116
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08fcd5898b6d154e0800000000000000
+      internalID: -1994577071629807744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_149
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 159
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9deb2bb0f46e64600800000000000000
+      internalID: 452302039770382041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_150
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 143
+        width: 140
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee84f72f75c7fea0800000000000000
+      internalID: -5838981241940701464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_151
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 158
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61a67fee98e043f0800000000000000
+      internalID: -918478554663575186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_152
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 143
+        width: 140
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e429b7efc39f68cf0800000000000000
+      internalID: -250238688909618610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_153
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 158
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f703bf1a3415b52e0800000000000000
+      internalID: -2136024247334915969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_154
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 143
+        width: 140
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4543352a82ed86a0800000000000000
+      internalID: -6445246408739830449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_155
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 143
+        width: 58
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb01afdc706cafb0800000000000000
+      internalID: -4635223827026998322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_156
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 145
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a7af6418ff970490800000000000000
+      internalID: -7780073943415674973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_157
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 146
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 853741ee76db9a1e0800000000000000
+      internalID: -2186007890038066344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_158
+      rect:
+        serializedVersion: 2
+        x: 1098
+        y: 145
+        width: 58
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f840fcff110eb570800000000000000
+      internalID: 8484219984911812853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_159
+      rect:
+        serializedVersion: 2
+        x: 1249
+        y: 145
+        width: 83
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb4b96b11097cef00800000000000000
+      internalID: 1147425050734474431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_160
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 145
+        width: 81
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3675eef0c5ee35af0800000000000000
+      internalID: -408721061988903069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_161
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 18
+        width: 57
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6c33699376df090800000000000000
+      internalID: -7999123866109360470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_162
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 16
+        width: 97
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30461da827d8ac10800000000000000
+      internalID: 2065136998851952698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 18
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4847f522df2b0680800000000000000
+      internalID: -8787877668256790453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_164
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 18
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d557da86637ca10800000000000000
+      internalID: 1929570788566195505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_165
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 18
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 896a8c4de825fba70800000000000000
+      internalID: 8844878966587696792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_166
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 18
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d45724f080a063f50800000000000000
+      internalID: 6860682112077559117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_167
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 18
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb830e57e71d27ce0800000000000000
+      internalID: -1408833392339830597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_168
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 18
+        width: 77
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743c8d4956541ee10800000000000000
+      internalID: 2225135993488982855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_169
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 18
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e2444eab51126f60800000000000000
+      internalID: 8025996571391050472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_170
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 18
+        width: 47
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e4daea0aaa9a33c0800000000000000
+      internalID: -4379017632546106144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_171
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 18
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a615fd1a934047f0800000000000000
+      internalID: -630429618625243483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_172
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 18
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1291a38b2a940710800000000000000
+      internalID: 1658620074461860379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_173
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 18
+        width: 15
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c4edec19b036e90800000000000000
+      internalID: -7033765472153744282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_174
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 18
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8832dbaed62c724f0800000000000000
+      internalID: -853499827017931896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_175
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 18
+        width: 38
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405945625ee812e70800000000000000
+      internalID: 9088702637852103940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_176
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 18
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3787be21677b0a900800000000000000
+      internalID: 693756060366502003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_177
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 18
+        width: 11
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45fb2263fbfb84390800000000000000
+      internalID: -7833800723843072172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_178
+      rect:
+        serializedVersion: 2
+        x: 606
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab053ccc632a2a9f0800000000000000
+      internalID: -458625855791083334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_179
+      rect:
+        serializedVersion: 2
+        x: 614
+        y: 18
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e1eb00d4134f80800000000000000
+      internalID: -8123626419061135644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_180
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590ad17e2d6444800800000000000000
+      internalID: 595678922354303125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_181
+      rect:
+        serializedVersion: 2
+        x: 646
+        y: 18
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a382de2d8d76cb820800000000000000
+      internalID: 2935335238088075322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: freeze-v2-d9694c96_182
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 18
+        width: 91
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 972031d8b3724b080800000000000000
+      internalID: -9172663404323470727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      freeze-v2-d9694c96_0: 8569788675351500246
+      freeze-v2-d9694c96_1: -3794504376928394916
+      freeze-v2-d9694c96_10: -2194799797301805380
+      freeze-v2-d9694c96_100: 8003266756182753077
+      freeze-v2-d9694c96_101: -1370500797258153021
+      freeze-v2-d9694c96_102: -1109824767638169656
+      freeze-v2-d9694c96_103: 3048965189800268036
+      freeze-v2-d9694c96_104: 795067431363261677
+      freeze-v2-d9694c96_105: -7213421415429328014
+      freeze-v2-d9694c96_106: 578864634534696235
+      freeze-v2-d9694c96_107: -6279141759781305649
+      freeze-v2-d9694c96_108: -6509567703735669359
+      freeze-v2-d9694c96_109: -1653584171557669789
+      freeze-v2-d9694c96_11: -6633548994725694993
+      freeze-v2-d9694c96_110: 6287416973738805586
+      freeze-v2-d9694c96_111: 3547210979012193701
+      freeze-v2-d9694c96_112: 3912502461969774591
+      freeze-v2-d9694c96_113: -2141164024851434351
+      freeze-v2-d9694c96_114: 4213771711558377504
+      freeze-v2-d9694c96_115: -6165726689032472669
+      freeze-v2-d9694c96_116: -3942207206248138018
+      freeze-v2-d9694c96_117: -7930616196839871709
+      freeze-v2-d9694c96_118: 81590690387402964
+      freeze-v2-d9694c96_119: -6738465186164040190
+      freeze-v2-d9694c96_12: 821158753790932213
+      freeze-v2-d9694c96_120: -4380669873781155903
+      freeze-v2-d9694c96_121: 8173681950456661453
+      freeze-v2-d9694c96_122: 7835156078466151302
+      freeze-v2-d9694c96_123: 257137590740910037
+      freeze-v2-d9694c96_124: 1169997153938117479
+      freeze-v2-d9694c96_125: -3524361652688957475
+      freeze-v2-d9694c96_126: -287689287444557408
+      freeze-v2-d9694c96_127: 4560929625745997224
+      freeze-v2-d9694c96_128: 4239075594950329280
+      freeze-v2-d9694c96_129: -1035596565573200141
+      freeze-v2-d9694c96_13: -7778200611714434401
+      freeze-v2-d9694c96_130: 8435392354593942560
+      freeze-v2-d9694c96_131: -4279050536655252276
+      freeze-v2-d9694c96_132: 1276775955256529772
+      freeze-v2-d9694c96_133: 6823583657822777318
+      freeze-v2-d9694c96_134: 675440253347246063
+      freeze-v2-d9694c96_135: 558266890673102105
+      freeze-v2-d9694c96_136: -3475630269846047
+      freeze-v2-d9694c96_137: -8013865648956740528
+      freeze-v2-d9694c96_138: 1053032676984340119
+      freeze-v2-d9694c96_139: -862342256555139193
+      freeze-v2-d9694c96_14: 2268961674555799541
+      freeze-v2-d9694c96_140: -4135292728333438319
+      freeze-v2-d9694c96_141: 4347505762887334337
+      freeze-v2-d9694c96_142: -3302040553889396731
+      freeze-v2-d9694c96_143: -8304901544053667042
+      freeze-v2-d9694c96_144: -3536133336595648347
+      freeze-v2-d9694c96_145: -4980930897880033698
+      freeze-v2-d9694c96_146: 8716834892666540442
+      freeze-v2-d9694c96_147: -2971497071910247676
+      freeze-v2-d9694c96_148: -1994577071629807744
+      freeze-v2-d9694c96_149: 452302039770382041
+      freeze-v2-d9694c96_15: -2645862154374285882
+      freeze-v2-d9694c96_150: -5838981241940701464
+      freeze-v2-d9694c96_151: -918478554663575186
+      freeze-v2-d9694c96_152: -250238688909618610
+      freeze-v2-d9694c96_153: -2136024247334915969
+      freeze-v2-d9694c96_154: -6445246408739830449
+      freeze-v2-d9694c96_155: -4635223827026998322
+      freeze-v2-d9694c96_156: -7780073943415674973
+      freeze-v2-d9694c96_157: -2186007890038066344
+      freeze-v2-d9694c96_158: 8484219984911812853
+      freeze-v2-d9694c96_159: 1147425050734474431
+      freeze-v2-d9694c96_16: -4781535156388255579
+      freeze-v2-d9694c96_160: -408721061988903069
+      freeze-v2-d9694c96_161: -7999123866109360470
+      freeze-v2-d9694c96_162: 2065136998851952698
+      freeze-v2-d9694c96_163: -8787877668256790453
+      freeze-v2-d9694c96_164: 1929570788566195505
+      freeze-v2-d9694c96_165: 8844878966587696792
+      freeze-v2-d9694c96_166: 6860682112077559117
+      freeze-v2-d9694c96_167: -1408833392339830597
+      freeze-v2-d9694c96_168: 2225135993488982855
+      freeze-v2-d9694c96_169: 8025996571391050472
+      freeze-v2-d9694c96_17: -1832646186183960871
+      freeze-v2-d9694c96_170: -4379017632546106144
+      freeze-v2-d9694c96_171: -630429618625243483
+      freeze-v2-d9694c96_172: 1658620074461860379
+      freeze-v2-d9694c96_173: -7033765472153744282
+      freeze-v2-d9694c96_174: -853499827017931896
+      freeze-v2-d9694c96_175: 9088702637852103940
+      freeze-v2-d9694c96_176: 693756060366502003
+      freeze-v2-d9694c96_177: -7833800723843072172
+      freeze-v2-d9694c96_178: -458625855791083334
+      freeze-v2-d9694c96_179: -8123626419061135644
+      freeze-v2-d9694c96_18: -529835964852795455
+      freeze-v2-d9694c96_180: 595678922354303125
+      freeze-v2-d9694c96_181: 2935335238088075322
+      freeze-v2-d9694c96_182: -9172663404323470727
+      freeze-v2-d9694c96_19: -34412714663001346
+      freeze-v2-d9694c96_2: -4270991686933205630
+      freeze-v2-d9694c96_20: 3360497362826448446
+      freeze-v2-d9694c96_21: 8975562056330683902
+      freeze-v2-d9694c96_22: 6334981041180977848
+      freeze-v2-d9694c96_23: -6056434537750379889
+      freeze-v2-d9694c96_24: 3697634158715647112
+      freeze-v2-d9694c96_25: 3763725908055622796
+      freeze-v2-d9694c96_26: 7415082355861273388
+      freeze-v2-d9694c96_27: -1935303927969401392
+      freeze-v2-d9694c96_28: 2606655085933844713
+      freeze-v2-d9694c96_29: 2583548026343513882
+      freeze-v2-d9694c96_3: 857496559539596340
+      freeze-v2-d9694c96_30: -5852509018248224829
+      freeze-v2-d9694c96_31: 72896395345608700
+      freeze-v2-d9694c96_32: 2033874354814341904
+      freeze-v2-d9694c96_33: -6810751538480156634
+      freeze-v2-d9694c96_34: -3572014118426292319
+      freeze-v2-d9694c96_35: -1982451770324257646
+      freeze-v2-d9694c96_36: -4321862423987165763
+      freeze-v2-d9694c96_37: 215052412080436257
+      freeze-v2-d9694c96_38: -7957734181664412505
+      freeze-v2-d9694c96_39: -7397461126925505130
+      freeze-v2-d9694c96_4: -7935561176419332591
+      freeze-v2-d9694c96_40: 763148942289842048
+      freeze-v2-d9694c96_41: 2514696853041998312
+      freeze-v2-d9694c96_42: -1546518965698524786
+      freeze-v2-d9694c96_43: 477673558970854936
+      freeze-v2-d9694c96_44: -725765591360389612
+      freeze-v2-d9694c96_45: -3719414503011902394
+      freeze-v2-d9694c96_46: -1134721936909402001
+      freeze-v2-d9694c96_47: -128222285217443505
+      freeze-v2-d9694c96_48: -4371012457223387101
+      freeze-v2-d9694c96_49: 4220125093239066283
+      freeze-v2-d9694c96_5: -9207536856097298661
+      freeze-v2-d9694c96_50: -5940307921969972060
+      freeze-v2-d9694c96_51: -8867631046264855717
+      freeze-v2-d9694c96_52: 4817376719490669230
+      freeze-v2-d9694c96_53: -7836648735833502513
+      freeze-v2-d9694c96_54: -2365081897266012892
+      freeze-v2-d9694c96_55: -7866563097183662222
+      freeze-v2-d9694c96_56: -4935576521837197026
+      freeze-v2-d9694c96_57: 845914020404141987
+      freeze-v2-d9694c96_58: -4561834154160281530
+      freeze-v2-d9694c96_59: -7160101910497577892
+      freeze-v2-d9694c96_6: -1028421205837570350
+      freeze-v2-d9694c96_60: -4316328939095328471
+      freeze-v2-d9694c96_61: 8935205393792554520
+      freeze-v2-d9694c96_62: -3891068852904745814
+      freeze-v2-d9694c96_63: 2704265870004290759
+      freeze-v2-d9694c96_64: -6216405136120950188
+      freeze-v2-d9694c96_65: 1816826032594148646
+      freeze-v2-d9694c96_66: -3088061495649481371
+      freeze-v2-d9694c96_67: -2143996584153414935
+      freeze-v2-d9694c96_68: -3524785476358860198
+      freeze-v2-d9694c96_69: -3263274176631168262
+      freeze-v2-d9694c96_7: 4968678073835321783
+      freeze-v2-d9694c96_70: 1780373230099489902
+      freeze-v2-d9694c96_71: 6696506260718786707
+      freeze-v2-d9694c96_72: 1596599570579452322
+      freeze-v2-d9694c96_73: -1232979827432652598
+      freeze-v2-d9694c96_74: 3134642347583438672
+      freeze-v2-d9694c96_75: -1538686860809711967
+      freeze-v2-d9694c96_76: -4036279915159941310
+      freeze-v2-d9694c96_77: -1694717655086127055
+      freeze-v2-d9694c96_78: -7751358403308183609
+      freeze-v2-d9694c96_79: -297629230485514686
+      freeze-v2-d9694c96_8: -1500855947952865653
+      freeze-v2-d9694c96_80: 3068353920248480545
+      freeze-v2-d9694c96_81: -2651051028843811366
+      freeze-v2-d9694c96_82: -6842900034738563472
+      freeze-v2-d9694c96_83: -7255222048417842031
+      freeze-v2-d9694c96_84: -3746586174103729217
+      freeze-v2-d9694c96_85: 5426866774635488371
+      freeze-v2-d9694c96_86: -5869533336795116750
+      freeze-v2-d9694c96_87: 793038084193727062
+      freeze-v2-d9694c96_88: 7605306873475311468
+      freeze-v2-d9694c96_89: -4931074937072319226
+      freeze-v2-d9694c96_9: 8484154859957673047
+      freeze-v2-d9694c96_90: -9071719369864017761
+      freeze-v2-d9694c96_91: -3646226413978602580
+      freeze-v2-d9694c96_92: -677324700634670845
+      freeze-v2-d9694c96_93: -2690077913190874725
+      freeze-v2-d9694c96_94: 6955669888314661281
+      freeze-v2-d9694c96_95: -6151614081708925509
+      freeze-v2-d9694c96_96: 8552527304231539744
+      freeze-v2-d9694c96_97: -5862810696652434332
+      freeze-v2-d9694c96_98: -4807842846091359845
+      freeze-v2-d9694c96_99: -6735455328509107135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

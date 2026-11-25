@@ -1,0 +1,7228 @@
+fileFormatVersion: 2
+guid: 939c21790fb40ec418762159808969ea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1682671706609479331
+    second: time-stop_0
+  - first:
+      213: 8189703853958541877
+    second: time-stop_1
+  - first:
+      213: -8664765393855878704
+    second: time-stop_2
+  - first:
+      213: 2042638552581683277
+    second: time-stop_3
+  - first:
+      213: 2083046750587655303
+    second: time-stop_4
+  - first:
+      213: 7251518297191645111
+    second: time-stop_5
+  - first:
+      213: 912955684825055835
+    second: time-stop_6
+  - first:
+      213: -8404667293821911683
+    second: time-stop_7
+  - first:
+      213: -101391280969335286
+    second: time-stop_8
+  - first:
+      213: 2538021371732655157
+    second: time-stop_9
+  - first:
+      213: -3790979029906000200
+    second: time-stop_10
+  - first:
+      213: 1724395895237528304
+    second: time-stop_11
+  - first:
+      213: -4962203296990039207
+    second: time-stop_12
+  - first:
+      213: 5091557983139912481
+    second: time-stop_13
+  - first:
+      213: 3185723158455828777
+    second: time-stop_14
+  - first:
+      213: 1985648084298380081
+    second: time-stop_15
+  - first:
+      213: -2029910401429011596
+    second: time-stop_16
+  - first:
+      213: 351343970054176327
+    second: time-stop_17
+  - first:
+      213: 1188299432781635273
+    second: time-stop_18
+  - first:
+      213: 3188213125160852135
+    second: time-stop_19
+  - first:
+      213: 4001072788157348490
+    second: time-stop_20
+  - first:
+      213: -2287220784322678507
+    second: time-stop_21
+  - first:
+      213: -8774957509128530754
+    second: time-stop_22
+  - first:
+      213: 5370606071565402495
+    second: time-stop_23
+  - first:
+      213: 4225774154097329867
+    second: time-stop_24
+  - first:
+      213: 1373715173097236972
+    second: time-stop_25
+  - first:
+      213: -3477800121873817021
+    second: time-stop_26
+  - first:
+      213: 2612301068908148271
+    second: time-stop_27
+  - first:
+      213: 5279764502825947141
+    second: time-stop_28
+  - first:
+      213: -7762623944380293581
+    second: time-stop_29
+  - first:
+      213: 4581315043117646998
+    second: time-stop_30
+  - first:
+      213: 3834045918193286814
+    second: time-stop_31
+  - first:
+      213: 7870285640014974028
+    second: time-stop_32
+  - first:
+      213: -6595190586641626741
+    second: time-stop_33
+  - first:
+      213: 8489374040644196454
+    second: time-stop_34
+  - first:
+      213: -8353334953677422066
+    second: time-stop_35
+  - first:
+      213: -3651890000593963781
+    second: time-stop_36
+  - first:
+      213: -4271659788805174668
+    second: time-stop_37
+  - first:
+      213: -9058503956615192217
+    second: time-stop_38
+  - first:
+      213: -6534577987191883789
+    second: time-stop_39
+  - first:
+      213: 6454099350987147011
+    second: time-stop_40
+  - first:
+      213: -8100738461244196089
+    second: time-stop_41
+  - first:
+      213: -2941006401798802849
+    second: time-stop_42
+  - first:
+      213: 2351794977243851546
+    second: time-stop_43
+  - first:
+      213: -6844049091328045685
+    second: time-stop_44
+  - first:
+      213: -5419305032657107990
+    second: time-stop_45
+  - first:
+      213: -375673337116008767
+    second: time-stop_46
+  - first:
+      213: 3446469579452899620
+    second: time-stop_47
+  - first:
+      213: 8089121265147668585
+    second: time-stop_48
+  - first:
+      213: 7796786456204706433
+    second: time-stop_49
+  - first:
+      213: -7526614877993602628
+    second: time-stop_50
+  - first:
+      213: 693200531496734145
+    second: time-stop_51
+  - first:
+      213: 1465409684426845749
+    second: time-stop_52
+  - first:
+      213: 7133527829113883239
+    second: time-stop_53
+  - first:
+      213: 5250178457701325140
+    second: time-stop_54
+  - first:
+      213: 2281422097835203657
+    second: time-stop_55
+  - first:
+      213: 2220974342977374207
+    second: time-stop_56
+  - first:
+      213: 1035473634984721168
+    second: time-stop_57
+  - first:
+      213: 6223863868117934690
+    second: time-stop_58
+  - first:
+      213: -2099221168251442709
+    second: time-stop_59
+  - first:
+      213: -1012319965185653348
+    second: time-stop_60
+  - first:
+      213: 1973290319636378600
+    second: time-stop_61
+  - first:
+      213: -7866000362402294119
+    second: time-stop_62
+  - first:
+      213: 1895473573250959134
+    second: time-stop_63
+  - first:
+      213: 2040758333153358517
+    second: time-stop_64
+  - first:
+      213: -7281280175655591104
+    second: time-stop_65
+  - first:
+      213: 2965226599972907173
+    second: time-stop_66
+  - first:
+      213: 8342075754411555784
+    second: time-stop_67
+  - first:
+      213: 6315195022975725946
+    second: time-stop_68
+  - first:
+      213: 5034639249106507346
+    second: time-stop_69
+  - first:
+      213: 6067190186875929192
+    second: time-stop_70
+  - first:
+      213: 8595691288446877273
+    second: time-stop_71
+  - first:
+      213: 5409923205154294068
+    second: time-stop_72
+  - first:
+      213: 4137209372519216440
+    second: time-stop_73
+  - first:
+      213: -2341881623200695523
+    second: time-stop_74
+  - first:
+      213: -7278540112518853673
+    second: time-stop_75
+  - first:
+      213: 7250632726342557924
+    second: time-stop_76
+  - first:
+      213: -4497836632738987688
+    second: time-stop_77
+  - first:
+      213: 3358436313975603591
+    second: time-stop_78
+  - first:
+      213: 6080934671668109225
+    second: time-stop_79
+  - first:
+      213: -7130133339419633221
+    second: time-stop_80
+  - first:
+      213: 6713899803463741305
+    second: time-stop_81
+  - first:
+      213: -9217900230011945714
+    second: time-stop_82
+  - first:
+      213: -4669271832043760299
+    second: time-stop_83
+  - first:
+      213: 1333461730589097183
+    second: time-stop_84
+  - first:
+      213: 7661088395733199858
+    second: time-stop_85
+  - first:
+      213: 2976081896287961554
+    second: time-stop_86
+  - first:
+      213: 5826489090108976475
+    second: time-stop_87
+  - first:
+      213: -3541277382803936241
+    second: time-stop_88
+  - first:
+      213: 6125460734628418209
+    second: time-stop_89
+  - first:
+      213: -936251910158905262
+    second: time-stop_90
+  - first:
+      213: 6348744496009717687
+    second: time-stop_91
+  - first:
+      213: -7500495363505095795
+    second: time-stop_92
+  - first:
+      213: 7814459426141823116
+    second: time-stop_93
+  - first:
+      213: -888908124279122411
+    second: time-stop_94
+  - first:
+      213: -3342149556447704902
+    second: time-stop_95
+  - first:
+      213: 668014715621772334
+    second: time-stop_96
+  - first:
+      213: 4485918949938980818
+    second: time-stop_97
+  - first:
+      213: 4996665922385136186
+    second: time-stop_98
+  - first:
+      213: 2108228983089301384
+    second: time-stop_99
+  - first:
+      213: -5659287396117749355
+    second: time-stop_100
+  - first:
+      213: -6526037333065901554
+    second: time-stop_101
+  - first:
+      213: -7251433566784406737
+    second: time-stop_102
+  - first:
+      213: 4573042835884617949
+    second: time-stop_103
+  - first:
+      213: -1068666565804001418
+    second: time-stop_104
+  - first:
+      213: -3424554584350483681
+    second: time-stop_105
+  - first:
+      213: 3916405998239582286
+    second: time-stop_106
+  - first:
+      213: 5947438767508021846
+    second: time-stop_107
+  - first:
+      213: 3457960527490395460
+    second: time-stop_108
+  - first:
+      213: 3473413649846794701
+    second: time-stop_109
+  - first:
+      213: 2698173542096836769
+    second: time-stop_110
+  - first:
+      213: -4887078054249940081
+    second: time-stop_111
+  - first:
+      213: 7831153799697063767
+    second: time-stop_112
+  - first:
+      213: -6492529921135807350
+    second: time-stop_113
+  - first:
+      213: 4852283851412660777
+    second: time-stop_114
+  - first:
+      213: 7423187420602070761
+    second: time-stop_115
+  - first:
+      213: -1089638102844368669
+    second: time-stop_116
+  - first:
+      213: -8117691197289205554
+    second: time-stop_117
+  - first:
+      213: -3577293751096361679
+    second: time-stop_118
+  - first:
+      213: 4062312518127759694
+    second: time-stop_119
+  - first:
+      213: -4128139152995504147
+    second: time-stop_120
+  - first:
+      213: -6527980154570694965
+    second: time-stop_121
+  - first:
+      213: -1581625714353375097
+    second: time-stop_122
+  - first:
+      213: -7200291141706232786
+    second: time-stop_123
+  - first:
+      213: 6954963464686990829
+    second: time-stop_124
+  - first:
+      213: -243207159690323983
+    second: time-stop_125
+  - first:
+      213: 8828815187746976241
+    second: time-stop_126
+  - first:
+      213: 3632004379516959559
+    second: time-stop_127
+  - first:
+      213: -174352227951971904
+    second: time-stop_128
+  - first:
+      213: 9076424131294374634
+    second: time-stop_129
+  - first:
+      213: -1828054270861084810
+    second: time-stop_130
+  - first:
+      213: 6961351846746634106
+    second: time-stop_131
+  - first:
+      213: -8151437653762995596
+    second: time-stop_132
+  - first:
+      213: 7227351657802417379
+    second: time-stop_133
+  - first:
+      213: -3611348383266907762
+    second: time-stop_134
+  - first:
+      213: 1540130354412211544
+    second: time-stop_135
+  - first:
+      213: -3269097706763499273
+    second: time-stop_136
+  - first:
+      213: -5999023474427428601
+    second: time-stop_137
+  - first:
+      213: 5769956161964315285
+    second: time-stop_138
+  - first:
+      213: -4535447781647157137
+    second: time-stop_139
+  - first:
+      213: 2369526917780094396
+    second: time-stop_140
+  - first:
+      213: -131548842951692739
+    second: time-stop_141
+  - first:
+      213: -6386227704685196727
+    second: time-stop_142
+  - first:
+      213: 4615564582226999922
+    second: time-stop_143
+  - first:
+      213: -6082129757649576427
+    second: time-stop_144
+  - first:
+      213: -3360344902674727286
+    second: time-stop_145
+  - first:
+      213: 867200076681420392
+    second: time-stop_146
+  - first:
+      213: 3871437257593480458
+    second: time-stop_147
+  - first:
+      213: -7997105985533547098
+    second: time-stop_148
+  - first:
+      213: -771996312860231219
+    second: time-stop_149
+  - first:
+      213: 3095385886524524126
+    second: time-stop_150
+  - first:
+      213: -5615880349437269666
+    second: time-stop_151
+  - first:
+      213: 5266075611145607914
+    second: time-stop_152
+  - first:
+      213: 414607372949922631
+    second: time-stop_153
+  - first:
+      213: -895865866636115560
+    second: time-stop_154
+  - first:
+      213: 7327928817841902141
+    second: time-stop_155
+  - first:
+      213: -5562863594701326193
+    second: time-stop_156
+  - first:
+      213: -3628895944582702787
+    second: time-stop_157
+  - first:
+      213: -7506838325966540858
+    second: time-stop_158
+  - first:
+      213: -1782127209467131816
+    second: time-stop_159
+  - first:
+      213: 3665107661502233576
+    second: time-stop_160
+  - first:
+      213: -1597609323512303897
+    second: time-stop_161
+  - first:
+      213: -5442853494845007493
+    second: time-stop_162
+  - first:
+      213: 7657022616460285378
+    second: time-stop_163
+  - first:
+      213: 7528105174045701940
+    second: time-stop_164
+  - first:
+      213: 326049200275957578
+    second: time-stop_165
+  - first:
+      213: -9046067200661158873
+    second: time-stop_166
+  - first:
+      213: 7527884149564181677
+    second: time-stop_167
+  - first:
+      213: -306110098725779241
+    second: time-stop_168
+  - first:
+      213: -1119766812472697370
+    second: time-stop_169
+  - first:
+      213: -6570883046891958329
+    second: time-stop_170
+  - first:
+      213: -7907346047629287405
+    second: time-stop_171
+  - first:
+      213: -658175602170460305
+    second: time-stop_172
+  - first:
+      213: 6240030874397189361
+    second: time-stop_173
+  - first:
+      213: -1875972953849188349
+    second: time-stop_174
+  - first:
+      213: 6005369639334416483
+    second: time-stop_175
+  - first:
+      213: -3364480702496995530
+    second: time-stop_176
+  - first:
+      213: -1195188065540875979
+    second: time-stop_177
+  - first:
+      213: 5249833101284608436
+    second: time-stop_178
+  - first:
+      213: -6469703785552466872
+    second: time-stop_179
+  - first:
+      213: 8723789247969238595
+    second: time-stop_180
+  - first:
+      213: -2621054161018085392
+    second: time-stop_181
+  - first:
+      213: -3065637527848972949
+    second: time-stop_182
+  - first:
+      213: -3233434689246487273
+    second: time-stop_183
+  - first:
+      213: -1789341347946865875
+    second: time-stop_184
+  - first:
+      213: 2988237953453480750
+    second: time-stop_185
+  - first:
+      213: -5982198517540014971
+    second: time-stop_186
+  - first:
+      213: 2650669591977026159
+    second: time-stop_187
+  - first:
+      213: 6919714619447911046
+    second: time-stop_188
+  - first:
+      213: 1746363197713139932
+    second: time-stop_189
+  - first:
+      213: 3429429073191408701
+    second: time-stop_190
+  - first:
+      213: 7285578354576600228
+    second: time-stop_191
+  - first:
+      213: 2669320987377589214
+    second: time-stop_192
+  - first:
+      213: 7441899356189043470
+    second: time-stop_193
+  - first:
+      213: 7121010665196983385
+    second: time-stop_194
+  - first:
+      213: 4448012826504865205
+    second: time-stop_195
+  - first:
+      213: -6259588458762699740
+    second: time-stop_196
+  - first:
+      213: -2377001849885292975
+    second: time-stop_197
+  - first:
+      213: -3586958827013267123
+    second: time-stop_198
+  - first:
+      213: 4775289213789857788
+    second: time-stop_199
+  - first:
+      213: -8277104957141569375
+    second: time-stop_200
+  - first:
+      213: 1055722769654089426
+    second: time-stop_201
+  - first:
+      213: 8912293804602040678
+    second: time-stop_202
+  - first:
+      213: -8957169010995498155
+    second: time-stop_203
+  - first:
+      213: 6636037094853432705
+    second: time-stop_204
+  - first:
+      213: -3333558381347877408
+    second: time-stop_205
+  - first:
+      213: -7451445704472081228
+    second: time-stop_206
+  - first:
+      213: 3660034572666217395
+    second: time-stop_207
+  - first:
+      213: -7256348323825020788
+    second: time-stop_208
+  - first:
+      213: -860688390865877017
+    second: time-stop_209
+  - first:
+      213: -8796860184440089024
+    second: time-stop_210
+  - first:
+      213: 8257643656838663381
+    second: time-stop_211
+  - first:
+      213: 7060531551392144732
+    second: time-stop_212
+  - first:
+      213: -7978546386442470082
+    second: time-stop_213
+  - first:
+      213: -3789846893516779243
+    second: time-stop_214
+  - first:
+      213: -6604703530326462544
+    second: time-stop_215
+  - first:
+      213: 7692463235499664668
+    second: time-stop_216
+  - first:
+      213: -4811890166701402551
+    second: time-stop_217
+  - first:
+      213: 6637397746283120490
+    second: time-stop_218
+  - first:
+      213: -2094941166938374439
+    second: time-stop_219
+  - first:
+      213: -4842209870214700695
+    second: time-stop_220
+  - first:
+      213: -6958789209871311025
+    second: time-stop_221
+  - first:
+      213: 1604732375159876574
+    second: time-stop_222
+  - first:
+      213: -2650406102660818931
+    second: time-stop_223
+  - first:
+      213: -8883895975791025239
+    second: time-stop_224
+  - first:
+      213: -3541479229012210267
+    second: time-stop_225
+  - first:
+      213: -8210411027459063
+    second: time-stop_226
+  - first:
+      213: -5063180894219132003
+    second: time-stop_227
+  - first:
+      213: -8515888559510405699
+    second: time-stop_228
+  - first:
+      213: -8070371525632638616
+    second: time-stop_229
+  - first:
+      213: 5296632061394092560
+    second: time-stop_230
+  - first:
+      213: -1234665252160355971
+    second: time-stop_231
+  - first:
+      213: -527075836227472310
+    second: time-stop_232
+  - first:
+      213: -9039354884064566328
+    second: time-stop_233
+  - first:
+      213: -851521131312563583
+    second: time-stop_234
+  - first:
+      213: -5208547737726745604
+    second: time-stop_235
+  - first:
+      213: -1453759935833190292
+    second: time-stop_236
+  - first:
+      213: -1939386522692401275
+    second: time-stop_237
+  - first:
+      213: 561558512515825591
+    second: time-stop_238
+  - first:
+      213: 7140556253388785471
+    second: time-stop_239
+  - first:
+      213: -1644420945853419431
+    second: time-stop_240
+  - first:
+      213: 1680490979627621924
+    second: time-stop_241
+  - first:
+      213: 7658013569608194833
+    second: time-stop_242
+  - first:
+      213: -1372934860956291742
+    second: time-stop_243
+  - first:
+      213: 32544684661863705
+    second: time-stop_244
+  - first:
+      213: 4404753357118814970
+    second: time-stop_245
+  - first:
+      213: -389371636113080696
+    second: time-stop_246
+  - first:
+      213: -39730000749151951
+    second: time-stop_247
+  - first:
+      213: 3930422559237901360
+    second: time-stop_248
+  - first:
+      213: 2239799568387268833
+    second: time-stop_249
+  - first:
+      213: -4086280917677641953
+    second: time-stop_250
+  - first:
+      213: -5134584948789950647
+    second: time-stop_251
+  - first:
+      213: 3847678256575813966
+    second: time-stop_252
+  - first:
+      213: -2751830033869908398
+    second: time-stop_253
+  - first:
+      213: -9172589912489180433
+    second: time-stop_254
+  - first:
+      213: -5233055559982530767
+    second: time-stop_255
+  - first:
+      213: 6955852306765305425
+    second: time-stop_256
+  - first:
+      213: -6750415714173912306
+    second: time-stop_257
+  - first:
+      213: 2332314809405599347
+    second: time-stop_258
+  - first:
+      213: -5069379929571362231
+    second: time-stop_259
+  - first:
+      213: -7724389285249130630
+    second: time-stop_260
+  - first:
+      213: -5760719075311409274
+    second: time-stop_261
+  - first:
+      213: 4999211204031308268
+    second: time-stop_262
+  - first:
+      213: -3719255851344529908
+    second: time-stop_263
+  - first:
+      213: -5964113697103193996
+    second: time-stop_264
+  - first:
+      213: 5793234772184385823
+    second: time-stop_265
+  - first:
+      213: 1397681061198854601
+    second: time-stop_266
+  - first:
+      213: 7858480055242828590
+    second: time-stop_267
+  - first:
+      213: 2821629863399370675
+    second: time-stop_268
+  - first:
+      213: 5668385164871955652
+    second: time-stop_269
+  - first:
+      213: -2622080000421877951
+    second: time-stop_270
+  - first:
+      213: 5288721225831777624
+    second: time-stop_271
+  - first:
+      213: 1960951574625089039
+    second: time-stop_272
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: time-stop_0
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1669
+        width: 72
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5111fd7ff2f5a8e0800000000000000
+      internalID: -1682671706609479331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1696
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532b8d6a34ca7a170800000000000000
+      internalID: 8189703853958541877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_2
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 1638
+        width: 86
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d96f1d38c190c780800000000000000
+      internalID: -8664765393855878704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 1634
+        width: 88
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d483623f0f8e85c10800000000000000
+      internalID: 2042638552581683277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_4
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1633
+        width: 90
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7841f43bbf778ec10800000000000000
+      internalID: 2083046750587655303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_5
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1632
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf7a5a987192a460800000000000000
+      internalID: 7251518297191645111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_6
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1632
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b52cba9bb587bac00800000000000000
+      internalID: 912955684825055835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_7
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 1632
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7db66840af9c5b80800000000000000
+      internalID: -8404667293821911683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_8
+      rect:
+        serializedVersion: 2
+        x: 1425
+        y: 1632
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e308aca29c79ef0800000000000000
+      internalID: -101391280969335286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_9
+      rect:
+        serializedVersion: 2
+        x: 1621
+        y: 1632
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c79769dfcd83320800000000000000
+      internalID: 2538021371732655157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_10
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b67f7368acb36bc0800000000000000
+      internalID: -3790979029906000200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_11
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa46c33ee84ee710800000000000000
+      internalID: 1724395895237528304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_12
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953f2ab6466b22bb0800000000000000
+      internalID: -4962203296990039207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_13
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12bdb5a6209d8a640800000000000000
+      internalID: 5091557983139912481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_14
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921ce7c7556f53c20800000000000000
+      internalID: 3185723158455828777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_15
+      rect:
+        serializedVersion: 2
+        x: 1033
+        y: 1496
+        width: 90
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1333a8989607e8b10800000000000000
+      internalID: 1985648084298380081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_16
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 1496
+        width: 96
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47304fcae3f44d3e0800000000000000
+      internalID: -2029910401429011596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_17
+      rect:
+        serializedVersion: 2
+        x: 1420
+        y: 1496
+        width: 100
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74efd01ba7930e400800000000000000
+      internalID: 351343970054176327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_18
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1496
+        width: 101
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ce5fb9c900bd7010800000000000000
+      internalID: 1188299432781635273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_19
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1360
+        width: 103
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa537902fece3c20800000000000000
+      internalID: 3188213125160852135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_20
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1360
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ab992908aa68730800000000000000
+      internalID: 4001072788157348490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_21
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1360
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5117e8b90d82240e0800000000000000
+      internalID: -2287220784322678507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_22
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 1360
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb45f3d13a6193680800000000000000
+      internalID: -8774957509128530754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_23
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 1360
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f71463474c9388a40800000000000000
+      internalID: 5370606071565402495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_24
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1360
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc68ffb3437f4aa30800000000000000
+      internalID: 4225774154097329867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_25
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1360
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce96603fbaa601310800000000000000
+      internalID: 1373715173097236972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_26
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1360
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 342a6ef173f5cbfc0800000000000000
+      internalID: -3477800121873817021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_27
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1360
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26b4aa4bf1c04420800000000000000
+      internalID: 2612301068908148271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_28
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 1224
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50058a887dd754940800000000000000
+      internalID: 5279764502825947141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_29
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1224
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33e554696ae954490800000000000000
+      internalID: -7762623944380293581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_30
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1224
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6944e2542c9149f30800000000000000
+      internalID: 4581315043117646998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_31
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1224
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9e727ee274453530800000000000000
+      internalID: 3834045918193286814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_32
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1224
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c43fd471fd83d60800000000000000
+      internalID: 7870285640014974028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_33
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 1224
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89c931ba1d2974a0800000000000000
+      internalID: -6595190586641626741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_34
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 1224
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 668150a16b050d570800000000000000
+      internalID: 8489374040644196454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_35
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 1224
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0204341e1ef21c80800000000000000
+      internalID: -8353334953677422066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_36
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 1224
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4bbcb9461e15dc0800000000000000
+      internalID: -3651890000593963781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a82f6ed0408b4c0800000000000000
+      internalID: -4271659788805174668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_38
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7612b7d35aab94280800000000000000
+      internalID: -9058503956615192217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_39
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7375c31f38055a0800000000000000
+      internalID: -6534577987191883789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_40
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3070ba81a21919950800000000000000
+      internalID: 6454099350987147011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_41
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70bf13ff945649f80800000000000000
+      internalID: -8100738461244196089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_42
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52f1aa72427f27d0800000000000000
+      internalID: -2941006401798802849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_43
+      rect:
+        serializedVersion: 2
+        x: 1221
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1bea2b421143a020800000000000000
+      internalID: 2351794977243851546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_44
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1088
+        width: 105
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d8e0edc9d0501a0800000000000000
+      internalID: -6844049091328045685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_45
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 1088
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae38cf619c2cac4b0800000000000000
+      internalID: -5419305032657107990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_46
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ce5d9d171759caf0800000000000000
+      internalID: -375673337116008767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_47
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 421ea7482d154df20800000000000000
+      internalID: 3446469579452899620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_48
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9686f22cee4524070800000000000000
+      internalID: 8089121265147668585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_49
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18288a709ffb33c60800000000000000
+      internalID: 7796786456204706433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_50
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1750c65a71c8790800000000000000
+      internalID: -7526614877993602628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_51
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd89fde53ebe9900800000000000000
+      internalID: 693200531496734145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_52
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53eedaa085e265410800000000000000
+      internalID: 1465409684426845749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_53
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 952
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a42b9f3c16ff260800000000000000
+      internalID: 7133527829113883239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_54
+      rect:
+        serializedVersion: 2
+        x: 1603
+        y: 952
+        width: 126
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45912ba9d716cd840800000000000000
+      internalID: 5250178457701325140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_55
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 816
+        width: 114
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94c913c7f4d39af10800000000000000
+      internalID: 2281422097835203657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_56
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff74c60d56c72de10800000000000000
+      internalID: 2220974342977374207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_57
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01bfb8be8cdbe5e00800000000000000
+      internalID: 1035473634984721168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_58
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262ee8d663b9f5650800000000000000
+      internalID: 6223863868117934690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_59
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be9646938711ed2e0800000000000000
+      internalID: -2099221168251442709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_60
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95c21cea5483f1f0800000000000000
+      internalID: -1012319965185653348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_61
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3b4ac3719826b10800000000000000
+      internalID: 1973290319636378600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_62
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 996dae3a85a56d290800000000000000
+      internalID: -7866000362402294119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_63
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 816
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1783c61c231e4a10800000000000000
+      internalID: 1895473573250959134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_64
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b2360044ea325c10800000000000000
+      internalID: 2040758333153358517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_65
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 544
+        width: 182
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04364f31242b3fa90800000000000000
+      internalID: -7281280175655591104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_66
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a8ace9d1e9962920800000000000000
+      internalID: 2965226599972907173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_67
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 544
+        width: 178
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb791f43b105c370800000000000000
+      internalID: 8342075754411555784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_68
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7178cff96414a750800000000000000
+      internalID: 6315195022975725946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_69
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2569b3fe8b1aed540800000000000000
+      internalID: 5034639249106507346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_70
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 862c971645df23450800000000000000
+      internalID: 6067190186875929192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_71
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ebbc65fa70a4770800000000000000
+      internalID: 8595691288446877273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_72
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4394d59fd78e31b40800000000000000
+      internalID: 5409923205154294068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_73
+      rect:
+        serializedVersion: 2
+        x: 1419
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 835bc6221025a6930800000000000000
+      internalID: 4137209372519216440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_74
+      rect:
+        serializedVersion: 2
+        x: 1615
+        y: 680
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1b7b1f4217ff7fd0800000000000000
+      internalID: -2341881623200695523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_75
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 544
+        width: 103
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7dbc1edb45e6dfa90800000000000000
+      internalID: -7278540112518853673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_76
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 544
+        width: 172
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e068729c0c6f9460800000000000000
+      internalID: 7250632726342557924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_77
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 544
+        width: 166
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8518adfb9697491c0800000000000000
+      internalID: -4497836632738987688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_78
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 544
+        width: 160
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 781c947a8009b9e20800000000000000
+      internalID: 3358436313975603591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_79
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 544
+        width: 154
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9af522f9dd1d36450800000000000000
+      internalID: 6080934671668109225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_80
+      rect:
+        serializedVersion: 2
+        x: 1396
+        y: 544
+        width: 148
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb919be318dac0d90800000000000000
+      internalID: -7130133339419633221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_81
+      rect:
+        serializedVersion: 2
+        x: 1595
+        y: 544
+        width: 142
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f650bac409c2d50800000000000000
+      internalID: 6713899803463741305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_82
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 408
+        width: 136
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0d752f4490731080800000000000000
+      internalID: -9217900230011945714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_83
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 409
+        width: 128
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5555b43f10a633fb0800000000000000
+      internalID: -4669271832043760299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_84
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 409
+        width: 123
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc37550168618210800000000000000
+      internalID: 1333461730589097183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_85
+      rect:
+        serializedVersion: 2
+        x: 621
+        y: 410
+        width: 131
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb6b844e47a15a60800000000000000
+      internalID: 7661088395733199858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_86
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 411
+        width: 137
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d107ba77ba2d4920800000000000000
+      internalID: 2976081896287961554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_87
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 420
+        width: 141
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d62a715f8dbd050800000000000000
+      internalID: 5826489090108976475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_88
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 425
+        width: 83
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ca8da9bfadadec0800000000000000
+      internalID: -3541277382803936241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_89
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 438
+        width: 63
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a251258512020550800000000000000
+      internalID: 6125460734628418209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_90
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 500
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25092b229d3c103f0800000000000000
+      internalID: -936251910158905262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_91
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 502
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b720666b754b1850800000000000000
+      internalID: 6348744496009717687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_92
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 473
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b70dac433e8e790800000000000000
+      internalID: -7500495363505095795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_93
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 491
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80e2eef179827c60800000000000000
+      internalID: 7814459426141823116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_94
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 493
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 516526645c6f9a3f0800000000000000
+      internalID: -888908124279122411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_95
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 478
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab884b59fac4e91d0800000000000000
+      internalID: -3342149556447704902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_96
+      rect:
+        serializedVersion: 2
+        x: 1422
+        y: 459
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c8e5538d3454900800000000000000
+      internalID: 668014715621772334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_97
+      rect:
+        serializedVersion: 2
+        x: 1617
+        y: 459
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d76e4e748f214e30800000000000000
+      internalID: 4485918949938980818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_98
+      rect:
+        serializedVersion: 2
+        x: 1643
+        y: 456
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3ac015de29b75540800000000000000
+      internalID: 4996665922385136186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_99
+      rect:
+        serializedVersion: 2
+        x: 1651
+        y: 442
+        width: 35
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 887883a171fe14d10800000000000000
+      internalID: 2108228983089301384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_100
+      rect:
+        serializedVersion: 2
+        x: 1687
+        y: 460
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5916e80f81c2671b0800000000000000
+      internalID: -5659287396117749355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_101
+      rect:
+        serializedVersion: 2
+        x: 1026
+        y: 437
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0a5bab3f9bde65a0800000000000000
+      internalID: -6526037333065901554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_102
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 424
+        width: 31
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bb87b379bbd5b90800000000000000
+      internalID: -7251433566784406737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_103
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 433
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd03c8fea36b67f30800000000000000
+      internalID: 4573042835884617949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_104
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 423
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6777ae1ab655b21f0800000000000000
+      internalID: -1068666565804001418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_105
+      rect:
+        serializedVersion: 2
+        x: 1653
+        y: 439
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1b9ad5efb98970d0800000000000000
+      internalID: -3424554584350483681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_106
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 432
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e488741618ed95630800000000000000
+      internalID: 3916405998239582286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_107
+      rect:
+        serializedVersion: 2
+        x: 1395
+        y: 424
+        width: 32
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 652e3b45c0c898250800000000000000
+      internalID: 5947438767508021846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_108
+      rect:
+        serializedVersion: 2
+        x: 1450
+        y: 432
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d236857c42dff20800000000000000
+      internalID: 3457960527490395460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_109
+      rect:
+        serializedVersion: 2
+        x: 1456
+        y: 432
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc97c15cf4b043030800000000000000
+      internalID: 3473413649846794701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_110
+      rect:
+        serializedVersion: 2
+        x: 1472
+        y: 423
+        width: 24
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a81a0f7a86d17520800000000000000
+      internalID: 2698173542096836769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_111
+      rect:
+        serializedVersion: 2
+        x: 1510
+        y: 425
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b33da076c9d2cb0800000000000000
+      internalID: -4887078054249940081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_112
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 423
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75fd46cb3e8ddac60800000000000000
+      internalID: 7831153799697063767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_113
+      rect:
+        serializedVersion: 2
+        x: 1624
+        y: 424
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a84fa158f66e5e5a0800000000000000
+      internalID: -6492529921135807350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_114
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 422
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 922e0d05476c65340800000000000000
+      internalID: 4852283851412660777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_115
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 423
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6722a11a5740760800000000000000
+      internalID: 7423187420602070761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_116
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 423
+        width: 35
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e81b3a2be3d0e0f0800000000000000
+      internalID: -1089638102844368669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_117
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 424
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0f24d8dda285f80800000000000000
+      internalID: -8117691197289205554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_118
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 423
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d3da46946ea5ec0800000000000000
+      internalID: -3577293751096361679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_119
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 423
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41b0a156bb306830800000000000000
+      internalID: 4062312518127759694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_120
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 424
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def225aef47e5b6c0800000000000000
+      internalID: -4128139152995504147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_121
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 423
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce930ad2a4f765a0800000000000000
+      internalID: -6527980154570694965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_122
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 423
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 788f758eacfec0ae0800000000000000
+      internalID: -1581625714353375097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_123
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 423
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2c453bfa5d631c90800000000000000
+      internalID: -7200291141706232786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_124
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 423
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de5fc721c6ef48060800000000000000
+      internalID: 6954963464686990829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_125
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 424
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f793d77064ff9cf0800000000000000
+      internalID: -243207159690323983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_126
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 424
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f17b3dd2a0468a70800000000000000
+      internalID: 8828815187746976241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_127
+      rect:
+        serializedVersion: 2
+        x: 1436
+        y: 423
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74b75cf6db8776230800000000000000
+      internalID: 3632004379516959559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_128
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 423
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1ff1b8293949df0800000000000000
+      internalID: -174352227951971904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_129
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 423
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeaa59098afe5fd70800000000000000
+      internalID: 9076424131294374634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_130
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 423
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 677703b735271a6e0800000000000000
+      internalID: -1828054270861084810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_131
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 423
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a77b7dd2f90bb9060800000000000000
+      internalID: 6961351846746634106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_132
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 424
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a86be54a640ee80800000000000000
+      internalID: -8151437653762995596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_133
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 423
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e4c4266a06bc4460800000000000000
+      internalID: 7227351657802417379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_134
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 423
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89d13777c9e1edc0800000000000000
+      internalID: -3611348383266907762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_135
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 368
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d498ab564af5510800000000000000
+      internalID: 1540130354412211544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_136
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 370
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f84154c4f4d1a2d0800000000000000
+      internalID: -3269097706763499273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_137
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 371
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70106872fef2fbca0800000000000000
+      internalID: -5999023474427428601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_138
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 374
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 592957b0f80031050800000000000000
+      internalID: 5769956161964315285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_139
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 376
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f68769db54ade01c0800000000000000
+      internalID: -4535447781647157137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_140
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 358
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbd320c6d2042e020800000000000000
+      internalID: 2369526917780094396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_141
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 342
+        width: 24
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e20493605ac2ef0800000000000000
+      internalID: -131548842951692739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_142
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 338
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a0b7ffcbf8f57a0800000000000000
+      internalID: -6386227704685196727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_143
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 360
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ab3818887cd0040800000000000000
+      internalID: 4615564582226999922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_144
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 342
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51ed67db53fe79ba0800000000000000
+      internalID: -6082129757649576427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_145
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 351
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8e37496d18ad51d0800000000000000
+      internalID: -3360344902674727286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_146
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 342
+        width: 58
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86e99c700e9e80c00800000000000000
+      internalID: 867200076681420392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_147
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 348
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a05621d8cab1ab530800000000000000
+      internalID: 3871437257593480458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_148
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 347
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad6f150a72940190800000000000000
+      internalID: -7997105985533547098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_149
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 347
+        width: 28
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9fd0491715945f0800000000000000
+      internalID: -771996312860231219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_150
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 347
+        width: 29
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e564d01501505fa20800000000000000
+      internalID: 3095385886524524126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_151
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 338
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e59e1be83926012b0800000000000000
+      internalID: -5615880349437269666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_152
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aea9ea21edbd41940800000000000000
+      internalID: 5266075611145607914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_153
+      rect:
+        serializedVersion: 2
+        x: 690
+        y: 339
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74320f1853bf0c500800000000000000
+      internalID: 414607372949922631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_154
+      rect:
+        serializedVersion: 2
+        x: 886
+        y: 342
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891c1c4adbe3193f0800000000000000
+      internalID: -895865866636115560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_155
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 312
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3290de4f6802b560800000000000000
+      internalID: 7327928817841902141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_156
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 324
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f88ffdfa80dbcc2b0800000000000000
+      internalID: -5562863594701326193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_157
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 312
+        width: 37
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39da487d5293adc0800000000000000
+      internalID: -3628895944582702787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_158
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 324
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cfe972c05a52d790800000000000000
+      internalID: -7506838325966540858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_159
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 327
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 858472fbebc9447e0800000000000000
+      internalID: -1782127209467131816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_160
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 312
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eb3763eff31dd230800000000000000
+      internalID: 3665107661502233576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_161
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 324
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee6236e8c624d9e0800000000000000
+      internalID: -1597609323512303897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_162
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 333
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79154b75991774b0800000000000000
+      internalID: -5442853494845007493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_163
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 327
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c55f334085334a60800000000000000
+      internalID: 7657022616460285378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_164
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 311
+        width: 21
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43736ca25c3397860800000000000000
+      internalID: 7528105174045701940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_165
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 324
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a47afb9250c568400800000000000000
+      internalID: 326049200275957578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_166
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 327
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72487422fc9e57280800000000000000
+      internalID: -9046067200661158873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_167
+      rect:
+        serializedVersion: 2
+        x: 903
+        y: 324
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac0115efba687860800000000000000
+      internalID: 7527884149564181677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_168
+      rect:
+        serializedVersion: 2
+        x: 1062
+        y: 327
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d84a4fac7a70cbf0800000000000000
+      internalID: -306110098725779241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_169
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 324
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed1b4f440ac570f0800000000000000
+      internalID: -1119766812472697370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_170
+      rect:
+        serializedVersion: 2
+        x: 1258
+        y: 327
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cf4e51dea88fc4a0800000000000000
+      internalID: -6570883046891958329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_171
+      rect:
+        serializedVersion: 2
+        x: 1294
+        y: 324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310a7f22aa6734290800000000000000
+      internalID: -7907346047629287405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_172
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 324
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f670dc8e6c0bdd6f0800000000000000
+      internalID: -658175602170460305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_173
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 320
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f42ae7e40b099650800000000000000
+      internalID: 6240030874397189361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_174
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 319
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300349da98437f5e0800000000000000
+      internalID: -1875972953849188349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_175
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 319
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36091718edb575350800000000000000
+      internalID: 6005369639334416483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_176
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637820a70a6fe41d0800000000000000
+      internalID: -3364480702496995530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_177
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53956a969c6d96fe0800000000000000
+      internalID: -1195188065540875979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_178
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 318
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9082c04672bd840800000000000000
+      internalID: 5249833101284608436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_179
+      rect:
+        serializedVersion: 2
+        x: 1054
+        y: 319
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c252c5faef636a0800000000000000
+      internalID: -6469703785552466872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_180
+      rect:
+        serializedVersion: 2
+        x: 1250
+        y: 319
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34e1494b910211970800000000000000
+      internalID: 8723789247969238595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_181
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 302
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff1573a02520abd0800000000000000
+      internalID: -2621054161018085392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_182
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 295
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d847e29eaa475d0800000000000000
+      internalID: -3065637527848972949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_183
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 301
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d990718488023d0800000000000000
+      internalID: -3233434689246487273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_184
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 300
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2b55bd368bfa27e0800000000000000
+      internalID: -1789341347946865875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_185
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 299
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b5fe7169a587920800000000000000
+      internalID: 2988237953453480750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_186
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 298
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584b822b426fafca0800000000000000
+      internalID: -5982198517540014971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_187
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 297
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6268b633f119c420800000000000000
+      internalID: 2650669591977026159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_188
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 286
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682254fb8c3c70060800000000000000
+      internalID: 6919714619447911046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_189
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 287
+        width: 34
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd8c18063145c3810800000000000000
+      internalID: 1746363197713139932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_190
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 288
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3498f97297c79f20800000000000000
+      internalID: 3429429073191408701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_191
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 287
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac20dfa9e29b1560800000000000000
+      internalID: 7285578354576600228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_192
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 287
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbd22c9b455b0520800000000000000
+      internalID: 2669320987377589214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_193
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 287
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b2bdb1900f64760800000000000000
+      internalID: 7441899356189043470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_194
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 287
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95495d4a879e2d260800000000000000
+      internalID: 7121010665196983385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_195
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 287
+        width: 15
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b5243069148abd30800000000000000
+      internalID: 4448012826504865205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_196
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 287
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c705326797129a0800000000000000
+      internalID: -6259588458762699740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_197
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 287
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15604235961330fd0800000000000000
+      internalID: -2377001849885292975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_198
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 287
+        width: 34
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d412ceb83ff883ec0800000000000000
+      internalID: -3586958827013267123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_199
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 287
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf7e2b74d3c354240800000000000000
+      internalID: 4775289213789857788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_200
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 287
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0b3fc35e0d12d80800000000000000
+      internalID: -8277104957141569375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_201
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 287
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d6068af34ea6ae00800000000000000
+      internalID: 1055722769654089426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_202
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 292
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6612835fef3deab70800000000000000
+      internalID: 8912293804602040678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_203
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 287
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553f97add3eb1b380800000000000000
+      internalID: -8957169010995498155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_204
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 287
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 185dd0b1490f71c50800000000000000
+      internalID: 6636037094853432705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_205
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 287
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0edcbb96052dcb1d0800000000000000
+      internalID: -3333558381347877408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_206
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bcc4d97c95279890800000000000000
+      internalID: -7451445704472081228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_207
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 288
+        width: 33
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b32b695d0e0bc230800000000000000
+      internalID: 3660034572666217395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_208
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 287
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8098ef25a54c4b90800000000000000
+      internalID: -7256348323825020788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_209
+      rect:
+        serializedVersion: 2
+        x: 469
+        y: 287
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e70328f7783e04f0800000000000000
+      internalID: -860688390865877017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_210
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 291
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046dbaf15464be580800000000000000
+      internalID: -8796860184440089024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_211
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 287
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc40afa72b099270800000000000000
+      internalID: 8257643656838663381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_212
+      rect:
+        serializedVersion: 2
+        x: 493
+        y: 292
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d9a26a90c0cf160800000000000000
+      internalID: 7060531551392144732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_213
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 287
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dbe1c6552864190800000000000000
+      internalID: -7978546386442470082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_214
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 287
+        width: 34
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51190de6452c76bc0800000000000000
+      internalID: -3789846893516779243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_215
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf6f14e1216754a0800000000000000
+      internalID: -6604703530326462544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_216
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 286
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15a5b76e8e11ca60800000000000000
+      internalID: 7692463235499664668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_217
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 287
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 946519b436bb83db0800000000000000
+      internalID: -4811890166701402551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_218
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 287
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a670f247516cc1c50800000000000000
+      internalID: 6637397746283120490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_219
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 288
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9debb4fab164de2e0800000000000000
+      internalID: -2094941166938374439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_220
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 287
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96166f537c30dccb0800000000000000
+      internalID: -4842209870214700695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_221
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 287
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4f9cc6351a6d6f90800000000000000
+      internalID: -6958789209871311025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_222
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 150
+        width: 660
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb29fcc797254610800000000000000
+      internalID: 1604732375159876574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_223
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08df5c21bdd73bd0800000000000000
+      internalID: -2650406102660818931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_224
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 288
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3247dcdaf06b480800000000000000
+      internalID: -8883895975791025239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_225
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 287
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ad8d4f97632adec0800000000000000
+      internalID: -3541479229012210267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_226
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9049f37bca4d2eff0800000000000000
+      internalID: -8210411027459063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_227
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 286
+        width: 28
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9326867dc7fbb9b0800000000000000
+      internalID: -5063180894219132003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_228
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 287
+        width: 16
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbdb197697c71d980800000000000000
+      internalID: -8515888559510405699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_229
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 287
+        width: 17
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8614d392bd7400090800000000000000
+      internalID: -8070371525632638616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_230
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 288
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 012075d0cca618940800000000000000
+      internalID: 5296632061394092560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_231
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 287
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71c674ae769ddee0800000000000000
+      internalID: -1234665252160355971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_232
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 287
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4438fbc1537fa8f0800000000000000
+      internalID: -527075836227472310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_233
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 287
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c3a3a020a2cd8280800000000000000
+      internalID: -9039354884064566328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_234
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 287
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a3069ea0ace24f0800000000000000
+      internalID: -851521131312563583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_235
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf30229bd6587b7b0800000000000000
+      internalID: -5208547737726745604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_236
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 286
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60d7fb6a0533dbe0800000000000000
+      internalID: -1453759935833190292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_237
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 287
+        width: 29
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5874db0ab3ae515e0800000000000000
+      internalID: -1939386522692401275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_238
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 288
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bf3a1bed7e0bc700800000000000000
+      internalID: 561558512515825591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_239
+      rect:
+        serializedVersion: 2
+        x: 1071
+        y: 287
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f37cee5841a581360800000000000000
+      internalID: 7140556253388785471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_240
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 287
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 950f13dbcd7dd29e0800000000000000
+      internalID: -1644420945853419431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_241
+      rect:
+        serializedVersion: 2
+        x: 1106
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42ed3f074ad425710800000000000000
+      internalID: 1680490979627621924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_242
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 287
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11b1e9584cab64a60800000000000000
+      internalID: 7658013569608194833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_243
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 287
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26d23f0a40b52fce0800000000000000
+      internalID: -1372934860956291742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_244
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 286
+        width: 28
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915f890e73f937000800000000000000
+      internalID: 32544684661863705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_245
+      rect:
+        serializedVersion: 2
+        x: 1225
+        y: 287
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afab64647d3d02d30800000000000000
+      internalID: 4404753357118814970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_246
+      rect:
+        serializedVersion: 2
+        x: 1267
+        y: 287
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88efdd75f8ca89af0800000000000000
+      internalID: -389371636113080696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_247
+      rect:
+        serializedVersion: 2
+        x: 1278
+        y: 287
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139bb6a56c9d27ff0800000000000000
+      internalID: -39730000749151951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_248
+      rect:
+        serializedVersion: 2
+        x: 1302
+        y: 287
+        width: 15
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03c8e8c4e7aab8630800000000000000
+      internalID: 3930422559237901360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_249
+      rect:
+        serializedVersion: 2
+        x: 1393
+        y: 287
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e0ebc927dd551f10800000000000000
+      internalID: 2239799568387268833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_250
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 287
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1fed59c72d9a47c0800000000000000
+      internalID: -4086280917677641953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_251
+      rect:
+        serializedVersion: 2
+        x: 1451
+        y: 286
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 947ce4a713a4eb8b0800000000000000
+      internalID: -5134584948789950647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_252
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 287
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49123d0df2b56530800000000000000
+      internalID: 3847678256575813966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_253
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 287
+        width: 22
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 256deecf9298fc9d0800000000000000
+      internalID: -2751830033869908398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_254
+      rect:
+        serializedVersion: 2
+        x: 1498
+        y: 287
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe240c3b21a64b080800000000000000
+      internalID: -9172589912489180433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_255
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 287
+        width: 55
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13fbb51b1b37067b0800000000000000
+      internalID: -5233055559982530767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_256
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 286
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 156d3deb1d6288060800000000000000
+      internalID: 6955852306765305425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_257
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 287
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0bf2765ca4b152a0800000000000000
+      internalID: -6750415714173912306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_258
+      rect:
+        serializedVersion: 2
+        x: 1671
+        y: 287
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37ee00746fb0e5020800000000000000
+      internalID: 2332314809405599347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_259
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 287
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94a776210d1f5a9b0800000000000000
+      internalID: -5069379929571362231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_260
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 151
+        width: 55
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f54e1eed47dc490800000000000000
+      internalID: -7724389285249130630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_261
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 150
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6872f39c580dd00b0800000000000000
+      internalID: -5760719075311409274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_262
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 151
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce160756a14c06540800000000000000
+      internalID: 4999211204031308268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_263
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 151
+        width: 21
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c06f0d7328c826cc0800000000000000
+      internalID: -3719255851344529908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_264
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 151
+        width: 49
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4785f1411363b3da0800000000000000
+      internalID: -5964113697103193996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_265
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 151
+        width: 55
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19cd78d454b56050800000000000000
+      internalID: 5793234772184385823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_266
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 150
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c97c0a158f856310800000000000000
+      internalID: 1397681061198854601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_267
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 151
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2bad3769fdee0d60800000000000000
+      internalID: 7858480055242828590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_268
+      rect:
+        serializedVersion: 2
+        x: 317
+        y: 151
+        width: 54
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bfad8f3961782720800000000000000
+      internalID: 2821629863399370675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_269
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 151
+        width: 53
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4794a66462aae40800000000000000
+      internalID: 5668385164871955652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_270
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 150
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 147a23ac1208c9bd0800000000000000
+      internalID: -2622080000421877951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_271
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 151
+        width: 82
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85585cd1fef456940800000000000000
+      internalID: 5288721225831777624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: time-stop_272
+      rect:
+        serializedVersion: 2
+        x: 618
+        y: 150
+        width: 72
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06754b4113b63b10800000000000000
+      internalID: 1960951574625089039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      time-stop_0: -1682671706609479331
+      time-stop_1: 8189703853958541877
+      time-stop_10: -3790979029906000200
+      time-stop_100: -5659287396117749355
+      time-stop_101: -6526037333065901554
+      time-stop_102: -7251433566784406737
+      time-stop_103: 4573042835884617949
+      time-stop_104: -1068666565804001418
+      time-stop_105: -3424554584350483681
+      time-stop_106: 3916405998239582286
+      time-stop_107: 5947438767508021846
+      time-stop_108: 3457960527490395460
+      time-stop_109: 3473413649846794701
+      time-stop_11: 1724395895237528304
+      time-stop_110: 2698173542096836769
+      time-stop_111: -4887078054249940081
+      time-stop_112: 7831153799697063767
+      time-stop_113: -6492529921135807350
+      time-stop_114: 4852283851412660777
+      time-stop_115: 7423187420602070761
+      time-stop_116: -1089638102844368669
+      time-stop_117: -8117691197289205554
+      time-stop_118: -3577293751096361679
+      time-stop_119: 4062312518127759694
+      time-stop_12: -4962203296990039207
+      time-stop_120: -4128139152995504147
+      time-stop_121: -6527980154570694965
+      time-stop_122: -1581625714353375097
+      time-stop_123: -7200291141706232786
+      time-stop_124: 6954963464686990829
+      time-stop_125: -243207159690323983
+      time-stop_126: 8828815187746976241
+      time-stop_127: 3632004379516959559
+      time-stop_128: -174352227951971904
+      time-stop_129: 9076424131294374634
+      time-stop_13: 5091557983139912481
+      time-stop_130: -1828054270861084810
+      time-stop_131: 6961351846746634106
+      time-stop_132: -8151437653762995596
+      time-stop_133: 7227351657802417379
+      time-stop_134: -3611348383266907762
+      time-stop_135: 1540130354412211544
+      time-stop_136: -3269097706763499273
+      time-stop_137: -5999023474427428601
+      time-stop_138: 5769956161964315285
+      time-stop_139: -4535447781647157137
+      time-stop_14: 3185723158455828777
+      time-stop_140: 2369526917780094396
+      time-stop_141: -131548842951692739
+      time-stop_142: -6386227704685196727
+      time-stop_143: 4615564582226999922
+      time-stop_144: -6082129757649576427
+      time-stop_145: -3360344902674727286
+      time-stop_146: 867200076681420392
+      time-stop_147: 3871437257593480458
+      time-stop_148: -7997105985533547098
+      time-stop_149: -771996312860231219
+      time-stop_15: 1985648084298380081
+      time-stop_150: 3095385886524524126
+      time-stop_151: -5615880349437269666
+      time-stop_152: 5266075611145607914
+      time-stop_153: 414607372949922631
+      time-stop_154: -895865866636115560
+      time-stop_155: 7327928817841902141
+      time-stop_156: -5562863594701326193
+      time-stop_157: -3628895944582702787
+      time-stop_158: -7506838325966540858
+      time-stop_159: -1782127209467131816
+      time-stop_16: -2029910401429011596
+      time-stop_160: 3665107661502233576
+      time-stop_161: -1597609323512303897
+      time-stop_162: -5442853494845007493
+      time-stop_163: 7657022616460285378
+      time-stop_164: 7528105174045701940
+      time-stop_165: 326049200275957578
+      time-stop_166: -9046067200661158873
+      time-stop_167: 7527884149564181677
+      time-stop_168: -306110098725779241
+      time-stop_169: -1119766812472697370
+      time-stop_17: 351343970054176327
+      time-stop_170: -6570883046891958329
+      time-stop_171: -7907346047629287405
+      time-stop_172: -658175602170460305
+      time-stop_173: 6240030874397189361
+      time-stop_174: -1875972953849188349
+      time-stop_175: 6005369639334416483
+      time-stop_176: -3364480702496995530
+      time-stop_177: -1195188065540875979
+      time-stop_178: 5249833101284608436
+      time-stop_179: -6469703785552466872
+      time-stop_18: 1188299432781635273
+      time-stop_180: 8723789247969238595
+      time-stop_181: -2621054161018085392
+      time-stop_182: -3065637527848972949
+      time-stop_183: -3233434689246487273
+      time-stop_184: -1789341347946865875
+      time-stop_185: 2988237953453480750
+      time-stop_186: -5982198517540014971
+      time-stop_187: 2650669591977026159
+      time-stop_188: 6919714619447911046
+      time-stop_189: 1746363197713139932
+      time-stop_19: 3188213125160852135
+      time-stop_190: 3429429073191408701
+      time-stop_191: 7285578354576600228
+      time-stop_192: 2669320987377589214
+      time-stop_193: 7441899356189043470
+      time-stop_194: 7121010665196983385
+      time-stop_195: 4448012826504865205
+      time-stop_196: -6259588458762699740
+      time-stop_197: -2377001849885292975
+      time-stop_198: -3586958827013267123
+      time-stop_199: 4775289213789857788
+      time-stop_2: -8664765393855878704
+      time-stop_20: 4001072788157348490
+      time-stop_200: -8277104957141569375
+      time-stop_201: 1055722769654089426
+      time-stop_202: 8912293804602040678
+      time-stop_203: -8957169010995498155
+      time-stop_204: 6636037094853432705
+      time-stop_205: -3333558381347877408
+      time-stop_206: -7451445704472081228
+      time-stop_207: 3660034572666217395
+      time-stop_208: -7256348323825020788
+      time-stop_209: -860688390865877017
+      time-stop_21: -2287220784322678507
+      time-stop_210: -8796860184440089024
+      time-stop_211: 8257643656838663381
+      time-stop_212: 7060531551392144732
+      time-stop_213: -7978546386442470082
+      time-stop_214: -3789846893516779243
+      time-stop_215: -6604703530326462544
+      time-stop_216: 7692463235499664668
+      time-stop_217: -4811890166701402551
+      time-stop_218: 6637397746283120490
+      time-stop_219: -2094941166938374439
+      time-stop_22: -8774957509128530754
+      time-stop_220: -4842209870214700695
+      time-stop_221: -6958789209871311025
+      time-stop_222: 1604732375159876574
+      time-stop_223: -2650406102660818931
+      time-stop_224: -8883895975791025239
+      time-stop_225: -3541479229012210267
+      time-stop_226: -8210411027459063
+      time-stop_227: -5063180894219132003
+      time-stop_228: -8515888559510405699
+      time-stop_229: -8070371525632638616
+      time-stop_23: 5370606071565402495
+      time-stop_230: 5296632061394092560
+      time-stop_231: -1234665252160355971
+      time-stop_232: -527075836227472310
+      time-stop_233: -9039354884064566328
+      time-stop_234: -851521131312563583
+      time-stop_235: -5208547737726745604
+      time-stop_236: -1453759935833190292
+      time-stop_237: -1939386522692401275
+      time-stop_238: 561558512515825591
+      time-stop_239: 7140556253388785471
+      time-stop_24: 4225774154097329867
+      time-stop_240: -1644420945853419431
+      time-stop_241: 1680490979627621924
+      time-stop_242: 7658013569608194833
+      time-stop_243: -1372934860956291742
+      time-stop_244: 32544684661863705
+      time-stop_245: 4404753357118814970
+      time-stop_246: -389371636113080696
+      time-stop_247: -39730000749151951
+      time-stop_248: 3930422559237901360
+      time-stop_249: 2239799568387268833
+      time-stop_25: 1373715173097236972
+      time-stop_250: -4086280917677641953
+      time-stop_251: -5134584948789950647
+      time-stop_252: 3847678256575813966
+      time-stop_253: -2751830033869908398
+      time-stop_254: -9172589912489180433
+      time-stop_255: -5233055559982530767
+      time-stop_256: 6955852306765305425
+      time-stop_257: -6750415714173912306
+      time-stop_258: 2332314809405599347
+      time-stop_259: -5069379929571362231
+      time-stop_26: -3477800121873817021
+      time-stop_260: -7724389285249130630
+      time-stop_261: -5760719075311409274
+      time-stop_262: 4999211204031308268
+      time-stop_263: -3719255851344529908
+      time-stop_264: -5964113697103193996
+      time-stop_265: 5793234772184385823
+      time-stop_266: 1397681061198854601
+      time-stop_267: 7858480055242828590
+      time-stop_268: 2821629863399370675
+      time-stop_269: 5668385164871955652
+      time-stop_27: 2612301068908148271
+      time-stop_270: -2622080000421877951
+      time-stop_271: 5288721225831777624
+      time-stop_272: 1960951574625089039
+      time-stop_28: 5279764502825947141
+      time-stop_29: -7762623944380293581
+      time-stop_3: 2042638552581683277
+      time-stop_30: 4581315043117646998
+      time-stop_31: 3834045918193286814
+      time-stop_32: 7870285640014974028
+      time-stop_33: -6595190586641626741
+      time-stop_34: 8489374040644196454
+      time-stop_35: -8353334953677422066
+      time-stop_36: -3651890000593963781
+      time-stop_37: -4271659788805174668
+      time-stop_38: -9058503956615192217
+      time-stop_39: -6534577987191883789
+      time-stop_4: 2083046750587655303
+      time-stop_40: 6454099350987147011
+      time-stop_41: -8100738461244196089
+      time-stop_42: -2941006401798802849
+      time-stop_43: 2351794977243851546
+      time-stop_44: -6844049091328045685
+      time-stop_45: -5419305032657107990
+      time-stop_46: -375673337116008767
+      time-stop_47: 3446469579452899620
+      time-stop_48: 8089121265147668585
+      time-stop_49: 7796786456204706433
+      time-stop_5: 7251518297191645111
+      time-stop_50: -7526614877993602628
+      time-stop_51: 693200531496734145
+      time-stop_52: 1465409684426845749
+      time-stop_53: 7133527829113883239
+      time-stop_54: 5250178457701325140
+      time-stop_55: 2281422097835203657
+      time-stop_56: 2220974342977374207
+      time-stop_57: 1035473634984721168
+      time-stop_58: 6223863868117934690
+      time-stop_59: -2099221168251442709
+      time-stop_6: 912955684825055835
+      time-stop_60: -1012319965185653348
+      time-stop_61: 1973290319636378600
+      time-stop_62: -7866000362402294119
+      time-stop_63: 1895473573250959134
+      time-stop_64: 2040758333153358517
+      time-stop_65: -7281280175655591104
+      time-stop_66: 2965226599972907173
+      time-stop_67: 8342075754411555784
+      time-stop_68: 6315195022975725946
+      time-stop_69: 5034639249106507346
+      time-stop_7: -8404667293821911683
+      time-stop_70: 6067190186875929192
+      time-stop_71: 8595691288446877273
+      time-stop_72: 5409923205154294068
+      time-stop_73: 4137209372519216440
+      time-stop_74: -2341881623200695523
+      time-stop_75: -7278540112518853673
+      time-stop_76: 7250632726342557924
+      time-stop_77: -4497836632738987688
+      time-stop_78: 3358436313975603591
+      time-stop_79: 6080934671668109225
+      time-stop_8: -101391280969335286
+      time-stop_80: -7130133339419633221
+      time-stop_81: 6713899803463741305
+      time-stop_82: -9217900230011945714
+      time-stop_83: -4669271832043760299
+      time-stop_84: 1333461730589097183
+      time-stop_85: 7661088395733199858
+      time-stop_86: 2976081896287961554
+      time-stop_87: 5826489090108976475
+      time-stop_88: -3541277382803936241
+      time-stop_89: 6125460734628418209
+      time-stop_9: 2538021371732655157
+      time-stop_90: -936251910158905262
+      time-stop_91: 6348744496009717687
+      time-stop_92: -7500495363505095795
+      time-stop_93: 7814459426141823116
+      time-stop_94: -888908124279122411
+      time-stop_95: -3342149556447704902
+      time-stop_96: 668014715621772334
+      time-stop_97: 4485918949938980818
+      time-stop_98: 4996665922385136186
+      time-stop_99: 2108228983089301384
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

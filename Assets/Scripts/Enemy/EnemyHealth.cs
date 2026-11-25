@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class EnemyHealth : MonoBehaviour
@@ -19,6 +20,7 @@ public class EnemyHealth : MonoBehaviour
 
     public int CurrentHealth => currentHealth;
     public int MaxHealth => maxHealth;
+    public event Action<EnemyHealth> Died;
 
     private static readonly int DeathState = Animator.StringToHash("Death");
 
@@ -76,6 +78,7 @@ public class EnemyHealth : MonoBehaviour
         if (hitbox != null) hitbox.enabled = false;
         if (animator != null) animator.Play(DeathState, 0, 0f);
 
+        Died?.Invoke(this);
         Destroy(gameObject, deathDelay);
     }
 }

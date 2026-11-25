@@ -120,6 +120,8 @@ public class EnemyRangedAttack : MonoBehaviour
             + (Vector3)(direction * Mathf.Max(0f, spawnOffset));
         EnemyProjectile projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
         projectile.SetDirection(direction);
+        if (TryGetComponent<MageEnemyStatus>(out var status))
+            projectile.ScaleDamage(status.OutgoingDamageMultiplier);
 
         if (view != null)
         {

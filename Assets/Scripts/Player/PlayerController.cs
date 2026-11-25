@@ -15,6 +15,8 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D playerRigidbody;
     private Vector2 movementInput;
+    public Vector2 MovementInput => movementInput;
+    public float ExternalSpeedMultiplier { get; set; } = 1f;
 
     private void Awake()
     {
@@ -80,7 +82,7 @@ private void UpdateFacingDirection()
     private void FixedUpdate()
     {
         Vector2 nextPosition = playerRigidbody.position
-            + movementInput * moveSpeed * Time.fixedDeltaTime;
+            + movementInput * moveSpeed * Mathf.Max(0f, ExternalSpeedMultiplier) * Time.fixedDeltaTime;
 
         // Không cho đi sang vùng map khác: giữ trong biên của map hiện tại.
         nextPosition.x = Mathf.Clamp(nextPosition.x, centerX - halfWidth, centerX + halfWidth);

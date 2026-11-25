@@ -64,4 +64,11 @@ public class PlayerHealth : MonoBehaviour
         canTakeDamage = true;
         nextDamageTime = 0f;
     }
+
+    public bool Heal(int amount)
+    {
+        if (isDead || amount <= 0 || currentHealth >= maxHealth) return false;
+        currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+        return true;
+    }
 }

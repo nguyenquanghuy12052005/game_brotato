@@ -1,0 +1,2782 @@
+fileFormatVersion: 2
+guid: 300b7acb293c08149a202f3388bb87e5
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7513477997928068875
+    second: burning-effect-only_0
+  - first:
+      213: -9085741275342602224
+    second: burning-effect-only_1
+  - first:
+      213: -2823057500443200413
+    second: burning-effect-only_2
+  - first:
+      213: -5678618823632824922
+    second: burning-effect-only_3
+  - first:
+      213: 4842328132889156915
+    second: burning-effect-only_4
+  - first:
+      213: 5519019692651604177
+    second: burning-effect-only_5
+  - first:
+      213: -1131665063811390585
+    second: burning-effect-only_6
+  - first:
+      213: -4832104824082450395
+    second: burning-effect-only_7
+  - first:
+      213: -8696930277003866287
+    second: burning-effect-only_8
+  - first:
+      213: -6860699707151165858
+    second: burning-effect-only_9
+  - first:
+      213: 1576619747493940286
+    second: burning-effect-only_10
+  - first:
+      213: 440430818223592996
+    second: burning-effect-only_11
+  - first:
+      213: 8214463360980381643
+    second: burning-effect-only_12
+  - first:
+      213: -902409042284804966
+    second: burning-effect-only_13
+  - first:
+      213: 4766027093757893696
+    second: burning-effect-only_14
+  - first:
+      213: 579781018658775533
+    second: burning-effect-only_15
+  - first:
+      213: 1518763270921619105
+    second: burning-effect-only_16
+  - first:
+      213: 6766450268525196163
+    second: burning-effect-only_17
+  - first:
+      213: 282981543089988803
+    second: burning-effect-only_18
+  - first:
+      213: 3112165445926234286
+    second: burning-effect-only_19
+  - first:
+      213: 8815328302787130147
+    second: burning-effect-only_20
+  - first:
+      213: -8770091902572297427
+    second: burning-effect-only_21
+  - first:
+      213: 8390155890639176697
+    second: burning-effect-only_22
+  - first:
+      213: 5802364458594765416
+    second: burning-effect-only_23
+  - first:
+      213: -3232733270209720132
+    second: burning-effect-only_24
+  - first:
+      213: 8635516294425227194
+    second: burning-effect-only_25
+  - first:
+      213: 7956928280019918142
+    second: burning-effect-only_26
+  - first:
+      213: -3028212863391438027
+    second: burning-effect-only_27
+  - first:
+      213: -4616636917550735581
+    second: burning-effect-only_28
+  - first:
+      213: 5906055121757467320
+    second: burning-effect-only_29
+  - first:
+      213: -5459049767467529241
+    second: burning-effect-only_30
+  - first:
+      213: -1082916593754082365
+    second: burning-effect-only_31
+  - first:
+      213: 1321008745294293512
+    second: burning-effect-only_32
+  - first:
+      213: -4776902315237238905
+    second: burning-effect-only_33
+  - first:
+      213: -198828749027041053
+    second: burning-effect-only_34
+  - first:
+      213: -5723717138354778018
+    second: burning-effect-only_35
+  - first:
+      213: 3425948872418183664
+    second: burning-effect-only_36
+  - first:
+      213: 886754992357228968
+    second: burning-effect-only_37
+  - first:
+      213: 5388884464556292123
+    second: burning-effect-only_38
+  - first:
+      213: 3396546719618246291
+    second: burning-effect-only_39
+  - first:
+      213: 3180076854580538253
+    second: burning-effect-only_40
+  - first:
+      213: 4668618325316266522
+    second: burning-effect-only_41
+  - first:
+      213: -7043994746865224372
+    second: burning-effect-only_42
+  - first:
+      213: 1661786509182071720
+    second: burning-effect-only_43
+  - first:
+      213: 6603647160062840867
+    second: burning-effect-only_44
+  - first:
+      213: 6782810181589557245
+    second: burning-effect-only_45
+  - first:
+      213: -3941056091919641809
+    second: burning-effect-only_46
+  - first:
+      213: 2068901206376623073
+    second: burning-effect-only_47
+  - first:
+      213: -119201698129311031
+    second: burning-effect-only_48
+  - first:
+      213: -6934424345566165029
+    second: burning-effect-only_49
+  - first:
+      213: -5301296355390910402
+    second: burning-effect-only_50
+  - first:
+      213: -2296483454062126650
+    second: burning-effect-only_51
+  - first:
+      213: -3254288332290025461
+    second: burning-effect-only_52
+  - first:
+      213: 8108826553375370997
+    second: burning-effect-only_53
+  - first:
+      213: 513787007819928505
+    second: burning-effect-only_54
+  - first:
+      213: -7956669626043600348
+    second: burning-effect-only_55
+  - first:
+      213: -7685010868311938266
+    second: burning-effect-only_56
+  - first:
+      213: -243503266440763094
+    second: burning-effect-only_57
+  - first:
+      213: 1559986130573910437
+    second: burning-effect-only_58
+  - first:
+      213: -434121201242767871
+    second: burning-effect-only_59
+  - first:
+      213: 7528761310949649462
+    second: burning-effect-only_60
+  - first:
+      213: 2497452092080679459
+    second: burning-effect-only_61
+  - first:
+      213: -7547598902594762770
+    second: burning-effect-only_62
+  - first:
+      213: -4540094545856074662
+    second: burning-effect-only_63
+  - first:
+      213: -1636879358813088219
+    second: burning-effect-only_64
+  - first:
+      213: -3902243447724008827
+    second: burning-effect-only_65
+  - first:
+      213: -8858407204968462546
+    second: burning-effect-only_66
+  - first:
+      213: 7357810109440639160
+    second: burning-effect-only_67
+  - first:
+      213: 7591924309368300166
+    second: burning-effect-only_68
+  - first:
+      213: -7253022896043590945
+    second: burning-effect-only_69
+  - first:
+      213: 254199441163813335
+    second: burning-effect-only_70
+  - first:
+      213: -5364785192556266624
+    second: burning-effect-only_71
+  - first:
+      213: 2703926287121790678
+    second: burning-effect-only_72
+  - first:
+      213: -7819348858013255810
+    second: burning-effect-only_73
+  - first:
+      213: 121529162151745090
+    second: burning-effect-only_74
+  - first:
+      213: 8956349894829348785
+    second: burning-effect-only_75
+  - first:
+      213: 7077465180967460010
+    second: burning-effect-only_76
+  - first:
+      213: -1679196279524701525
+    second: burning-effect-only_77
+  - first:
+      213: -2211382048277718011
+    second: burning-effect-only_78
+  - first:
+      213: 6796706599587213011
+    second: burning-effect-only_79
+  - first:
+      213: 7092745539107167421
+    second: burning-effect-only_80
+  - first:
+      213: -6530640215506931052
+    second: burning-effect-only_81
+  - first:
+      213: 4290741001885042566
+    second: burning-effect-only_82
+  - first:
+      213: -5732154156768527137
+    second: burning-effect-only_83
+  - first:
+      213: -6590475306520885423
+    second: burning-effect-only_84
+  - first:
+      213: 5005660315129661109
+    second: burning-effect-only_85
+  - first:
+      213: -6059111284038942156
+    second: burning-effect-only_86
+  - first:
+      213: 8307063998610788569
+    second: burning-effect-only_87
+  - first:
+      213: -2829489673322002315
+    second: burning-effect-only_88
+  - first:
+      213: -7815164868964478911
+    second: burning-effect-only_89
+  - first:
+      213: -323238819174781485
+    second: burning-effect-only_90
+  - first:
+      213: -6665212870824451890
+    second: burning-effect-only_91
+  - first:
+      213: 233869580520724660
+    second: burning-effect-only_92
+  - first:
+      213: 4807587846251973158
+    second: burning-effect-only_93
+  - first:
+      213: -7485480064510769592
+    second: burning-effect-only_94
+  - first:
+      213: 4589810819490948621
+    second: burning-effect-only_95
+  - first:
+      213: -328725475574529261
+    second: burning-effect-only_96
+  - first:
+      213: -7502812092407734526
+    second: burning-effect-only_97
+  - first:
+      213: -4767715070480791947
+    second: burning-effect-only_98
+  - first:
+      213: -8112026536602358035
+    second: burning-effect-only_99
+  - first:
+      213: -7295774594301438526
+    second: burning-effect-only_100
+  - first:
+      213: -2921226215800647295
+    second: burning-effect-only_101
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: burning-effect-only_0
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 405
+        width: 48
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0737365e6c354860800000000000000
+      internalID: 7513477997928068875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_1
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 405
+        width: 48
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010891ac276f8e180800000000000000
+      internalID: -9085741275342602224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_2
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 405
+        width: 46
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 364b499192c72d8d0800000000000000
+      internalID: -2823057500443200413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_3
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 413
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a5d48a344e7131b0800000000000000
+      internalID: -5678618823632824922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_4
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 414
+        width: 33
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d1db6f7c7633340800000000000000
+      internalID: 4842328132889156915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_5
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 414
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d862e06b2f779c40800000000000000
+      internalID: 5519019692651604177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_6
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 415
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7836dcace948b40f0800000000000000
+      internalID: -1131665063811390585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 405
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5283d1b934ae0fcb0800000000000000
+      internalID: -4832104824082450395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_8
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 405
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15f48dacdfb4e4780800000000000000
+      internalID: -8696930277003866287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_9
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 405
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e56d0a447f5e9c0a0800000000000000
+      internalID: -6860699707151165858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_10
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 405
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3c0e3b9e4741e510800000000000000
+      internalID: 1576619747493940286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_11
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 335
+        width: 34
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4261a54ee79bc1600800000000000000
+      internalID: 440430818223592996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_12
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 335
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf62bb97e2aff170800000000000000
+      internalID: 8214463360980381643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_13
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 335
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a948388d1cff973f0800000000000000
+      internalID: -902409042284804966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_14
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 335
+        width: 31
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c9359e364542240800000000000000
+      internalID: 4766027093757893696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_15
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 383
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de1aba0c3cbcb0800800000000000000
+      internalID: 579781018658775533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 335
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a6813de52bb31510800000000000000
+      internalID: 1518763270921619105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_17
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 384
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3837ac54ba247ed50800000000000000
+      internalID: 6766450268525196163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_18
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 385
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4eed1d63a5de300800000000000000
+      internalID: 282981543089988803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_19
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 352
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea8adaeebf1a03b20800000000000000
+      internalID: 3112165445926234286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_20
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 352
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 323f212c266565a70800000000000000
+      internalID: 8815328302787130147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_21
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 335
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2306ab61ef5a4680800000000000000
+      internalID: -8770091902572297427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_22
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 352
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f303bf5452df6470800000000000000
+      internalID: 8390155890639176697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_23
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 353
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86a84eb9bb3268050800000000000000
+      internalID: 5802364458594765416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_24
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 336
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb0109fe7360323d0800000000000000
+      internalID: -3232733270209720132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_25
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abf205d115487d770800000000000000
+      internalID: 8635516294425227194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_26
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dd8d1fc10bc6e60800000000000000
+      internalID: 7956928280019918142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_27
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53be845e170a9f5d0800000000000000
+      internalID: -3028212863391438027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_28
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f1f68fe296eefb0800000000000000
+      internalID: -4616636917550735581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_29
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b2fa3477d586f150800000000000000
+      internalID: 5906055121757467320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_30
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eb4be6e82f8d34b0800000000000000
+      internalID: -5459049767467529241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_31
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 325
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c379e37815b8f0f0800000000000000
+      internalID: -1082916593754082365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_32
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 306
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a6370747a255210800000000000000
+      internalID: 1321008745294293512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_33
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 308
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7871b8547a805bdb0800000000000000
+      internalID: -4776902315237238905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_34
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 309
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e0ab136e4e9d3df0800000000000000
+      internalID: -198828749027041053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_35
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 273
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e505c8596954190b0800000000000000
+      internalID: -5723717138354778018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_36
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 256
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9c227195a6b8f20800000000000000
+      internalID: 3425948872418183664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_37
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 256
+        width: 32
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1c142a7f26e4c00800000000000000
+      internalID: 886754992357228968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_38
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 274
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b18bf757ed929ca40800000000000000
+      internalID: 5388884464556292123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_39
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 256
+        width: 32
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3962dddee35f22f20800000000000000
+      internalID: 3396546719618246291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 274
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8be6bbec07e12c20800000000000000
+      internalID: 3180076854580538253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_41
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 274
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1aea58a1a34ac040800000000000000
+      internalID: 4668618325316266522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_42
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 256
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4571613914be3e90800000000000000
+      internalID: -7043994746865224372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_43
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 245
+        width: 48
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a3755c860adf0710800000000000000
+      internalID: 1661786509182071720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_44
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 245
+        width: 48
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320109dba1ed4ab50800000000000000
+      internalID: 6603647160062840867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_45
+      rect:
+        serializedVersion: 2
+        x: 444
+        y: 245
+        width: 48
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dff5c8c5ce1612e50800000000000000
+      internalID: 6782810181589557245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_46
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 245
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f239d317d5e8e49c0800000000000000
+      internalID: -3941056091919641809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_47
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 245
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eba4798fa636bc10800000000000000
+      internalID: 2068901206376623073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_48
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 245
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca0166efa2885ef0800000000000000
+      internalID: -119201698129311031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_49
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 245
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd745b04cc9f3cf90800000000000000
+      internalID: -6934424345566165029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 173
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e301adf5d030e66b0800000000000000
+      internalID: -5301296355390910402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_51
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 174
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9901047704120e0800000000000000
+      internalID: -2296483454062126650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_52
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b089725f00276d2d0800000000000000
+      internalID: -3254288332290025461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_53
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 174
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fea133b9c6588070800000000000000
+      internalID: 8108826553375370997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_54
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 217
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b3515bbf86512700800000000000000
+      internalID: 513787007819928505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_55
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 175
+        width: 37
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422f780a12b349190800000000000000
+      internalID: -7956669626043600348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_56
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 217
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62b204b055b595590800000000000000
+      internalID: -7685010868311938266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_57
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 175
+        width: 39
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a29a62eb117ee9cf0800000000000000
+      internalID: -243503266440763094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_58
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 217
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1e46fde1f26a510800000000000000
+      internalID: 1559986130573910437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_59
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 189
+        width: 36
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10e757a4111b9f9f0800000000000000
+      internalID: -434121201242767871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_60
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 218
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cabd1f5888b7860800000000000000
+      internalID: 7528761310949649462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_61
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 175
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32a6608127bb8a220800000000000000
+      internalID: 2497452092080679459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_62
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 218
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee706b779ca814790800000000000000
+      internalID: -7547598902594762770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_63
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5c6f83a0185ef0c0800000000000000
+      internalID: -4540094545856074662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_64
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 196
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526d6cd45e2a849e0800000000000000
+      internalID: -1636879358813088219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_65
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 175
+        width: 36
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58a905f524278d9c0800000000000000
+      internalID: -3902243447724008827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_66
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 165
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e270818b49d901580800000000000000
+      internalID: -8858407204968462546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_67
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 165
+        width: 48
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0ccf9af413c1660800000000000000
+      internalID: 7357810109440639160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_68
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 165
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682ec858feeeb5960800000000000000
+      internalID: 7591924309368300166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_69
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 165
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdafb8daa16185b90800000000000000
+      internalID: -7253022896043590945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_70
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 165
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d10ca08b09178300800000000000000
+      internalID: 254199441163813335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_71
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 165
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b786d8a447c85b0800000000000000
+      internalID: -5364785192556266624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_72
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 165
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d63cb2d1a6468520800000000000000
+      internalID: 2703926287121790678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_73
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 138
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77734f64a71c7390800000000000000
+      internalID: -7819348858013255810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_74
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 136
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246d7eb0122cfa100800000000000000
+      internalID: 121529162151745090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_75
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 137
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b7196dc6c85b4c70800000000000000
+      internalID: 8956349894829348785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_76
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 139
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacd2c58515383260800000000000000
+      internalID: 7077465180967460010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_77
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 138
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baac5ca61eb42b8e0800000000000000
+      internalID: -1679196279524701525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_78
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 139
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50c1bb55eb79f41e0800000000000000
+      internalID: -2211382048277718011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_79
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 140
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dee2fe44a0c25e50800000000000000
+      internalID: 6796706599587213011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_80
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 140
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbc18b42d7e7e6260800000000000000
+      internalID: 7092745539107167421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_81
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 141
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49234d623518e55a0800000000000000
+      internalID: -6530640215506931052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_82
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 140
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687cf883536cb8b30800000000000000
+      internalID: 4290741001885042566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_83
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 140
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdc78082a2c4370b0800000000000000
+      internalID: -5732154156768527137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_84
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 95
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157c6d560ade984a0800000000000000
+      internalID: -6590475306520885423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_85
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 95
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b6c295198da77540800000000000000
+      internalID: 5005660315129661109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_86
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 95
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4324c44c366b9eba0800000000000000
+      internalID: -6059111284038942156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_87
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 96
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d0d1aba1be984370800000000000000
+      internalID: 8307063998610788569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_88
+      rect:
+        serializedVersion: 2
+        x: 309
+        y: 96
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57881062222abb8d0800000000000000
+      internalID: -2829489673322002315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_89
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 96
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 140924c45f4fa8390800000000000000
+      internalID: -7815164868964478911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_90
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 96
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dd687da100a38bf0800000000000000
+      internalID: -323238819174781485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_91
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0a52235386083a0800000000000000
+      internalID: -6665212870824451890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_92
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b815b6f42fde3300800000000000000
+      internalID: 233869580520724660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_93
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62a855aacabf7b240800000000000000
+      internalID: 4807587846251973158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_94
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84641958a8b3e1890800000000000000
+      internalID: -7485480064510769592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_95
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d06a00a5f9842bf30800000000000000
+      internalID: 4589810819490948621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_96
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 85
+        width: 46
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31342cfebe1207bf0800000000000000
+      internalID: -328725475574529261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_97
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 85
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f188f4728a0e790800000000000000
+      internalID: -7502812092407734526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_98
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 61
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57647b1676ca5ddb0800000000000000
+      internalID: -4767715070480791947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_99
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 64
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee264528da4c6f80800000000000000
+      internalID: -8112026536602358035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_100
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 16
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5d75149a330ca90800000000000000
+      internalID: -7295774594301438526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: burning-effect-only_101
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 44
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 181d4aaeb38b577d0800000000000000
+      internalID: -2921226215800647295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      burning-effect-only_0: 7513477997928068875
+      burning-effect-only_1: -9085741275342602224
+      burning-effect-only_10: 1576619747493940286
+      burning-effect-only_100: -7295774594301438526
+      burning-effect-only_101: -2921226215800647295
+      burning-effect-only_11: 440430818223592996
+      burning-effect-only_12: 8214463360980381643
+      burning-effect-only_13: -902409042284804966
+      burning-effect-only_14: 4766027093757893696
+      burning-effect-only_15: 579781018658775533
+      burning-effect-only_16: 1518763270921619105
+      burning-effect-only_17: 6766450268525196163
+      burning-effect-only_18: 282981543089988803
+      burning-effect-only_19: 3112165445926234286
+      burning-effect-only_2: -2823057500443200413
+      burning-effect-only_20: 8815328302787130147
+      burning-effect-only_21: -8770091902572297427
+      burning-effect-only_22: 8390155890639176697
+      burning-effect-only_23: 5802364458594765416
+      burning-effect-only_24: -3232733270209720132
+      burning-effect-only_25: 8635516294425227194
+      burning-effect-only_26: 7956928280019918142
+      burning-effect-only_27: -3028212863391438027
+      burning-effect-only_28: -4616636917550735581
+      burning-effect-only_29: 5906055121757467320
+      burning-effect-only_3: -5678618823632824922
+      burning-effect-only_30: -5459049767467529241
+      burning-effect-only_31: -1082916593754082365
+      burning-effect-only_32: 1321008745294293512
+      burning-effect-only_33: -4776902315237238905
+      burning-effect-only_34: -198828749027041053
+      burning-effect-only_35: -5723717138354778018
+      burning-effect-only_36: 3425948872418183664
+      burning-effect-only_37: 886754992357228968
+      burning-effect-only_38: 5388884464556292123
+      burning-effect-only_39: 3396546719618246291
+      burning-effect-only_4: 4842328132889156915
+      burning-effect-only_40: 3180076854580538253
+      burning-effect-only_41: 4668618325316266522
+      burning-effect-only_42: -7043994746865224372
+      burning-effect-only_43: 1661786509182071720
+      burning-effect-only_44: 6603647160062840867
+      burning-effect-only_45: 6782810181589557245
+      burning-effect-only_46: -3941056091919641809
+      burning-effect-only_47: 2068901206376623073
+      burning-effect-only_48: -119201698129311031
+      burning-effect-only_49: -6934424345566165029
+      burning-effect-only_5: 5519019692651604177
+      burning-effect-only_50: -5301296355390910402
+      burning-effect-only_51: -2296483454062126650
+      burning-effect-only_52: -3254288332290025461
+      burning-effect-only_53: 8108826553375370997
+      burning-effect-only_54: 513787007819928505
+      burning-effect-only_55: -7956669626043600348
+      burning-effect-only_56: -7685010868311938266
+      burning-effect-only_57: -243503266440763094
+      burning-effect-only_58: 1559986130573910437
+      burning-effect-only_59: -434121201242767871
+      burning-effect-only_6: -1131665063811390585
+      burning-effect-only_60: 7528761310949649462
+      burning-effect-only_61: 2497452092080679459
+      burning-effect-only_62: -7547598902594762770
+      burning-effect-only_63: -4540094545856074662
+      burning-effect-only_64: -1636879358813088219
+      burning-effect-only_65: -3902243447724008827
+      burning-effect-only_66: -8858407204968462546
+      burning-effect-only_67: 7357810109440639160
+      burning-effect-only_68: 7591924309368300166
+      burning-effect-only_69: -7253022896043590945
+      burning-effect-only_7: -4832104824082450395
+      burning-effect-only_70: 254199441163813335
+      burning-effect-only_71: -5364785192556266624
+      burning-effect-only_72: 2703926287121790678
+      burning-effect-only_73: -7819348858013255810
+      burning-effect-only_74: 121529162151745090
+      burning-effect-only_75: 8956349894829348785
+      burning-effect-only_76: 7077465180967460010
+      burning-effect-only_77: -1679196279524701525
+      burning-effect-only_78: -2211382048277718011
+      burning-effect-only_79: 6796706599587213011
+      burning-effect-only_8: -8696930277003866287
+      burning-effect-only_80: 7092745539107167421
+      burning-effect-only_81: -6530640215506931052
+      burning-effect-only_82: 4290741001885042566
+      burning-effect-only_83: -5732154156768527137
+      burning-effect-only_84: -6590475306520885423
+      burning-effect-only_85: 5005660315129661109
+      burning-effect-only_86: -6059111284038942156
+      burning-effect-only_87: 8307063998610788569
+      burning-effect-only_88: -2829489673322002315
+      burning-effect-only_89: -7815164868964478911
+      burning-effect-only_9: -6860699707151165858
+      burning-effect-only_90: -323238819174781485
+      burning-effect-only_91: -6665212870824451890
+      burning-effect-only_92: 233869580520724660
+      burning-effect-only_93: 4807587846251973158
+      burning-effect-only_94: -7485480064510769592
+      burning-effect-only_95: 4589810819490948621
+      burning-effect-only_96: -328725475574529261
+      burning-effect-only_97: -7502812092407734526
+      burning-effect-only_98: -4767715070480791947
+      burning-effect-only_99: -8112026536602358035
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

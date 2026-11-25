@@ -38,7 +38,7 @@ public static class MeleeDemoSetup
             characters.GetArrayElementAtIndex(i).objectReferenceValue = AssetDatabase.LoadAssetAtPath<GameObject>(
                 "Assets/Prefabs/Player/" + character + "/" + character + "Visual.prefab");
         }
-        var enemy = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Enemy/Enemy.prefab").GetComponentInChildren<SpriteRenderer>();
+        var enemy = AssetDatabase.LoadAssetAtPath<GameObject>("Assets/Prefabs/Enemy/Normal/Brown/Enemy_Normal_Brown.prefab").GetComponentInChildren<SpriteRenderer>();
         combatData.FindProperty("enemySprite").objectReferenceValue = enemy.sprite;
         combatData.FindProperty("spriteMaterial").objectReferenceValue = AssetDatabase.LoadAssetAtPath<Material>("Assets/Prefabs/Player/PlayerUnlit.mat");
         const string goldPath = "Assets/Prefabs/Player/MeleeUltimates/VanAnh/GoldVfxOnly.mat";

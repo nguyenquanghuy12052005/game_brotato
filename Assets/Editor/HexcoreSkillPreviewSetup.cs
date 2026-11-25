@@ -42,7 +42,7 @@ public static partial class HexcoreSkillPreviewSetup
     {
         if (EditorApplication.isPlayingOrWillChangePlaymode) return;
         var form = Load<GameObject>("Assets/Prefabs/Player/Swordsman/SwordsmanVisual.prefab");
-        var enemy = Load<GameObject>("Assets/Prefabs/Enemy/Enemy.prefab").GetComponentInChildren<SpriteRenderer>();
+        var enemy = Load<GameObject>("Assets/Prefabs/Enemy/Normal/Brown/Enemy_Normal_Brown.prefab").GetComponentInChildren<SpriteRenderer>();
         var lineMaterial = Load<Material>("Assets/Prefabs/Player/PlayerUnlit.mat");
         var basic = LoadFrames("Basic/Basic_East_", 12);
         var q1 = LoadFrames("Q1/Q1_East_", 12);

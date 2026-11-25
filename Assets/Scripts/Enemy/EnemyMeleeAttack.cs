@@ -113,7 +113,9 @@ public class EnemyMeleeAttack : MonoBehaviour
         if (player != null && playerHealth != null
             && Vector2.Distance(transform.position, player.position) <= attackRange)
         {
-            playerHealth.TakeDamage(damage);
+            var status = GetComponent<MageEnemyStatus>();
+            float multiplier = status != null ? status.OutgoingDamageMultiplier : 1f;
+            playerHealth.TakeDamage(Mathf.CeilToInt(damage * multiplier));
         }
 
         attacking = false;
