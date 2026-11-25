@@ -14,10 +14,10 @@ public static class EnemySpawnerSetup
 
     private static readonly (string path, float weight)[] Prefabs =
     {
-        ("Assets/Prefabs/Enemy/Enemy.prefab", 4f),
-        ("Assets/Prefabs/Enemy/Enemy_Goblin_Green.prefab", 2f),
-        ("Assets/Prefabs/Enemy/Enemy_Goblin_Red.prefab", 2f),
-        ("Assets/Prefabs/Enemy/Enemy_Goblin_Snow.prefab", 2f)
+        ("Assets/Prefabs/Enemy/Normal/Brown/Enemy_Normal_Brown.prefab", 4f),
+        ("Assets/Prefabs/Enemy/Normal/Green/Enemy_Normal_Green.prefab", 2f),
+        ("Assets/Prefabs/Enemy/Normal/Red/Enemy_Normal_Red.prefab", 2f),
+        ("Assets/Prefabs/Enemy/Normal/Snow/Enemy_Normal_Snow.prefab", 2f)
     };
 
     [MenuItem("Tools/Brotato/Nối 4 loại quái vào Spawner")]

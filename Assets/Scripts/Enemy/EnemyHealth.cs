@@ -13,6 +13,8 @@ public class EnemyHealth : MonoBehaviour
     private Animator animator;
     private EnemyController movement;
     private EnemyMeleeAttack melee;
+    private EnemyRangedMovement rangedMovement;
+    private EnemyRangedAttack rangedAttack;
     private Collider2D hitbox;
 
     public int CurrentHealth => currentHealth;
@@ -26,6 +28,8 @@ public class EnemyHealth : MonoBehaviour
         animator = GetComponent<Animator>();
         movement = GetComponent<EnemyController>();
         melee = GetComponent<EnemyMeleeAttack>();
+        rangedMovement = GetComponent<EnemyRangedMovement>();
+        rangedAttack = GetComponent<EnemyRangedAttack>();
         hitbox = GetComponent<Collider2D>();
     }
 
@@ -67,6 +71,8 @@ public class EnemyHealth : MonoBehaviour
 
         if (movement != null) movement.enabled = false;
         if (melee != null) melee.enabled = false;
+        if (rangedMovement != null) rangedMovement.enabled = false;
+        if (rangedAttack != null) rangedAttack.enabled = false;
         if (hitbox != null) hitbox.enabled = false;
         if (animator != null) animator.Play(DeathState, 0, 0f);
 

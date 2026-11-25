@@ -1,5 +1,67 @@
 # Current project state
 
+## GĐ 4 — Cung thủ bắn được (2026-11-23)
+
+Nhánh `feature/bot-play`, chưa commit. GĐ 3 (phân map cho lính thường) đã có code từ commit `37f1df1`; GĐ 4 thêm AI bắn.
+
+**Script mới** (đều ở `Assets/Scripts/Enemy/`):
+
+| File | Việc |
+|---|---|
+| `EnemyRangedMovement.cs` | Giữ khoảng cách 5–6 unit: xa hơn 6 thì tiến, gần hơn 3,5 thì lùi, trong khoảng giữa đứng bắn. Tự `enabled = false` con `EnemyController` vì prefab dùng chung với lính thường. |
+| `EnemyRangedAttack.cs` | Giơ cung 0,3s rồi mới bắn, hồi chiêu 1s, tầm bắn 6 unit. Chỉ bắn khi Player còn trong tầm lúc cung buông. |
+| `EnemyProjectile.cs` | Mũi tên bay 8 u/s, sát thương 8, tự huỷ sau 4s. Chỉ trừ máu `PlayerHealth`; chạm thứ khác thì bay tiếp. Nhận hướng qua `SetDirection`, không dùng `transform.right`. |
+
+**Art mới:** `Assets/Art/Enemy/Bow/Arrow.png` (91×31, PPU 110) — cắt nguyên mũi tên từ frame Attack cuối của `Bow/Green.png`, đúng art style, không phải vẽ lại.
+
+**Prefab mới:** `Assets/Prefabs/Enemy/Bow/EnemyArrow.prefab` — SpriteRenderer + Rigidbody2D (gravity 0) + CircleCollider2D trigger r=0,15 + `EnemyProjectile`.
+
+**Prefab sửa:** `Prefabs/Enemy/Bow/Snow/Enemy_Bow_Snow.prefab` — bỏ `EnemyMeleeAttack`, thêm `EnemyRangedMovement` + `EnemyRangedAttack` (đã nối sẵn prefab đạn).
+
+**Code sửa:**
+
+- `EnemyHealth.cs`: thêm tham chiếu `EnemyRangedMovement`/`EnemyRangedAttack` để tắt cả hai khi chết.
+- `EnemySpawner.cs`: `ConfigureEnemy` gán target + tốc độ cho cung thủ, và đặt máu **80%** lính thường cùng đợt.
+
+**Kiểm tra đã chạy thật:** Roslyn compile `Assets/Scripts` (25 file) → **exit 0**; `Assets/Editor` → **exit 0**. Kiểm prefab: 10 component, không fileID nào trỏ vào block không tồn tại; không còn tham chiếu `EnemyMeleeAttack` trong prefab cung thủ. Kiểm `.meta`: guid sprite mũi tên trong prefab khớp `Arrow.png.meta`.
+
+**Chưa kiểm được:** Play Mode — cần xem mũi tên bay, né được, trúng thì mất 8 máu; và cung thủ có giữ đúng khoảng cách 3,5–6 unit không.
+
+## GĐ 2 — Tách snow + dọn public (2026-11-23)
+
+Nhánh `feature/bot-play`, chưa commit. Việc này hoàn tất phần dọn art của GĐ 2.
+
+**Phát hiện: tiền đề trong báo cáo trước SAI.** Hai file `Art/Enemy/{Normal,Bow}/Snow.png` (1024×1024) **không phải bản cũ** — chúng khớp pixel 100% với nửa trái/nửa phải của `public/normal_enemy/snow.png` (2048×1024). Đã kiểm bằng SHA-256 vùng ảnh: `255ad04b25d19a5f` (nửa trái = Normal) và `59ab2ca2dbec3a9d` (nửa phải = Bow). Không cần tách lại.
+
+**Vấn đề thật:** `public/normal_enemy/snow.png` (guid `605d32c7…`) đang được 10 file trỏ vào (8 clip + 2 prefab trắng), còn 2 file `Art/` có 0 reference. Xoá `public` ngay sẽ làm hỏng toàn bộ quái trắng.
+
+**Đã làm:**
+
+1. Sao lưu 4 file `public/*snow*` sang `Temp/enemy_backup/` (không vào git).
+2. Trỏ 8 clip trắng + 2 prefab trắng sang texture `Art/` đúng nửa. Mỗi clip lấy đúng 4 frame theo hàng: Idle `frame_0–3`, Walk `4–7`, Attack `8–11`, Death `12–15`.
+3. Sửa PPU 2 meta trắng từ **83 → 110** cho cao bằng 3 màu kia (trước đó goblin trắng cao hơn ~32%).
+4. Dựng lại `nameFileIdTable` trong 2 meta trắng — bảng cũ lệch 16/16 dòng so với `internalID` của sprite (còn sót `frame_16`–`frame_31` của ảnh gộp).
+5. Xoá `public/{normal,bow,elite_boss}/` + 3 meta thư mục rỗng.
+6. Sửa 3 chỗ gãy do đổi tên prefab ở phiên trước:
+   - `GunSkillTestArena.cs`: bỏ tham chiếu `EnemyContactDamage` (đã xoá) → chuyển sang `Destroy(EnemyMeleeAttack)`. **Đây là lỗi CS0246 chặn compile toàn project.**
+   - `EnemySpawnerSetup.cs` + `MapSetupTool.cs`: cập nhật đường dẫn prefab sang `Enemy/{Normal,Bow,Elite}/<Màu>/`.
+
+**Kiểm tra đã chạy thật:**
+
+- Roslyn compile `Assets/Scripts` → **exit 0**; `Assets/Editor` → **exit 0** (tham chiếu netstandard 2.1 + shims + UnityEngine modules + `Library/ScriptAssemblies`).
+- Render từng frame mà 8 clip trắng lấy ra từ texture `Art/` và xem trực tiếp: đúng pose (dao cho Normal, cung cho Bow; Attack có frame giơ cung + mũi tên bay).
+- Quét toàn `Assets/`: **0 tham chiếu** còn trỏ tới guid `public/normal_enemy/snow.png` hay `spider.png`; 0 đường dẫn prefab gãy trong `*.cs`.
+
+**Chưa kiểm được:**
+
+- **Play Mode**: không chạy được. `Temp/UnityLockfile` bị kernel giữ từ lần Unity crash 21/11 (`relay_win.exe` orphan đã kill nhưng lock vẫn còn). Unity batchmode báo "another Unity instance is running" rồi exit 1. Cần **khởi động lại máy** (hoặc đóng tiến trình giữ lock) trước khi mở Unity.
+- Chưa xem hình ảnh goblin trắng trong Game View sau khi đổi texture.
+- Unity chưa import lại 2 texture trắng. Khi mở Unity lần đầu, nếu sprite bị `Missing` hoặc sai frame thì **kiểm tra `nameFileIdTable` trong `.meta` trước** rồi mới nghĩ tới clip.
+
+**Quan sát nhỏ (chưa sửa, ngoài phạm vi):** `textureCompression` không đồng nhất giữa 11 file art — `Normal/Brown.png` là `0` (Uncompressed), 10 file còn lại là `1` (Compressed). Với pixel art nên là `0`; nếu chữ/sprite bị nhòe thì sửa hàng loạt.
+
+**Còn lại của GĐ 2:** `Art/Enemy/Bow/{Brown,Green,Red}.png` và `Art/Enemy/Elite/{Green,Red,Snow}.png` mới import, **chưa cắt frame** (PPU 100, 1 sprite). `Prefabs/Enemy/Bow/{Brown,Green,Red}/` và `Elite/*/` đang rỗng.
+
 ## Sân thử hệ Súng - 2026-11-10
 
 - Pháo đài cơ động dùng atlas tách chân đế, nòng, vòng dưới đất và chớp đầu nòng. Play Mode trong bản sao xác nhận chân đế giữ góc đứng thẳng khi nòng ngắm cả bốn hướng, chớp bám hướng nòng và giới hạn hai trụ vẫn hoạt động.

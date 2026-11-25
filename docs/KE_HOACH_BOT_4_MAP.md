@@ -175,27 +175,28 @@ Hồi chiêu dùng số ở cột trên. Yeti chiêu 3 `[?]` chọn tăng công 
 
 ## 11. Art
 
-Đã có:
+**Đã dời vào `Assets/Art/Enemy/{Normal,Bow,Elite}/` và xoá `Assets/public/{normal,bow,elite_boss}/`.** Ảnh gốc sao lưu ở `Temp/enemy_backup/`.
 
-| Art | File | Kích thước | Bố cục | Tình trạng |
-|---|---|---|---|---|
-| Lính thường nâu/xanh/đỏ | `public/normal_enemy/*.png` | 1448×1086 | 4 động tác × 4 frame | RGB, **không alpha** |
-| Lính thường trắng | `public/normal_enemy/snow.png` | 2046×768 | 8×4 = 32 pose, khác 3 màu kia | RGB, không alpha |
-| Cung thủ nâu/xanh/đỏ | `public/bow_enemy/*.png` | 1448×1086 | 4×4 | RGB, không alpha |
-| Cung thủ trắng | `public/bow_enemy/snow.png` | 2046×768 | trùng file lính trắng | RGB, không alpha |
-| Tinh nhuệ xanh/đỏ/trắng | `public/elite_boss/*.png` | 1254×1254 | 4×4, pose dính nhau | RGB, không alpha |
-| Animation 3 trùm | `Assets/Prefabs/Enemy/*/Animations/` | 1024×2048, 1024×1792 | 8/7 hàng × 4 frame | đã cắt 256×256 |
-| VFX 3 trùm | `Assets/Prefabs/Enemy/*/SkillAssets/` | PNG rời | — | dùng được |
+| Art | File | Tình trạng |
+|---|---|---|
+| Lính thường nâu/xanh/đỏ | `Art/Enemy/Normal/{Brown,Green,Red}.png` | ✅ đã cắt 16 frame 256×256, PPU 110 |
+| Lính thường trắng | `Art/Enemy/Normal/Snow.png` | ✅ đã cắt 16 frame, PPU 110, clip + prefab đã nối |
+| Cung thủ nâu | `Art/Enemy/Bow/Brown.png` | ✅ đã cắt 16 frame, PPU 110 |
+| Cung thủ xanh/đỏ | `Art/Enemy/Bow/{Green,Red}.png` | ⬜ mới import, **chưa cắt** (PPU 100, 1 sprite) |
+| Cung thủ trắng | `Art/Enemy/Bow/Snow.png` | ✅ đã cắt 16 frame, PPU 110, clip + prefab đã nối (chưa có AI bắn) |
+| Tinh nhuệ xanh/đỏ/trắng | `Art/Enemy/Elite/{Green,Red,Snow}.png` | ⬜ mới import, **chưa cắt** (PPU 100, 1 sprite) |
+| Animation 3 trùm | `Prefabs/Enemy/Boss/*/Animations/` | ✅ đã cắt 256×256 |
+| VFX 3 trùm | `Prefabs/Enemy/Boss/*/SkillAssets/` | ✅ dùng được |
 
-Phải làm:
+Còn phải làm:
 
-1. Tách nền caro cho 11 file quái thường/cung thủ/tinh nhuệ.
-2. Cắt theo connected-component, không cắt lưới đều — tinh nhuệ có tay với sang ô bên.
-3. File trắng (8×4) xử lý riêng tham số.
-4. **PPU sao cho quái cao bằng Player** (Player cao 1,34 unit) → lính thường/cung thủ ~PPU 110, tinh nhuệ phóng to ×2.
-5. Cung thủ và tinh nhuệ giả định cùng bố cục 4 động tác như lính thường; GĐ 1 cắt xong nhìn là biết, sai thì sửa tham số.
+1. Cắt frame cho `Bow/{Green,Red}` và `Elite/{Green,Red,Snow}` — dùng lại quy trình connected-component đã dùng cho các file khác.
+2. Tinh nhuệ phóng to ×2 so với lính thường; xem từng frame vì pose dính nhau sang ô bên.
+3. Tạo clip + controller + prefab cho cung thủ 3 màu và tinh nhuệ 3 màu, đặt dưới `Prefabs/Enemy/<Loại>/<Màu>/`.
 
-Con nhện cũ (`spider.png`) bỏ, chỉ giữ trong scene tạm tới khi GĐ 2 xong.
+**Bài học từ snow:** khi tách ảnh gộp, phải sửa cả `internalID` và `nameFileIdTable` trong `.meta`; nếu chỉ sửa rect thì clip sẽ trỏ sai frame. PPU phải đồng nhất 110 cho mọi màu, nếu không quái lệch chiều cao.
+
+Con nhện cũ (`spider.png`) đã xoá.
 
 ## 12. Code
 
@@ -247,7 +248,7 @@ Mỗi đợt khai báo đủ danh sách loại được ra (đợt 2 khai lính 
 | ~~1~~ | ~~Cắt art + prefab goblin nâu~~ | ✅ xong | — |
 | ~~2~~ | ~~4 màu goblin + spawner nhiều loại~~ | ✅ xong | — |
 | **3** | **Phân map cho lính thường**: `MapSettings` + dời Player 35 đơn vị khi xong map; 4 map chỉ ra goblin màu của map | đánh hết map 1 tự sang map 2, mỗi map đúng 1 màu | 1 buổi |
-| 4 | Cung thủ: `EnemyRangedMovement` + `EnemyProjectile` + 4 màu | bắn tên bay, né được | 1,5 buổi |
+| **4** | **Cung thủ**: `EnemyRangedMovement` + `EnemyRangedAttack` + `EnemyProjectile` + 4 màu | code + prefab trắng xong; bắn tên bay, né được | 1,5 buổi |
 | 5 | Phân map cho cung thủ | 4 map có goblin + cung thủ cùng màu | 0,5 buổi |
 | 6 | Tinh nhuệ 3 màu + phân map | 4 map có thêm tinh nhuệ | 1 buổi |
 | 7 | Khung boss 4 mạng + Xương khô | đủ 4 mạng, 3 chiêu | 1,5 buổi |

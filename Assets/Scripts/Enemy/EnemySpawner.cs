@@ -124,8 +124,22 @@ public class EnemySpawner : MonoBehaviour
             controller.SetTarget(player);
             controller.SetMoveSpeed(settings.enemySpeed);
         }
+
+        // Cung thủ giữ khoảng cách thay vì lao vào; máu chỉ còn 80% lính thường.
+        EnemyRangedMovement ranged = enemy.GetComponent<EnemyRangedMovement>();
+        if (ranged != null)
+        {
+            ranged.SetTarget(player);
+            ranged.SetMoveSpeed(settings.enemySpeed);
+        }
+
         EnemyHealth health = enemy.GetComponent<EnemyHealth>();
-        if (health != null) health.InitializeHealth(settings.enemyHealth);
+        if (health != null)
+        {
+            health.InitializeHealth(ranged != null
+                ? Mathf.Max(1, Mathf.RoundToInt(settings.enemyHealth * 0.8f))
+                : settings.enemyHealth);
+        }
     }
 
     public void ClearEnemies()

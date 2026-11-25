@@ -14,10 +14,10 @@ public static class MapSetupTool
 
     private static readonly (string biome, float centerX, string[] prefabs)[] Maps =
     {
-        ("Forest", 0f, new[] { "Enemy" }),
-        ("Moon", 35f, new[] { "Enemy_Goblin_Green" }),
-        ("Inferno", 70f, new[] { "Enemy_Goblin_Red" }),
-        ("Tundra", 105f, new[] { "Enemy_Goblin_Snow" })
+        ("Forest", 0f, new[] { "Normal/Brown/Enemy_Normal_Brown" }),
+        ("Moon", 35f, new[] { "Normal/Green/Enemy_Normal_Green" }),
+        ("Inferno", 70f, new[] { "Normal/Red/Enemy_Normal_Red" }),
+        ("Tundra", 105f, new[] { "Normal/Snow/Enemy_Normal_Snow" })
     };
 
     [MenuItem("Tools/Brotato/Nối 4 map vào Scene")]

@@ -254,9 +254,10 @@ public sealed class GunSkillTestArena : MonoBehaviour
             movement.enabled = movingTargets && !hardBoss;
             if (hardBoss) movement.SetMoveSpeed(2.7f);
             enemy.AddComponent<GunSkillTargetEffects>().IgnorePush = bossMode;
-            enemy.GetComponent<EnemyContactDamage>().enabled = false;
-            // Disabled MonoBehaviours still receive trigger callbacks in Unity.
-            Destroy(enemy.GetComponent<EnemyContactDamage>());
+            // Bia tập không được đánh trả Player. Phải Destroy chứ không chỉ tắt:
+            // coroutine đang chạy vẫn tiếp tục khi component bị disable.
+            var melee = enemy.GetComponent<EnemyMeleeAttack>();
+            if (melee != null) Destroy(melee);
             foreach (var renderer in enemy.GetComponentsInChildren<SpriteRenderer>())
                 renderer.sharedMaterial = spriteMaterial;
             targets[i] = enemy.GetComponent<EnemyHealth>();
