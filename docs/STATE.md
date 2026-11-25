@@ -2,6 +2,12 @@
 
 ## Sân thử hệ Súng - 2026-11-10
 
+- Thay tám animation theo public/new_asset bằng GunNewSkillArt. Quake tạo vệt lửa; rocket và cầu lửa có đoạn bay/nổ, cầu lửa gây rạn giáp; Holy Smite thay thương; vệ tinh đỏ dùng life-steal với cơ chế tấn công; khiên vàng chặn mọi hướng và giữ đạn phản riêng; portal dùng cặp cổng đứng; Phun lửa Hexcore bám hướng ngắm trong 5 giây, hồi thử 9 giây từ lúc bắt đầu. Play Mode trong bản sao xác nhận đủ tám sheet đúng kích thước, frame đổi, sát thương, rạn giáp, khiên bốn hướng, đạn phản cũ, cổng, phím R và luồng lửa ngừng gây sát thương sau 5 giây. Cần xem trực tiếp Game View.
+
+- Mưa thiên thạch thay Trực thăng oanh kích trong GunSkillTest. Dùng sheet public/new_asset/meteor.png, 12 cột với ô 272 × 232. Một lần R gọi 5 điểm rơi trong vùng quanh điểm ngắm, cách nhau 0,22 giây, mỗi điểm gây 47 sát thương diện rộng. Play Mode trong bản sao xác nhận phím R gọi đủ 5 thiên thạch, tất cả dùng sheet mới và rơi trong vùng đã chọn, mỗi quả gây sát thương đúng một lần, mục tiêu ngoài vùng an toàn, hồi chiêu 5 giây và tự dọn hiệu ứng. Chưa xem trực tiếp trong Game View.
+
+- Lựu đạn mới dùng nguyên sheet public/new_asset/grenade.png, cắt 10 cột với ô 300 × 200. Ném một quả mỗi lần R, tối đa 3 lượt dự trữ, hồi tuần tự mỗi 2,4 giây. Play Mode trong bản sao Unity xác nhận texture giữ đúng kích thước, animation ném và nổ dùng sheet mới, ba lượt ném gây ba lần sát thương, hết bom bị chặn, hồi lần lượt và không quá ba quả. Chuyển chiêu không làm đầy kho bom, đặt lại sân phục hồi kho. Chưa xem trực tiếp trong Game View.
+
 - Pháo đài cơ động dùng atlas tách chân đế, nòng, vòng dưới đất và chớp đầu nòng. Play Mode trong bản sao xác nhận chân đế giữ góc đứng thẳng khi nòng ngắm cả bốn hướng, chớp bám hướng nòng và giới hạn hai trụ vẫn hoạt động.
 
 - Phím R thay nút Tung chiêu trong GunSkillTest. Bảng vẫn hiển thị hồi chiêu và số trụ. Play Mode trong bản sao xác nhận phím R mô phỏng kích hoạt cả năm chiêu qua Input System và vẫn giữ giới hạn hai trụ.
@@ -175,3 +181,17 @@ Checkpoint checks: reread project guidance/memory, inspected current WaveManager
 ## Git handoff
 
 Earlier implementation preserved pre-existing changes and did not itself commit/push. At checkpoint, git status was clean and HEAD had advanced to 60c4f25; earlier work is now represented in the local repository. This checkpoint modifies only docs/STATE.md and does not commit/push. Remote push status was not checked. Include source/.meta/docs when sharing; exclude Library, Temp and Logs.
+
+
+## 2026-11-18 · Approved pixel VFX integrated in gun test scene
+
+Replaced the displayed artwork for Lưỡi đạn càn quét, Kíp nổ liên hoàn, Xuyên kích hồi quy, Lưỡi cưa bám đuổi, Hoả lực leo thang, Đạn phân rã, Mỏ neo xuyên tâm and Lồng đạn Hexcore. Sixteen separated runtime atlases are under Assets/Art/GunSkills/PixelSkills; approved previews and source-layer copies are under public/new_asset/pixel-skills-v2. GunNewSkillArt caches the additional layers and GunSkillTest.unity wires them through pixelSkillSheets. Original gameplay damage, triggers, timers, cooldowns and upgrades are preserved; Echo remains on its existing art.
+
+Unity 6000.3.22f1 batch compilation and actual automated Play Mode passed on an isolated copy. GunLabPixelSmoke exercised nine cases: sweep 32, fuse 35 with no damage before the original fuse delay, recall 15+27 with new outbound/return art, saw six ticks totalling 54, overcharge muzzle and heavy-round atlas, decay 8, anchor expiry 21, anchor snap 40, and R-cast cage twelve node shots / six damage pairs totalling 162 (ranks 2 where applicable). Reset disabled remaining visuals; new atlases are referenced and Point filtered. Log: pixel-skills-smoke.log in the session visualization folder. The isolated Editor Search startup exception was excluded by its specific UnityEditor.Search stack; no gun runtime errors occurred. No Windows build or human visual Play Mode review was performed. Main GameScene, packages and project version were not changed by this task.
+
+
+## 2026-11-18 · Remove rectangular glow from portal and fire breath
+
+Added NoGlowSprite.shader/material under Assets/Art/GunSkills/UpdatedSkills and wired skillNoGlowMaterial in GunSkillTest. Only the two portal SpriteRenderers and Hexcore fire-breath renderer use it. The shader discards source alpha below 0.25 before applying sprite tint/fade, removing the broad low-opacity rectangular glow while retaining higher-opacity fire, portal and particle detail. Original PNGs, gameplay timing, damage and cooldowns are unchanged.
+
+Unity 6000.3.22f1 shader import/compilation and automated Play Mode passed on an isolated copy: both effect types used the filtered material and the existing eight imported-art regressions passed (including five-second tracked fire breath and functioning gates). Log: no-glow-smoke.log in the session visualization folder. GPU-rendered visual confirmation remains for the user in GunSkillTest; the automated run used -nographics.

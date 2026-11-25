@@ -34,9 +34,9 @@ Chọn một kỹ năng trong nhóm **Lõi đầu**. Bấm lại kỹ năng đan
 
 | Nhánh | Kỹ năng thứ nhất | Kỹ năng thứ hai | Kỹ năng thứ ba |
 |---|---|---|---|
-| Đạn toả | **Lưỡi đạn càn quét.** Mỗi phát thứ hai thêm lưỡi năng lượng tầm gần. Tiến sát bia để thử. | **Áp lực công phá.** Hai hoặc ba loạt trúng boss liên tiếp làm vỡ giáp. Bậc đẩy lùi tích áp lực nhanh hơn. | **Phát bắn dồn lực.** Mỗi phát thứ hai gắn dấu. Càng nhiều viên trúng, vụ nổ càng mạnh. |
-| Liên thanh | **Kíp nổ liên hoàn.** Đủ 5 lượt đạn trúng cùng bia thì kíp phát nổ. Bậc bung toả tăng sát thương nổ. | **Băng đạn cộng hưởng.** Trúng ít nhất 60% số viên của một loạt vào cùng bia sẽ gọi súng ảo. | **Bão đạn quỹ đạo.** Đủ 8 lượt trúng cùng bia thì các vệ tinh phóng lần lượt về bia. |
-| Xuyên thấu | **Vết rách không gian.** Mỗi phát thứ tư để lại vệt gây sát thương theo nhịp. | **Xuyên kích hồi quy.** Mỗi phát thứ tư phóng thương. Thương có thể đánh trúng cùng bia một lần ở mỗi lượt đi và về. | **Thiên thương.** Sau 3 lần trúng cùng bia, thương giáng vào vị trí đã đánh dấu. Boss có thể rời vùng va chạm. |
+| Đạn toả | **Lưỡi đạn càn quét.** Mỗi phát thứ hai thêm lưỡi năng lượng tầm gần. Tiến sát bia để thử. | **Áp lực công phá.** Tích áp lực từ các loạt trúng để tụ và phóng cầu lửa. Cầu lửa nổ rồi gây rạn giáp trong 5 giây. Bậc đẩy lùi tích áp lực nhanh hơn. | **Phát bắn dồn lực.** Mỗi phát thứ hai trúng sẽ gọi một rocket bay tới boss rồi nổ. Càng nhiều viên của phát đó trúng, rocket càng mạnh. |
+| Liên thanh | **Kíp nổ liên hoàn.** Đủ 5 lượt đạn trúng cùng bia thì kíp phát nổ. Bậc bung toả tăng sát thương nổ. | **Băng đạn cộng hưởng.** Trúng ít nhất 60% số viên của một loạt vào cùng bia sẽ gọi súng ảo. | **Bão đạn quỹ đạo.** Đủ 8 lượt trúng cùng bia thì các vệ tinh đỏ phóng lần lượt về bia. Dùng phần quả cầu của life-steal.png làm hình ảnh tấn công. |
+| Xuyên thấu | **Vết rách không gian.** Mỗi phát thứ tư tạo một vệt lửa Quake dọc đường bắn, gây sát thương liên tục theo nhịp. | **Xuyên kích hồi quy.** Mỗi phát thứ tư phóng thương. Thương có thể đánh trúng cùng bia một lần ở mỗi lượt đi và về. | **Thiên thương.** Sau 3 lần trúng cùng bia, cột sáng Holy Smite giáng vào vị trí đã đánh dấu. Boss có thể rời vùng va chạm. |
 
 Thông số là giá trị thử. Hiệu ứng cấp 11 có thể dùng cùng kỹ năng cấp 4 và các bậc nâng cấp đang có. Sát thương phụ từ cấp 11 không nạp lại kỹ năng cấp 11.
 
@@ -47,7 +47,7 @@ Thông số là giá trị thử. Hiệu ứng cấp 11 có thể dùng cùng k�
 
 | Nhánh | Kỹ năng thứ nhất | Kỹ năng thứ hai |
 |---|---|---|
-| Đạn toả | **Giáp phản pháo.** Hai viên trúng boss trong cự ly gần tạo giáp trước mặt. Ngắm về phía đòn tới để chặn và bắn trả. Thử với boss lõi hai. | **Lưỡi cưa bám đuổi.** Hai viên của mỗi phát thứ hai phải trúng cùng boss. Ở gần boss để cưa tiếp tục gây sát thương. |
+| Đạn toả | **Giáp phản pháo.** Hai viên trúng boss trong cự ly gần tạo khiên vàng bao quanh nhân vật. Khiên chặn đòn từ mọi hướng rồi bắn trả theo hướng ngắm. Animation khiên tách riêng khỏi đạn phản pháo. | **Lưỡi cưa bám đuổi.** Hai viên của mỗi phát thứ hai phải trúng cùng boss. Ở gần boss để cưa tiếp tục gây sát thương. |
 | Liên thanh | **Hoả lực leo thang.** Ba loạt có ít nhất ba viên trúng sẽ cường hoá các viên cuối loạt trong 5,5 giây. | **Đạn phân rã.** Tám viên trúng kích hoạt trạng thái phân rã. Tiếp tục bắn để gây thêm sát thương theo nhịp. |
 | Xuyên thấu | **Cổng xuyên kích.** Mỗi phát thứ tư trúng boss sẽ mở cặp cổng. Đứng ngoài cặp cổng, bắn qua cổng gần để thấy đạn thoát ở phía bên kia và bay ngược lại. | **Mỏ neo xuyên tâm.** Mỗi phát thứ tư trúng boss đặt neo. Boss đi xa sẽ làm dây đứt. Nếu boss ở lại, neo gây sát thương vùng khi hết hạn. |
 
@@ -59,10 +59,17 @@ Các ngưỡng, thời gian và sát thương là thông số thử. Đạn ph�
 
 | Chiêu cuối | Cách thử | Hồi chiêu thử |
 |---|---|---:|
-| Ngũ bom liên hoàn | Nhắm gần boss để chồng nhiều vùng nổ. Năm quả đáp và nổ lệch nhịp. | 4 giây |
-| Trực thăng oanh kích | Nhắm dọc hướng boss di chuyển. Dấu báo xuất hiện trước khi trực thăng bay qua và thả năm quả. | 5 giây |
+| Ngũ bom liên hoàn | Tích tối đa 3 quả. Mỗi lần nhấn R ném 1 quả theo cung tới dấu ngắm và nổ diện rộng. Có thể ném liên tiếp khi còn bom. | Hồi từng quả sau 2,4 giây |
+| Mưa thiên thạch | Một lần R gọi 5 thiên thạch liên tiếp trong vùng quanh điểm ngắm, cách nhau 0,22 giây. Mỗi quả gây sát thương diện rộng khi chạm đất. | 5 giây |
 | Pháo đài cơ động | Nhấn **R** lần hai sau khi hồi chiêu để đặt trụ thứ hai. Trụ ưu tiên boss trong tầm, hoạt động 8 giây sau khi triển khai. Bảng báo đầy nếu cả hai trụ vẫn còn. | 2,4 giây |
-| Pháo ray Hexcore | Xếp nhiều mục tiêu trên đường bắn. Pháo tụ lực 0,78 giây rồi bắn xuyên theo hướng đã chọn khi bấm. | 4 giây |
+| Phun lửa Hexcore | Nhấn R để phun lửa 5 giây từ trước mặt. Luồng lửa bám theo nhân vật và hướng ngắm, gây sát thương liên tục trong hình quạt. | 9 giây từ lúc bắt đầu, gồm 5 giây phun |
 | Lồng đạn Hexcore | Nhắm vào nơi boss sắp đứng. Sáu đỉnh bắn từng cặp vào tâm trong hai vòng. | 5 giây |
 
-Hồi chiêu dùng chung giữa các chiêu trong sân thử. **Đặt lại sân** dọn chiêu đang chạy, dọn trụ và xoá hồi chiêu, đồng thời giữ lựa chọn Hexcore.
+Bom hồi tuần tự từng lượt, tối đa 3 quả, và vẫn hồi khi chọn chiêu khác. Các chiêu khác dùng hồi chiêu chung của sân thử. **Đặt lại sân** dọn chiêu đang chạy, dọn trụ và xoá hồi chiêu, đồng thời giữ lựa chọn Hexcore.
+
+
+## Asset pixel đã duyệt — 18/11/2026
+
+Mở Assets/Scenes/GunSkillTest.unity rồi Play. Chọn nhánh trên bảng bên phải; bật lần lượt Lưỡi đạn càn quét, Kíp nổ liên hoàn hoặc Xuyên kích hồi quy ở lõi thứ nhất. Ở lõi thứ hai, thử Lưỡi cưa bám đuổi, Hoả lực leo thang, Đạn phân rã và Mỏ neo xuyên tâm trên boss; chúng vẫn cùng tồn tại với lõi thứ nhất. Chọn Lồng đạn Hexcore rồi nhấn R, ngắm về phía boss. Cơ chế và hồi chiêu giữ như trước.
+
+Quan sát lửa/khói pixel mới, đạn hồi quy quay đầu mà không lật hai lần, lửa đầu nòng tách khỏi đạn cường hoá, vụn phân rã chỉ bật theo hit và neo đứng thẳng khi dây pixel kéo căng. Thử chuyển nhánh/reset khi đang có hiệu ứng để kiểm tra dọn sạch. Bản duyệt và manifest atlas ở public/new_asset/pixel-skills-v2; runtime art nằm Assets/Art/GunSkills/PixelSkills, đã nối scene nên không cần kéo asset bằng tay.

@@ -15,6 +15,11 @@ public sealed class GunSkillTestArena : MonoBehaviour
     [SerializeField] private Texture2D[] coreTwoSheets;
     [SerializeField] private Texture2D[] ultimateSheets;
     [SerializeField] private Texture2D turretAtlas;
+    [SerializeField] private Texture2D grenadeAtlas;
+    [SerializeField] private Texture2D meteorAtlas;
+    [SerializeField] private Texture2D[] updatedSkillSheets;
+    [SerializeField] private Texture2D[] pixelSkillSheets;
+    [SerializeField] private Material skillNoGlowMaterial;
 
     private const float TargetRespawnDelay = 0.75f;
     private const float PlayerRetryDelay = 1.5f;
@@ -68,8 +73,8 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private GunCoreTwo coreTwo;
     private static readonly string[] UltimateNames =
     {
-        "", "Ngũ bom liên hoàn", "Trực thăng oanh kích", "Pháo đài cơ động",
-        "Pháo ray Hexcore", "Lồng đạn Hexcore"
+        "", "Ngũ bom liên hoàn", "Mưa thiên thạch", "Pháo đài cơ động",
+        "Phun lửa Hexcore", "Lồng đạn Hexcore"
     };
     private GunHexcoreUltimate ultimate;
     private HexcoreUltimate selectedUltimate;
@@ -137,14 +142,16 @@ public sealed class GunSkillTestArena : MonoBehaviour
         effectsRoot = new GameObject("Shots and effects").transform;
         weapon = gun.AddComponent<GunSkillWeapon>();
         weapon.Setup(muzzle, effectsRoot, spriteMaterial, bulletSprite, piercingSprite, shockwaveSprite, flameFrames);
+        var importedArt = gameObject.AddComponent<GunNewSkillArt>();
+        importedArt.Setup(updatedSkillSheets, pixelSkillSheets, skillNoGlowMaterial);
         level11 = gameObject.AddComponent<GunLevel11>();
-        level11.Setup(weapon, player.transform, effectsRoot, targets, level11Sheets);
+        level11.Setup(weapon, player.transform, effectsRoot, targets, level11Sheets, importedArt);
         weapon.SetLevel11(level11);
         coreTwo = gameObject.AddComponent<GunCoreTwo>();
-        coreTwo.Setup(weapon, player.transform, muzzle, spriteMaterial, coreTwoSheets);
+        coreTwo.Setup(weapon, player.transform, muzzle, spriteMaterial, coreTwoSheets, importedArt);
         weapon.SetCoreTwo(coreTwo);
         ultimate = gameObject.AddComponent<GunHexcoreUltimate>();
-        ultimate.Setup(weapon, player.transform, muzzle, spriteMaterial, targets, ultimateSheets, turretAtlas);
+        ultimate.Setup(weapon, player.transform, muzzle, spriteMaterial, targets, ultimateSheets, turretAtlas, grenadeAtlas, meteorAtlas, importedArt);
         ResetTargets();
     }
 
@@ -349,6 +356,8 @@ public sealed class GunSkillTestArena : MonoBehaviour
             status = "Chờ sân đặt lại";
         else if (selectedUltimate == HexcoreUltimate.Turret && ultimate.TurretCount >= GunHexcoreUltimate.TurretLimit)
             status = $"Đủ {GunHexcoreUltimate.TurretLimit} trụ";
+        else if (selectedUltimate == HexcoreUltimate.Grenades && ultimate.GrenadeCharges == 0)
+            status = "Hết bom dự trữ";
         else if (ultimate.CooldownLeft > 0f)
             status = $"Hồi chiêu · {ultimate.CooldownLeft:0.0}s";
         else
@@ -356,6 +365,12 @@ public sealed class GunSkillTestArena : MonoBehaviour
 
         if (selectedUltimate == HexcoreUltimate.Turret)
             status += $" ({ultimate.TurretCount}/{GunHexcoreUltimate.TurretLimit} trụ)";
+        if (selectedUltimate == HexcoreUltimate.Grenades)
+        {
+            status += $" · Bom {ultimate.GrenadeCharges}/{GunHexcoreUltimate.GrenadeCapacity}";
+            if (ultimate.GrenadeRechargeLeft > 0f)
+                status += $" · Hồi 1 quả sau {ultimate.GrenadeRechargeLeft:0.0}s";
+        }
         GUILayout.Label(status, GUI.skin.box);
     }
 

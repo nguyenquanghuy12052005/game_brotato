@@ -1,0 +1,34 @@
+{
+  "name": "Lưỡi đạn càn quét",
+  "frameWidth": 320,
+  "frameHeight": 288,
+  "columns": 10,
+  "rows": 6,
+  "frames": 60,
+  "fps": 30,
+  "filter": "Point",
+  "pivotTopLeft": [
+    160,
+    181
+  ],
+  "loop": false,
+  "events": [
+    {
+      "frame": 0,
+      "label": "charge"
+    },
+    {
+      "frame": 6,
+      "label": "sweep"
+    },
+    {
+      "frame": 18,
+      "label": "smoke"
+    }
+  ],
+  "sources": [
+    "fireball-throw.png",
+    "quake.png"
+  ],
+  "scope": "Visual review; staged motions demonstrate existing mechanics. Do not use montage as a moving gameplay sprite. Split/move layers on later integration."
+}

@@ -1,0 +1,226 @@
+[
+  {
+    "name": "sweep",
+    "frames": 60,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      70,
+      181
+    ],
+    "ppu": 32,
+    "guid": "09be470239495958b55c7b68e49b5213"
+  },
+  {
+    "name": "fuse",
+    "frames": 90,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 70,
+    "guid": "13a252659a565295913da41f042c0526"
+  },
+  {
+    "name": "recall-out",
+    "frames": 14,
+    "cell": [
+      192,
+      128
+    ],
+    "pivotTopLeft": [
+      128,
+      88
+    ],
+    "ppu": 60,
+    "guid": "7041c9a63b495d67a17e6e17700349ca"
+  },
+  {
+    "name": "recall-return",
+    "frames": 14,
+    "cell": [
+      192,
+      128
+    ],
+    "pivotTopLeft": [
+      128,
+      88
+    ],
+    "ppu": 60,
+    "guid": "636b9c78e3585971828502b035e27041"
+  },
+  {
+    "name": "impact",
+    "frames": 36,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 70,
+    "guid": "e5ad30ea297350fda91df46a033da248"
+  },
+  {
+    "name": "saw",
+    "frames": 72,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 60,
+    "guid": "1761193239775987b1de6fa4df88a4d5"
+  },
+  {
+    "name": "hot-muzzle",
+    "frames": 24,
+    "cell": [
+      192,
+      128
+    ],
+    "pivotTopLeft": [
+      64,
+      88
+    ],
+    "ppu": 60,
+    "guid": "c256b5b2a9f5557dafc907157bf5f6bd"
+  },
+  {
+    "name": "heavy",
+    "frames": 14,
+    "cell": [
+      192,
+      128
+    ],
+    "pivotTopLeft": [
+      128,
+      88
+    ],
+    "ppu": 40,
+    "guid": "61e5bd2accb2545da977174b6cf2b9af"
+  },
+  {
+    "name": "decay-aura",
+    "frames": 48,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 50,
+    "guid": "f7814c06b89e5243a851b3a12b81c120"
+  },
+  {
+    "name": "decay-hit",
+    "frames": 32,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 60,
+    "guid": "8cf3574898085bba834b8d63d1fb4f7b"
+  },
+  {
+    "name": "anchor",
+    "frames": 48,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 50,
+    "guid": "df6f43a9ff845bbc96e6e5b3286e50e5"
+  },
+  {
+    "name": "tether",
+    "frames": 8,
+    "cell": [
+      16,
+      8
+    ],
+    "pivotTopLeft": [
+      0,
+      4
+    ],
+    "ppu": 64,
+    "guid": "40bd68ac1a085a46ad34fabaee8948b5"
+  },
+  {
+    "name": "anchor-snap",
+    "frames": 48,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 55,
+    "guid": "b67fe2366d4e55c0bb0bbf52a5dbb510"
+  },
+  {
+    "name": "cage-field",
+    "frames": 48,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      160
+    ],
+    "ppu": 32.69230769230769,
+    "guid": "9ed2262befac5750b570ad8cc1708907"
+  },
+  {
+    "name": "cage-pulse",
+    "frames": 14,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 40.38461538461538,
+    "guid": "d8b79a2d853b5d838d278a392bc943b0"
+  },
+  {
+    "name": "cage-collapse",
+    "frames": 48,
+    "cell": [
+      320,
+      288
+    ],
+    "pivotTopLeft": [
+      160,
+      181
+    ],
+    "ppu": 50,
+    "guid": "cd9809c552575f4a8dd287d38dac325e"
+  }
+]

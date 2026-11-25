@@ -1,0 +1,35 @@
+{
+  "name": "Hoả lực leo thang",
+  "frameWidth": 320,
+  "frameHeight": 288,
+  "columns": 10,
+  "rows": 12,
+  "frames": 120,
+  "fps": 30,
+  "filter": "Point",
+  "pivotTopLeft": [
+    160,
+    181
+  ],
+  "loop": false,
+  "events": [
+    {
+      "frame": 0,
+      "label": "warmup"
+    },
+    {
+      "frame": 39,
+      "label": "overcharge"
+    },
+    {
+      "frame": 80,
+      "label": "cooldown"
+    }
+  ],
+  "sources": [
+    "fireball-throw.png",
+    "quake.png",
+    "muzzle-smg.png"
+  ],
+  "scope": "Visual review; staged motions demonstrate existing mechanics. Do not use montage as a moving gameplay sprite. Split/move layers on later integration."
+}
