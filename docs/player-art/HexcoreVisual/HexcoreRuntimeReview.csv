@@ -1,0 +1,265 @@
+﻿form,skill,heading,art_status,different_sprites,vfx_samples,reset,measured_frames,chain
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",N,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",NE,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",E,InReview,14,4,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",SE,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",S,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",SW,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",W,AuthoredBlockout,14,3,OK,0,OK
+1,"Q1 · Kiếm Lướt / Phong Ảnh Trảm",NW,AuthoredBlockout,14,3,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",N,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",NE,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",E,AuthoredBlockout,14,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",SE,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",S,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",SW,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",W,AuthoredBlockout,12,10,OK,0,OK
+1,"Q2 · Hoành Nguyệt Trảm",NW,AuthoredBlockout,12,10,OK,0,OK
+1,"Q3 · Phản Kiếm Quyết",N,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",NE,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",E,AuthoredBlockout,13,5,OK,0,OK
+1,"Q3 · Phản Kiếm Quyết",SE,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",S,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",SW,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",W,AuthoredBlockout,10,5,OK,3,OK
+1,"Q3 · Phản Kiếm Quyết",NW,AuthoredBlockout,10,5,OK,3,OK
+1,"R1 · Thiên Vẫn Trảm",N,AuthoredBlockout,10,12,OK,2,OK
+1,"R1 · Thiên Vẫn Trảm",NE,AuthoredBlockout,10,12,OK,1,OK
+1,"R1 · Thiên Vẫn Trảm",E,AuthoredBlockout,14,12,OK,0,OK
+1,"R1 · Thiên Vẫn Trảm",SE,AuthoredBlockout,10,12,OK,1,OK
+1,"R1 · Thiên Vẫn Trảm",S,AuthoredBlockout,10,12,OK,2,OK
+1,"R1 · Thiên Vẫn Trảm",SW,AuthoredBlockout,10,12,OK,1,OK
+1,"R1 · Thiên Vẫn Trảm",W,AuthoredBlockout,10,12,OK,0,OK
+1,"R1 · Thiên Vẫn Trảm",NW,AuthoredBlockout,10,12,OK,1,OK
+1,"R2 · Tam Thiên Kiếm Quyết",N,AuthoredBlockout,10,21,OK,3,OK
+1,"R2 · Tam Thiên Kiếm Quyết",NE,AuthoredBlockout,10,21,OK,3,OK
+1,"R2 · Tam Thiên Kiếm Quyết",E,AuthoredBlockout,10,21,OK,0,OK
+1,"R2 · Tam Thiên Kiếm Quyết",SE,AuthoredBlockout,10,21,OK,3,OK
+1,"R2 · Tam Thiên Kiếm Quyết",S,AuthoredBlockout,10,21,OK,3,OK
+1,"R2 · Tam Thiên Kiếm Quyết",SW,AuthoredBlockout,10,21,OK,3,OK
+1,"R2 · Tam Thiên Kiếm Quyết",W,AuthoredBlockout,10,21,OK,0,OK
+1,"R2 · Tam Thiên Kiếm Quyết",NW,AuthoredBlockout,10,21,OK,3,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",N,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",NE,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",E,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",SE,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",S,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",SW,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",W,AuthoredBlockout,10,13,OK,0,OK
+1,"R3 · Vạn Ảnh Tuyệt Sát",NW,AuthoredBlockout,10,13,OK,0,OK
+2,"E1 · Ám Bộ Trảm",N,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",NE,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",E,AuthoredBlockout,11,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",SE,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",S,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",SW,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",W,AuthoredBlockout,10,6,OK,0,OK
+2,"E1 · Ám Bộ Trảm",NW,AuthoredBlockout,10,6,OK,0,OK
+2,"E2 · Huyết Ấn",N,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",NE,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",E,AuthoredBlockout,13,11,OK,0,OK
+2,"E2 · Huyết Ấn",SE,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",S,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",SW,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",W,AuthoredBlockout,10,11,OK,0,OK
+2,"E2 · Huyết Ấn",NW,AuthoredBlockout,10,11,OK,0,OK
+2,"E3 · Tàng Ảnh",N,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",NE,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",E,AuthoredBlockout,14,10,OK,0,OK
+2,"E3 · Tàng Ảnh",SE,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",S,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",SW,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",W,AuthoredBlockout,10,10,OK,0,OK
+2,"E3 · Tàng Ảnh",NW,AuthoredBlockout,10,10,OK,0,OK
+2,"R1 · Thiên Vẫn Trảm",N,AuthoredBlockout,10,12,OK,2,OK
+2,"R1 · Thiên Vẫn Trảm",NE,AuthoredBlockout,10,12,OK,1,OK
+2,"R1 · Thiên Vẫn Trảm",E,AuthoredBlockout,14,12,OK,0,OK
+2,"R1 · Thiên Vẫn Trảm",SE,AuthoredBlockout,10,12,OK,1,OK
+2,"R1 · Thiên Vẫn Trảm",S,AuthoredBlockout,10,12,OK,2,OK
+2,"R1 · Thiên Vẫn Trảm",SW,AuthoredBlockout,10,12,OK,1,OK
+2,"R1 · Thiên Vẫn Trảm",W,AuthoredBlockout,10,12,OK,0,OK
+2,"R1 · Thiên Vẫn Trảm",NW,AuthoredBlockout,10,12,OK,1,OK
+2,"R2 · Tam Thiên Kiếm Quyết",N,AuthoredBlockout,10,21,OK,3,OK
+2,"R2 · Tam Thiên Kiếm Quyết",NE,AuthoredBlockout,10,21,OK,3,OK
+2,"R2 · Tam Thiên Kiếm Quyết",E,AuthoredBlockout,10,21,OK,0,OK
+2,"R2 · Tam Thiên Kiếm Quyết",SE,AuthoredBlockout,10,21,OK,3,OK
+2,"R2 · Tam Thiên Kiếm Quyết",S,AuthoredBlockout,10,21,OK,3,OK
+2,"R2 · Tam Thiên Kiếm Quyết",SW,AuthoredBlockout,10,21,OK,3,OK
+2,"R2 · Tam Thiên Kiếm Quyết",W,AuthoredBlockout,10,21,OK,0,OK
+2,"R2 · Tam Thiên Kiếm Quyết",NW,AuthoredBlockout,10,21,OK,3,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",N,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",NE,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",E,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",SE,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",S,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",SW,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",W,AuthoredBlockout,10,13,OK,0,OK
+2,"R3 · Vạn Ảnh Tuyệt Sát",NW,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",N,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",NE,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",E,AuthoredBlockout,11,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",SE,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",S,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",SW,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",W,AuthoredBlockout,10,13,OK,0,OK
+2,"F1 · Dạ Vũ Liên Trảm",NW,AuthoredBlockout,10,13,OK,0,OK
+2,"F2 · Đoạt Mệnh",N,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",NE,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",E,AuthoredBlockout,14,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",SE,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",S,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",SW,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",W,AuthoredBlockout,10,4,OK,0,OK
+2,"F2 · Đoạt Mệnh",NW,AuthoredBlockout,10,4,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",N,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",NE,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",E,AuthoredBlockout,14,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",SE,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",S,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",SW,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",W,AuthoredBlockout,10,3,OK,0,OK
+2,"F3 · Song Ảnh Truy Sát",NW,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",N,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",NE,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",E,AuthoredBlockout,13,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",SE,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",S,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",SW,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",W,AuthoredBlockout,10,3,OK,0,OK
+3,"E1 · Chấn Địa Trảm",NW,AuthoredBlockout,10,3,OK,0,OK
+3,"E2 · Hoành Thiên Đao",N,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",NE,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",E,AuthoredBlockout,14,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",SE,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",S,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",SW,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",W,AuthoredBlockout,10,5,OK,0,OK
+3,"E2 · Hoành Thiên Đao",NW,AuthoredBlockout,10,5,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",N,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",NE,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",E,AuthoredBlockout,14,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",SE,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",S,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",SW,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",W,AuthoredBlockout,10,9,OK,0,OK
+3,"E3 · Bất Động Chiến Thế",NW,AuthoredBlockout,10,9,OK,0,OK
+3,"R1 · Thiên Vẫn Trảm",N,AuthoredBlockout,10,12,OK,2,OK
+3,"R1 · Thiên Vẫn Trảm",NE,AuthoredBlockout,10,12,OK,1,OK
+3,"R1 · Thiên Vẫn Trảm",E,AuthoredBlockout,14,12,OK,0,OK
+3,"R1 · Thiên Vẫn Trảm",SE,AuthoredBlockout,10,12,OK,1,OK
+3,"R1 · Thiên Vẫn Trảm",S,AuthoredBlockout,10,12,OK,2,OK
+3,"R1 · Thiên Vẫn Trảm",SW,AuthoredBlockout,10,12,OK,1,OK
+3,"R1 · Thiên Vẫn Trảm",W,AuthoredBlockout,10,12,OK,0,OK
+3,"R1 · Thiên Vẫn Trảm",NW,AuthoredBlockout,10,12,OK,1,OK
+3,"R2 · Tam Thiên Kiếm Quyết",N,AuthoredBlockout,10,21,OK,3,OK
+3,"R2 · Tam Thiên Kiếm Quyết",NE,AuthoredBlockout,10,21,OK,3,OK
+3,"R2 · Tam Thiên Kiếm Quyết",E,AuthoredBlockout,10,21,OK,0,OK
+3,"R2 · Tam Thiên Kiếm Quyết",SE,AuthoredBlockout,10,21,OK,3,OK
+3,"R2 · Tam Thiên Kiếm Quyết",S,AuthoredBlockout,10,21,OK,3,OK
+3,"R2 · Tam Thiên Kiếm Quyết",SW,AuthoredBlockout,10,21,OK,3,OK
+3,"R2 · Tam Thiên Kiếm Quyết",W,AuthoredBlockout,10,21,OK,0,OK
+3,"R2 · Tam Thiên Kiếm Quyết",NW,AuthoredBlockout,10,21,OK,3,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",N,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",NE,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",E,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",SE,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",S,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",SW,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",W,AuthoredBlockout,10,13,OK,0,OK
+3,"R3 · Vạn Ảnh Tuyệt Sát",NW,AuthoredBlockout,10,13,OK,0,OK
+3,"F1 · Cuồng Phong Đao",N,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",NE,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",E,AuthoredBlockout,25,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",SE,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",S,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",SW,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",W,AuthoredBlockout,23,18,OK,0,OK
+3,"F1 · Cuồng Phong Đao",NW,AuthoredBlockout,23,18,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",N,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",NE,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",E,AuthoredBlockout,14,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",SE,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",S,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",SW,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",W,AuthoredBlockout,10,5,OK,0,OK
+3,"F2 · Đoạn Sơn Trảm",NW,AuthoredBlockout,10,5,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",N,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",NE,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",E,AuthoredBlockout,14,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",SE,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",S,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",SW,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",W,AuthoredBlockout,10,11,OK,0,OK
+3,"F3 · Bất Diệt Chiến Ý",NW,AuthoredBlockout,10,11,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",N,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",NE,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",E,AuthoredBlockout,11,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",SE,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",S,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",SW,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",W,AuthoredBlockout,10,6,OK,0,OK
+4,"E1 · Nguyệt Nha Trảm",NW,AuthoredBlockout,10,6,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",N,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",NE,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",E,AuthoredBlockout,14,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",SE,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",S,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",SW,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",W,AuthoredBlockout,10,9,OK,0,OK
+4,"E2 · Lưỡng Nghi Kiếm",NW,AuthoredBlockout,10,9,OK,0,OK
+4,"E3 · Kiếm Giới",N,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",NE,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",E,AuthoredBlockout,14,14,OK,0,OK
+4,"E3 · Kiếm Giới",SE,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",S,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",SW,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",W,AuthoredBlockout,10,14,OK,0,OK
+4,"E3 · Kiếm Giới",NW,AuthoredBlockout,10,14,OK,0,OK
+4,"R1 · Thiên Vẫn Trảm",N,AuthoredBlockout,10,12,OK,2,OK
+4,"R1 · Thiên Vẫn Trảm",NE,AuthoredBlockout,10,12,OK,1,OK
+4,"R1 · Thiên Vẫn Trảm",E,AuthoredBlockout,14,12,OK,0,OK
+4,"R1 · Thiên Vẫn Trảm",SE,AuthoredBlockout,10,12,OK,1,OK
+4,"R1 · Thiên Vẫn Trảm",S,AuthoredBlockout,10,12,OK,2,OK
+4,"R1 · Thiên Vẫn Trảm",SW,AuthoredBlockout,10,12,OK,1,OK
+4,"R1 · Thiên Vẫn Trảm",W,AuthoredBlockout,10,12,OK,0,OK
+4,"R1 · Thiên Vẫn Trảm",NW,AuthoredBlockout,10,12,OK,1,OK
+4,"R2 · Tam Thiên Kiếm Quyết",N,AuthoredBlockout,10,21,OK,3,OK
+4,"R2 · Tam Thiên Kiếm Quyết",NE,AuthoredBlockout,10,21,OK,3,OK
+4,"R2 · Tam Thiên Kiếm Quyết",E,AuthoredBlockout,10,21,OK,0,OK
+4,"R2 · Tam Thiên Kiếm Quyết",SE,AuthoredBlockout,10,21,OK,3,OK
+4,"R2 · Tam Thiên Kiếm Quyết",S,AuthoredBlockout,10,21,OK,3,OK
+4,"R2 · Tam Thiên Kiếm Quyết",SW,AuthoredBlockout,10,21,OK,3,OK
+4,"R2 · Tam Thiên Kiếm Quyết",W,AuthoredBlockout,10,21,OK,0,OK
+4,"R2 · Tam Thiên Kiếm Quyết",NW,AuthoredBlockout,10,21,OK,3,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",N,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",NE,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",E,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",SE,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",S,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",SW,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",W,AuthoredBlockout,10,13,OK,0,OK
+4,"R3 · Vạn Ảnh Tuyệt Sát",NW,AuthoredBlockout,10,13,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",N,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",NE,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",E,AuthoredBlockout,14,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",SE,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",S,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",SW,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",W,AuthoredBlockout,10,9,OK,0,OK
+4,"F1 · Kiếm Vũ Thiên Hà",NW,AuthoredBlockout,10,9,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",N,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",NE,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",E,AuthoredBlockout,14,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",SE,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",S,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",SW,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",W,AuthoredBlockout,10,7,OK,0,OK
+4,"F2 · Phi Kiếm Truy Hồn",NW,AuthoredBlockout,10,7,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",N,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",NE,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",E,AuthoredBlockout,13,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",SE,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",S,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",SW,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",W,AuthoredBlockout,10,11,OK,0,OK
+4,"F3 · Hồi Nguyệt Kiếm",NW,AuthoredBlockout,10,11,OK,0,OK

@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: d400d7c958c797b4491d8cb9178c75e3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8909277547689897379
+    second: AnTuHuyet_06_0
+  - first:
+      213: 6940288866596511508
+    second: AnTuHuyet_06_1
+  - first:
+      213: 6499227006662582582
+    second: AnTuHuyet_06_2
+  - first:
+      213: -4873782768230889944
+    second: AnTuHuyet_06_3
+  - first:
+      213: 4131353668937290133
+    second: AnTuHuyet_06_4
+  - first:
+      213: 5984167571129449443
+    second: AnTuHuyet_06_5
+  - first:
+      213: -1661447555488663082
+    second: AnTuHuyet_06_6
+  - first:
+      213: -885587630776092352
+    second: AnTuHuyet_06_7
+  - first:
+      213: 3428705580000403238
+    second: AnTuHuyet_06_8
+  - first:
+      213: -3531072465432801758
+    second: AnTuHuyet_06_9
+  - first:
+      213: 4221767122871199996
+    second: AnTuHuyet_06_10
+  - first:
+      213: -7019712203768500720
+    second: AnTuHuyet_06_11
+  - first:
+      213: 7032791057109864306
+    second: AnTuHuyet_06_12
+  - first:
+      213: -4931874104723070541
+    second: AnTuHuyet_06_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 48
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AnTuHuyet_06_0
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 164
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5294941643eb5480800000000000000
+      internalID: -8909277547689897379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 164
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f5514f3fbd05060800000000000000
+      internalID: 6940288866596511508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_2
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 137
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 631afb63784e13a50800000000000000
+      internalID: 6499227006662582582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_3
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 143
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8268d2b0568dc5cb0800000000000000
+      internalID: -4873782768230889944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_4
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 143
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5919386e544855930800000000000000
+      internalID: 4131353668937290133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_5
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 120
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb359153b80c0350800000000000000
+      internalID: 5984167571129449443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_6
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 129
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d93822404a51f8e0800000000000000
+      internalID: -1661447555488663082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 106
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0497c1aedb2c5b3f0800000000000000
+      internalID: -885587630776092352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 96
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd2571f85359f20800000000000000
+      internalID: 3428705580000403238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 99
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22e07b51d4c1ffec0800000000000000
+      internalID: -3531072465432801758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_10
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 90
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf8292394dab69a30800000000000000
+      internalID: 4221767122871199996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_11
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 65
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e67e451f8f49e90800000000000000
+      internalID: -7019712203768500720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_12
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 74
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fc392843e799160800000000000000
+      internalID: 7032791057109864306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnTuHuyet_06_13
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 69
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1a807c1a67e8bb0800000000000000
+      internalID: -4931874104723070541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AnTuHuyet_06_0: -8909277547689897379
+      AnTuHuyet_06_1: 6940288866596511508
+      AnTuHuyet_06_10: 4221767122871199996
+      AnTuHuyet_06_11: -7019712203768500720
+      AnTuHuyet_06_12: 7032791057109864306
+      AnTuHuyet_06_13: -4931874104723070541
+      AnTuHuyet_06_2: 6499227006662582582
+      AnTuHuyet_06_3: -4873782768230889944
+      AnTuHuyet_06_4: 4131353668937290133
+      AnTuHuyet_06_5: 5984167571129449443
+      AnTuHuyet_06_6: -1661447555488663082
+      AnTuHuyet_06_7: -885587630776092352
+      AnTuHuyet_06_8: 3428705580000403238
+      AnTuHuyet_06_9: -3531072465432801758
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

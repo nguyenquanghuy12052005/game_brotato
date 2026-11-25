@@ -1,0 +1,18 @@
+{
+  "tool": "built-in imagegen",
+  "common": "4x4 equal cells,16 frames,transparent pixel art VFX, no text/UI",
+  "effects": [
+    [
+      "ThienVan",
+      "red orange fire circular 360 degree melee sweep following a meteor landing. Frames 1-4 narrow descending fire streak toward ground center, 5-6 ground impact sparks and debris, 7-12 a thick curved fiery blade sweeps clockwise around a full circle, 13-16 dissipating embers. Fixed center, top down slightly elevated perspective circular footprint."
+    ],
+    [
+      "TamThien",
+      "cyan gold sword energy cone aimed RIGHT. Frames 1-4 a vertical thin sword shaped beam extends horizontally right from fixed left origin, each longer, reaching maximum. Frames 5-12 exactly THREE enormous blade waves fan right at angles -25,0,+25 degrees, connected by translucent energy filling the ENTIRE cone, propagating outward. Frames13-16 fading cone trails. All origins identical at left quarter center."
+    ],
+    [
+      "VanAnh",
+      "violet silver FIVE ghost sword warriors at vertices around a regular five-pointed star. Frames1-3 five apparitions form, frames4-8 successive luminous straight slashes draw pentagram edges in order connecting alternate vertices, frames9-12 COMPLETE five-pointed pentagram with glowing filled center and all five tips, frames13-16 fade and evaporate. Top down ground plane. Fixed center and size."
+    ]
+  ]
+}

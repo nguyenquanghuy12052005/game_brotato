@@ -1,0 +1,320 @@
+{
+  "roundQPrompts": [
+    "Unity genuine transparent pixel-art sprite atlas for this exact original HEXCORE swordsman. Only 4 columns × 3 rows, storyboard a charge towards UPPER LEFT. The body and head face rear-left with NO face showing, the left arm on screen left is EMPTY and clad in leather ONLY. Keep the single silver pad on anatomical right arm with the sword on screen right in all twelve poses. At contact, the RIGHT arm reaches up around crown so blade's tip points to upper left. Ready, anticipation x2, push, launch, float, draw, contact, carry, brake, recover, ready. Exactly one complete character inside each regular cell, aligned feet for ground poses, preserve palette, original head scale, chibi proportions and silhouette. No floor, text, grid, background or effects.",
+    "Unity genuine transparent pixel-art sprite atlas for this exact original HEXCORE swordsman. 8 columns × 3 rows. Each row independent eight-frame parry and counter. ROWS N (rear facing screen top, no face), S (front facing screen bottom), W (side profile facing screen left), precisely in this order. Cells across each row: ready, raise sword, blade catches strike, absorb force, step and wind counter, sharp countercut, followthrough, recover. Maintain visible grasp, single armor pad, original scarf and original sword. No incoming weapon or effects. Exactly one complete character inside each regular cell, aligned feet for ground poses, preserve palette, original head scale, chibi proportions and silhouette. No floor, text, grid, background or effects.",
+    "Unity genuine transparent pixel-art sprite atlas for this exact original HEXCORE swordsman. 8 columns × 4 rows. Each row independent eight-frame parry and counter. ROWS NE (back turns upper-right), SE (front towards lower-right), SW (front towards lower-left), NW (back turns upper-left). Across each row: ready, raise sword, guard, absorb force, step/counter-windup, countercut, followthrough, recover. Use the actual right-hand weapon in all poses, with unchanged outfit and single armor pad. Exactly one complete character inside each regular cell, aligned feet for ground poses, preserve palette, original head scale, chibi proportions and silhouette. No floor, text, grid, background or effects.",
+    "Unity genuine transparent pixel-art sprite atlas for this exact original HEXCORE swordsman. 8 columns × 3 rows. An in-place clockwise 360-degree slashing attack. COLUMNS always E, SE, S, SW, W, NW, N, NE in that order. Row 1 coiled wind-up poses at all eight angles. Row 2 dynamic sweeping poses at all eight angles, feet visibly transfer weight from one leg to the other. Row 3 distinct braking and balanced recovery at all eight angles. Each angle is redrawn with correct perspective; back only for NE/N/NW, chest for SE/S/SW. DO NOT MIRROR; same anatomical hand holding a single original short sword. No effect, no baked arc. Exactly one complete character inside each regular cell, aligned feet for ground poses, preserve palette, original head scale, chibi proportions and silhouette. No floor, text, grid, background or effects."
+  ],
+  "roundBranchAtlas": [
+    [
+      "Assassin",
+      "E1",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: dash with low crouch followed by two distinct knife cuts. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "Assassin",
+      "E2",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: knife thrust, wrist marking gesture, retract and recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "Assassin",
+      "E3",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: lower into concealment, hunched approach and low ambush stab. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "Assassin",
+      "F1",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: three successive knife cuts with changing foot stance. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "Assassin",
+      "F2",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: short approach, draw knife to hip, precise thrust, brake and recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "Assassin",
+      "F3",
+      "Exact original HEXCORE Assassin, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: summon with empty hand, lunge and two knife cuts. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "E1",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: raise curved blade with both hands, weighted downstroke onto ground, extract blade and stand. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "E2",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: large two-handed horizontal sweep, foot transfer, braking. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "E3",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: stomp, cross-body guard, two heavy attacks, stand. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "F1",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: two circular sweeps with real stepping feet, recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "F2",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: crouch and lift saber, vigorous axially aligned downward chop, compress then recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "DaoWarrior",
+      "F3",
+      "Exact original HEXCORE DaoWarrior, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: grounded charge with stomp, two heavy sword cuts. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "E1",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: crouch, windup, sweeping crescent swing, hold blade tip forward, recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "E2",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: two continuous opposing diagonal cuts and foot transfer. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "E3",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: draw and stab the thin sword vertically into floor, free hand guides energy, lift sword and recover. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "F1",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: raise sword overhead, summon with empty hand, guide downward, lower weapon. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "F2",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: swing and release invisible projectile; blade always stays in hand, other hand directs. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ],
+    [
+      "QiSwordsman",
+      "F3",
+      "Exact original HEXCORE QiSwordsman, true transparent pixel-art action dataset. 8 columns × 3 rows, regular equal cells separated by blank alpha, 24 complete sprites. Each independent row is an eight-frame skill: windup, forward swing, pull sword back and catch with EMPTY hand, settle. ROW 1 is NORTH, camera sees back of head/back of clothing, sword angled away towards screen top. ROW 2 SOUTH, show chest and face with attack towards screen bottom and foreshortened when appropriate. ROW 3 WEST, profile looking and attacking screen LEFT. Eight frames per direction with anticipation, action in-betweens, contact, follow-through and recovery. Original silhouette proportions, same asymmetric costume and same physical hand holds one original weapon. No grid, captions, shadows, floor or baked effects. Preserve a stable grounded foot position in each cell."
+    ]
+  ],
+  "roundHero": [
+    [
+      "Swordsman",
+      "R1",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Swordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready crouch, planted push, rising with drawn weapon, top of leap, descending blade, blade and leading foot plant into ground, compression and regain guard. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "Swordsman",
+      "R2",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Swordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: cross-body charge, first cut, foot transition, second higher cut, gather stronger charge, windup, final strongest cut, recovery. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "Swordsman",
+      "R3",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Swordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready, crouch until torso horizontal, dash tucked blade, reappear set foot, prepare finishing swing, full finishing strike, followthrough, settle. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "Assassin",
+      "R1",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Assassin references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready crouch, planted push, rising with drawn weapon, top of leap, descending blade, blade and leading foot plant into ground, compression and regain guard. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "Assassin",
+      "R2",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Assassin references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: cross-body charge, first cut, foot transition, second higher cut, gather stronger charge, windup, final strongest cut, recovery. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "Assassin",
+      "R3",
+      "Genuinely transparent pixel atlas exact to these HEXCORE Assassin references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready, crouch until torso horizontal, dash tucked blade, reappear set foot, prepare finishing swing, full finishing strike, followthrough, settle. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "DaoWarrior",
+      "R1",
+      "Genuinely transparent pixel atlas exact to these HEXCORE DaoWarrior references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready crouch, planted push, rising with drawn weapon, top of leap, descending blade, blade and leading foot plant into ground, compression and regain guard. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "DaoWarrior",
+      "R2",
+      "Genuinely transparent pixel atlas exact to these HEXCORE DaoWarrior references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: cross-body charge, first cut, foot transition, second higher cut, gather stronger charge, windup, final strongest cut, recovery. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "DaoWarrior",
+      "R3",
+      "Genuinely transparent pixel atlas exact to these HEXCORE DaoWarrior references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready, crouch until torso horizontal, dash tucked blade, reappear set foot, prepare finishing swing, full finishing strike, followthrough, settle. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "QiSwordsman",
+      "R1",
+      "Genuinely transparent pixel atlas exact to these HEXCORE QiSwordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready crouch, planted push, rising with drawn weapon, top of leap, descending blade, blade and leading foot plant into ground, compression and regain guard. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "QiSwordsman",
+      "R2",
+      "Genuinely transparent pixel atlas exact to these HEXCORE QiSwordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: cross-body charge, first cut, foot transition, second higher cut, gather stronger charge, windup, final strongest cut, recovery. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ],
+    [
+      "QiSwordsman",
+      "R3",
+      "Genuinely transparent pixel atlas exact to these HEXCORE QiSwordsman references. Eight equal columns x two rows, 16 complete sprites with fixed feet in every grounded cell. Row 1 faces NORTH in all frames: back visible, face concealed, weapon and motion directed towards TOP of screen. Row 2 SOUTH faces down screen with chest visible. Each row has eight poses: ready, crouch until torso horizontal, dash tucked blade, reappear set foot, prepare finishing swing, full finishing strike, followthrough, settle. Preserve identical asymmetrical equipment, haircut, colors and same anatomical hand gripping one original weapon. No blank cells, no background, no effects, no shadow, no duplicated weapons. Keep whole weapon inside each cell."
+    ]
+  ],
+  "roundBranchDiag": [
+    [
+      "Assassin",
+      "E1",
+      "Exact original Assassin in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: coiled vanish, low dash, reappearance rear foot plants, first knife cut, direct diagonal second knife cut and recovery. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ],
+    [
+      "DaoWarrior",
+      "E1",
+      "Exact original DaoWarrior in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: saber lifted two-handed, strong downstroke onto ground, contact compression, pull the blade back up. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ],
+    [
+      "QiSwordsman",
+      "E1",
+      "Exact original QiSwordsman in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: wind up behind shoulder, canted wide crescent swing, tip reaches cast, carry through, recover. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ],
+    [
+      "Assassin",
+      "F2",
+      "Exact original Assassin in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: fast approach, lift knife in a loaded grip, thrust and plant feet beyond target, release and recover. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ],
+    [
+      "DaoWarrior",
+      "F2",
+      "Exact original DaoWarrior in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: weight sinks, overhead curved saber, heavy downward chop, knee bend impact, stand. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ],
+    [
+      "QiSwordsman",
+      "F3",
+      "Exact original QiSwordsman in HEXCORE Unity. Transparent 8 columns x 4 rows, 32 complete sprites in stable tiles. Each individual row is an eight frame action: wind up, cast with blade staying attached to hand, wait and catch with empty hand, settle. Rows NE upper-right rear, SE lower-right front, SW lower-left front, NW upper-left rear. All weapon arcs and feet respect row direction. Fix asymmetrical costume and weapon hand, identical blade throughout and original pixel-art proportions and hair. No artwork behind the sprite, no text, no effects or grid."
+    ]
+  ],
+  "roundBranchDiagRest": [
+    [
+      "Assassin",
+      "E2",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE Assassin. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: brief knife thrust, empty hand engraves mark, pull weapon back, recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "Assassin",
+      "E3",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE Assassin. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: lower into concealment, hunched stealth approach and low ambush stab, recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "Assassin",
+      "F1",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE Assassin. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: three distinct and continuous knife cuts from shifting feet, low, diagonal, then thrust, brake and recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "Assassin",
+      "F3",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE Assassin. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: empty hand briefly gestures off shoulder to summon; two knife strikes with separate weight shifts and recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "DaoWarrior",
+      "E2",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE DaoWarrior. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: forceful broad horizontal cut with two-handed saber, hips coil, shift weight, stop the wide blade after hit. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "DaoWarrior",
+      "E3",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE DaoWarrior. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: grounded two-handed guard with stomp, advance into two heavy swings, return to stance. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "DaoWarrior",
+      "F1",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE DaoWarrior. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: two circular cuts with actual turning anatomy and stepping feet, return to guard from row direction. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "DaoWarrior",
+      "F3",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE DaoWarrior. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: stomp while bracing, heavy saber attack, charged second cut and return to stance. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "QiSwordsman",
+      "E2",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE QiSwordsman. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: two opposing diagonal cuts, feet transfer as blade arcs continue, recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "QiSwordsman",
+      "E3",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE QiSwordsman. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: draw thin sword toward floor and plant it, direct magic with other hand, extract sword and recover. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "QiSwordsman",
+      "F1",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE QiSwordsman. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: raise sword and summon with other empty hand, aim toward designated ground, recover with original sword attached. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ],
+    [
+      "QiSwordsman",
+      "F2",
+      "A genuinely transparent 8 columns × 4 rows pixel-art animation atlas for exact supplied HEXCORE QiSwordsman. 32 complete full-body sprites contained in their own cells with regular stable positioning. Each row is an independent 8 pose action: wind-up and release invisible sword energy while original sword always stays attached to the same hand, guide with free hand and reset. Top to bottom NE (back to camera upper right), SE (front visible lower right), SW (front visible lower left), NW (back to camera upper left). All rows have preparation, actual execution with inbetween poses, contact, follow through and recovery. Keep exact physical hand, one original weapon, original armor, hair, outfit, and consistent camera. Stable foot line. No floor, shadows, VFX, text or grid."
+    ]
+  ],
+  "roundHeroDiag": [
+    [
+      "Swordsman",
+      "R1",
+      "Exact original HEXCORE Swordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R1: feet brace and crouch, upward push, legs tucked at apex, falling with blade downward, main weapon and one planted boot contact together, body compresses, recover. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "Swordsman",
+      "R2",
+      "Exact original HEXCORE Swordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R2: set stance to charge, first real cut, connecting foot transfer, second cut from wider swing, charged stance, wind-up, third strongest swing, settle. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "Swordsman",
+      "R3",
+      "Exact original HEXCORE Swordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R3: ready, lower torso with blade tucked, dash lean with blade still attached, reappearance weight on front boot, wind-up into sharp final cut, final strike, followthrough, recovery. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "Assassin",
+      "R1",
+      "Exact original HEXCORE Assassin in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R1: feet brace and crouch, upward push, legs tucked at apex, falling with blade downward, main weapon and one planted boot contact together, body compresses, recover. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "Assassin",
+      "R2",
+      "Exact original HEXCORE Assassin in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R2: set stance to charge, first real cut, connecting foot transfer, second cut from wider swing, charged stance, wind-up, third strongest swing, settle. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "Assassin",
+      "R3",
+      "Exact original HEXCORE Assassin in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R3: ready, lower torso with blade tucked, dash lean with blade still attached, reappearance weight on front boot, wind-up into sharp final cut, final strike, followthrough, recovery. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "DaoWarrior",
+      "R1",
+      "Exact original HEXCORE DaoWarrior in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R1: feet brace and crouch, upward push, legs tucked at apex, falling with blade downward, main weapon and one planted boot contact together, body compresses, recover. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "DaoWarrior",
+      "R2",
+      "Exact original HEXCORE DaoWarrior in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R2: set stance to charge, first real cut, connecting foot transfer, second cut from wider swing, charged stance, wind-up, third strongest swing, settle. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "DaoWarrior",
+      "R3",
+      "Exact original HEXCORE DaoWarrior in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R3: ready, lower torso with blade tucked, dash lean with blade still attached, reappearance weight on front boot, wind-up into sharp final cut, final strike, followthrough, recovery. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "QiSwordsman",
+      "R1",
+      "Exact original HEXCORE QiSwordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R1: feet brace and crouch, upward push, legs tucked at apex, falling with blade downward, main weapon and one planted boot contact together, body compresses, recover. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "QiSwordsman",
+      "R2",
+      "Exact original HEXCORE QiSwordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R2: set stance to charge, first real cut, connecting foot transfer, second cut from wider swing, charged stance, wind-up, third strongest swing, settle. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ],
+    [
+      "QiSwordsman",
+      "R3",
+      "Exact original HEXCORE QiSwordsman in a genuinely transparent sixteen-to-thirty-two frame atlas. EXACTLY EIGHT COLUMNS × FOUR ROWS, 32 complete separated equal cells. Each row is one whole independent eight-frame R3: ready, lower torso with blade tucked, dash lean with blade still attached, reappearance weight on front boot, wind-up into sharp final cut, final strike, followthrough, recovery. Rows NE (back upper-right), SE (front lower-right), SW (front lower-left), NW (back upper-left), maintain that angle in that row. Stable grounded foot line. One original weapon in the same original anatomical hand, same equipment, colors, hair silhouette. Pose matching the apparent heading throughout. All silhouettes stay completely within cells. No captions, floor, grid, glow, particles or shadows."
+    ]
+  ],
+  "assassinRetryPrompt": "Create an actual transparent PNG with ALPHA ZERO between sprites, NEVER put any grey/white/textured background or checkerboard. HEXCORE Assassin (same silver jagged hair purple scarf and charcoal/purple agile armor, one short silver dagger as these exact references). Fixed eight grid columns and four full rows. 32 sprites, no missing/overlapping cells. Row NE upper right rear view; SE lower right front view; SW lower left front view; NW upper left rear view. Each row independently: ready guard, compressed, trailing toe pushes the body high, apex with blade raised, hips turn and weapon points at ground, land in three-point slash, lower settling stance, recover. Same hand/arm holding dagger in all cells. Retro original game pixel art, fixed scale, no effects, strict cell centers, generous margins. No background/backdrop whatsoever.",
+  "swordsmanR1NorthCorrection": "Make one transparent pixel-art frame for this game sprite, using the two references showing the same HEXCORE Swordsman facing away from the camera (north), first ref impact, second ref off-model. Correct only the second pose. New frame shows the beat immediately AFTER impact in first ref, the character lowers hips further into a squat with left leather-gloved hand to visual left for balance and bends the right elbow to bring sword closer to right shin. Strict continuity: silver pauldrons and handheld sword exactly as first frame, a single silver pauldron on visual RIGHT shoulder (view from the character's back), sword held visibly in the visual RIGHT hand (anatomical right), left hand completely empty. Blade lower right, almost touching ground. Same hair, deep red scarf trailing left, tan belt, brown boots, fixed width, same style colors, no face. No VFX, no shadow, no letters. Deliver exact same silhouette scale on transparent background, tightly centered."
+}

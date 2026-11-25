@@ -1,0 +1,25 @@
+id,form,heading,continuity,body_weapon,foot,readability,identity,impact,vfx_sync,wow,notes,evidence
+01,1,E,4,4,4,4,4,4,4,3,"Từ hạ thấp đến chạm lưỡi và hãm thấy rõ. Chân trụ theo hướng Đông ổn, nhịp chạm còn nhẹ khi so với các đòn nặng.",Media/Skill-01-1-E.gif
+02,1,NW,3,4,3,4,4,3,3,3,"Vòng xoay đọc được từ thân và vũ khí. Chân đổi hướng có bước gấp và nhịp hãm cần thêm cầu nối.",Media/Skill-02-1-NW.gif
+03,1,NE,3,4,3,4,4,3,4,3,"Kiếm đưa lên thủ trước khi phản. Điểm gạt đo theo khung, nhưng chuyển lực từ thủ sang chém còn thiếu một bước chân.",Media/Skill-03-1-NE.gif
+04,2,E,3,3,3,4,4,3,2,3,"Đã sang phía sau rồi quay về dummy. Hai nhát còn thiếu hai quỹ đạo lưỡi tách rõ và cầu xoay hông lúc hiện hình.",Media/Skill-04-2-E.gif
+05,2,E,3,4,3,4,4,3,3,3,"Đọc được động tác đặt ấn và quãng chờ trước nổ. Tay sau và chân giữ thế hơi lâu, điểm đặt ấn còn cần đo.",Media/Skill-05-2-E.gif
+06,2,S,3,3,3,4,4,3,3,3,"Camera giữ được người trước và sau ẩn. Pose bật dậy sang phục kích cần trung gian, tia chạm còn nhẹ.",Media/Skill-06-2-S.gif
+07,3,E,3,4,3,4,4,4,4,3,"Đao bổ thẳng xuống và giữ điểm nứt gần mũi. Trọng lượng lúc đứng bật lại còn cần chuyển gối và thân.",Media/Skill-07-3-E.gif
+08,3,E,3,4,3,4,4,3,3,3,"Cung ngang từ thân thấy rõ hơn vòng VFX cũ. Chân trụ và frame nối giữa giữ đà và thu đao còn gấp.",Media/Skill-08-3-E.gif
+09,3,E,3,4,3,3,3,3,2,2,"Tư thế thủ đọc được. Aura quấn qua chân và hai nhát còn giống nhóm F3, cần dấu tái lập trụ rõ hơn.",Media/Skill-09-3-E.gif
+10,4,E,4,4,3,4,4,3,4,3,"Một bán nguyệt tách khỏi kiếm đã đọc được. Chân trước chuyển trọng tâm hơi ít và hit ở dummy còn mỏng.",Media/Skill-10-4-E.gif
+11,4,E,3,4,3,4,4,4,3,3,"Hai lực cắt và điểm giao nổi bật hơn. Phối hợp của hai nét với frame mũi kiếm đầu và lần quay lại cần căn riêng.",Media/Skill-11-4-E.gif
+12,4,E,3,4,3,3,4,3,3,3,"Thế giữ phép và các nhịp pháp trận tách được. Cần pose nén tay sâu hơn để người xem thấy động tác khắc trận.",Media/Skill-12-4-E.gif
+13,3,E,4,4,3,4,5,4,4,4,"Đọc được bật, đỉnh, lao, đáp và vòng xung kích. Chân chịu tải và pose rút đao khi về Basic vẫn đổi khá nhanh.",Media/Skill-13-3-E.gif
+14,4,NE,3,4,3,4,5,4,4,4,"Ba vị trí release bám lưỡi và hình sóng khác nhau. Dáng nhát 1–2 còn gần nhau, chân phải cần thêm chuyển thế rõ.",Media/Skill-14-4-NE.gif
+15,2,SE,3,4,3,4,5,4,3,4,"Bóng có pose chém và cắt qua vùng đích trước finisher. Còn thiếu điểm tip đo trên từng frame bóng và pose bắt đà sau tái xuất.",Media/Skill-15-2-SE.gif
+16,2,E,3,4,3,4,4,3,3,3,"Ba đoạn đổi cả đường đi và pose. Nhịp đặt chân giữa các đường và điểm chém ở lần thứ hai cần dọn.",Media/Skill-16-2-E.gif
+17,2,E,3,4,3,4,4,4,3,3,"Một đường xuyên với điểm nổ tím rõ. Cần chỉnh điểm bắt đầu lưỡi và giảm nhảy hông ở cuối cú lao.",Media/Skill-17-2-E.gif
+18,2,E,3,4,3,4,4,3,3,3,"Người thật ở lại với hai bóng, tách khỏi R3. Lần phối hợp cuối cần tách nhịp mỗi bóng và vệt riêng từng lưỡi.",Media/Skill-18-2-E.gif
+19,3,E,3,4,3,4,4,4,3,4,"Hai vòng có pose khác chân và vệt xoắn có chiều cao. Cầu vào vòng thứ hai và lúc hãm cần thêm nén chân trụ.",Media/Skill-19-3-E.gif
+20,3,E,3,4,3,4,4,4,3,3,"Nhịp nén và đường bổ nặng thấy rõ. Điểm nứt và nhịp nổ cuối cần giữ tách hơn khi chạy chuỗi combo.",Media/Skill-20-3-E.gif
+21,3,E,3,4,3,3,3,4,3,3,"Hai nhát trong aura tạo lực nhưng thế đứng và màu bao còn gần E3, thiếu chân dịch để đọc mức cường hóa.",Media/Skill-21-3-E.gif
+22,4,E,3,4,3,4,4,3,3,4,"Mũi kiếm rơi theo nhiều nhịp ở trên mục tiêu. Pose dẫn hướng triệu hồi và nhả nhịp thứ hai cần khác nhau rõ hơn.",Media/Skill-22-4-E.gif
+23,4,E,4,4,3,4,4,3,3,3,"Quỹ đạo cong thấy rõ trong các clip. Đo tiếp điểm kiếm lúc phóng và frame đổi trọng tâm trong đoạn theo mục tiêu.",Media/Skill-23-4-E.gif
+24,4,E,3,4,3,4,4,3,4,3,"Đường đi–về rõ và có pose đón. Cổ tay/kiếm lúc chạm cần in-between và tay thu cần giữ đà thêm.",Media/Skill-24-4-E.gif

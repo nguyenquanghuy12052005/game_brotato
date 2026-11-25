@@ -42,6 +42,149 @@
 - Nhập sáu PNG hiện có từ `public/gun` vào `Assets/Art/GunSkills/`. Đạn xuyên dùng alpha có sẵn và hiệu ứng Ngắm điểm yếu phát bốn frame lửa ở 12 FPS.
 - C# biên dịch bằng Roslyn với Unity 6000.3.22f1 và thư viện hiện có của dự án. Đã kiểm tra các GUID mới trong scene có đúng một asset tương ứng, và sáu PNG khớp SHA-256 với public. Play Mode tự động trong bản sao Unity 6000.3.22f1 đã PASS: nảy sang bia sống gần nhất, sinh 3 đạn phụ khi hạ bia, frame lửa chạy, Đạn tỏa 3/4, Liên thanh 5/7 và Xuyên thấu nâng cấp gây 10/13/16 qua ba bia. Chưa xem hình ảnh trong Game View.
 
+## HEXCORE · Game View và điều khiển tự do
+
+- Scene `HexcoreSkillPreview` mở ở chế độ Tự do. WASD hoặc mũi tên di chuyển tám hướng, Space thi triển theo hướng hiện tại, R về điểm đầu. Phát lại trong chế độ này bắt đầu ở vị trí hiện tại. Chế độ Trình diễn giữ lựa chọn pose, chuỗi, tốc độ và bước khung.
+- Tên tiếng Việt đầy đủ theo năm nhóm, vùng HUD/danh sách nằm ngoài viewport camera. Sửa index vòng chạy chéo từ tám về bốn frame của đúng hướng. Vạn Ảnh dùng shader/material riêng của preview để lọc nền xám gần vệt vàng. [Kiểm thử và ảnh đối chiếu](HEXCORE_ANIMATION_QA.md#đợt-giao-diện-và-điều-khiển).
+
+## HEXCORE · Visual polish và gallery
+
+- [Gallery trước/sau](player-art/HexcoreVisual/index.html) bao phủ 264 tổ hợp, có clip tắt VFX, chuỗi Basic và video ba lõi có audio từ Unity. [CSV hiện tại](player-art/HexcoreVisual/HexcoreVisualReview.csv) ghi 263 AuthoredBlockout, 1 In Review và 0 mục Ready for Review mới.
+- Thay 320 frame chéo của ba lõi, bổ sung 16 pose cho Cuồng Phong Đao và 64 điểm đo. Unity 6000.3.25f1 xác minh chuỗi, đổi hướng và reset bằng scene đang có. [Báo cáo polish](HEXCORE_VISUAL_POLISH_REPORT.md) và [QA](HEXCORE_ANIMATION_QA.md) ghi các lỗi còn lại và cách chạy lại review.
+
+## HEXCORE · Hoàn thiện phạm vi hướng
+
+- `HexcoreSkillPreview` có dữ liệu 24 kỹ năng, 33 cặp form–skill và 264 hàng có hướng. Q1 Tây Bắc được bổ sung. Q2 quay bằng pose riêng, các hàng Q3/E/F/R được dựng bằng chuỗi theo form và hướng. Bốn form vẫn có Idle/Run/Turn/Basic tám hướng.
+- 2.816 PNG, 364 clip pose, 13 WAV. Dữ liệu neo theo frame được thêm cho Q3 ở bảy hướng và R1/R2 N/S trên bốn form. Các kỹ năng mới giữ Blockout trong khi chờ polish và duyệt hình. Q1 E tiếp tục In Review.
+- Xem [bàn giao](HEXCORE_ASSET_PRODUCTION_REPORT.md), [kết quả kiểm thử](HEXCORE_ANIMATION_QA.md), [checkpoint](HEXCORE_PRODUCTION_PROGRESS.md) và [bộ GIF](player-art/HexcoreFinal/Review/README.md).
+
+## HEXCORE · Bổ sung hướng và animation · 2026-11-18
+
+- Cả bốn form có Idle/Run, pose Turn và Basic tám hướng. Có 20 chuỗi Q2/Q3/E/F riêng hướng E, Q1 ở 7 hướng và sprite riêng R1–R3 E/W trên bốn form. Hai phương án Q1 NW chưa qua kiểm tra tay kiếm/giáp vai.
+- Thêm 13 cue WAV sinh từ nguồn tổng hợp có thể tái tạo. Đo điểm mũi kiếm khi phát QiWave và R2, điểm chạm đất R1 và neo tác động Q1.
+- Unity 6000.3.25f1 đã chạy Play Mode trên bản sao. Ma trận có 264 hàng, gồm 135 trình diễn (84 dùng pose nguồn) và 129 thiếu pose. Có 1.140 PNG và 151 clip trong các thư mục HexcorePreview. Các hướng chính chỉ có pose nguồn giữ trạng thái Blockout. Xem [bàn giao và giới hạn](HEXCORE_ASSET_PRODUCTION_REPORT.md).
+
+## HEXCORE · Preview toàn danh mục · 2026-11-18
+
+- Scene `HexcoreSkillPreview` có 4 form, 24 kỹ năng và 33 tổ hợp tương thích. Có 399 sprite và 69 clip bổ sung trong các thư mục `HexcorePreview`, tính cả 34 sprite của Đợt 1. Repo giữ các prefab và Animator gốc cho hướng chính.
+- Có Basic E/W cho bốn form, Q1 E/S/W, pose riêng E cho ba lõi trên bốn form, bốn key pose E cho mỗi Q2/Q3/E/F. 8/7/8/8 hướng locomotion xem được, với Idle chéo giữ pose. Sát thủ SW chưa đạt phối cảnh. Các combo/hướng chưa có pose, Turn chuyên biệt, in-between và polish SFX vẫn cần bổ sung.
+- Unity 6000.3.25f1 Play Mode trên bản sao đã qua kiểm tra chuỗi Q1 1×/0,5×, 33 tổ hợp và mốc VFX. Chụp 33 ảnh camera và xuất 24 GIF hướng Đông. Q1 E In Review, các kỹ năng còn lại Blockout. [Báo cáo bàn giao](HEXCORE_ASSET_PRODUCTION_REPORT.md)
+
+## HEXCORE Đợt 1 · Form 01 · 2026-11-18
+
+- Thêm 34 sprite từ ảnh ImageGen dùng tham chiếu Kiếm sĩ gốc. Scene có Basic hai nhát và bộ Q1 riêng hướng Đông, 4 hướng Idle/Run từ Animator gốc, hai hướng NE/SE với Run mới và Idle giữ một pose.
+- Vệt kiếm, bụi chân và tia va chạm đi theo các điểm neo/mốc trên timeline preview. Chuỗi mặc định kết thúc bằng Run sau nhát Basic.
+- Unity 6000.3.25f1 Play Mode trên bản sao đã qua bài kiểm tra 1× và 0,5×, mốc chạm, chạy ra, replay và sáu hướng có dữ liệu. Ghi GIF từ 48 ảnh camera Unity.
+- Needs verification: designer duyệt chuyển tiếp và chân trụ. Thiếu SW/NW, Idle NE/SE nhiều frame, Basic/Q1 ở các hướng ngoài E và SFX. [Báo cáo Đợt 1](HEXCORE_FORM01_STAGE1.md)
+
+## HEXCORE Đợt 0 và Q1 blockout · 2026-11-18
+
+- Lưu bản đặc tả đầy đủ và [báo cáo kiểm kê](HEXCORE_ASSET_AUDIT.md), gồm 4 form, ma trận tương thích ban đầu và yêu cầu sản xuất pose. Kiểm tra tĩnh đã đối chiếu 312 PNG với thông số import, GUID của 64 clip và 24 tiêu đề kỹ năng trong đặc tả.
+- `HexcoreSkillPreview` dùng prefab Kiếm sĩ nguồn, dummy nhện Kenney CC0 và tia va chạm dựng bằng LineRenderer. Preview Idle/Run N/E/S/W và chuỗi Run → Basic → Q1 → Basic hướng E. Dùng pose tạm cho Dash/Recovery, một nhát Basic nguồn, chưa có SFX. Kỹ năng ở trạng thái Blockout.
+- Unity 6000.3.25f1 đã biên dịch và chạy Play Mode trên bản sao vì project gốc đang có khóa Editor. Bài kiểm tra thấy tia va chạm trong đúng sprite swing, nhân vật về Idle tại điểm cuối đường lướt và Phát lại đưa nhân vật về vị trí đầu, xóa tia. Log `Temp/HexcoreRetest.log` có ngoại lệ từ Unity Search khi Editor lập chỉ mục và dòng PASS của bài kiểm tra demo.
+- Needs verification: độ mượt và bố cục Game View khi người dùng duyệt, pose hướng chéo, nhát Basic thứ hai, các frame chuyển tiếp và pose Q1 riêng.
+
+## All-skill background cleanup audit — 2026-11-13
+
+- Added CleanVfx shader/material to Demo effects except the dedicated surrounding barrier and gold-only VanAnh materials. Suppresses low-saturation background haze, keeps colored cuts/particles and nearby white highlights, and retains dark opaque steel/stone details. Uses existing PNGs without rewriting source artwork.
+- MeleeDemoSetup wires the shared cleanup material. Verification capture now supports all fifteen selections. Graphics-enabled Unity batch BuildAndVerify passed all fifteen checks, including character movement/barrier follow checks, with no reported shader/C# errors.
+- Rendered all fifteen skills and inspected labelled docs/player-art/MeleeDemo/CleanupAudit.png. No grey backing panels visible in these representative renders; original shield outline, blade trails and fire/ground fragments remain visible. Material filtering applies throughout each clip. Subtle translucent glow is deliberately retained around actual cuts.
+
+## Surrounding barrier and WASD demo control — 2026-11-13
+
+- Opening shield Demo now renders a transparent turquoise/gold elliptical barrier around the whole character using BarrierShield shader/material. Original sprite texture is reused on a runtime FullRect sprite so the old tight shield mesh cannot clip the barrier. Barrier stays visible, pulses on the paused demo clock and follows actor center.
+- WASD uses existing Input System Keyboard input with normalized diagonal movement at 2.8 units/s. First input takes control from scripted movement, position stays under player control through demo cycles, and arena bounds keep the actor visible. Run direction follows movement. Pause freezes control; replay resets position. Body-attached barrier/orbit effects follow the actor.
+- MeleeDemoSetup wires the barrier material and includes Rebuild and Verify Melee Demo (Ctrl+Alt+F8). Footer explains Game View focus/WASD. Demo retains scripted skill playback and illustrative enemy reactions.
+- Unity Play Mode passed all 15 skill checks plus normalized diagonal displacement and barrier-to-actor centering. Rendered and visually inspected docs/player-art/MeleeDemo/CombatPreview0.png with a complete surrounding barrier and visible character. This remains a controllable visual demonstration with scripted skill timing/reactions.
+
+## Demo corrections from screenshots — 2026-11-13
+
+- Fixed UI trails by clearing header/sidebar/footer outside the camera viewport on every repaint. UI and camera reserve space using the same responsive scale, including small Game View sizes. Inspected live Unity Game View with clean text and visible actor/enemies.
+- Reworked existing KhienChan sheet into a recognizable pointed shield with metal rim using built-in imagegen. Re-exported original eight frame paths/GIF; prompt and prior source retained under docs/player-art/MeleeSkills. Updated shield description.
+- Removed assassin retreat discontinuity at 1.4s and makes retreat face left. HoanhTao uses continuous rotation of original sweep frame; HoiNguyet uses one original crescent on a smooth out-and-back trajectory with return flip. PhanQuang uses a stable original fan frame moving from the weapon. Heavy impact waits for the actual heavy attack release at 2.41s; qi ultimate release and weapon offsets aligned. KiemAn stays centered on its target.
+- Added GoldVfxOnly shader/material for VanAnh demo. Filters neutral/teal field while retaining gold cuts; rendered CombatPreview14.png inspected with grey rectangle removed. Reaction region remains invisible and checks target positions against its elliptical footprint, including an outside enemy.
+- Interactive Unity Play Mode verification passed all 15 scenes, accepting sprite or transform animation for continuously moving effects. Repeatable verifier now resets internal state between runs. Captured and inspected actual rendered effects; live Game View text was reviewed. Detailed subjective timing/pose fit still benefits from user review.
+
+## Character/enemy melee demonstrations — 2026-11-13
+
+- MeleeDemo now instantiates existing Swordsman/Assassin/DaoWarrior/QiSwordsman visual prefabs and four small enemies using the actual Enemy prefab sprite/material. Stage1 uses Swordsman; each passive uses its branch actor; ultimate toolbar selects any of three branches.
+- Added MeleeDemoCombat, a deterministic 5.2-second demonstration timeline. Samples original Idle/Run/Attack clips and VFX on one clock. Includes preliminary strikes for passives, stab/retreat, circling weakpoint, heavy windup, approach to break qi marks, dash and landing arc. Enemies flash red/recoil; landing also lifts them briefly. Dash demonstration avoids damage. Replay resets whole encounter and pause freezes actors, effects and enemies together.
+- MeleeDemoSetup serializes four character prefab refs, existing enemy sprite/material and combat presenter into saved MeleeDemo scene. No new character or effect artwork. Demo timing and reactions are illustrative choreography; these changes do not implement full combat rules in GameScene.
+- Actual Unity Play Mode passed all 15 selections with correct branch actors, four enemies, advancing VFX and six active renderers per encounter. Runtime validation report Temp/MeleeDemoCombatVerification.txt. Visual review of full OnGUI layout remains Needs verification.
+- Final graphics-enabled batch Play Mode passed after timing fixes. Rendered and inspected camera-only combat frame docs/player-art/MeleeDemo/CombatPreview.png, showing DaoWarrior, four original spider sprites and circular slash. This render excludes OnGUI.
+
+## Melee demo scene — 2026-11-13
+
+- Added Assets/Scenes/MeleeDemo.unity, runtime MeleeSkillDemo and Editor MeleeDemoSetup. Uses all 15 existing skill visual prefabs (3 opening, 9 branch passives, 3 ultimates), original sprites/controllers/materials. Left scrollable grouped sidebar switches one active prefab; replay/pause/repeat and uniform zoom controls in main area.
+- Uses existing OnGUI approach, dark forest-color background and original Point-filtered VFX. Camera viewport reserves header/footer and fits both dimensions. Scene is independent and can be opened directly in Unity and played.
+- New artwork was not generated. C# compiled and scene build verified with MELEE DEMO READY for 15 wired prefabs. MeleeDemoVerification added to verify selection replacement and sprite animation in Play Mode.
+- Actual headless Unity Play Mode verification passed all 15 selections: each has a non-null sprite, advances animation and leaves exactly one active effect. Log Temp/MeleeDemoPlayMode.log contains MELEE DEMO PLAY MODE PASSED. Headless verification does not assess rendered UI layout.
+- Needs verification: manual visual assessment of sidebar/control layout in Unity Game view at the user's display size. Demo displays supplied animation clips; combat conditions and damage remain outside the visual gallery.
+
+## Stage 1 and 2 melee VFX — 2026-11-13
+
+- Added Assets/Prefabs/Player/MeleeSkills with three Stage1 effects (KhienChan, AnhBo, LuoiDaoHoThe) and nine branch passives. Assassin: TamLienThu, AnhHoiKich, AnTuHuyet. DaoWarrior: DiaLietTram, HoanhTao, TrongDao. QiSwordsman: HoiNguyet, PhanQuang, KiemAn.
+- Each uses eight transparent 256px frames, PPU48, Point filter and a 0.64-second visual clip. Twelve controllers and visual prefabs generated by MeleeSkillAssetBuilder. Orbiting blades loop; other clips clear sprite at end. Timing chosen for visual preview and requires alignment with combat later.
+- Sources generated through built-in imagegen; prompts, extraction script, twelve GIFs and labelled Overview.png in docs/player-art/MeleeSkills. Export cleans neutral haze and cell edges; overview visually inspected and ground-crack haze corrected.
+- Verified 96 PNG dimensions, all twelve eight-frame GIFs, 96 frame metas, twelve clips/prefabs. Final Unity 6000.3.25f1 batch compile/import reports twelve sets built successfully and successful batchmode exit.
+- Needs verification: gameplay-scale visual review, attachment offsets and real Play Mode. Passive conditions, damage, movement, shield blocking and duration controls require gameplay integration. No gameplay logic added.
+
+## Ultimate video reference revisions — 2026-11-13
+
+- Viewed sampled frames from user videos 165813 (gold-white crossing slashes over teal arena) and 170126 (three long pointed sword lanes in a fan). Updated VanAnh to warm gold ghost/slash traces with teal arena and five-point path. Updated TamThien to pale blue charging lanes transitioning to straight gold-white narrow blades released in a fan. Both retain 16-frame visual clips.
+- Built-in imagegen used video frame references. Prompts VanAnh-v2/TamThien-v3 and reference sampling script are in docs/player-art/MeleeUltimates; earlier sheets retained there. Export removes neutral sheet residue for TamThien. GIFs updated. Inspected dark-background composites.
+- Needs verification: gameplay-scale human review. Five-ghost physical motion and hold-R variable charge remain preview artwork awaiting gameplay integration. No Play Mode combat test performed for these revisions.
+- Unity 6000.3.25f1 compiled/imported with MELEE ULTIMATES READY and return code0 after both revisions.
+
+## TamThien art revision — 2026-11-13
+
+- Replaced TamThien sheet/16 frame PNGs from user-provided gold-white sword fan reference. New blades have pointed ivory edges, gold rims and charcoal trails; transparent fan wash reveals targets. Inspected composited frame on dark background. Updated TamThien.gif and saved v2 prompt/preview in docs/player-art/MeleeUltimates; previous source backed up there.
+- Export accepts Names to target one set. Builder has BuildTamThien menu/entry point for isolated import. Character skill triggering and variable charge remain pending gameplay integration.
+- Verified Unity 6000.3.25f1 compilation/import completed with MELEE ULTIMATES READY for one set and successful batchmode exit. No gameplay Play Mode test performed.
+
+## Melee ultimate VFX assets — 2026-11-13
+
+- Added Assets/Prefabs/Player/MeleeUltimates with ThienVan (descending fire/impact/circular sweep), TamThien (charge then three-blade filled cone facing +X), VanAnh (five apparitions and progressively drawn pentagram/filled center). Each contains 16 transparent 256px frames. Shared preview timing is 1.28 seconds, PPU48, Point filtering, final sprite cleared.
+- Built-in imagegen source sheets and 48 extracted frames retained. Prompts, extraction script and three dark-background GIFs are in docs/player-art/MeleeUltimates. Extraction preserves cell placement with edge feathering to soften source-sheet halo seams.
+- MeleeUltimateAssetBuilder creates three one-shot clips/controllers/visual prefabs through Tools > Brotato > Build Melee Ultimate Assets.
+- Verified Unity 6000.3.25f1 C# compilation and asset import; log reports MELEE ULTIMATES READY and Exiting batchmode successfully. All three prefabs generated. No gameplay Play Mode test performed.
+- Needs verification: visual polish at gameplay scale, character jump/landing and physical five-ghost movement. Current sheet animates star formation with apparitions at vertices. Hold-R charge/release, aiming, boss selection, hit areas, damage, cooldown and invulnerability still require gameplay integration. These are visual asset previews.
+
+## Full qi swordsman visual set — 2026-11-12
+
+- Added Assets/Prefabs/Player/QiSwordsman with 80 transparent 320x320 character PNGs, four 256x256 wave PNGs, 17 clips, two controllers and two visual prefabs. PPU120; character ground y240, center pivot. Per direction Idle4 / Run5 / Attack7 / Death4. Attack lasts 0.78 seconds with suggested wave release at frame03/time0.31.
+- Separate right-facing +X QiWave preserves translucent cyan glow and fades over four frames/0.36 seconds; final curve key clears Sprite. Directional rotation and projectile movement/damage are future combat integration. ReleaseDemo.gif is a composited visual illustration of the proposed release/flight timing.
+- Built-in imagegen sources follow the approved long-black-hair/teal-robe swordsman. Export normalizes scale/ground, cleans character alpha haze and detached neighbor fragments, and pads wave bounds to preserve soft glow. Prompts, reproducible export scripts and 18 preview GIFs are in docs/player-art/QiSwordsmanFull.
+- Unity 6000.3.25f1 batch compiled/imported the builder with QI SWORDSMAN READY and exit0. Verified 80 character/4 wave PNG dimensions, 18 GIF frame counts, no strongly opaque canvas edge pixels, 17 clip assets and both prefabs. Character clip references and first four wave sprite references are checked during construction; final null wave key is intentional. Composite preview inspected and stray neighbor glint removed.
+- Needs verification: human assessment of all directional cycles and actual GameScene/Play Mode combat integration. AI-generated poses can retain small drawing variations. Existing gameplay remains at its prior implementation.
+
+## Full heavy curved-saber asset set — 2026-11-12
+
+- Added Assets/Prefabs/Player/DaoWarrior with 84 transparent 320x320 PNGs at PPU120, 16 clips, DaoWarrior.controller and DaoWarriorVisual.prefab. Per direction Down/Left/Right/Up: Idle4 / Run5 / Attack8 / Death4. Body height is normalized near 160 pixels, ground y240, center pivot. Wider canvas accommodates the large curved blade.
+- Attack is a 1.10-second weighted windup/diagonal chop/recovery cycle; Run loops at 0.60 seconds. Left Attack frames are mirrored to correct generated source orientation. Alpha haze and small detached specks are cleaned. Attack source rectangles include horizontal padding to preserve the full blade.
+- Four imagegen source sheets follow the approved topknot/bronze-armor/red-sash character. Prompts, export script and 16 looping forest GIF previews are in docs/player-art/DaoWarriorFull.
+- Checks completed: 84 PNG dimensions, zero strongly opaque pixels on output canvas edges, all 16 GIF frame counts, 84 sprite meta files, 16 clip sprite references and preview prefab. Unity 6000.3.25f1 batch compiled/imported with DAO WARRIOR READY and exit 0.
+- Needs verification: human review of complete animation cycles and gameplay combat integration in Play Mode. This delivery provides visual assets and an Animator preview prefab. AI-generated poses can retain small drawing differences.
+
+## Full dagger assassin asset set — 2026-11-12
+
+- Added Assets/Prefabs/Player/Assassin with 72 transparent 256x256 PNG frames at PPU120, 16 clips, Assassin.controller and AssassinVisual.prefab. Per direction Down/Left/Right/Up: Idle4 / Run5 / Attack5 / Death4. Attack is a fast 0.48-second stab/retract cycle. Idle/Run loop; Attack/Death play once.
+- Built-in imagegen used the approved silver-haired/purple-scarf assassin reference. Export centers frames, aligns ground, normalizes action scale, removes faint alpha haze and small disconnected specks. Expanded Attack source rectangles preserve the dagger tip crossing nominal cell boundaries. Verified no strongly opaque pixels touch any output canvas edge.
+- AssassinAssetBuilder completed in Unity 6000.3.25f1 batch mode with ASSASSIN READY and exit 0. Checked 72 PNG dimensions, 16 GIF frame counts and clip sprite references during construction. Source prompts, reproducible export script and 16 forest GIF previews are under docs/player-art/AssassinFull.
+- Visual asset package is ready for preview. AI artwork can retain small proportion/pose differences. Gameplay stab triggering/damage and Play Mode combat integration remain Needs verification. Existing Player/GameScene gameplay is not changed by this visual package.
+
+## Full swordsman asset set — 2026-11-12
+
+- Added Assets/Prefabs/Player/Swordsman with 76 transparent 256x256 PNG frames, PPU120, 16 clips, Swordsman.controller and SwordsmanVisual.prefab. Four directions each have Idle4 / Run5 / Attack6 / Death4. Idle/Run loop, Attack/Death play once. Attack uses reviewed 0.74-second timing. The wider common canvas accommodates the sword arc.
+- Built-in imagegen produced four action sheets from approved reference. Export aligns ground and normalizes action scale; left Attack/Death are mirrored to correct wrong-facing generated rows. Alpha haze and small disconnected specks are removed. AI-generated artwork can retain small pose/proportion differences.
+- Unity 6000.3.25f1 batch build compiled SwordsmanAssetBuilder and completed with SWORDSMAN READY and exit 0. Verified 76 frame metas, 16 clips and visual prefab. Sixteen looping forest GIFs and generation prompts are under docs/player-art/SwordsmanFull. Play Mode combat integration and human assessment of all animation cycles remain Needs verification.
+
+Swordsman motion review: `docs/player-art/Swordsman/` contains the six right-facing attack poses, aligned PNG frames and a looping forest GIF. One cycle is 0.74 seconds including the recovery hold. GIF decoded with six frames. Timing and silhouette await user review before directional production or Unity integration.
+
+## Melee character art review — 2026-11-12
+
+`docs/player-art/MeleeLineup-v1.png` contains the first eight-pose forest concept sheet. Columns show swordsman, assassin, heavy saber fighter and qi swordsman. Rows show right-facing idle and peak attack. User review of silhouettes and weapons precedes the four Attack_Right motion samples. In-game scale and timing still need Unity verification.
+
 ## Player artwork installed - 2026-11-09
 
 - User follow-up authorized completing Unity setup directly. Applied and saved the existing Player prefab: Idle_Down_00 sprite, PlayerCharacter Animator controller, PlayerSpriteAnimator on PlayerVisual, centered/unit visual transform, root motion off, normal update mode/always animate, old PlayerController.playerVisual rotation reference cleared. GameScene inherits the updated prefab; existing scene Player/tag/camera/weapon/manager references remain intact.
