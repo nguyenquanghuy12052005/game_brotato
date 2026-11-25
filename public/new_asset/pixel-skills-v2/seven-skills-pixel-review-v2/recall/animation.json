@@ -1,0 +1,35 @@
+{
+  "name": "Xuyên kích hồi quy",
+  "frameWidth": 320,
+  "frameHeight": 288,
+  "columns": 10,
+  "rows": 8,
+  "frames": 75,
+  "fps": 30,
+  "filter": "Point",
+  "pivotTopLeft": [
+    160,
+    181
+  ],
+  "loop": false,
+  "events": [
+    {
+      "frame": 0,
+      "label": "outbound"
+    },
+    {
+      "frame": 15,
+      "label": "return"
+    },
+    {
+      "frame": 29,
+      "label": "recover"
+    }
+  ],
+  "sources": [
+    "fireball-throw.png",
+    "quake.png",
+    "muzzle-smg.png"
+  ],
+  "scope": "Visual review; staged motions demonstrate existing mechanics. Do not use montage as a moving gameplay sprite. Split/move layers on later integration."
+}

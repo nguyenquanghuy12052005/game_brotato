@@ -1,0 +1,5031 @@
+fileFormatVersion: 2
+guid: 73701900b6fbe8f47b496debc6e53440
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2079992456154492879
+    second: muzzle-shotgun_0
+  - first:
+      213: -9183833435094677124
+    second: muzzle-shotgun_1
+  - first:
+      213: 6480607774218198663
+    second: muzzle-shotgun_2
+  - first:
+      213: 7564068386396807928
+    second: muzzle-shotgun_3
+  - first:
+      213: 3816196206964144527
+    second: muzzle-shotgun_4
+  - first:
+      213: -1818305895551267230
+    second: muzzle-shotgun_5
+  - first:
+      213: -6250097265526399307
+    second: muzzle-shotgun_6
+  - first:
+      213: 4753830194345056259
+    second: muzzle-shotgun_7
+  - first:
+      213: 7600768222259420975
+    second: muzzle-shotgun_8
+  - first:
+      213: -2415513047900740254
+    second: muzzle-shotgun_9
+  - first:
+      213: 3586588677954186578
+    second: muzzle-shotgun_10
+  - first:
+      213: -3265556122795517650
+    second: muzzle-shotgun_11
+  - first:
+      213: 8847584617906575788
+    second: muzzle-shotgun_12
+  - first:
+      213: 516381328646615487
+    second: muzzle-shotgun_13
+  - first:
+      213: 4657464478407364068
+    second: muzzle-shotgun_14
+  - first:
+      213: 1402275333971059106
+    second: muzzle-shotgun_15
+  - first:
+      213: -7502123325422312992
+    second: muzzle-shotgun_16
+  - first:
+      213: 5410503313025535746
+    second: muzzle-shotgun_17
+  - first:
+      213: 8419758698293576547
+    second: muzzle-shotgun_18
+  - first:
+      213: 2200642375718829124
+    second: muzzle-shotgun_19
+  - first:
+      213: -5933285741958860962
+    second: muzzle-shotgun_20
+  - first:
+      213: 6561335326141220988
+    second: muzzle-shotgun_21
+  - first:
+      213: 558276528680099575
+    second: muzzle-shotgun_22
+  - first:
+      213: -6667029508983145022
+    second: muzzle-shotgun_23
+  - first:
+      213: 3035317494686125364
+    second: muzzle-shotgun_24
+  - first:
+      213: -5459331198005813573
+    second: muzzle-shotgun_25
+  - first:
+      213: -7715939986384386535
+    second: muzzle-shotgun_26
+  - first:
+      213: -2401550270304696040
+    second: muzzle-shotgun_27
+  - first:
+      213: 8667923881360682227
+    second: muzzle-shotgun_28
+  - first:
+      213: 9220682768445762444
+    second: muzzle-shotgun_29
+  - first:
+      213: -5385398127708489358
+    second: muzzle-shotgun_30
+  - first:
+      213: 1481774501110449160
+    second: muzzle-shotgun_31
+  - first:
+      213: 1097125191517340396
+    second: muzzle-shotgun_32
+  - first:
+      213: 5288468242952237422
+    second: muzzle-shotgun_33
+  - first:
+      213: -4034212383587668198
+    second: muzzle-shotgun_34
+  - first:
+      213: -117018076197262562
+    second: muzzle-shotgun_35
+  - first:
+      213: -6350791999632832805
+    second: muzzle-shotgun_36
+  - first:
+      213: 3964013646560660973
+    second: muzzle-shotgun_37
+  - first:
+      213: 2538753201012401260
+    second: muzzle-shotgun_38
+  - first:
+      213: -7685580133036412001
+    second: muzzle-shotgun_39
+  - first:
+      213: 9070158152341699382
+    second: muzzle-shotgun_40
+  - first:
+      213: 2777208717170676348
+    second: muzzle-shotgun_41
+  - first:
+      213: -4662606649588902171
+    second: muzzle-shotgun_42
+  - first:
+      213: -2342968543737242616
+    second: muzzle-shotgun_43
+  - first:
+      213: -6285785205813826323
+    second: muzzle-shotgun_44
+  - first:
+      213: 125970690701362897
+    second: muzzle-shotgun_45
+  - first:
+      213: -8344897981054260533
+    second: muzzle-shotgun_46
+  - first:
+      213: 1685966774897142873
+    second: muzzle-shotgun_47
+  - first:
+      213: -1570438240600564191
+    second: muzzle-shotgun_48
+  - first:
+      213: 3132323635638424372
+    second: muzzle-shotgun_49
+  - first:
+      213: 6230252900346217733
+    second: muzzle-shotgun_50
+  - first:
+      213: -6280421369143094859
+    second: muzzle-shotgun_51
+  - first:
+      213: -7368037938231876687
+    second: muzzle-shotgun_52
+  - first:
+      213: -4053843447140435630
+    second: muzzle-shotgun_53
+  - first:
+      213: 2902327751487707725
+    second: muzzle-shotgun_54
+  - first:
+      213: 9093586560623822919
+    second: muzzle-shotgun_55
+  - first:
+      213: 1264953900875818953
+    second: muzzle-shotgun_56
+  - first:
+      213: 612058320177272052
+    second: muzzle-shotgun_57
+  - first:
+      213: -853999923447682144
+    second: muzzle-shotgun_58
+  - first:
+      213: 6624236486929610046
+    second: muzzle-shotgun_59
+  - first:
+      213: 5514888318137226818
+    second: muzzle-shotgun_60
+  - first:
+      213: -9073081128228843473
+    second: muzzle-shotgun_61
+  - first:
+      213: -2085891883537972432
+    second: muzzle-shotgun_62
+  - first:
+      213: 6355139722229530806
+    second: muzzle-shotgun_63
+  - first:
+      213: 6212950188576538474
+    second: muzzle-shotgun_64
+  - first:
+      213: 4999500182178936268
+    second: muzzle-shotgun_65
+  - first:
+      213: -3132480586471053963
+    second: muzzle-shotgun_66
+  - first:
+      213: -7055567880292651778
+    second: muzzle-shotgun_67
+  - first:
+      213: -6206005080372590186
+    second: muzzle-shotgun_68
+  - first:
+      213: 174199104256512771
+    second: muzzle-shotgun_69
+  - first:
+      213: 9130148163835745226
+    second: muzzle-shotgun_70
+  - first:
+      213: -4303214321083330755
+    second: muzzle-shotgun_71
+  - first:
+      213: 7708279405477584309
+    second: muzzle-shotgun_72
+  - first:
+      213: 2146673944059839040
+    second: muzzle-shotgun_73
+  - first:
+      213: 4000835047115238942
+    second: muzzle-shotgun_74
+  - first:
+      213: 5582129845311311094
+    second: muzzle-shotgun_75
+  - first:
+      213: 5373419110507075016
+    second: muzzle-shotgun_76
+  - first:
+      213: -1413831791922369180
+    second: muzzle-shotgun_77
+  - first:
+      213: -3360114364001876070
+    second: muzzle-shotgun_78
+  - first:
+      213: -3832196452250583899
+    second: muzzle-shotgun_79
+  - first:
+      213: -3077420805305343670
+    second: muzzle-shotgun_80
+  - first:
+      213: 3173485680659915404
+    second: muzzle-shotgun_81
+  - first:
+      213: 4407648975513725880
+    second: muzzle-shotgun_82
+  - first:
+      213: 4072578246074393848
+    second: muzzle-shotgun_83
+  - first:
+      213: -1977517572574999280
+    second: muzzle-shotgun_84
+  - first:
+      213: -6037199843291799249
+    second: muzzle-shotgun_85
+  - first:
+      213: -123387143369286693
+    second: muzzle-shotgun_86
+  - first:
+      213: -8272213041169576339
+    second: muzzle-shotgun_87
+  - first:
+      213: 5564180710436177896
+    second: muzzle-shotgun_88
+  - first:
+      213: 586208718950428099
+    second: muzzle-shotgun_89
+  - first:
+      213: 3188610396927027398
+    second: muzzle-shotgun_90
+  - first:
+      213: -6329883512098876633
+    second: muzzle-shotgun_91
+  - first:
+      213: -225867805623420555
+    second: muzzle-shotgun_92
+  - first:
+      213: -593362480192126526
+    second: muzzle-shotgun_93
+  - first:
+      213: 1354817942717855487
+    second: muzzle-shotgun_94
+  - first:
+      213: 4826839714214227303
+    second: muzzle-shotgun_95
+  - first:
+      213: 7514689964630132854
+    second: muzzle-shotgun_96
+  - first:
+      213: -4555547372528865178
+    second: muzzle-shotgun_97
+  - first:
+      213: 1617478978670077394
+    second: muzzle-shotgun_98
+  - first:
+      213: -6658226244526757970
+    second: muzzle-shotgun_99
+  - first:
+      213: -8820756183379097303
+    second: muzzle-shotgun_100
+  - first:
+      213: 5471740953237065101
+    second: muzzle-shotgun_101
+  - first:
+      213: 2752092665461103966
+    second: muzzle-shotgun_102
+  - first:
+      213: 4121648408434923724
+    second: muzzle-shotgun_103
+  - first:
+      213: -635851554486029303
+    second: muzzle-shotgun_104
+  - first:
+      213: -8899164297508547239
+    second: muzzle-shotgun_105
+  - first:
+      213: -7579833899247906680
+    second: muzzle-shotgun_106
+  - first:
+      213: 4570154447025732066
+    second: muzzle-shotgun_107
+  - first:
+      213: -797950863277280
+    second: muzzle-shotgun_108
+  - first:
+      213: 2121841742407061525
+    second: muzzle-shotgun_109
+  - first:
+      213: -6163523506649037160
+    second: muzzle-shotgun_110
+  - first:
+      213: -3827836691203746281
+    second: muzzle-shotgun_111
+  - first:
+      213: -4850004046780615450
+    second: muzzle-shotgun_112
+  - first:
+      213: 5494212856960772831
+    second: muzzle-shotgun_113
+  - first:
+      213: -926592075102994746
+    second: muzzle-shotgun_114
+  - first:
+      213: 8697657433975058443
+    second: muzzle-shotgun_115
+  - first:
+      213: 129774426087153815
+    second: muzzle-shotgun_116
+  - first:
+      213: -2595296305323278550
+    second: muzzle-shotgun_117
+  - first:
+      213: -2355651049912021057
+    second: muzzle-shotgun_118
+  - first:
+      213: 3290017313965466923
+    second: muzzle-shotgun_119
+  - first:
+      213: -7200449765265430337
+    second: muzzle-shotgun_120
+  - first:
+      213: 5930122963744672179
+    second: muzzle-shotgun_121
+  - first:
+      213: -145301173955074784
+    second: muzzle-shotgun_122
+  - first:
+      213: 7622301545796486443
+    second: muzzle-shotgun_123
+  - first:
+      213: 8854897633063342027
+    second: muzzle-shotgun_124
+  - first:
+      213: 3368832367637910106
+    second: muzzle-shotgun_125
+  - first:
+      213: -8923215894186463396
+    second: muzzle-shotgun_126
+  - first:
+      213: 6012236137711588434
+    second: muzzle-shotgun_127
+  - first:
+      213: -1951913481521850519
+    second: muzzle-shotgun_128
+  - first:
+      213: 5859989392372318214
+    second: muzzle-shotgun_129
+  - first:
+      213: 6613876094418709121
+    second: muzzle-shotgun_130
+  - first:
+      213: -8007454656557842031
+    second: muzzle-shotgun_131
+  - first:
+      213: 4551579190235623033
+    second: muzzle-shotgun_132
+  - first:
+      213: 356624158314868249
+    second: muzzle-shotgun_133
+  - first:
+      213: 2182181521403959938
+    second: muzzle-shotgun_134
+  - first:
+      213: -8052271938361151524
+    second: muzzle-shotgun_135
+  - first:
+      213: -3794662196248882109
+    second: muzzle-shotgun_136
+  - first:
+      213: -3455875691565938410
+    second: muzzle-shotgun_137
+  - first:
+      213: 5249535944426450938
+    second: muzzle-shotgun_138
+  - first:
+      213: 9222162737538785170
+    second: muzzle-shotgun_139
+  - first:
+      213: -4096109754900659151
+    second: muzzle-shotgun_140
+  - first:
+      213: 403038792010484407
+    second: muzzle-shotgun_141
+  - first:
+      213: 696837436030805973
+    second: muzzle-shotgun_142
+  - first:
+      213: 6159081443967170208
+    second: muzzle-shotgun_143
+  - first:
+      213: 3747245868414544900
+    second: muzzle-shotgun_144
+  - first:
+      213: -7739451314775931241
+    second: muzzle-shotgun_145
+  - first:
+      213: 5303700369729522842
+    second: muzzle-shotgun_146
+  - first:
+      213: -2008554246744377241
+    second: muzzle-shotgun_147
+  - first:
+      213: 290315647169434060
+    second: muzzle-shotgun_148
+  - first:
+      213: -9091550534090665727
+    second: muzzle-shotgun_149
+  - first:
+      213: -389592463826686254
+    second: muzzle-shotgun_150
+  - first:
+      213: -4885307454001480723
+    second: muzzle-shotgun_151
+  - first:
+      213: -7761128299168269650
+    second: muzzle-shotgun_152
+  - first:
+      213: 7109202606794420302
+    second: muzzle-shotgun_153
+  - first:
+      213: 139931898126739845
+    second: muzzle-shotgun_154
+  - first:
+      213: 8622235053948530429
+    second: muzzle-shotgun_155
+  - first:
+      213: -3664498646581442256
+    second: muzzle-shotgun_156
+  - first:
+      213: 2774550674738392638
+    second: muzzle-shotgun_157
+  - first:
+      213: 5359009341050975844
+    second: muzzle-shotgun_158
+  - first:
+      213: -7837984816063552100
+    second: muzzle-shotgun_159
+  - first:
+      213: 34040077047211713
+    second: muzzle-shotgun_160
+  - first:
+      213: -4352976117563538064
+    second: muzzle-shotgun_161
+  - first:
+      213: -3864712265713351520
+    second: muzzle-shotgun_162
+  - first:
+      213: -898822989927518771
+    second: muzzle-shotgun_163
+  - first:
+      213: -6335029060846697072
+    second: muzzle-shotgun_164
+  - first:
+      213: 7711115431463826435
+    second: muzzle-shotgun_165
+  - first:
+      213: -7619242088684478271
+    second: muzzle-shotgun_166
+  - first:
+      213: 3027393838498705913
+    second: muzzle-shotgun_167
+  - first:
+      213: 4276771970370387249
+    second: muzzle-shotgun_168
+  - first:
+      213: 1530939689507785486
+    second: muzzle-shotgun_169
+  - first:
+      213: 1258234336450573246
+    second: muzzle-shotgun_170
+  - first:
+      213: 7860969426652883331
+    second: muzzle-shotgun_171
+  - first:
+      213: -4119997978685059964
+    second: muzzle-shotgun_172
+  - first:
+      213: 5451847516163214042
+    second: muzzle-shotgun_173
+  - first:
+      213: 4548993439232156436
+    second: muzzle-shotgun_174
+  - first:
+      213: -24387962450862120
+    second: muzzle-shotgun_175
+  - first:
+      213: -2409333628454659187
+    second: muzzle-shotgun_176
+  - first:
+      213: -7911063638265560586
+    second: muzzle-shotgun_177
+  - first:
+      213: 2430392123815126074
+    second: muzzle-shotgun_178
+  - first:
+      213: -906446777861344654
+    second: muzzle-shotgun_179
+  - first:
+      213: -1520333825574126279
+    second: muzzle-shotgun_180
+  - first:
+      213: -7513493324476423937
+    second: muzzle-shotgun_181
+  - first:
+      213: 3742320084713474862
+    second: muzzle-shotgun_182
+  - first:
+      213: -620827678995644535
+    second: muzzle-shotgun_183
+  - first:
+      213: 826868539027967761
+    second: muzzle-shotgun_184
+  - first:
+      213: -2843752991774305816
+    second: muzzle-shotgun_185
+  - first:
+      213: 5168864469290231139
+    second: muzzle-shotgun_186
+  - first:
+      213: -5361272029632243596
+    second: muzzle-shotgun_187
+  - first:
+      213: 4008637735828901384
+    second: muzzle-shotgun_188
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: muzzle-shotgun_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 1055
+        width: 88
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1305b63a1e16223e0800000000000000
+      internalID: -2079992456154492879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_1
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1056
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7983d816287c8080800000000000000
+      internalID: -9183833435094677124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_2
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 1056
+        width: 121
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78e19e65f6ebfe950800000000000000
+      internalID: 6480607774218198663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_3
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 1056
+        width: 76
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f2a1fb0f18f8f860800000000000000
+      internalID: 7564068386396807928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_4
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 1057
+        width: 73
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f897a4d2b3ad5f430800000000000000
+      internalID: 3816196206964144527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_5
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 1058
+        width: 95
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26e0baafb6414c6e0800000000000000
+      internalID: -1818305895551267230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_6
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1107
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be98a4c6a13349a0800000000000000
+      internalID: -6250097265526399307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_7
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 1060
+        width: 58
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089678ff5ff8f140800000000000000
+      internalID: 4753830194345056259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_8
+      rect:
+        serializedVersion: 2
+        x: 1055
+        y: 1109
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2f99d37d6a5b7960800000000000000
+      internalID: 7600768222259420975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_9
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 1111
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2652e8d4eaf5a7ed0800000000000000
+      internalID: -2415513047900740254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_10
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 1097
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25da5e8666f16c130800000000000000
+      internalID: 3586588677954186578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_11
+      rect:
+        serializedVersion: 2
+        x: 1038
+        y: 1092
+        width: 15
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e29dbaa020a6ea2d0800000000000000
+      internalID: -3265556122795517650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_12
+      rect:
+        serializedVersion: 2
+        x: 1158
+        y: 1074
+        width: 53
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca9188e555fe8ca70800000000000000
+      internalID: 8847584617906575788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_13
+      rect:
+        serializedVersion: 2
+        x: 1201
+        y: 1093
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb130ae151e8a2700800000000000000
+      internalID: 516381328646615487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_14
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 1104
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed887d4443a2a040800000000000000
+      internalID: 4657464478407364068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_15
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1086
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a123a69cf1e57310800000000000000
+      internalID: 1402275333971059106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_16
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 1095
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1e70f559a13e790800000000000000
+      internalID: -7502123325422312992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_17
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1071
+        width: 38
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20f06fcd818f51b40800000000000000
+      internalID: 5410503313025535746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_18
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1081
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3634b422dedf8d470800000000000000
+      internalID: 8419758698293576547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_19
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 1080
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44c746ac4904a8e10800000000000000
+      internalID: 2200642375718829124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_20
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 1078
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5fe6a7bd0cb8ada0800000000000000
+      internalID: -5933285741958860962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_21
+      rect:
+        serializedVersion: 2
+        x: 1236
+        y: 1076
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c788ed637bb8e0b50800000000000000
+      internalID: 6561335326141220988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_22
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1067
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe5a628b856fb700800000000000000
+      internalID: 558276528680099575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_23
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1068
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd330a2cf3f973a0800000000000000
+      internalID: -6667029508983145022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_24
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 1059
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43d8b4bfd2d9f1a20800000000000000
+      internalID: 3035317494686125364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_25
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 1025
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbed7af333f8c34b0800000000000000
+      internalID: -5459331198005813573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_26
+      rect:
+        serializedVersion: 2
+        x: 734
+        y: 1008
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 916835396797be490800000000000000
+      internalID: -7715939986384386535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_27
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 985
+        width: 74
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819ce3cc0cafbaed0800000000000000
+      internalID: -2401550270304696040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_28
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 1009
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fce0a078d6aa4870800000000000000
+      internalID: 8667923881360682227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_29
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 985
+        width: 78
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8b66c7ef1276ff70800000000000000
+      internalID: 9220682768445762444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_30
+      rect:
+        serializedVersion: 2
+        x: 1057
+        y: 1009
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 279b1e79fe83345b0800000000000000
+      internalID: -5385398127708489358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_31
+      rect:
+        serializedVersion: 2
+        x: 1149
+        y: 984
+        width: 82
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8048be7de02509410800000000000000
+      internalID: 1481774501110449160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_32
+      rect:
+        serializedVersion: 2
+        x: 1219
+        y: 1009
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce206828c85c93f00800000000000000
+      internalID: 1097125191517340396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_33
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 988
+        width: 50
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e613a13f8d9646940800000000000000
+      internalID: 5288468242952237422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_34
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1005
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1f66c716399308c0800000000000000
+      internalID: -4034212383587668198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_35
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1016
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b66fffda4406ef0800000000000000
+      internalID: -117018076197262562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_36
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 987
+        width: 44
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd60e7303547dd7a0800000000000000
+      internalID: -6350791999632832805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_37
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 1006
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded8c08c861030730800000000000000
+      internalID: 3964013646560660973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_38
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 987
+        width: 56
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c64eabed5967b3320800000000000000
+      internalID: 2538753201012401260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_39
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 1007
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f93b095c695575590800000000000000
+      internalID: -7685580133036412001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_40
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 986
+        width: 58
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bb0f6a8ccafdd70800000000000000
+      internalID: 9070158152341699382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_41
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1007
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c72931e2d90aa8620800000000000000
+      internalID: 2777208717170676348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_42
+      rect:
+        serializedVersion: 2
+        x: 684
+        y: 986
+        width: 61
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e611eba4f71b4fb0800000000000000
+      internalID: -4662606649588902171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_43
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 998
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c90a6e58a1c7fd0800000000000000
+      internalID: -2342968543737242616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_44
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 896
+        width: 86
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decaf09a8a764c8a0800000000000000
+      internalID: -6285785205813826323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_45
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 922
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d68d5ffca98fb100800000000000000
+      internalID: 125970690701362897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_46
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 896
+        width: 89
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcae268df77f03c80800000000000000
+      internalID: -8344897981054260533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_47
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 922
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95cead069d1c56710800000000000000
+      internalID: 1685966774897142873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_48
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 896
+        width: 91
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12e505f9dbea43ae0800000000000000
+      internalID: -1570438240600564191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_49
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 923
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433d9c730cf387b20800000000000000
+      internalID: 3132323635638424372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_50
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 895
+        width: 91
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 505cbf9e00e467650800000000000000
+      internalID: 6230252900346217733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_51
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 923
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b114743a0677d8a0800000000000000
+      internalID: -6280421369143094859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_52
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 895
+        width: 94
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b3661068887fb990800000000000000
+      internalID: -7368037938231876687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_53
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 923
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 259362eecdaddb7c0800000000000000
+      internalID: -4053843447140435630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_54
+      rect:
+        serializedVersion: 2
+        x: 820
+        y: 895
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ade2976b3274820800000000000000
+      internalID: 2902327751487707725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_55
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 924
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748cf380cc8e23e70800000000000000
+      internalID: 9093586560623822919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_56
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 895
+        width: 99
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c7a2feeed40e8110800000000000000
+      internalID: 1264953900875818953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_57
+      rect:
+        serializedVersion: 2
+        x: 1065
+        y: 924
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f41df3acc77e7800800000000000000
+      internalID: 612058320177272052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_58
+      rect:
+        serializedVersion: 2
+        x: 1077
+        y: 919
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aba0b4289bf524f0800000000000000
+      internalID: -853999923447682144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_59
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 895
+        width: 101
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e35fe97fcf30eeb50800000000000000
+      internalID: 6624236486929610046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_60
+      rect:
+        serializedVersion: 2
+        x: 1226
+        y: 921
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246558ac4b1d88c40800000000000000
+      internalID: 5514888318137226818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 804
+        width: 104
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f209e9df8c0f51280800000000000000
+      internalID: -9073081128228843473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_62
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 836
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03349d9226c6d03e0800000000000000
+      internalID: -2085891883537972432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_63
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 798
+        width: 106
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b0477908edf13850800000000000000
+      internalID: 6355139722229530806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_64
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 837
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6ffc456745d83650800000000000000
+      internalID: 6212950188576538474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_65
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 807
+        width: 80
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc5b64d5deac16540800000000000000
+      internalID: 4999500182178936268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_66
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 837
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 575e591d0813784d0800000000000000
+      internalID: -3132480586471053963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_67
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 807
+        width: 81
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc20861566951e90800000000000000
+      internalID: -7055567880292651778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_68
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 837
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6994f1e9247dfd9a0800000000000000
+      internalID: -6206005080372590186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_69
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 801
+        width: 110
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30396619921ea6200800000000000000
+      internalID: 174199104256512771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_70
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 837
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac35d14a16dc4be70800000000000000
+      internalID: 9130148163835745226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_71
+      rect:
+        serializedVersion: 2
+        x: 812
+        y: 800
+        width: 112
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3f4477df59e744c0800000000000000
+      internalID: -4303214321083330755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_72
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 837
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd53f0774f49fa60800000000000000
+      internalID: 7708279405477584309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_73
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 799
+        width: 113
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042064c14948acd10800000000000000
+      internalID: 2146673944059839040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_74
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 838
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1eac3c2742d58730800000000000000
+      internalID: 4000835047115238942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_75
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 807
+        width: 84
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fc03e7d485b77d40800000000000000
+      internalID: 5582129845311311094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_76
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 838
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5d11f1638329a40800000000000000
+      internalID: 5373419110507075016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_77
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 796
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d205ed97f016ce0800000000000000
+      internalID: -1413831791922369180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_78
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 798
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a970bf0e9c97e51d0800000000000000
+      internalID: -3360114364001876070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_79
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 794
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ac771a61ad41dac0800000000000000
+      internalID: -3832196452250583899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_80
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 719
+        width: 85
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41e06b151eca45d0800000000000000
+      internalID: -3077420805305343670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_81
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 750
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82e587a96c7a0c20800000000000000
+      internalID: 3173485680659915404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_82
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 709
+        width: 117
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb2c18f36d1b2d30800000000000000
+      internalID: 4407648975513725880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_83
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 750
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f46f3d5654b48830800000000000000
+      internalID: 4072578246074393848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_84
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 709
+        width: 118
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01d039dbe327e84e0800000000000000
+      internalID: -1977517572574999280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_85
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 750
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f216c8e9abe873ca0800000000000000
+      internalID: -6037199843291799249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_86
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 709
+        width: 118
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdb9f9dfb04a94ef0800000000000000
+      internalID: -123387143369286693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_87
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 751
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ecbbe2112333d80800000000000000
+      internalID: -8272213041169576339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_88
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 709
+        width: 119
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e701a730e0f73d40800000000000000
+      internalID: 5564180710436177896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_89
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 751
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cde64959b1a22800800000000000000
+      internalID: 586208718950428099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_90
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 709
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c8e3f31348304c20800000000000000
+      internalID: 3188610396927027398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_91
+      rect:
+        serializedVersion: 2
+        x: 909
+        y: 751
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7239ebf9b7cb728a0800000000000000
+      internalID: -6329883512098876633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_92
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 709
+        width: 120
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5797e9f6d6e8ddcf0800000000000000
+      internalID: -225867805623420555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_93
+      rect:
+        serializedVersion: 2
+        x: 1069
+        y: 751
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c18a11d7f3f3c7f0800000000000000
+      internalID: -593362480192126526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_94
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 709
+        width: 120
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff6f503adb74dc210800000000000000
+      internalID: 1354817942717855487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_95
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 751
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76dac7975216cf240800000000000000
+      internalID: 4826839714214227303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_96
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 706
+        width: 11
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 678c8f255ba894860800000000000000
+      internalID: 7514689964630132854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_97
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 660f3fe0dc177c0c0800000000000000
+      internalID: -4555547372528865178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_98
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 663
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5aa43bf80727610800000000000000
+      internalID: 1617478978670077394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_99
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea7acc4e18a3993a0800000000000000
+      internalID: -6658226244526757970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_100
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 664
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929cb5f4cf0669580800000000000000
+      internalID: -8820756183379097303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_101
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8d07ac08678feb40800000000000000
+      internalID: 5471740953237065101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_102
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 664
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5d54c1b2b5613620800000000000000
+      internalID: 2752092665461103966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_103
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc851d9d369033930800000000000000
+      internalID: 4121648408434923724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_104
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 664
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 904fafc41600d27f0800000000000000
+      internalID: -635851554486029303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_105
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9551a21a831df7480800000000000000
+      internalID: -8899164297508547239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_106
+      rect:
+        serializedVersion: 2
+        x: 749
+        y: 664
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8805dd27a350fc690800000000000000
+      internalID: -7579833899247906680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_107
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 621
+        width: 121
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e9f3af71437c6f30800000000000000
+      internalID: 4570154447025732066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_108
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 664
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0230f36944a2dfff0800000000000000
+      internalID: -797950863277280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_109
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 621
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 510d4cd92db427d10800000000000000
+      internalID: 2121841742407061525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_110
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 665
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8960a65c604c67aa0800000000000000
+      internalID: -6163523506649037160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_111
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 621
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71618926fcac0eac0800000000000000
+      internalID: -3827836691203746281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_112
+      rect:
+        serializedVersion: 2
+        x: 1230
+        y: 665
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e43f60140351bcb0800000000000000
+      internalID: -4850004046780615450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_113
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 533
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdae78bdb7d5f3c40800000000000000
+      internalID: 5494212856960772831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_114
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 577
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ce3bcfba651423f0800000000000000
+      internalID: -926592075102994746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_115
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 533
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b007e12aa5944b870800000000000000
+      internalID: 8697657433975058443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_116
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 577
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790ead7272d0dc100800000000000000
+      internalID: 129774426087153815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_117
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 533
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f7252c2c7abfbd0800000000000000
+      internalID: -2595296305323278550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_118
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 577
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbfc733d9db0f4fd0800000000000000
+      internalID: -2355651049912021057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_119
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 533
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b25ebc7d05d78ad20800000000000000
+      internalID: 3290017313965466923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_120
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 578
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb82f4e861dd21c90800000000000000
+      internalID: -7200449765265430337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_121
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 533
+        width: 122
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b943689a670c4250800000000000000
+      internalID: 5930122963744672179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_122
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 578
+        width: 22
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 025e5f42a59cbfdf0800000000000000
+      internalID: -145301173955074784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_123
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 533
+        width: 121
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b254c180fdad7c960800000000000000
+      internalID: 7622301545796486443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_124
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 578
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcf00356b7ae2ea70800000000000000
+      internalID: 8854897633063342027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_125
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 533
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5255e4803f70ce20800000000000000
+      internalID: 3368832367637910106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_126
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 545
+        width: 76
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5f65e4eb6e5a2480800000000000000
+      internalID: -8923215894186463396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_127
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 578
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254d01eb9e0cf6350800000000000000
+      internalID: 6012236137711588434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_128
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 533
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 967189db70969e4e0800000000000000
+      internalID: -1951913481521850519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_129
+      rect:
+        serializedVersion: 2
+        x: 1173
+        y: 545
+        width: 75
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600c8e70e4dd25150800000000000000
+      internalID: 5859989392372318214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_130
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 579
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a664c144539cb50800000000000000
+      internalID: 6613876094418709121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_131
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 445
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19182d84a6ecfd090800000000000000
+      internalID: -8007454656557842031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_132
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 457
+        width: 73
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97eed0188257a2f30800000000000000
+      internalID: 4551579190235623033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_133
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 491
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91e2ea258cbf2f400800000000000000
+      internalID: 356624158314868249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_134
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 445
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28a54b2388aa84e10800000000000000
+      internalID: 2182181521403959938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_135
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 457
+        width: 67
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdf2327b555904090800000000000000
+      internalID: -8052271938361151524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_136
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 491
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3445bf566d6a65bc0800000000000000
+      internalID: -3794662196248882109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_137
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 445
+        width: 51
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6190e485e534a00d0800000000000000
+      internalID: -3455875691565938410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_138
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 457
+        width: 66
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: affee23d0291ad840800000000000000
+      internalID: 5249535944426450938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_139
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 492
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29fd7df0624bbff70800000000000000
+      internalID: 9222162737538785170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_140
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 489
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 134422a41e1b727c0800000000000000
+      internalID: -4096109754900659151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_141
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 457
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bacc7c55a1e79500800000000000000
+      internalID: 403038792010484407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_142
+      rect:
+        serializedVersion: 2
+        x: 592
+        y: 492
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d76fc0c4f9aba900800000000000000
+      internalID: 696837436030805973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_143
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 489
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a6fc5ae0f3797550800000000000000
+      internalID: 6159081443967170208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_144
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 458
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c26e87344e00430800000000000000
+      internalID: 3747245868414544900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_145
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796c95ad802f79490800000000000000
+      internalID: -7739451314775931241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_146
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 489
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c06d4d2678a9940800000000000000
+      internalID: 5303700369729522842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_147
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 458
+        width: 65
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768f2baed8e2024e0800000000000000
+      internalID: -2008554246744377241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_148
+      rect:
+        serializedVersion: 2
+        x: 913
+        y: 494
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc1954efa88670400800000000000000
+      internalID: 290315647169434060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_149
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 445
+        width: 113
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 101530655f254d180800000000000000
+      internalID: -9091550534090665727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_150
+      rect:
+        serializedVersion: 2
+        x: 1009
+        y: 490
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dee072e7b3e79af0800000000000000
+      internalID: -389592463826686254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_151
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 495
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deb7ca901c6e33cb0800000000000000
+      internalID: -4885307454001480723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_152
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 445
+        width: 112
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaaf7df9eeeea4490800000000000000
+      internalID: -7761128299168269650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_153
+      rect:
+        serializedVersion: 2
+        x: 1169
+        y: 490
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e40334eca16f8a260800000000000000
+      internalID: 7109202606794420302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_154
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 497
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5892798e15321f100800000000000000
+      internalID: 139931898126739845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_155
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 445
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfee588591558a770800000000000000
+      internalID: 8622235053948530429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_156
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 445
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0390d9275e5152dc0800000000000000
+      internalID: -3664498646581442256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_157
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 445
+        width: 43
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3e2a13732f218620800000000000000
+      internalID: 2774550674738392638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_158
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 484
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 466f7593a960f5a40800000000000000
+      internalID: 5359009341050975844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_159
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 485
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9560a35652e93390800000000000000
+      internalID: -7837984816063552100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_160
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 357
+        width: 166
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c6a68c054fe87000800000000000000
+      internalID: 34040077047211713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_161
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 402
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075cddcb84f1793c0800000000000000
+      internalID: -4352976117563538064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_162
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 399
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a48f03aba8cd5ac0800000000000000
+      internalID: -3864712265713351520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_163
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 403
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd6a69b04db683f0800000000000000
+      internalID: -898822989927518771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_164
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 371
+        width: 46
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 095c47232a47518a0800000000000000
+      internalID: -6335029060846697072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_165
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 400
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3043f6231a2630b60800000000000000
+      internalID: 7711115431463826435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_166
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 357
+        width: 92
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0a14650b3034690800000000000000
+      internalID: -7619242088684478271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_167
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 403
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f1fbe208a6730a20800000000000000
+      internalID: 3027393838498705913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_168
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 401
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13d364f92752a5b30800000000000000
+      internalID: 4276771970370387249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_169
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 357
+        width: 91
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0b88ad498dfe3510800000000000000
+      internalID: 1530939689507785486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_170
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 402
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb3f55c6675267110800000000000000
+      internalID: 1258234336450573246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_171
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 357
+        width: 90
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 389e9d95b06c71d60800000000000000
+      internalID: 7860969426652883331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_172
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 357
+        width: 89
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48c4625caa3d2d6c0800000000000000
+      internalID: -4119997978685059964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_173
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 357
+        width: 86
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada018a4e6ad8ab40800000000000000
+      internalID: 5451847516163214042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_174
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 181
+        width: 85
+        height: 225
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413e30f6e65412f30800000000000000
+      internalID: 4548993439232156436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_175
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 378
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df1251074b59aff0800000000000000
+      internalID: -24387962450862120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_176
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 378
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8b9e8284d3509ed0800000000000000
+      internalID: -2409333628454659187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_177
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 379
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f10cad1981463290800000000000000
+      internalID: -7911063638265560586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_178
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 379
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3468e482cc7ab120800000000000000
+      internalID: 2430392123815126074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_179
+      rect:
+        serializedVersion: 2
+        x: 905
+        y: 380
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 272f6c54577ab63f0800000000000000
+      internalID: -906446777861344654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_180
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 381
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93db4a2d070b6eae0800000000000000
+      internalID: -1520333825574126279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_181
+      rect:
+        serializedVersion: 2
+        x: 1227
+        y: 384
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff0605c21a5bab790800000000000000
+      internalID: -7513493324476423937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_182
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 93
+        width: 85
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b08251a446fe330800000000000000
+      internalID: 3742320084713474862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_183
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 299
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ffbb6e3806267f0800000000000000
+      internalID: -620827678995644535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_184
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 93
+        width: 107
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11f45b82e80a97b00800000000000000
+      internalID: 826868539027967761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_185
+      rect:
+        serializedVersion: 2
+        x: 328
+        y: 93
+        width: 83
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e1965888b5f888d0800000000000000
+      internalID: -2843752991774305816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_186
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 93
+        width: 82
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 365ae2859de7bb740800000000000000
+      internalID: 5168864469290231139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_187
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 94
+        width: 81
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47858898e7fe895b0800000000000000
+      internalID: -5361272029632243596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muzzle-shotgun_188
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 94
+        width: 166
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ece4538ca81a730800000000000000
+      internalID: 4008637735828901384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      muzzle-shotgun_0: -2079992456154492879
+      muzzle-shotgun_1: -9183833435094677124
+      muzzle-shotgun_10: 3586588677954186578
+      muzzle-shotgun_100: -8820756183379097303
+      muzzle-shotgun_101: 5471740953237065101
+      muzzle-shotgun_102: 2752092665461103966
+      muzzle-shotgun_103: 4121648408434923724
+      muzzle-shotgun_104: -635851554486029303
+      muzzle-shotgun_105: -8899164297508547239
+      muzzle-shotgun_106: -7579833899247906680
+      muzzle-shotgun_107: 4570154447025732066
+      muzzle-shotgun_108: -797950863277280
+      muzzle-shotgun_109: 2121841742407061525
+      muzzle-shotgun_11: -3265556122795517650
+      muzzle-shotgun_110: -6163523506649037160
+      muzzle-shotgun_111: -3827836691203746281
+      muzzle-shotgun_112: -4850004046780615450
+      muzzle-shotgun_113: 5494212856960772831
+      muzzle-shotgun_114: -926592075102994746
+      muzzle-shotgun_115: 8697657433975058443
+      muzzle-shotgun_116: 129774426087153815
+      muzzle-shotgun_117: -2595296305323278550
+      muzzle-shotgun_118: -2355651049912021057
+      muzzle-shotgun_119: 3290017313965466923
+      muzzle-shotgun_12: 8847584617906575788
+      muzzle-shotgun_120: -7200449765265430337
+      muzzle-shotgun_121: 5930122963744672179
+      muzzle-shotgun_122: -145301173955074784
+      muzzle-shotgun_123: 7622301545796486443
+      muzzle-shotgun_124: 8854897633063342027
+      muzzle-shotgun_125: 3368832367637910106
+      muzzle-shotgun_126: -8923215894186463396
+      muzzle-shotgun_127: 6012236137711588434
+      muzzle-shotgun_128: -1951913481521850519
+      muzzle-shotgun_129: 5859989392372318214
+      muzzle-shotgun_13: 516381328646615487
+      muzzle-shotgun_130: 6613876094418709121
+      muzzle-shotgun_131: -8007454656557842031
+      muzzle-shotgun_132: 4551579190235623033
+      muzzle-shotgun_133: 356624158314868249
+      muzzle-shotgun_134: 2182181521403959938
+      muzzle-shotgun_135: -8052271938361151524
+      muzzle-shotgun_136: -3794662196248882109
+      muzzle-shotgun_137: -3455875691565938410
+      muzzle-shotgun_138: 5249535944426450938
+      muzzle-shotgun_139: 9222162737538785170
+      muzzle-shotgun_14: 4657464478407364068
+      muzzle-shotgun_140: -4096109754900659151
+      muzzle-shotgun_141: 403038792010484407
+      muzzle-shotgun_142: 696837436030805973
+      muzzle-shotgun_143: 6159081443967170208
+      muzzle-shotgun_144: 3747245868414544900
+      muzzle-shotgun_145: -7739451314775931241
+      muzzle-shotgun_146: 5303700369729522842
+      muzzle-shotgun_147: -2008554246744377241
+      muzzle-shotgun_148: 290315647169434060
+      muzzle-shotgun_149: -9091550534090665727
+      muzzle-shotgun_15: 1402275333971059106
+      muzzle-shotgun_150: -389592463826686254
+      muzzle-shotgun_151: -4885307454001480723
+      muzzle-shotgun_152: -7761128299168269650
+      muzzle-shotgun_153: 7109202606794420302
+      muzzle-shotgun_154: 139931898126739845
+      muzzle-shotgun_155: 8622235053948530429
+      muzzle-shotgun_156: -3664498646581442256
+      muzzle-shotgun_157: 2774550674738392638
+      muzzle-shotgun_158: 5359009341050975844
+      muzzle-shotgun_159: -7837984816063552100
+      muzzle-shotgun_16: -7502123325422312992
+      muzzle-shotgun_160: 34040077047211713
+      muzzle-shotgun_161: -4352976117563538064
+      muzzle-shotgun_162: -3864712265713351520
+      muzzle-shotgun_163: -898822989927518771
+      muzzle-shotgun_164: -6335029060846697072
+      muzzle-shotgun_165: 7711115431463826435
+      muzzle-shotgun_166: -7619242088684478271
+      muzzle-shotgun_167: 3027393838498705913
+      muzzle-shotgun_168: 4276771970370387249
+      muzzle-shotgun_169: 1530939689507785486
+      muzzle-shotgun_17: 5410503313025535746
+      muzzle-shotgun_170: 1258234336450573246
+      muzzle-shotgun_171: 7860969426652883331
+      muzzle-shotgun_172: -4119997978685059964
+      muzzle-shotgun_173: 5451847516163214042
+      muzzle-shotgun_174: 4548993439232156436
+      muzzle-shotgun_175: -24387962450862120
+      muzzle-shotgun_176: -2409333628454659187
+      muzzle-shotgun_177: -7911063638265560586
+      muzzle-shotgun_178: 2430392123815126074
+      muzzle-shotgun_179: -906446777861344654
+      muzzle-shotgun_18: 8419758698293576547
+      muzzle-shotgun_180: -1520333825574126279
+      muzzle-shotgun_181: -7513493324476423937
+      muzzle-shotgun_182: 3742320084713474862
+      muzzle-shotgun_183: -620827678995644535
+      muzzle-shotgun_184: 826868539027967761
+      muzzle-shotgun_185: -2843752991774305816
+      muzzle-shotgun_186: 5168864469290231139
+      muzzle-shotgun_187: -5361272029632243596
+      muzzle-shotgun_188: 4008637735828901384
+      muzzle-shotgun_19: 2200642375718829124
+      muzzle-shotgun_2: 6480607774218198663
+      muzzle-shotgun_20: -5933285741958860962
+      muzzle-shotgun_21: 6561335326141220988
+      muzzle-shotgun_22: 558276528680099575
+      muzzle-shotgun_23: -6667029508983145022
+      muzzle-shotgun_24: 3035317494686125364
+      muzzle-shotgun_25: -5459331198005813573
+      muzzle-shotgun_26: -7715939986384386535
+      muzzle-shotgun_27: -2401550270304696040
+      muzzle-shotgun_28: 8667923881360682227
+      muzzle-shotgun_29: 9220682768445762444
+      muzzle-shotgun_3: 7564068386396807928
+      muzzle-shotgun_30: -5385398127708489358
+      muzzle-shotgun_31: 1481774501110449160
+      muzzle-shotgun_32: 1097125191517340396
+      muzzle-shotgun_33: 5288468242952237422
+      muzzle-shotgun_34: -4034212383587668198
+      muzzle-shotgun_35: -117018076197262562
+      muzzle-shotgun_36: -6350791999632832805
+      muzzle-shotgun_37: 3964013646560660973
+      muzzle-shotgun_38: 2538753201012401260
+      muzzle-shotgun_39: -7685580133036412001
+      muzzle-shotgun_4: 3816196206964144527
+      muzzle-shotgun_40: 9070158152341699382
+      muzzle-shotgun_41: 2777208717170676348
+      muzzle-shotgun_42: -4662606649588902171
+      muzzle-shotgun_43: -2342968543737242616
+      muzzle-shotgun_44: -6285785205813826323
+      muzzle-shotgun_45: 125970690701362897
+      muzzle-shotgun_46: -8344897981054260533
+      muzzle-shotgun_47: 1685966774897142873
+      muzzle-shotgun_48: -1570438240600564191
+      muzzle-shotgun_49: 3132323635638424372
+      muzzle-shotgun_5: -1818305895551267230
+      muzzle-shotgun_50: 6230252900346217733
+      muzzle-shotgun_51: -6280421369143094859
+      muzzle-shotgun_52: -7368037938231876687
+      muzzle-shotgun_53: -4053843447140435630
+      muzzle-shotgun_54: 2902327751487707725
+      muzzle-shotgun_55: 9093586560623822919
+      muzzle-shotgun_56: 1264953900875818953
+      muzzle-shotgun_57: 612058320177272052
+      muzzle-shotgun_58: -853999923447682144
+      muzzle-shotgun_59: 6624236486929610046
+      muzzle-shotgun_6: -6250097265526399307
+      muzzle-shotgun_60: 5514888318137226818
+      muzzle-shotgun_61: -9073081128228843473
+      muzzle-shotgun_62: -2085891883537972432
+      muzzle-shotgun_63: 6355139722229530806
+      muzzle-shotgun_64: 6212950188576538474
+      muzzle-shotgun_65: 4999500182178936268
+      muzzle-shotgun_66: -3132480586471053963
+      muzzle-shotgun_67: -7055567880292651778
+      muzzle-shotgun_68: -6206005080372590186
+      muzzle-shotgun_69: 174199104256512771
+      muzzle-shotgun_7: 4753830194345056259
+      muzzle-shotgun_70: 9130148163835745226
+      muzzle-shotgun_71: -4303214321083330755
+      muzzle-shotgun_72: 7708279405477584309
+      muzzle-shotgun_73: 2146673944059839040
+      muzzle-shotgun_74: 4000835047115238942
+      muzzle-shotgun_75: 5582129845311311094
+      muzzle-shotgun_76: 5373419110507075016
+      muzzle-shotgun_77: -1413831791922369180
+      muzzle-shotgun_78: -3360114364001876070
+      muzzle-shotgun_79: -3832196452250583899
+      muzzle-shotgun_8: 7600768222259420975
+      muzzle-shotgun_80: -3077420805305343670
+      muzzle-shotgun_81: 3173485680659915404
+      muzzle-shotgun_82: 4407648975513725880
+      muzzle-shotgun_83: 4072578246074393848
+      muzzle-shotgun_84: -1977517572574999280
+      muzzle-shotgun_85: -6037199843291799249
+      muzzle-shotgun_86: -123387143369286693
+      muzzle-shotgun_87: -8272213041169576339
+      muzzle-shotgun_88: 5564180710436177896
+      muzzle-shotgun_89: 586208718950428099
+      muzzle-shotgun_9: -2415513047900740254
+      muzzle-shotgun_90: 3188610396927027398
+      muzzle-shotgun_91: -6329883512098876633
+      muzzle-shotgun_92: -225867805623420555
+      muzzle-shotgun_93: -593362480192126526
+      muzzle-shotgun_94: 1354817942717855487
+      muzzle-shotgun_95: 4826839714214227303
+      muzzle-shotgun_96: 7514689964630132854
+      muzzle-shotgun_97: -4555547372528865178
+      muzzle-shotgun_98: 1617478978670077394
+      muzzle-shotgun_99: -6658226244526757970
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

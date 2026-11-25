@@ -1,0 +1,25 @@
+{
+  "name": "Lồng đạn Hexcore",
+  "frameWidth": 320,
+  "frameHeight": 288,
+  "columns": 10,
+  "rows": 12,
+  "frames": 120,
+  "fps": 30,
+  "pivotTopLeft": [
+    160,
+    181
+  ],
+  "filter": "Point",
+  "loop": false,
+  "salvoStartFrames": [
+    18,
+    30,
+    42,
+    54,
+    66,
+    78
+  ],
+  "contactDelayFrames": 6,
+  "method": "Original cage composition using pixel fire/smoke from user-supplied fireball-throw.png and quake.png."
+}

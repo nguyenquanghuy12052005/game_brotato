@@ -58,3 +58,13 @@ Sân thử lưu ba bậc nâng cấp riêng theo từng nhánh. Mỗi viên đ�
 GunCoreTwo nhận lượt bắn và va chạm từ GunSkillWeapon/GunSkillProjectile để chạy song song với GunLevel11. GunLabBoss dùng các đòn thử riêng trong GunSkillTest, với máu người chơi và đặt lại sân do GunSkillTestArena quản lý.
 
 GunHexcoreUltimate phụ trách năm chiêu cuối trong sân thử. GunSkillTestArena chuyển lựa chọn và điểm ngắm cuối từ bảng điều khiển. Chiêu cuối dùng mục tiêu của sân thử, còn trụ dùng đạn thử từ GunSkillWeapon.
+
+GunNewSkillArt dùng chung tám sheet public/new_asset được nhập vào Assets/Art/GunSkills/UpdatedSkills. Nó cắt ô đúng kích thước, giữ pivot tiếp xúc và lưu cache sprite cho GunLevel11, GunCoreTwo và GunHexcoreUltimate. Khiên và đạn phản pháo có renderer và luồng tạo đạn riêng.
+
+
+## Gun pixel VFX layers (2026-11-18)
+
+GunSkillTestArena.pixelSkillSheets supplies 16 pixel atlases appended after the eight existing imported sheets in GunNewSkillArt. PixelSkills/manifest.json records the source cells, top-left pivots and PPU; cached Sprite.Create frames use those values. GunLevel11 handles sweep/fuse and animated recall legs, GunCoreTwo handles saw/muzzle/heavy/decay and upright anchors with separate pixel tether links, and GunHexcoreUltimate handles separate cage field/pulse/collapse visuals. Existing hit and cooldown logic owns the timing; review montage sheets are retained only under public/new_asset/pixel-skills-v2. No changes to main GameScene architecture.
+
+
+GunSkillTestArena.skillNoGlowMaterial supplies a dedicated Sprite-compatible alpha-filter material via GunNewSkillArt.NoGlowMaterial. GunCoreTwo applies it only to the two portal renderers; GunHexcoreUltimate applies it only to fire breath. NoGlowSprite clips source alpha below 0.25 before renderer tint/fade, with premultiplied sprite blending; other effects keep their existing materials.
