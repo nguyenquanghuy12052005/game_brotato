@@ -11,16 +11,16 @@ internal sealed class GunNewSkillArt : MonoBehaviour
     {
         new Vector2Int(288,104), new Vector2Int(152,116), new Vector2Int(88,84), new Vector2Int(184,100),
         new Vector2Int(480,244), new Vector2Int(252,182), new Vector2Int(356,244), new Vector2Int(160,116),
-        new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(16,8), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288)
+        new Vector2Int(136,104), new Vector2Int(320,288), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(120,52), new Vector2Int(192,128), new Vector2Int(192,128), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(16,8), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288), new Vector2Int(320,288)
     };
     private static readonly Vector2[] Anchors =
     {
         new Vector2(144,94), new Vector2(76,72), new Vector2(44,44), new Vector2(140,65),
         new Vector2(374,208), new Vector2(160,155), new Vector2(250,208), new Vector2(15,70),
-        new Vector2(70,181), new Vector2(160,181), new Vector2(128,88), new Vector2(128,88), new Vector2(160,181), new Vector2(160,181), new Vector2(64,88), new Vector2(128,88), new Vector2(160,181), new Vector2(160,181), new Vector2(160,181), new Vector2(0,4), new Vector2(160,181), new Vector2(160,160), new Vector2(160,181), new Vector2(160,181)
+        new Vector2(13,67), new Vector2(160,181), new Vector2(128,88), new Vector2(128,88), new Vector2(160,181), new Vector2(92,26), new Vector2(64,88), new Vector2(128,88), new Vector2(160,181), new Vector2(160,181), new Vector2(160,181), new Vector2(0,4), new Vector2(160,181), new Vector2(160,160), new Vector2(160,181), new Vector2(160,181)
     };
-    private static readonly float[] PixelsPerUnit = { 100, 85, 40, 70, 90, 80, 70, 32, 32f, 70f, 60f, 60f, 70f, 60f, 60f, 40f, 50f, 60f, 50f, 64f, 55f, 32.692308f, 40.384615f, 50f };
-    // Pixel layer ordering is fixed by PixelSkills/manifest.json and the scene references.
+    private static readonly float[] PixelsPerUnit = { 100, 85, 40, 70, 90, 80, 70, 32, 21f, 70f, 60f, 60f, 70f, 50f, 60f, 40f, 50f, 60f, 50f, 64f, 55f, 32.692308f, 40.384615f, 50f };
+    // Clip order matches the texture references in GunSkillTest.
     internal void Setup(Texture2D[] sheets, Texture2D[] pixelSheets, Material noGlowMaterial)
     {
         NoGlowMaterial = noGlowMaterial;

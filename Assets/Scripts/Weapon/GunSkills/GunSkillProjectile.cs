@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public enum GunSkill { None, Ricochet, WeakPoint, DeathScatter }
+public enum GunSkill { None, Ricochet, Piercing, DeathScatter }
 public enum GunBranch { Basic, Spread, Burst, Piercing }
 
 internal struct GunShotEffects
@@ -13,9 +13,9 @@ internal struct GunShotEffects
     public int Ricochets;
     public int Fragments;
     public float Knockback;
-    public int DamagePerPierce;
-    public float Slow;
-    public float ShockwaveRadius;
+    public int BlastDamage;
+    public float BlastRadius;
+    public float SlowFraction;
 }
 
 [RequireComponent(typeof(Rigidbody2D), typeof(CircleCollider2D))]
@@ -24,8 +24,8 @@ public sealed class GunSkillProjectile : MonoBehaviour
     private readonly HashSet<int> hitEnemies = new HashSet<int>();
     private GunSkillWeapon weapon;
     private Rigidbody2D body;
-    private SpriteRenderer flame;
     private SpriteRenderer artwork;
+    private Sprite[] tracerFrames;
     private GunCoreTwo coreTwo;
     private bool crossedPortal;
     private EnemyHealth ricochetTarget;
@@ -37,7 +37,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
     private float flightTime;
 
     internal void Launch(GunSkillWeapon owner, Vector2 heading, int hitDamage,
-        GunShotEffects effectsOnHit, SpriteRenderer flameRenderer, GunCoreTwo core, SpriteRenderer visual)
+        GunShotEffects effectsOnHit, GunCoreTwo core, SpriteRenderer visual, Sprite[] tracer)
     {
         weapon = owner;
         body = GetComponent<Rigidbody2D>();
@@ -45,18 +45,20 @@ public sealed class GunSkillProjectile : MonoBehaviour
         effects = effectsOnHit;
         remainingRicochets = effects.Ricochets;
         damage = hitDamage;
-        flame = flameRenderer;
         coreTwo = core;
         artwork = visual;
+        tracerFrames = tracer;
         Destroy(gameObject, 2.5f);
     }
 
     private void Update()
     {
-        if (flame == null && !effects.Heavy) return;
+        if (!effects.Heavy && tracerFrames == null) return;
         flightTime += Time.deltaTime;
-        if (flame != null) flame.sprite = weapon.GetFlameFrame(flightTime);
-        if (effects.Heavy) artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, flightTime, 32);
+        if (tracerFrames != null)
+            artwork.sprite = tracerFrames[Mathf.FloorToInt(flightTime * 30f) % tracerFrames.Length];
+        else if (effects.Heavy)
+            artwork.sprite = coreTwo.Frame(GunCoreTwo.Art.Heavy, flightTime, 32);
     }
 
     private void FixedUpdate()
@@ -73,7 +75,6 @@ public sealed class GunSkillProjectile : MonoBehaviour
             coreTwo.CrossPortal(effects.CoreVolley, body.position, next, direction, out Vector2 exit, out Vector2 back))
         {
             crossedPortal = true;
-            damage += effects.DamagePerPierce;
             body.position = exit;
             direction = back;
             ricochetTarget = null;
@@ -105,18 +106,15 @@ public sealed class GunSkillProjectile : MonoBehaviour
         if (effects.Fragments > 0 && enemy.CurrentHealth == 0)
             weapon.ScatterFrom(impact, effects.Fragments);
 
-        if (enemy.CurrentHealth > 0 && enemy.TryGetComponent<GunSkillTargetEffects>(out var targetEffects))
+        if (enemy.CurrentHealth > 0 && (effects.Knockback > 0f || effects.SlowFraction > 0f) &&
+            enemy.TryGetComponent<GunSkillTargetEffects>(out var targetEffects))
         {
             if (effects.Knockback > 0f) targetEffects.Push(direction * effects.Knockback);
-            if (effects.Slow > 0f) targetEffects.Slow(effects.Slow);
+            if (effects.SlowFraction > 0f) targetEffects.ApplySlow(effects.SlowFraction);
         }
 
-        if (effects.Piercing)
-        {
-            damage += effects.DamagePerPierce;
-            if (effects.ShockwaveRadius > 0f && hitEnemies.Count == 2)
-                weapon.Shockwave(impact, effects.ShockwaveRadius, enemy);
-        }
+        if (effects.BlastDamage > 0)
+            weapon.RocketBlast(impact, effects.BlastRadius, effects.BlastDamage, enemy);
 
         if (remainingRicochets > 0)
         {

@@ -8,25 +8,30 @@ Bảng nút cố định bên phải có thể cuộn. Camera bám người chơ
 - Bấm mỗi nút **Nâng cấp nhánh** để chuyển bậc theo vòng 0 → 1 → 2 → 3 → 0. Bậc được lưu riêng cho mỗi nhánh.
 - Trong **Mục tiêu và sân thử**, chọn bia hoặc boss, bật/tắt tự bắn và điều khiển bia. **Bia 100 HP** áp dụng cho lượt sinh bia thường tiếp theo. **Đặt lại sân** đưa người chơi và mục tiêu về trạng thái ban đầu.
 
-## Đạn tỏa
+## Shotgun
 
 - **Thêm viên.** Bắn 3 viên ở bậc 0 và thêm 1 viên mỗi bậc, tối đa 6. Mỗi phát cách nhau 2,60 giây.
 - **Đạn hẹp.** Góc tỏa giảm 15° mỗi bậc, từ 60° xuống 15°.
 - **Đẩy lùi.** Mỗi viên đẩy bia còn sống lùi 0,25 đơn vị mỗi bậc theo hướng đạn. Biên sân giữ bia trong tầm bắn.
 
-## Liên thanh
+## SMG
 
-- **Thêm viên.** Bắn 5 viên ở bậc 0 và thêm 2 viên mỗi bậc, tối đa 11. Các viên cách nhau 0,32 giây, nghỉ 1,20 giây sau viên cuối trước khi bắn loạt tiếp theo.
-- **Đạn nảy.** Mỗi bậc cho thêm một lần chuyển hướng sang địch sống gần nhất mà viên đạn chưa trúng. Kỹ năng Đạn nảy bảo đảm tối thiểu một lần nảy.
-- **Bung tỏa.** Khi đạn hạ địch, bậc 1/2/3 sinh 4/5/6 viên phụ theo các hướng ngẫu nhiên. Kỹ năng Đạn bung toả ở bậc 0 sinh 3 viên phụ. Mỗi viên phụ gây 5 sát thương.
+Đầu nòng chớp theo từng viên và tắt giữa các phát.
 
-## Xuyên thấu
+- **Đạn băng.** Bậc 1/2/3 làm chậm 15/30/45% trong 1,5 giây trên mục tiêu trúng đạn. Các phát trúng tiếp theo làm mới thời gian chậm. Đầu đạn có quầng sáng xanh từ ice-lance.png. Đầu nòng dùng chớp ngắn cắt từ frost-breath.png.
+- **Ném lựu đạn.** Sau viên cuối của loạt, ném 1/2/3 quả theo bậc 1/2/3 về điểm ngắm trong tầm 2–8 đơn vị. Mỗi quả gây 18 sát thương trong bán kính 1,15 đơn vị khi chạm đất.
+- **Thêm đạn.** Bắn 5/7/9/11 viên theo bậc 0/1/2/3. Các viên cách nhau 0,32 giây, nghỉ 1,20 giây sau viên cuối trước khi bắn loạt tiếp theo.
 
-- **Đạn xuyên.** Mỗi phát cách nhau 0,80 giây. Mục tiêu đầu nhận 10 sát thương. Sau mỗi địch xuyên qua, viên đạn cộng thêm 3 sát thương mỗi bậc.
-- **Dấu xuyên.** Địch sống chậm 10/20/30% trong 1,5 giây và đổi sang màu xanh. Bật bia di chuyển để thấy rõ thay đổi tốc độ.
-- **Dư chấn.** Tại mục tiêu thứ hai, đạn tạo một sóng gây 5 sát thương cho địch bên cạnh trong bán kính 0,8/1,1/1,4 đơn vị. Mỗi viên tạo một sóng. Sprite xanh ngọc lan ra từ điểm trúng và tan dần trong 0,38 giây.
+## Rocket
 
-**Ngắm điểm yếu** phát bốn khung lửa ở đầu đạn. Các hiệu ứng có thể thử cùng nâng cấp của nhánh đang chọn.
+Chớp đầu nòng và khói dùng cannonball.png. Đạn bay dùng rocket-launcher.png và chỉ xuyên qua mục tiêu khi bật kỹ năng Xuyên thấu.
+
+- **Bùng nổ.** Mỗi viên Rocket nổ tại mỗi mục tiêu trúng. Bán kính bậc 1/2/3 là 0,8/1,1/1,4 đơn vị, gây 5/8/11 sát thương lên các mục tiêu xung quanh. Mục tiêu trúng trực tiếp nhận 10 sát thương từ viên đạn. Hiệu ứng nổ dùng rocket-launcher.png.
+- **Đẩy lùi.** Mỗi viên đẩy mục tiêu còn sống 0,25 đơn vị mỗi bậc theo hướng đạn. Giới hạn sân và miễn đẩy của boss giống Shotgun.
+- **Thêm đạn.** Bắn đồng thời 1/2/3/4 viên ở bậc 0/1/2/3. Các viên cách nhau 5° và mỗi lượt bắn cách nhau 0,80 giây.
+
+
+Ở nhóm kỹ năng cơ bản, chọn **Đạn nảy**, **Xuyên thấu** hoặc **Đạn bung toả**. Đạn nảy và xuyên giữ hình theo nhánh đang bắn. Xuyên thấu cho đạn đi qua nhiều mục tiêu và chỉ đánh mỗi mục tiêu một lần. Đạn bung toả tạo đạn con dùng hoạt ảnh đạn cơ bản khi hạ mục tiêu.
 
 ## Kỹ năng cấp 11
 
@@ -34,9 +39,9 @@ Chọn một kỹ năng trong nhóm **Lõi đầu**. Bấm lại kỹ năng đan
 
 | Nhánh | Kỹ năng thứ nhất | Kỹ năng thứ hai | Kỹ năng thứ ba |
 |---|---|---|---|
-| Đạn toả | **Lưỡi đạn càn quét.** Mỗi phát thứ hai thêm lưỡi năng lượng tầm gần. Tiến sát bia để thử. | **Áp lực công phá.** Tích áp lực từ các loạt trúng để tụ và phóng cầu lửa. Cầu lửa nổ rồi gây rạn giáp trong 5 giây. Bậc đẩy lùi tích áp lực nhanh hơn. | **Phát bắn dồn lực.** Mỗi phát thứ hai trúng sẽ gọi một rocket bay tới boss rồi nổ. Càng nhiều viên của phát đó trúng, rocket càng mạnh. |
-| Liên thanh | **Kíp nổ liên hoàn.** Đủ 5 lượt đạn trúng cùng bia thì kíp phát nổ. Bậc bung toả tăng sát thương nổ. | **Băng đạn cộng hưởng.** Trúng ít nhất 60% số viên của một loạt vào cùng bia sẽ gọi súng ảo. | **Bão đạn quỹ đạo.** Đủ 8 lượt trúng cùng bia thì các vệ tinh đỏ phóng lần lượt về bia. Dùng phần quả cầu của life-steal.png làm hình ảnh tấn công. |
-| Xuyên thấu | **Vết rách không gian.** Mỗi phát thứ tư tạo một vệt lửa Quake dọc đường bắn, gây sát thương liên tục theo nhịp. | **Xuyên kích hồi quy.** Mỗi phát thứ tư phóng thương. Thương có thể đánh trúng cùng bia một lần ở mỗi lượt đi và về. | **Thiên thương.** Sau 3 lần trúng cùng bia, cột sáng Holy Smite giáng vào vị trí đã đánh dấu. Boss có thể rời vùng va chạm. |
+| Shotgun | **Lưỡi đạn càn quét.** Mỗi phát thứ hai tạo vệt kiếm xanh chém ngang theo hướng bắn. Tầm chém 5,2 đơn vị và nửa bề rộng tối đa 3,4 đơn vị trước khi tính bậc Đạn hẹp. | **Áp lực công phá.** Tích áp lực từ các loạt trúng rồi tụ một lần và phóng liên tiếp 3 cầu lửa, cách nhau khoảng 0,16 giây. Mỗi cầu lửa nổ và gây rạn giáp trong 5 giây. Bậc đẩy lùi tích áp lực nhanh hơn. | **Phun lửa.** Mỗi lượt Shotgun thứ hai có đạn trúng sẽ phun lửa trong 1,6 giây theo hướng bắn. Luồng giữa phun thẳng, hai luồng bên tạo hình nón. Vùng lửa vươn 5,4 đơn vị, mở 30° mỗi bên và chia tổng sát thương thành tám nhịp. Trúng nhiều viên vào mục tiêu kích hoạt sẽ tăng tổng sát thương. |
+| SMG | **Kíp nổ liên hoàn.** Đủ 5 lượt đạn trúng cùng bia thì kíp phát nổ. Bậc Ném lựu đạn tăng sát thương kíp nổ. | **Băng đạn cộng hưởng.** Trúng ít nhất 60% số viên của một loạt vào cùng bia sẽ gọi súng ảo. | **Bão đạn quỹ đạo.** Đủ 8 lượt trúng cùng bia thì các vệ tinh đỏ phóng lần lượt về bia. Dùng phần quả cầu của life-steal.png làm hình ảnh tấn công. |
+| Rocket | **Vết rách không gian.** Mỗi phát thứ tư tạo một vệt lửa Quake dọc đường bắn, gây sát thương liên tục theo nhịp. | **Xuyên kích hồi quy.** Mỗi phát thứ tư phóng thương. Thương có thể đánh trúng cùng bia một lần ở mỗi lượt đi và về. | **Thiên thương.** Sau 3 lần trúng cùng bia, cột sáng Holy Smite giáng vào vị trí đã đánh dấu. Boss có thể rời vùng va chạm. |
 
 Thông số là giá trị thử. Hiệu ứng cấp 11 có thể dùng cùng kỹ năng cấp 4 và các bậc nâng cấp đang có. Sát thương phụ từ cấp 11 không nạp lại kỹ năng cấp 11.
 
@@ -47,9 +52,9 @@ Thông số là giá trị thử. Hiệu ứng cấp 11 có thể dùng cùng k�
 
 | Nhánh | Kỹ năng thứ nhất | Kỹ năng thứ hai |
 |---|---|---|
-| Đạn toả | **Giáp phản pháo.** Hai viên trúng boss trong cự ly gần tạo khiên vàng bao quanh nhân vật. Khiên chặn đòn từ mọi hướng rồi bắn trả theo hướng ngắm. Animation khiên tách riêng khỏi đạn phản pháo. | **Lưỡi cưa bám đuổi.** Hai viên của mỗi phát thứ hai phải trúng cùng boss. Ở gần boss để cưa tiếp tục gây sát thương. |
-| Liên thanh | **Hoả lực leo thang.** Ba loạt có ít nhất ba viên trúng sẽ cường hoá các viên cuối loạt trong 5,5 giây. | **Đạn phân rã.** Tám viên trúng kích hoạt trạng thái phân rã. Tiếp tục bắn để gây thêm sát thương theo nhịp. |
-| Xuyên thấu | **Cổng xuyên kích.** Mỗi phát thứ tư trúng boss sẽ mở cặp cổng. Đứng ngoài cặp cổng, bắn qua cổng gần để thấy đạn thoát ở phía bên kia và bay ngược lại. | **Mỏ neo xuyên tâm.** Mỗi phát thứ tư trúng boss đặt neo. Boss đi xa sẽ làm dây đứt. Nếu boss ở lại, neo gây sát thương vùng khi hết hạn. |
+| Shotgun | **Giáp phản pháo.** Hai viên trúng boss trong cự ly gần tạo khiên vàng bao quanh nhân vật. Khiên chặn đòn từ mọi hướng rồi bắn trả theo hướng ngắm. Animation khiên tách riêng khỏi đạn phản pháo. | **Lưỡi cưa bám đuổi.** Hai viên của mỗi phát thứ hai phải trúng cùng boss. Đĩa năng lượng từ energy-disc.png quay quanh boss ba vòng trong 2,4 giây. Ở gần boss để đĩa tiếp tục gây sát thương. |
+| SMG | **Hoả lực leo thang.** Ba loạt có ít nhất ba viên trúng sẽ cường hoá các viên cuối loạt trong 5,5 giây. | **Đạn phân rã.** Tám viên trúng kích hoạt trạng thái phân rã. Tiếp tục bắn để gây thêm sát thương theo nhịp. |
+| Rocket | **Cổng xuyên kích.** Mỗi phát thứ tư trúng boss sẽ mở cặp cổng. Đứng ngoài cặp cổng, bắn qua cổng gần để thấy đạn thoát ở phía bên kia và bay ngược lại. | **Mỏ neo xuyên tâm.** Mỗi phát thứ tư trúng boss đặt neo. Boss đi xa sẽ làm dây đứt. Nếu boss ở lại, neo gây sát thương vùng khi hết hạn. |
 
 Các ngưỡng, thời gian và sát thương là thông số thử. Đạn phản pháo và sát thương phụ từ cưa, phân rã hoặc neo không tự nạp kỹ năng. Đạn xuyên đi qua cổng tối đa một lần.
 

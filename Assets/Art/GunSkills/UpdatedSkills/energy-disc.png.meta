@@ -1,0 +1,871 @@
+fileFormatVersion: 2
+guid: db6f77dfcc9cf0e478b12d66fd04b9dd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2604956332496682548
+    second: energy-disc_0
+  - first:
+      213: -90898624489623842
+    second: energy-disc_1
+  - first:
+      213: 882768995766250514
+    second: energy-disc_2
+  - first:
+      213: -8870847203314134489
+    second: energy-disc_3
+  - first:
+      213: 3158262649317983846
+    second: energy-disc_4
+  - first:
+      213: -2221157562799815970
+    second: energy-disc_5
+  - first:
+      213: -6692972941817568983
+    second: energy-disc_6
+  - first:
+      213: -2659646131989907606
+    second: energy-disc_7
+  - first:
+      213: 1233506923688969758
+    second: energy-disc_8
+  - first:
+      213: 1903413901227192111
+    second: energy-disc_9
+  - first:
+      213: -4617628254815017314
+    second: energy-disc_10
+  - first:
+      213: -677006120745139162
+    second: energy-disc_11
+  - first:
+      213: -6698274151724321425
+    second: energy-disc_12
+  - first:
+      213: 8792376693136789848
+    second: energy-disc_13
+  - first:
+      213: 2347674397452055289
+    second: energy-disc_14
+  - first:
+      213: -4395300468706425246
+    second: energy-disc_15
+  - first:
+      213: -2232885185791046689
+    second: energy-disc_16
+  - first:
+      213: -1973035457381326801
+    second: energy-disc_17
+  - first:
+      213: -8461764700984074540
+    second: energy-disc_18
+  - first:
+      213: 3571590360146789803
+    second: energy-disc_19
+  - first:
+      213: 8761600427795460796
+    second: energy-disc_20
+  - first:
+      213: 1637711851797718626
+    second: energy-disc_21
+  - first:
+      213: 1330364707915666078
+    second: energy-disc_22
+  - first:
+      213: -4126377320200583750
+    second: energy-disc_23
+  - first:
+      213: 4063582838391423856
+    second: energy-disc_24
+  - first:
+      213: 6275173653496780038
+    second: energy-disc_25
+  - first:
+      213: -3014934264676369341
+    second: energy-disc_26
+  - first:
+      213: -5411136397789679668
+    second: energy-disc_27
+  - first:
+      213: -5323627755355198733
+    second: energy-disc_28
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: energy-disc_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 209
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43e7ed59bf9a62420800000000000000
+      internalID: 2604956332496682548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_1
+      rect:
+        serializedVersion: 2
+        x: 157
+        y: 246
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ede69b0ce201dbef0800000000000000
+      internalID: -90898624489623842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_2
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 209
+        width: 75
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21c206b79b9304c00800000000000000
+      internalID: 882768995766250514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_3
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 209
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72291b5e77b64e480800000000000000
+      internalID: -8870847203314134489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 210
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6668bf7752764db20800000000000000
+      internalID: 3158262649317983846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_5
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 216
+        width: 29
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2052ff6fcdc21e0800000000000000
+      internalID: -2221157562799815970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_6
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 157
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 921a9aff198cd13a0800000000000000
+      internalID: -6692972941817568983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_7
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 191
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67ff723fe9071bd0800000000000000
+      internalID: -2659646131989907606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_8
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 157
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e16477ef20c4e1110800000000000000
+      internalID: 1233506923688969758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 157
+        width: 71
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fef23cbd84a6a10800000000000000
+      internalID: 1903413901227192111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_10
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 166
+        width: 19
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e96a1f64193eaefb0800000000000000
+      internalID: -4617628254815017314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_11
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 165
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6248836258aca96f0800000000000000
+      internalID: -677006120745139162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_12
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 105
+        width: 83
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f657a42e523fa03a0800000000000000
+      internalID: -6698274151724321425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_13
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 105
+        width: 66
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85197d5b40cc40a70800000000000000
+      internalID: 8792376693136789848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_14
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 105
+        width: 76
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f2b86c0d6d949020800000000000000
+      internalID: 2347674397452055289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_15
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 142
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26645a1d281c003c0800000000000000
+      internalID: -4395300468706425246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_16
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 132
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdb41bcf0c23301e0800000000000000
+      internalID: -2232885185791046689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_17
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 120
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20298184be5e94e0800000000000000
+      internalID: -1973035457381326801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 53
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de97e836d5c19a80800000000000000
+      internalID: -8461764700984074540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_19
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 85
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba542cb6286d09130800000000000000
+      internalID: 3571590360146789803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 53
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2b8aa0b25779970800000000000000
+      internalID: 8761600427795460796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_21
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 53
+        width: 69
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 266a9d290425ab610800000000000000
+      internalID: 1637711851797718626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_22
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 67
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92970d37a7667210800000000000000
+      internalID: 1330364707915666078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 1
+        width: 60
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab5473490b92cb6c0800000000000000
+      internalID: -4126377320200583750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_24
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 1
+        width: 89
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073c1bdcf0fb46830800000000000000
+      internalID: 4063582838391423856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_25
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 41
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 605d098c035e51750800000000000000
+      internalID: 6275173653496780038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_26
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 41
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34cbfc4924dc826d0800000000000000
+      internalID: -3014934264676369341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_27
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 1
+        width: 99
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf2f8a9d18c7e4b0800000000000000
+      internalID: -5411136397789679668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: energy-disc_28
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 6
+        width: 23
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3faa4a523ccae16b0800000000000000
+      internalID: -5323627755355198733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      energy-disc_0: 2604956332496682548
+      energy-disc_1: -90898624489623842
+      energy-disc_10: -4617628254815017314
+      energy-disc_11: -677006120745139162
+      energy-disc_12: -6698274151724321425
+      energy-disc_13: 8792376693136789848
+      energy-disc_14: 2347674397452055289
+      energy-disc_15: -4395300468706425246
+      energy-disc_16: -2232885185791046689
+      energy-disc_17: -1973035457381326801
+      energy-disc_18: -8461764700984074540
+      energy-disc_19: 3571590360146789803
+      energy-disc_2: 882768995766250514
+      energy-disc_20: 8761600427795460796
+      energy-disc_21: 1637711851797718626
+      energy-disc_22: 1330364707915666078
+      energy-disc_23: -4126377320200583750
+      energy-disc_24: 4063582838391423856
+      energy-disc_25: 6275173653496780038
+      energy-disc_26: -3014934264676369341
+      energy-disc_27: -5411136397789679668
+      energy-disc_28: -5323627755355198733
+      energy-disc_3: -8870847203314134489
+      energy-disc_4: 3158262649317983846
+      energy-disc_5: -2221157562799815970
+      energy-disc_6: -6692972941817568983
+      energy-disc_7: -2659646131989907606
+      energy-disc_8: 1233506923688969758
+      energy-disc_9: 1903413901227192111
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

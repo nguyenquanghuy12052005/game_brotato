@@ -195,3 +195,41 @@ Unity 6000.3.22f1 batch compilation and actual automated Play Mode passed on an 
 Added NoGlowSprite.shader/material under Assets/Art/GunSkills/UpdatedSkills and wired skillNoGlowMaterial in GunSkillTest. Only the two portal SpriteRenderers and Hexcore fire-breath renderer use it. The shader discards source alpha below 0.25 before applying sprite tint/fade, removing the broad low-opacity rectangular glow while retaining higher-opacity fire, portal and particle detail. Original PNGs, gameplay timing, damage and cooldowns are unchanged.
 
 Unity 6000.3.22f1 shader import/compilation and automated Play Mode passed on an isolated copy: both effect types used the filtered material and the existing eight imported-art regressions passed (including five-second tracked fire breath and functioning gates). Log: no-glow-smoke.log in the session visualization folder. GPU-rendered visual confirmation remains for the user in GunSkillTest; the automated run used -nographics.
+
+## 2026-11-25 · Pistol artwork in GunSkillTest
+
+Basic shots and standard Burst rounds use the muzzle flash and aligned moving tracer from public/gun_new/pistol-shots.png. Spread, Piercing and the separate heavy round retain their current art. The isolated Unity 6000.3.22f1 batch Play Mode check passed all four branch selections, including the new muzzle animation in Basic and Burst. Rendering was not visually checked in Game view.
+
+## Shotgun and SMG artwork in GunSkillTest
+
+The branch buttons now say Shotgun and SMG. Each uses its own muzzle sheet and both share the identical bullet-tracer.png from public/gun_new. Shotgun plays one muzzle clip per volley. SMG plays one short non-looping clip per emitted round. Heavy rounds keep their own projectile sprite. Isolated Unity 6000.3.22f1 Play Mode confirmed all four branches, the expected shot and muzzle counts, and no SMG flash remaining during its idle interval. Rendering was not visually checked in Game view.
+
+## Rocket artwork in GunSkillTest
+
+The Piercing branch now appears as Rocket. It uses cannonball muzzle flash and dissipating smoke, with the old cannonball excluded from frames 4–14, and plays only flight frames 25–33 from the existing identical rocket-launcher atlas. Piercing gameplay is unchanged. All four branch art checks passed in isolated Unity batch Play Mode. The 11 cropped sprite frames were also checked against the source PNG. Game view rendering was not visually checked.
+
+## Basic gun skills in GunSkillTest
+
+Replaced Weak Point with Piercing. Penetration reuses the existing projectile hit rule independently of projectile artwork. Rocket retains its native penetration and its own branch upgrades. Ricochet retains its original steering and projectile artwork. Death Scatter keeps its lethal-hit trigger, count and damage, and fragments use the basic pistol tracer animation. Unity batch Play Mode passed normal firing checks for four branches and all 12 branch/skill combinations using controlled hit callbacks.
+
+Rocket penetration now requires the selected Piercing skill. Without it, normal Rocket rounds stop on the first target, and Ricochet and Death Scatter still trigger as selected. Isolated Play Mode checks passed all four Rocket skill selections.
+
+## Rocket branch upgrades in GunSkillTest
+
+Rocket now offers blast, knockback and extra rounds. Blast uses the existing rocket-launcher impact frames with 0.8/1.1/1.4 splash radius and 5/8/11 splash damage to nearby targets, separate from the direct hit. Knockback reuses Shotgun's 0.25 units per rank. Extra rounds fire 1–4 rockets in a single volley with 5 degrees between rounds and one muzzle animation. Isolated Unity Play Mode checked all four ranks for projectile count, target displacement, splash radius/damage and the explosion atlas, plus the existing branch and basic-skill cases.
+
+## SMG branch upgrades in GunSkillTest
+
+The SMG rank slots are Ice Round, Grenade and Extra Ammo. Ice uses cropped ice-lance and frost-breath sprites and slows movement by 15/30/45% for 1.5 seconds. Grenades reuse the identical existing grenade atlas from the ultimate and launch 1–3 rounds only after the final bullet, landing at the current aim point within throw range and doing 18 damage in radius 1.15. Ammo ranks produce 5/7/9/11 rounds. The ammo-linked core modifiers follow the new ammo slot, and modifiers formerly linked to SMG scatter follow the grenade slot. Isolated Unity Play Mode passed four SMG ranks, including grenade timing and damage, ice art, slow/recovery and ammo counts, with existing Rocket and basic skill cases also passing. Game view rendering was not visually reviewed.
+
+Shotgun's first-core Pressure Blast now charges once and fires three fireballs at about 0.16-second intervals. The existing impact damage and armor debuff apply to each fireball. Automated Play Mode verified all three hits and the armor debuff.
+
+Shotgun first-core Sweep uses sword-slash.png (136x104 cells). The opening flash is held until the existing hit window starts. Isolated Play Mode verified sprite playback and the existing 32 damage at rank 2, with no change to the hit logic. Game view visuals were not manually inspected.
+
+Sweep now centers the bright slash on the aiming line, skips the opening glow-only frame and uses the existing alpha-cutoff material with a per-renderer cutoff. Isolated Play Mode verified the sprite pivot, renderer direction, material settings, frame changes and rank-2 damage.
+
+Shotgun first-core slot three is now Fire Breath. Its source fire-breath.png matches the existing imported atlas. It triggers once after a hit on every other volley, using a widened forward cone with 5.4-unit reach and four damage ticks across 0.8 seconds. Isolated Play Mode verified animation, a hit in the added side/range area, no hit outside the cone, and other imported art regressions. Game view was not manually inspected.
+
+The Shotgun Sweep art is counter-rotated to center the authored slash on the firing axis. Its reach is 5.2 and its base half-width is 3.4. Shotgun Fire Breath lasts 1.6 seconds in a 30-degree half-angle cone, spreading existing total damage across eight ticks. Isolated Play Mode verified centered art and in/out targets for both expanded effects. No manual Game view inspection was performed.
+
+Shotgun pursuit saw uses energy-disc.png and makes three revolutions around the target across its 2.4-second lifetime. Shotgun Fire Breath blends three straightened streams into a centered cone while retaining the 30-degree half-angle damage check. Isolated Play Mode confirmed disc animation, orbit count and damage, symmetric flame axes and cone hit boundaries. Game view was not manually inspected.

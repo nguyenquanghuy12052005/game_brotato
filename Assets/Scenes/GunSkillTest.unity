@@ -168,13 +168,14 @@ MonoBehaviour:
   spriteMaterial: {fileID: 2100000, guid: b672de8286489be42ae317d350a2bb06, type: 2}
   gunSprite: {fileID: 858280534771468510, guid: 77836970e29889d4ba2d463482475140, type: 3}
   bulletSprite: {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e110, type: 3}
+  pistolShots: {fileID: 2800000, guid: 1c1b94d55d8fcc244abb839960425d6e, type: 3}
+  shotgunMuzzle: {fileID: 2800000, guid: 73701900b6fbe8f47b496debc6e53440, type: 3}
+  smgMuzzle: {fileID: 2800000, guid: e23fd3db22fccc3448776cbb0895e618, type: 3}
+  iceLance: {fileID: 2800000, guid: 6c3b7daeb1685f84986100354f0bf60a, type: 3}
+  frostBreath: {fileID: 2800000, guid: eb729a0d5e184aa4ebade2946cb2054a, type: 3}
+  gunTracer: {fileID: 2800000, guid: fa8a9c462d614e64d807222bbe9cce76, type: 3}
+  cannonballMuzzle: {fileID: 2800000, guid: 7b28a3a3b6b6a874bbbfd92298f148a6, type: 3}
   piercingSprite: {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e111, type: 3}
-  shockwaveSprite: {fileID: 21300000, guid: c921ea3548ee4bb3bb0a3084c2d62c70, type: 3}
-  flameFrames:
-  - {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e112, type: 3}
-  - {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e113, type: 3}
-  - {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e114, type: 3}
-  - {fileID: 21300000, guid: 8fbaaf907fe34038a2b7ef7bd146e115, type: 3}
   level11Sheets:
   - {fileID: 2800000, guid: c26e2ed26c4451462a77ce26a704f1be, type: 3}
   - {fileID: 2800000, guid: 7b08773a831b7f31457524ecce5f1244, type: 3}
@@ -222,12 +223,12 @@ MonoBehaviour:
   - {fileID: 2800000, guid: 06d03a29a8a953b4c8e407e4d5020bd3, type: 3}
   - {fileID: 2800000, guid: 78b9bb12101ade83aa334631c3a16c1d, type: 3}
   pixelSkillSheets:
-  - {fileID: 2800000, guid: 09be470239495958b55c7b68e49b5213, type: 3}
+  - {fileID: 2800000, guid: 57510f85826ee0248ae5aa2d80fb43bb, type: 3}
   - {fileID: 2800000, guid: 13a252659a565295913da41f042c0526, type: 3}
   - {fileID: 2800000, guid: 7041c9a63b495d67a17e6e17700349ca, type: 3}
   - {fileID: 2800000, guid: 636b9c78e3585971828502b035e27041, type: 3}
   - {fileID: 2800000, guid: e5ad30ea297350fda91df46a033da248, type: 3}
-  - {fileID: 2800000, guid: 1761193239775987b1de6fa4df88a4d5, type: 3}
+  - {fileID: 2800000, guid: db6f77dfcc9cf0e478b12d66fd04b9dd, type: 3}
   - {fileID: 2800000, guid: c256b5b2a9f5557dafc907157bf5f6bd, type: 3}
   - {fileID: 2800000, guid: 61e5bd2accb2545da977174b6cf2b9af, type: 3}
   - {fileID: 2800000, guid: f7814c06b89e5243a851b3a12b81c120, type: 3}

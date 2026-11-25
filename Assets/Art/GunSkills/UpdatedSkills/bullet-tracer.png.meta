@@ -1,0 +1,1885 @@
+fileFormatVersion: 2
+guid: fa8a9c462d614e64d807222bbe9cce76
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2509522386903239099
+    second: bullet-tracer_0
+  - first:
+      213: -5687118296177382741
+    second: bullet-tracer_1
+  - first:
+      213: 6064928971381674672
+    second: bullet-tracer_2
+  - first:
+      213: -3086680587055707085
+    second: bullet-tracer_3
+  - first:
+      213: 3262982364496063541
+    second: bullet-tracer_4
+  - first:
+      213: -7723176276429609332
+    second: bullet-tracer_5
+  - first:
+      213: 3323420847270275830
+    second: bullet-tracer_6
+  - first:
+      213: -4576377677806427326
+    second: bullet-tracer_7
+  - first:
+      213: 2175511412528450413
+    second: bullet-tracer_8
+  - first:
+      213: 9182450213806654668
+    second: bullet-tracer_9
+  - first:
+      213: 8456781086152690430
+    second: bullet-tracer_10
+  - first:
+      213: -7307061100219849208
+    second: bullet-tracer_11
+  - first:
+      213: -4977612313260638289
+    second: bullet-tracer_12
+  - first:
+      213: 2630462384728091551
+    second: bullet-tracer_13
+  - first:
+      213: 1520032015425346378
+    second: bullet-tracer_14
+  - first:
+      213: 9012986331728304251
+    second: bullet-tracer_15
+  - first:
+      213: 3302008526767448174
+    second: bullet-tracer_16
+  - first:
+      213: -8186457587780545876
+    second: bullet-tracer_17
+  - first:
+      213: -379336145952776443
+    second: bullet-tracer_18
+  - first:
+      213: -3015688563212805226
+    second: bullet-tracer_19
+  - first:
+      213: -3996850655221303726
+    second: bullet-tracer_20
+  - first:
+      213: -1737052933267469603
+    second: bullet-tracer_21
+  - first:
+      213: 2350071963117187677
+    second: bullet-tracer_22
+  - first:
+      213: -3869301536710499257
+    second: bullet-tracer_23
+  - first:
+      213: 8063549949013117361
+    second: bullet-tracer_24
+  - first:
+      213: 1099461663765537032
+    second: bullet-tracer_25
+  - first:
+      213: -1526896867440867595
+    second: bullet-tracer_26
+  - first:
+      213: 7837010462132743892
+    second: bullet-tracer_27
+  - first:
+      213: -6218146050416885629
+    second: bullet-tracer_28
+  - first:
+      213: -2759065468283113555
+    second: bullet-tracer_29
+  - first:
+      213: -5636484709319031259
+    second: bullet-tracer_30
+  - first:
+      213: -7045513254253290557
+    second: bullet-tracer_31
+  - first:
+      213: -1127267922796821988
+    second: bullet-tracer_32
+  - first:
+      213: 6350986216448606692
+    second: bullet-tracer_33
+  - first:
+      213: 5741767684475741794
+    second: bullet-tracer_34
+  - first:
+      213: -5944246614489436791
+    second: bullet-tracer_35
+  - first:
+      213: 9038043297205849961
+    second: bullet-tracer_36
+  - first:
+      213: 2732262740465008709
+    second: bullet-tracer_37
+  - first:
+      213: 8710151074009925419
+    second: bullet-tracer_38
+  - first:
+      213: 4104713277690789257
+    second: bullet-tracer_39
+  - first:
+      213: 7369494511894359653
+    second: bullet-tracer_40
+  - first:
+      213: 3447199429418423872
+    second: bullet-tracer_41
+  - first:
+      213: -5334535427107233909
+    second: bullet-tracer_42
+  - first:
+      213: -3605041674321603549
+    second: bullet-tracer_43
+  - first:
+      213: 6484651417064293561
+    second: bullet-tracer_44
+  - first:
+      213: 6114671329481118656
+    second: bullet-tracer_45
+  - first:
+      213: -4846313366908832302
+    second: bullet-tracer_46
+  - first:
+      213: -1158634831263915210
+    second: bullet-tracer_47
+  - first:
+      213: -7533457258196445397
+    second: bullet-tracer_48
+  - first:
+      213: 699969103885789343
+    second: bullet-tracer_49
+  - first:
+      213: 908422513400594015
+    second: bullet-tracer_50
+  - first:
+      213: 8458530427658377855
+    second: bullet-tracer_51
+  - first:
+      213: 84810419291487744
+    second: bullet-tracer_52
+  - first:
+      213: 5780810956960859793
+    second: bullet-tracer_53
+  - first:
+      213: 2136282484515408948
+    second: bullet-tracer_54
+  - first:
+      213: -1967812695889602218
+    second: bullet-tracer_55
+  - first:
+      213: 5152432792873533032
+    second: bullet-tracer_56
+  - first:
+      213: -4967941178163374775
+    second: bullet-tracer_57
+  - first:
+      213: 1365310824185844918
+    second: bullet-tracer_58
+  - first:
+      213: 2082764748093167066
+    second: bullet-tracer_59
+  - first:
+      213: 6124345119809694101
+    second: bullet-tracer_60
+  - first:
+      213: 7584343943234709395
+    second: bullet-tracer_61
+  - first:
+      213: 7561776500548123652
+    second: bullet-tracer_62
+  - first:
+      213: 7973714797457916274
+    second: bullet-tracer_63
+  - first:
+      213: 2273744611657886534
+    second: bullet-tracer_64
+  - first:
+      213: 8136955281183975398
+    second: bullet-tracer_65
+  - first:
+      213: 591421597577271123
+    second: bullet-tracer_66
+  - first:
+      213: -1778950260982114472
+    second: bullet-tracer_67
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: bullet-tracer_0
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 340
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 546fdb46fa26c2dd0800000000000000
+      internalID: -2509522386903239099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_1
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 339
+        width: 19
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baae8b09a0c4311b0800000000000000
+      internalID: -5687118296177382741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_2
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 321
+        width: 119
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b21e2f14c4fa2450800000000000000
+      internalID: 6064928971381674672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_3
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 340
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c43792c58e925d0800000000000000
+      internalID: -3086680587055707085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_4
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 338
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53ce6282c21784d20800000000000000
+      internalID: 3262982364496063541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_5
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 338
+        width: 22
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8660b18814c1d490800000000000000
+      internalID: -7723176276429609332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_6
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 339
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa2ca007a92f1e20800000000000000
+      internalID: 3323420847270275830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_7
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 321
+        width: 92
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 243225cafb07d70c0800000000000000
+      internalID: -4576377677806427326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_8
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 330
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6b01947a18f03e10800000000000000
+      internalID: 2175511412528450413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 300
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4c7a991dd9e6f70800000000000000
+      internalID: 9182450213806654668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_10
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 298
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa8f5787958c5570800000000000000
+      internalID: 8456781086152690430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_11
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 299
+        width: 20
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8062251d4aa189a90800000000000000
+      internalID: -7307061100219849208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_12
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 281
+        width: 105
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faf3d7e39f7fbeab0800000000000000
+      internalID: -4977612313260638289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_13
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 301
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9baeb42a97418420800000000000000
+      internalID: 2630462384728091551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 298
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b16a6801d381510800000000000000
+      internalID: 1520032015425346378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 287
+        width: 36
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b78dd1cd05f841d70800000000000000
+      internalID: 9012986331728304251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_16
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 281
+        width: 98
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60e843a24713dd20800000000000000
+      internalID: 3302008526767448174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_17
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 288
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca21a87923cd36e80800000000000000
+      internalID: -8186457587780545876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_18
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 258
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50fd40af8c35cbaf0800000000000000
+      internalID: -379336145952776443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_19
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 259
+        width: 19
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69b1e74ca3f1626d0800000000000000
+      internalID: -3015688563212805226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_20
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 260
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2563f3b51855888c0800000000000000
+      internalID: -3996850655221303726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_21
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 241
+        width: 101
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddaca8c7f8fb4e7e0800000000000000
+      internalID: -1737052933267469603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_22
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 258
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52743ecff12d9020800000000000000
+      internalID: 2350071963117187677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_23
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 259
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7446f77b0ca7d4ac0800000000000000
+      internalID: -3869301536710499257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_24
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 259
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b9cb83c4fb77ef60800000000000000
+      internalID: 8063549949013117361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_25
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 241
+        width: 107
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801a7e8de82124f00800000000000000
+      internalID: 1099461663765537032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_26
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 218
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f6c78f836f5fcae0800000000000000
+      internalID: -1526896867440867595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_27
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 219
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4de21783e77a2cc60800000000000000
+      internalID: 7837010462132743892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_28
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 201
+        width: 122
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 380476fbc15b4b9a0800000000000000
+      internalID: -6218146050416885629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_29
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 218
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf20f22394d5b9d0800000000000000
+      internalID: -2759065468283113555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_30
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 220
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5264e1f250f27c1b0800000000000000
+      internalID: -5636484709319031259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_31
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 219
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb1de3260f493e90800000000000000
+      internalID: -7045513254253290557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_32
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 201
+        width: 126
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c12c007fbc32b50f0800000000000000
+      internalID: -1127267922796821988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_33
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 178
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e142dc905c332850800000000000000
+      internalID: 6350986216448606692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_34
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 181
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2666effa94bdeaf40800000000000000
+      internalID: 5741767684475741794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_35
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98de906b23bc18da0800000000000000
+      internalID: -5944246614489436791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_36
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 179
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f0e824e749d6d70800000000000000
+      internalID: 9038043297205849961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_37
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 161
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 540c37e7c72fae520800000000000000
+      internalID: 2732262740465008709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_38
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 179
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b274952e04ca0e870800000000000000
+      internalID: 8710151074009925419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_39
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 182
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98db6957afed6f830800000000000000
+      internalID: 4104713277690789257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_40
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 180
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56e67ab9634b54660800000000000000
+      internalID: 7369494511894359653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_41
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 161
+        width: 129
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0461a64fd99e6df20800000000000000
+      internalID: 3447199429418423872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_42
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 140
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f5989ea4ce7f5b0800000000000000
+      internalID: -5334535427107233909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_43
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 139
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324d49192b158fdc0800000000000000
+      internalID: -3605041674321603549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_44
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 139
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4c95e4b1c1ef950800000000000000
+      internalID: 6484651417064293561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_45
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 121
+        width: 105
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c3dcff5d2dabd450800000000000000
+      internalID: 6114671329481118656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_46
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 140
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5fb2f6baf6ebcb0800000000000000
+      internalID: -4846313366908832302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_47
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 139
+        width: 28
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633ae1a72c3bbefe0800000000000000
+      internalID: -1158634831263915210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_48
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 121
+        width: 96
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27dc92a988c37790800000000000000
+      internalID: -7533457258196445397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_49
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f986cdef03ac6b900800000000000000
+      internalID: 699969103885789343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_50
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 99
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5eb531867d5b9c00800000000000000
+      internalID: 908422513400594015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_51
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 101
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7a1966db9cb26570800000000000000
+      internalID: 8458530427658377855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_52
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 100
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00efe1380ae4d2100800000000000000
+      internalID: 84810419291487744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_53
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 99
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968653ffe0993050800000000000000
+      internalID: 5780810956960859793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_54
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 81
+        width: 107
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c0e65e99995ad10800000000000000
+      internalID: 2136282484515408948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_55
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 60
+        width: 11
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6591ffc67cce0b4e0800000000000000
+      internalID: -1967812695889602218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 59
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86efc4c835e118740800000000000000
+      internalID: 5152432792873533032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_57
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 58
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945598ad1d35e0bb0800000000000000
+      internalID: -4967941178163374775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_58
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 60
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4d79bf5fe82f210800000000000000
+      internalID: 1365310824185844918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_59
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 41
+        width: 84
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad59cc0e08777ec10800000000000000
+      internalID: 2082764748093167066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_60
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 60
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5996724307b0ef450800000000000000
+      internalID: 6124345119809694101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_61
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 59
+        width: 24
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 397e3eef1a0014960800000000000000
+      internalID: 7584343943234709395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_62
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 41
+        width: 109
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40c311ac9a3d0f860800000000000000
+      internalID: 7561776500548123652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_63
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 20
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27141ca9c5358ae60800000000000000
+      internalID: 7973714797457916274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_64
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 1
+        width: 138
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ba3df6da6fd8f10800000000000000
+      internalID: 2273744611657886534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_65
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 19
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7a53087b54ce070800000000000000
+      internalID: 8136955281183975398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_66
+      rect:
+        serializedVersion: 2
+        x: 260
+        y: 19
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 357561c3fc6253800800000000000000
+      internalID: 591421597577271123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bullet-tracer_67
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 1
+        width: 116
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8579215b926ef47e0800000000000000
+      internalID: -1778950260982114472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      bullet-tracer_0: -2509522386903239099
+      bullet-tracer_1: -5687118296177382741
+      bullet-tracer_10: 8456781086152690430
+      bullet-tracer_11: -7307061100219849208
+      bullet-tracer_12: -4977612313260638289
+      bullet-tracer_13: 2630462384728091551
+      bullet-tracer_14: 1520032015425346378
+      bullet-tracer_15: 9012986331728304251
+      bullet-tracer_16: 3302008526767448174
+      bullet-tracer_17: -8186457587780545876
+      bullet-tracer_18: -379336145952776443
+      bullet-tracer_19: -3015688563212805226
+      bullet-tracer_2: 6064928971381674672
+      bullet-tracer_20: -3996850655221303726
+      bullet-tracer_21: -1737052933267469603
+      bullet-tracer_22: 2350071963117187677
+      bullet-tracer_23: -3869301536710499257
+      bullet-tracer_24: 8063549949013117361
+      bullet-tracer_25: 1099461663765537032
+      bullet-tracer_26: -1526896867440867595
+      bullet-tracer_27: 7837010462132743892
+      bullet-tracer_28: -6218146050416885629
+      bullet-tracer_29: -2759065468283113555
+      bullet-tracer_3: -3086680587055707085
+      bullet-tracer_30: -5636484709319031259
+      bullet-tracer_31: -7045513254253290557
+      bullet-tracer_32: -1127267922796821988
+      bullet-tracer_33: 6350986216448606692
+      bullet-tracer_34: 5741767684475741794
+      bullet-tracer_35: -5944246614489436791
+      bullet-tracer_36: 9038043297205849961
+      bullet-tracer_37: 2732262740465008709
+      bullet-tracer_38: 8710151074009925419
+      bullet-tracer_39: 4104713277690789257
+      bullet-tracer_4: 3262982364496063541
+      bullet-tracer_40: 7369494511894359653
+      bullet-tracer_41: 3447199429418423872
+      bullet-tracer_42: -5334535427107233909
+      bullet-tracer_43: -3605041674321603549
+      bullet-tracer_44: 6484651417064293561
+      bullet-tracer_45: 6114671329481118656
+      bullet-tracer_46: -4846313366908832302
+      bullet-tracer_47: -1158634831263915210
+      bullet-tracer_48: -7533457258196445397
+      bullet-tracer_49: 699969103885789343
+      bullet-tracer_5: -7723176276429609332
+      bullet-tracer_50: 908422513400594015
+      bullet-tracer_51: 8458530427658377855
+      bullet-tracer_52: 84810419291487744
+      bullet-tracer_53: 5780810956960859793
+      bullet-tracer_54: 2136282484515408948
+      bullet-tracer_55: -1967812695889602218
+      bullet-tracer_56: 5152432792873533032
+      bullet-tracer_57: -4967941178163374775
+      bullet-tracer_58: 1365310824185844918
+      bullet-tracer_59: 2082764748093167066
+      bullet-tracer_6: 3323420847270275830
+      bullet-tracer_60: 6124345119809694101
+      bullet-tracer_61: 7584343943234709395
+      bullet-tracer_62: 7561776500548123652
+      bullet-tracer_63: 7973714797457916274
+      bullet-tracer_64: 2273744611657886534
+      bullet-tracer_65: 8136955281183975398
+      bullet-tracer_66: 591421597577271123
+      bullet-tracer_67: -1778950260982114472
+      bullet-tracer_7: -4576377677806427326
+      bullet-tracer_8: 2175511412528450413
+      bullet-tracer_9: 9182450213806654668
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

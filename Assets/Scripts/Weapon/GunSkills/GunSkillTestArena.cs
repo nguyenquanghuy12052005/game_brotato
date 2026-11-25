@@ -8,9 +8,14 @@ public sealed class GunSkillTestArena : MonoBehaviour
     [SerializeField] private Material spriteMaterial;
     [SerializeField] private Sprite gunSprite;
     [SerializeField] private Sprite bulletSprite;
+    [SerializeField] private Texture2D pistolShots;
+    [SerializeField] private Texture2D shotgunMuzzle;
+    [SerializeField] private Texture2D smgMuzzle;
+    [SerializeField] private Texture2D iceLance;
+    [SerializeField] private Texture2D frostBreath;
+    [SerializeField] private Texture2D gunTracer;
+    [SerializeField] private Texture2D cannonballMuzzle;
     [SerializeField] private Sprite piercingSprite;
-    [SerializeField] private Sprite shockwaveSprite;
-    [SerializeField] private Sprite[] flameFrames;
     [SerializeField] private Texture2D[] level11Sheets;
     [SerializeField] private Texture2D[] coreTwoSheets;
     [SerializeField] private Texture2D[] ultimateSheets;
@@ -31,14 +36,14 @@ public sealed class GunSkillTestArena : MonoBehaviour
         new Vector2(3.6f, 2.3f), new Vector2(3.6f, -2.3f)
     };
 
-    private static readonly string[] SkillNames = { "", "Đạn nảy", "Ngắm điểm yếu", "Đạn bung toả" };
-    private static readonly string[] BranchNames = { "Cơ bản", "Đạn toả", "Liên thanh", "Xuyên thấu" };
+    private static readonly string[] SkillNames = { "", "Đạn nảy", "Xuyên thấu", "Đạn bung toả" };
+    private static readonly string[] BranchNames = { "Cơ bản", "Shotgun", "SMG", "Rocket" };
     private static readonly string[,] UpgradeNames =
     {
         { "", "", "" },
         { "Thêm viên", "Đạn hẹp", "Đẩy lùi" },
-        { "Thêm viên", "Đạn nảy", "Bung toả" },
-        { "Tăng sát thương xuyên", "Dấu xuyên", "Dư chấn" }
+        { "Đạn băng", "Ném lựu đạn", "Thêm đạn" },
+        { "Bùng nổ", "Đẩy lùi", "Thêm đạn" }
     };
     private readonly EnemyHealth[] targets = new EnemyHealth[TargetPositions.Length];
     private Camera labCamera;
@@ -56,7 +61,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private static readonly string[,] Level11Names =
     {
         { "", "", "", "" },
-        { "Tắt", "Lưỡi đạn càn quét", "Áp lực công phá", "Phát bắn dồn lực" },
+        { "Tắt", "Lưỡi đạn càn quét", "Áp lực công phá", "Phun lửa" },
         { "Tắt", "Kíp nổ liên hoàn", "Băng đạn cộng hưởng", "Bão đạn quỹ đạo" },
         { "Tắt", "Vết rách không gian", "Xuyên kích hồi quy", "Thiên thương" }
     };
@@ -141,9 +146,12 @@ public sealed class GunSkillTestArena : MonoBehaviour
         targetRoot = new GameObject("Practice targets").transform;
         effectsRoot = new GameObject("Shots and effects").transform;
         weapon = gun.AddComponent<GunSkillWeapon>();
-        weapon.Setup(muzzle, effectsRoot, spriteMaterial, bulletSprite, piercingSprite, shockwaveSprite, flameFrames);
+        weapon.Setup(muzzle, effectsRoot, spriteMaterial, bulletSprite, piercingSprite);
+        weapon.SetPistolShots(pistolShots);
+        weapon.SetBranchArt(shotgunMuzzle, smgMuzzle, gunTracer);
         var importedArt = gameObject.AddComponent<GunNewSkillArt>();
         importedArt.Setup(updatedSkillSheets, pixelSkillSheets, skillNoGlowMaterial);
+        weapon.SetRocketArt(cannonballMuzzle, importedArt);
         level11 = gameObject.AddComponent<GunLevel11>();
         level11.Setup(weapon, player.transform, effectsRoot, targets, level11Sheets, importedArt);
         weapon.SetLevel11(level11);
@@ -152,6 +160,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
         weapon.SetCoreTwo(coreTwo);
         ultimate = gameObject.AddComponent<GunHexcoreUltimate>();
         ultimate.Setup(weapon, player.transform, muzzle, spriteMaterial, targets, ultimateSheets, turretAtlas, grenadeAtlas, meteorAtlas, importedArt);
+        weapon.SetSmgUpgradeArt(iceLance, frostBreath, ultimate);
         ResetTargets();
     }
 
@@ -181,7 +190,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
         coreTwo.Select(branch, coreTwoByBranch[(int)branch], ranksByBranch[(int)branch], bossMode ? targets[0] : null);
         if (PlayerStanding && Keyboard.current?.rKey.wasPressedThisFrame == true)
             ultimate.Cast(selectedUltimate, lastAimPoint, bossMode);
-        weapon.Tick(autoFire && (!hardBoss || PlayerStanding));
+        weapon.Tick(autoFire && (!hardBoss || PlayerStanding), lastAimPoint);
     }
 
     private void RespawnWhenCleared()
@@ -267,7 +276,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
             foreach (var renderer in enemy.GetComponentsInChildren<SpriteRenderer>())
                 renderer.sharedMaterial = spriteMaterial;
             targets[i] = enemy.GetComponent<EnemyHealth>();
-            targets[i].InitializeHealth(hardBoss ? 2500 : bossMode ? 1500 : sturdyTargets ? 100 : i == 0 ? 10 : 30);
+            targets[i].InitializeHealth(hardBoss ? 2500 : bossMode ? 1500 : sturdyTargets ? 100 : i == 0 ? 50 : 100);
             if (hardBoss) enemy.AddComponent<GunLabBoss>().Setup(this, player, bulletSprite, spriteMaterial);
         }
     }

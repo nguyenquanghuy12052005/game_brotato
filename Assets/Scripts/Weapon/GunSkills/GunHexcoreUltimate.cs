@@ -240,7 +240,7 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
         Destroy(sprite.gameObject);
     }
 
-    private Sprite[] GetGrenadeFrames()
+    internal Sprite[] GetGrenadeFrames()
     {
         if (grenadeFrames != null) return grenadeFrames;
         grenadeFrames = new Sprite[118];

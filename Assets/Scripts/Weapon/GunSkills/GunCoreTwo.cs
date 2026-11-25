@@ -77,7 +77,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     internal bool HeavyRound(Volley volley, int remaining) =>
         Current(volley) && branch == GunBranch.Burst && (slots & 1) != 0 &&
-        Overcharged && remaining <= 2 + ranks.x;
+        Overcharged && remaining <= 2 + ranks.z;
 
     internal void Hit(Volley volley, EnemyHealth enemy, Vector2 heading, bool crossedPortal)
     {
@@ -169,15 +169,34 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     private IEnumerator Saw(EnemyHealth enemy)
     {
-        var sprite = Visual("Pursuit saw", enemy.transform.position, Vector2.right, 1f);
+        const float duration = 2.4f;
+        const float revolutions = 3f;
+        var sprite = Visual("Pursuit saw", enemy.transform.position, Vector2.right, 1.30f);
+        var targetView = enemy.GetComponentInChildren<SpriteRenderer>();
         float start = Time.time;
         float nextHit = start + 0.35f;
-        while (Alive(enemy) && Time.time < start + 2.4f)
+        while (Alive(enemy) && Time.time < start + duration)
         {
-            sprite.transform.position = enemy.transform.position;
+            float elapsed = Time.time - start;
+            float angle = elapsed / duration * revolutions * 2f * Mathf.PI;
+            var radial = new Vector2(Mathf.Cos(angle), Mathf.Sin(angle));
+            var tangent = new Vector2(-radial.y, radial.x);
+            Vector2 center = enemy.transform.position;
+            float radius = 0.32f;
+            if (targetView != null && targetView.sprite != null)
+            {
+                // The practice collider is much larger than the visible enemy.
+                Bounds bounds = targetView.bounds;
+                center = bounds.center;
+                var ellipse = new Vector2(radial.x / Mathf.Max(0.05f, bounds.extents.x),
+                    radial.y / Mathf.Max(0.05f, bounds.extents.y));
+                // Let the tooth rim overlap the visible body as the disc circles.
+                radius = 1f / ellipse.magnitude + 0.10f;
+            }
+            sprite.transform.SetPositionAndRotation(center + radial * radius, Rotation(tangent));
             bool close = Vector2.Distance(player.position, enemy.transform.position) <= 3.5f;
             sprite.color = close ? Color.white : new Color(1f, 1f, 1f, 0.35f);
-            sprite.sprite = Frame(Art.Saw, Time.time - start, 32);
+            sprite.sprite = newArt.Loop(GunNewSkillArt.Clip.Saw, elapsed, 30f, 0, 15);
             if (Time.time >= nextHit)
             {
                 if (close) enemy.TakeDamage(7 + ranks.x);
@@ -217,7 +236,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
         if (Time.time < nextDecayHit) return;
         nextDecayHit = Time.time + 0.24f;
         StartCoroutine(Flash("Disintegration hit", Art.DecayHit, enemy.transform.position, Vector2.right, 1f, 40));
-        enemy.TakeDamage(4 + 2 * ranks.z);
+        enemy.TakeDamage(4 + 2 * ranks.y);
     }
 
     private IEnumerator DecayAura(EnemyHealth enemy)
@@ -357,7 +376,6 @@ internal sealed class GunCoreTwo : MonoBehaviour
     {
         switch (art)
         {
-            case Art.Saw: return newArt.Loop(GunNewSkillArt.Clip.Saw, elapsed, 30f, 0, 72);
             case Art.Muzzle: return newArt.Loop(GunNewSkillArt.Clip.HotMuzzle, elapsed, 30f, 0, 24);
             case Art.Heavy: return newArt.Loop(GunNewSkillArt.Clip.Heavy, elapsed, 30f, 0, 14);
             case Art.Decay: return newArt.Loop(GunNewSkillArt.Clip.DecayAura, elapsed, 30f, 0, 48);

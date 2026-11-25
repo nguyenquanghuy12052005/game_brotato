@@ -9,7 +9,8 @@ internal sealed class GunLevel11 : MonoBehaviour
     {
         public int Generation;
         public int Size;
-        public bool Charged;
+        public bool FireBreathReady;
+        public Vector2 Heading;
         public readonly Dictionary<EnemyHealth, int> Hits = new Dictionary<EnemyHealth, int>();
     }
 
@@ -103,7 +104,8 @@ internal sealed class GunLevel11 : MonoBehaviour
         {
             Generation = generation,
             Size = size,
-            Charged = branch == GunBranch.Spread && slot == 3 && shotNumber % 2 == 0
+            FireBreathReady = branch == GunBranch.Spread && slot == 3 && shotNumber % 2 == 0,
+            Heading = heading
         };
     }
 
@@ -123,8 +125,11 @@ internal sealed class GunLevel11 : MonoBehaviour
         {
             case GunBranch.Spread:
                 if (slot == 2 && hits == 1) Sunder(enemy);
-                if (slot == 3 && volley.Charged && hits == 1)
-                    StartCoroutine(ChargedShot(enemy, volley));
+                if (slot == 3 && volley.FireBreathReady)
+                {
+                    volley.FireBreathReady = false;
+                    StartCoroutine(FireBreath(enemy, volley));
+                }
                 break;
             case GunBranch.Burst:
                 if (slot == 1 && Charge(enemy, 5))
@@ -185,41 +190,103 @@ internal sealed class GunLevel11 : MonoBehaviour
         StartCoroutine(Fireball(enemy, state));
     }
 
+    private const float FireballChargeDuration = 0.30f;
+
     private IEnumerator Fireball(EnemyHealth enemy, TargetState state)
     {
         state.SunderPending = true;
-        yield return NewProjectile(enemy, null, state);
+        const float spacing = 0.16f;
+        StartCoroutine(LaunchFireball(enemy, state));
+        yield return new WaitForSeconds(FireballChargeDuration + spacing);
+        StartCoroutine(LaunchFireball(enemy, state, charge: false));
+        yield return new WaitForSeconds(spacing);
+        yield return LaunchFireball(enemy, state, charge: false);
         state.SunderPending = false;
     }
 
-    private IEnumerator ChargedShot(EnemyHealth enemy, Volley volley)
+    private IEnumerator FireBreath(EnemyHealth firstTarget, Volley volley)
     {
-        // Let the remaining pellets of this volley contribute before the rocket leaves.
+        // Let the remaining pellets contribute before the flame starts.
         yield return new WaitForSeconds(0.12f);
-        yield return NewProjectile(enemy, volley, null);
+        const float reach = 5.4f;
+        const float halfAngle = 30f;
+        float sideGrowth = Mathf.Tan(halfAngle * Mathf.Deg2Rad);
+        const float tickInterval = 0.20f;
+        const int ticks = 8;
+        const float duration = tickInterval * ticks;
+        int damage = 10 + 8 * volley.Hits[firstTarget];
+        Vector2 heading = volley.Heading;
+        Vector2 side = new Vector2(-heading.y, heading.x);
+        const float wingAngle = 21f;
+        var centerFlame = CreateFlameStream("Shotgun fire breath", heading, 0f, 1.65f, 1.65f);
+        var leftFlame = CreateFlameStream("Shotgun flame left", heading, wingAngle, 1.72f, 1.35f);
+        var rightFlame = CreateFlameStream("Shotgun flame right", heading, -wingAngle, 1.72f, 1.35f);
+        centerFlame.sortingOrder = leftFlame.sortingOrder + 1;
+        int nextTick = 0;
+        for (float elapsed = 0f; elapsed < duration; elapsed += Time.deltaTime)
+        {
+            Vector2 origin = weapon.MuzzlePosition;
+            float fade = Mathf.Clamp01((duration - elapsed) / 0.16f);
+            ShowFlameStream(centerFlame, origin, elapsed, fade);
+            ShowFlameStream(leftFlame, origin, elapsed + 0.20f, fade * 0.88f);
+            ShowFlameStream(rightFlame, origin, elapsed + 0.43f, fade * 0.88f);
+            while (nextTick < ticks && elapsed >= nextTick * tickInterval)
+            {
+                int tickDamage = damage / ticks + (nextTick < damage % ticks ? 1 : 0);
+                nextTick++;
+                foreach (EnemyHealth enemy in targets)
+                {
+                    if (!Alive(enemy)) continue;
+                    Vector2 delta = (Vector2)enemy.transform.position - origin;
+                    float along = Vector2.Dot(delta, heading);
+                    if (along >= 0f && along <= reach && Mathf.Abs(Vector2.Dot(delta, side)) <= along * sideGrowth)
+                        enemy.TakeDamage(tickDamage);
+                }
+            }
+            yield return null;
+        }
+        Destroy(centerFlame.gameObject);
+        Destroy(leftFlame.gameObject);
+        Destroy(rightFlame.gameObject);
     }
 
-    private IEnumerator NewProjectile(EnemyHealth target, Volley volley, TargetState sunder)
+    private SpriteRenderer CreateFlameStream(string label, Vector2 heading, float angle, float length, float width)
+    {
+        // The flame in the atlas rises about 0.15 units for every unit forward.
+        float correction = Mathf.Atan2(0.15f * width, length) * Mathf.Rad2Deg;
+        Vector2 spriteHeading = Quaternion.Euler(0f, 0f, angle - correction) * heading;
+        var renderer = CreateVisual(label, weapon.MuzzlePosition, spriteHeading, length, width);
+        renderer.sharedMaterial = newArt.NoGlowMaterial;
+        return renderer;
+    }
+
+    private void ShowFlameStream(SpriteRenderer renderer, Vector2 origin, float elapsed, float opacity)
+    {
+        renderer.transform.position = origin;
+        renderer.sprite = newArt.Loop(GunNewSkillArt.Clip.Breath, elapsed, 30f, 0, 45);
+        renderer.color = new Color(1f, 1f, 1f, opacity);
+    }
+
+    private IEnumerator LaunchFireball(EnemyHealth target, TargetState sunder, bool charge = true)
     {
         if (!Alive(target)) yield break;
-        bool rocket = volley != null;
-        var clip = rocket ? GunNewSkillArt.Clip.Rocket : GunNewSkillArt.Clip.Fireball;
+        const GunNewSkillArt.Clip clip = GunNewSkillArt.Clip.Fireball;
         Vector2 origin = player.position;
         Vector2 destination = target.transform.position;
         Vector2 heading = (destination - origin).normalized;
-        var fx = CreateVisual(rocket ? "Dồn lực rocket" : "Công phá fireball", origin, heading, 1f, 1f);
-        if (!rocket)
+        var fx = CreateVisual("Công phá fireball", origin, heading, 1f, 1f);
+        if (charge)
         {
-            for (float elapsed = 0f; elapsed < 0.30f; elapsed += Time.deltaTime)
+            for (float elapsed = 0f; elapsed < FireballChargeDuration; elapsed += Time.deltaTime)
             {
                 fx.transform.position = player.position;
-                fx.sprite = newArt.Progress(clip, elapsed / 0.30f, 7, 28);
+                fx.sprite = newArt.Progress(clip, elapsed / FireballChargeDuration, 7, 28);
                 yield return null;
             }
             origin = fx.transform.position;
         }
 
-        float duration = rocket ? 0.45f : 0.55f;
+        const float duration = 0.55f;
         Vector2 previous = origin;
         for (float elapsed = 0f; elapsed < duration; elapsed += Time.deltaTime)
         {
@@ -228,15 +295,14 @@ internal sealed class GunLevel11 : MonoBehaviour
             Vector2 delta = next - previous;
             if (delta.sqrMagnitude > 0.0001f) heading = delta.normalized;
             fx.transform.SetPositionAndRotation(next, Rotation(heading));
-            fx.sprite = newArt.Progress(clip, elapsed / duration, rocket ? 19 : 29, rocket ? 33 : 42);
+            fx.sprite = newArt.Progress(clip, elapsed / duration, 29, 42);
             previous = next;
             yield return null;
         }
         fx.transform.SetPositionAndRotation(destination, Quaternion.identity);
-        int damage = rocket ? 10 + 8 * volley.Hits[target] : 18 + ranks.z * 3;
-        Area(destination, rocket ? 0.95f : 1.0f, damage);
-        if (sunder != null && Alive(target)) sunder.SunderUntil = Time.time + 5f;
-        yield return NewAnimation(fx, clip, rocket ? 34 : 43, rocket ? 169 : 175, 70f);
+        Area(destination, 1.0f, 18 + ranks.z * 3);
+        if (Alive(target)) sunder.SunderUntil = Time.time + 5f;
+        yield return NewAnimation(fx, clip, 43, 175, 70f);
         Destroy(fx.gameObject);
     }
 
@@ -258,7 +324,7 @@ internal sealed class GunLevel11 : MonoBehaviour
         StartCoroutine(Follow(fx, enemy));
         StartCoroutine(PixelPlay(fx, GunNewSkillArt.Clip.Fuse, 90, 20f / (21f / 32f)));
         yield return new WaitForSeconds(21f / 32f);
-        if (Alive(enemy)) Area(enemy.transform.position, 0.8f, 25 + 5 * ranks.z);
+        if (Alive(enemy)) Area(enemy.transform.position, 0.8f, 25 + 5 * ranks.y);
     }
 
     private IEnumerator Echo(EnemyHealth enemy)
@@ -276,7 +342,7 @@ internal sealed class GunLevel11 : MonoBehaviour
             fx.transform.rotation = Rotation(heading);
             Vector2 firePoint = position + heading * 0.34f;
             weapon.FireEcho(firePoint, heading);
-            if (i < ranks.x)
+            if (i < ranks.z)
             {
                 yield return new WaitForSeconds(0.07f);
                 weapon.FireEcho(firePoint, heading);
@@ -298,7 +364,7 @@ internal sealed class GunLevel11 : MonoBehaviour
 
     private IEnumerator LaunchOrbit(EnemyHealth enemy, float phase)
     {
-        int count = 6 + ranks.x;
+        int count = 6 + ranks.z;
         for (int i = 0; i < count && Alive(enemy); i++)
         {
             float angle = phase + (i * Mathf.PI * 2f / count) + i * 0.07f * Mathf.PI * 2f;
@@ -327,18 +393,31 @@ internal sealed class GunLevel11 : MonoBehaviour
         if (Alive(enemy))
         {
             weapon.ShowImpact(enemy.transform.position, Color.cyan);
-            enemy.TakeDamage(5 + ranks.z);
+            enemy.TakeDamage(5 + ranks.y);
         }
         Destroy(fx.gameObject);
     }
 
     private IEnumerator Sweep(Vector2 origin, Vector2 heading)
     {
-        const float reach = 3.9f;
-        var fx = CreateVisual("Sweeping blade", origin, heading, 1f, (8.2f - 1.4f * ranks.y) / 8.2f);
-        StartCoroutine(PixelPlay(fx, GunNewSkillArt.Clip.Sweep, 60, 30f));
+        const float reach = 5.2f;
+        const float lengthScale = 1.33f;
+        float halfWidth = 3.4f - ranks.y * 0.46f;
+        float width = 1.6f * halfWidth / 2.6f;
+        var fx = CreateVisual("Sweeping blade", origin, heading, lengthScale, width);
+        // Straighten the atlas's diagonal: its bright arc is 59 px forward and 13 px up from the pivot.
+        float atlasTilt = Mathf.Atan2(13f * width, 59f * lengthScale) * Mathf.Rad2Deg;
+        fx.transform.rotation *= Quaternion.Euler(0f, 0f, -atlasTilt);
+        if (newArt.NoGlowMaterial != null)
+        {
+            fx.sharedMaterial = newArt.NoGlowMaterial;
+            var properties = new MaterialPropertyBlock();
+            properties.SetFloat("_GlowCutoff", 0.47f);
+            fx.SetPropertyBlock(properties);
+        }
         var hit = new HashSet<EnemyHealth>();
         yield return new WaitForSeconds(0.19f);
+        StartCoroutine(PixelPlay(fx, GunNewSkillArt.Clip.Sweep, 18, 16f, firstFrame: 1));
         for (float elapsed = 0.19f; elapsed < 0.65f; elapsed += Time.deltaTime)
         {
             float t = Mathf.InverseLerp(0.19f, 0.65f, elapsed);
@@ -349,7 +428,7 @@ internal sealed class GunLevel11 : MonoBehaviour
                 Vector2 delta = (Vector2)enemy.transform.position - origin;
                 float along = Vector2.Dot(delta, heading);
                 float across = Mathf.Abs(Vector2.Dot(delta, new Vector2(-heading.y, heading.x)));
-                if (along < -0.2f || along > front || across > (2.6f - ranks.y * 0.46f) * front / reach + 0.25f) continue;
+                if (along < -0.2f || along > front || across > halfWidth * front / reach + 0.25f) continue;
                 hit.Add(enemy);
                 enemy.TakeDamage(22 + 5 * ranks.x);
                 if (Alive(enemy) && ranks.z > 0 && enemy.TryGetComponent<GunSkillTargetEffects>(out var status))
@@ -502,11 +581,11 @@ internal sealed class GunLevel11 : MonoBehaviour
         return frames[index] = clip;
     }
 
-    private IEnumerator PixelPlay(SpriteRenderer renderer, GunNewSkillArt.Clip clip, int count, float fps)
+    private IEnumerator PixelPlay(SpriteRenderer renderer, GunNewSkillArt.Clip clip, int count, float fps, int firstFrame = 0)
     {
-        for (float elapsed = 0f; renderer != null && elapsed < count / fps; elapsed += Time.deltaTime)
+        for (float elapsed = 0f; renderer != null && elapsed < (count - firstFrame) / fps; elapsed += Time.deltaTime)
         {
-            renderer.sprite = newArt.Frame(clip, Mathf.Min(count - 1, Mathf.FloorToInt(elapsed * fps)));
+            renderer.sprite = newArt.Frame(clip, Mathf.Min(count - 1, firstFrame + Mathf.FloorToInt(elapsed * fps)));
             yield return null;
         }
         if (renderer != null) Destroy(renderer.gameObject);
