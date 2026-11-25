@@ -7,12 +7,26 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private Transform playerVisual;
 
+    [Header("Biên map")]
+    [Tooltip("Nửa bề rộng vùng chơi. Map rộng 30 ô nên 15 là vừa khít.")]
+    [SerializeField, Min(1f)] private float halfWidth = 14f;
+    [SerializeField, Min(1f)] private float halfHeight = 8f;
+    [SerializeField] private float centerX;
+
     private Rigidbody2D playerRigidbody;
     private Vector2 movementInput;
 
     private void Awake()
     {
         playerRigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    // MapManager gọi khi sang map mới: dời tâm biên theo vùng mới.
+    public void SetMapBounds(float mapCenterX, float mapHalfWidth, float mapHalfHeight)
+    {
+        centerX = mapCenterX;
+        halfWidth = mapHalfWidth;
+        halfHeight = mapHalfHeight;
     }
 
     private void Update()
@@ -67,6 +81,10 @@ private void UpdateFacingDirection()
     {
         Vector2 nextPosition = playerRigidbody.position
             + movementInput * moveSpeed * Time.fixedDeltaTime;
+
+        // Không cho đi sang vùng map khác: giữ trong biên của map hiện tại.
+        nextPosition.x = Mathf.Clamp(nextPosition.x, centerX - halfWidth, centerX + halfWidth);
+        nextPosition.y = Mathf.Clamp(nextPosition.y, -halfHeight, halfHeight);
 
         playerRigidbody.MovePosition(nextPosition);
     }

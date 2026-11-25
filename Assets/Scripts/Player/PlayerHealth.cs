@@ -55,4 +55,13 @@ public class PlayerHealth : MonoBehaviour
     {
         canTakeDamage = value;
     }
+
+    // Sang map mới thì hồi đầy máu.
+    public void RestoreFullHealth()
+    {
+        currentHealth = maxHealth;
+        isDead = false;
+        canTakeDamage = true;
+        nextDamageTime = 0f;
+    }
 }

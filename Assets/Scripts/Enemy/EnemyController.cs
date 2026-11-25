@@ -5,6 +5,7 @@ public class EnemyController : MonoBehaviour
 {
     [SerializeField] private Transform target;
     [SerializeField] private float moveSpeed = 2f;
+    [SerializeField] private float stopDistance = 0f;
 
     private Rigidbody2D enemyRigidbody;
     
@@ -34,22 +35,37 @@ public class EnemyController : MonoBehaviour
 
     public void SetMoveSpeed(float speed)
     {
-        moveSpeed = Mathf.Max(0.1f, speed);
+        moveSpeed = Mathf.Max(0f, speed);
+    }
+
+    // Quái dừng lại khi còn cách mục tiêu chừng này, tránh lao qua rồi quay lại.
+    public void SetStopDistance(float distance)
+    {
+        stopDistance = Mathf.Max(0f, distance);
     }
 
     private void FixedUpdate()
     {
-        if (target == null)
+        if (target == null || moveSpeed <= 0f)
         {
             return;
         }
 
-        Vector2 direction =
-            ((Vector2)target.position - enemyRigidbody.position).normalized;
+        Vector2 toTarget = (Vector2)target.position - enemyRigidbody.position;
+        float distance = toTarget.magnitude;
 
-        Vector2 nextPosition = enemyRigidbody.position
-            + direction * moveSpeed * Time.fixedDeltaTime;
+        // Đã tới sát thì đứng yên, không đẩy lấn vào mục tiêu.
+        if (distance <= stopDistance)
+        {
+            return;
+        }
 
-        enemyRigidbody.MovePosition(nextPosition);
+        Vector2 step = toTarget / distance * moveSpeed * Time.fixedDeltaTime;
+        if (step.magnitude > distance - stopDistance)
+        {
+            step = step.normalized * (distance - stopDistance);
+        }
+
+        enemyRigidbody.MovePosition(enemyRigidbody.position + step);
     }
 }

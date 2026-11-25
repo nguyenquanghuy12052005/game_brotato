@@ -127,3 +127,11 @@ Accepted intent unless marked temporary. Actual defects/checks belong in [STATE]
 Thử hiệu ứng cấp 4 và các nhánh bằng bia cố định cùng bộ chọn trực tiếp. Thông số thử gồm một lần nảy, ba đạn phụ gây nửa sát thương khi kết liễu và mức cộng 3 sát thương sau mỗi mục tiêu xuyên qua khi bật nâng cấp. Dùng lại PNG trong `public/gun` và prefab đã có. Phần kết nối lên cấp sẽ dùng luật đã chốt sau khi nhóm xem bản thử.
 
 Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi lựa chọn có bậc 0–3. Nhánh Đạn tỏa có thêm viên, đạn hẹp và đẩy lùi. Nhánh Liên thanh có thêm viên, đạn nảy và bung tỏa. Nhánh Xuyên thấu có tăng sát thương qua địch, Dấu xuyên và Dư chấn. Bảng điều khiển và thông số thử nằm trong HUONG_DAN_TEST_SUNG.md.
+
+## D14 - Tách snow theo loại quái, xoá `public` (2026-11-23)
+
+- Decision: mỗi loại quái (Normal/Bow/Elite) có texture riêng trong `Assets/Art/Enemy/<Loại>/<Màu>.png`; 8 clip + 2 prefab trắng trỏ trực tiếp vào đó. Xoá `Assets/public/{normal,bow,elite_boss}/`.
+- Context: `public/normal_enemy/snow.png` là ảnh gộp 2048×1024 gồm 16 frame cầm dao (nửa trái) + 16 frame cầm cung (nửa phải). Hai file `Art/.../Snow.png` đã tách đúng từ trước nhưng không được dùng.
+- Reason: một texture cho một loại quái, không để clip trắng phụ thuộc vào ảnh gộp của cả hai loại. Ảnh gộp đã được sao lưu ở `Temp/enemy_backup/`.
+- Tradeoff: phải sửa tay `internalID` + `nameFileIdTable` trong 2 meta trắng vì Unity sinh lại ID khi import; làm sai thì clip chạy sai frame hoặc mất sprite.
+- Preserve: PPU 110 cho mọi màu quái (trước đó trắng là 83 nên cao hơn ~32%). Mỗi clip 4 frame theo hàng Idle/Walk/Attack/Death. `EnemyContactDamage` đã bỏ hẳn — bia tập trong GunSkillTest phải Destroy `EnemyMeleeAttack` vì coroutine vẫn chạy khi component bị disable.

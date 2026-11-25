@@ -66,7 +66,7 @@ public class GameManager : MonoBehaviour
             return;
         }
 
-        if (waveManager.IsLastWave)
+        if (waveManager.IsLastWave && waveManager.IsLastMap)
         {
             EndRound(GameState.Victory);
             return;
@@ -74,6 +74,14 @@ public class GameManager : MonoBehaviour
 
         EndRound(GameState.WaveComplete);
         waveManager.BeginIntermission();
+    }
+
+    // Gọi khi hết wave cuối của map cuối nhưng chưa kết thúc trận.
+    public void CompleteLastMap()
+    {
+        if (!IsPlaying && State != GameState.WaveComplete) return;
+        State = GameState.Playing;
+        EndRound(GameState.Victory);
     }
 
     public void BeginNextWave()
@@ -161,8 +169,11 @@ public class GameManager : MonoBehaviour
         }
 
         // UI tối giản cho prototype; sẽ thay bằng Canvas khi hoàn thiện UI.
-        GUI.Box(new Rect(15f, 15f, 210f, 85f),
-            $"Wave {waveManager.CurrentWave}/{waveManager.TotalWaves}\nHP: {playerHealth.CurrentHealth}/{playerHealth.MaxHealth}\nTime: {Mathf.CeilToInt(waveManager.RemainingTime)}s");
+        GUI.Box(new Rect(15f, 15f, 210f, 100f),
+            $"Map {waveManager.CurrentMapNumber}/{waveManager.TotalMaps}\n" +
+            $"Wave {waveManager.CurrentWave}/{waveManager.TotalWaves}\n" +
+            $"HP: {playerHealth.CurrentHealth}/{playerHealth.MaxHealth}\n" +
+            $"Time: {Mathf.CeilToInt(waveManager.RemainingTime)}s");
 
         if (IsPlaying)
         {
@@ -173,15 +184,18 @@ public class GameManager : MonoBehaviour
         float y = (Screen.height - 140f) / 2f;
         if (State == GameState.WaveComplete)
         {
+            string next = waveManager.IsLastWave && !waveManager.IsLastMap
+                ? $"Next map in {Mathf.CeilToInt(waveManager.IntermissionRemaining)}s"
+                : $"Next wave in {Mathf.CeilToInt(waveManager.IntermissionRemaining)}s";
             GUI.Box(new Rect(x, y, 300f, 100f),
-                $"WAVE {waveManager.CurrentWave} COMPLETE\nNext Wave in {Mathf.CeilToInt(waveManager.IntermissionRemaining)}s");
+                $"WAVE {waveManager.CurrentWave} COMPLETE\n{next}");
             return;
         }
 
-        string title = State == GameState.GameOver ? "GAME OVER" : "ALL WAVES COMPLETE";
+        string title = State == GameState.GameOver ? "GAME OVER" : "ALL MAPS CLEARED";
         string detail = State == GameState.GameOver
-            ? $"Wave Reached: {waveManager.CurrentWave}"
-            : $"Completed {waveManager.TotalWaves} Waves";
+            ? $"Map {waveManager.CurrentMapNumber} · Wave {waveManager.CurrentWave}"
+            : $"Cleared {waveManager.TotalMaps} maps";
 
         GUI.Box(new Rect(x, y, 300f, 140f), $"{title}\n{detail}");
         if (GUI.Button(new Rect(x + 60f, y + 80f, 180f, 35f), "PLAY AGAIN"))
