@@ -41,6 +41,7 @@ public class EnemyController : MonoBehaviour
     }
 
     public float MoveSpeed => moveSpeed;
+    public bool IsTrainingDummy => trainingDummy;
 
     public void SetMoveSpeed(float speed)
     {

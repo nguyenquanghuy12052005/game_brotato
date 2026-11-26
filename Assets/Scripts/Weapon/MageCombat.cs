@@ -16,6 +16,8 @@ public sealed class MageCombat : MonoBehaviour
     private PlayerHealth health;
     private PlayerController movement;
     private MageUltimate ultimate;
+    private MageExperience experience;
+    private MageLevelProgression progression;
     private float nextAttack, nextStarter;
     private int fireShots;
     private readonly HashSet<MageEnemyStatus> tracked = new HashSet<MageEnemyStatus>();
@@ -25,11 +27,13 @@ public sealed class MageCombat : MonoBehaviour
     public float StarterRemaining => Mathf.Max(0f, nextStarter - Time.time);
     public MageEffectLibrary Effects => effects;
     public MageLoadout Loadout => loadout;
+    public MageLevelProgression Progression => progression;
 
     public void ResetPreviewStarter() { nextStarter = 0f; }
     public void TryUseStarter()
     {
-        if (health.CurrentHealth > 0 && Time.time >= nextStarter) UseStarter();
+        if (health.CurrentHealth > 0 && progression.CanUseStarter && Time.time >= nextStarter)
+            UseStarter();
     }
     public void ResetPreviewElement() { nextAttack = 0f; fireShots = 0; }
 
@@ -41,21 +45,31 @@ public sealed class MageCombat : MonoBehaviour
         health = GetComponent<PlayerHealth>();
         movement = GetComponent<PlayerController>();
         ultimate = GetComponent<MageUltimate>();
+        experience = GetComponent<MageExperience>();
+        if (experience == null) experience = gameObject.AddComponent<MageExperience>();
+        progression = GetComponent<MageLevelProgression>();
+        if (progression == null) progression = gameObject.AddComponent<MageLevelProgression>();
+        progression.Initialize(this, loadout, experience, movement, health, ultimate);
     }
 
     private void Update()
     {
-        if (health.CurrentHealth <= 0) return;
+        if (health.CurrentHealth <= 0 || progression.IsChoosing) return;
         if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
             TryUseStarter();
         if (Time.time < nextAttack) return;
         switch (loadout.Element)
         {
-            case MageElement.Fire: Fire(); nextAttack = Time.time + fireInterval; break;
-            case MageElement.Ice: Ice(); nextAttack = Time.time + iceInterval; break;
-            case MageElement.Light: StartCoroutine(Light()); nextAttack = Time.time + lightInterval; break;
-            case MageElement.Dark: Dark(); nextAttack = Time.time + darkInterval; break;
+            case MageElement.Fire: Fire(); nextAttack = Time.time + AdjustAttackInterval(fireInterval); break;
+            case MageElement.Ice: Ice(); nextAttack = Time.time + AdjustAttackInterval(iceInterval); break;
+            case MageElement.Light: StartCoroutine(Light()); nextAttack = Time.time + AdjustAttackInterval(lightInterval); break;
+            case MageElement.Dark: Dark(); nextAttack = Time.time + AdjustAttackInterval(darkInterval); break;
         }
+    }
+
+    private float AdjustAttackInterval(float interval)
+    {
+        return interval / (progression != null ? progression.AttackSpeedMultiplier : 1f);
     }
 
     public MageEnemyStatus Status(EnemyHealth enemy)
@@ -123,8 +137,16 @@ public sealed class MageCombat : MonoBehaviour
                 nextStarter = Time.time + 25f;
                 break;
             case MageStarterSkill.Shockwave:
-                MageEffectPlayer wave = effects.Play(MageEffectId.Shockwave, transform.position, 1.25f, transform);
-                if (wave != null) wave.Grow(0.1f, wave.transform.localScale.x, 0.7f);
+            {
+                // Keep only the initial burst and expanding wave; later lingering
+                // rings and sparks made the attack look like repeated explosions.
+                MageEffectPlayer shockwave = effects.Play(
+                    MageEffectId.Shockwave, transform.position, 1.25f, transform);
+                if (shockwave != null)
+                {
+                    shockwave.SetFrameLimit(14);
+                    shockwave.SetAnimationSpeed(0.45f);
+                }
                 foreach (EnemyHealth enemy in Enemies(transform.position, 2.5f))
                 {
                     MageEnemyStatus status = Status(enemy);
@@ -137,6 +159,7 @@ public sealed class MageCombat : MonoBehaviour
                 }
                 nextStarter = Time.time + 12f;
                 break;
+            }
             case MageStarterSkill.Gravity:
                 StartCoroutine(Gravity(aim.PointAtMouse(7f)));
                 nextStarter = Time.time + 20f;
@@ -298,6 +321,12 @@ public sealed class MageCombat : MonoBehaviour
 
     private void OnEnemyDied(MageEnemyStatus dead)
     {
+        EnemyController enemyController = dead.Health != null
+            ? dead.Health.GetComponent<EnemyController>() : null;
+        if (experience != null && dead.Health != null &&
+            (enemyController == null || !enemyController.IsTrainingDummy))
+            experience.AddExperience(Mathf.CeilToInt(dead.Health.MaxHealth * 0.25f));
+
         if (loadout.Element == MageElement.Fire && loadout.DeathExplosion && dead.IsBurning)
         {
             Vector2 center = dead.transform.position;

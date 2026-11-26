@@ -106,12 +106,17 @@ public sealed class MageEffectLibrary : MonoBehaviour
         float pivotX = id == MageEffectId.Fireball ? 0.15f :
             id == MageEffectId.DarkMissile ? 0.1f :
             id == MageEffectId.ArcaneMissiles ? 0.13f : 0.5f;
+        float pivotY = id == MageEffectId.LightPillar ? 0.05f :
+            id == MageEffectId.Freeze ? 0f : 0.5f;
+        // Each freeze-v2 cell contains two vertically stacked ice forms.
+        // Only the lower form is the enemy shell used by the status overlay.
+        float frameHeight = id == MageEffectId.Freeze ? sheet.height * 0.5f : sheet.height;
         for (int i = 0; i < result.Length; i++)
         {
             int x = (i % columns) * sheet.width;
             int y = atlas.height - (i / columns + 1) * sheet.height;
-            result[i] = Sprite.Create(atlas, new Rect(x, y, sheet.width, sheet.height),
-                new Vector2(pivotX, 0.5f), 100f, 0, SpriteMeshType.FullRect);
+            result[i] = Sprite.Create(atlas, new Rect(x, y, sheet.width, frameHeight),
+                new Vector2(pivotX, pivotY), 100f, 0, SpriteMeshType.FullRect);
         }
         sprites.Add(id, result);
         return result;

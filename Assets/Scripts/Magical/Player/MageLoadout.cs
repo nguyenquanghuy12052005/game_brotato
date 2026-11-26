@@ -4,7 +4,7 @@ public enum MageStarterSkill { Heal, Shockwave, Gravity }
 public enum MageElement { Fire, Ice, Light, Dark }
 public enum MageUltimateKind { TimeStop, StarFall, ArcaneOrb }
 
-// Inspector choices let the team test every skill before adding EXP and level UI.
+// Stores the Mage branch, skill, upgrade and core choices for progression and preview.
 public sealed class MageLoadout : MonoBehaviour
 {
     [Header("Choose for Play Mode")]

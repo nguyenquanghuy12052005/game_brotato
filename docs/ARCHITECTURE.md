@@ -102,3 +102,7 @@ GunSkillTestArena.pixelSkillSheets supplies 16 pixel atlases appended after the 
 
 
 GunSkillTestArena.skillNoGlowMaterial supplies a dedicated Sprite-compatible alpha-filter material via GunNewSkillArt.NoGlowMaterial. GunCoreTwo uses it for the portals and Tesla tether, GunLevel11 for the lightning ball's cropped impact sparks, and GunHexcoreUltimate for the blizzard vortex. Ball lightning draws a branched discharge with LineRenderers on each damage tick; Tesla keeps its continuous atlas tether. NoGlowSprite clips source alpha below 0.25 before renderer tint/fade, with premultiplied sprite blending; other effects keep their existing materials.
+
+## Mage progression implementation (2026-11-26)
+
+`Magical.unity` now adds `MageExperience` and `MageLevelProgression` at runtime from `MageCombat` when missing; no scene or prefab wiring is required. Normal enemy deaths award EXP; training dummies do not. `MageLevelProgression` owns level thresholds, XP HUD, level-choice queue, pause/resume and buff application. It draws an IMGUI modal in the existing Mage demo style and loads the Mage atlas from `Assets/Resources/Magical/`. In the Editor, `+10 EXP` and `Thử skill` provide quick preview controls. The system is not connected to GameScene.

@@ -83,7 +83,7 @@ Trong phòng thử `Magical.unity`, bảng test cho tạo lại 1-30 bù nhìn �
 | Skill | Kích hoạt và hiệu quả | Hồi chiêu |
 | --- | --- | --- |
 | Hồi phục | Q: hồi ngay 25 HP, không vượt HP tối đa; chỉ kích hoạt khi chưa đầy máu. | 25 giây |
-| Sóng xung kích | Q: gây 15 sát thương một lần trong bán kính 2,5 m quanh Pháp sư và đẩy quái thường ra 1 m. Boss chỉ nhận sát thương. | 12 giây |
+| Sóng xung kích | Q: gây 15 sát thương một lần trong bán kính 2,5 m quanh Pháp sư và đẩy quái thường ra 1 m. Boss chỉ nhận sát thương. Hình ảnh là một đợt bùng nổ từ tâm lan ra; chỉ phát đoạn nổ đầu ở tốc độ chậm. | 12 giây |
 | Vùng trọng lực | Q tại vị trí chuột cách Pháp sư tối đa 7 m: tạo vùng bán kính 2,5 m trong 4 giây, gây 3 sát thương/giây và làm chậm quái thường 35% khi ở trong vùng. | 20 giây |
 
 Mỗi skill Q là một lần kích hoạt; hồi chiêu tính theo thời gian gameplay, dừng khi tạm dừng hoặc chuyển màn. Các skill này không tự hồi HP, gây sát thương hay áp dụng hiệu ứng khi chưa được kích hoạt.
@@ -91,7 +91,7 @@ Mỗi skill Q là một lần kích hoạt; hồi chiêu tính theo thời gian 
 #### Nhánh cấp 9 và trạng thái
 
 - **Hỏa:** cầu lửa nổ bán kính 1,5 m, gây 20 sát thương trực tiếp và đốt 4 sát thương/giây trong 3 giây (thêm tối đa 12 sát thương nếu cháy đủ thời gian).
-- **Băng:** Hơi thở băng gây 15 sát thương cho mỗi quái trúng, làm chậm 30%. Hiệu ứng hơi thở bám theo nhân vật và hướng chuột khi đang phát. Mỗi lần thi triển chỉ ghi **một lần trúng trên mỗi quái**, dù animation có nhiều frame. Sau **6 lần trúng trên cùng quái**, quái thường đóng băng cứng 2 giây; boss chỉ nhận sát thương, không nhận làm chậm hay đóng băng. Chậm kéo dài 2,5 giây và được làm mới khi trúng lại. Số lần trúng tích lũy hết hạn nếu 6 giây không trúng Băng; khi đóng băng thì đặt lại về 0. **Ấn băng** là một lớp băng duy nhất lớn dần trên quái qua các frame hình thành 10, 19, 24, 30, 35 (đếm từ 0) của `freeze-v2-d9694c96.png`, không phải nhiều biểu tượng ấn riêng; lần thứ 6 phát toàn bộ sheet đóng băng. Cần kiểm tra hình ấn ở kích thước thật trong Play Mode.
+- **Băng:** Hơi thở băng gây 15 sát thương cho mỗi quái trúng, làm chậm 30%. Hiệu ứng hơi thở bám theo nhân vật và hướng chuột khi đang phát. Mỗi lần thi triển chỉ ghi **một lần trúng trên mỗi quái**, dù animation có nhiều frame. Sau **6 lần trúng trên cùng quái**, quái thường đóng băng cứng 2 giây; boss chỉ nhận sát thương, không nhận làm chậm hay đóng băng. Chậm kéo dài 2,5 giây và được làm mới khi trúng lại. Số lần trúng tích lũy hết hạn nếu 6 giây không trúng Băng; khi đóng băng thì đặt lại về 0. Lớp băng tăng dần dùng một renderer, cắt phần vỏ dưới của từng frame trong `freeze-v2-d9694c96.png`, neo pivot ở đáy và đặt theo chân quái; giai đoạn hình thành dùng frame 30–34 (đếm từ 0). Lần thứ 6 giữ frame vỏ hoàn chỉnh trong thời gian đóng băng, không phát thêm sheet thứ hai. Cần kiểm tra hình ở kích thước thật trong Play Mode.
 - **Quang:** cột sáng gây 8 sát thương mỗi nhịp trong 4 nhịp, tối đa 32 sát thương nếu cùng quái nhận đủ bốn nhịp.
 - **Ám:** nguyền tối đa 3 quái cùng lúc; mỗi quái bị nguyền nhận 5 sát thương/giây và bị chậm 15%. Bản thử bắn đạn tự tìm quái gần nhất trong 7 m, ưu tiên quái chưa bị nguyền khi còn chỗ; lời nguyền kéo dài 4 giây và được làm mới khi trúng lại. Giới hạn mục tiêu có thể tăng qua nâng cấp. Các thông số chọn mục tiêu/thời gian này là mặc định thử nghiệm, cần cân bằng tiếp.
 
@@ -110,3 +110,7 @@ Chọn một ultimate bất kể nhánh Hỏa/Băng/Quang/Ám; nhấn E để k�
 | Thiên Cầu Ma Lực | E tạo quả cầu trong tối đa 8 giây. Mỗi đòn Pháp sư đánh trúng quái trong lúc đó cộng 1 năng lượng, tối đa 6. Nhấn E lần nữa hoặc hết 8 giây sẽ phóng `2 + năng lượng` phi đạn (2-8), mỗi đạn tự tìm quái gần nhất trong 8 m và gây 12 sát thương một lần; không có mục tiêu thì đạn biến mất. | 45 giây sau khi phóng |
 
 Ba ultimate dùng PNG PixelFX trong `Assets/Art/Mage`, phát qua `MageEffectLibrary` và chọn trong `MageLoadout` Inspector. Play Mode regression đã kiểm tra logic TimeStop, StarFall và ArcaneOrb, nhưng cần playtest thao tác phím E, hình ảnh và cân bằng. Chưa có lựa chọn UI. Cổng Lưu Đày đã bị loại khỏi cây skill.
+
+## Mage level progression implementation
+
+The separate Magical preview now implements the planned 20-level choices. Threshold `10 + 2 × (level − 1)` XP preserves overflow. Level 2 applies +30% XP; ordinary enemy XP is `ceil(max HP × 0.25)`, while training dummies give zero. Stat cards currently add +15 max/current HP, +7% movement or +7% automatic attack speed; each can be chosen at most five times. These stat values are implementation defaults pending the missing `magicstree.drawio`, and need balance testing. The level-choice UI offers 3 options by default and all 4 elements at level 9; smaller pools remain smaller rather than duplicating choices. It pauses combat until selection. This feature is restricted to Magical, with Editor-only XP and skill-test controls; GameScene remains unchanged.

@@ -1,5 +1,14 @@
 # Current project state
 
+## Mage visual adjustments (2026-11-26)
+
+- The freeze atlas has two vertically stacked ice forms inside each 176×192 cell, which made a single SpriteRenderer look like two columns. `MageEffectLibrary` now crops Freeze frames to the lower 96 px shell. Ice buildup uses one renderer through frames 30–34, grows with each hit, and holds frame 34 during the freeze; no second full-sheet animation is spawned.
+- Shockwave now plays only the first 14 frames of its sheet at 45% speed, keeping the single central burst and outward wave while dropping the long particle/ring tail. Gameplay damage and knockback remain one pass per activation.
+- Increased Arcane Orb charge/burst scale, slowed its animation to 55%, extended the visible burst, and enlarged/slowed its missiles (scale 1.25, speed 5 units/s). Damage, charge duration and cooldown are unchanged.
+- Set the Light Pillar sprite pivot near the bottom of each frame, so the mouse target aligns with the visible base. Damage and radius still use the mouse point.
+- Verification: `dotnet build Assembly-CSharp.csproj --no-restore --verbosity:quiet` passed with 0 errors and 27 existing CS0649 warnings in Hexcore preview data. `git diff --check` passed for the seven touched source/documentation files. Needs verification: visual appearance and timing in `Magical.unity` Play Mode; Play Mode was not run.
+
+
 ## GĐ 4 — Cung thủ bắn được (2026-11-23)
 
 Nhánh `feature/bot-play`, chưa commit. GĐ 3 (phân map cho lính thường) đã có code từ commit `37f1df1`; GĐ 4 thêm AI bắn.
@@ -531,3 +540,12 @@ Lốc lửa now uses the shared low-alpha filter to remove the baked halo. Compa
 GunSkillTest now offers four Hexcore ultimates after removing Phun lửa Hexcore. The Shotgun Phun lửa core remains available. Lốc lửa keeps its control name, mechanics, double scale and glow filter, and now uses blizzard-vortex.png with a ground pivot. C# compilation and isolated Play Mode verified the art binding, remaining menu options, movement, pull, damage, expiry and recharge. Game View was not manually inspected.
 
 The blizzard vortex runtime sprites crop the bottom 15 pixels of each cell to remove the horizontal ground streak. The source atlas stays intact. Checked the strip across all 60 used frames and verified sprite cropping and the ground pivot in isolated Play Mode.
+
+## Mage level-up implementation (2026-11-26)
+
+Implemented the 20-level Mage progression in `Magical.unity` only. XP thresholds are 10 + 2 per prior level; excess XP carries over, and level 2 grants the Mage's 30% XP bonus. A normal enemy awards `ceil(max HP × 0.25)` XP (3/5/8 for HP 10/20/30); training dummies award none. Choice modal pauses gameplay and resumes after the pending choices are resolved. Default offers show three distinct choices; level 9 offers four elemental choices. No duplicate options are inserted when a pool has fewer choices. The existing Mage icon atlas is used. Editor quick-test controls are available. C# build passed with 0 errors. Play Mode visually confirmed level 2 XP bonus and the three-choice modal/atlas crop before the final icon-size adjustment; final sizing and full four-choice level-9 flow still need Play Mode verification. Stat increments are provisional because `magicstree.drawio` was absent from this checkout.
+
+## Mage level-up UI polish (2026-11-26)
+
+- The source atlas has overlapping artwork between cells, so per-cell UV cropping could not guarantee clean edges. Added `Assets/Resources/Magical/MageLevelUpIconsClean.png`: a 4×8 atlas of individually extracted, centered icons on transparent 160×160 cells. The preview keeps the original atlas as source and loads only the clean atlas for level-up cards. Its importer uses point filtering and no texture compression.
+- Rebalanced the choice modal to a shorter centered panel with consistent margins, a clearer header divider, more compact cards, a stronger cyan action button and a darker background overlay so the preview HUD does not compete with the choices. Play Mode verified the clean atlas at 3-card stat and 4-card element layouts. Icons are centered, distinct and free of neighboring fragments; choosing a stat and the Light element applied successfully and resumed gameplay. Needs verification: layout at a narrow Game View size.

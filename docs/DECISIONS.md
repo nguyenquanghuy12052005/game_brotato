@@ -192,3 +192,18 @@ Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi l�
 
 - Derive the Mage cast point from the Staff transform and a serialized local offset of 0.64 that matches the visible crystal tip. This keeps the origin attached when the staff rotates or is rescaled. Aim updates before combat. Align the rear edge of Fire, Dark and Arcane missile sprites with the cast point; start Ice Breath's visible left edge there as well.
 - Check projectile collision at spawn before moving, since a nearby target may already overlap the staff tip. Preserve one-hit consumption. Damage and cooldown values do not change.
+
+## M21 - Mage shockwave and freeze-shell placement (2026-11-26)
+
+- Shockwave Q uses only the first 14 frames of its authored sheet at 45% playback speed, presenting one slow outward burst and omitting the long trailing rings/sparks. Damage, knockback, range and cooldown remain unchanged and are applied once per activation.
+- Freeze-shell sprites use a bottom pivot and track the enemy sprite's lower bound so the shell rises from its feet. The sixth hit holds the completed shell on the same renderer.
+
+## M22 - Mage level-up flow in Magical preview (2026-11-26)
+
+- Decision: keep the implementation scoped to `Magical.unity`; add progression components at runtime from `MageCombat` so existing scene/prefab serialization is untouched. Training dummies do not award XP. Use 10 + 2 per previous level XP thresholds with carryover, a 30% Mage XP bonus from level 2, and XP reward `ceil(enemy max HP × 0.25)` for ordinary kills.
+- Choice UI presents three options by default and four for the four-element level-9 choice. Never pad short pools with duplicates. Pause while choices are pending. Values for the common stat buffs are provisional pending recovery of `magicstree.drawio`; quick XP/skill controls are Editor-only.
+
+## M23 - Mage level-up atlas and card layout (2026-11-26)
+
+- The source level-up atlas is a 4-column by 8-row sheet, but several effects overlap cell boundaries. Preserve that sheet unchanged as source art. The UI loads a separate clean atlas containing alpha-isolated icon components centered on transparent square cells; runtime UV sampling uses the clean atlas's 4×8 grid. This prevents card icons from showing clipped or neighboring art.
+- Keep the modal in the existing IMGUI preview UI, with a compact centered panel, legible card content, clear action buttons and a dimmed backdrop. Verify both three-card and four-card layouts after visual changes.

@@ -38,6 +38,7 @@ public sealed class MageUltimate : MonoBehaviour
     private void Update()
     {
         if (health.CurrentHealth <= 0 || Keyboard.current == null || !Keyboard.current.eKey.wasPressedThisFrame) return;
+        if (combat.Progression.IsChoosing || !combat.Progression.CanUseUltimate) return;
         if (chargingOrb) { ReleaseOrb(); return; }
         if (Time.time < nextUse) return;
         switch (combat.Loadout.Ultimate)
@@ -91,7 +92,8 @@ public sealed class MageUltimate : MonoBehaviour
         chargingOrb = true;
         orbCharge = 0;
         orbVisual = combat.Effects.Play(MageEffectId.ArcaneOrb,
-            transform.position + Vector3.up * 0.9f, 0.45f, transform);
+            transform.position + Vector3.up * 0.9f, 0.8f, transform);
+        if (orbVisual != null) orbVisual.SetAnimationSpeed(0.55f);
         orbTimer = StartCoroutine(ReleaseAfterTimeout());
     }
 
@@ -108,11 +110,12 @@ public sealed class MageUltimate : MonoBehaviour
         if (orbTimer != null) StopCoroutine(orbTimer);
         if (orbVisual != null) Destroy(orbVisual.gameObject);
         MageEffectPlayer burst = combat.Effects.Play(MageEffectId.ArcaneOrb,
-            transform.position + Vector3.up * 0.9f, 1.3f);
+            transform.position + Vector3.up * 0.9f, 1.7f);
         if (burst != null)
         {
-            burst.Grow(burst.transform.localScale.x * 0.65f, burst.transform.localScale.x, 0.3f);
-            Destroy(burst.gameObject, 0.4f);
+            burst.Grow(burst.transform.localScale.x * 0.65f, burst.transform.localScale.x, 0.8f);
+            burst.SetAnimationSpeed(0.55f);
+            Destroy(burst.gameObject, 1.2f);
         }
         int count = 2 + orbCharge;
         for (int i = 0; i < count; i++)
@@ -121,7 +124,7 @@ public sealed class MageUltimate : MonoBehaviour
             if (target == null) break;
             Vector2 direction = ((Vector2)target.transform.position - (Vector2)transform.position).normalized;
             combat.Projectile(MageEffectId.ArcaneMissiles, aim.CastPoint, direction,
-                target, 12f, 2.5f, enemy => combat.Damage(enemy, 12), 0.6f);
+                target, 5f, 4f, enemy => combat.Damage(enemy, 12), 1.25f);
         }
         nextUse = Time.time + 45f;
     }
