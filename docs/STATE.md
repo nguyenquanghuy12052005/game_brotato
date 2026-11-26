@@ -1,5 +1,54 @@
 # Current project state
 
+## GĐ 5 — Sửa luật đợt: giết hết quái, không tính giờ (2026-11-26)
+
+Nhánh `feature/bot-play`, chưa commit. **User chỉ ra mình làm sai luật** ở [KE_HOACH §5](KE_HOACH_BOT_4_MAP.md#L65): đợt *không tính theo giây*, đợt 1 chỉ lính thường, đợt 2 mới thêm cung thủ, và **phải giết hết quái mới được sang map khác**. Trước đó mình cho cung thủ ra ngay từ đầu và chuyển map theo đồng hồ 30 giây.
+
+**Cấu trúc lại dữ liệu:** trước đây `WaveSettings[]` nằm phẳng trên `WaveManager`, và `MapSettings` lại chứa `EnemySpawnEntry[]`. Hai thứ mâu thuẫn vì đợt phải thuộc về từng map. Nay đúng theo [KE_HOACH §12](KE_HOACH_BOT_4_MAP.md#L228):
+
+```
+MapManager.maps[]              (4 map)
+  └─ MapSettings
+       ├─ biomeName, centerX
+       └─ waves[]              (2 đợt của map này)
+            └─ WaveSettings
+                 ├─ maxEnemiesAlive, enemyHealth, spawnInterval, enemySpeed
+                 └─ enemies[]  (WaveEnemyEntry)
+                      ├─ prefab
+                      ├─ totalToKill   tổng số phải sinh & giết hết
+                      ├─ maxAlive      số sống cùng lúc của loại này
+                      └─ weight
+```
+
+`WaveManager.waves` giờ để **rỗng** (`[]`); nó tự nạp từ `MapManager.CurrentSettings.waves` mỗi khi vào map (`LoadWavesForCurrentMap`).
+
+**Code mới/sửa:**
+
+| File | Việc |
+|---|---|
+| `Wave/WaveSettings.cs` (mới) | Tách khỏi `WaveManager`. Bỏ `duration`; thêm `WaveEnemyEntry` và `TotalToKill`. |
+| `Wave/WaveManager.cs` | Bỏ hẳn đồng hồ (`RemainingTime`, `duration`). `Update` kiểm `enemySpawner.AllSpawned && AliveCount == 0` → hết đợt. Thêm `RemainingToKill` để HUD hiện số quái còn lại. |
+| `Enemy/EnemySpawner.cs` | Thêm `spawnQuota[]` / `alivePerType[]`; chọn loại theo trọng số nhưng tôn trọng `totalToKill` **và** `maxAlive` riêng từng loại. Thêm `RemainingSpawns`, `AllSpawned`, `NotifyEnemyRemoved`. |
+| `Enemy/SpawnedEnemyType.cs` (mới) | Nhãn gắn lúc sinh, để `EnemyHealth.Die` trả lại suất sống cho đúng loại. |
+| `Enemy/EnemyHealth.cs` | Khi chết: gọi `EnemySpawner.NotifyEnemyRemoved(TypeIndex)`. |
+| `Core/MapManager.cs` | `MapSettings.enemies` → `waves[]`. `ApplyCurrentMap` chỉ set biên map. Thêm `GetMapSettings(int)`. |
+| `Core/GameManager.cs` | HUD bỏ đồng hồ, hiện `Còn lại: N quái`; chữ Việt hoá. |
+| `Editor/MapSetupTool.cs` | Nạp 2 đợt cho mỗi map, mỗi map 2 prefab (lính + cung thủ cùng màu). |
+| `Editor/WaveSetupTool.cs` | Không ghi đè nữa; chỉ kiểm tra và hướng dẫn sang `MapSetupTool`. |
+| `Editor/CombatSetup.cs` | Bỏ phần ghi `duration` đã xoá. |
+| `Editor/CombatRegression.cs` | Viết lại vòng test theo luật mới (sinh đủ chỉ tiêu → giết hết → hết đợt), bỏ mọi phụ thuộc `RemainingTime`/`duration`. |
+
+**Dữ liệu đã nạp cho cả 4 map** (mỗi map 2 đợt, cấp màu theo biome):
+
+| Đợt | Loại quái | Tổng phải giết | Cap sống |
+|---|---|---|---|
+| 1 | lính thường | 12 | 10 |
+| 2 | lính thường + cung thủ | 12 + 4 = 16 | 10 + 3 = 13 |
+
+**Kiểm tra đã chạy thật:** Roslyn compile `Assets/Scripts` → **exit 0**; `Assets/Editor` → **exit 0**. Đọc lại scene kiểm cấu trúc: `WaveManager.waves` rỗng, 4 map × 2 đợt, đợt 1 đúng 1 loại (12 lính), đợt 2 đúng 2 loại (12 lính + 4 cung thủ) → **PASS**.
+
+**Chưa kiểm được:** Play Mode. Unity batchmode vẫn bị chặn bởi licensing (`attempt to write a readonly database`), nên chưa chạy được `CombatRegression` mới.
+
 ## GĐ 4 — Cung thủ bắn được (2026-11-23)
 
 Nhánh `feature/bot-play`, chưa commit. GĐ 3 (phân map cho lính thường) đã có code từ commit `37f1df1`; GĐ 4 thêm AI bắn.
@@ -23,9 +72,63 @@ Nhánh `feature/bot-play`, chưa commit. GĐ 3 (phân map cho lính thường) �
 - `EnemyHealth.cs`: thêm tham chiếu `EnemyRangedMovement`/`EnemyRangedAttack` để tắt cả hai khi chết.
 - `EnemySpawner.cs`: `ConfigureEnemy` gán target + tốc độ cho cung thủ, và đặt máu **80%** lính thường cùng đợt.
 
-**Kiểm tra đã chạy thật:** Roslyn compile `Assets/Scripts` (25 file) → **exit 0**; `Assets/Editor` → **exit 0**. Kiểm prefab: 10 component, không fileID nào trỏ vào block không tồn tại; không còn tham chiếu `EnemyMeleeAttack` trong prefab cung thủ. Kiểm `.meta`: guid sprite mũi tên trong prefab khớp `Arrow.png.meta`.
+**Đã thả vào game (2026-11-26):** cả **4 map** giờ có lính thường + cung thủ **cùng màu**, mỗi map 2 loại (lính `weight: 3`, cung thủ `weight: 1`):
 
-**Chưa kiểm được:** Play Mode — cần xem mũi tên bay, né được, trúng thì mất 8 máu; và cung thủ có giữ đúng khoảng cách 3,5–6 unit không.
+| Map | Lính thường | Cung thủ |
+|---|---|---|
+| Forest (X=0) | `Enemy_Normal_Brown` | `Enemy_Bow_Brown` |
+| Moon (X=35) | `Enemy_Normal_Green` | `Enemy_Bow_Green` |
+| Inferno (X=70) | `Enemy_Normal_Red` | `Enemy_Bow_Red` |
+| Tundra (X=105) | `Enemy_Normal_Snow` | `Enemy_Bow_Snow` |
+
+Trước 2026-11-26 cung thủ có code và prefab nhưng **0 lần** xuất hiện trong scene, nên không ai thấy nó chạy.
+
+**3 màu cung thủ còn lại (2026-11-26):**
+
+- Cắt `Bow/Green.png` và `Bow/Red.png` (1448×1086) thành 16 pose 256×256 theo connected-component, chân đặt y=231, tâm x=127,5 — cùng chuẩn với `Bow/Brown.png` và `Bow/Snow.png`. Kiểm hình học cả 16 ô: foot=231, |cx−127,5| ≤ 1,5 → PASS.
+- Sinh 4 clip + controller + prefab cho Brown/Green/Red, đặt ở `Prefabs/Enemy/Bow/<Màu>/`. Mỗi prefab đủ 5 component (`EnemyController`, `EnemyHealth`, `EnemyGrowth`, `EnemyRangedMovement`, `EnemyRangedAttack`), **không có** `EnemyMeleeAttack`, `projectilePrefab` nối tới `EnemyArrow`.
+- PPU `Bow/{Green,Red}` sửa 100 → **110** cho đồng nhất 4 màu.
+
+**Lỗi đã gặp và sửa (2026-11-26):** cung thủ Brown/Green/Red **đứng ghim tại chỗ**, không di chuyển. Nguyên nhân: prefab do mình sinh tay đặt `Rigidbody2D.m_Constraints: 3` = **Freeze Position X + Y** (đúng phải là `4` = Freeze Rotation). Vì prefab chuẩn chỉ khoá xoay, việc ghim vị trí làm `MovePosition` không có tác dụng. Lỗi phụ cùng nguồn: `CapsuleCollider2D.m_Direction: 0` (dọc) thay vì `1` (ngang).
+
+Cách sửa: **sinh lại 3 prefab từ chính `Enemy_Bow_Snow.prefab`** (bản Unity đã import và re-save), chỉ thay tên / sprite / controller. Nhờ vậy mọi `serializedVersion` và field vật lý theo đúng chuẩn Unity 6, không phải đoán. Diff sau khi sửa chỉ còn 3 khác biệt có chủ ý (tên, sprite, controller); 5 thông số vật lý (`m_Constraints`, `m_BodyType`, `m_GravityScale`, `m_Interpolate`, `m_Direction`) giống hệt prefab lính thường.
+
+**Bài học:** khi sinh `.prefab` bằng tay, phải lấy khuôn từ prefab **Unity đã import lại**, không tự viết từ đầu — giá trị enum như `m_Constraints` rất dễ sai mà file vẫn hợp lệ nên Unity không báo lỗi.
+
+**Lỗi 3 — không bắn được + nhìn sai hướng (2026-11-26):** sau khi sửa lỗi ghim vị trí, cung thủ vẫn **không bắn ra mũi tên** và **không quay mặt về Player**. Nguyên nhân:
+
+1. **`approachDistance` = `fireRange` = 6.** Cung thủ tiến tới đúng 6 unit thì dừng, mà điều kiện bắn là `distance > fireRange → đi bộ, không bắn`. Ở ranh giới `6.0001 > 6` là true nên nó **chạy animation Walk mãi, không bao giờ vào nhánh bắn**. Sửa: `approachDistance` 6 → **5,5**, `fireRange` 6 → **7** (tách ra 1,5 unit để vùng đứng yên nằm gọn trong tầm bắn).
+2. **Đạn sinh ra bên trong thân quái.** Collider rộng 2,21875 → nửa rộng **1,109**, nhưng `spawnOffset` chỉ **0,6**. Sửa: 0,6 → **1,3** (> nửa collider).
+3. **Hai script giành ghi `view.flipX`.** `EnemyRangedMovement.FaceTarget` chạy trong `FixedUpdate`, `EnemyRangedAttack.SpawnProjectile` chạy trong `Update` — hai nhịp khác nhau nên hình giật/nhìn sai hướng. Sửa: **chỉ `EnemyRangedMovement` được ghi `flipX`** (hàm đổi thành `public`), bỏ hẳn dòng ghi trong `EnemyRangedAttack` cùng biến `view` không còn dùng.
+
+Đã mô phỏng lại logic ở 15 mốc khoảng cách 1→8 unit: mọi khoảng "đứng yên" (3,5–5,5) đều nằm trong tầm bắn (≤7), và đạn luôn sinh ngoài collider. Compile Roslyn **exit 0**; 4 prefab đều có `approach < fireRange` và `spawnOffset > nửa collider`.
+
+**Lỗi 5 — mũi tên vô hình dù vẫn gây sát thương (2026-11-26):** sau khi sửa material, mũi tên **vẫn không hiện**, nhưng log chứng minh nó vẫn trúng: máu Player tụt `68 → 76 → 84 → 92`, mỗi lần đúng **8** = sát thương mũi tên. Vậy object tồn tại, collider và script chạy — chỉ `SpriteRenderer` không có sprite.
+
+**Nguyên nhân gốc:** `m_Sprite` trong `EnemyArrow.prefab` trỏ `fileID: 6239289893221253262` = **`internalID` của sub-sprite**. Nhưng `Arrow.png` là **`spriteMode: 1` (Single)** — với sprite Single, sprite chính có fileID cố định là **`21300000`**, còn `internalID` chỉ dùng cho sub-sprite của `spriteMode: 2` (Multiple).
+
+Kiểm chứng quy luật này trên các asset đã chạy tốt:
+
+| Asset | spriteMode | fileID prefab dùng |
+|---|---|---|
+| `Player`, 3 trùm, `Idle_Down_00.png` | 1 | **21300000** |
+| `Bow/Snow.png`, 8 file quái 16 frame | 2 | internalID của frame |
+
+Sửa: `EnemyArrow.m_Sprite` → `fileID: 21300000`. Đã quét **toàn bộ** `Assets/**/*.prefab` + `Scenes/*.unity`: không còn chỗ nào trỏ sai kiểu này.
+
+**Đây là lỗi mình tạo ra khi viết `Arrow.png.meta` bằng tay** — mình đặt `spriteMode: 1` nhưng lại tham chiếu sprite qua `internalID`, trong khi code kiểm cũ của mình chỉ so `fileID` với danh sách `internalID` nên báo PASS sai.
+
+**Cần kiểm lại trong Play Mode** — cả 3 lỗi trên mới chỉ sửa và kiểm tĩnh, chưa chạy thật.
+
+**Lỗi 4 — mũi tên trúng nhưng không nhìn thấy (2026-11-26):** log Unity cho thấy `Player HP: 92/100`, tức mũi tên **có bay và gây đúng 8 sát thương** — lỗi là **hiển thị**, không phải logic. Nguyên nhân: `EnemyArrow.prefab` dùng `m_Materials` là **material mặc định của Unity** (`a97c1056…`), trong khi **mọi prefab khác trong dự án** (quái, Player, 3 trùm) dùng `Assets/Prefabs/Player/PlayerUnlit.mat` (`b672de82…`). Project là **URP 2D**, material mặc định không render sprite đúng. Sửa: đổi `EnemyArrow` sang `PlayerUnlit.mat`.
+
+Lỗi phụ cùng lúc: `SetDirection` chỉ lưu vector mà **không xoay sprite**, nên mũi tên luôn nằm ngang dù bay chéo. Sửa: xoay `transform.rotation` theo `Atan2(direction.y, direction.x)`, và đổi `Rigidbody2D.m_Constraints` của đạn `0` → **`4`** (Freeze Rotation) để physics không kéo rotation về 0.
+
+**Giới hạn art — cung thủ chỉ có 1 hướng nhìn (không phải lỗi code):** user hỏi vì sao cung thủ chỉ lật trái/phải mà không quay chéo/dọc. Kiểm tra cả 8 file art (`Art/Enemy/{Normal,Bow}/{Brown,Green,Red,Snow}.png`): mỗi file là **4 hàng × 4 frame = 16 pose của 4 ĐỘNG TÁC** (Idle/Walk/Attack/Death), **không phải 4 hướng**. Cả 16 pose đều vẽ nhân vật quay mặt sang **một bên**, nên code chỉ có thể `flipX` để quay trái/phải. So sánh: Player có 4 thư mục hướng riêng (`Down/Left/Right/Up`) vì được vẽ riêng.
+
+Muốn quay chéo/dọc phải **vẽ thêm art** (8 hướng × 4 động tác × 4 frame cho mỗi màu), không giải quyết được bằng code. Cách rẻ hơn: giữ 2 hướng như hiện tại, hoặc xoay nhẹ sprite theo hướng di chuyển nếu chấp nhận hình bị nghiêng.
+
+**Chưa kiểm được:** Play Mode — cần xem mũi tên bay, né được, trúng thì mất 8 máu; và cung thủ có giữ đúng khoảng cách 3,5–6 unit không. Unity batchmode vẫn không chạy được trên máy này (licensing `attempt to write a readonly database`), nên mọi asset sinh bằng file + kiểm tĩnh, chưa qua Unity import.
 
 ## GĐ 2 — Tách snow + dọn public (2026-11-23)
 

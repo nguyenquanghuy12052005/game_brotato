@@ -40180,21 +40180,29 @@ MonoBehaviour:
     centerX: 0
     enemies:
     - prefab: {fileID: 7668070656183893105, guid: c2d12958e9d2ec94880a6cea5e68e76b, type: 3}
+      weight: 3
+    - prefab: {fileID: 7668070656183893105, guid: 175f6a1ecbea408fb8261472ff7cfd3c, type: 3}
       weight: 1
   - biomeName: Moon
     centerX: 35
     enemies:
     - prefab: {fileID: 7668070656183893105, guid: f743d1101e0dcc34391cfd7cf37f2cc4, type: 3}
+      weight: 3
+    - prefab: {fileID: 7668070656183893105, guid: 47f8d03362f7405ca63609ee2d1b984f, type: 3}
       weight: 1
   - biomeName: Inferno
     centerX: 70
     enemies:
     - prefab: {fileID: 7668070656183893105, guid: c3311b080c5bec94aa7e146127126f9e, type: 3}
+      weight: 3
+    - prefab: {fileID: 7668070656183893105, guid: 9df70a5f78624770a0d0cd7184db8861, type: 3}
       weight: 1
   - biomeName: Tundra
     centerX: 105
     enemies:
     - prefab: {fileID: 7668070656183893105, guid: 4211c7d9e3584b14fb4105dbbb17bac6, type: 3}
+      weight: 3
+    - prefab: {fileID: 7668070656183893105, guid: 29f0d1fcd2be24d498ea857338954118, type: 3}
       weight: 1
   mapHalfWidth: 14
   mapHalfHeight: 8

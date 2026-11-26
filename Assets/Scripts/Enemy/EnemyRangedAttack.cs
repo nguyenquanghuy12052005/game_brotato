@@ -10,8 +10,9 @@ using UnityEngine;
 public class EnemyRangedAttack : MonoBehaviour
 {
     [Header("Bắn")]
-    [Tooltip("Chỉ bắn khi Player trong tầm này.")]
-    [SerializeField, Min(1f)] private float fireRange = 6f;
+    [Tooltip("Chỉ bắn khi Player trong tầm này. Phải LỚN HƠN approachDistance của EnemyRangedMovement, " +
+             "nếu bằng nhau thì cung thủ dừng đúng ranh giới và không bao giờ bắn.")]
+    [SerializeField, Min(1f)] private float fireRange = 7f;
     [Tooltip("Giơ cung bao lâu rồi mới bắn ra đạn.")]
     [SerializeField, Min(0f)] private float windupTime = 0.3f;
     [Tooltip("Khoảng cách giữa hai phát bắn.")]
@@ -19,11 +20,12 @@ public class EnemyRangedAttack : MonoBehaviour
 
     [Header("Đạn")]
     [SerializeField] private EnemyProjectile projectilePrefab;
-    [SerializeField, Min(0f)] private float spawnOffset = 0.6f;
+    [Tooltip("Đẩy mũi tên ra trước mặt. Phải lớn hơn nửa bề rộng collider của quái, " +
+             "nếu không đạn sinh ra bên trong thân và biến mất ngay.")]
+    [SerializeField, Min(0f)] private float spawnOffset = 1.3f;
 
     private Animator animator;
     private EnemyHealth health;
-    private SpriteRenderer view;
     private Transform player;
     private float nextFireTime;
     private bool firing;
@@ -37,7 +39,6 @@ public class EnemyRangedAttack : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         health = GetComponent<EnemyHealth>();
-        view = GetComponentInChildren<SpriteRenderer>();
 
         GameObject playerObject = GameObject.FindGameObjectWithTag("Player");
         if (playerObject != null)
@@ -100,7 +101,7 @@ public class EnemyRangedAttack : MonoBehaviour
             Vector2 toPlayer = (Vector2)player.position - (Vector2)transform.position;
             if (toPlayer.magnitude <= fireRange)
             {
-                SpawnProjectile(toPlayer.normalized, toPlayer);
+                SpawnProjectile(toPlayer.normalized);
             }
         }
 
@@ -108,7 +109,7 @@ public class EnemyRangedAttack : MonoBehaviour
         currentState = 0;
     }
 
-    private void SpawnProjectile(Vector2 direction, Vector2 toPlayer)
+    private void SpawnProjectile(Vector2 direction)
     {
         if (projectilePrefab == null)
         {
@@ -121,9 +122,7 @@ public class EnemyRangedAttack : MonoBehaviour
         EnemyProjectile projectile = Instantiate(projectilePrefab, spawnPosition, Quaternion.identity);
         projectile.SetDirection(direction);
 
-        if (view != null)
-        {
-            view.flipX = toPlayer.x < 0f;
-        }
+        // Không ghi view.flipX ở đây: EnemyRangedMovement đã lo hướng nhìn.
+        // Ghi ở cả hai nơi (FixedUpdate vs Update) sẽ làm hình giật khi ngắm.
     }
 }

@@ -248,8 +248,8 @@ Mỗi đợt khai báo đủ danh sách loại được ra (đợt 2 khai lính 
 | ~~1~~ | ~~Cắt art + prefab goblin nâu~~ | ✅ xong | — |
 | ~~2~~ | ~~4 màu goblin + spawner nhiều loại~~ | ✅ xong | — |
 | **3** | **Phân map cho lính thường**: `MapSettings` + dời Player 35 đơn vị khi xong map; 4 map chỉ ra goblin màu của map | đánh hết map 1 tự sang map 2, mỗi map đúng 1 màu | 1 buổi |
-| **4** | **Cung thủ**: `EnemyRangedMovement` + `EnemyRangedAttack` + `EnemyProjectile` + 4 màu | code + prefab trắng xong; bắn tên bay, né được | 1,5 buổi |
-| 5 | Phân map cho cung thủ | 4 map có goblin + cung thủ cùng màu | 0,5 buổi |
+| ~~4~~ | ~~Cung thủ: `EnemyRangedMovement` + `EnemyRangedAttack` + `EnemyProjectile` + 4 màu~~ | ✅ xong 2026-11-26 | — |
+| ~~5~~ | ~~Phân map cho cung thủ~~ | ✅ xong 2026-11-26 — 4 map đều có lính + cung thủ cùng màu | — |
 | 6 | Tinh nhuệ 3 màu + phân map | 4 map có thêm tinh nhuệ | 1 buổi |
 | 7 | Khung boss 4 mạng + Xương khô | đủ 4 mạng, 3 chiêu | 1,5 buổi |
 | 8 | Golem + Yeti + hiệu ứng Player | đông cứng/làm chậm/hố dung nham chạy | 2 buổi |

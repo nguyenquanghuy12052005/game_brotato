@@ -28,12 +28,18 @@ public class EnemyProjectile : MonoBehaviour
     }
 
     // Cung thủ gọi ngay sau khi tạo đạn, truyền hướng bay về phía Player.
+    // Xoay luôn mũi tên cho khớp hướng bay, nếu không nó luôn nằm ngang.
     public void SetDirection(Vector2 newDirection)
     {
-        if (newDirection.sqrMagnitude > 0.0001f)
+        if (newDirection.sqrMagnitude <= 0.0001f)
         {
-            direction = newDirection.normalized;
+            return;
         }
+
+        direction = newDirection.normalized;
+
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 
     private void FixedUpdate()

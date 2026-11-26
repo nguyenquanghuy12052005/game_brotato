@@ -10,7 +10,7 @@ public class EnemyRangedMovement : MonoBehaviour
 {
     [Header("Khoảng cách")]
     [Tooltip("Xa hơn mức này thì tiến lại gần Player.")]
-    [SerializeField, Min(0.5f)] private float approachDistance = 6f;
+    [SerializeField, Min(0.5f)] private float approachDistance = 5.5f;
     [Tooltip("Gần hơn mức này thì lùi ra xa Player.")]
     [SerializeField, Min(0.1f)] private float retreatDistance = 3.5f;
     [SerializeField, Min(0f)] private float moveSpeed = 2f;
@@ -94,13 +94,16 @@ public class EnemyRangedMovement : MonoBehaviour
         enemyRigidbody.MovePosition(enemyRigidbody.position + direction * step);
     }
 
-    // Chỉ có một hướng nhìn nên đi sang trái thì lật hình.
-    private void FaceTarget(float horizontalOffset)
+    // Cung thủ nhìn về phía Player. Đây là chỗ DUY NHẤT ghi flipX —
+    // EnemyRangedAttack không ghi nữa, vì hai script chạy ở hai nhịp khác nhau
+    // (FixedUpdate vs Update) sẽ giành nhau và làm hình giật/nhìn sai hướng.
+    public void FaceTarget(float horizontalOffset)
     {
         if (view == null)
         {
             return;
         }
+        // Chết/đang bắn vẫn giữ hướng đã chọn; sprite art quay mặt sang phải gốc.
         view.flipX = horizontalOffset < 0f;
     }
 }

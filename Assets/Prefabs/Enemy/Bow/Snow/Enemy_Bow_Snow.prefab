@@ -239,7 +239,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4defbad642ce4f799297143d0ea7bc39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyRangedMovement
-  approachDistance: 6
+  approachDistance: 5.5
   retreatDistance: 3.5
   moveSpeed: 2
 --- !u!114 &-8149215170000000002
@@ -254,8 +254,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e1cb2888f6c4701b6ab703b0a577baa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyRangedAttack
-  fireRange: 6
+  fireRange: 7
   windupTime: 0.3
   cooldown: 1
   projectilePrefab: {fileID: 814321400000000006, guid: 039d0a84d59f4e628ccb1ff344cd0e55, type: 3}
-  spawnOffset: 0.6
+  spawnOffset: 1.3
