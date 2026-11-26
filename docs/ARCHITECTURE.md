@@ -12,23 +12,17 @@ Updated 2026-09-18. Unity 6000.3.22f1, URP 2D, existing Input System. Main enabl
 
 ## Scene and components
 
-`Assets/Scenes/HexcoreSkillPreview.unity` is the separate four-form HEXCORE preview. `HexcoreSkillPreviewSetup` wires the existing form prefabs, authored sprite sequences, legacy VFX, WAV cues and a Kenney dummy. `HexcorePreviewCatalog` defines 24 sequences. One unscaled clock samples native Animator states or authored frames and drives preview displacement, weapon and landing anchors, sound events and hit feedback. The director keeps movement direction and aim independent and presents authored turns when available. This scene has no gameplay dependencies.
+### HEXCORE Cận chiến
 
-Editor setup gắn mỗi chuỗi sprite theo form, skill và hướng đánh. Chuỗi có thể kèm tọa độ pixel theo frame cho vũ khí và điểm chạm. Editor kiểm tra giới hạn của điểm neo và ghi số frame đã đo vào CSV. Q2 lấy pose theo thứ tự xoay. R1, R2 và R3 dùng quy tắc chọn pose riêng theo từng pha. Ảnh camera để xuất GIF lấy từ timeline đang dùng trong scene.
+Rev2 giữ nguồn pose cũ và đổi slot trong catalog demo. Cùng hai file runtime tiếp tục quản lý pool sprite, bbox chém, tiến trình bay của projectile và các cờ hit theo nhịp/lượt. Tick kéo bia và hit kết thúc của Bá Vương là hai pha độc lập. [Đối chiếu Rev2](Melee/HEXCORE_VISUAL_POLISH_REPORT.md)
 
-Scene hiện có đọc thêm điểm neo và sprite xoay Cuồng Phong Đao từ `Assets/Resources`. Editor `VerifyExisting` mở scene đã lưu, lấy mẫu các chuỗi có đổi hướng, đo AudioListener và ghi MP4 camera trong Play Mode. `OnAudioFilterRead` ghi PCM của mixer cho video bằng component tạm. Gallery nằm ngoài Assets, được sinh từ PNG Unity, trạng thái CSV và nhận xét visual.
+Các mẫu v2.1 tải một atlas pixel và JSON timing vào pool renderer của MeleeController. P2 quét dải giữa hai bán kính liên tiếp, Chấn Địa dùng tâm đáp, còn Basic Kiếm khí và Nguyệt Nha quét theo biên cong của bán nguyệt. Outline debug dùng hình học va chạm của bản demo. [Phạm vi và bằng chứng](Melee/HEXCORE_VISUAL_POLISH_REPORT.md)
 
-Preview có chế độ Tự do dùng Input System. Vị trí di chuyển là điểm gốc của lần thi triển, dịch chuyển của chiêu được cộng vào đó và chốt tại cuối chiêu. Camera bám vị trí trên mặt đất và giữ pha rung độc lập. IMGUI tính cùng biên với viewport để chừa vùng danh sách và HUD. Vạn Ảnh dùng một material preview riêng và giữ PNG nguồn chung.
+Trong demo v2, ID nguồn vẫn xác định clip, cue và asset serialize. Lớp preview ánh xạ các ID sang P/E/R/F, giữ lựa chọn từng nhóm và xử lý các mốc đòn thường, nhận đòn, vùng tác động và HP của bia mô phỏng. Ba lõi R dùng timeline nguồn. [Mapping và kiểm thử v2](Melee/HEXCORE_SKILL_REDESIGN_V2_IMPLEMENTATION.md)
 
-Assets/Scenes/MeleeDemo.unity is a standalone visual gallery with MeleeSkillDemo and an orthographic camera. Its serialized 15 entries reference existing stage1/stage2/ultimate visual prefabs directly. Runtime sidebar selects one instance, uses its original Animator and offers replay/pause/repeat/zoom. Camera viewport reserves header/control space and keeps uniform sprite scale. MeleeDemoSetup creates/wires this scene; MeleeDemoVerification exercises all selections in actual Play Mode.
+Scene nằm tại Assets/Scenes/HexcoreSkillPreview.unity. MeleeController điều phối input, playback và UI. MeleeSkillController.cs chứa catalog 24 kỹ năng và phần thực thi của cùng controller. Một timeline sample Animator hoặc sprite đã gán, đồng bộ pose, điểm neo, VFX, SFX, hit-stop và camera. Tự do dùng Input System và giữ vị trí sau chiêu. Trình diễn hỗ trợ chọn riêng hướng chạy/hướng đánh và xem chuỗi Basic.
 
-MeleeDemoCombat owns a replaceable encounter containing the correct branch actor, original selected VFX prefab and four SpriteRenderers sourced from Enemy artwork. A shared preview clock samples original animation states and scripted movement/reactions, permitting pause/replay without affecting global timeScale. Ultimate actor selection is shared across three ultimate entries. This presentation timeline is independent of GameScene combat systems.
-
-Selected sweep/wave/fan frames are serialized for continuous transform motion instead of generated-sheet jumps. VanAnh uses GoldVfxOnly material to suppress the source field while retaining gold traces, with invisible positional checks for demo reactions. UI clears areas outside the world camera and scales with Game View height.
-
-Demo WASD control uses existing Input System, takes over scripted actor position on first input, clamps to the visible arena and resets on replay. BarrierShield renders on a runtime full-rectangle sprite derived from existing artwork texture, follows actor center and receives the preview clock via MaterialPropertyBlock so pause freezes its pulse.
-
-CleanVfx material filters neutral background haze from the other Demo effects while retaining chromatic details, adjacent white highlights and opaque dark metal/stone. BarrierShield and GoldVfxOnly retain their dedicated rendering paths. Source PNGs and original prefab artwork remain available.
+Form, pose tám hướng, audio, clip, VFX và Resources riêng nằm trong Melee/. Preview chia sẻ hình bia Brown và material PlayerUnlit với tài nguyên ngoài thư mục. Gameplay chính không phụ thuộc vào code preview. Công cụ Editor VerifyExisting và VerifyInteraction mở scene đã lưu. Tool Movies lấy camera và âm thanh từ playback. [Hiện trạng và vị trí sửa](Melee/HEXCORE_MELEE_CURRENT_STATE.md) | [Gallery](Melee/HexcoreVisual/index.html)
 
 GameScene contains Main Camera + CameraFollow, Player + PlayerHealth, scene-added WeaponHolder/GunVisual/FirePoint, Enemies with one placed enemy, EnemySpawner, WaveManager and GameManager. Manager references and camera target are explicitly saved. Weapon setup is not fully part of the standalone Player prefab.
 

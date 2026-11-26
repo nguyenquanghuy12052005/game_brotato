@@ -1,5 +1,25 @@
 # Decisions
 
+## HEXCORE · Đòn bay sau phản hồi Rev2
+
+Hai sóng Basic Kiếm khí ghi điểm bị động theo nhát. Song Ảnh gộp danh sách bia đã trúng của ba làn. Hoành Thiên dùng dải bán kính vừa quét qua. Cả ba giữ quy tắc va chạm trong demo. [Đặc tả v2.1 cập nhật](Melee/HEXCORE_SKILL_VISUAL_POLISH_V2_1.md)
+
+## HEXCORE · Rev2 và ID nguồn
+
+Mapping trình diễn dùng lại ID pose/asset 09 cho Bá Vương Đao Vực và 12 cho Thiên Kiếm Xuyên Tâm; chuyển 22 từ F1 lên E3 Kiếm khí. Catalog nguồn giữ nguyên để đọc lại các review, prefab và take cũ. Tác động kéo và sát thương tiếp tục giới hạn trong demo. [Đặc tả Rev2](Melee/HEXCORE_SKILL_VISUAL_POLISH_V2_1.md)
+
+## HEXCORE · Mẫu VFX v2.1
+
+Gộp lớp hiệu ứng đã chọn từ mười nguồn PixelFX vào một atlas dùng chung. Lưu source upstream ngoài Assets theo commit và kèm notices. Kiểm tra style bằng render offline khi Unity bị khóa. Cổng duyệt mẫu áp dụng trước khi nhân rộng. [Đặc tả v2.1](Melee/HEXCORE_SKILL_VISUAL_POLISH_V2_1.md)
+
+## HEXCORE · Slot trình diễn v2
+
+Slot P/E/R/F là ánh xạ hiển thị và hành vi demo trên ID nguồn. Giữ ID và timing nguồn để các tham chiếu đến take, audio, prefab và bộ review v1 tiếp tục đọc được. [Đặc tả đã duyệt](Melee/HEXCORE_SKILL_REDESIGN_V2_APPROVED.md)
+
+## HEXCORE · Vị trí nguồn và runtime
+
+Runtime, công cụ Editor và asset Unity riêng của Cận chiến nằm trong Assets/Prefabs/Player/Melee/. Scene demo nằm tại Assets/Scenes/HexcoreSkillPreview.unity. Đặt master, tài liệu và bằng chứng review ở docs/Melee/. Giữ GUID và khóa Resources khi tổ chức lại. QA chạy trên project chính bằng phiên bản trong ProjectVersion.txt. [Quy định trong thư mục Cận chiến](../Assets/Prefabs/Player/Melee/AGENTS.md)
+
 ## HEXCORE · Vị trí khi chơi tự do
 
 Khi người xem đi tự do, timeline chiêu tính quỹ đạo từ vị trí lúc bấm Space. Lúc kết thúc hoặc đổi mode, preview giữ tọa độ mặt đất đã đi đến. Nút Thử tại chỗ phát lại ở tọa độ hiện tại. R là thao tác chủ động về điểm đầu. Tách camera khỏi vùng điều khiển và giữ công cụ chấm pose trong chế độ Trình diễn.
@@ -14,11 +34,11 @@ Scene review ưu tiên chuỗi pose đúng tổ hợp form–skill–hướng. M
 
 ## HEXCORE catalog preview · 2026-11-18
 
-Keep authored pose clips under the matching form's `HexcorePreview` directory. Use source Animator poses as explicitly labeled Blockout coverage when a skill or combo direction lacks dedicated frames. The review scene owns its timeline, SFX cues, and feedback controls independently of gameplay. See [the production report](HEXCORE_ASSET_PRODUCTION_REPORT.md).
+Keep authored pose clips under the matching form's `HexcorePreview` directory. Use source Animator poses as explicitly labeled Blockout coverage when a skill or combo direction lacks dedicated frames. The review scene owns its timeline, SFX cues, and feedback controls independently of gameplay. See [the production report](Melee/HEXCORE_ASSET_PRODUCTION_REPORT.md).
 
 ## HEXCORE Q1 blockout · 2026-11-18
 
-Use a separate preview scene and the original Kiếm sĩ Animator for the Q1 pipeline. Preview four cardinal locomotion directions and stage combat facing east using existing sprite clips, with explicit placeholder labels for dash/recovery and impact. The second Basic combo strike and dedicated Q1 poses require additional art before review for approval. See [the asset audit](HEXCORE_ASSET_AUDIT.md).
+Use a separate preview scene and the original Kiếm sĩ Animator for the Q1 pipeline. Preview four cardinal locomotion directions and stage combat facing east using existing sprite clips, with explicit placeholder labels for dash/recovery and impact. The second Basic combo strike and dedicated Q1 poses require additional art before review for approval. See [the asset audit](Melee/HEXCORE_ASSET_AUDIT.md).
 
 Accepted intent unless marked temporary. Actual defects/checks belong in [STATE](STATE.md). Full roadmap remains in [original plan](../ke_hoach_do_an_game_2d_brotato_like.md).
 

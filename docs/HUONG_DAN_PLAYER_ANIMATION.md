@@ -128,4 +128,4 @@ Nếu sau khi đổi kích thước bạn muốn chỉnh vùng va chạm: chọn
 
 `Tools > Brotato > Apply Player Artwork` là lệnh riêng để gắn lại hình, Animator, PlayerSpriteAnimator và xóa tham chiếu xoay hình cũ trên Player prefab/instance trong GameScene. Lệnh lưu prefab/scene, giữ Player gốc và WeaponHolder hiện có. Không cần chạy lại mỗi lần mở game.
 
-Ảnh nguồn: `public/player/ChatGPT Image 19_25_43 25 thg 9, 2026.png`, 1448×1086 RGB, nền caro tím được vẽ trong ảnh. Dùng built-in imagegen để tách nền thành alpha, sau đó Unity Editor tách từng vùng nhân vật, loại pixel của hình lân cận, căn canvas và xuất PNG/clip. Prompt tách nền được lưu trong `docs/player-art/extraction-prompt.txt`.
+Ảnh nguồn: `docs/Melee/Source/ChatGPT Image 19_25_43 25 thg 9, 2026.png`, 1448×1086 RGB, nền caro tím được vẽ trong ảnh. Dùng built-in imagegen để tách nền thành alpha, sau đó Unity Editor tách từng vùng nhân vật, loại pixel của hình lân cận, căn canvas và xuất PNG/clip. Prompt tách nền được lưu trong `docs/player-art/extraction-prompt.txt`.

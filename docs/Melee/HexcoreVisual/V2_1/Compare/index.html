@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HEXCORE · So sánh 8 mẫu VFX</title>
+<style>
+:root{color-scheme:dark;font-family:Inter,"Segoe UI",sans-serif;background:#101820;color:#e4edf3}
+body{margin:0}main{max-width:1280px;margin:auto;padding:24px clamp(14px,4vw,52px) 60px}
+h1{font-size:clamp(1.5rem,5vw,2.35rem);margin:0 0 9px}h2{font-size:1rem;margin:0}
+header p{max-width:850px;color:#afc2cd;line-height:1.55;margin:0 0 16px}
+a{color:#8de6d3}button{border:1px solid #456472;color:#e4edf3;background:#1b2a34;border-radius:5px;padding:8px 14px;cursor:pointer}
+button[aria-pressed=true]{background:#8de6d3;color:#14272b;border-color:#8de6d3}
+.bar{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:12px 0 20px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,485px),1fr));gap:16px}
+article{border:1px solid #2e454f;background:#16232d;border-radius:8px;overflow:hidden}
+article h2{padding:12px 14px}article img{display:block;width:100%;height:auto;background:#0d141c;aspect-ratio:1012/304}
+.links{display:flex;gap:14px;padding:9px 14px 12px;font-size:.9rem}
+</style>
+</head>
+<body>
+<main>
+<header>
+<h1>HEXCORE · So sánh 8 mẫu VFX</h1>
+<p>Hai nửa GIF dùng pose nguồn của cùng tạo hình ở hướng Đông. Trái là mẫu offline lần trước, phải là bản phối PixelFX mới. Bia và tia va chạm trong các GIF là mô phỏng dựng hình ngoài Unity.</p>
+<div class="bar"><span>Tốc độ</span><button type="button" data-speed="1x" aria-pressed="true">1×</button><button type="button" data-speed="05x" aria-pressed="false">0,5×</button>
+<a href="ContactSheet.png">Contact sheet</a><a href="../../../../../Assets/Prefabs/Player/Melee/Shared/VFX/PixelFX/Resources/HexcoreV21/StyleSheet.png">Sprite sheet VFX</a><a href="GrayEdgeCheck.png">Kiếm sĩ trước–sau viền xám</a><a href="../../../HEXCORE_VISUAL_POLISH_REPORT.md">Báo cáo</a></div>
+</header>
+<section class="grid" id="samples" aria-label="Các GIF trước và sau"></section>
+</main>
+<script>
+const samples = [
+ ["01-Basic-Kiem-si","Basic · Kiếm sĩ"],
+ ["02-Basic-Sat-thu","Basic · Sát thủ"],
+ ["03-Basic-Dao-si","Basic · Đao sĩ"],
+ ["04-Basic-Kiem-khi","Basic · Kiếm khí"],
+ ["05-P2-Hoanh-Nguyet","P2 · Hoành Nguyệt Trảm"],
+ ["06-E2-Huyet-An","E2 · Huyết Ấn"],
+ ["07-E1-Chan-Dia","E1 · Chấn Địa Trảm"],
+ ["08-E1-Nguyet-Nha","E1 · Nguyệt Nha Trảm"]
+];
+const cards = document.querySelector("#samples");
+for (const [file,name] of samples) {
+ const card = document.createElement("article");
+ card.innerHTML = '<h2></h2><img loading="lazy" width="1012" height="304"><div class="links"><a>Mở GIF 1×</a><a>Mở GIF 0,5×</a></div>';
+ card.querySelector("h2").textContent = name;
+ const image = card.querySelector("img");
+ image.alt = name + " · trước và sau";
+ image.dataset.file = file;
+ image.src = file + "-1x.gif";
+ const links = card.querySelectorAll("a");
+ links[0].href = file + "-1x.gif";
+ links[1].href = file + "-05x.gif";
+ cards.append(card);
+}
+for (const button of document.querySelectorAll("[data-speed]")) {
+ button.addEventListener("click", () => {
+  for (const toggle of document.querySelectorAll("[data-speed]")) toggle.setAttribute("aria-pressed", String(toggle === button));
+  for (const image of cards.querySelectorAll("img")) image.src = image.dataset.file + "-" + button.dataset.speed + ".gif";
+ });
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,369 @@
+form,direction,source_id,slot_rev2,name_rev2,source_art,static_catalog_or_png,unity_play_mode,unity_visual_audio
+Swordsman,N,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,N,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,E,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,S,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,SW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,W,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Swordsman,NW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,N,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,N,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,N,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,N,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,N,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NE,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,E,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,E,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,E,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,E,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,E,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SE,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,S,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,S,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,S,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,S,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,S,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,SW,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,W,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,W,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,W,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,W,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,W,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,4,E1,Ám Bộ Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,5,E2,Huyết Ấn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,6,F1,Tàng Ảnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,16,E3,Dạ Vũ Liên Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,17,F2,Đoạt Mệnh,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+Assassin,NW,18,F3,Song Ảnh Truy Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,N,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NE,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,E,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SE,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,S,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,SW,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,W,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,7,E1,Chấn Địa Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,8,E2,Hoành Thiên Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,9,F1,Bá Vương Đao Vực,AuthoredBlockout / pha cắm 07 và quét 08 khi có take,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,19,E3,Cuồng Phong Đao,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,20,F2,Đoạn Sơn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+DaoWarrior,NW,21,F3,Bất Diệt Chiến Ý,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,N,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NE,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,E,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SE,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,S,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,SW,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,,Basic,Đánh thường,12 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,W,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,,Basic,Đánh thường,8 PNG + meta,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,1,P1,Phong Ảnh Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,2,P2,Hoành Nguyệt Trảm,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,3,P3,Phản Kiếm Quyết,Basic + overlay/event,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,10,E1,Nguyệt Nha Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,11,E2,Lưỡng Nghi Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,12,F1,Thiên Kiếm Xuyên Tâm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,13,R1,Thiên Vẫn Trảm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,14,R2,Tam Thiên Kiếm Quyết,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,15,R3,Vạn Ảnh Tuyệt Sát,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,22,E3,Kiếm Vũ Thiên Hà,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,23,F2,Phi Kiếm Truy Hồn,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED
+QiSwordsman,NW,24,F3,Hồi Nguyệt Kiếm,AuthoredBlockout,PASS,NOT TESTED,NOT TESTED

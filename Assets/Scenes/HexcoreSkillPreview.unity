@@ -185,7 +185,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 4169e3df149d33248ba57486e0a4e14f, type: 3}
+  m_Sprite: {fileID: 2931661829077144855, guid: fd3efb0a3e778df48bd6f09f94a81ec6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -632,7 +632,7 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 51612e079ea15a54193ebee1aa2f9dda, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::HexcoreSkillPreview
+  m_EditorClassIdentifier: Assembly-CSharp::MeleeController
   cues:
   - {fileID: 8300000, guid: f18ffc9a147ca7b4f9a3dca9cff6d2a6, type: 3}
   - {fileID: 8300000, guid: 252061c6932293f429e778cfa7b69d1f, type: 3}

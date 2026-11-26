@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HEXCORE · Visual Review</title>
+  <link rel="stylesheet" href="gallery.css">
+  <script defer src="review-data.js"></script>
+  <script defer src="gallery.js"></script>
+</head>
+<body>
+  <header>
+    <div class="brand"><strong>HEXCORE</strong><span>Unity · bản lịch sử</span></div>
+    <div class="header-links">
+      <a href="HexcoreVisualReview.csv">CSV trạng thái</a>
+      <a href="V2_1/Rev2/index.html">Bộ so sánh Rev2</a>
+      <a href="../HEXCORE_ANIMATION_QA.md">Kết quả QA</a>
+    </div>
+  </header>
+  <main>
+    <aside aria-label="Bộ lọc">
+      <label for="form">Tạo hình</label><select id="form"></select>
+      <label for="skill">Kỹ năng</label><select id="skill"></select>
+      <fieldset><legend>Hướng đánh</legend><div id="directions"></div></fieldset>
+      <label for="status">Trạng thái</label><select id="status"><option value="">Tất cả</option></select>
+      <div class="catalog" id="catalog" aria-label="Danh sách biến thể"></div>
+    </aside>
+    <section id="review" aria-label="Animation" tabindex="-1">
+      <div class="selection">
+        <div><p id="context"></p><h1 id="title">Visual Review</h1></div>
+        <span class="status-pill" id="badge"></span>
+      </div>
+      <div class="toolbar" aria-label="Điều khiển preview">
+        <label class="sr-only" for="mode">Chế độ</label>
+        <select id="mode">
+          <option value="compare">So sánh trước / sau</option>
+          <option value="current">Bản hiện tại</option>
+          <option value="clean">Tắt VFX</option>
+          <option value="chain">Basic → Skill → Basic → Run</option>
+        </select>
+        <label class="sr-only" for="speed">Tốc độ</label>
+        <select id="speed"><option value="normal">1×</option><option value="slow">0,5×</option></select>
+        <button id="replay">Phát lại</button>
+        <label class="auto"><input type="checkbox" id="auto">Duyệt tự động</label>
+      </div>
+      <p id="media-status" aria-live="polite"></p>
+      <div id="players"></div>
+      <div class="footer">
+        <section><h2>Ghi chú kiểm tra</h2><p id="notes"></p><p id="evidence"></p></section>
+        <div class="nav"><button id="prev" aria-label="Biến thể trước">←</button><span id="position"></span><button id="next" aria-label="Biến thể sau">→</button></div>
+      </div>
+    </section>
+  </main>
+  <noscript>Hãy bật JavaScript để sử dụng bộ lọc và GIF.</noscript>
+</body>
+</html>
