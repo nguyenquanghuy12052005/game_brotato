@@ -227,3 +227,7 @@ Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi l�
 
 - The source level-up atlas is a 4-column by 8-row sheet, but several effects overlap cell boundaries. Preserve that sheet unchanged as source art. The UI loads a separate clean atlas containing alpha-isolated icon components centered on transparent square cells; runtime UV sampling uses the clean atlas's 4×8 grid. This prevents card icons from showing clipped or neighboring art.
 - Keep the modal in the existing IMGUI preview UI, with a compact centered panel, legible card content, clear action buttons and a dimmed backdrop. Verify both three-card and four-card layouts after visual changes.
+
+## Thứ tự chọn lõi trong sân thử ba hệ
+
+Chốt Base → chọn hệ và chuyên nhánh → bị động → Lõi 1 (Q) → Lõi 2 (E) → chiêu cuối (R). Bản thử mở một bước mỗi lần lên cấp từ cấp 2 đến cấp 6. Ở cấp 2, chọn hệ trước rồi chọn chuyên nhánh trong cùng lần lên cấp. Pháp sư có đủ Hỏa, Băng, Quang, Ám. Cận chiến dùng nhóm P làm bị động, E cho Lõi 1, F cho Lõi 2 và R cho chiêu cuối. Pháp sư chọn một bị động sẵn có của nguyên tố và dùng hai phép khởi đầu khác nhau cho Q/E. Các thẻ thiếu icon dùng tên kỹ năng. Chưa đưa vào nâng chỉ số nhân vật.

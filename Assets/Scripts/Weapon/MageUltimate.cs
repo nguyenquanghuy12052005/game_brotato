@@ -37,16 +37,23 @@ public sealed class MageUltimate : MonoBehaviour
 
     private void Update()
     {
-        if (health.CurrentHealth <= 0 || Keyboard.current == null || !Keyboard.current.eKey.wasPressedThisFrame) return;
+        if (combat.Integrated || health.CurrentHealth <= 0 || Keyboard.current == null || !Keyboard.current.eKey.wasPressedThisFrame) return;
         if (combat.Progression.IsChoosing || !combat.Progression.CanUseUltimate) return;
-        if (chargingOrb) { ReleaseOrb(); return; }
-        if (Time.time < nextUse) return;
+        TryCast();
+    }
+
+    internal bool TryCast()
+    {
+        if (health.CurrentHealth <= 0) return false;
+        if (chargingOrb) { ReleaseOrb(); return true; }
+        if (Time.time < nextUse) return false;
         switch (combat.Loadout.Ultimate)
         {
             case MageUltimateKind.TimeStop: StartCoroutine(TimeStop()); break;
             case MageUltimateKind.StarFall: StartCoroutine(StarFall()); break;
             case MageUltimateKind.ArcaneOrb: StartOrb(); break;
         }
+        return true;
     }
 
     public void NotifyHit()

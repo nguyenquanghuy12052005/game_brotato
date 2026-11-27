@@ -43,6 +43,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
     private readonly HashSet<GunSkillTargetEffects> anchorStuns = new HashSet<GunSkillTargetEffects>();
     private Vector2 entrance, exit, portalDirection;
     private EnemyHealth boss;
+    private bool integratedCast;
 
     internal bool HasShield => Time.time < shieldUntil;
     internal bool Overcharged => Time.time < hotUntil;
@@ -86,9 +87,43 @@ internal sealed class GunCoreTwo : MonoBehaviour
         shieldUntil = shieldReady = hotUntil = heatExpires = decayUntil = nextDecayHit = portalUntil = 0f;
     }
 
+    internal bool TryIntegratedCast(GunBranch mode, int choice, EnemyHealth enemy, Vector2 heading)
+    {
+        if ((mode == GunBranch.Piercing || choice == 1) && !Alive(enemy)) return false;
+        integratedCast = true;
+        branch = mode;
+        slots = 1 << choice;
+        boss = enemy;
+        switch (mode)
+        {
+            case GunBranch.Spread:
+                if (choice == 0)
+                {
+                    shieldUntil = Time.time + 3.6f;
+                    StartCoroutine(Shield());
+                }
+                else StartCoroutine(Saw(enemy));
+                break;
+            case GunBranch.Burst:
+                if (choice == 0) hotUntil = Time.time + 5f;
+                else
+                {
+                    decayUntil = Time.time + 4.5f;
+                    StartCoroutine(DecayAura(enemy));
+                }
+                break;
+            case GunBranch.Piercing:
+                if (choice == 0) OpenPortal(enemy, heading);
+                else StartCoroutine(Anchor(enemy, heading));
+                break;
+            default: return false;
+        }
+        return true;
+    }
+
     internal Volley BeginVolley()
     {
-        if (slots == 0 || branch == GunBranch.Basic || !Alive(boss)) return null;
+        if (slots == 0 || branch == GunBranch.Basic || (!integratedCast && !Alive(boss))) return null;
         shotNumber++;
         int interval = branch == GunBranch.Spread ? 2 : 4;
         return new Volley { Generation = generation, Special = shotNumber % interval == 0 };
@@ -99,7 +134,14 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
     internal void Hit(Volley volley, EnemyHealth enemy, Vector2 heading, bool crossedPortal)
     {
-        if (!Current(volley) || enemy != boss || !Alive(enemy)) return;
+        if (!Current(volley) || !Alive(enemy)) return;
+        if (integratedCast)
+        {
+            if (branch == GunBranch.Burst && (slots & 2) != 0 && enemy == boss && Time.time < decayUntil)
+                Decay(enemy);
+            return;
+        }
+        if (enemy != boss) return;
         volley.Hits++;
         switch (branch)
         {

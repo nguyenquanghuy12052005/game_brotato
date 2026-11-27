@@ -198,7 +198,8 @@ public sealed partial class MeleeController
     };
     private Skill Chosen => Skills[skillIndex];
     private bool OriginalEast => formIndex == 0 && aim == 2 && skillIndex == 0;
-    private Vector3 AimVector => DirectionVector(aim);
+    private Vector3 AimVector => Integrated && (freeCasting || basicCasting) && aim == integratedAimDirection
+        ? (Vector3)integratedAim : DirectionVector(aim);
     private static Vector3 DirectionVector(int direction)
     {
         float angle = direction * Mathf.PI / 4;
@@ -537,7 +538,7 @@ public sealed partial class MeleeController
         var target = dummy.transform.position;
         Draw(impact, .04f, target + new Vector3(.12f, .09f), target, target + new Vector3(-.14f, .1f));
         dummy.color = new Color(1, .57f, .4f);
-        if (shake) previewCamera.transform.position += AimVector * .04f * Mathf.Sin(time * 130);
+        if (shake && !Integrated) previewCamera.transform.position += AimVector * .04f * Mathf.Sin(time * 130);
         if (lastCue == 7) return;
         lastCue = 7;
         if (!scrubbing && hitStop) hold = .045f;
@@ -921,7 +922,7 @@ public sealed partial class MeleeController
         {
             dummy.color = Color.Lerp(new Color(1, .62f, .44f), Color.white, u);
             if (shake && (!PolishedBranch || skillIndex is not (7 or 9 or 17 or 22)))
-                previewCamera.transform.position += AimVector * (.055f * Mathf.Sin(u * 25) * (1 - u));
+                if (!Integrated) previewCamera.transform.position += AimVector * (.055f * Mathf.Sin(u * 25) * (1 - u));
             Vector3 at = action == Action.Land
                 ? customSlam ? position + LandOffset(westCore) : position - Vector3.up * .62f
                 : dummy.transform.position;
@@ -1695,11 +1696,26 @@ public sealed partial class MeleeController
     private sealed class PreviewTarget
     {
         public SpriteRenderer Renderer;
-        public float Hp, FlashUntil, StaggerUntil, DaggerUntil, PushUntil, PushProgress;
+        public EnemyHealth LiveEnemy;
+        private float previewHp;
+        public float Hp
+        {
+            get => LiveEnemy != null ? LiveEnemy.CurrentHealth : previewHp;
+            set => previewHp = value;
+        }
+        public float FlashUntil, StaggerUntil, DaggerUntil, PushUntil, PushProgress;
         public Vector3 PushOffset;
         public bool ResistsPull;
         public int HitMask, LastPassive;
-        public Vector3 Ground => Renderer.transform.position - DummyLift;
+        public Vector3 Ground => LiveEnemy != null ? LiveEnemy.transform.position : Renderer.transform.position - DummyLift;
+
+        public void Shift(Vector3 amount)
+        {
+            if (LiveEnemy != null)
+                LiveEnemy.GetComponent<Rigidbody2D>().position += (Vector2)amount;
+            else if (Renderer != null)
+                Renderer.transform.position += amount;
+        }
     }
 
     private enum AreaShape { Circle, Lane, Fan }
@@ -1770,7 +1786,7 @@ public sealed partial class MeleeController
 
     private bool IsCore => skillIndex is >= 12 and <= 14;
     private bool IsBranchSkill => skillIndex >= 3 && !IsCore;
-    private int SelectedPassive => previewLoadout[0];
+    private int SelectedPassive => Integrated ? integratedPassive : previewLoadout[0];
     private static readonly Color AreaTint = new(.47f, .95f, .69f, .68f);
     private static readonly Color SealTint = new(.97f, .31f, .46f, .84f);
 
@@ -1778,7 +1794,7 @@ public sealed partial class MeleeController
     private bool HasLongPreviewRange => previewV2 && skillIndex is 7 or 11 or 16 or 19 or 21 or 22 or 23;
     private Vector3 PracticeFramingOffset => previewV2 && IsBranchSkill
         ? AimVector * (skillIndex == 8 ? .4f : HasLongPreviewRange ? 3.25f : 1.50f) : Vector3.zero;
-    private bool TrainingVisible => previewV2 && (!IsCore || basicCasting ||
+    private bool TrainingVisible => Integrated || previewV2 && (!IsCore || basicCasting ||
         (!freeMode && selection == Preview.Basic) || (freeMode && !freeCasting));
 
     private void PlaceTraining(Vector3 origin, Vector3 forward)
@@ -1859,7 +1875,7 @@ public sealed partial class MeleeController
     {
         if (freeCasting || basicCasting || !HasCombo(aim)) return;
         basicCasting = true;
-        freeVelocity = Vector3.zero;
+        if (!Integrated) freeVelocity = Vector3.zero;
         freeTurn = 0;
         RestartPlayback();
     }
@@ -1922,13 +1938,24 @@ public sealed partial class MeleeController
 
     private void ReceivePracticeHit()
     {
-        if (!previewV2 || paused) return;
+        ReceiveIntegratedHit(null, 15);
+    }
+
+    internal void ReceiveIntegratedHit(Vector2? source, int damage)
+    {
+        if (!previewV2 || paused || playerDummyHp <= 0f) return;
+        if (source.HasValue)
+        {
+            if (Time.time < nextIntegratedDamage) return;
+            nextIntegratedDamage = Time.time + .58f;
+        }
         bool counter = SelectedPassive == 2 && practiceTime >= parryReadyAt;
-        playerDummyHp = Mathf.Max(0, playerDummyHp - (counter ? 6 : 15));
+        playerDummyHp = Mathf.Max(0, playerDummyHp - (counter ? damage * .4f : damage));
         if (!counter) return;
         parryReadyAt = practiceTime + 2;
         var attacker = NearestTarget(ActorPosition, AimVector, false);
-        var direction = attacker == null ? AimVector : attacker.Ground - (ActorPosition + TrainingFloor);
+        var direction = source.HasValue ? (Vector3)source.Value - (ActorPosition + TrainingFloor) :
+            attacker == null ? AimVector : attacker.Ground - (ActorPosition + TrainingFloor);
         direction.z = 0;
         TriggerPassive(ActorPosition + direction.normalized * .42f, direction);
     }
@@ -1955,7 +1982,7 @@ public sealed partial class MeleeController
         foreach (var target in trainingTargets)
         {
             if (target == null || target.Hp <= 0 || (target.HitMask & mask) != 0 || !area.Contains(target.Ground)) continue;
-            target.Hp = Mathf.Max(0, target.Hp - damage * (execute && target.Hp <= 35 ? 1.6f : 1));
+            ApplyTrainingDamage(target, damage * (execute && target.Hp <= 35 ? 1.6f : 1));
             if (styleImpact) EmitStyle("hit_spark", target.Ground, AimVector, .25f, 1.20f);
             target.HitMask |= mask;
             target.FlashUntil = practiceTime + .24f;
@@ -2190,7 +2217,7 @@ public sealed partial class MeleeController
                                 if (target == null || target.Hp <= 0 || target.ResistsPull || !pull.Contains(target.Ground)) continue;
                                 Vector3 inward = center - target.Ground;
                                 float step = Mathf.Max(0, inward.magnitude - PullStop);
-                                target.Renderer.transform.position += inward.normalized * Mathf.Min(step, stepTime * 7.6f);
+                                target.Shift(inward.normalized * Mathf.Min(step, stepTime * 7.6f));
                             }
                         }
                         if (showAreas) TraceArea(pull, AreaTint, .025f, true);
@@ -2480,11 +2507,12 @@ public sealed partial class MeleeController
             if (!scrubbing && target.PushUntil > 0)
             {
                 float progress = Mathf.SmoothStep(0, 1, Mathf.Clamp01(1 - (target.PushUntil - practiceTime) / PushDuration));
-                target.Renderer.transform.position += target.PushOffset * (progress - target.PushProgress);
+                target.Shift(target.PushOffset * (progress - target.PushProgress));
                 target.PushProgress = progress;
                 if (progress >= 1) target.PushUntil = 0;
             }
-            target.Renderer.enabled = TrainingVisible && target.Hp > 0;
+            if (target.Renderer == null) continue;
+            if (!Integrated) target.Renderer.enabled = TrainingVisible && target.Hp > 0;
             target.Renderer.color = practiceTime < target.FlashUntil ? new Color(1, .58f, .36f)
                 : practiceTime < target.StaggerUntil ? new Color(.60f, .85f, 1)
                 : target.ResistsPull ? new Color(.64f, .83f, 1)
@@ -2503,7 +2531,7 @@ public sealed partial class MeleeController
                         target.Ground + DummyLift + Vector3.up * .20f, Vector3.down, .85f, order: 5);
             DrawStyleCues();
         }
-        if (TrainingVisible) DrawTrainingFeedback();
+        if (!Integrated && TrainingVisible) DrawTrainingFeedback();
         for (int i = styleUsed; i < stylePool.Length; i++)
             if (stylePool[i] != null) stylePool[i].enabled = false;
     }
@@ -2787,7 +2815,7 @@ public sealed partial class MeleeController
 
     private void CreditBasicHit(Vector3 weapon, Vector3 direction)
     {
-        if (SelectedPassive >= 2 || ++passiveHits < (SelectedPassive == 0 ? 5 : 4)) return;
+        if (SelectedPassive < 0 || SelectedPassive >= 2 || ++passiveHits < (SelectedPassive == 0 ? 5 : 4)) return;
         passiveHits = 0;
         TriggerPassive(weapon, direction);
     }
@@ -2928,9 +2956,17 @@ public sealed partial class MeleeController
         if (inside > 0) TraceArea(Circle(center, inside), AreaTint, .023f, true);
     }
 
+    private void ApplyTrainingDamage(PreviewTarget target, float damage)
+    {
+        if (target.LiveEnemy != null)
+            target.LiveEnemy.TakeDamage(Mathf.RoundToInt(damage));
+        else
+            target.Hp = Mathf.Max(0, target.Hp - damage);
+    }
+
     private void ApplyStyleContact(PreviewTarget target, float damage, Vector3 forward)
     {
-        target.Hp = Mathf.Max(0, target.Hp - damage);
+        ApplyTrainingDamage(target, damage);
         target.FlashUntil = practiceTime + .24f;
         trainingHits++;
         EmitStyle("hit_spark", target.Ground, forward, .25f, 1.20f);

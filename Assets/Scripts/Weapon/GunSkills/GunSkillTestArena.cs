@@ -1,6 +1,8 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+internal enum PracticeTargetMode { Dummies, BossDummy, AttackingBoss }
+
 public sealed class GunSkillTestArena : MonoBehaviour
 {
     [SerializeField] private GameObject playerPrefab;
@@ -113,6 +115,35 @@ public sealed class GunSkillTestArena : MonoBehaviour
             playerRetryAt = Time.time + PlayerRetryDelay;
         }
     }
+    internal bool Integrated { get; set; }
+
+    internal void SetIntegratedBranch(int value) => branch = (GunBranch)(value + 1);
+    internal void SetIntegratedPassive(int value) => skill = (GunSkill)(value + 1);
+    internal static string BranchChoice(int i) => BranchNames[i + 1];
+    internal static string PassiveChoice(int i) => SkillNames[i + 1];
+    internal static string FirstCoreChoice(int b, int i) => Level11Names[b + 1, i + 1];
+    internal static string SecondCoreChoice(int b, int i) => CoreTwoNames[b + 1, i];
+    internal static string UltimateChoice(int i) => UltimateNames[i + 1];
+
+    internal bool UseIntegratedSkill(int slot, int choice)
+    {
+        if (!PlayerStanding || branch == GunBranch.Basic) return false;
+        if (slot == 2) return ultimate.Cast((HexcoreUltimate)(choice + 1), lastAimPoint);
+        EnemyHealth target = null;
+        float best = 5f * 5f;
+        foreach (EnemyHealth enemy in targets)
+        {
+            if (enemy == null || enemy.CurrentHealth <= 0) continue;
+            float distance = ((Vector2)enemy.transform.position - lastAimPoint).sqrMagnitude;
+            if (distance > best) continue;
+            target = enemy;
+            best = distance;
+        }
+        return slot == 0
+            ? level11.TryIntegratedCast(branch, choice, target, weapon.MuzzlePosition, weaponAim.transform.right)
+            : coreTwo.TryIntegratedCast(branch, choice, target, weaponAim.transform.right);
+    }
+
     private bool movingTargets;
     private bool autoFire = true;
     private bool sturdyTargets;
@@ -129,6 +160,11 @@ public sealed class GunSkillTestArena : MonoBehaviour
         labCamera.backgroundColor = new Color(0.09f, 0.11f, 0.16f);
         var playerObject = Instantiate(playerPrefab, PlayerStart, Quaternion.identity);
         playerObject.name = "Player";
+        if (Integrated)
+        {
+            cameraObject.transform.SetParent(transform, true);
+            playerObject.transform.SetParent(transform, true);
+        }
         player = playerObject.GetComponent<Rigidbody2D>();
         FrameCamera();
 
@@ -152,6 +188,11 @@ public sealed class GunSkillTestArena : MonoBehaviour
 
         targetRoot = new GameObject("Practice targets").transform;
         effectsRoot = new GameObject("Shots and effects").transform;
+        if (Integrated)
+        {
+            targetRoot.SetParent(transform, true);
+            effectsRoot.SetParent(transform, true);
+        }
         weapon = gun.AddComponent<GunSkillWeapon>();
         weapon.Setup(muzzle, effectsRoot, spriteMaterial, bulletSprite, piercingSprite);
         weapon.SetPistolShots(pistolShots);
@@ -175,6 +216,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (Integrated && Time.timeScale == 0f) return;
         if (restartRequested || (playerRetryAt.HasValue && Time.time >= playerRetryAt.Value))
         {
             restartRequested = false;
@@ -195,10 +237,13 @@ public sealed class GunSkillTestArena : MonoBehaviour
         if (playerRetryAt.HasValue) return;
         RespawnWhenCleared();
         weapon.Select(skill, branch, ranksByBranch[(int)branch]);
-        level11.Select(branch, level11ByBranch[(int)branch], ranksByBranch[(int)branch], bossMode);
-        coreTwo.Select(branch, coreTwoByBranch[(int)branch], ranksByBranch[(int)branch], bossMode ? targets[0] : null);
-        if (PlayerStanding && Keyboard.current?.rKey.wasPressedThisFrame == true)
-            ultimate.Cast(selectedUltimate, lastAimPoint);
+        if (!Integrated)
+        {
+            level11.Select(branch, level11ByBranch[(int)branch], ranksByBranch[(int)branch], bossMode);
+            coreTwo.Select(branch, coreTwoByBranch[(int)branch], ranksByBranch[(int)branch], bossMode ? targets[0] : null);
+            if (PlayerStanding && Keyboard.current?.rKey.wasPressedThisFrame == true)
+                ultimate.Cast(selectedUltimate, lastAimPoint);
+        }
         weapon.Tick(autoFire && (!hardBoss || PlayerStanding), lastAimPoint);
     }
 
@@ -243,8 +288,8 @@ public sealed class GunSkillTestArena : MonoBehaviour
         Vector3 center = player.transform.position;
         center.z = -10f;
         labCamera.transform.position = center;
-        float playWidth = ControlPanelRect().x;
-        labCamera.rect = new Rect(0f, 0f, playWidth / Mathf.Max(1f, Screen.width), 1f);
+        float playWidth = Integrated ? Screen.width : ControlPanelRect().x;
+        labCamera.rect = Integrated ? new Rect(0f, 0f, 1f, 1f) : new Rect(0f, 0f, playWidth / Mathf.Max(1f, Screen.width), 1f);
         float playAspect = playWidth / Mathf.Max(1f, Screen.height);
         labCamera.orthographicSize = Mathf.Max(5f, 6.5f / Mathf.Max(0.1f, playAspect));
     }
@@ -265,29 +310,49 @@ public sealed class GunSkillTestArena : MonoBehaviour
         SpawnTargets();
     }
 
+    internal void ConfigureIntegratedTargets(PracticeTargetMode mode, bool moving, bool sturdy)
+    {
+        bossMode = mode != PracticeTargetMode.Dummies;
+        hardBoss = mode == PracticeTargetMode.AttackingBoss;
+        movingTargets = moving;
+        sturdyTargets = sturdy;
+        ResetTargets();
+    }
+
     private void SpawnTargets()
     {
-        System.Array.Clear(targets, 0, targets.Length);
-        int count = bossMode ? 1 : targets.Length;
+        var mode = hardBoss ? PracticeTargetMode.AttackingBoss : bossMode ? PracticeTargetMode.BossDummy : PracticeTargetMode.Dummies;
+        SpawnPracticeEnemies(targets, targetRoot, player.transform, Vector2.zero, mode,
+            movingTargets, sturdyTargets, false, () => PlayerStanding, ReceiveBossAttack);
+    }
+
+    internal void SpawnPracticeEnemies(EnemyHealth[] population, Transform root, Transform target, Vector2 offset,
+        PracticeTargetMode mode, bool moving, bool sturdy, bool useMageMovement,
+        System.Func<bool> targetAlive, System.Action<Vector2, int> receiveAttack)
+    {
+        System.Array.Clear(population, 0, population.Length);
+        bool isBoss = mode != PracticeTargetMode.Dummies;
+        bool attacks = mode == PracticeTargetMode.AttackingBoss;
+        int count = isBoss ? 1 : Mathf.Min(population.Length, TargetPositions.Length);
         for (int i = 0; i < count; i++)
         {
-            var enemy = Instantiate(enemyPrefab, TargetPositions[i], Quaternion.identity, targetRoot);
-            enemy.name = hardBoss ? "Core two boss" : bossMode ? "Boss dummy" : "Target " + (i + 1);
-            if (bossMode) enemy.transform.localScale *= 1.45f;
+            var enemy = Instantiate(enemyPrefab, TargetPositions[i] + offset, Quaternion.identity, root);
+            enemy.name = attacks ? "Core two boss" : isBoss ? "Boss dummy" : "Target " + (i + 1);
+            if (isBoss) enemy.transform.localScale *= 1.45f;
             var movement = enemy.GetComponent<EnemyController>();
-            movement.SetTarget(player.transform);
-            movement.enabled = movingTargets && !hardBoss;
-            if (hardBoss) movement.SetMoveSpeed(2.7f);
-            enemy.AddComponent<GunSkillTargetEffects>().IgnorePush = bossMode;
-            // Bia tập không được đánh trả Player. Phải Destroy chứ không chỉ tắt:
-            // coroutine đang chạy vẫn tiếp tục khi component bị disable.
-            var melee = enemy.GetComponent<EnemyMeleeAttack>();
-            if (melee != null) Destroy(melee);
+            movement.SetTarget(target);
+            movement.enabled = !attacks && (moving || useMageMovement);
+            if (useMageMovement && !moving) movement.SetTrainingDummy(true);
+            if (attacks) movement.SetMoveSpeed(2.7f);
+            enemy.AddComponent<GunSkillTargetEffects>().IgnorePush = isBoss;
+            if (isBoss && useMageMovement) enemy.AddComponent<MageBossMarker>();
+            if (enemy.TryGetComponent<EnemyMeleeAttack>(out var melee)) Destroy(melee);
             foreach (var renderer in enemy.GetComponentsInChildren<SpriteRenderer>())
                 renderer.sharedMaterial = spriteMaterial;
-            targets[i] = enemy.GetComponent<EnemyHealth>();
-            targets[i].InitializeHealth(hardBoss ? 2500 : bossMode ? 1500 : sturdyTargets ? 100 : i == 0 ? 50 : 100);
-            if (hardBoss) enemy.AddComponent<GunLabBoss>().Setup(this, player, bulletSprite, spriteMaterial);
+            population[i] = enemy.GetComponent<EnemyHealth>();
+            population[i].InitializeHealth(attacks ? 2500 : isBoss ? 1500 : sturdy ? 100 : i == 0 ? 50 : 100);
+            if (attacks)
+                enemy.AddComponent<GunLabBoss>().Setup(target, bulletSprite, spriteMaterial, targetAlive, receiveAttack, offset);
         }
     }
 
@@ -302,6 +367,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
 
     private void OnGUI()
     {
+        if (Integrated) return;
         DrawTargetHealth();
         DrawUltimateAim();
 

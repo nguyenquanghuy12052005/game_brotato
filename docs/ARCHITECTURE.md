@@ -100,3 +100,9 @@ GunSkillTestArena.skillNoGlowMaterial supplies a dedicated Sprite-compatible alp
 ## Mage progression implementation (2026-11-26)
 
 `Magical.unity` now adds `MageExperience` and `MageLevelProgression` at runtime from `MageCombat` when missing; no scene or prefab wiring is required. Normal enemy deaths award EXP; training dummies do not. `MageLevelProgression` owns level thresholds, XP HUD, level-choice queue, pause/resume and buff application. It draws an IMGUI modal in the existing Mage demo style and loads the Mage atlas from `Assets/Resources/Magical/`. In the Editor, `+10 EXP` and `Thử skill` provide quick preview controls. The system is not connected to GameScene.
+
+## Sân thử tiến trình ba hệ
+
+`CharacterProgressionTest.unity` chứa ba nhóm tham chiếu từ các sân thử Súng, Cận chiến và Pháp sư. Bộ điều khiển chung chỉ bật nhóm tương ứng, quản lý EXP, mở thẻ và chuyển phím Q/E/R đến hiệu ứng có sẵn của hệ. Mỗi nhóm giữ camera, nhân vật và bia tập của sân gốc. Nhấn Thử lên cấp để đi qua thứ tự đã định mà không cần dọn hết bia. Những scene thử độc lập vẫn dùng điều khiển cũ.
+
+Trong sân thử ba hệ, nút Thử lên cấp là nguồn duy nhất mở thẻ. Menu quái dùng chung bộ tạo bia và boss của GunSkillTestArena. Cận chiến liên kết vùng tác động của clip với EnemyHealth của quái thật; Pháp sư dùng cùng quần thể thay cho bộ bia riêng của MageDemoHUD.

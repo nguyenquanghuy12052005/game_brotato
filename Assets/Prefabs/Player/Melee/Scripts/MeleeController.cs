@@ -47,6 +47,99 @@ public sealed partial class MeleeController : MonoBehaviour
     public float Elapsed => clock;
     public Sprite CurrentSprite => actor != null ? actor.sprite : null;
 
+    internal bool Integrated { get; set; }
+    private int integratedPassive = -1;
+    private int integratedAimDirection = -1;
+    private Vector2 integratedAim;
+    private float nextIntegratedDamage;
+
+    internal void ConfigureIntegratedBranch(int choice)
+    {
+        branch = choice + 1;
+        startInFreeMode = true;
+    }
+
+    internal void SetIntegratedPassive(int choice) => integratedPassive = choice;
+
+    private Vector3 FreeCharacterPosition => freeCasting ? castOrigin + SkillDisplacement(clock) : freePosition;
+    internal Vector3 IntegratedGround => (actor != null ? FreeCharacterPosition : FreeSpawn) + TrainingFloor;
+    internal int IntegratedHealth => Mathf.CeilToInt(playerDummyHp);
+
+    internal void SetIntegratedTargets(EnemyHealth[] enemies)
+    {
+        for (int i = 0; i < trainingTargets.Length; i++)
+        {
+            EnemyHealth enemy = i < enemies.Length ? enemies[i] : null;
+            trainingTargets[i] = enemy != null ? new PreviewTarget
+            {
+                LiveEnemy = enemy,
+                Renderer = enemy.GetComponentInChildren<SpriteRenderer>(),
+                ResistsPull = enemy.GetComponent<GunSkillTargetEffects>().IgnorePush
+            } : null;
+        }
+        ResetTrainingCast();
+    }
+
+    internal void RestoreIntegratedHealth()
+    {
+        playerDummyHp = 100f;
+        nextIntegratedDamage = 0f;
+    }
+
+    internal bool UseIntegratedSkill(int slot, int choice)
+    {
+        if (!freeMode || freeCasting || IntegratedHealth == 0) return false;
+        int group = slot == 0 ? 1 : slot == 1 ? 3 : 2;
+        int index = PreviewV2Source(group, branch, choice);
+        UpdateIntegratedAim();
+        if (DirectionCoverage(index, aim) == "MissingArt") UseClosestCardinalPose();
+        skillIndex = index;
+        skillGroup = group;
+        BeginFreeCast();
+        return freeCasting;
+    }
+
+    private void UpdateIntegratedAim()
+    {
+        if (Mouse.current == null) return;
+        Vector2 mouse = Mouse.current.position.ReadValue();
+        Vector3 screen = new Vector3(mouse.x, mouse.y, Mathf.Abs(previewCamera.transform.position.z - IntegratedGround.z));
+        Vector2 delta = previewCamera.ScreenToWorldPoint(screen) - IntegratedGround;
+        if (delta.sqrMagnitude <= .01f) return;
+        SetIntegratedAim(delta);
+        practiceAimDistance = Mathf.Clamp(delta.magnitude, 1.2f, 5.8f);
+    }
+
+    private void SetIntegratedAim(Vector2 delta)
+    {
+        if (delta.sqrMagnitude < .0001f) delta = DirectionVector(aim);
+        aim = (Mathf.RoundToInt(Mathf.Atan2(delta.x, delta.y) / (Mathf.PI / 4f)) + 8) % 8;
+        integratedAim = delta.normalized;
+        integratedAimDirection = aim;
+    }
+
+    private void TryAutoBasic()
+    {
+        if (IntegratedHealth == 0) return;
+        Vector3 origin = IntegratedGround;
+        PreviewTarget target = NearestTarget(origin, Vector3.zero, false);
+        if (target == null) return;
+        Vector2 delta = target.Ground - origin;
+        float reach = formIndex == 3 && StyleReady ? .42f + BasicWaveTravel : 1.82f;
+        if (delta.sqrMagnitude > reach * reach) return;
+
+        SetIntegratedAim(delta);
+        if (!HasCombo(aim) && (aim & 1) != 0) UseClosestCardinalPose();
+        BeginBasic();
+    }
+
+    private void UseClosestCardinalPose()
+    {
+        bool mainlyHorizontal = Mathf.Abs(integratedAim.x) >= Mathf.Abs(integratedAim.y);
+        aim = mainlyHorizontal ? (integratedAim.x >= 0 ? 2 : 6) : (integratedAim.y >= 0 ? 0 : 4);
+        integratedAimDirection = aim;
+    }
+
     private void Start()
     {
         actor = swordsman.GetComponent<SpriteRenderer>();
@@ -55,11 +148,13 @@ public sealed partial class MeleeController : MonoBehaviour
         previewBackground = previewCamera.backgroundColor;
         swordsman.speed = 0;
         InitRoster();
+        if (Integrated) SelectForm(branch);
         skillGroup = 2;
         skillIndex = PreviewV2Source(2, branch, 0);
         ConfigureEffect();
         freeMode = startInFreeMode;
         freePosition = FreeSpawn;
+        if (Integrated) UpdatePreviewViewport();
         RestartPlayback();
     }
 
@@ -114,6 +209,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (Integrated && Time.timeScale == 0f) return;
         UpdatePreviewViewport();
         if (!paused) practiceTime += Mathf.Min(Time.unscaledDeltaTime, .05f) * (halfSpeed ? .5f : 1);
         if (freeMode)
@@ -366,7 +462,7 @@ public sealed partial class MeleeController : MonoBehaviour
     private void UpdateFreePlay(float delta)
     {
         var keyboard = Keyboard.current;
-        if (keyboard?.rKey.wasPressedThisFrame == true)
+        if (!Integrated && keyboard?.rKey.wasPressedThisFrame == true)
         {
             ResetFreePlay();
             return;
@@ -390,7 +486,8 @@ public sealed partial class MeleeController : MonoBehaviour
                     locomotionDirection = (Mathf.RoundToInt(Mathf.Atan2(move.x, move.y) / (Mathf.PI / 4)) + 8) % 8;
                     if (!previewV2 || aimFollowsMovement) FaceFreeDirection(locomotionDirection);
                 }
-                if (keyboard?.spaceKey.wasPressedThisFrame == true) afterTurn = FreeAction.Skill;
+                if (Integrated) TryAutoBasic();
+                else if (keyboard?.spaceKey.wasPressedThisFrame == true) afterTurn = FreeAction.Skill;
                 else if (previewV2 && keyboard?.jKey.wasPressedThisFrame == true) afterTurn = FreeAction.Basic;
                 bool finishTurn = StyleReady && freeTurn > 0 &&
                     (afterTurn == FreeAction.Basic || skillIndex < 3 || PolishedBranch);
@@ -402,9 +499,9 @@ public sealed partial class MeleeController : MonoBehaviour
                     else Replay();
                 }
             }
-            else if (previewV2 && basicCasting && skillIndex >= 3 && keyboard?.spaceKey.wasPressedThisFrame == true)
+            else if (!Integrated && previewV2 && basicCasting && skillIndex >= 3 && keyboard?.spaceKey.wasPressedThisFrame == true)
                 queuedCast = true;
-            if (previewV2 && freeCasting && keyboard?.jKey.wasPressedThisFrame == true) queuedBasic = true;
+            if (!Integrated && previewV2 && freeCasting && keyboard?.jKey.wasPressedThisFrame == true) queuedBasic = true;
 
             if (basicCasting)
             {
@@ -440,7 +537,7 @@ public sealed partial class MeleeController : MonoBehaviour
                     }
                 }
             }
-            else if (!basicCasting)
+            else if (Integrated || !basicCasting)
             {
                 bool wasMoving = freeVelocity.sqrMagnitude > .025f;
                 freeVelocity = Vector3.MoveTowards(freeVelocity, (Vector3)move * freeMoveSpeed, delta * freeMoveSpeed * 12);
@@ -451,8 +548,8 @@ public sealed partial class MeleeController : MonoBehaviour
             }
         }
 
-        Vector3 ground = freeCasting ? castOrigin + SkillDisplacement(clock) : freePosition;
-        cameraFollow = Vector3.SmoothDamp(cameraFollow, ground - FreeSpawn, ref cameraFollowVelocity, .12f, Mathf.Infinity, delta);
+        cameraFollow = Vector3.SmoothDamp(cameraFollow, FreeCharacterPosition - FreeSpawn,
+            ref cameraFollowVelocity, .12f, Mathf.Infinity, delta);
         RenderFreePlay();
     }
 
@@ -461,7 +558,7 @@ public sealed partial class MeleeController : MonoBehaviour
     private void RenderFreePlay()
     {
         BeginTrainingDraw();
-        if (previewV2 && !trainingPlaced) PlaceTraining(freePosition, AimVector);
+        if (!Integrated && previewV2 && !trainingPlaced) PlaceTraining(freePosition, AimVector);
         if (freeCasting) RenderOther();
         else
         {
@@ -474,7 +571,12 @@ public sealed partial class MeleeController : MonoBehaviour
             else if (freeTurn > 0) ShowTurn(turnFrom, aim, 1 - freeTurn / FreeTurnDuration);
             else ShowLocomotion(running, locomotionTime, previewV2 && running ? locomotionDirection : aim);
         }
-        previewCamera.transform.position += cameraFollow + PracticeFramingOffset;
+        if (Integrated)
+        {
+            Vector3 center = FreeSpawn + cameraFollow;
+            previewCamera.transform.position = new Vector3(center.x, center.y, cameraRest.z);
+        }
+        else previewCamera.transform.position += cameraFollow + PracticeFramingOffset;
         FinishTrainingDraw();
     }
 
@@ -501,6 +603,12 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void UpdatePreviewViewport()
     {
+        if (Integrated)
+        {
+            previewCamera.rect = new Rect(0f, 0f, 1f, 1f);
+            previewCamera.orthographicSize = 5f;
+            return;
+        }
         float dock = DockWidth / Mathf.Max(1, Screen.width);
         float top = Mathf.Min(.45f, HudHeight / Mathf.Max(1, Screen.height));
         previewCamera.rect = new Rect(dock, 0, 1 - dock, 1 - top);
@@ -517,6 +625,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void OnGUI()
     {
+        if (Integrated) return;
         if (actor == null) return;
         BuildStyles();
         float dock = DockWidth;

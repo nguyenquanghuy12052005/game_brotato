@@ -3,22 +3,31 @@ using UnityEngine;
 
 internal sealed class GunLabBoss : MonoBehaviour
 {
-    private GunSkillTestArena arena;
-    private Rigidbody2D bossBody, player;
+    private Rigidbody2D bossBody;
+    private Transform player;
+    private System.Func<bool> playerStanding;
+    private System.Action<Vector2, int> receiveAttack;
+    private Vector2 arenaOffset;
     private EnemyController movement;
+    private EnemyHealth health;
     private GunSkillTargetEffects targetEffects;
-    private bool CanAttack => arena.PlayerStanding && (targetEffects == null || !targetEffects.IsStunned);
+    private bool CanAttack => PlayerStanding && (targetEffects == null || !targetEffects.IsStunned);
+    private bool PlayerStanding => player != null && health != null && health.CurrentHealth > 0 && playerStanding();
     private Sprite projectile;
     private Material material;
 
-    internal void Setup(GunSkillTestArena owner, Rigidbody2D playerBody, Sprite shot, Material spriteMaterial)
+    internal void Setup(Transform target, Sprite shot, Material spriteMaterial,
+        System.Func<bool> targetAlive, System.Action<Vector2, int> onHit, Vector2 offset)
     {
-        arena = owner;
-        player = playerBody;
+        player = target;
+        playerStanding = targetAlive;
+        receiveAttack = onHit;
+        arenaOffset = offset;
         projectile = shot;
         material = spriteMaterial;
         bossBody = GetComponent<Rigidbody2D>();
         movement = GetComponent<EnemyController>();
+        health = GetComponent<EnemyHealth>();
         targetEffects = GetComponent<GunSkillTargetEffects>();
         StartCoroutine(Attack());
     }
@@ -43,7 +52,7 @@ internal sealed class GunLabBoss : MonoBehaviour
     private IEnumerator Fan()
     {
         Vector2 origin = bossBody.position;
-        Vector2 aim = (player.position - origin).normalized;
+        Vector2 aim = ((Vector2)player.position - origin).normalized;
         var mark = Telegraph(origin, origin + aim * 7f, 0.13f);
         yield return new WaitForSeconds(0.62f);
         Destroy(mark.gameObject);
@@ -72,9 +81,9 @@ internal sealed class GunLabBoss : MonoBehaviour
         {
             Vector2 next = origin + heading * (7.5f * elapsed);
             obj.transform.position = next;
-            if (arena.PlayerStanding && DistanceSquared(player.position, previous, next) <= 0.33f * 0.33f)
+            if (PlayerStanding && DistanceSquared(player.position, previous, next) <= 0.33f * 0.33f)
             {
-                arena.ReceiveBossAttack(player.position - heading, 12);
+                receiveAttack((Vector2)player.position - heading, 12);
                 break;
             }
             previous = next;
@@ -86,7 +95,7 @@ internal sealed class GunLabBoss : MonoBehaviour
     private IEnumerator Dash()
     {
         Vector2 start = bossBody.position;
-        Vector2 heading = (player.position - start).normalized;
+        Vector2 heading = ((Vector2)player.position - start).normalized;
         if (heading.sqrMagnitude < 0.01f) yield break;
         const float duration = 0.48f;
         float speed = movement.MoveSpeed * 3.2f;
@@ -98,11 +107,11 @@ internal sealed class GunLabBoss : MonoBehaviour
         for (float elapsed = 0f; elapsed < duration && CanAttack; elapsed += Time.fixedDeltaTime)
         {
             Vector2 next = ClampToArena(bossBody.position + heading * (movement.MoveSpeed * 3.2f * Time.fixedDeltaTime));
-            if (!hit && arena.PlayerStanding &&
+            if (!hit && PlayerStanding &&
                 DistanceSquared(player.position, bossBody.position, next) <= 0.65f * 0.65f)
             {
                 hit = true;
-                arena.ReceiveBossAttack(bossBody.position, 20);
+                receiveAttack(bossBody.position, 20);
             }
             bossBody.MovePosition(next);
             yield return new WaitForFixedUpdate();
@@ -125,8 +134,11 @@ internal sealed class GunLabBoss : MonoBehaviour
         return line;
     }
 
-    private static Vector2 ClampToArena(Vector2 position) =>
-        new Vector2(Mathf.Clamp(position.x, -7.1f, 7.1f), Mathf.Clamp(position.y, -4f, 4f));
+    private Vector2 ClampToArena(Vector2 position)
+    {
+        Vector2 local = position - arenaOffset;
+        return arenaOffset + new Vector2(Mathf.Clamp(local.x, -7.1f, 7.1f), Mathf.Clamp(local.y, -4f, 4f));
+    }
 
     private static float DistanceSquared(Vector2 point, Vector2 from, Vector2 to)
     {

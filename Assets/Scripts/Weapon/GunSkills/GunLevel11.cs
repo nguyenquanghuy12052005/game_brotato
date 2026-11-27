@@ -148,6 +148,52 @@ internal sealed class GunLevel11 : MonoBehaviour
         }
     }
 
+    internal bool TryIntegratedCast(GunBranch mode, int choice, EnemyHealth enemy, Vector2 origin, Vector2 heading)
+    {
+        if (mode == GunBranch.Spread && choice == 0) StartCoroutine(Sweep(origin, heading));
+        else if (mode == GunBranch.Piercing && choice == 0) StartCoroutine(Rift(origin, heading));
+        else if (mode == GunBranch.Burst && choice == 2)
+        {
+            if (healActive) return false;
+            StartCoroutine(HealingCompanion());
+        }
+        else
+        {
+            if (!Alive(enemy)) return false;
+            switch (mode)
+            {
+                case GunBranch.Spread:
+                    if (choice == 1)
+                    {
+                        var state = State(enemy);
+                        if (state.SunderPending) return false;
+                        StartCoroutine(Fireball(enemy, state));
+                    }
+                    else
+                    {
+                        var volley = new Volley { Heading = heading, Size = 1 };
+                        volley.Hits[enemy] = 1;
+                        StartCoroutine(FireBreath(enemy, volley));
+                    }
+                    break;
+                case GunBranch.Burst:
+                    if (choice == 0) StartCoroutine(Detonate(enemy));
+                    else
+                    {
+                        if (echoActive) return false;
+                        StartCoroutine(Echo(enemy));
+                    }
+                    break;
+                case GunBranch.Piercing:
+                    if (choice == 1) StartCoroutine(BallLightning(enemy, heading));
+                    else StartCoroutine(SkyLance(EnemyFootPosition(enemy)));
+                    break;
+                default: return false;
+            }
+        }
+        return true;
+    }
+
     private TargetState State(EnemyHealth enemy)
     {
         if (!states.TryGetValue(enemy, out var state))

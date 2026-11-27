@@ -44,13 +44,18 @@ public sealed class MageDemoHUD : MonoBehaviour
 
     private void Start()
     {
+        if (combat != null && combat.Integrated)
+        {
+            if (dummyRoot != null) dummyRoot.gameObject.SetActive(false);
+            return;
+        }
         if (health != null) health.SetDamageEnabled(!invulnerableForTesting);
         ApplyDummies();
     }
 
     private void OnGUI()
     {
-        if (loadout == null || combat == null || ultimate == null || health == null) return;
+        if (loadout == null || combat == null || combat.Integrated || ultimate == null || health == null) return;
         if (statusStyle == null)
         {
             statusStyle = new GUIStyle(GUI.skin.box);

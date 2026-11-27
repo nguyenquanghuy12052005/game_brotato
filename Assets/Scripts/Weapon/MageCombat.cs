@@ -19,6 +19,20 @@ public sealed class MageCombat : MonoBehaviour
     private MageExperience experience;
     private MageLevelProgression progression;
     private float nextAttack, nextStarter;
+    private readonly float[] integratedStarterCooldowns = new float[3];
+    internal bool Integrated { get; set; }
+
+    internal bool UseIntegratedStarter(int index)
+    {
+        if (health.CurrentHealth <= 0 || Time.time < integratedStarterCooldowns[index]) return false;
+        float before = nextStarter;
+        nextStarter = integratedStarterCooldowns[index];
+        UseStarter((MageStarterSkill)index);
+        bool cast = nextStarter > Time.time;
+        integratedStarterCooldowns[index] = nextStarter;
+        nextStarter = before;
+        return cast;
+    }
     private int fireShots;
     private readonly HashSet<MageEnemyStatus> tracked = new HashSet<MageEnemyStatus>();
     private readonly Dictionary<MageEnemyStatus, int> lightHits = new Dictionary<MageEnemyStatus, int>();
@@ -33,7 +47,7 @@ public sealed class MageCombat : MonoBehaviour
     public void TryUseStarter()
     {
         if (health.CurrentHealth > 0 && progression.CanUseStarter && Time.time >= nextStarter)
-            UseStarter();
+            UseStarter(loadout.StarterSkill);
     }
     public void ResetPreviewElement() { nextAttack = 0f; fireShots = 0; }
 
@@ -45,6 +59,7 @@ public sealed class MageCombat : MonoBehaviour
         health = GetComponent<PlayerHealth>();
         movement = GetComponent<PlayerController>();
         ultimate = GetComponent<MageUltimate>();
+        if (Integrated) return;
         experience = GetComponent<MageExperience>();
         if (experience == null) experience = gameObject.AddComponent<MageExperience>();
         progression = GetComponent<MageLevelProgression>();
@@ -54,8 +69,8 @@ public sealed class MageCombat : MonoBehaviour
 
     private void Update()
     {
-        if (health.CurrentHealth <= 0 || progression.IsChoosing) return;
-        if (Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
+        if (health.CurrentHealth <= 0 || Time.timeScale == 0f || (!Integrated && progression.IsChoosing)) return;
+        if (!Integrated && Keyboard.current != null && Keyboard.current.qKey.wasPressedThisFrame)
             TryUseStarter();
         if (Time.time < nextAttack) return;
         switch (loadout.Element)
@@ -127,12 +142,12 @@ public sealed class MageCombat : MonoBehaviour
         return projectile;
     }
 
-    private void UseStarter()
+    private void UseStarter(MageStarterSkill selection)
     {
-        switch (loadout.StarterSkill)
+        switch (selection)
         {
             case MageStarterSkill.Heal:
-                if (!health.Heal(25)) return;
+                if (!health.Heal(25) && !Integrated) return;
                 effects.Play(MageEffectId.Heal, transform.position, 0.8f, transform);
                 nextStarter = Time.time + 25f;
                 break;

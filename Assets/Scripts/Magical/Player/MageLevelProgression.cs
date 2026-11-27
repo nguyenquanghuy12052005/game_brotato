@@ -24,9 +24,9 @@ public sealed class MageLevelProgression : MonoBehaviour
         }
     }
 
-    private static readonly string[] ElementNames = { "Hỏa", "Băng", "Quang", "Ám" };
-    private static readonly string[] StarterNames = { "Hồi phục", "Sóng xung kích", "Vùng trọng lực" };
-    private static readonly string[] UltimateNames =
+    internal static readonly string[] ElementNames = { "Hỏa", "Băng", "Quang", "Ám" };
+    internal static readonly string[] StarterNames = { "Hồi phục", "Sóng xung kích", "Vùng trọng lực" };
+    internal static readonly string[] UltimateNames =
         { "Ngưng Đọng Thời Gian", "Thiên Tinh Giáng Lâm", "Thiên Cầu Ma Lực" };
     private static readonly string[][] TierNames =
     {
@@ -35,7 +35,7 @@ public sealed class MageLevelProgression : MonoBehaviour
         new[] { "Thêm nhịp", "Tầm cột sáng", "Sức nhịp" },
         new[] { "Số mục tiêu", "Sức nguyền", "Suy yếu" }
     };
-    private static readonly string[][] CoreNames =
+    internal static readonly string[][] CoreNames =
     {
         new[] { "Cháy lâu", "Thêm cầu lửa", "Tập trung đốt", "Nổ khi chết" },
         new[] { "Lạnh sâu", "Tụ Hàn", "Giòn vỡ", "Lan băng" },
@@ -49,7 +49,7 @@ public sealed class MageLevelProgression : MonoBehaviour
         new[] { "+1 nhịp cột sáng mỗi bậc", "+20% bán kính mỗi bậc", "+15% sát thương mỗi nhịp" },
         new[] { "+1 mục tiêu nguyền mỗi bậc", "+25% sát thương nguyền mỗi bậc", "+6% suy yếu mỗi bậc" }
     };
-    private static readonly string[][] CoreDescriptions =
+    internal static readonly string[][] CoreDescriptions =
     {
         new[] { "Thiêu đốt kéo dài 5 giây.", "Mỗi loạt thứ ba bắn thêm hai cầu lửa.", "Gây thêm sát thương lên quái đang cháy.", "Quái đang cháy phát nổ khi bị hạ." },
         new[] { "Tăng hiệu quả làm chậm lên 45%.", "Tích tụ tối đa hai tầng sát thương lạnh.", "Gây thêm sát thương lên quái bị đóng băng.", "Băng có thể lan dấu lạnh sang quái gần đó." },
