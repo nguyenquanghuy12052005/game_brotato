@@ -34,6 +34,10 @@ public sealed class GunSkillWeapon : MonoBehaviour
     private Vector2 burstDirection;
     private float nextShot;
     private float nextBurstRound;
+    private CharacterProgressionTest coreStats;
+
+    internal void SetIntegratedCoreStats(CharacterProgressionTest stats) => coreStats = stats;
+    private float AttackSpeedMultiplier => coreStats != null ? coreStats.AttackSpeedMultiplier : 1f;
 
     public void Setup(Transform firePoint, Transform effectsRoot, Material spriteMaterial,
         Sprite basic, Sprite piercing)
@@ -213,6 +217,18 @@ public sealed class GunSkillWeapon : MonoBehaviour
     internal void SetLevel11(GunLevel11 prototype) => level11 = prototype;
     internal int DamageAgainst(EnemyHealth enemy, int damage) =>
         level11 != null ? level11.DamageAgainst(enemy, damage) : damage;
+    internal void ApplyDamage(EnemyHealth enemy, int damage)
+    {
+        if (enemy == null || enemy.CurrentHealth <= 0 || damage <= 0) return;
+        ApplyCoreDamage(enemy, DamageAgainst(enemy, damage));
+    }
+
+    internal void ApplyCoreDamage(EnemyHealth enemy, int damage)
+    {
+        if (enemy == null || enemy.CurrentHealth <= 0 || damage <= 0) return;
+        int adjusted = coreStats != null ? coreStats.ScaleCoreDamage(damage) : damage;
+        enemy.TakeDamage(adjusted);
+    }
     internal void RegisterHit(GunLevel11.Volley volley, EnemyHealth enemy) => level11?.Hit(volley, enemy);
 
     internal void FireEcho(Vector2 position, Vector2 heading) =>
@@ -234,11 +250,11 @@ public sealed class GunSkillWeapon : MonoBehaviour
             {
                 FireRound(burstDirection, burstVolley, coreBurstVolley);
                 burstRemaining--;
-                nextBurstRound = Time.time + BurstSpacing;
+                nextBurstRound = Time.time + BurstSpacing / AttackSpeedMultiplier;
                 if (burstRemaining == 0)
                 {
                     if (ranks.y > 0 && grenadeArt != null) ThrowSmgGrenades(aimPoint);
-                    nextShot = Time.time + 1.20f;
+                    nextShot = Time.time + 1.20f / AttackSpeedMultiplier;
                 }
             }
             return;
@@ -260,7 +276,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
                 }
                 if (shotgunFlash != null)
                     StartCoroutine(PlayMuzzleFlash("Shotgun muzzle flash", shotgunFlash, muzzle.position, heading, 60f));
-                nextShot = Time.time + 2.60f;
+                nextShot = Time.time + 2.60f / AttackSpeedMultiplier;
                 break;
             case GunBranch.Burst:
                 int burstCount = 5 + 2 * ranks.z;
@@ -269,7 +285,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
                 FireRound(heading, burstVolley, coreBurstVolley);
                 burstDirection = heading;
                 burstRemaining = burstCount - 1;
-                nextBurstRound = Time.time + BurstSpacing;
+                nextBurstRound = Time.time + BurstSpacing / AttackSpeedMultiplier;
                 break;
             case GunBranch.Piercing:
                 int rocketCount = 1 + ranks.z;
@@ -282,11 +298,11 @@ public sealed class GunSkillWeapon : MonoBehaviour
                 }
                 if (rocketFlash != null)
                     StartCoroutine(PlayMuzzleFlash("Rocket muzzle flash", rocketFlash, muzzle.position, heading, 90f));
-                nextShot = Time.time + 0.80f;
+                nextShot = Time.time + 0.80f / AttackSpeedMultiplier;
                 break;
             default:
                 FireRound(heading, level11?.BeginVolley(muzzle.position, heading, 1), coreTwo?.BeginVolley());
-                nextShot = Time.time + 0.20f;
+                nextShot = Time.time + 0.20f / AttackSpeedMultiplier;
                 break;
         }
     }
@@ -388,7 +404,7 @@ public sealed class GunSkillWeapon : MonoBehaviour
         foreach (EnemyHealth enemy in FindObjectsByType<EnemyHealth>(FindObjectsSortMode.None))
             if (enemy != excluded && enemy.CurrentHealth > 0 &&
                 ((Vector2)enemy.transform.position - position).sqrMagnitude <= radiusSquared)
-                enemy.TakeDamage(damage);
+                ApplyCoreDamage(enemy, damage);
     }
 
     private void ThrowSmgGrenades(Vector2? aimPoint)

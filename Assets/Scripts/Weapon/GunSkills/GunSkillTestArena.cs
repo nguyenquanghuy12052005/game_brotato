@@ -90,29 +90,59 @@ public sealed class GunSkillTestArena : MonoBehaviour
     private bool bossMode;
     private bool hardBoss;
     private int practiceHealth;
-    private float nextBossDamage;
     private float? playerRetryAt;
+    private PlayerHealth playerHealth;
 
-    internal bool PlayerStanding => practiceHealth > 0;
+    internal bool PlayerStanding => playerHealth != null ? playerHealth.CurrentHealth > 0 : practiceHealth > 0;
+    internal int IntegratedHealth => playerHealth != null ? playerHealth.CurrentHealth : practiceHealth;
+    internal int IntegratedMaximumHealth => playerHealth != null ? playerHealth.MaxHealth : 100;
+    internal EnemyHealth[] IntegratedTargets => targets;
+    internal Bounds IntegratedPlayerBounds
+    {
+        get
+        {
+            Collider2D playerCollider = player != null ? player.GetComponent<Collider2D>() : null;
+            return playerCollider != null
+                ? playerCollider.bounds
+                : new Bounds(player != null ? (Vector3)player.position : Vector3.zero, Vector3.one * 0.5f);
+        }
+    }
+    internal PlayerHealth IntegratedPlayerHealth => playerHealth;
+
+    internal void SetIntegratedCoreStats(CharacterProgressionTest stats)
+    {
+        if (!Integrated) return;
+        player.GetComponent<PlayerController>().LevelUpSpeedMultiplier = stats.MoveSpeedMultiplier;
+        weapon.SetIntegratedCoreStats(stats);
+        ultimate.SetDamageOwner(weapon);
+    }
+
+    internal void AddIntegratedBonusHealth(int amount)
+    {
+        if (!Integrated || !PlayerStanding || amount <= 0) return;
+        if (playerHealth != null) playerHealth.IncreaseMaximumHealthAndHeal(amount);
+        else practiceHealth += amount;
+    }
 
     internal void RestorePracticeHealth(int amount)
     {
-        if (PlayerStanding && amount > 0)
-            practiceHealth = Mathf.Min(100, practiceHealth + amount);
+        if (!PlayerStanding || amount <= 0) return;
+        if (playerHealth != null) playerHealth.Heal(amount);
+        else practiceHealth = Mathf.Min(100, practiceHealth + amount);
     }
 
     internal void ReceiveBossAttack(Vector2 source, int damage)
     {
-        if (!hardBoss || !PlayerStanding || Time.time < nextBossDamage) return;
-        nextBossDamage = Time.time + 0.58f;
+        if (!hardBoss || !PlayerStanding) return;
         if (coreTwo.Block(source)) return;
-        practiceHealth = Mathf.Max(0, practiceHealth - damage);
+        if (playerHealth != null) playerHealth.TakeDamage(damage);
+        else practiceHealth = Mathf.Max(0, practiceHealth - Mathf.Max(0, damage));
         weapon.ShowImpact(player.position, new Color(1f, 0.32f, 0.22f));
         if (!PlayerStanding)
         {
             weapon.ResetShots();
             ultimate.ResetEffects();
-            playerRetryAt = Time.time + PlayerRetryDelay;
+            if (!Integrated) playerRetryAt = Time.time + PlayerRetryDelay;
         }
     }
     internal bool Integrated { get; set; }
@@ -166,6 +196,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
             playerObject.transform.SetParent(transform, true);
         }
         player = playerObject.GetComponent<Rigidbody2D>();
+        playerHealth = playerObject.GetComponent<PlayerHealth>();
         FrameCamera();
 
         var gun = new GameObject("Gun");
@@ -302,9 +333,9 @@ public sealed class GunSkillTestArena : MonoBehaviour
         coreTwo.ResetEffects();
         ultimate.ResetEffects();
         lastAimPoint = (Vector2)player.position + Vector2.right * 5f;
-        practiceHealth = 100;
+        if (playerHealth != null) playerHealth.RestoreFullHealth();
+        else practiceHealth = 100;
         playerRetryAt = null;
-        nextBossDamage = 0f;
         weapon.ResetShots();
         respawnAt = null;
         SpawnTargets();
@@ -342,11 +373,17 @@ public sealed class GunSkillTestArena : MonoBehaviour
             var movement = enemy.GetComponent<EnemyController>();
             movement.SetTarget(target);
             movement.enabled = !attacks && (moving || useMageMovement);
-            if (useMageMovement && !moving) movement.SetTrainingDummy(true);
+            if (mode == PracticeTargetMode.Dummies && !moving) movement.SetTrainingDummy(true);
             if (attacks) movement.SetMoveSpeed(2.7f);
             enemy.AddComponent<GunSkillTargetEffects>().IgnorePush = isBoss;
             if (isBoss && useMageMovement) enemy.AddComponent<MageBossMarker>();
-            if (enemy.TryGetComponent<EnemyMeleeAttack>(out var melee)) Destroy(melee);
+            if (enemy.TryGetComponent<EnemyMeleeAttack>(out var melee))
+            {
+                Destroy(melee);
+                // EnemyMeleeAttack sets a 1.2-unit stopping distance in Awake.
+                // Practice enemies have no melee attack, so let movers reach contact range.
+                if (!attacks && (moving || useMageMovement)) movement.SetStopDistance(0f);
+            }
             foreach (var renderer in enemy.GetComponentsInChildren<SpriteRenderer>())
                 renderer.sharedMaterial = spriteMaterial;
             population[i] = enemy.GetComponent<EnemyHealth>();
@@ -383,7 +420,7 @@ public sealed class GunSkillTestArena : MonoBehaviour
         {
             string status = playerRetryAt.HasValue
                 ? $"Thử lại sau {Mathf.Max(0f, playerRetryAt.Value - Time.time):0.0}s"
-                : $"Người chơi · {practiceHealth}/100 HP";
+                : $"Người chơi · {IntegratedHealth}/100 HP";
             GUILayout.Label(status);
         }
 

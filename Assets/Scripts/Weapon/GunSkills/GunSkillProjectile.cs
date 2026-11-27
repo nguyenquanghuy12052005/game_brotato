@@ -96,7 +96,7 @@ public sealed class GunSkillProjectile : MonoBehaviour
 
         ricochetTarget = null;
         Vector2 impact = enemy.transform.position;
-        enemy.TakeDamage(weapon.DamageAgainst(enemy, damage));
+        weapon.ApplyDamage(enemy, damage);
         if (effects.Volley != null) weapon.RegisterHit(effects.Volley, enemy);
         if (effects.CoreVolley != null) coreTwo.Hit(effects.CoreVolley, enemy, direction, crossedPortal);
         if (effects.Plasma) coreTwo.ApplyPoison(effects.CoreVolley, enemy);

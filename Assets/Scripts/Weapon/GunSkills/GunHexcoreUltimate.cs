@@ -103,6 +103,9 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
     private Material material;
     private float readyAt;
     private int turretCount;
+    private GunSkillWeapon damageOwner;
+
+    internal void SetDamageOwner(GunSkillWeapon owner) => damageOwner = owner;
 
     internal float CooldownLeft => Mathf.Max(0f, readyAt - Time.time);
     internal int TurretCount => turretCount;
@@ -382,7 +385,8 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
             Vector2 closest = enemy.TryGetComponent<Collider2D>(out var hitbox)
                 ? hitbox.ClosestPoint(center) : (Vector2)enemy.transform.position;
             if ((closest - center).sqrMagnitude <= radius * radius)
-                enemy.TakeDamage(damage);
+                if (damageOwner != null) damageOwner.ApplyCoreDamage(enemy, damage);
+                else enemy.TakeDamage(damage);
         }
     }
 
@@ -395,7 +399,11 @@ internal sealed class GunHexcoreUltimate : MonoBehaviour
         foreach (var hit in lineHits)
         {
             EnemyHealth enemy = hit.collider.GetComponentInParent<EnemyHealth>();
-            if (Alive(enemy) && damaged.Add(enemy)) enemy.TakeDamage(damage);
+            if (Alive(enemy) && damaged.Add(enemy))
+            {
+                if (damageOwner != null) damageOwner.ApplyCoreDamage(enemy, damage);
+                else enemy.TakeDamage(damage);
+            }
         }
     }
 

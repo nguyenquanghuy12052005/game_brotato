@@ -18,9 +18,17 @@ public sealed class MageCombat : MonoBehaviour
     private MageUltimate ultimate;
     private MageExperience experience;
     private MageLevelProgression progression;
+    private CharacterProgressionTest integratedCoreStats;
     private float nextAttack, nextStarter;
     private readonly float[] integratedStarterCooldowns = new float[3];
     internal bool Integrated { get; set; }
+
+    internal void SetIntegratedCoreStats(CharacterProgressionTest stats)
+    {
+        integratedCoreStats = Integrated ? stats : null;
+        if (movement != null && integratedCoreStats != null)
+            movement.LevelUpSpeedMultiplier = integratedCoreStats.MoveSpeedMultiplier;
+    }
 
     internal bool UseIntegratedStarter(int index)
     {
@@ -59,6 +67,8 @@ public sealed class MageCombat : MonoBehaviour
         health = GetComponent<PlayerHealth>();
         movement = GetComponent<PlayerController>();
         ultimate = GetComponent<MageUltimate>();
+        if (Integrated && integratedCoreStats != null)
+            movement.LevelUpSpeedMultiplier = integratedCoreStats.MoveSpeedMultiplier;
         if (Integrated) return;
         experience = GetComponent<MageExperience>();
         if (experience == null) experience = gameObject.AddComponent<MageExperience>();
@@ -84,7 +94,9 @@ public sealed class MageCombat : MonoBehaviour
 
     private float AdjustAttackInterval(float interval)
     {
-        return interval / (progression != null ? progression.AttackSpeedMultiplier : 1f);
+        float progressionSpeed = progression != null ? progression.AttackSpeedMultiplier : 1f;
+        float coreSpeed = Integrated && integratedCoreStats != null ? integratedCoreStats.AttackSpeedMultiplier : 1f;
+        return interval / (progressionSpeed * coreSpeed);
     }
 
     public MageEnemyStatus Status(EnemyHealth enemy)
@@ -93,6 +105,7 @@ public sealed class MageCombat : MonoBehaviour
         MageEnemyStatus status = enemy.GetComponent<MageEnemyStatus>();
         if (status == null) status = enemy.gameObject.AddComponent<MageEnemyStatus>();
         status.SetEffects(effects);
+        status.SetIntegratedCoreStats(Integrated ? integratedCoreStats : null);
         if (tracked.Add(status)) status.Died += OnEnemyDied;
         return status;
     }

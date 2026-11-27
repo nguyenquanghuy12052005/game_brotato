@@ -6,20 +6,23 @@ using UnityEngine.SceneManagement;
 public sealed class CharacterProgressionTest : MonoBehaviour
 {
     private enum Path { Gun, Melee, Mage }
-    private enum Stage { Base, Branch, Passive, FirstCore, SecondCore, Ultimate, Complete }
+    private enum Stage { Base, Branch, Passive, FirstCore, SecondCore, Ultimate, Complete, SharedCore }
+    private enum SharedCore { BonusHp, MoveSpeed, Damage, AttackSpeed }
 
     private struct Card
     {
         internal readonly int Choice;
         internal readonly string Name, Detail;
         internal readonly int Icon;
+        internal readonly bool IsSharedCore;
 
-        internal Card(int choice, string name, string detail = "", int icon = -1)
+        internal Card(int choice, string name, string detail = "", int icon = -1, bool isSharedCore = false)
         {
             Choice = choice;
             Name = name;
             Detail = detail;
             Icon = icon;
+            IsSharedCore = isSharedCore;
         }
     }
 
@@ -30,9 +33,12 @@ public sealed class CharacterProgressionTest : MonoBehaviour
     private MageLoadout mageLoadout;
     private MageUltimate mageUltimate;
     private PlayerHealth mageHealth;
+    private MageExperience experience;
     private PracticeTargetMode targetMode;
     private bool targetMenuOpen, targetsMove, sturdyTargets;
     private readonly EnemyHealth[] liveTargets = new EnemyHealth[8];
+    private readonly HashSet<EnemyHealth> watchedEnemies = new HashSet<EnemyHealth>();
+    private readonly Queue<int> pendingChoiceLevels = new Queue<int>();
     private Transform liveTargetRoot, meleeTarget;
     private float? resetTargetsAt;
     private Texture2D icons;
@@ -40,16 +46,36 @@ public sealed class CharacterProgressionTest : MonoBehaviour
     private readonly int[] skills = { -1, -1, -1 };
     private readonly string[] skillNames = { "Chưa mở", "Chưa mở", "Chưa mở" };
     private readonly float[] nextCast = new float[3];
+    private readonly int[] sharedCoreRanks = new int[4];
+    private const int SharedCoreLimit = 5;
+    private const int BonusHealthPerRank = 15;
+    private const int PracticeContactDamage = 10;
+    private const float PercentPerRank = 0.07f;
+    private static readonly string[] SharedCoreNames = { "Bonus HP", "Move Speed %", "Damage %", "Attack Speed %" };
+    private static readonly string[] SharedCoreDetails =
+    {
+        "+15 HP tối đa và hiện tại.", "+7% tốc độ di chuyển.",
+        "+7% sát thương của đòn đánh, skill và sát thương theo thời gian.",
+        "+7% tốc độ đánh tự động; không giảm hồi chiêu Q/E/R."
+    };
     private static readonly string[] PathNames = { "Súng", "Cận chiến", "Pháp sư" };
     private static readonly string[] MeleeBranches = { "Sát thủ", "Đao sĩ", "Kiếm khí" };
-    private int level = 1, selectedBranch = -1;
+    private int selectedBranch = -1, activeChoiceLevel;
     private Stage stage;
     private Path? chosenPath;
     private bool choosing;
+    private bool gameOver;
+    private bool ownsPause;
     private float priorScale = 1f, openedAt;
     private string passiveName = "Chưa mở";
     private string branchName = "Súng cơ bản";
     private GUIStyle title, label, button, small;
+
+    internal float MoveSpeedMultiplier => 1f + PercentPerRank * sharedCoreRanks[(int)SharedCore.MoveSpeed];
+    internal float DamageMultiplier => 1f + PercentPerRank * sharedCoreRanks[(int)SharedCore.Damage];
+    internal float AttackSpeedMultiplier => 1f + PercentPerRank * sharedCoreRanks[(int)SharedCore.AttackSpeed];
+    internal int ScaleCoreDamage(int damage) => damage <= 0 ? 0 : Mathf.Max(1, Mathf.CeilToInt(damage * DamageMultiplier));
+    internal int SharedCoreRank(int index) => sharedCoreRanks[index];
 
 
     private void Awake()
@@ -60,24 +86,51 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         mageLoadout = mage.GetComponent<MageLoadout>();
         mageUltimate = mage.GetComponent<MageUltimate>();
         mageHealth = mage.GetComponent<PlayerHealth>();
+        experience = GetComponent<MageExperience>();
+        if (experience == null) experience = gameObject.AddComponent<MageExperience>();
+        experience.SetLevelLimit(6);
+        experience.LevelReached += OnLevelReached;
         gun.Integrated = true;
         melee.Integrated = true;
         mage.Integrated = true;
+        targetsMove = true;
         icons = Resources.Load<Texture2D>("Magical/MageLevelUpIconsClean");
         gunRoot.SetActive(true);
     }
 
+    private void Start()
+    {
+        // GunSkillTestArena builds its player and targets in Awake; set the test's
+        // default moving-enemy mode only after that setup has completed.
+        gun.ConfigureIntegratedTargets(targetMode, targetsMove, sturdyTargets);
+        gun.SetIntegratedCoreStats(this);
+        melee.SetIntegratedCoreStats(this);
+        mage.SetIntegratedCoreStats(this);
+        TrackPracticeEnemies();
+    }
+
     private void OnDisable()
     {
-        if (!choosing) return;
-        Time.timeScale = priorScale;
+        if (ownsPause || gameOver) Time.timeScale = priorScale;
+        ownsPause = false;
         choosing = false;
+        gameOver = false;
     }
 
     private void Update()
     {
+        if (gameOver) return;
+        TrackPracticeEnemies();
         if (choosing) return;
+        if (PracticeHealth <= 0)
+        {
+            priorScale = Time.timeScale;
+            gameOver = true;
+            Time.timeScale = 0f;
+            return;
+        }
         UpdatePracticeTargets();
+        ApplyPracticeContactDamage();
         if (chosenPath == null || selectedBranch < 0 || Keyboard.current == null) return;
         var keyboard = Keyboard.current;
         if (keyboard.qKey.wasPressedThisFrame) TryCast(0);
@@ -85,8 +138,104 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         if (keyboard.rKey.wasPressedThisFrame) TryCast(2);
     }
 
+    private void OnLevelReached(int reachedLevel)
+    {
+        pendingChoiceLevels.Enqueue(reachedLevel);
+        if (!choosing && !gameOver) ShowNextLevelChoice();
+    }
+
+    private void ShowNextLevelChoice()
+    {
+        if (pendingChoiceLevels.Count == 0 || gameOver) return;
+        activeChoiceLevel = pendingChoiceLevels.Peek();
+        stage = activeChoiceLevel switch
+        {
+            2 => Stage.Branch,
+            3 => Stage.Passive,
+            4 => Stage.FirstCore,
+            5 => Stage.SecondCore,
+            6 => Stage.Ultimate,
+            _ => Stage.Complete
+        };
+        targetMenuOpen = false;
+        if (!ownsPause)
+        {
+            priorScale = Time.timeScale;
+            ownsPause = true;
+        }
+        choosing = true;
+        Time.timeScale = 0f;
+        FillCards();
+    }
+
+    private void FinishLevelChoice()
+    {
+        cards.Clear();
+        if (pendingChoiceLevels.Count > 0) pendingChoiceLevels.Dequeue();
+        choosing = false;
+
+        if (activeChoiceLevel == 2)
+            experience.SetExperienceMultiplier(chosenPath == Path.Mage ? 1.3f : 1f);
+
+        if (pendingChoiceLevels.Count > 0)
+        {
+            ShowNextLevelChoice();
+            return;
+        }
+
+        if (ownsPause) Time.timeScale = priorScale;
+        ownsPause = false;
+    }
+
+    private void TrackPracticeEnemies()
+    {
+        GameObject activeRoot = chosenPath switch
+        {
+            Path.Melee => meleeRoot,
+            Path.Mage => mageRoot,
+            _ => gunRoot
+        };
+        foreach (EnemyHealth enemy in activeRoot.GetComponentsInChildren<EnemyHealth>())
+        {
+            if (enemy == null || enemy.CurrentHealth <= 0 || !watchedEnemies.Add(enemy)) continue;
+            enemy.Died += OnPracticeEnemyDied;
+        }
+    }
+
+    private void OnPracticeEnemyDied(EnemyHealth enemy)
+    {
+        if (enemy == null) return;
+        enemy.Died -= OnPracticeEnemyDied;
+        watchedEnemies.Remove(enemy);
+        if (gameOver || targetMode != PracticeTargetMode.Dummies) return;
+        EnemyController controller = enemy.GetComponent<EnemyController>();
+        if (controller != null && controller.IsTrainingDummy) return;
+        experience.AddExperience(Mathf.CeilToInt(enemy.MaxHealth * 0.25f));
+    }
+
+    private void OnDestroy()
+    {
+        if (experience != null) experience.LevelReached -= OnLevelReached;
+        foreach (EnemyHealth enemy in watchedEnemies)
+            if (enemy != null) enemy.Died -= OnPracticeEnemyDied;
+        if (ownsPause) Time.timeScale = priorScale;
+    }
+
     private bool UsesGunTargets => selectedBranch < 0 || chosenPath == Path.Gun;
-    private int PracticeHealth => chosenPath == Path.Mage ? mageHealth.CurrentHealth : melee.IntegratedHealth;
+    private int PracticeHealth => chosenPath switch
+    {
+        Path.Gun => gun.IntegratedHealth,
+        Path.Melee => melee.IntegratedHealth,
+        Path.Mage => mageHealth.CurrentHealth,
+        _ => gun.IntegratedHealth
+    };
+    private int PracticeMaximumHealth => chosenPath switch
+    {
+        Path.Gun => gun.IntegratedMaximumHealth,
+        Path.Melee => melee.IntegratedMaximumHealth,
+        Path.Mage => mageHealth.MaxHealth,
+        _ => 0
+    };
 
     private void UpdatePracticeTargets()
     {
@@ -147,6 +296,56 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         else mageHealth.TakeDamage(damage);
     }
 
+    private void ApplyPracticeContactDamage()
+    {
+        if (chosenPath == null || targetMode == PracticeTargetMode.AttackingBoss || PracticeHealth <= 0)
+            return;
+
+        Bounds playerBounds = chosenPath switch
+        {
+            Path.Gun => gun.IntegratedPlayerBounds,
+            Path.Melee => melee.IntegratedActorBounds,
+            Path.Mage => GetMageBounds(),
+            _ => default
+        };
+
+        EnemyHealth[] contactTargets = chosenPath == Path.Gun ? gun.IntegratedTargets : liveTargets;
+        foreach (EnemyHealth enemy in contactTargets)
+        {
+            if (enemy == null || enemy.CurrentHealth <= 0 || !enemy.gameObject.activeInHierarchy) continue;
+            Collider2D enemyCollider = enemy.GetComponent<Collider2D>();
+            if (enemyCollider == null || !enemyCollider.enabled || !OverlapsIn2D(playerBounds, enemyCollider.bounds)) continue;
+
+            Vector2 source = enemy.transform.position;
+            switch (chosenPath)
+            {
+                case Path.Gun:
+                    if (gun.IntegratedPlayerHealth != null)
+                        gun.IntegratedPlayerHealth.TakeDamage(PracticeContactDamage);
+                    break;
+                case Path.Melee:
+                    melee.ReceiveIntegratedHit(source, PracticeContactDamage);
+                    break;
+                case Path.Mage:
+                    mageHealth.TakeDamage(PracticeContactDamage);
+                    break;
+            }
+            return;
+        }
+    }
+
+    private Bounds GetMageBounds()
+    {
+        Collider2D collider = mage.GetComponent<Collider2D>();
+        return collider != null
+            ? collider.bounds
+            : new Bounds(mage.transform.position, Vector3.one * 0.5f);
+    }
+
+    private static bool OverlapsIn2D(Bounds first, Bounds second) =>
+        Mathf.Abs(first.center.x - second.center.x) <= first.extents.x + second.extents.x &&
+        Mathf.Abs(first.center.y - second.center.y) <= first.extents.y + second.extents.y;
+
     private bool TryCast(int slot)
     {
         if (choosing || skills[slot] < 0 || Time.time < nextCast[slot]) return false;
@@ -169,21 +368,15 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         }
     }
 
-    private void OpenNextStage()
-    {
-        if (choosing || stage == Stage.Complete) return;
-        targetMenuOpen = false;
-        level++;
-        stage++;
-        priorScale = Time.timeScale;
-        Time.timeScale = 0f;
-        choosing = true;
-        FillCards();
-    }
-
     private void Choose(Card card)
     {
         if (!choosing) return;
+        if (card.IsSharedCore)
+        {
+            ApplySharedCore(card.Choice);
+            FinishLevelChoice();
+            return;
+        }
         int choice = card.Choice;
         switch (stage)
         {
@@ -191,12 +384,19 @@ public sealed class CharacterProgressionTest : MonoBehaviour
                 if (chosenPath == null)
                 {
                     chosenPath = (Path)choice;
+                    ActivatePath();
                     FillCards();
                     return;
                 }
                 selectedBranch = choice;
                 branchName = card.Name;
                 ActivateBranch(choice);
+                if (activeChoiceLevel == 2 && HasAvailableSharedCores())
+                {
+                    stage = Stage.SharedCore;
+                    FillCards();
+                    return;
+                }
                 break;
             case Stage.Passive:
                 passiveName = card.Name;
@@ -217,9 +417,7 @@ public sealed class CharacterProgressionTest : MonoBehaviour
                 }
                 break;
         }
-        choosing = false;
-        cards.Clear();
-        Time.timeScale = priorScale;
+        FinishLevelChoice();
     }
 
     private void ActivateBranch(int choice)
@@ -246,6 +444,32 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         }
     }
 
+    private void ActivatePath()
+    {
+        targetsMove = true;
+        gunRoot.SetActive(chosenPath == Path.Gun);
+        meleeRoot.SetActive(chosenPath == Path.Melee);
+        mageRoot.SetActive(chosenPath == Path.Mage);
+
+        switch (chosenPath)
+        {
+            case Path.Gun:
+                gun.SetIntegratedBranch(0);
+                ResetPracticeTargets();
+                break;
+            case Path.Melee:
+                melee.ConfigureIntegratedBranch(0);
+                ResetPracticeTargets();
+                break;
+            case Path.Mage:
+                mageLoadout.SelectElement(MageElement.Fire);
+                for (int i = 0; i < 4; i++) mageLoadout.SetCore(i, false);
+                for (int i = 0; i < 3; i++) mageLoadout.SetTier(i, 0);
+                ResetPracticeTargets();
+                break;
+        }
+    }
+
     private void FillCards()
     {
         openedAt = Time.unscaledTime;
@@ -260,6 +484,40 @@ public sealed class CharacterProgressionTest : MonoBehaviour
             case Path.Gun: FillGunCards(); break;
             case Path.Melee: FillMeleeCards(); break;
             case Path.Mage: FillMageCards(); break;
+        }
+        if (activeChoiceLevel >= 3 || stage == Stage.SharedCore)
+            AddSharedCoreCards();
+    }
+
+    private bool HasAvailableSharedCores()
+    {
+        for (int i = 0; i < sharedCoreRanks.Length; i++)
+            if (sharedCoreRanks[i] < SharedCoreLimit) return true;
+        return false;
+    }
+
+    private void AddSharedCoreCards()
+    {
+        for (int i = 0; i < sharedCoreRanks.Length; i++)
+        {
+            if (sharedCoreRanks[i] >= SharedCoreLimit) continue;
+            string detail = SharedCoreDetails[i] + $" ({sharedCoreRanks[i]}/{SharedCoreLimit})";
+            cards.Add(new Card(i, SharedCoreNames[i], detail, isSharedCore: true));
+        }
+    }
+
+    private void ApplySharedCore(int choice)
+    {
+        SharedCore core = (SharedCore)choice;
+        if (choice < 0 || choice >= sharedCoreRanks.Length || sharedCoreRanks[choice] >= SharedCoreLimit) return;
+        sharedCoreRanks[choice]++;
+        if (core != SharedCore.BonusHp) return;
+
+        switch (chosenPath)
+        {
+            case Path.Gun: gun.AddIntegratedBonusHealth(BonusHealthPerRank); break;
+            case Path.Melee: melee.AddIntegratedBonusHealth(BonusHealthPerRank); break;
+            case Path.Mage: mageHealth.IncreaseMaximumHealthAndHeal(BonusHealthPerRank); break;
         }
     }
 
@@ -277,6 +535,7 @@ public sealed class CharacterProgressionTest : MonoBehaviour
 
     private void FillMeleeCards()
     {
+        if (stage == Stage.SharedCore) return;
         if (stage == Stage.Branch) { AddCards(MeleeBranches.Length, i => MeleeBranches[i]); return; }
         int group = stage == Stage.Passive ? 0 : stage == Stage.FirstCore ? 1 : stage == Stage.SecondCore ? 3 : 2;
         AddCards(3, i =>
@@ -288,6 +547,7 @@ public sealed class CharacterProgressionTest : MonoBehaviour
 
     private void FillMageCards()
     {
+        if (stage == Stage.SharedCore) return;
         if (stage == Stage.Branch)
         {
             AddCards(4, i => MageLevelProgression.ElementNames[i], 4);
@@ -327,28 +587,79 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         label ??= Style(GUI.skin.label, 15, FontStyle.Normal);
         button ??= Style(GUI.skin.button, 14, FontStyle.Bold);
         small ??= new GUIStyle(GUI.skin.box) { alignment = TextAnchor.UpperLeft, fontSize = 13 };
-        if (choosing) { DrawCards(); return; }
-        string health = UsesGunTargets ? "" : $" · HP {PracticeHealth}";
-        GUI.Box(new Rect(10, 10, Mathf.Min(Screen.width - 20, 360), 108),
-            $"Cấp {level} · {branchName}{health}\nBị động: {passiveName}\nQ: {skillNames[0]}\nE: {skillNames[1]}\nR: {skillNames[2]}", small);
-        if (chosenPath == Path.Melee)
-            GUI.Label(new Rect(10, 120, 340, 24), "WASD di chuyển · Tự đánh trong tầm · Chuột ngắm kỹ năng");
-        if (stage != Stage.Complete && GUI.Button(new Rect(Screen.width - 158, 10, 148, 34), "Thử lên cấp"))
+        if (gameOver)
         {
-            OpenNextStage();
+            Fill(new Rect(0, 0, Screen.width, Screen.height), new Color(.01f, .02f, .06f, .86f));
+            GUI.Box(new Rect(Screen.width / 2f - 180f, Screen.height / 2f - 66f, 360f, 132f), "GAME OVER", title);
+            if (GUI.Button(new Rect(Screen.width / 2f - 90f, Screen.height / 2f + 20f, 180f, 34f), "Chơi lại", button))
+                ReloadGameplay();
             return;
         }
+        if (choosing) { DrawCards(); return; }
+        string health = chosenPath == null ? "" : $" · HP {PracticeHealth}/{PracticeMaximumHealth}";
+        string xp = experience.Level >= experience.LevelLimit
+            ? $"Cấp {experience.Level} · Tối đa"
+            : $"Cấp {experience.Level} · EXP {experience.CurrentExperience}/{experience.ExperienceToNextLevel}" +
+              (experience.ExperienceMultiplier > 1f ? " · ×1,3" : "");
+        GUI.Box(new Rect(10, 10, Mathf.Min(Screen.width - 20, 360), 126),
+            $"{xp}\n{branchName}{health}\nBị động: {passiveName}\nQ: {skillNames[0]}\nE: {skillNames[1]}\nR: {skillNames[2]}", small);
+        if (chosenPath == Path.Melee)
+            GUI.Label(new Rect(10, 138, 340, 24), "WASD di chuyển · Tự đánh trong tầm · Chuột ngắm kỹ năng");
         if (GUI.Button(new Rect(Screen.width - 158, 49, 148, 34), "Chơi lại"))
         {
-#if UNITY_EDITOR
-            UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(
-                gameObject.scene.path, new LoadSceneParameters(LoadSceneMode.Single));
-#else
-            SceneManager.LoadScene(gameObject.scene.path);
-#endif
+            ReloadGameplay();
             return;
         }
         DrawTargetMenu();
+#if UNITY_EDITOR
+        DrawEditorExperienceControls();
+#endif
+    }
+
+#if UNITY_EDITOR
+    private void DrawEditorExperienceControls()
+    {
+        float y = Screen.height - 36f;
+        if (GUI.Button(new Rect(10, y, 82, 28), "+1 EXP")) experience.AddExperience(1);
+        if (GUI.Button(new Rect(98, y, 104, 28), "Đủ ngưỡng"))
+        {
+            int needed = experience.ExperienceToNextLevel - experience.CurrentExperience;
+            if (needed > 0) experience.AddExperience(BaseAmountForAward(needed));
+        }
+        if (GUI.Button(new Rect(208, y, 122, 28), "Dư 3 cấp"))
+        {
+            int needed = 0;
+            int level = experience.Level;
+            int carry = experience.CurrentExperience;
+            for (int i = 0; i < 3 && level < experience.LevelLimit; i++, level++)
+            {
+                needed += experience.RequiredExperienceForLevel(level) - carry;
+                carry = 0;
+            }
+            if (needed > 0) experience.AddExperience(BaseAmountForAward(needed + 2));
+        }
+    }
+
+    private int BaseAmountForAward(int actualExperience)
+    {
+        for (int amount = 1; amount < 100000; amount++)
+            if (Mathf.Max(1, Mathf.RoundToInt(amount * experience.ExperienceMultiplier)) == actualExperience)
+                return amount;
+        for (int amount = 1; amount < 100000; amount++)
+            if (Mathf.Max(1, Mathf.RoundToInt(amount * experience.ExperienceMultiplier)) > actualExperience)
+                return amount;
+        return actualExperience;
+    }
+#endif
+
+    private void ReloadGameplay()
+    {
+#if UNITY_EDITOR
+        UnityEditor.SceneManagement.EditorSceneManager.LoadSceneInPlayMode(
+            gameObject.scene.path, new LoadSceneParameters(LoadSceneMode.Single));
+#else
+        SceneManager.LoadScene(gameObject.scene.path);
+#endif
     }
 
     private void DrawTargetMenu()
@@ -396,13 +707,14 @@ public sealed class CharacterProgressionTest : MonoBehaviour
         float left = (Screen.width - width) / 2f;
         float top = (Screen.height - height) / 2f + (1f - appear) * 22f;
         Fill(new Rect(left, top, width, height), new Color(.06f, .08f, .14f));
-        GUI.Label(new Rect(left, top + 11f, width, 34f), $"LÊN CẤP {level}", title);
+        GUI.Label(new Rect(left, top + 11f, width, 34f), $"LÊN CẤP {activeChoiceLevel}", title);
         string instruction = stage switch
         {
             Stage.Branch => chosenPath == null ? "Chọn hệ" : "Chọn chuyên nhánh",
             Stage.Passive => "Chọn kỹ năng bị động",
             Stage.FirstCore => "Chọn Lõi 1 · Q",
             Stage.SecondCore => "Chọn Lõi 2 · E",
+            Stage.SharedCore => "Chọn lõi chỉ số dùng chung",
             _ => "Chọn chiêu cuối · R"
         };
         GUI.Label(new Rect(left, top + 45f, width, 27f), instruction, label);

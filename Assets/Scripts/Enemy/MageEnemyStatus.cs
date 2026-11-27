@@ -8,6 +8,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
     private MageEffectLibrary effects;
     private MageEffectPlayer burnEffect;
     private MageEffectPlayer curseEffect;
+    private CharacterProgressionTest integratedCoreStats;
     private SpriteRenderer iceMark;
     private int iceMarkFromFrame, iceMarkToFrame;
     private float iceMarkGrowthStart;
@@ -61,6 +62,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
     }
 
     public void SetEffects(MageEffectLibrary library) { effects = library; }
+    public void SetIntegratedCoreStats(CharacterProgressionTest stats) => integratedCoreStats = stats;
 
     private void Update()
     {
@@ -104,6 +106,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
     public void TakeMagicDamage(int damage)
     {
         if (damage <= 0 || health.CurrentHealth <= 0) return;
+        if (integratedCoreStats != null) damage = integratedCoreStats.ScaleCoreDamage(damage);
         if (!IsBoss && Time.time < stoppedUntil) pendingDamage += damage;
         else health.TakeDamage(damage);
     }

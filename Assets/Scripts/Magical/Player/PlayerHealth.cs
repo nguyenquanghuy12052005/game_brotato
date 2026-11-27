@@ -33,7 +33,7 @@ public class PlayerHealth : MonoBehaviour
         }
 
         currentHealth = Mathf.Max(0, currentHealth - damage);
-        nextDamageTime = Time.time + damageCooldown;
+        nextDamageTime = Time.time + Mathf.Max(0f, damageCooldown);
 
         Debug.Log($"Player HP: {currentHealth}/{maxHealth}");
 

@@ -274,7 +274,7 @@ internal sealed class GunLevel11 : MonoBehaviour
                     Vector2 delta = (Vector2)enemy.transform.position - origin;
                     float along = Vector2.Dot(delta, heading);
                     if (along >= 0f && along <= reach && Mathf.Abs(Vector2.Dot(delta, side)) <= along * sideGrowth)
-                        enemy.TakeDamage(tickDamage);
+                        weapon.ApplyCoreDamage(enemy, tickDamage);
                 }
             }
             yield return null;
@@ -561,7 +561,7 @@ internal sealed class GunLevel11 : MonoBehaviour
                 float across = Mathf.Abs(Vector2.Dot(delta, new Vector2(-heading.y, heading.x)));
                 if (along < -0.2f || along > front || across > halfWidth * front / reach + 0.25f) continue;
                 hit.Add(enemy);
-                enemy.TakeDamage(22 + 5 * ranks.x);
+                weapon.ApplyCoreDamage(enemy, 22 + 5 * ranks.x);
                 if (Alive(enemy) && ranks.z > 0 && enemy.TryGetComponent<GunSkillTargetEffects>(out var status))
                     status.Push(heading * (0.36f * ranks.z));
             }
@@ -587,7 +587,7 @@ internal sealed class GunLevel11 : MonoBehaviour
                 foreach (EnemyHealth enemy in targets)
                 {
                     if (!Alive(enemy) || DistanceSquared(EnemyFootPosition(enemy), origin, end) > 0.50f * 0.50f) continue;
-                    enemy.TakeDamage(5 + 2 * ranks.x);
+                    weapon.ApplyCoreDamage(enemy, 5 + 2 * ranks.x);
                 }
                 nextTick += 0.23f;
             }
@@ -630,7 +630,7 @@ internal sealed class GunLevel11 : MonoBehaviour
             while (ticks < tickCount && elapsed >= (ticks + 0.5f) * tickInterval && Alive(enemy))
             {
                 ticks++;
-                enemy.TakeDamage(damage);
+                weapon.ApplyCoreDamage(enemy, damage);
             }
             if (elapsed >= lifetime || !Alive(enemy)) break;
 
@@ -762,7 +762,7 @@ internal sealed class GunLevel11 : MonoBehaviour
         {
             if (!Alive(enemy)) continue;
             Vector2 position = useFeet ? EnemyFootPosition(enemy) : (Vector2)enemy.transform.position;
-            if ((position - center).sqrMagnitude <= radius * radius) enemy.TakeDamage(damage);
+            if ((position - center).sqrMagnitude <= radius * radius) weapon.ApplyCoreDamage(enemy, damage);
         }
     }
 

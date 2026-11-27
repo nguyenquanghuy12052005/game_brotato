@@ -114,3 +114,28 @@ Ba ultimate dùng PNG PixelFX trong `Assets/Art/Mage`, phát qua `MageEffectLibr
 ## Mage level progression implementation
 
 The separate Magical preview now implements the planned 20-level choices. Threshold `10 + 2 × (level − 1)` XP preserves overflow. Level 2 applies +30% XP; ordinary enemy XP is `ceil(max HP × 0.25)`, while training dummies give zero. Stat cards currently add +15 max/current HP, +7% movement or +7% automatic attack speed; each can be chosen at most five times. These stat values are implementation defaults pending the missing `magicstree.drawio`, and need balance testing. The level-choice UI offers 3 options by default and all 4 elements at level 9; smaller pools remain smaller rather than duplicating choices. It pauses combat until selection. This feature is restricted to Magical, with Editor-only XP and skill-test controls; GameScene remains unchanged.
+
+## EXP test rule for Gun, Melee and Mage in Gameplay (2026-11-27)
+
+This temporary rule applies only to `Gameplay.unity`; it does not change `Magical.unity` or integrate progression into `GameScene.unity`.
+
+- Award XP directly when an ordinary moving enemy dies in normal-dummy target mode: `ceil(MaxHealth × 0.25)` (13 XP for the default 50 HP target; 25 XP for a 100 HP target). Stationary training dummies and both boss target modes award zero.
+- Reuse the Mage threshold formula: level 1 requires 10 XP, increasing by 2 per prior level. The trial cap is level 6 to match its existing choice sequence.
+- Carry overflow across levels. Show one choice per reached level and keep gameplay paused until the queue is empty. Discard remaining XP at level 6 because the trial has no higher level.
+- After the level-2 branch choice, Mage receives the existing ×1.3 multiplier for future awards; Gun and Melee stay at ×1.0. The bonus is not applied retroactively.
+- Reuse existing system/branch/passive/skill/ultimate choices at levels 2–6; the initial EXP integration did not add stat cards. The shared trial cores are specified in the following section. XP buttons are compiled only in the Unity Editor.
+
+These are explicit trial choices because Gameplay had no XP rule. The reward and level-6 cap are not final balance values.
+
+## Lõi chỉ số dùng chung trong Gameplay (2026-11-27 · provisional)
+
+Các lõi chỉ áp dụng trong `Gameplay.unity`; đây là mức thử dùng chung vì tài liệu chưa chốt cho ba hệ. Mỗi lõi tối đa 5 lần, phù hợp giới hạn stat card đang có của Mage preview:
+
+| Lõi | Mỗi lần chọn | Tối đa | Áp dụng |
+| --- | --- | --- | --- |
+| Bonus HP | +15 HP tối đa và +15 HP hiện tại | 5 | Cùng quy tắc `Sinh lực` của Mage; chỉ cộng khi người chơi còn sống, HP hiện tại không vượt max. |
+| Move Speed % | +7% cộng tuyến tính | 5 | Nhân tốc độ WASD/free movement của hệ đang chọn với `1 + 0.07 × rank`. |
+| Damage % | +7% cộng tuyến tính | 5 | Nhân sát thương do hệ đang chọn gây ra, gồm đòn tự động, skill và sát thương theo thời gian. Mỗi điểm sát thương được làm tròn lên để buff không biến mất ở hit nhỏ. |
+| Attack Speed % | +7% cộng tuyến tính | 5 | Chỉ giảm nhịp đòn đánh tự động: chu kỳ bắn của Gun, đòn thường tự động của Melee, và chu kỳ đánh nguyên tố tự động của Mage. Không giảm hồi chiêu hay thời gian thi triển Q/E/R. |
+
+Lõi hợp lệ được ghép vào menu lựa chọn cấp 2–6 cùng lựa chọn hệ/nhánh/kỹ năng đang có; hệ/nhánh cấp 2 vẫn giữ lựa chọn bắt buộc. Ở các menu có lõi, chỉ hiện lõi dưới cap, mỗi loại một lần; nếu còn ít loại hợp lệ thì chỉ thêm đúng số đó, không tạo bản sao. Lõi HP tăng đồng thời max/current 15 nên giữ nguyên lượng máu thiếu tương đối; không hồi sinh người chơi đã chết. Các giá trị trên là provisional và không thay đổi Mage preview riêng.

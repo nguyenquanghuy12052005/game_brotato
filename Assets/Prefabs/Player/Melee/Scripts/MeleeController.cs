@@ -48,6 +48,17 @@ public sealed partial class MeleeController : MonoBehaviour
     public Sprite CurrentSprite => actor != null ? actor.sprite : null;
 
     internal bool Integrated { get; set; }
+    private CharacterProgressionTest integratedCoreStats;
+    private int integratedMaximumHealth = 100;
+
+    internal void SetIntegratedCoreStats(CharacterProgressionTest stats) => integratedCoreStats = Integrated ? stats : null;
+
+    internal void AddIntegratedBonusHealth(int amount)
+    {
+        if (!Integrated || IntegratedHealth <= 0 || amount <= 0) return;
+        integratedMaximumHealth += amount;
+        playerDummyHp = Mathf.Min(integratedMaximumHealth, playerDummyHp + amount);
+    }
     private int integratedPassive = -1;
     private int integratedAimDirection = -1;
     private Vector2 integratedAim;
@@ -64,6 +75,10 @@ public sealed partial class MeleeController : MonoBehaviour
     private Vector3 FreeCharacterPosition => freeCasting ? castOrigin + SkillDisplacement(clock) : freePosition;
     internal Vector3 IntegratedGround => (actor != null ? FreeCharacterPosition : FreeSpawn) + TrainingFloor;
     internal int IntegratedHealth => Mathf.CeilToInt(playerDummyHp);
+    internal int IntegratedMaximumHealth => integratedMaximumHealth;
+    internal Bounds IntegratedActorBounds => actor != null
+        ? actor.bounds
+        : new Bounds(IntegratedGround, new Vector3(0.8f, 1f, 0f));
 
     internal void SetIntegratedTargets(EnemyHealth[] enemies)
     {
@@ -82,7 +97,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     internal void RestoreIntegratedHealth()
     {
-        playerDummyHp = 100f;
+        playerDummyHp = integratedMaximumHealth;
         nextIntegratedDamage = 0f;
     }
 
@@ -508,7 +523,8 @@ public sealed partial class MeleeController : MonoBehaviour
                 if (wasBasic)
                 {
                     if (hold > 0) hold -= delta;
-                    else clock += delta * (halfSpeed ? .5f : 1);
+                    else clock += delta * (halfSpeed ? .5f : 1) *
+                        (Integrated && integratedCoreStats != null ? integratedCoreStats.AttackSpeedMultiplier : 1f);
                 }
                 if (clock >= AttackDuration)
                 {
@@ -523,8 +539,10 @@ public sealed partial class MeleeController : MonoBehaviour
                 {
                     if (previewV2 && skillIndex == 23 && projectileLocked)
                     {
-                        freeVelocity = Vector3.MoveTowards(freeVelocity, (Vector3)move * freeMoveSpeed,
-                            delta * freeMoveSpeed * 12);
+                        float moveSpeed = freeMoveSpeed * (Integrated && integratedCoreStats != null
+                            ? integratedCoreStats.MoveSpeedMultiplier : 1f);
+                        freeVelocity = Vector3.MoveTowards(freeVelocity, (Vector3)move * moveSpeed,
+                            delta * moveSpeed * 12);
                         castOrigin += freeVelocity * delta;
                     }
                     if (hold > 0) hold -= delta;
@@ -540,7 +558,9 @@ public sealed partial class MeleeController : MonoBehaviour
             else if (Integrated || !basicCasting)
             {
                 bool wasMoving = freeVelocity.sqrMagnitude > .025f;
-                freeVelocity = Vector3.MoveTowards(freeVelocity, (Vector3)move * freeMoveSpeed, delta * freeMoveSpeed * 12);
+                float moveSpeed = freeMoveSpeed * (Integrated && integratedCoreStats != null
+                    ? integratedCoreStats.MoveSpeedMultiplier : 1f);
+                freeVelocity = Vector3.MoveTowards(freeVelocity, (Vector3)move * moveSpeed, delta * moveSpeed * 12);
                 freePosition += freeVelocity * delta;
                 if (previewV2 && wasMoving != (freeVelocity.sqrMagnitude > .025f)) locomotionTime = 0;
                 else locomotionTime += delta;

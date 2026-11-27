@@ -228,6 +228,20 @@ Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi l�
 - The source level-up atlas is a 4-column by 8-row sheet, but several effects overlap cell boundaries. Preserve that sheet unchanged as source art. The UI loads a separate clean atlas containing alpha-isolated icon components centered on transparent square cells; runtime UV sampling uses the clean atlas's 4×8 grid. This prevents card icons from showing clipped or neighboring art.
 - Keep the modal in the existing IMGUI preview UI, with a compact centered panel, legible card content, clear action buttons and a dimmed backdrop. Verify both three-card and four-card layouts after visual changes.
 
+## M24 - EXP trial for three systems in Gameplay (2026-11-27)
+
+- Keep progression scoped to `Gameplay.unity` and share the existing `MageExperience` rules through `CharacterProgressionTest`; do not let integrated Mage create a second progression component. The trial cap is level 6 to match its current choice sequence.
+- Directly award ordinary moving enemies in normal dummy mode `ceil(MaxHealth × 0.25)` XP. Stationary training dummies and both boss modes award zero. Reuse Mage thresholds, retain overflow, process each reached level as a separate paused choice, and discard overflow only at the level-6 cap.
+- Apply Mage's existing ×1.3 XP bonus after its level-2 branch selection; Gun and Melee remain ×1.0. This is a temporary test rule, not final balance. Do not add character-stat/core-stat cards or wire the trial into GameScene.
+- Editor-only XP buttons are permitted for tests; no XP test controls are included in player builds.
+
+## M25 - Shared stat cores for Gameplay trial (2026-11-27)
+
+- Provisional shared values: Bonus HP +15 max/current HP, Move Speed +7%, Damage +7%, Attack Speed +7% per choice; each stat caps at five choices, matching Mage's current +15/+7% stat card values and its five-rank cap.
+- Apply HP only to a living selected character. Use additive percentage ranks (`1 + 0.07 × rank`) for move, damage and attack speed. Round damage upward to retain small-hit gains.
+- Damage applies once to all player-caused damage for the selected system, including automatic attacks, skills and Mage damage-over-time. Attack speed affects only automatic attack intervals/animation cadence for Gun, Melee basic attacks and Mage automatic element attacks; Q/E/R cooldowns and cast durations stay unchanged.
+- Append each below-cap shared core once to existing level-choice menus. Keep level-2 system/specialization choices intact. Omit capped cores and do not duplicate options to fill remaining card slots. Scope only to `Gameplay.unity`; do not change the separate Mage progression or `GameScene.unity`.
+
 ## Thứ tự chọn lõi trong sân thử ba hệ
 
 Chốt Base → chọn hệ và chuyên nhánh → bị động → Lõi 1 (Q) → Lõi 2 (E) → chiêu cuối (R). Bản thử mở một bước mỗi lần lên cấp từ cấp 2 đến cấp 6. Ở cấp 2, chọn hệ trước rồi chọn chuyên nhánh trong cùng lần lên cấp. Pháp sư có đủ Hỏa, Băng, Quang, Ám. Cận chiến dùng nhóm P làm bị động, E cho Lõi 1, F cho Lõi 2 và R cho chiêu cuối. Pháp sư chọn một bị động sẵn có của nguyên tố và dùng hai phép khởi đầu khác nhau cho Q/E. Các thẻ thiếu icon dùng tên kỹ năng. Chưa đưa vào nâng chỉ số nhân vật.

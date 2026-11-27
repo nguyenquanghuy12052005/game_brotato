@@ -1944,11 +1944,8 @@ public sealed partial class MeleeController
     internal void ReceiveIntegratedHit(Vector2? source, int damage)
     {
         if (!previewV2 || paused || playerDummyHp <= 0f) return;
-        if (source.HasValue)
-        {
-            if (Time.time < nextIntegratedDamage) return;
-            nextIntegratedDamage = Time.time + .58f;
-        }
+        if (Time.time < nextIntegratedDamage) return;
+        nextIntegratedDamage = Time.time + .75f;
         bool counter = SelectedPassive == 2 && practiceTime >= parryReadyAt;
         playerDummyHp = Mathf.Max(0, playerDummyHp - (counter ? damage * .4f : damage));
         if (!counter) return;
@@ -2958,10 +2955,12 @@ public sealed partial class MeleeController
 
     private void ApplyTrainingDamage(PreviewTarget target, float damage)
     {
+        int appliedDamage = Mathf.RoundToInt(damage);
+        if (Integrated && integratedCoreStats != null) appliedDamage = integratedCoreStats.ScaleCoreDamage(appliedDamage);
         if (target.LiveEnemy != null)
-            target.LiveEnemy.TakeDamage(Mathf.RoundToInt(damage));
+            target.LiveEnemy.TakeDamage(appliedDamage);
         else
-            target.Hp = Mathf.Max(0, target.Hp - damage);
+            target.Hp = Mathf.Max(0, target.Hp - appliedDamage);
     }
 
     private void ApplyStyleContact(PreviewTarget target, float damage, Vector3 forward)

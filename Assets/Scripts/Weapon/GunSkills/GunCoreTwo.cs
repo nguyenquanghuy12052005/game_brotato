@@ -258,7 +258,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
             sprite.sprite = newArt.Loop(GunNewSkillArt.Clip.Saw, elapsed, 30f, 0, 15);
             if (Time.time >= nextHit)
             {
-                if (close) enemy.TakeDamage(7 + ranks.x);
+                if (close) weapon.ApplyCoreDamage(enemy, 7 + ranks.x);
                 nextHit += 0.35f;
             }
             yield return null;
@@ -312,7 +312,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
             float now = Time.time;
             while (Alive(enemy) && now >= nextTick && nextTick <= poison.ExpiresAt)
             {
-                enemy.TakeDamage(3);
+                weapon.ApplyCoreDamage(enemy, 3);
                 float slow = Mathf.Min(0.45f, 0.10f + 0.10f * (nextTick - start));
                 poison.Movement?.SetPoisonSlow(slow);
                 nextTick += interval;
@@ -378,7 +378,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
 
         if (Time.time < nextDecayHit) return;
         nextDecayHit = Time.time + 0.24f;
-        enemy.TakeDamage(4 + 2 * ranks.y);
+        weapon.ApplyCoreDamage(enemy, 4 + 2 * ranks.y);
     }
 
     private IEnumerator DecayAura(EnemyHealth enemy)
@@ -469,7 +469,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
         foreach (var hit in portalBeamHits)
         {
             var enemy = hit.collider.GetComponentInParent<EnemyHealth>();
-            if (Alive(enemy) && damagedByBeam.Add(enemy)) enemy.TakeDamage(damage);
+            if (Alive(enemy) && damagedByBeam.Add(enemy)) weapon.ApplyCoreDamage(enemy, damage);
         }
     }
 
@@ -512,7 +512,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
                 status.Stun(1.25f);
                 if (anchorStuns.Add(status)) StartCoroutine(ShowAnchorStun(enemy, view, status));
             }
-            enemy.TakeDamage(30 + 5 * ranks.x);
+            weapon.ApplyCoreDamage(enemy, 30 + 5 * ranks.x);
             yield break;
         }
 
@@ -524,7 +524,7 @@ internal sealed class GunCoreTwo : MonoBehaviour
             Bounds nearbyBody = TargetBounds(nearby, nearby.GetComponentInChildren<SpriteRenderer>());
             Vector2 foot = new Vector2(nearbyBody.center.x, nearbyBody.min.y);
             if (Vector2.Distance(foot, origin) <= radius)
-                nearby.TakeDamage(15 + 3 * ranks.x);
+                weapon.ApplyCoreDamage(nearby, 15 + 3 * ranks.x);
         }
     }
 
