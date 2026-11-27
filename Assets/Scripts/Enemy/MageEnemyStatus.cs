@@ -65,6 +65,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
     private void Update()
     {
         float now = Time.time;
+        UpdateIceMarkAnchor();
         if (now >= stoppedUntil && pendingDamage > 0)
         {
             int damage = pendingDamage;
@@ -90,6 +91,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
         else { curseProgress = 0f; RemoveEffect(ref curseEffect); }
 
         if (now >= iceMarksUntil && iceMarks > 0) { iceMarks = 0; RemoveIceMark(); }
+        if (iceMark != null && iceMarks == 0 && !IsFrozen) RemoveIceMark();
         if (iceMark != null && iceMark.sprite != null && effects != null)
         {
             float growth = Mathf.Clamp01((now - iceMarkGrowthStart) / 0.25f);
@@ -139,8 +141,7 @@ public sealed class MageEnemyStatus : MonoBehaviour
         iceMarks = 0;
         coldFocusStacks = 0;
         frozenUntil = Time.time + freezeDuration;
-        RemoveIceMark();
-        if (effects != null) effects.Play(MageEffectId.Freeze, transform.position, 0.55f, transform, 17);
+        ShowFrozenIceMark();
         return true;
     }
 
@@ -168,24 +169,59 @@ public sealed class MageEnemyStatus : MonoBehaviour
     private void ShowIceMark()
     {
         if (effects == null) return;
-        if (iceMark == null)
-        {
-            var child = new GameObject("Ice Mark");
-            child.transform.SetParent(transform, false);
-            child.transform.localScale = Vector3.one * 0.75f;
-            iceMark = child.AddComponent<SpriteRenderer>();
-            iceMark.sortingOrder = 16;
-        }
-        int[] formationFrames = { 10, 19, 24, 30, 35 };
+        EnsureIceMark();
+        // Stay on the same growing ice shell instead of showing a separate
+        // small glyph before the enemy is frozen.
+        int[] formationFrames = { 30, 31, 32, 33, 34 };
         iceMarkFromFrame = iceMark.sprite == null ? 0 : iceMarkToFrame;
         iceMarkToFrame = formationFrames[Mathf.Clamp(iceMarks - 1, 0, 4)];
         iceMarkGrowthStart = Time.time;
         iceMark.sprite = effects.GetFrame(MageEffectId.Freeze, iceMarkFromFrame);
+        iceMark.transform.localScale = Vector3.one * (1.05f + 0.14f * iceMarks);
+    }
+
+    private void ShowFrozenIceMark()
+    {
+        if (effects == null) { RemoveIceMark(); return; }
+        EnsureIceMark();
+        iceMark.sprite = effects.GetFrame(MageEffectId.Freeze, 34);
+        iceMark.transform.localScale = Vector3.one * 1.75f;
+        iceMark.sortingOrder = 17;
+        iceMarkFromFrame = iceMarkToFrame = 34;
+        iceMarkGrowthStart = Time.time;
+    }
+
+    private void EnsureIceMark()
+    {
+        if (iceMark != null) return;
+        var child = new GameObject("Ice Freeze Progress");
+        child.transform.SetParent(transform, false);
+        iceMark = child.AddComponent<SpriteRenderer>();
+        iceMark.sortingOrder = 16;
+        UpdateIceMarkAnchor();
+    }
+
+    private void UpdateIceMarkAnchor()
+    {
+        if (iceMark == null) return;
+        SpriteRenderer enemyRenderer = GetComponent<SpriteRenderer>();
+        if (enemyRenderer == null) enemyRenderer = GetComponentInChildren<SpriteRenderer>();
+        if (enemyRenderer == null) return;
+
+        Vector3 feet = transform.InverseTransformPoint(new Vector3(
+            enemyRenderer.bounds.center.x, enemyRenderer.bounds.min.y, transform.position.z));
+        iceMark.transform.localPosition = new Vector3(0f, feet.y, 0f);
     }
 
     private void RemoveIceMark()
     {
-        if (iceMark != null) Destroy(iceMark.gameObject);
+        if (iceMark != null)
+        {
+            // Hide it immediately so expired marks disappear before Unity's
+            // end-of-frame Destroy cleanup.
+            iceMark.enabled = false;
+            Destroy(iceMark.gameObject);
+        }
         iceMark = null;
     }
 

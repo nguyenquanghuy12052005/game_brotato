@@ -56,6 +56,13 @@ public class PlayerHealth : MonoBehaviour
         canTakeDamage = value;
     }
 
+    public void IncreaseMaximumHealthAndHeal(int amount)
+    {
+        if (amount <= 0 || isDead) return;
+        maxHealth += amount;
+        currentHealth = Mathf.Min(maxHealth, currentHealth + amount);
+    }
+
     // Sang map mới thì hồi đầy máu.
     public void RestoreFullHealth()
     {

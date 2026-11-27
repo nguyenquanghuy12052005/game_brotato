@@ -6,6 +6,9 @@ public sealed class MageEffectPlayer : MonoBehaviour
     private Sprite[] frames;
     private float fps;
     private float elapsed;
+    private float animationElapsed;
+    private float animationSpeed = 1f;
+    private int frameLimit;
     private bool loop;
     private MageAim followingAim;
     private float followDistance;
@@ -26,10 +29,21 @@ public sealed class MageEffectPlayer : MonoBehaviour
         transform.localScale = Vector3.one * startScale;
     }
 
+    public void SetAnimationSpeed(float speed)
+    {
+        animationSpeed = Mathf.Max(0.05f, speed);
+    }
+
+    public void SetFrameLimit(int count)
+    {
+        frameLimit = frames == null ? 0 : Mathf.Clamp(count, 1, frames.Length);
+    }
+
     public void Initialize(SpriteRenderer renderer, Sprite[] animationFrames, float framesPerSecond, bool shouldLoop)
     {
         spriteRenderer = renderer;
         frames = animationFrames;
+        frameLimit = frames.Length;
         fps = framesPerSecond;
         loop = shouldLoop;
         spriteRenderer.sprite = frames[0];
@@ -39,19 +53,20 @@ public sealed class MageEffectPlayer : MonoBehaviour
     {
         if (frames == null) return;
         elapsed += Time.deltaTime;
+        animationElapsed += Time.deltaTime * animationSpeed;
         if (followingAim != null) UpdateAimPosition();
         if (scaleDuration > 0f)
             transform.localScale = Vector3.one * Mathf.Lerp(startScale, endScale,
                 Mathf.Clamp01(elapsed / scaleDuration));
-        int frame = Mathf.FloorToInt(elapsed * fps);
-        if (frame >= frames.Length)
+        int frame = Mathf.FloorToInt(animationElapsed * fps);
+        if (frame >= frameLimit)
         {
             if (!loop)
             {
                 Destroy(gameObject);
                 return;
             }
-            frame %= frames.Length;
+            frame %= frameLimit;
         }
         spriteRenderer.sprite = frames[frame];
     }
