@@ -1,0 +1,53 @@
+{
+  "items": [
+    {
+      "name": "Logo",
+      "x": 1124,
+      "y": 8,
+      "width": 728,
+      "height": 294
+    },
+    {
+      "name": "start",
+      "x": 78,
+      "y": 897,
+      "width": 401,
+      "height": 119
+    },
+    {
+      "name": "continue",
+      "x": 493,
+      "y": 927,
+      "width": 303,
+      "height": 88
+    },
+    {
+      "name": "stages",
+      "x": 810,
+      "y": 933,
+      "width": 266,
+      "height": 82
+    },
+    {
+      "name": "guide",
+      "x": 1090,
+      "y": 933,
+      "width": 286,
+      "height": 82
+    },
+    {
+      "name": "settings",
+      "x": 1390,
+      "y": 933,
+      "width": 247,
+      "height": 82
+    },
+    {
+      "name": "exit",
+      "x": 1651,
+      "y": 933,
+      "width": 191,
+      "height": 82
+    }
+  ]
+}

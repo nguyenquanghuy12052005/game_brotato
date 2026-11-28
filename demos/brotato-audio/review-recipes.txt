@@ -1,0 +1,21 @@
+# ID and spotting for the hand-edited pass. p prep / c execution / m travel or sustain / h target / t tail.
+45 icevortex hex c:ice_launch@0 m:blizzard_flow@.06 c:ice_grain@.78 c:ice_grain@2.20 c:ice_grain@4.06 c:ice_grain@5.61 h:ice_pin@4.48 t:wind_release@6.82
+46 ballisticfall hex m:meteor_whistle@0 m:meteor_whistle@.22 m:meteor_whistle@.44 m:meteor_whistle@.66 m:meteor_whistle@.88 c:stone_impact@.475 c:stone_impact@.695 c:stone_impact@.915 c:stone_impact@1.135 c:stone_impact@1.355 h:target_thud@.475 h:target_thud@.695 h:target_thud@.915 h:target_thud@1.135 h:target_thud@1.355 t:falling_rubble@1.38
+47 deploycore hex c:turret_seat@0 m:plasma_hum@.12 c:plasma_pulse@0 c:plasma_pulse@1 c:plasma_pulse@2 c:plasma_pulse@3 c:plasma_pulse@4 c:plasma_pulse@5 c:plasma_pulse@6 c:plasma_pulse@7 c:plasma_pulse@8 c:plasma_pulse@9 c:plasma_pulse@10 c:plasma_pulse@11 c:plasma_pulse@12 c:plasma_pulse@13 c:plasma_pulse@14 h:target_thud@1 h:target_thud@2 h:target_thud@3 h:target_thud@4 h:target_thud@5 h:target_thud@6 h:target_thud@7 h:target_thud@8 h:target_thud@9 h:target_thud@10 h:target_thud@11 h:target_thud@12 h:target_thud@13 h:target_thud@14 t:turret_unlatch@14.92
+48 pairedrails hex c:cage_latch@0 m:cage_hum@.13 c:cage_pair@.44 c:cage_pair@.72 c:cage_pair@1.00 c:cage_pair@1.28 c:cage_pair@1.56 c:cage_pair@1.84 h:target_thud@.44 h:target_thud@.72 h:target_thud@1.00 h:target_thud@1.28 h:target_thud@1.56 h:target_thud@1.84 t:cage_fold@2.14
+53 shortstep blade p:cloth@0 c:step@.225 m:sword_air@.30 c:steel_wire@.45 h:stab@.525 t:scuff@.675
+54 orbitallite blade c:orbit_air@0 m:steel_wire@.14 h:metal@.24 t:cloth@.40
+55 counterblade blade c:steel_lock@.14 c:sword_air@.36 h:stab@.48 t:steel_wire@.53
+56 ambushrev blade p:shadow_fold@0 m:cloth@.17 c:ghost_edge@.28 h:stab@.36 c:reverse_edge@.50 h:blade_contact@.59
+62 compactslam blade p:ratchet@0 c:weighted_air@.24 c:stone_impact@.41 h:target_thud@.43 t:pebbles@.46
+68 polishedcrescent blade c:steel_wire@0 m:crescent_air@.13 h:blade_contact@.32 t:crystal_tail@.40
+74 groundstrike hex p:step@0 p:lift_cloth@.11 m:meteor_whistle@.40 c:weighted_air@.53 c:fault_release@.77 h:target_thud@.79 t:falling_rubble@.81 t:ground_ring@.96 t:ground_ring@1.20
+75 layeredthree hex p:steel_lock@0 c:needle_wave@.38 h:blade_contact@.59 c:spreading_wave@.97 h:blade_contact@1.24 p:reverse_edge@1.44 c:tear_space@1.81 h:blade_contact@2.12 t:crystal_tail@2.17
+76 shadowensemble hex p:shadow_fold@0 c:ghost_edge@.29 c:ghost_edge@.36 c:ghost_edge@.43 c:ghost_edge@.50 h:blade_contact@.51 c:ghost_edge@.76 c:ghost_edge@.83 c:ghost_edge@.90 c:ghost_edge@.97 h:blade_contact@.98 m:cloth@1.14 c:reverse_edge@1.30 c:shadow_verdict@1.42 h:target_thud@1.44 t:shadow_fade@1.55
+81 firepacket arcane c:fire_mouth@0 m:fire_sweep@.04 h:fire_bloom@.20 h:ember@.28
+87 icebreathrev arcane c:ice_exhale@0 c:ice_grain@.065 h:ice_contact@0 t:frost@.24
+93 lightmeasure arcane c:column_tone@0 c:column_tone@.25 c:column_tone@.50 c:column_tone@.75 h:crystal_touch@0 h:crystal_touch@.25 h:crystal_touch@.50 h:crystal_touch@.75 t:crystal_tail@.79
+99 darkseeker arcane c:curse_launch@0 m:curse_flight@.055 h:curse_clasp@.22 h:shadow_fade@.31
+105 frozenclock hex c:clock_break@0 m:time_bed@.07 t:time_unfold@3 h:glass_debt@3.02
+106 fallingchimes hex p:star_mark@0 c:star_impact@0 c:star_impact@.40 c:star_impact@.80 c:star_impact@1.20 c:star_impact@1.60 h:crystal_touch@0 h:crystal_touch@.40 h:crystal_touch@.80 h:crystal_touch@1.20 h:crystal_touch@1.60 t:star_tail@1.63
+107 chargedcore hex c:orb_ignite@0 m:orb_current@.08 c:orb_release@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 m:orb_bolt@8 h:blade_contact@8.40 h:glass_debt@8.53 t:crystal_tail@8.57

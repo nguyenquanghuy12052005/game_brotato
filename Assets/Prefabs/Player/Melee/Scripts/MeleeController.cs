@@ -209,6 +209,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (AudioStudio) return;
         if (Integrated && Time.timeScale == 0f) return;
         UpdatePreviewViewport();
         if (!paused) practiceTime += Mathf.Min(Time.unscaledDeltaTime, .05f) * (halfSpeed ? .5f : 1);
@@ -241,12 +242,13 @@ public sealed partial class MeleeController : MonoBehaviour
             FinishTrainingDraw();
             return;
         }
-        FinishTrainingDraw();
         if (!OriginalEast || selection is Preview.Idle or Preview.Run or Preview.Turn)
         {
             RenderOther();
+            FinishTrainingDraw();
             return;
         }
+        FinishTrainingDraw();
         ClearFeedback();
         float skillTime = selection == Preview.Chain ? clock - ChainLead : clock;
         bool hasSkill = selection == Preview.Q1 || selection == Preview.Chain;
@@ -574,9 +576,9 @@ public sealed partial class MeleeController : MonoBehaviour
         if (Integrated)
         {
             Vector3 center = FreeSpawn + cameraFollow;
-            previewCamera.transform.position = new Vector3(center.x, center.y, cameraRest.z);
+            previewCamera.transform.position = new Vector3(center.x, center.y, cameraRest.z) + coreCameraShake;
         }
-        else previewCamera.transform.position += cameraFollow + PracticeFramingOffset;
+        else previewCamera.transform.position += cameraFollow + PracticeFramingOffset + coreCameraShake;
         FinishTrainingDraw();
     }
 
@@ -603,6 +605,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void UpdatePreviewViewport()
     {
+        if (AudioStudio) return;
         if (Integrated)
         {
             previewCamera.rect = new Rect(0f, 0f, 1f, 1f);
@@ -613,7 +616,7 @@ public sealed partial class MeleeController : MonoBehaviour
         float top = Mathf.Min(.45f, HudHeight / Mathf.Max(1, Screen.height));
         previewCamera.rect = new Rect(dock, 0, 1 - dock, 1 - top);
         float aspect = Mathf.Max(.01f, Screen.width * (1 - dock) / Mathf.Max(1, Screen.height * (1 - top)));
-        float room = HasLongPreviewRange ? 2.04f : previewV2 && IsBranchSkill ? 1.48f : 1;
+        float room = IsCore ? 1.95f : HasLongPreviewRange ? 2.04f : previewV2 && IsBranchSkill ? 1.48f : 1;
         previewCamera.orthographicSize = previewCameraSize * Mathf.Max(1, 1.08f / aspect) * room;
     }
 
@@ -625,7 +628,7 @@ public sealed partial class MeleeController : MonoBehaviour
 
     private void OnGUI()
     {
-        if (Integrated) return;
+        if (Integrated || AudioStudio) return;
         if (actor == null) return;
         BuildStyles();
         float dock = DockWidth;

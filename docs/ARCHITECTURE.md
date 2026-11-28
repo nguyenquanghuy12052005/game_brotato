@@ -1,5 +1,19 @@
 # Actual architecture
 
+## Audio Preview Studio
+
+`Assets/Scenes/AudioPreviewScene.unity` là scene review độc lập trong Unity Editor. Setup tạo bản catalog Unity từ demo web và lấy các tham chiếu rig/atlas từ scene Cận chiến, scene Súng và prefab Mage. Studio đọc WAV cục bộ từ checkout khi người dùng bấm phát. Hai AudioSource của Studio tách Nhạc và SFX, còn phối cuối dùng Master riêng.
+
+AudioPreviewCharacterDriver lấy thời gian theo mẫu âm thanh để điều khiển rig Cận chiến hoặc dựng hình Súng/Pháp sư bằng atlas. Cờ `AudioStudio` chỉ tắt clock, GUI và cue cũ của rig trong scene này. [Cách dùng và mức độ minh họa](HEXCORE_UNITY_AUDIO_PREVIEW.md)
+
+Studio lấy bảy take Gun/Mage đã ghi từ scene nguồn qua VideoPlayer, ưu tiên đồng hồ AudioSource. Mode so sánh, loop rời và bản hụt chưa có take phù hợp dùng audition tách hình. Trạng thái duyệt và nhận xét được khóa theo ID, biến thể và vòng phối.
+
+## Scene MainMenu
+
+`Assets/Scenes/MainMenu.unity` có Camera, MainCanvas, EventSystem với Input System và MainMenuController. Controller tạo panel uGUI theo khung 1920×1080. Phần Guide dùng catalog JSON và sprite Idle. Tranh, logo, mặt nút và dữ liệu menu được nạp từ `Assets/Resources/BrotatoMenu`. Các nút và nội dung Guide là control Unity có focus và cuộn.
+
+MainMenu tải GameScene qua SceneManager khi người chơi vào Forest. Cài đặt nhạc, âm lượng và chuyển động menu lưu qua PlayerPrefs. Tiến trình của Guide chỉ dùng dữ liệu trình diễn trong scene.
+
 `MageAim.CastPoint` uses the Staff transform and a serialized local sprite-tip offset, so projectile origins follow staff rotation and scale. `MageCombat` uses this point for Fire, Dark and Ice casting; `MageUltimate` uses it for Arcane missiles. Projectile sprite pivots align their visible rear with the origin, and `MageProjectile` checks collisions immediately on spawn as well as during movement.
 
 `Magical.unity` uses `MageDemoHUD` as its training control surface. It references the existing Enemy prefab, the `Preview Enemies` container and Mage transform to rebuild stationary, non-damaging targets at runtime. `EnemyController` accepts a training-dummy flag and adds gravity velocity supplied by `MageEnemyStatus`; the same status component animates one progressive Ice Mark overlay. `MageEffectPlayer` can follow `MageAim` and animate visual scale for Ice Breath and Shockwave/Orb presentation. The training setup is confined to the Magical scene; `GameScene.unity` retains its wave loop.
@@ -106,3 +120,5 @@ GunSkillTestArena.skillNoGlowMaterial supplies a dedicated Sprite-compatible alp
 `CharacterProgressionTest.unity` chứa ba nhóm tham chiếu từ các sân thử Súng, Cận chiến và Pháp sư. Bộ điều khiển chung chỉ bật nhóm tương ứng, quản lý EXP, mở thẻ và chuyển phím Q/E/R đến hiệu ứng có sẵn của hệ. Mỗi nhóm giữ camera, nhân vật và bia tập của sân gốc. Nhấn Thử lên cấp để đi qua thứ tự đã định mà không cần dọn hết bia. Những scene thử độc lập vẫn dùng điều khiển cũ.
 
 Trong sân thử ba hệ, nút Thử lên cấp là nguồn duy nhất mở thẻ. Menu quái dùng chung bộ tạo bia và boss của GunSkillTestArena. Cận chiến liên kết vùng tác động của clip với EnemyHealth của quái thật; Pháp sư dùng cùng quần thể thay cho bộ bia riêng của MageDemoHUD.
+
+Ba lõi cuối Cận chiến chạy cùng timeline trong hai sân thử. `MeleeSkillController.cs` dùng chung kích thước cho VFX và vùng đánh, tái sử dụng bộ vẽ đường và sprite dư ảnh. Vùng đáp dùng điểm neo của clip. Các đợt kiếm khí và lao chém quét từ vị trí mẫu trước đến vị trí hiện tại và đánh dấu mục tiêu đã trúng bằng mặt nạ theo nhịp.

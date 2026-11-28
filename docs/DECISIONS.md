@@ -1,5 +1,16 @@
 # Decisions
 
+## Audio Preview Studio
+
+- Dùng chung catalog và WAV của bản web để kiểm tra âm trong Unity mà không nhân bản thư viện WAV vào Assets. Giữ scene ngoài cấu hình startup và build game.
+- Lấy thời gian hiển thị từ vị trí sample của AudioSource. Chỉ rig Cận chiến chạy timeline sân thử thực. Súng, Pháp sư, quái và Boss ghi rõ khi đang dựng hình theo mốc preview. [Chi tiết](HEXCORE_UNITY_AUDIO_PREVIEW.md)
+- Vòng Foley lưu WAV mới riêng để nghe A/B, giữ take Gun/Mage đọc từ ghi hình runtime và tách nhận xét theo phiên bản. Không dùng một take hit cho bản hụt hoặc số đạn khác. [Phạm vi xác minh](HEXCORE_AUDIO_QUALITY_REPORT.md)
+
+## MainMenu Unity · Concept B
+
+- Dùng tranh, logo và mặt nút đã duyệt từ demo B. Các thao tác dùng uGUI và Input System của dự án. Nhân vật, quái và ảnh bản đồ của Guide lấy từ tài nguyên đã kiểm tra trong bản demo.
+- Nối luồng Bắt đầu vào Forest qua GameScene. Giữ Chơi tiếp ở trạng thái khóa và dùng dữ liệu minh họa cho bộ sưu tập trong vòng duyệt scene.
+
 ## HEXCORE · Đòn bay sau phản hồi Rev2
 
 Hai sóng Basic Kiếm khí ghi điểm bị động theo nhát. Song Ảnh gộp danh sách bia đã trúng của ba làn. Hoành Thiên dùng dải bán kính vừa quét qua. Cả ba giữ quy tắc va chạm trong demo. [Đặc tả v2.1 cập nhật](Melee/HEXCORE_SKILL_VISUAL_POLISH_V2_1.md)
@@ -231,3 +242,8 @@ Bản thử nâng cấp mỗi nhánh theo ba lựa chọn độc lập, mỗi l�
 ## Thứ tự chọn lõi trong sân thử ba hệ
 
 Chốt Base → chọn hệ và chuyên nhánh → bị động → Lõi 1 (Q) → Lõi 2 (E) → chiêu cuối (R). Bản thử mở một bước mỗi lần lên cấp từ cấp 2 đến cấp 6. Ở cấp 2, chọn hệ trước rồi chọn chuyên nhánh trong cùng lần lên cấp. Pháp sư có đủ Hỏa, Băng, Quang, Ám. Cận chiến dùng nhóm P làm bị động, E cho Lõi 1, F cho Lõi 2 và R cho chiêu cuối. Pháp sư chọn một bị động sẵn có của nguyên tố và dùng hai phép khởi đầu khác nhau cho Q/E. Các thẻ thiếu icon dùng tên kỹ năng. Chưa đưa vào nâng chỉ số nhân vật.
+
+## Quy mô ba lõi cuối Cận chiến (2026-11-27)
+
+- Giữ concept và pose nhân vật. Thiên Vẫn nhấn vào điểm đáp, Tam Thiên tăng dần qua ba sóng, Vạn Ảnh dùng hai lượt cắt chéo lệch nhịp rồi kết liễu.
+- Thiên Vẫn tính trúng một lần lúc đáp. Tam Thiên và Vạn Ảnh quét vùng giữa các khung để bắt mục tiêu trên đường hiệu ứng đi qua. Các đường giao nhau của Vạn Ảnh dùng chung giới hạn một hit mỗi mục tiêu trong một lượt.

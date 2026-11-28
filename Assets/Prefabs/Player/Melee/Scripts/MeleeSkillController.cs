@@ -84,9 +84,9 @@ internal static class MeleeSkillController
             new[] { .23f, .17f, .32f, .14f, .28f },
             new[] { .22f, .15f, .24f, .17f, .14f, .25f, .30f },
             new[] { .23f, .22f, .23f, .31f, .21f, .23f, .33f },
-            new[] { .23f, .28f, .19f, .22f, .24f, .39f },
+            new[] { .23f, .28f, .19f, .22f, .44f, .39f },
             new[] { .19f, .32f, .14f, .23f, .17f, .23f, .23f, .20f, .27f, .20f, .34f },
-            new[] { .24f, .23f, .24f, .20f, .23f, .15f, .20f, .32f },
+            new[] { .24f, .23f, .32f, .32f, .23f, .15f, .30f, .32f },
             new[] { .19f, .23f, .115f, .115f, .22f, .115f, .115f, .23f, .13f, .17f, .28f },
             new[] { .19f, .27f, .18f, .13f, .13f, .21f, .26f },
             new[] { .21f, .29f, .19f, .27f, .18f, .30f },
@@ -394,6 +394,7 @@ public sealed partial class MeleeController
     }
 
     public bool HasEffect => impact.enabled || dust.enabled || swordTrail.enabled ||
+        (IsCore && showEffects && usedTrainingLines > 0) ||
         effect != null && effect.activeSelf || basicWave != null && basicWave.activeSelf ||
         StyleReady && Array.Exists(stylePool, sprite => sprite != null && sprite.enabled);
 
@@ -484,7 +485,7 @@ public sealed partial class MeleeController
         float u = Mathf.InverseLerp(Chosen.Starts[beat], Chosen.Starts[beat + 1], time);
         var action = skillIndex == 2 && !parry && beat == 2 ? Action.Recover : Chosen.Beats[beat];
         phase = action.ToString();
-        dummy.enabled = !previewV2 || IsCore;
+        dummy.enabled = !previewV2;
         dummy.transform.position = previewV2 && IsBranchSkill
             ? AimPoint(start) + DummyLift : StageContactPoint(start, start + AimVector * 1.55f);
         if (skillIndex == 0)
@@ -493,6 +494,7 @@ public sealed partial class MeleeController
             return;
         }
         DrawBeat(action, beat, u, time, start);
+        if (!freeMode) previewCamera.transform.position += coreCameraShake;
     }
 
     private void DrawDirectionalDash(float time, Vector3 start)
@@ -585,6 +587,7 @@ public sealed partial class MeleeController
 
     private void ResetLines()
     {
+        coreCameraShake = Vector3.zero;
         impact.enabled = dust.enabled = swordTrail.enabled = false;
         impact.startColor = impact.endColor = new Color(1, .82f, .45f);
         dust.startColor = dust.endColor = new Color(.82f, .68f, .49f, .64f);
@@ -873,12 +876,7 @@ public sealed partial class MeleeController
         if (action == Action.Vanish) actor.color = new Color(1, 1, 1, 1 - u);
         if (action == Action.Return) actor.color = new Color(1, 1, 1, u);
         if (action == Action.Clone && skillIndex == 14) actor.enabled = false;
-        if (action == Action.Clone && !(previewV2 && skillIndex == 17)) DrawShadows(u, beat);
-        if (skillIndex == 13 && action == Action.Charge)
-        {
-            Vector3 center = AnchorLocation(position, anchors.hilt, position + AimVector * (aim == 2 ? .48f : .35f));
-            DrawCharge(center, u, beat > 1 ? .31f : .21f);
-        }
+        if (action == Action.Clone && !IsCore && !(previewV2 && skillIndex == 17)) DrawShadows(u, beat);
         if (skillIndex == 2 && action == Action.Guard)
         {
             Vector3 blade = aim == 2 && HasContinuousSkill(2)
@@ -918,16 +916,15 @@ public sealed partial class MeleeController
                 pointOfBlade + new Vector3(-.08f, .24f));
         }
 
-        if (contact)
+        if (IsCore)
+            DrawCoreBeat(action, beat, u, origin, position, weapon, anchors, take, customSlam, westCore);
+        else if (contact)
         {
             dummy.color = Color.Lerp(new Color(1, .62f, .44f), Color.white, u);
             if (shake && (!PolishedBranch || skillIndex is not (7 or 9 or 17 or 22)))
                 if (!Integrated) previewCamera.transform.position += AimVector * (.055f * Mathf.Sin(u * 25) * (1 - u));
-            Vector3 at = action == Action.Land
-                ? customSlam ? position + LandOffset(westCore) : position - Vector3.up * .62f
-                : dummy.transform.position;
-            at = skillIndex == 12 && action == Action.Land ? LockedLanding(take, position, at) :
-                AnchorLocation(position, action == Action.Land ? anchors.landing : anchors.contact, at);
+            Vector3 at = action == Action.Land ? position - Vector3.up * .62f : dummy.transform.position;
+            at = AnchorLocation(position, action == Action.Land ? anchors.landing : anchors.contact, at);
             if (!PolishedBranch) DrawImpactSignature(at, action, u);
         }
         if (lastCue != beat)
@@ -938,12 +935,7 @@ public sealed partial class MeleeController
             if (!PolishedBranch || !(skillIndex is 3 or 7 or 9 or 10 or 17 or 21 or 22 or 23 && action is Action.Hit or Action.Burst))
                 PlaySkillCue(action);
         }
-        if (PolishedBranch) return;
-        if (skillIndex == 14 && action is Action.Vanish or Action.Return)
-        {
-            DrawVanishWisp(position, action == Action.Vanish ? 1 - u : u);
-            return;
-        }
+        if (PolishedBranch || IsCore) return;
         if (skillIndex == 7 && action == Action.Swing)
         {
             DrawHeavyCleave(AnchorLocation(position, anchors.hilt, position + AimVector * .30f), u);
@@ -977,23 +969,8 @@ public sealed partial class MeleeController
         }
         else if (action == Action.Wave)
         {
-            if (skillIndex == 13 && aim == 2)
-            {
-                int release = CoreRelease(beat);
-                point = position + WorldSpriteOffset(CoreReleaseBlade[formIndex, release]);
-            }
-            else if (skillIndex == 13 && westCore)
-            {
-                int release = CoreRelease(beat);
-                point = position + WorldSpriteOffset(WestCoreReleaseBlade[formIndex, release]);
-            }
-            else if (aim == 2 && HasContinuousSkill(skillIndex) && skillIndex is 9 or 23)
+            if (aim == 2 && HasContinuousSkill(skillIndex) && skillIndex is 9 or 23)
                 point = position + WorldSpriteOffset(skillIndex == 9 ? new Vector2(252, 161) : new Vector2(248, 163));
-            if (skillIndex == 13)
-            {
-                DrawCoreWave(point, u, CoreRelease(beat));
-                return;
-            }
             point = previewV2 && skillIndex is 9 or 23
                 ? ProjectilePosition(action, u, weapon, origin) : point + AimVector * (u * 1.8f);
         }
@@ -1019,33 +996,22 @@ public sealed partial class MeleeController
         }
         else if (action == Action.Mark || action == Action.Burst || action == Action.Hit) point = dummy.transform.position;
         else if (action == Action.Land)
-            point = customSlam ? position + LandOffset(westCore)
-                : skillIndex == 6 && aim == 2 && HasContinuousSkill(skillIndex)
+            point = skillIndex == 6 && aim == 2 && HasContinuousSkill(skillIndex)
                     ? position + WorldSpriteOffset(new Vector2(221, 239)) : position - Vector3.up * .62f;
         else if (action == Action.Aura || action == Action.Guard || action == Action.Vanish)
             point = AnchorLocation(position, anchors.aura, position);
         else return;
         if (action == Action.Land)
-            point = skillIndex == 12 ? LockedLanding(take, position, point)
-                : previewV2 && skillIndex is 6 or 19
+            point = previewV2 && skillIndex is 6 or 19
                     ? AnchorLocation(position, anchors.landing, position + TrainingFloor + AimVector * 1.1f)
                     : AnchorLocation(position, anchors.landing, point);
 
-        if (skillIndex == 12 && action == Action.Land) u = Mathf.Lerp(.48f, .9f, u);
-        if (skillIndex == 14 && action == Action.Hit) u = Mathf.Lerp(.55f, .94f, u);
-        effect.transform.localScale = Vector3.one * (skillIndex == 13 && action == Action.Wave
-            ? .55f + beat * .09f : skillIndex == 12 ? .72f : .57f);
-        bool behindActor = AimVector.y > .5f || action == Action.Land || skillIndex == 14;
+        effect.transform.localScale = Vector3.one * .57f;
+        bool behindActor = AimVector.y > .5f || action == Action.Land;
         effectRenderer.sortingOrder = behindActor ? -2 : 2;
         effect.transform.SetPositionAndRotation(point, Quaternion.Euler(0, 0, rotation));
         effect.SetActive(true);
         effectClip.SampleAnimation(effect, Mathf.Min(.99f, u) * effectClip.length);
-        if (skillIndex == 12 || skillIndex == 14)
-        {
-            Color finisher = effectRenderer.color;
-            finisher.a = skillIndex == 14 ? .53f : .68f;
-            effectRenderer.color = finisher;
-        }
     }
 
     private Vector3 WorldSpriteOffset(Vector2 pixel)
@@ -1072,36 +1038,19 @@ public sealed partial class MeleeController
 
     private void DrawShadows(float u, int beat)
     {
-        if (shadows == null)
-        {
-            shadows = new Animator[2];
-            for (int i = 0; i < 2; i++)
-            {
-                var copy = Instantiate(forms[formIndex].prefab);
-                shadows[i] = copy.GetComponent<Animator>();
-                shadows[i].speed = 0;
-                copy.GetComponent<SpriteRenderer>().color = new Color(.64f, .68f, 1, .58f);
-            }
-        }
+        PrepareShadows(2);
         Vector3 perpendicular = Vector3.Cross(Vector3.forward, AimVector);
         for (int i = 0; i < shadows.Length; i++)
         {
             var copy = shadows[i];
             copy.gameObject.SetActive(true);
-            int direction = skillIndex == 14
-                ? (aim + (beat % 2 == 0 ? i * 2 : i == 0 ? 7 : 5)) % 8
-                : aim;
+            int direction = aim;
             var take = FindTake(formIndex, skillIndex, direction);
-            if (take == null && direction % 2 != 0)
-            {
-                take = FindTake(formIndex, skillIndex, aim);
-                direction = aim;
-            }
             Vector3 travel = DirectionVector(direction);
             float spacing = previewV2 && skillIndex == 17 ? 1.02f : .36f;
             float lane = i == 0 ? spacing : -spacing;
             Vector3 offset = perpendicular * lane;
-            float sweep = skillIndex == 14 ? Mathf.SmoothStep(0, 1, u) * 1.75f - .93f : u - .72f;
+            float sweep = u - .72f;
             copy.transform.position = previewV2 && skillIndex == 17
                 ? ActorPosition + travel * (beat == 1 ? .30f : Mathf.Lerp(.30f, 5.35f, u)) + offset
                 : dummy.transform.position + travel * sweep + offset;
@@ -1110,12 +1059,6 @@ public sealed partial class MeleeController
             int strikePose = Mathf.Min(2, Mathf.FloorToInt(swing * 3));
             var copyRenderer = copy.GetComponent<SpriteRenderer>();
             Sprite authored = take?.frames[4 + strikePose];
-            if (authored == null && skillIndex == 14)
-            {
-                var form = forms[formIndex];
-                if (direction == 2 && form.hero is { Length: 16 }) authored = form.hero[12 + strikePose];
-                if (direction == 6 && form.heroWest is { Length: 24 }) authored = form.heroWest[20 + strikePose];
-            }
             if (authored == null && skillIndex == 17 && direction == 2 && HasContinuousSkill(17))
                 authored = continuousEast[17 * 12 + 5 + strikePose];
             if (authored != null)
@@ -1125,6 +1068,7 @@ public sealed partial class MeleeController
             }
             else NativePose(copy, "Attack", direction, swing);
             copyRenderer.sortingOrder = i == 0 ? 1 : -2;
+            copyRenderer.color = new Color(.64f, .68f, 1, .58f);
             if (previewV2 && skillIndex == 17)
             {
                 copyRenderer.color = new Color(.79f, .62f, 1, beat == 1 ? u * .82f : Mathf.Clamp01(3f * (1 - u)) * .82f);
@@ -1134,15 +1078,19 @@ public sealed partial class MeleeController
                     DrawCloneEcho(copyRenderer, travel * .64f, .13f * (1 - u));
                 }
             }
-            if (skillIndex == 14 && swing is > .27f and < .88f)
-            {
-                var cut = i == 0 ? swordTrail : impact;
-                var edge = copy.transform.position + travel * .18f;
-                var normal = Vector3.Cross(Vector3.forward, travel);
-                cut.startColor = new Color(.52f, .74f, .98f, .19f);
-                cut.endColor = new Color(.81f, .91f, 1, .78f);
-                Draw(cut, .045f, edge - travel * .62f - normal * .14f, edge - travel * .32f, edge + normal * .10f);
-            }
+        }
+    }
+
+    private void PrepareShadows(int count)
+    {
+        if (shadows?.Length == count) return;
+        DestroyShadows();
+        shadows = new Animator[count];
+        for (int i = 0; i < count; i++)
+        {
+            var copy = Instantiate(forms[formIndex].prefab, transform);
+            shadows[i] = copy.GetComponent<Animator>();
+            shadows[i].speed = 0;
         }
     }
 
@@ -1400,36 +1348,256 @@ public sealed partial class MeleeController
         _ => 0
     };
 
-    private void DrawCoreWave(Vector3 origin, float u, int release)
+    private const float MeteorRadius = 3.4f;
+    private const float ShadowRange = 3.35f, ShadowHalfWidth = .72f, ShadowFinishRadius = 2.55f;
+    private const int ShadowCount = 4;
+    private Vector3 coreCameraShake, coreWaveOrigin, coreWaveGround;
+    private float corePreviousProgress;
+    private int corePreviousBeat = -1;
+
+    private void DrawCoreBeat(Action action, int beat, float u, Vector3 origin, Vector3 position,
+        Vector3 weapon, FrameAnchors anchors, DirectionalTake take, bool customSlam, bool westCore)
     {
-        var forward = AimVector;
-        var side = Vector3.Cross(Vector3.forward, forward);
-        var center = origin + forward * (u * (1.45f + release * .45f));
-        float span = (.34f + release * .17f) * (1 + u * .35f);
-        float taper = Mathf.Lerp(1, .37f, Mathf.SmoothStep(0, 1, Mathf.InverseLerp(.51f, 1, u)));
-        swordTrail.startColor = new Color(.72f, .96f, 1, .94f * taper);
-        swordTrail.endColor = new Color(.31f, .77f, 1, .72f * taper);
-        if (release == 0)
+        float previous = corePreviousBeat == beat && !scrubbing ? corePreviousProgress : 0;
+        int mask = 1 << beat;
+        if (skillIndex == 12 && action == Action.Land)
         {
-            Draw(swordTrail, .074f * taper, center - side * span, center + forward * .17f,
-                center + side * span);
+            Vector3 fallback = customSlam ? position + LandOffset(westCore) : position + TrainingFloor;
+            Vector3 landing = LockedLanding(take, position, fallback);
+            CorePulse(Circle(landing, MeteorRadius), 65, mask);
+            DrawMeteorImpact(landing, u);
         }
-        else if (release == 1)
+        else if (skillIndex == 13)
         {
-            Draw(swordTrail, .106f * taper, center - side * span - forward * .10f,
-                center - side * span * .60f + forward * .17f, center + forward * .30f,
-                center + side * span * .60f + forward * .17f, center + side * span - forward * .10f);
+            if (action == Action.Charge)
+                DrawCharge(AnchorLocation(position, anchors.hilt, position + AimVector * .4f), u, beat == 6 ? .78f : .49f);
+            if (action == Action.Wave)
+            {
+                int release = CoreRelease(beat);
+                Vector3 visual = coreWaveOrigin;
+                Vector3 ground = coreWaveGround;
+                if (corePreviousBeat != beat || scrubbing)
+                {
+                    visual = aim == 2 ? position + WorldSpriteOffset(CoreReleaseBlade[formIndex, release])
+                        : westCore ? position + WorldSpriteOffset(WestCoreReleaseBlade[formIndex, release]) : weapon;
+                    ground = position + TrainingFloor + AimVector * Mathf.Max(0, Vector3.Dot(visual - position, AimVector));
+                    if (!scrubbing)
+                    {
+                        coreWaveOrigin = visual;
+                        coreWaveGround = ground;
+                    }
+                }
+                DrawCoreWave(visual, ground, previous, u, release, mask);
+            }
+            if (action == Action.Burst)
+            {
+                Vector3 launch = scrubbing ? position + TrainingFloor + AimVector * .65f : coreWaveGround;
+                Vector3 end = launch + DummyLift + AimVector * CoreWaveRange(2);
+                DrawCoreStyle("qi_burst", u, end, AimVector, 3.6f, 1.15f, 1 - u);
+                SetCoreShake(u, .16f);
+            }
         }
-        else
+        else if (skillIndex == 14)
         {
-            Draw(swordTrail, .148f * taper, center - side * span - forward * .22f,
-                center - side * span * .45f + forward * .12f, center + forward * .48f,
-                center + side * span * .45f + forward * .12f, center + side * span - forward * .22f);
-            dust.startColor = new Color(.20f, .54f, 1, .31f * taper);
-            dust.endColor = new Color(.45f, .85f, 1, .76f * taper);
-            Draw(dust, .064f * taper, center + side * span * .64f - forward * .35f,
-                center + forward * .31f, center - side * span * .64f - forward * .35f);
+            Vector3 center = origin + TrainingFloor + AimVector * 2.35f;
+            if (action is Action.Vanish or Action.Return)
+                DrawVanishWisp(position, action == Action.Vanish ? 1 - u : u);
+            if (action == Action.Clone)
+                DrawShadowCrossing(center, previous, u, beat, mask);
+            if (action == Action.Hit)
+            {
+                CorePulse(Circle(center, ShadowFinishRadius), 39, mask);
+                DrawCoreSprite(center + DummyLift, Mathf.Lerp(.55f, .94f, u), 1.55f);
+                CoreRing(center, Mathf.Lerp(.5f, ShadowFinishRadius, u), new Color(.75f, .63f, 1, 1 - u), .085f);
+                for (int i = 0; i < 2; i++)
+                {
+                    Vector3 direction = Quaternion.Euler(0, 0, i == 0 ? -32 : 148) * AimVector;
+                    DrawCoreStyle("night_finish", u, center + DummyLift + direction * .6f,
+                        direction, ShadowFinishRadius * 1.48f, 1.18f, .8f * (1 - u));
+                }
+                SetCoreShake(u, .16f);
+            }
         }
+        if (!scrubbing)
+        {
+            corePreviousBeat = beat;
+            corePreviousProgress = u;
+        }
+    }
+
+    private void CorePulse(PreviewArea area, float damage, int mask)
+    {
+        if (previewV2 && !scrubbing && (firedBeats & mask) == 0)
+        {
+            firedBeats |= mask;
+            HitTargets(area, damage, mask, styleImpact: true);
+        }
+        if (showAreas) TraceArea(area, AreaTint, .026f, true);
+    }
+
+    private void CoreSweep(Vector3 from, Vector3 to, float halfWidth, float damage, int mask)
+    {
+        if ((to - from).sqrMagnitude < .000001f) return;
+        var area = Lane(from, to, halfWidth);
+        if (previewV2 && !scrubbing) HitTargets(area, damage, mask, styleImpact: true);
+        if (showAreas) TraceArea(area, AreaTint, .026f, true);
+    }
+
+    private void DrawMeteorImpact(Vector3 center, float u)
+    {
+        float fade = 1 - u;
+        float shock = Mathf.SmoothStep(0, 1, Mathf.Clamp01(u * 1.25f));
+        DrawCoreSprite(center, Mathf.Lerp(.48f, .94f, u), 1.85f);
+        CoreRing(center, Mathf.Lerp(.3f, MeteorRadius, shock), new Color(1, .74f, .26f, fade * .82f), .10f * fade);
+        CoreRing(center, Mathf.Lerp(.2f, MeteorRadius * .72f, shock), new Color(1, .34f, .09f, fade * .52f), .07f * fade);
+        bool hasCracks = DrawCoreStyle("ground_slam", u, center, AimVector,
+            MeteorRadius * Mathf.Lerp(1.24f, 2.24f, shock), 1, Mathf.Sqrt(fade), order: -1);
+        if (!hasCracks && showEffects)
+            DrawCracks(center, shock, fade);
+        SetCoreShake(u, .25f);
+    }
+
+    private void DrawCracks(Vector3 center, float shock, float fade)
+    {
+        for (int i = 0; i < 8; i++)
+        {
+            float angle = (i * 45 + (i % 2 == 0 ? 9 : -9)) * Mathf.Deg2Rad;
+            Vector3 ray = new(Mathf.Cos(angle), Mathf.Sin(angle));
+            Vector3 side = Vector3.Cross(Vector3.forward, ray) * (i % 2 == 0 ? 1 : -1);
+            float reach = MeteorRadius * Mathf.Lerp(.44f, .95f, shock) * (.8f + .1f * (i % 3));
+            CoreStroke(new Color(1, .41f, .12f, fade * .92f), .065f * fade,
+                center + ray * .22f, center + ray * (reach * .35f) + side * .24f,
+                center + ray * (reach * .64f) - side * .17f, center + ray * reach);
+        }
+    }
+
+    private void DrawCoreWave(Vector3 visualOrigin, Vector3 groundOrigin, float previous, float u, int release, int mask)
+    {
+        Vector3 forward = AimVector;
+        Vector3 side = Vector3.Cross(Vector3.forward, forward);
+        float range = CoreWaveRange(release);
+        float span = .86f + release * .42f;
+        float distance = range * Mathf.Clamp01(u / .78f);
+        float lastDistance = range * Mathf.Clamp01(previous / .78f);
+        Vector3 ground = groundOrigin + forward * distance;
+        Vector3 center = Vector3.Lerp(visualOrigin, groundOrigin + DummyLift, Mathf.Clamp01(distance)) + forward * distance;
+        CoreSweep(groundOrigin + forward * lastDistance, ground, span, 19 + release * 6, mask);
+        float fade = 1 - Mathf.InverseLerp(.82f, 1, u);
+        float size = span * (2 / .84f);
+        if (DrawCoreStyle("crescent", u, center, forward, size, 1.32f + release * .22f, fade))
+        {
+            DrawCoreStyle("crescent", u, center - forward * (.42f + release * .22f),
+                forward, size * .86f, 1.10f, fade * .44f, order: 1);
+            if (release == 2)
+                DrawCoreStyle("cross_blade", u, center - forward * .95f, forward, size * .84f, 1.44f, fade * .70f);
+            return;
+        }
+        float depth = .42f + release * .25f;
+        Vector3[] blade = {
+            center - side * span - forward * depth,
+            center - side * span * .65f - forward * depth * .26f,
+            center,
+            center + side * span * .65f - forward * depth * .26f,
+            center + side * span - forward * depth
+        };
+        CoreStroke(new Color(.24f, .62f, 1, fade * .76f), (.25f + release * .10f) * fade, blade);
+        CoreStroke(new Color(.82f, .98f, 1, fade), (.068f + release * .032f) * fade, blade);
+        CoreStroke(new Color(.45f, .72f, 1, fade * .68f), .072f * fade,
+            center - side * span * .94f - forward * depth * 2.3f,
+            center - forward * depth * 1.20f,
+            center + side * span * .94f - forward * depth * 2.3f);
+    }
+
+    private static float CoreWaveRange(int release) => 3.6f + release * 1.35f;
+
+    private void DrawShadowCrossing(Vector3 center, float previous, float u, int beat, int mask)
+    {
+        if (showEffects) PrepareShadows(ShadowCount);
+        for (int i = 0; i < ShadowCount; i++)
+        {
+            int turn = i * 2 + beat - 2;
+            int direction = (aim + turn) % 8;
+            Vector3 travel = Quaternion.Euler(0, 0, -turn * 45f) * AimVector;
+            Vector3 normal = Vector3.Cross(Vector3.forward, travel);
+            Vector3 start = center - travel * ShadowRange;
+            Vector3 end = center + travel * ShadowRange;
+            float step = Mathf.InverseLerp(i * .10f, .49f + i * .10f, u);
+            float last = Mathf.InverseLerp(i * .10f, .49f + i * .10f, previous);
+            Vector3 current = Vector3.Lerp(start, end, step);
+            CoreSweep(Vector3.Lerp(start, end, last), current, ShadowHalfWidth, 22, mask);
+            if (!showEffects) continue;
+
+            Animator copy = shadows[i];
+            copy.gameObject.SetActive(true);
+            copy.transform.position = current - TrainingFloor;
+            SpriteRenderer renderer = copy.GetComponent<SpriteRenderer>();
+            int strikePose = Mathf.Min(2, Mathf.FloorToInt(step * 3));
+            var take = FindTake(formIndex, skillIndex, direction) ?? FindTake(formIndex, skillIndex, aim);
+            if (take != null)
+            {
+                copy.enabled = false;
+                renderer.sprite = take.frames[4 + strikePose];
+            }
+            else NativePose(copy, "Attack", direction, step);
+            renderer.sortingOrder = 1;
+            float opacity = Mathf.Sin(Mathf.PI * step);
+            renderer.color = new Color(.67f, .75f, 1, .86f * opacity);
+            if (opacity <= .01f) continue;
+            DrawCloneEcho(renderer, travel * .48f, .34f * opacity);
+            DrawCloneEcho(renderer, travel * .95f, .18f * opacity);
+            Vector3 edge = current + DummyLift;
+            if (DrawCoreStyle("night_finish", step, edge - travel * .31f,
+                travel, 2.7f, 1.22f, opacity, order: 2))
+                continue;
+            CoreStroke(new Color(.54f, .51f, 1, opacity * .74f), .20f * opacity,
+                edge - travel * 1.85f - normal * ShadowHalfWidth,
+                edge - travel * .87f + normal * .3f, edge + normal * ShadowHalfWidth);
+            CoreStroke(new Color(.86f, .94f, 1, opacity), .065f * opacity,
+                edge - travel * 1.55f - normal * ShadowHalfWidth,
+                edge - travel * .77f + normal * .23f, edge + normal * ShadowHalfWidth);
+        }
+    }
+
+    private void DrawCoreSprite(Vector3 point, float progress, float scale)
+    {
+        if (!showEffects || effect == null) return;
+        effect.SetActive(true);
+        effectClip.SampleAnimation(effect, progress * effectClip.length);
+        effect.transform.SetPositionAndRotation(point, Quaternion.identity);
+        effect.transform.localScale = Vector3.one * scale;
+        effectRenderer.sortingOrder = -2;
+        effectRenderer.color = new Color(1, 1, 1, .9f);
+    }
+
+    private bool DrawCoreStyle(string id, float progress, Vector3 point, Vector3 direction,
+        float size, float stretch, float alpha, int order = 2)
+    {
+        SpriteRenderer sprite = DrawStyle(id, progress, point, direction, size, order: order);
+        if (sprite == null) return false;
+        sprite.transform.localScale = new Vector3(size * stretch, size, 1);
+        sprite.color = new Color(1, 1, 1, alpha);
+        return true;
+    }
+
+    private void CoreRing(Vector3 center, float radius, Color color, float width)
+    {
+        if (showEffects) TraceArea(Circle(center, radius), color, width, true);
+    }
+
+    private void CoreStroke(Color color, float width, params Vector3[] points)
+    {
+        if (!showEffects || width <= 0) return;
+        var line = TrainingLine(color, width);
+        if (line == null) return;
+        line.loop = false;
+        line.positionCount = points.Length;
+        line.SetPositions(points);
+    }
+
+    private void SetCoreShake(float u, float strength)
+    {
+        if (shake)
+            coreCameraShake = new Vector3(Mathf.Sin(u * 36), Mathf.Sin(u * 57) * .65f) * (strength * (1 - u) * (1 - u));
     }
 
     private void DrawCyclone(Vector3 origin, float u, int beat)
@@ -1478,25 +1646,7 @@ public sealed partial class MeleeController
     {
         float fade = 1 - u;
         Vector3 side = Vector3.Cross(Vector3.forward, AimVector);
-        if (skillIndex == 12 && action == Beat.Land)
-        {
-            var ring = new Vector3[25];
-            float radius = Mathf.Lerp(.22f, 1.29f, u);
-            for (int i = 0; i < ring.Length; i++)
-            {
-                float angle = i * Mathf.PI / 12;
-                ring[i] = point + new Vector3(Mathf.Cos(angle), Mathf.Sin(angle) * .60f) * radius;
-            }
-            swordTrail.startColor = swordTrail.endColor = new Color(1, .77f, .35f, fade * .86f);
-            Draw(swordTrail, .078f * fade, ring);
-            Draw(impact, .052f * fade, point - side * .50f, point - AimVector * .18f - side * .24f,
-                point, point + AimVector * .27f + side * .11f, point + AimVector * .48f + side * .36f);
-            float rise = Mathf.Sin(Mathf.PI * u) * .38f;
-            Draw(dust, .047f * fade, point + Vector3.up * rise - side * .54f,
-                point + Vector3.up * rise * .65f - side * .41f, point + Vector3.up * rise * 1.5f,
-                point + Vector3.up * rise * .79f + side * .24f, point + Vector3.up * rise + side * .50f);
-        }
-        else if (skillIndex == 10 && action == Beat.Burst)
+        if (skillIndex == 10 && action == Beat.Burst)
         {
             Draw(impact, .052f * fade, point - AimVector * .33f - side * .47f, point,
                 point + AimVector * .33f + side * .47f);
@@ -1535,7 +1685,7 @@ public sealed partial class MeleeController
 
     private void Play(Cue cue)
     {
-        if (scrubbing || paused || !hear) return;
+        if (AudioStudio || scrubbing || paused || !hear) return;
         playedCues |= 1 << (int)cue;
         audioSource.PlayOneShot(cues[(int)cue], audioSource.isPlaying ? .7f : 1f);
     }
@@ -1793,9 +1943,9 @@ public sealed partial class MeleeController
     private Vector3 AimPoint(Vector3 origin) => origin + TrainingFloor + AimVector * lockedAimDistance;
     private bool HasLongPreviewRange => previewV2 && skillIndex is 7 or 11 or 16 or 19 or 21 or 22 or 23;
     private Vector3 PracticeFramingOffset => previewV2 && IsBranchSkill
-        ? AimVector * (skillIndex == 8 ? .4f : HasLongPreviewRange ? 3.25f : 1.50f) : Vector3.zero;
-    private bool TrainingVisible => Integrated || previewV2 && (!IsCore || basicCasting ||
-        (!freeMode && selection == Preview.Basic) || (freeMode && !freeCasting));
+        ? AimVector * (skillIndex == 8 ? .4f : HasLongPreviewRange ? 3.25f : 1.50f)
+        : IsCore ? AimVector * (skillIndex == 13 ? 2.9f : skillIndex == 14 ? 1.8f : .4f) : Vector3.zero;
+    private bool TrainingVisible => Integrated || previewV2;
 
     private void PlaceTraining(Vector3 origin, Vector3 forward)
     {
@@ -1857,6 +2007,7 @@ public sealed partial class MeleeController
         lastBasicTime = -1;
         basicResolved = 0;
         firedBeats = 0;
+        corePreviousBeat = -1;
         lastAreaUntil = 0;
         seekTarget = null;
         chainHits = 0;
@@ -2748,9 +2899,9 @@ public sealed partial class MeleeController
                 Destroy(frame);
     }
 
-    private void DrawStyle(string id, float progress, Vector3 point, Vector3 forward, float width, bool mirror = false, int order = 2)
+    private SpriteRenderer DrawStyle(string id, float progress, Vector3 point, Vector3 forward, float width, bool mirror = false, int order = 2)
     {
-        if (!StyleReady || !styleClips.TryGetValue(id, out var clip) || AcquireStyleRenderer() is not { } sprite) return;
+        if (!StyleReady || !styleClips.TryGetValue(id, out var clip) || AcquireStyleRenderer() is not { } sprite) return null;
         sprite.sprite = clip.Sample(progress);
         sprite.sortingOrder = order;
         sprite.color = Color.white;
@@ -2758,6 +2909,7 @@ public sealed partial class MeleeController
         sprite.flipY = mirror;
         sprite.transform.localScale = Vector3.one * width;
         sprite.transform.SetPositionAndRotation(point, Quaternion.Euler(0, 0, Mathf.Atan2(forward.y, forward.x) * Mathf.Rad2Deg));
+        return sprite;
     }
 
     private void DrawCloneEcho(SpriteRenderer clone, Vector3 offset, float alpha)

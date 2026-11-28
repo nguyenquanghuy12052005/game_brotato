@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>BROTATO 2D</title>
+  <link rel="stylesheet" href="menu.css">
+  <link rel="stylesheet" href="guide-b.css">
+  <script src="guide-catalog.js" defer></script>
+  <script src="guide-b.js" defer></script>
+  <script src="menu.js" defer></script>
+</head>
+<body>
+  <main class="stage" id="stage">
+    <div class="world" aria-hidden="true">
+      <div class="poster"></div>
+      <div class="living living-1"></div><div class="living living-2"></div>
+      <div class="living living-3"></div><div class="living living-4"></div>
+    </div>
+    <canvas class="battle" id="battle" aria-hidden="true"></canvas>
+    <div class="scrim" aria-hidden="true"></div>
+    <h1 class="brand" aria-label="BROTATO 2D"><span class="word" aria-hidden="true">BROTATO</span><span class="edition" aria-hidden="true">2D</span></h1>
+    <nav class="commands" aria-label="Menu chính">
+      <button type="button" class="command start" data-action="start"><canvas></canvas><span>Bắt đầu</span></button>
+      <button type="button" class="command resume" data-action="continue" aria-disabled="true" aria-describedby="resume-status"><canvas></canvas><span>Chơi tiếp<small id="resume-status">Chưa có điểm lưu</small></span></button>
+      <button type="button" class="command route" data-action="stages"><canvas></canvas><span>Chọn màn</span></button>
+      <button type="button" class="command guide" data-action="guide"><canvas></canvas><span>Hướng dẫn</span></button>
+      <button type="button" class="command settings" data-action="settings"><canvas></canvas><span>Cài đặt</span></button>
+      <button type="button" class="command exit" data-action="exit"><canvas></canvas><span>Thoát</span></button>
+    </nav>
+    <dialog id="panel" aria-labelledby="panel-title">
+      <header class="panel-header"><h2 id="panel-title"></h2><button type="button" class="plain" data-close aria-label="Đóng">×</button></header>
+      <div id="panel-content"></div>
+      <footer class="panel-footer"><button type="button" class="plain" data-close>Quay lại</button><div id="panel-actions"></div></footer>
+    </dialog>
+  </main>
+</body>
+</html>

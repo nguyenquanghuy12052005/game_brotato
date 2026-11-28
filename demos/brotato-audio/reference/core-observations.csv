@@ -1,0 +1,15 @@
+id,scene,speed,cast_requested,hp_delta,first_hp_delta_seconds,frames
+45,GunSkillTest,1,true,145,2.958,180
+45,GunSkillTest,0.5,true,82,4.479,360
+46,GunSkillTest,1,true,338,0.458,111
+46,GunSkillTest,0.5,true,338,0.458,221
+47,GunSkillTest,1,true,548,0.958,372
+47,GunSkillTest,0.5,true,548,0.979,744
+48,GunSkillTest,1,true,284,0.417,68
+48,GunSkillTest,0.5,true,284,0.438,135
+105,Magical,1,true,1,0.083,94
+105,Magical,0.5,true,8,0.063,188
+106,Magical,1,true,113,0.083,94
+106,Magical,0.5,true,114,0.063,188
+107,Magical,1,true,1,0.083,236
+107,Magical,0.5,true,8,0.063,471

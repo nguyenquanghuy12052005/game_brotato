@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chọn concept · BROTATO 2D</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #131730; color: #f3f5ff; font: 16px/1.5 "Segoe UI", system-ui, sans-serif; }
+    main { width: min(1160px, 92vw); margin: 5vh auto; }
+    h1 { margin-bottom: .25rem; line-height: 1; font-size: clamp(32px, 6vw, 60px); }
+    p { color: #cfdaea; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); gap: 1.25rem; margin-top: 2rem; }
+    a { color: inherit; text-decoration: none; }
+    article { height: 100%; overflow: hidden; border: 1px solid #5b6e9e; border-radius: 16px; background: #242d4e; }
+    a:hover article { border-color: #b9ff91; background: #2b375b; }
+    a:focus-visible { outline: 3px solid #b9ff91; outline-offset: 5px; border-radius: 16px; }
+    img { width: 100%; display: block; aspect-ratio: 16 / 9; object-fit: cover; }
+    .caption { padding: .75rem 1rem 1rem; }
+    h2 { font-size: 1.25rem; margin: 0; }
+    .caption p { margin: .35rem 0 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>BROTATO 2D</h1>
+    <p>Chọn một concept để thử menu. Âm thanh bắt đầu sau lần bấm đầu tiên.</p>
+    <section class="gallery" aria-label="Ba concept main menu">
+      <a href="menu.html?concept=a"><article><img src="screenshots/concept-a.png" alt=""><div class="caption"><h2>A · Hội tụ chiến binh</h2><p>Đội hình anh hùng giữa tàn tích rừng, menu xếp theo tầng.</p></div></article></a>
+      <a href="menu.html?concept=b"><article><img src="screenshots/concept-b.png" alt=""><div class="caption"><h2>B · Đại chiến sinh tồn</h2><p>Hai phe đối đầu ở hẻm núi, dải lệnh chạy dọc mép dưới.</p></div></article></a>
+      <a href="menu.html?concept=c"><article><img src="screenshots/concept-c.png" alt=""><div class="caption"><h2>C · Đấu trường HEXCORE</h2><p>Góc nhìn chéo từ trên xuống, lõi treo giữa các bục chiến đấu.</p></div></article></a>
+    </section>
+  </main>
+</body>
+</html>

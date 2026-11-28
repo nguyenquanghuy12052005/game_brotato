@@ -1,5 +1,51 @@
 # Current project state
 
+## Vòng phối Foley và kiểm tra nguồn (2026-11-28)
+
+- Đã chạy sáu scene nguồn trong bản sao, ghi mẫu 88 cấu hình chiến đấu ở hai tốc độ, và làm lại 20 cue, gồm 10 tuyệt kỹ. Các mục còn lại giữ bản phối thử và ghi tình trạng trong ma trận 146 mục. Chờ nghe duyệt bằng tai. [Bảng đối chiếu](HEXCORE_AUDIO_SPOTTING.md) · [Báo cáo](HEXCORE_AUDIO_QUALITY_REPORT.md)
+- Studio đọc bảy take thật cho tuyệt kỹ Gun/Mage, giữ rig Cận chiến thật, thêm lọc nhánh, bản phối trước, loop rời và lưu nhận xét theo phiên bản/biến thể. Gameplay, VFX, animation và scene nguồn được giữ nguyên. [Mở Studio](../Assets/Scenes/AudioPreviewScene.unity)
+
+## Audio Preview Studio trong Unity (2026-11-28)
+
+- Mở [AudioPreviewScene](../Assets/Scenes/AudioPreviewScene.unity) rồi nhấn Play. Có 146 mục trong 10 danh mục, 1.557 WAV tham chiếu từ demo web, lựa chọn trúng/hụt, cue cũ, stem và ba bản nhạc Concept B. Duyệt lưu theo biến thể trên máy. [Cách sử dụng](HEXCORE_UNITY_AUDIO_PREVIEW.md)
+- Rig Cận chiến dùng pose và VFX thật, lấy thời gian theo sample WAV. Súng, Pháp sư và Boss dựng minh họa từ sprite/atlas gốc. Các scene hiện có và Build Settings không đổi trong đợt này.
+- Unity 6000.3.22f1 biên dịch, lưu scene và chạy Play Mode Direct3D 11 trong bản sao. Đã kiểm tra gọi sân minh họa cho 146 mục, đường dẫn đủ 1.557 WAV, và phát đại diện Cận chiến, Súng, Pháp sư, UI, ambience và nhạc. Timing thủ công từng layer và phối âm trong trận là phần còn cần xác minh.
+
+## Audio Preview HEXCORE (2026-11-28)
+
+- Có demo web cho 146 mục, 311 bản phối, 1.054 stem, 192 bản hụt và 34 mục so với WAV cũ. Nhạc Main Menu Concept B có ba phương án. [Mở demo](../demos/brotato-audio/index.html) · [Kiểm kê](../demos/brotato-audio/INVENTORY.md)
+- Bản xuất PCM WAV ngoài Unity, có Foley Kenney CC0 và lớp tái dùng từ WAV dự án. Đã kiểm tra WAV cùng nguồn theo SHA-256, và phát mix/hụt/cue cũ/stem trong Chrome ở demo file cục bộ. Cần xác minh nghe duyệt và timing với gameplay khi tích hợp. [Giấy phép](../demos/brotato-audio/LICENSES.md)
+
+## Đề xuất âm thanh HEXCORE (2026-11-28)
+
+- Kiểm kê 15 WAV Unity, phân biệt cue của GameScene, MainMenu, các sân thử và Boss có tư liệu art. Bản kế hoạch gồm 146 mục cue cùng prompt tiếng Anh, phương án đồng bộ animation/gameplay, mix và tiêu chí nghiệm thu. [Kế hoạch](HEXCORE_AUDIO_SYSTEM_PLAN.md)
+- Mẫu PCM nguyên bản dài 16 giây có bảy phác thảo, đặt ngoài Unity Assets. Đã đo thông số WAV và kiểm tra tĩnh. Cần xác minh nghe trong Game View, seam loop và hiệu năng khi tích hợp sau duyệt. [Mẫu nghe](HEXCORE_AUDIO_PREVIEW.wav)
+
+## MainMenu Unity · Đại chiến sinh tồn
+
+- Mở `Assets/Scenes/MainMenu.unity` rồi nhấn Play. Scene dựng giao diện native gồm sáu nút, Chọn màn, Cài đặt và Guide bốn tab. [Scene](../Assets/Scenes/MainMenu.unity)
+- Bắt đầu tải `GameScene` vào Forest. Chơi tiếp đang khóa. Tiến độ nhánh và quái trong Guide là dữ liệu minh họa. Tạm dừng/Tiếp tục trong Guide mô phỏng trạng thái tại chỗ. Cấu hình khởi động dự án vẫn vào GameScene.
+- Unity 6000.3.22f1 biên dịch thành công và chạy Play Mode với Direct3D 11. Kiểm thử sáu nút, điều hướng bỏ qua Chơi tiếp, bốn tab, cuộn bản đồ, Tạm dừng/Tiếp tục, bộ lọc Boss, trả focus và vào GameScene tại Forest. Đã xem ảnh kết xuất 1920×1080 và 1280×720. Ảnh tại `Temp/MainMenuQA`.
+
+## Concept B · Hướng dẫn và bộ sưu tập demo (2026-11-28)
+
+- Chốt Đại chiến sinh tồn để tiếp tục duyệt bản web. Bản B có luồng vào Forest mẫu, bốn tab Hướng dẫn, 10 nhánh tiến hóa và 14 mục quái. [Mở Concept B](../demos/brotato-main-menu/concept-b.html) · [Mở bản kiểm thử](../demos/brotato-main-menu/concept-b-test.html)
+- Mở khóa bằng thao tác mô phỏng chọn nhánh/gặp quái, lưu cục bộ. Công cụ thử và reset chỉ mở ở chế độ kiểm thử. Tổng quan dùng ảnh toàn cảnh bốn vùng dựng từ dữ liệu scene. Điều khiển có nút Tạm dừng/Tiếp tục bấm thử trong HTML.
+- Tổng quan dùng lại banner và bố cục bốn thẻ giới thiệu của mẫu trước. Cuộn xuống để xem các thẻ bản đồ đã duyệt.
+- Kiểm tra Chrome 1920×1080 và 1280×720, tab và bộ lọc, chi tiết khóa, mở khóa, tải lại, reset, bàn phím và smoke test A/C. [Ảnh và hướng dẫn](../demos/brotato-main-menu/README.md)
+
+## Demo Main Menu BROTATO 2D
+
+- Ba mẫu HTML/CSS/JS cục bộ có tranh riêng, chuyển động chủ cảnh, nhạc và tương tác minh họa cho sáu chức năng. [Mở trang chọn concept](../demos/brotato-main-menu/index.html) · [Hướng dẫn, nhận xét và nguồn tài nguyên](../demos/brotato-main-menu/README.md)
+- Kiểm tra Chrome 1920×1080 và 1280×720, trạng thái có hoặc thiếu điểm lưu mẫu, điều hướng chuột/bàn phím và tùy chọn nhạc/chuyển động. Chờ chọn concept trước giai đoạn MainMenu Unity.
+
+## Nâng quy mô ba lõi cuối Cận chiến (2026-11-27)
+
+- Thiên Vẫn Trảm có vụ nổ, nứt đất tỏa nhiều hướng và hai vòng chấn động quanh điểm đáp. Tam Thiên Kiếm Quyết có ba sóng tăng dần chiều dài và bề rộng. Vạn Ảnh Tuyệt Sát có hai lượt bốn dư ảnh cắt chéo lệch nhịp, thêm vệt bóng và vùng kết liễu. Nhân vật dùng pose và tỷ lệ gốc.
+- Hai sân thử dùng cùng vùng tác động và quy tắc đếm hit. [Kích thước và sát thương thử](GAME_DESIGN.md#ba-lõi-cuối-cận-chiến-trong-sân-thử).
+- Unity 6000.3.22f1 biên dịch và chạy Play Mode trên bản sao vì thư mục chính đang giữ `Temp/UnityLockfile`. Ba chiêu qua 96 tổ hợp form/hướng và ca trúng tâm, rìa, ngoài vùng ở 20/120 fps. Đã xem bốn khung kết xuất Direct3D 11. Ma trận toàn bộ đạt 312/336. Cùng 24 ca ngoài ba chiêu lỗi khi chạy lại mã gốc tại `1ca7933` (ID 02, 06, 21).
+- Play Mode trong `CharacterProgressionTest` xác nhận luồng mở lõi và gọi ba chiêu qua bộ điều khiển sân thử. Quái thật trong vùng nhận lần lượt 65/75/83 sát thương, quái ngoài vùng nhận 0. Kiểm tra dùng chênh lệch HP hiện tại và HP tối đa để tính cả cơ chế tăng HP theo thời gian sống.
+
 ## Mage merge vào main (2026-11-27)
 
 - Giữ bộ icon lên cấp của Mage và GUID gốc ở `Assets/Resources/Magical/`. Các ghi chú Cận chiến và Mage đã được gộp.

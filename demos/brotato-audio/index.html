@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BROTATO 2D · Nghe thử âm thanh</title>
+  <link rel="stylesheet" href="studio.css">
+  <script src="catalog.js" defer></script>
+  <script src="studio.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">⬢</span>
+      <span><strong>BROTATO <b>2D</b></strong><small>HEXCORE</small></span>
+    </div>
+    <div class="hero">
+      <h1>Nghe thử âm thanh</h1>
+      <p>Chọn kỹ năng, tách từng lớp và duyệt bản phối.</p>
+    </div>
+    <label class="master" for="volume">
+      <span>Âm lượng <output id="volume-label">65%</output></span>
+      <input id="volume" type="range" min="0" max="100" value="65">
+    </label>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <h2>Danh mục</h2>
+      <nav id="categories" aria-label="Danh mục âm thanh"></nav>
+      <div class="library-meta"><strong id="total"></strong><a href="README.md">Hướng dẫn và kiểm kê</a></div>
+    </aside>
+    <section class="library" aria-labelledby="category-title">
+      <div class="library-head">
+        <h2 id="category-title">Danh mục</h2>
+        <label class="search"><span aria-hidden="true">⌕</span>
+          <input id="search" type="search" aria-label="Tìm toàn bộ thư viện" placeholder="Tìm kỹ năng hoặc hành động">
+        </label>
+      </div>
+      <div id="results" class="results"></div>
+    </section>
+    <article class="inspector" id="detail" aria-labelledby="cue-title">
+      <div class="cue-hero" id="cue-hero">
+        <div class="cue-intro">
+          <p class="eyebrow" id="cue-category"></p>
+          <h2 id="cue-title"></h2>
+          <p id="description"></p>
+        </div>
+        <div class="cue-art"><img id="preview-art" alt=""></div>
+      </div>
+      <div class="controls">
+        <div class="control-row">
+          <label>Bản nghe thử <select id="variant"></select></label>
+          <label>Trạng thái duyệt <select id="review">
+            <option value="pending">Chờ duyệt</option>
+            <option value="revise">Cần chỉnh</option>
+            <option value="selected">Đã chọn</option>
+          </select></label>
+        </div>
+        <div class="mode-row" id="modes" aria-label="Chọn phiên bản"></div>
+        <div class="meter" aria-label="Vị trí phát">
+          <div class="wave" id="wave" aria-hidden="true"></div>
+          <input id="seek" type="range" value="0" min="0" max="1000" aria-label="Tua âm thanh">
+        </div>
+        <div class="transport">
+          <button type="button" class="play" id="play"><span aria-hidden="true">▶</span> Phát</button>
+          <button type="button" id="stop"><span aria-hidden="true">■</span> Dừng</button>
+          <span id="time" class="time">0:00 / 0:00</span>
+          <label id="loop-label" class="loop"><input type="checkbox" id="loop"> Lặp</label>
+          <a id="download" download>Tải WAV</a>
+        </div>
+        <p class="playback-status" id="playback-status" role="status"></p>
+      </div>
+      <section class="layers" aria-labelledby="layer-title">
+        <h3 id="layer-title">Các lớp âm</h3>
+        <div id="layers"></div>
+      </section>
+      <section class="notes" aria-label="Mốc và nguồn">
+        <div><h3>Mốc phát dự kiến</h3><p id="timing"></p></div>
+        <div><h3>Nguồn âm thanh</h3><p id="sources"></p><a href="LICENSES.md">Hồ sơ giấy phép</a></div>
+      </section>
+    </article>
+  </main>
+  <audio id="player" preload="metadata"></audio>
+  <noscript>Hãy bật JavaScript để dùng thư viện âm thanh.</noscript>
+</body>
+</html>

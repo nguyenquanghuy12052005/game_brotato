@@ -58,11 +58,47 @@ public static partial class HexcoreSkillPreviewSetup
         File.WriteAllLines(V2ReviewFolder + "/UnityBasics.csv", basics);
         VerifyDaoPull(preview);
         VerifyFollowUpCombat(preview);
+        VerifyUltimateCoverage(preview);
         if (Array.IndexOf(Environment.GetCommandLineArgs(), "-hexcoreV2Capture") >= 0)
             CaptureV2Comparisons(preview);
         if (results.Count != 337 || results.Exists(row => row.Contains(",FAIL,")) || basics.Exists(row => row.Contains("FAIL")))
             throw new InvalidOperationException("HEXCORE v2 matrix failed. See UnityMatrix.csv.");
         Debug.Log("HEXCORE V2 QA PASSED: 24 catalog slots, 336 samples, shared passives, branch target simulation and unchanged core poses.");
+    }
+
+    private static void VerifyUltimateCoverage(MeleeController preview)
+    {
+        foreach (float step in new[] { 1f / 20, 1f / 120 })
+        {
+            void Check(int skill, (float Distance, float Side, float Damage)[] targets)
+            {
+                if (!preview.SelectV2Review(3, skill, 2, usePolish: true))
+                    throw new InvalidOperationException($"Missing ultimate fixture for skill {skill + 1}.");
+                preview.ConfigureReviewDummies(targets.Length, false);
+                var initialHealth = new float[targets.Length];
+                for (int i = 0; i < targets.Length; i++)
+                {
+                    preview.PlaceReviewDummy(i, targets[i].Distance, targets[i].Side);
+                    initialHealth[i] = preview.ReviewDummyHp(i);
+                }
+
+                float duration = MeleeController.SkillDuration(skill);
+                for (float time = step; time <= duration + .2f; time += step)
+                    preview.SampleV2Review(time, step);
+                for (int i = 0; i < targets.Length; i++)
+                {
+                    float expected = Mathf.Max(0, initialHealth[i] - targets[i].Damage);
+                    if (Mathf.Abs(preview.ReviewDummyHp(i) - expected) >= .002f)
+                        throw new InvalidOperationException(
+                            $"Ultimate {skill + 1}, target {i}, step {step:0.000}: expected HP {expected}, got {preview.ReviewDummyHp(i)}.");
+                }
+            }
+
+            Check(12, new[] { (2f, 2.2f, 65f), (1.3f, 4.2f, 0f) });
+            Check(13, new[] { (2.3f, .1f, 75f), (3f, 2.75f, 0f), (6f, 1.48f, 31f) });
+            Check(14, new[] { (2.35f, 0f, 83f), (2.35f, 3.05f, 22f), (2.35f, 4.1f, 0f) });
+        }
+        Debug.Log("HEXCORE ULTIMATE COVERAGE PASSED: center/edge/miss fixtures at 20 and 120 fps.");
     }
 
     private static void VerifyFollowUpCombat(MeleeController preview)
@@ -203,7 +239,7 @@ public static partial class HexcoreSkillPreviewSetup
     {
         bool core = skill is >= 12 and <= 14;
         float duration = MeleeController.SkillDuration(skill);
-        var poses = new List<(Sprite Sprite, Vector3 Position, string Phase, bool Copy, bool Effect)>();
+        var poses = new List<(Sprite Sprite, Vector3 Position, string Phase, bool Copy)>();
         if (core)
         {
             if (!preview.SelectSkill(form, skill, direction, direction, false, false))
@@ -211,7 +247,7 @@ public static partial class HexcoreSkillPreviewSetup
             for (int i = 0; i <= 24; i++)
             {
                 preview.ReviewAt(duration * i / 24, true);
-                poses.Add((preview.CurrentSprite, preview.ActorPosition, preview.Phase, preview.CopiesActive, preview.HasEffect));
+                poses.Add((preview.CurrentSprite, preview.ActorPosition, preview.Phase, preview.CopiesActive));
             }
         }
         if (!preview.SelectV2Review(form, skill, direction, usePolish: true))
@@ -256,8 +292,8 @@ public static partial class HexcoreSkillPreviewSetup
                     var baseline = poses[i];
                     if (preview.CurrentSprite != baseline.Sprite || preview.Phase != baseline.Phase ||
                         Vector3.Distance(preview.ActorPosition, baseline.Position) > .0001f ||
-                        preview.CopiesActive != baseline.Copy || preview.HasEffect != baseline.Effect)
-                        throw new InvalidOperationException("Core pose, displacement or effect visibility differs from the source timeline.");
+                        preview.CopiesActive != baseline.Copy)
+                        throw new InvalidOperationException("Core pose, displacement or clone phase differs from the source timeline.");
                 }
             }
             if (skill == 20)

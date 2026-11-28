@@ -2,6 +2,16 @@
 
 Sources: [original plan](../ke_hoach_do_an_game_2d_brotato_like.md), scripts/prefabs/GameScene and explicit conversation decisions. Distinguish current behavior, defective intended behavior and planned scope.
 
+## Ba lõi cuối Cận chiến trong sân thử
+
+Ba lõi dùng chung các nhánh Cận chiến trong `HexcoreSkillPreview` và `CharacterProgressionTest`. Các giá trị sát thương dưới đây là mốc thử ban đầu.
+
+| Lõi | Vùng tác động | Sát thương |
+| --- | --- | --- |
+| Thiên Vẫn Trảm | Vùng tròn bán kính 3,4 unit quanh điểm đáp | 65 một lần lúc đáp |
+| Tam Thiên Kiếm Quyết | Ba sóng đi 3,6 / 4,95 / 6,3 unit, rộng 1,72 / 2,56 / 3,4 unit | 19 / 25 / 31, một lần trên mỗi mục tiêu cho mỗi sóng |
+| Vạn Ảnh Tuyệt Sát | Hai lượt, mỗi lượt bốn đường lao chém dài 6,7 unit và rộng 1,44 unit. Nhát cuối bán kính 2,55 unit | 22 mỗi lượt, dù trúng nhiều đường trong lượt đó. Nhát cuối gây 39 |
+
 ## Concept and controls
 
 Single-player 2D top-down survival shooter inspired by Brotato, for three student developers. Prioritize a complete explainable loop over content volume.

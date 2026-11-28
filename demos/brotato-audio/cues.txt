@@ -1,0 +1,146 @@
+1 foot steps p:step@0 c:step@.31 c:step@.59 t:scuff@.87
+2 slip movement p:cloth@0 c:slice@.09 m:dust@.18 t:scuff@.34
+3 leap movement p:cloth@0 c:step@.10 h:dirt@.48 t:dust@.52
+4 hurt damage c:cloth@0 h:body@.02 t:breath@.1
+5 pulse warning c:pulse@0 c:pulse@.24 t:air@.27
+6 heal reward p:air@0 c:harp@.08 h:glass@.17 t:shimmer@.23
+7 fall damage p:cloth@0 h:body@.14 t:fall@.22
+8 round_start award p:drum@0 c:clave@.13 c:brass@.24 t:bell@.39
+9 round_clear award c:marimba@0 c:marimba@.15 c:glass@.31 t:chord@.37
+10 travel movement p:air@0 c:reverse@.14 m:pebble@.33 t:chord@.55
+11 victory music-victory
+12 defeat music-defeat
+13 pause paired c:dull@0 t:air@.05 c:click@.62 t:glass@.66
+14 danger warning p:drum@0 c:horn@.16 c:clave@.3
+15 xp reward c:glass@0 t:shimmer@.08
+16 pickup reward p:cloth@0 c:click@.05 h:marimba@.14 t:glass@.2
+17 level reward c:marimba@0 c:harp@.13 c:bell@.27 t:chord@.34
+18 upgrade reward c:click@0 c:harp@.38 c:air@.74 c:clave@1.10
+19 awaken hex p:reverse@0 c:ratchet@.25 c:metal@.39 c:glass@.53 h:chord@.68 t:shimmer@.80
+20 pistol gun p:ratchet@0 c:pistol@.10 m:zip@.13 h:body@.20 t:casing@.36
+21 shotgun gun p:ratchet@0 c:shotgun@.19 m:zip@.22 h:body@.28 t:casing@.47
+22 smg gun c:smg@0 m:zip@.024 h:body@.05 c:smg@.085 h:body@.13 c:smg@.17 c:smg@.255 h:body@.30 c:smg@.34 t:casing@.48
+23 rocket gun p:ratchet@0 c:rocket@.17 m:jet@.24 h:explode@.63 t:dust@.71
+24 ricochet gun c:zip@0 m:ricochet@.15 m:ricochet@.32 m:ricochet@.49 t:casing@.61
+25 pierce gun c:pistol@0 m:zip@.09 h:stab@.14 h:stab@.23 h:stab@.34
+26 split gun c:smg@0 m:zip@.06 m:split@.20 h:body@.26 t:casing@.38
+27 spread gun c:shotgun@0 c:zip@.72 h:body@1.08
+28 grenade gun p:ratchet@0 c:frost@.16 c:smg@.31 m:pebble@.42 h:explode@.68
+29 overpressure gun c:rocket@0 m:jet@.12 h:explode@.46 h:dirt@.52 c:rocket@.74 t:dust@.86
+30 sawbel blast c:shotgun@0 c:blade@.12 m:slice@.24 h:metal@.36
+31 pressure blast p:steam@0 c:fire@.30 c:fire@.46 c:fire@.62 h:crack@.48 h:crack@.64 h:explode@.80 t:ember@.87
+32 flamethrower blast p:ratchet@0 c:fire@.19 m:flame@.24 h:crack@.62 h:crack@1.10 t:steam@1.85
+33 fuse blast p:ratchet@0 c:ricochet@.14 m:jet@.28 m:jet@.39 h:explode@.63 t:pebble@.77
+34 twinlaser blast p:ratchet@0 p:ratchet@.10 c:beam@.24 c:beam@.45 c:beam@.67 c:beam@.88 c:beam@1.09 t:dull@1.35
+35 slime reward c:gummy@0 h:harp@.30 h:harp@.87 h:harp@1.45 t:gummy@1.75
+36 rift blast p:reverse@0 c:tear@.19 m:flame@.31 h:crack@.53 h:crack@.90 t:ember@1.18
+37 lightning blast c:coil@0 m:field@.10 h:zap@.30 h:zap@.60 h:zap@.90 h:zap@1.20 h:zap@1.50 h:zap@1.80 h:zap@2.10 h:zap@2.40
+38 spear blast p:bell@0 c:reverse@.23 m:beam@.39 h:light@.55 t:shimmer@.66
+39 shield blast c:shield@0 h:parry@.46 c:shotgun@.55 m:zip@.60
+40 disc blast p:ratchet@0 c:metal@.16 m:saw@.21 h:stab@.56 h:stab@1.17 h:stab@1.80 t:steam@2.36
+41 plasma blast p:ratchet@0 c:coil@.15 c:beam@.34 c:beam@.46 c:beam@.58 h:ember@.65 t:fall@.78
+42 disintegrate blast p:smg@0 c:crumble@.18 h:crack@.42 h:crack@.61 t:dust@.72
+43 portal blast p:reverse@0 c:portal@.17 c:portal@.28 m:field@.34 h:ricochet@.68 h:ricochet@1.03 h:ricochet@1.45 t:suction@2.65
+44 anchor blast p:ratchet@0 c:metal@.16 m:coil@.28 h:snap@.91 t:zap@1.00
+45 cyclone hex p:frost@0 c:cyclone@.22 m:snow@.48 m:snow@2.48 m:snow@4.48 h:frost@1.28 h:frost@3.28 h:frost@5.28 t:thaw@7.05
+46 meteors hex p:horn@0 m:meteor@.18 m:meteor@.40 m:meteor@.62 m:meteor@.84 m:meteor@1.06 c:explode@.655 c:dirt@.875 c:explode@1.095 c:dirt@1.315 c:slam@1.535 h:body@.671 h:body@.891 h:body@1.111 h:body@1.331 h:crack@1.551 t:rocks@1.64
+47 turret hex p:ratchet@0 c:metal@.16 c:dirt@.20 m:field@.36 h:beam@1.16 h:beam@2.16 h:beam@3.16 t:coil@3.61
+48 cage hex p:glass@0 c:portal@.16 c:portal@.23 c:portal@.30 m:beam@.52 m:beam@.70 m:beam@.88 m:beam@1.06 m:beam@1.24 m:beam@1.42 h:crack@.62 h:crack@.80 h:crack@.98 h:crack@1.16 h:crack@1.34 h:implode@1.52 t:shimmer@1.63
+49 sword blade c:blade@0 h:stab@.10 c:slice@.37 h:metal@.47
+50 daggers blade c:slice@0 h:stab@.08 c:blade@.28 h:stab@.36 c:slice@.54 h:crack@.62
+51 cleaver blade p:cloth@0 c:heavy@.10 h:body@.23 c:heavy@.52 h:metal@.68 t:metal@.74
+52 qi blade c:qi@0 m:slice@.05 h:glass@.20 c:qi@.42 m:slice@.47 h:light@.62
+53 phantom blade c:blade@0 m:qi@.08 h:stab@.24 t:shimmer@.28
+54 orbit blade c:orbit@0 m:blade@.17 h:metal@.38 t:dust@.40
+55 parry blade p:cloth@0 c:parry@.14 c:blade@.36 h:stab@.48 t:glass@.50
+56 ambush blade p:suction@0 m:cloth@.17 c:blade@.28 h:stab@.36 c:slice@.50 h:crack@.59
+57 bloodseal blade c:slice@0 h:stamp@.18 h:stamp@.27 h:stamp@.36 p:coil@.40 h:implode@.68 h:implode@.76 t:ember@.89
+58 nightflurry blade m:dash@0 c:slice@.11 h:stab@.17 m:dash@.31 c:blade@.40 h:stab@.46 m:dash@.60 c:heavy@.70 h:crack@.80
+59 vanish blade p:suction@0 m:cloth@.15 m:dash@.34 c:slice@.47 h:stab@.59 t:dust@.64
+60 execute blade p:reverse@0 m:dash@.17 c:heavy@.26 h:stab@.41 h:crack@.48 t:fall@.52
+61 twinshade blade p:suction@0 c:ghost@.20 c:ghost@.22 m:zip@.27 h:stab@.36 h:stab@.39 h:stab@.48
+62 ground blade p:cloth@0 c:heavy@.24 c:slam@.41 h:body@.43 t:rocks@.49
+63 cleave blade p:ratchet@0 c:heavy@.21 m:tear@.37 h:body@.56 t:dust@.59
+64 doubleorbit blade p:cloth@0 c:orbit@.16 h:metal@.30 c:heavy@.55 h:body@.69 t:air@.73
+65 vortex blade p:suction@0 m:dust@.17 c:heavy@.45 h:slam@.60
+66 mountain blade p:ratchet@0 p:reverse@.19 c:heavy@.43 c:slam@.64 h:body@.67 t:crack@.73 t:rocks@.84 t:dirt@1.05
+67 stance blade c:shield@0 c:heavy@.56 h:body@.70 m:qi@.75 c:heavy@1.23 h:body@1.37 m:qi@1.43 t:air@1.80
+68 crescent blade c:blade@0 m:qi@.13 h:light@.32 h:body@.37 t:shimmer@.46
+69 yin blade c:qi@0 c:blade@.29 m:qi@.36 h:chord@.53 h:crack@.55 t:shimmer@.65
+70 swordrain blade p:bell@0 m:zip@.30 m:zip@.35 m:zip@.40 m:zip@.45 m:zip@.50 h:metal@.42 h:metal@.62 m:zip@.57 m:zip@.62 m:zip@.67 m:zip@.72 m:zip@.77 h:metal@.69 h:glass@.89 m:zip@.84 m:zip@.89 m:zip@.94 m:zip@.99 m:zip@1.04 h:metal@.96 h:crack@1.16 t:shimmer@1.22
+71 heavenblade blade p:bell@0 m:meteor@.23 h:stab@.62 h:light@.64 t:glass@.70
+72 chaseblade blade c:blade@0 m:zip@.08 h:stab@.21 h:ricochet@.38 h:ricochet@.55 h:ricochet@.71 h:light@.86
+73 returnblade blade c:qi@0 m:blade@.12 h:metal@.31 m:reverse@.56 h:metal@.70 t:ratchet@.86
+74 meteorblade hex p:step@0 p:reverse@.11 m:dive@.40 c:heavy@.53 c:crater@.77 h:body@.79 t:shock@.96 t:shock@1.20 t:rocks@.83 t:rocks@1.15
+75 thirdsword hex p:charge@0 c:rip1@.38 h:light@.59 c:rip2@.97 h:crack@1.24 p:reverse@1.44 c:rip3@1.81 h:light@2.12 t:shimmer@2.17
+76 shadowhex hex p:suction@0 c:ghost@.29 c:ghost@.36 c:ghost@.43 c:ghost@.50 h:stab@.51 c:ghost@.76 c:ghost@.83 c:ghost@.90 c:ghost@.97 h:stab@.98 m:cloth@1.14 c:heavy@1.30 c:shock@1.42 h:crack@1.44 t:fall@1.55
+77 spell arcane c:gummy@0 m:glass@.07 h:light@.23
+78 spellheal arcane p:air@0 c:harp@.18 h:bell@.32 t:shimmer@.47
+79 shockwave arcane p:suction@0 c:shock@.18 h:body@.25 t:dust@.35
+80 gravity arcane p:reverse@0 c:portal@.23 m:gravity@.35 t:implode@4.34
+81 fireball arcane c:fire@0 m:jet@.16 h:explode@.40 t:ember@.52
+82 firetiers arcane h:explode@0 t:ember@.65 m:flame@1.24
+83 burn arcane c:fire@0 m:flame@.15 t:ember@1.77
+84 extrafire arcane c:fire@0 c:smallfire@.14 c:smallfire@.27 h:crack@.51 h:crack@.61 h:crack@.72
+85 stoke arcane p:ember@0 h:crack@.22
+86 deathburst arcane h:explode@0 t:ember@.12 t:grit@.24
+87 icebreath arcane c:snow@0 m:frost@.12 m:glass@.22 m:glass@.33 m:glass@.44 m:glass@.55 m:glass@.66 h:ice@.78
+88 icetiers arcane c:snow@0 h:ice@.50 h:glass@1.02
+89 deepfreeze arcane c:snow@0 h:frost@.28 t:thaw@.36
+90 coldstack arcane c:glass@0 c:bell@.35 t:frost@.40
+91 shatter arcane p:frost@0 h:crack@.11 h:ice@.14 t:glass@.2
+92 icespread arcane c:ice@0 m:glass@.10 m:frost@.24 h:ice@.36
+93 lightpillar arcane p:bell@0 c:light@.24 c:light@.49 c:light@.74 c:light@.99 h:glass@.30 h:glass@.55 h:glass@.80 h:glass@1.05
+94 lighttiers arcane c:light@0 m:shimmer@.53 h:light@1.08
+95 afterlight arcane c:light@0 h:glass@.33 t:shimmer@.40
+96 judgement arcane c:light@0 c:light@.25 p:bell@.42 h:light@.50 t:chord@.57
+97 speedlight arcane c:harp@0 m:dash@.07 t:glass@.16
+98 blind arcane c:glass@0 h:light@.10 t:air@.19
+99 curse arcane c:portal@0 m:ghost@.18 h:stamp@.38 t:ember@.49
+100 cursetiers arcane h:stamp@0 h:gummy@.43 t:breath@.84
+101 manymarks arcane c:stamp@0 h:stamp@.08 h:stamp@.15 h:stamp@.23 t:suction@.29
+102 torment arcane c:stamp@0 c:stamp@.23 h:implode@.49 t:fall@.53
+103 weaken arcane c:fall@0 h:dull@.13 t:breath@.19
+104 bequeath arcane p:fall@0 m:ghost@.14 h:stamp@.32
+105 timestop hex p:clock@0 c:ice@.28 m:still@.36 t:clock@3.28 h:implode@3.38 t:shimmer@3.53
+106 stars hex p:chord@0 p:bell@.16 m:meteor@.31 c:light@.67 h:glass@.70 m:meteor@.71 c:light@1.07 h:glass@1.10 m:meteor@1.11 c:light@1.47 h:glass@1.50 m:meteor@1.51 c:light@1.87 h:glass@1.90 m:meteor@1.91 c:crater@2.27 h:light@2.30 t:shimmer@2.41
+107 orb hex p:reverse@0 c:portal@.27 m:gravity@.38 m:gravity@1.84 m:chirp@2.10 m:gravity@3.31 m:chirp@3.68 m:gravity@4.78 m:chirp@5.10 m:gravity@6.15 m:chirp@6.68 m:field@7.51 c:chord@8.27 m:missile@8.35 m:missile@8.35 m:missile@8.35 m:missile@8.35 m:missile@8.35 m:missile@8.35 m:missile@8.35 m:missile@8.35 h:light@8.78 h:crack@8.94 t:shimmer@9.01
+108 minion enemy c:cloth@0 m:step@.20 m:step@.51 m:scuff@.82
+109 minionswing enemy p:ratchet@0 c:blade@.35 h:body@.42
+110 miniondie enemy p:cloth@0 h:gummy@.12 t:dirt@.28
+111 status enemy c:snap@0 h:thaw@.49 t:breath@.91
+112 bow enemy p:bow@0 c:twang@.30 m:zip@.39 h:dirt@.58
+113 bowfoley enemy p:step@0 p:step@.30 p:bow@.54 c:twang@.84
+114 elite enemy m:step@0 p:metal@.19 c:heavy@.54 h:body@.66 t:dirt@.89
+115 labboss enemy p:horn@0 c:shotgun@.30 m:zip@.33 m:zip@.35 m:zip@.37 m:zip@.39 m:zip@.41 t:dash@.75 h:body@.99
+116 phases enemy p:horn@0 c:shield@.50 c:drum@1.10 h:crater@1.60 t:fall@1.82
+117 bonedash enemy p:bone@0 c:dash@.21 t:scuff@.44
+118 bonespin enemy p:bone@0 c:orbit@.20 m:metal@.30 h:stab@.52
+119 boneroar enemy p:step@0 m:bone@.20 h:dirt@.42 t:roar@.54
+120 conefire enemy p:breath@0 c:fire@.30 m:flame@.42 t:steam@1.85
+121 lavaheal enemy p:suction@0 m:ember@.16 h:drum@.41 h:harp@.56 t:shimmer@.66
+122 lavathrow enemy p:rocks@0 c:heavy@.24 m:smallfire@.46 m:smallfire@.56 h:explode@.70 t:flame@.78
+123 snowball enemy p:snow@0 c:heavy@.20 m:frost@.30 h:dirt@.55 t:snow@.63
+124 frostprison enemy p:bell@0 p:glass@.29 c:ice@.65 h:crack@.75 t:thaw@1.34
+125 blizzard enemy p:roar@0 c:snow@.43 m:cyclone@.55 t:thaw@2.07
+126 hover ui c:click@0
+127 confirm ui p:click@0 c:marimba@.34 c:air@.72
+128 start ui p:drum@0 c:brass@.13 c:marimba@.29 t:chord@.40
+129 lock ui c:dull@0 c:harp@.48 t:glass@.54
+130 stage ui c:paper@0 t:glass@.07
+131 guide ui c:paper@0 c:click@.32 c:gummy@.65
+132 settings ui c:click@0 c:dull@.32 c:glass@.64 c:marimba@.96
+133 exit ui c:dull@0 c:air@.43 t:fall@.79
+134 forest ambience-forest
+135 moon ambience-moon
+136 inferno ambience-inferno
+137 tundra ambience-tundra
+138 menu menu-music
+139 combat combat-music
+140 boss boss-music
+141 results results-music
+142 stop movement p:cloth@0 c:step@.08 t:scuff@.42
+143 ready ui c:bell@0 c:dull@.58
+144 recharge ui c:frost@0 t:coil@.51
+145 spots spots-ambience
+146 back ui c:paper@0 t:dull@.09
